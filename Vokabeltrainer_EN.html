@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#0f0f13">
+<title>Vokabeltrainer EN</title>
+<style>
+:root{
+  --bg:#0f0f13;--s1:#1a1a22;--s2:#22222e;--s3:#2a2a38;--bd:#32324a;
+  --ac:#7c6af7;--acd:#2d2660;--tx:#e8e8f0;--mu:#7878a0;
+  --ok:#4caf82;--er:#e05c6a;--wa:#f0b429;--lang:#4fc3f7;
+  --R:12px;--sb:env(safe-area-inset-bottom,0px);--st:env(safe-area-inset-top,0px);
+  --font:-apple-system,"Helvetica Neue",Arial,sans-serif;
+  --serif:Georgia,"Times New Roman",serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;background:var(--bg);color:var(--tx);font-family:var(--font);-webkit-font-smoothing:antialiased;overscroll-behavior:none}
+#app{display:flex;flex-direction:column;height:100%;padding-top:var(--st)}
+.screen{display:none;flex:1;overflow-y:auto;padding:16px 16px calc(72px + var(--sb))}.screen.on{display:block}
+@media(min-width:700px){.screen{padding:24px calc(50% - 340px) calc(80px + var(--sb))}.bnav{padding-left:calc(50% - 340px);padding-right:calc(50% - 340px)}}
+.bnav{position:fixed;bottom:0;left:0;width:100%;display:flex;background:var(--s1);border-top:1px solid var(--bd);padding-bottom:var(--sb);z-index:100}
+.nb{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:10px 4px;background:none;border:none;color:var(--mu);font-size:10px;cursor:pointer;min-height:52px;font-family:var(--font)}
+.nb svg{width:22px;height:22px}.nb.on{color:var(--ac)}
+.card{background:var(--s1);border-radius:var(--R);padding:16px;margin-bottom:12px}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:var(--R);border:none;font-family:var(--font);font-size:15px;font-weight:600;cursor:pointer;min-height:44px;transition:opacity .15s}
+.btn:active{opacity:.7}
+.bp{background:var(--ac);color:#fff}.bg{background:var(--s2);color:var(--tx)}.ber{background:#3a1820;color:var(--er)}
+.bw{width:100%}.bsm{padding:8px 12px;font-size:13px;min-height:38px}
+.bar{height:4px;background:var(--s3);border-radius:2px;overflow:hidden}
+.bfill{height:100%;background:var(--ac);border-radius:2px;transition:width .3s}
+.sgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.scard{background:var(--s1);border-radius:var(--R);padding:14px;text-align:center}
+.sval{font-family:var(--serif);font-size:30px}.slbl{font-size:11px;color:var(--mu);margin-top:2px}
+.fcard{background:var(--s1);border-radius:20px;padding:28px 20px;min-height:200px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;cursor:pointer;user-select:none}
+.fw{font-family:var(--serif);font-size:32px;color:var(--ac);margin-bottom:6px;line-height:1.3}
+.fph{color:var(--mu);font-size:13px;margin-top:4px}
+.fhint{color:var(--mu);font-size:13px;margin-top:14px}
+.fback{margin-top:18px;padding-top:18px;border-top:1px solid var(--bd);width:100%;display:none}
+.fback.on{display:block}.ftrans{font-size:22px;font-weight:600;margin-bottom:6px}
+.fex{font-size:13px;color:var(--mu);font-style:italic}
+.ftopic{display:inline-block;font-size:10px;padding:2px 7px;border-radius:8px;background:var(--s3);color:var(--mu);margin-bottom:8px}
+.rrow{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:10px}
+.rbtn{padding:10px 4px;border:none;border-radius:10px;font-size:12px;font-weight:600;cursor:pointer;min-height:44px;font-family:var(--font)}
+.rbtn:active{opacity:.7}
+.r0{background:#3a1820;color:var(--er)}.r1{background:#2e2412;color:var(--wa)}
+.r2{background:#162a20;color:var(--ok)}.r3{background:#1a1f3a;color:var(--lang)}
+.mcq{font-family:var(--serif);font-size:28px;text-align:center;padding:18px 0 14px;color:var(--ac);line-height:1.3}
+.mcopts{display:flex;flex-direction:column;gap:10px}
+.mcopt{background:var(--s2);border:2px solid var(--bd);border-radius:var(--R);padding:14px 18px;font-size:16px;font-family:var(--font);color:var(--tx);text-align:left;cursor:pointer;min-height:52px;width:100%}
+.mcopt:active{opacity:.8}.mcopt.ok{background:#162a20;border-color:var(--ok);color:var(--ok)}.mcopt.er{background:#3a1820;border-color:var(--er);color:var(--er)}
+.mod-card{background:var(--s1);border-radius:var(--R);padding:14px 16px;margin-bottom:8px;display:flex;align-items:center;gap:12px}
+.mod-icon{width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;flex-shrink:0}
+.mi-a{background:var(--acd);color:var(--ac)}.mi-d{background:#162a20;color:var(--ok)}.mi-l{background:var(--s3);color:var(--mu)}
+.toast{position:fixed;bottom:calc(68px + var(--sb));left:50%;transform:translateX(-50%) translateY(16px);background:var(--s3);color:var(--tx);padding:9px 20px;border-radius:20px;font-size:14px;font-weight:500;pointer-events:none;opacity:0;transition:opacity .2s,transform .2s;z-index:200;white-space:nowrap;max-width:90%}
+.toast.on{opacity:1;transform:translateX(-50%) translateY(0)}.tok{background:#162a20;color:var(--ok)}.ter{background:#3a1820;color:var(--er)}
+.hidden{display:none!important}
+.flex{display:flex}.jb{justify-content:space-between}.ai{align-items:center}
+.gap8{gap:8px}.mt8{margin-top:8px}.mt10{margin-top:10px}.mt12{margin-top:12px}.mt16{margin-top:16px}
+.mu{color:var(--mu)}.xs{font-size:11px}.sm{font-size:13px}
+h1{font-family:var(--serif);font-size:28px;font-weight:400}h2{font-size:20px;font-weight:600}h3{font-size:15px;font-weight:600}
+</style>
+</head>
+<body>
+<div id="app">
+
+<!-- HOME -->
+<div id="sc-home" class="screen on">
+  <div class="flex jb ai mt8">
+    <h1 id="lang-title">Englisch</h1>
+    <span id="lang-flag" style="font-size:28px">&#127468;&#127463;</span>
+  </div>
+  <div class="card mt12">
+    <div class="flex jb ai"><span class="sm mu">Tagesziel</span>
+      <span class="sm"><span id="h-done">0</span> / <span id="h-goal">20</span></span></div>
+    <div class="bar mt8"><div class="bfill" id="h-bar" style="width:0%"></div></div>
+  </div>
+  <div class="flex gap8 mt12">
+    <button class="btn bp" style="flex:1" id="btn-mc">Multiple Choice</button>
+    <button class="btn bg" style="flex:1" id="btn-fl">Karteikarten</button>
+  </div>
+  <div class="sgrid mt12">
+    <div class="scard"><div class="sval" id="h-streak">0</div><div class="slbl">Streak</div></div>
+    <div class="scard"><div class="sval" id="h-seen">0</div><div class="slbl">Gesehen</div></div>
+    <div class="scard"><div class="sval" id="h-master">0</div><div class="slbl">Gemeistert</div></div>
+  </div>
+  <div class="card mt12 flex jb ai">
+    <span class="sm">Heute fallig</span>
+    <span style="font-family:var(--serif);font-size:24px" id="h-due">-</span>
+  </div>
+  <div class="card mt8" id="h-mod-info"></div>
+</div>
+
+<!-- LEARN -->
+<div id="sc-learn" class="screen">
+  <div class="flex jb ai mt8">
+    <button class="btn bg bsm" id="btn-back">Zuruck</button>
+    <span class="mu xs" id="l-prog">0/0</span>
+  </div>
+  <div class="bar mt10"><div class="bfill" id="l-bar" style="width:0%"></div></div>
+  <div class="flex gap8 mt10">
+    <button id="m-mc" class="btn bp bsm" style="flex:1">Multiple Choice</button>
+    <button id="m-fl" class="btn bg bsm" style="flex:1">Karteikarten</button>
+  </div>
+  <div class="flex jb ai mt8">
+    <span class="mu xs" id="l-dir">DE &rarr; EN</span>
+    <button class="btn bg bsm" id="btn-dir">Wechseln</button>
+  </div>
+  <div class="mt8">
+    <span id="l-tp" style="font-size:11px;color:var(--mu);background:var(--s2);padding:3px 10px;border-radius:10px"></span>
+    <span id="l-lv" style="font-size:11px;color:var(--ac);background:var(--acd);padding:3px 8px;border-radius:10px;margin-left:6px"></span>
+    <span id="l-mod" style="font-size:11px;color:var(--mu);margin-left:6px"></span>
+  </div>
+
+  <!-- FLASHCARD -->
+  <div id="fc-wrap" class="mt12 hidden">
+    <div class="fcard" id="fcard">
+      <div class="xs mu" id="fc-dl">Deutsch</div>
+      <div class="fw" id="fc-front"></div>
+      <div class="fph" id="fc-ph"></div>
+      <div class="fhint" id="fc-hint">Antippen zum Aufdecken</div>
+      <div class="fback" id="fc-back">
+        <div class="xs mu" id="fc-bl">Englisch</div>
+        <div class="ftrans" id="fc-trans"></div>
+        <div class="fex" id="fc-ex"></div>
+        <button class="btn bg bsm mt8" id="btn-spk-fc">&#128266; Anhoren</button>
+      </div>
+    </div>
+    <div class="rrow hidden" id="rrow">
+      <button class="rbtn r0" id="r0">Nochmal</button>
+      <button class="rbtn r1" id="r1">Schwer</button>
+      <button class="rbtn r2" id="r2">Gut</button>
+      <button class="rbtn r3" id="r3">Leicht</button>
+    </div>
+  </div>
+
+  <!-- MULTIPLE CHOICE -->
+  <div id="mc-wrap" class="mt12 hidden">
+    <div class="mcq" id="mc-q"></div>
+    <div class="mcopts" id="mc-opts"></div>
+    <div class="flex ai gap8 mt12">
+      <button class="btn bg bsm" id="btn-spk-mc">&#128266; Anhoren</button>
+      <span class="mu xs" id="mc-hint" style="flex:1"></span>
+      <button class="btn bg bsm" id="btn-known">Bekannt</button>
+    </div>
+  </div>
+
+  <!-- DONE -->
+  <div id="done-wrap" class="hidden">
+    <div style="text-align:center;padding:40px 0">
+      <div style="font-size:52px;margin-bottom:12px">&#127881;</div>
+      <div style="font-family:var(--serif);font-size:26px;margin-bottom:6px">Session fertig!</div>
+      <div class="mu sm" id="done-sub" style="margin-bottom:24px"></div>
+      <button class="btn bp bw" id="btn-again">Nochmal</button>
+      <button class="btn bg bw mt8" id="btn-home2">Zur Ubersicht</button>
+    </div>
+  </div>
+</div>
+
+<!-- MODULE -->
+<div id="sc-modules" class="screen">
+  <h1 class="mt8">Module</h1>
+  <p class="sm mu mt8" style="margin-bottom:16px">Fortschritt pro Lernmodul.</p>
+  <div id="mod-list"></div>
+</div>
+
+<!-- STATISTIK -->
+<div id="sc-stats" class="screen">
+  <h1 class="mt8">Statistik</h1>
+  <div class="sgrid mt16">
+    <div class="scard"><div class="sval" id="st-tot">0</div><div class="slbl">Gesehen</div></div>
+    <div class="scard"><div class="sval" id="st-mas">0</div><div class="slbl">Gemeistert</div></div>
+    <div class="scard"><div class="sval" id="st-str">0</div><div class="slbl">Streak</div></div>
+  </div>
+  <div class="card mt16"><h3 style="margin-bottom:12px">Nach Level</h3><div id="st-levels"></div></div>
+  <div class="card mt12"><h3 style="margin-bottom:12px">Nach Modul</h3><div id="st-mods"></div></div>
+</div>
+
+<!-- EINSTELLUNGEN -->
+<div id="sc-set" class="screen">
+  <h1 class="mt8">Einstellungen</h1>
+  <div class="card mt16"><h3>Tagesziel</h3><div class="flex gap8 mt10" id="goal-btns"></div></div>
+  <div class="card mt12"><h3>Start-Level</h3><div class="flex gap8 mt10" id="lvl-btns"></div>
+    <p class="xs mu mt8">Karten unter diesem Level werden zurueckgestellt.</p></div>
+  <div class="card mt12">
+    <h3>Sprachausgabe</h3>
+    <div class="flex jb ai mt10"><span class="sm">TTS aktiv</span><button class="btn bg bsm" id="tts-on">Ein</button></div>
+    <div class="flex jb ai mt8"><span class="sm">Auto nach Aufdecken</span><button class="btn bg bsm" id="tts-auto">Nein</button></div>
+    <div class="mt10"><span class="xs mu">Geschwindigkeit</span><div class="flex gap8 mt8" id="spd-btns"></div></div>
+  </div>
+  <div class="card mt12"><h3>Daten</h3>
+    <button class="btn bg bw mt10" id="btn-exp">Exportieren JSON</button>
+    <button class="btn ber bw mt8" id="btn-reset">Fortschritt zuruecksetzen</button>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="bnav">
+  <button class="nb on" id="n-home">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1H4a1 1 0 01-1-1V9.5z"/></svg>Home</button>
+  <button class="nb" id="n-learn">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>Lernen</button>
+  <button class="nb" id="n-modules">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 10h16M4 14h10"/></svg>Module</button>
+  <button class="nb" id="n-stats">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>Statistik</button>
+  <button class="nb" id="n-set">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06-.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>Einstellungen</button>
+</nav>
+<div id="toast" class="toast"></div>
+</div><!-- #app -->
+<script>
+(function(){
+"use strict";
+window.onerror=function(){return true;};
+window.addEventListener("unhandledrejection",function(e){try{e.preventDefault();}catch(x){}});
+
+// ═══════════════════════════════════════════════════════════════════════════
+// SPRACHKONFIGURATION
+// Neue Sprache: nur diesen Block anpassen (8 Felder)
+// ═══════════════════════════════════════════════════════════════════════════
+var CFG={
+  id:"en",
+  name:"Englisch",
+  flag:"\uD83C\uDDEC\uD83C\uDDE7",
+  ttsLocale:"en-GB",
+  storeKey:"vt_en_",
+  startLv:"B2",
+  levels:["B2","C1"],
+  lvColors:{"B2":"var(--lang)","C1":"var(--ac)"}
+};
+
+// ═══════════════════════════════════════════════════════════════════════════
+// MODUL-DEFINITIONEN
+// Neue Module hier ergaenzen, dann Vokabeln unten hinzufuegen
+// ═══════════════════════════════════════════════════════════════════════════
+var MODS=[
+  {id:"m1",name:"B2 Phase 1",sub:"Praepositionen & Praezise Verben",lv:"B2"},
+  {id:"m2",name:"B2 Phase 2",sub:"Nomen, Adjektive, Business",lv:"B2"},
+  {id:"m3",name:"B2 Phase 3",sub:"Kollokationen & Akademisch",lv:"B2"},
+  {id:"m4",name:"B2 Phase 4",sub:"Phrasal Verbs, Diskurs, Register",lv:"B2"},
+  {id:"m5",name:"C1 Phase 1",sub:"Nuancen & abstrakte Konzepte",lv:"C1"},
+  {id:"m6",name:"C1 Phase 2",sub:"Abstrakte Konzepte & Akademisch",lv:"C1"},
+  {id:"m7",name:"C1 Phase 3",sub:"Gehobene Sprache & Praezision",lv:"C1"}
+];
+
+// ═══════════════════════════════════════════════════════════════════════════
+// VOKABELN
+// Einheitliches Format (Goldstandard):
+// {id, de, target, lv, tp, ty, phonetic, example_de, example_target}
+//
+// id:           eindeutig, Schema: b2_001 / c1_001 / b2p2_001 etc.
+// de:           Deutsch
+// target:       Englisch (Zielsprache)
+// lv:           "B2" | "C1"
+// tp:           Themengruppe
+// ty:           "verb" | "noun" | "adj" | "adv" | "phrase"
+// phonetic:     IPA (leer "" wenn unbekannt)
+// example_de:   Beispielsatz Deutsch
+// example_target: Beispielsatz Englisch
+// mod:          Modul-ID (m1..m7)
+// ═══════════════════════════════════════════════════════════════════════════
+
+// ── B2 PHASE 1 (m1) – Praepositionen & Praezise Verben ───────────────────
+var V1=[
+{id:"b2_001",de:"bestehen auf",target:"to insist on",lv:"B2",tp:"Praep",ty:"verb",phonetic:"/\u026An\u02C8s\u026Ast \u0252n/",example_de:"Er besteht auf einer Erklaerung.",example_target:"He insists on an explanation.",mod:"m1"},
+{id:"b2_002",de:"sich einigen auf",target:"to agree on",lv:"B2",tp:"Praep",ty:"verb",phonetic:"/\u0259\u02C8\u0261ri\u02D0 \u0252n/",example_de:"Wir einigten uns auf einen Termin.",example_target:"We agreed on a date.",mod:"m1"},
+{id:"b2_003",de:"abhaengen von",target:"to depend on",lv:"B2",tp:"Praep",ty:"verb",phonetic:"/d\u026A\u02C8pend \u0252n/",example_de:"Das haengt von dir ab.",example_target:"That depends on you.",mod:"m1"},
+{id:"b2_004",de:"bestehen aus",target:"to consist of",lv:"B2",tp:"Praep",ty:"verb",phonetic:"/k\u0259n\u02C8s\u026Ast \u0252v/",example_de:"Das Team besteht aus fuenf Personen.",example_target:"The team consists of five people.",mod:"m1"},
+{id:"b2_005",de:"hinweisen auf",target:"to point out / refer to",lv:"B2",tp:"Praep",ty:"verb",phonetic:"/p\u0254\u026Ant a\u028At/",example_de:"Er wies auf den Fehler hin.",example_target:"He pointed out the mistake.",mod:"m1"},
+{id:"b2_006",de:"sich kuemmern um",target:"to look after / take care of",lv:"B2",tp:"Praep",ty:"verb",phonetic:"/l\u028Ak \u02C8\u0251\u02D0ft\u0259/",example_de:"Sie kuemmert sich um die Kinder.",example_target:"She looks after the children.",mod:"m1"},
+{id:"b2_007",de:"sich bewerben um",target:"to apply for",lv:"B2",tp:"Praep",ty:"verb",phonetic:"/\u0259\u02C8pla\u026A f\u0254\u02D0/",example_de:"Er bewirbt sich um die Stelle.",example_target:"He is applying for the position.",mod:"m1"},
+{id:"b2_008",de:"verzichten auf",target:"to give up / do without",lv:"B2",tp:"Praep",ty:"verb",phonetic:"/\u0261\u026Av \u028Cp/",example_de:"Sie verzichtet auf Zucker.",example_target:"She does without sugar.",mod:"m1"},
+{id:"b2_009",de:"ankommen auf",target:"to depend on / come down to",lv:"B2",tp:"Praep",ty:"verb",phonetic:"/k\u028Am da\u028An t\u028A/",example_de:"Es kommt darauf an.",example_target:"It comes down to that.",mod:"m1"},
+{id:"b2_010",de:"eingehen auf",target:"to address / respond to",lv:"B2",tp:"Praep",ty:"verb",phonetic:"/r\u026A\u02C8sp\u0252nd t\u028A/",example_de:"Er geht nicht auf die Frage ein.",example_target:"He doesn't respond to the question.",mod:"m1"},
+{id:"b2_011",de:"sich verlassen auf",target:"to count on / rely on",lv:"B2",tp:"Praep",ty:"verb",phonetic:"/ka\u028Ant \u0252n/",example_de:"Du kannst auf mich zaehlen.",example_target:"You can count on me.",mod:"m1"},
+{id:"b2_012",de:"im Voraus",target:"in advance",lv:"B2",tp:"Praep",ty:"adv",phonetic:"/\u026An \u0259d\u02C8v\u0251\u02D0ns/",example_de:"Bitte bezahlen Sie im Voraus.",example_target:"Please pay in advance.",mod:"m1"},
+{id:"b2_013",de:"angesichts",target:"in view of / given",lv:"B2",tp:"Praep",ty:"adv",phonetic:"/\u026An vju\u02D0 \u0252v/",example_de:"Angesichts der Lage ist das verstaendlich.",example_target:"Given the situation, that is understandable.",mod:"m1"},
+{id:"b2_014",de:"im Gegensatz zu",target:"in contrast to / as opposed to",lv:"B2",tp:"Praep",ty:"adv",phonetic:"/\u026An \u02C8k\u0252ntr\u0251\u02D0st t\u028A/",example_de:"Im Gegensatz zu ihm bin ich ruhig.",example_target:"In contrast to him, I am calm.",mod:"m1"},
+{id:"b2_015",de:"trotz",target:"despite / in spite of",lv:"B2",tp:"Praep",ty:"adv",phonetic:"/d\u026A\u02C8spa\u026At/",example_de:"Trotz des Regens gingen wir spazieren.",example_target:"Despite the rain, we went for a walk.",mod:"m1"},
+{id:"b2_016",de:"aufgrund von",target:"due to / owing to",lv:"B2",tp:"Praep",ty:"adv",phonetic:"/dju\u02D0 t\u028A/",example_de:"Aufgrund des Staus kamen wir zu spaet.",example_target:"Due to the traffic jam, we were late.",mod:"m1"},
+{id:"b2_017",de:"im Hinblick auf",target:"with regard to / in terms of",lv:"B2",tp:"Praep",ty:"adv",phonetic:"/w\u026I\u03B0 r\u026I\u02C8\u0261\u0251\u02D0d t\u028A/",example_de:"Im Hinblick auf die Kosten ist das guenstig.",example_target:"With regard to costs, that is reasonable.",mod:"m1"},
+{id:"b2_018",de:"abgesehen von",target:"apart from / aside from",lv:"B2",tp:"Praep",ty:"adv",phonetic:"/\u0259\u02C8p\u0251\u02D0t fr\u0252m/",example_de:"Abgesehen davon hat er recht.",example_target:"Apart from that, he is right.",mod:"m1"},
+{id:"b2_019",de:"anstatt",target:"instead of / rather than",lv:"B2",tp:"Praep",ty:"adv",phonetic:"/\u026An\u02C8sted \u0252v/",example_de:"Anstatt zu klagen, handle.",example_target:"Instead of complaining, act.",mod:"m1"},
+{id:"b2_020",de:"im Zusammenhang mit",target:"in connection with",lv:"B2",tp:"Praep",ty:"adv",phonetic:"/\u026An k\u0259\u02C8nek\u0283n w\u026I\u03B0/",example_de:"Im Zusammenhang mit dem Projekt.",example_target:"In connection with the project.",mod:"m1"},
+{id:"b2_021",de:"abwaegen",target:"to weigh up / consider",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/we\u026A \u028Cp/",example_de:"Ich muss die Optionen abwaegen.",example_target:"I need to weigh up the options.",mod:"m1"},
+{id:"b2_022",de:"verdeutlichen",target:"to clarify / illustrate",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/\u02C8kl\u00E6r\u026Ifa\u026A/",example_de:"Koennen Sie das verdeutlichen?",example_target:"Could you clarify that?",mod:"m1"},
+{id:"b2_023",de:"rechtfertigen",target:"to justify",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/\u02C8d\u0292\u028Cst\u026Ifa\u026A/",example_de:"Wie rechtfertigst du das?",example_target:"How do you justify that?",mod:"m1"},
+{id:"b2_024",de:"widersprechen",target:"to contradict / object",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/\u02CCk\u0252ntr\u0259\u02C8d\u026Ikt/",example_de:"Das widerspricht sich.",example_target:"That contradicts itself.",mod:"m1"},
+{id:"b2_025",de:"beruecksichtigen",target:"to take into account / consider",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/te\u026Ak \u02C8\u026Ant\u028A \u0259\u02C8ka\u028Ant/",example_de:"Das sollte beruecksichtigt werden.",example_target:"That should be taken into account.",mod:"m1"},
+{id:"b2_026",de:"voraussetzen",target:"to presuppose / require",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/\u02CCpri\u02D0s\u0259\u02C8p\u0259\u028Az/",example_de:"Das setzt Erfahrung voraus.",example_target:"That presupposes experience.",mod:"m1"},
+{id:"b2_027",de:"aufwerfen",target:"to raise a question",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/re\u026Az/",example_de:"Das wirft Fragen auf.",example_target:"That raises questions.",mod:"m1"},
+{id:"b2_028",de:"in Frage stellen",target:"to question / challenge",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/\u02C8kwest\u0283\u0259n/",example_de:"Das sollte man in Frage stellen.",example_target:"That should be questioned.",mod:"m1"},
+{id:"b2_029",de:"nachgeben",target:"to give in / yield",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/\u0261\u026Av \u026An/",example_de:"Sie gab schliesslich nach.",example_target:"She finally gave in.",mod:"m1"},
+{id:"b2_030",de:"uebertreffen",target:"to exceed / surpass",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/\u026Ak\u02C8si\u02D0d/",example_de:"Die Ergebnisse uebertrafen unsere Erwartungen.",example_target:"The results exceeded our expectations.",mod:"m1"},
+{id:"b2_031",de:"einschraenken",target:"to restrict / limit",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/r\u026A\u02C8str\u026Ikt/",example_de:"Das schraenkt uns ein.",example_target:"That restricts us.",mod:"m1"},
+{id:"b2_032",de:"umgehen mit",target:"to deal with / handle",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/\u02C8h\u00E6ndl/",example_de:"Wie gehst du damit um?",example_target:"How do you handle that?",mod:"m1"},
+{id:"b2_033",de:"hervorrufen",target:"to trigger / provoke",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/\u02C8tr\u026I\u0261\u0259/",example_de:"Was hat das hervorgerufen?",example_target:"What triggered that?",mod:"m1"},
+{id:"b2_034",de:"veranschaulichen",target:"to illustrate",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/\u026A\u02C8l\u028Cstre\u026At/",example_de:"Lassen Sie mich das veranschaulichen.",example_target:"Let me illustrate that.",mod:"m1"},
+{id:"b2_035",de:"bekraeftigen",target:"to confirm / reinforce",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/\u02CCri\u02D0\u026An\u02C8f\u0254\u02D0s/",example_de:"Das bekraeftigt meine These.",example_target:"That reinforces my argument.",mod:"m1"},
+{id:"b2_036",de:"die Schlussfolgerung",target:"the conclusion",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/k\u0259n\u02C8klu\u02D0\u0292n/",example_de:"Was ist deine Schlussfolgerung?",example_target:"What is your conclusion?",mod:"m1"},
+{id:"b2_037",de:"die Voraussetzung",target:"the prerequisite / requirement",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/\u02CCpri\u02D0\u02C8rekw\u0259z\u026At/",example_de:"Das ist eine Grundvoraussetzung.",example_target:"That is a basic prerequisite.",mod:"m1"},
+{id:"b2_038",de:"die Einschraenkung",target:"the limitation / restriction",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/\u02CCl\u026Im\u026A\u02C8te\u026A\u0283n/",example_de:"Das hat seine Einschraenkungen.",example_target:"That has its limitations.",mod:"m1"},
+{id:"b2_039",de:"der Widerspruch",target:"the contradiction",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/\u02CCk\u0252ntr\u0259\u02C8d\u026Ik\u0283n/",example_de:"Das ist ein Widerspruch.",example_target:"That is a contradiction.",mod:"m1"},
+{id:"b2_040",de:"die Ueberzeugung",target:"the conviction / belief",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/k\u0259n\u02C8v\u026Ik\u0283n/",example_de:"Er handelt aus Ueberzeugung.",example_target:"He acts out of conviction.",mod:"m1"},
+{id:"b2_041",de:"der Rueckschluss",target:"the inference",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/\u02C8\u026Inf\u0259r\u0259ns/",example_de:"Was ist dein Rueckschluss?",example_target:"What is your inference?",mod:"m1"},
+{id:"b2_042",de:"das Ausmass",target:"the extent / magnitude",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/\u026Ak\u02C8stent/",example_de:"In welchem Ausmass?",example_target:"To what extent?",mod:"m1"},
+{id:"b2_043",de:"der Aspekt",target:"the aspect",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/\u02C8\u00E6spekt/",example_de:"Das ist ein wichtiger Aspekt.",example_target:"That is an important aspect.",mod:"m1"},
+{id:"b2_044",de:"der Standpunkt",target:"the standpoint / viewpoint",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/\u02C8vju\u02D0p\u0254\u026Ant/",example_de:"Von meinem Standpunkt aus.",example_target:"From my viewpoint.",mod:"m1"},
+{id:"b2_045",de:"die Tendenz",target:"the tendency / trend",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/\u02C8tend\u0259nsi/",example_de:"Es gibt eine Tendenz dazu.",example_target:"There is a tendency towards that.",mod:"m1"},
+{id:"b2_046",de:"weitreichend",target:"far-reaching",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/\u02C8f\u0251\u02D0ri\u02D0t\u0283\u026A\u014B/",example_de:"Das hat weitreichende Folgen.",example_target:"That has far-reaching consequences.",mod:"m1"},
+{id:"b2_047",de:"ausschlaggebend",target:"decisive / crucial",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/d\u026A\u02C8sa\u026As\u026Av/",example_de:"Das war ausschlaggebend.",example_target:"That was decisive.",mod:"m1"},
+{id:"b2_048",de:"umstritten",target:"controversial",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/\u02CCk\u0252ntr\u0259\u02C8v\u025C\u02D0\u0283l/",example_de:"Das ist ein umstrittenes Thema.",example_target:"That is a controversial topic.",mod:"m1"},
+{id:"b2_049",de:"grundlegend",target:"fundamental / underlying",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/\u02CCf\u028And\u0259\u02C8mentl/",example_de:"Das ist ein grundlegendes Problem.",example_target:"That is a fundamental problem.",mod:"m1"},
+{id:"b2_050",de:"tiefgreifend",target:"profound / deep-rooted",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/pr\u0259\u02C8fa\u028And/",example_de:"Eine tiefgreifende Veraenderung.",example_target:"A profound change.",mod:"m1"},
+{id:"b2_051",de:"unweigerlich",target:"inevitably",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/\u026An\u02C8ev\u026It\u0259bli/",example_de:"Das fuehrt unweigerlich dazu.",example_target:"That inevitably leads to it.",mod:"m1"},
+{id:"b2_052",de:"keineswegs",target:"by no means",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/ba\u026A n\u0259\u028A mi\u02D0nz/",example_de:"Das ist keineswegs sicher.",example_target:"That is by no means certain.",mod:"m1"},
+{id:"b2_053",de:"ausdruecklich",target:"explicitly / expressly",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/\u026Ak\u02C8spl\u026Is\u026Itli/",example_de:"Er hat es ausdruecklich verboten.",example_target:"He explicitly forbade it.",mod:"m1"},
+{id:"b2_054",de:"im Grossen und Ganzen",target:"on the whole",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/\u0252n \u03B0\u0259 h\u0259\u028Al/",example_de:"Im Grossen und Ganzen war es gut.",example_target:"On the whole, it was good.",mod:"m1"},
+{id:"b2_055",de:"folgerichtig",target:"consequently / logically",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/\u02C8k\u0252ns\u026Ikw\u0259ntli/",example_de:"Folgerichtig zog er Konsequenzen.",example_target:"Consequently, he drew conclusions.",mod:"m1"}
+];
+// ── B2 PHASE 2 (m2) – Nomen, Adjektive, Business ─────────────────────────
+var V2=[
+{id:"b2p2_001",de:"die Mehrdeutigkeit",target:"the ambiguity",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/\u00E6m\u02C8b\u026A\u0261ju\u026Ati/",example_de:"Diese Aussage hat eine gewisse Mehrdeutigkeit.",example_target:"This statement has a certain ambiguity.",mod:"m2"},
+{id:"b2p2_002",de:"die Zustaendigkeit",target:"the responsibility / jurisdiction",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/\u02CCd\u0292\u028A\u02C8r\u026Isd\u026Ak\u0283n/",example_de:"Das faellt in meine Zustaendigkeit.",example_target:"That falls within my jurisdiction.",mod:"m2"},
+{id:"b2p2_003",de:"die Uebereinstimmung",target:"the agreement / consistency",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/\u0259\u02C8\u0261ri\u02D0m\u0259nt/",example_de:"Da besteht volle Uebereinstimmung.",example_target:"There is full agreement on that.",mod:"m2"},
+{id:"b2p2_004",de:"die Abweichung",target:"the deviation / discrepancy",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/d\u026A\u02C8skrIp\u0259nsi/",example_de:"Es gibt eine Abweichung vom Plan.",example_target:"There is a deviation from the plan.",mod:"m2"},
+{id:"b2p2_005",de:"die Begruendung",target:"the justification / rationale",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/\u02CCr\u00E6\u0283\u0259\u02C8n\u00E6l/",example_de:"Was ist deine Begruendung?",example_target:"What is your rationale?",mod:"m2"},
+{id:"b2p2_006",de:"die Einschaetzung",target:"the assessment / estimate",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/\u0259\u02C8sesm\u0259nt/",example_de:"Wie ist deine Einschaetzung der Lage?",example_target:"What is your assessment of the situation?",mod:"m2"},
+{id:"b2p2_007",de:"die Vorgehensweise",target:"the procedure / approach",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/pr\u0259\u02C8si\u02D0d\u0292\u0259/",example_de:"Welche Vorgehensweise empfiehlst du?",example_target:"Which procedure do you recommend?",mod:"m2"},
+{id:"b2p2_008",de:"das Missverstaendnis",target:"the misunderstanding",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/\u02CCm\u026Isd\u0259\u02C8st\u00E6nd\u026I\u014B/",example_de:"Das war ein Missverstaendnis.",example_target:"That was a misunderstanding.",mod:"m2"},
+{id:"b2p2_009",de:"die Bereitschaft",target:"the willingness / readiness",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/\u02C8w\u026Il\u026I\u014Dn\u0259s/",example_de:"Er zeigte keine Bereitschaft.",example_target:"He showed no willingness.",mod:"m2"},
+{id:"b2p2_010",de:"die Glaubwuerdigkeit",target:"the credibility",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/\u02CCkred\u0259\u02C8b\u026Il\u026Iti/",example_de:"Das schadet seiner Glaubwuerdigkeit.",example_target:"That damages his credibility.",mod:"m2"},
+{id:"b2p2_011",de:"die Zuverlaessigkeit",target:"the reliability",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/r\u026I\u02CCla\u026I\u0259\u02C8b\u026Il\u026Iti/",example_de:"Zuverlaessigkeit ist entscheidend.",example_target:"Reliability is crucial.",mod:"m2"},
+{id:"b2p2_012",de:"die Nachvollziehbarkeit",target:"the transparency / traceability",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/tr\u00E6n\u02C8sp\u00E6r\u0259nsi/",example_de:"Die Entscheidung muss nachvollziehbar sein.",example_target:"The decision must be transparent.",mod:"m2"},
+{id:"b2p2_013",de:"das Gleichgewicht",target:"the balance / equilibrium",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/\u02C8b\u00E6l\u0259ns/",example_de:"Das Gleichgewicht muss gewahrt werden.",example_target:"The balance must be maintained.",mod:"m2"},
+{id:"b2p2_014",de:"die Wechselwirkung",target:"the interaction / interplay",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/\u02C8\u026Int\u0259\u02CCple\u026A/",example_de:"Es gibt eine Wechselwirkung zwischen beiden.",example_target:"There is an interplay between the two.",mod:"m2"},
+{id:"b2p2_015",de:"der Ansatz",target:"the approach",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/\u0259\u02C8pr\u0259\u028At\u0283/",example_de:"Welchen Ansatz waehlst du?",example_target:"Which approach do you choose?",mod:"m2"},
+{id:"b2p2_016",de:"nachhaltig",target:"sustainable / lasting",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/s\u0259\u02C8ste\u026In\u0259bl/",example_de:"Das ist keine nachhaltige Loesung.",example_target:"That is not a sustainable solution.",mod:"m2"},
+{id:"b2p2_017",de:"massgeblich",target:"decisive / significant",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/d\u026A\u02C8sa\u026As\u026Av/",example_de:"Er hatte massgeblichen Einfluss.",example_target:"He had a decisive influence.",mod:"m2"},
+{id:"b2p2_018",de:"unangemessen",target:"inappropriate / disproportionate",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/\u02CCin\u0259\u02C8pr\u0259\u028Apri\u0259t/",example_de:"Das ist unangemessen.",example_target:"That is inappropriate.",mod:"m2"},
+{id:"b2p2_019",de:"vorausschauend",target:"forward-thinking / proactive",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/pr\u0259\u028A\u02C8\u00E6kt\u026Av/",example_de:"Er handelt vorausschauend.",example_target:"He acts proactively.",mod:"m2"},
+{id:"b2p2_020",de:"aufschlussreich",target:"revealing / informative",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/r\u026A\u02C8vi\u02D0l\u026I\u014B/",example_de:"Das ist sehr aufschlussreich.",example_target:"That is very revealing.",mod:"m2"},
+{id:"b2p2_021",de:"unausweichlich",target:"unavoidable / inescapable",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/\u02CCin\u0259\u02C8v\u0254\u026Id\u0259bl/",example_de:"Das war unausweichlich.",example_target:"That was unavoidable.",mod:"m2"},
+{id:"b2p2_022",de:"zutreffend",target:"accurate / applicable",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/\u02C8\u00E6kj\u028Ar\u0259t/",example_de:"Das ist durchaus zutreffend.",example_target:"That is quite accurate.",mod:"m2"},
+{id:"b2p2_023",de:"stichhaltig",target:"valid / sound",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/sa\u028And/",example_de:"Das Argument ist stichhaltig.",example_target:"The argument is sound.",mod:"m2"},
+{id:"b2p2_024",de:"widerspruchsfrei",target:"consistent / contradiction-free",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/k\u0259n\u02C8s\u026Ist\u0259nt/",example_de:"Die Aussage ist widerspruchsfrei.",example_target:"The statement is consistent.",mod:"m2"},
+{id:"b2p2_025",de:"beherrschbar",target:"manageable / controllable",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/\u02C8m\u00E6n\u026Id\u0292\u0259bl/",example_de:"Das Risiko ist beherrschbar.",example_target:"The risk is manageable.",mod:"m2"},
+{id:"b2p2_026",de:"verhaeltnismaessig",target:"proportionate / relatively",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/pr\u0259\u02C8p\u0254\u02D0\u0283\u0259n\u0259t/",example_de:"Das ist verhaeltnismaessig guenstig.",example_target:"That is relatively favourable.",mod:"m2"},
+{id:"b2p2_027",de:"eigenverantwortlich",target:"self-responsible / autonomous",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/\u0254\u02D0\u02C8t\u0252n\u0259m\u0259s/",example_de:"Er handelt eigenverantwortlich.",example_target:"He acts autonomously.",mod:"m2"},
+{id:"b2p2_028",de:"in Auftrag geben",target:"to commission / order",lv:"B2",tp:"Business",ty:"verb",phonetic:"/k\u0259\u02C8m\u026A\u0283n/",example_de:"Wir haben das in Auftrag gegeben.",example_target:"We commissioned that.",mod:"m2"},
+{id:"b2p2_029",de:"abstimmen mit",target:"to coordinate with / align with",lv:"B2",tp:"Business",ty:"verb",phonetic:"/\u0259\u02C8la\u026An w\u026I\u03B0/",example_de:"Das muss mit der Abteilung abgestimmt werden.",example_target:"That needs to be aligned with the department.",mod:"m2"},
+{id:"b2p2_030",de:"abwickeln",target:"to process / handle",lv:"B2",tp:"Business",ty:"verb",phonetic:"/\u02C8h\u00E6ndl/",example_de:"Wir wickeln das schnell ab.",example_target:"We'll handle that quickly.",mod:"m2"},
+{id:"b2p2_031",de:"nachfassen",target:"to follow up",lv:"B2",tp:"Business",ty:"verb",phonetic:"/\u02C8f\u0252l\u0259\u028A \u028Cp/",example_de:"Ich werde morgen nachfassen.",example_target:"I will follow up tomorrow.",mod:"m2"},
+{id:"b2p2_032",de:"darlegen",target:"to set out / explain",lv:"B2",tp:"Business",ty:"verb",phonetic:"/set a\u028At/",example_de:"Er legte seinen Standpunkt dar.",example_target:"He set out his position.",mod:"m2"},
+{id:"b2p2_033",de:"veranlassen",target:"to arrange / cause",lv:"B2",tp:"Business",ty:"verb",phonetic:"/\u0259\u02C8re\u026And\u0292/",example_de:"Bitte veranlassen Sie das.",example_target:"Please arrange that.",mod:"m2"},
+{id:"b2p2_034",de:"umsetzen",target:"to implement / put into practice",lv:"B2",tp:"Business",ty:"verb",phonetic:"/\u02C8\u026Impl\u026Im\u0259nt/",example_de:"Die Strategie muss umgesetzt werden.",example_target:"The strategy needs to be implemented.",mod:"m2"},
+{id:"b2p2_035",de:"die Rahmenbedingungen",target:"the framework conditions",lv:"B2",tp:"Business",ty:"noun",phonetic:"/\u02C8fre\u026Imw\u025C\u02D0k/",example_de:"Die Rahmenbedingungen haben sich geaendert.",example_target:"The framework conditions have changed.",mod:"m2"},
+{id:"b2p2_036",de:"die Vereinbarung",target:"the agreement / arrangement",lv:"B2",tp:"Business",ty:"noun",phonetic:"/\u0259\u02C8re\u026And\u0292m\u0259nt/",example_de:"Wir treffen eine Vereinbarung.",example_target:"We are making an arrangement.",mod:"m2"},
+{id:"b2p2_037",de:"das Zugestaendnis",target:"the concession",lv:"B2",tp:"Business",ty:"noun",phonetic:"/k\u0259n\u02C8se\u0283n/",example_de:"Er machte ein Zugestaendnis.",example_target:"He made a concession.",mod:"m2"},
+{id:"b2p2_038",de:"gleichermassen",target:"equally / likewise",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/\u02C8i\u02D0kw\u0259li/",example_de:"Das gilt gleichermassen fuer beide.",example_target:"That applies equally to both.",mod:"m2"},
+{id:"b2p2_039",de:"dementsprechend",target:"accordingly / as a result",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/\u0259\u02C8k\u0254\u02D0d\u026I\u014Bli/",example_de:"Dementsprechend haben wir gehandelt.",example_target:"We acted accordingly.",mod:"m2"},
+{id:"b2p2_040",de:"letztendlich",target:"ultimately / in the end",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/\u02C8\u028Clt\u026Im\u0259tli/",example_de:"Letztendlich liegt die Entscheidung bei dir.",example_target:"Ultimately, the decision is yours.",mod:"m2"},
+{id:"b2p2_041",de:"verstaendlicherweise",target:"understandably / naturally",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/\u02CCd\u0259\u02C8st\u00E6nd\u0259bli/",example_de:"Verstaendlicherweise ist er veraergert.",example_target:"Understandably, he is annoyed.",mod:"m2"},
+{id:"b2p2_042",de:"zweifelsohne",target:"undoubtedly / without doubt",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/\u028Cn\u02C8da\u028Atedli/",example_de:"Das ist zweifelsohne richtig.",example_target:"That is undoubtedly correct.",mod:"m2"},
+{id:"b2p2_043",de:"berechtigterweise",target:"justifiably / rightly",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/\u02C8d\u0292\u028Cst\u026Ifa\u026Iabli/",example_de:"Er kritisiert das berechtigterweise.",example_target:"He justifiably criticises that.",mod:"m2"},
+{id:"b2p2_044",de:"inzwischen",target:"meanwhile / by now",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/ba\u026A na\u028A/",example_de:"Das hat sich inzwischen geaendert.",example_target:"That has changed by now.",mod:"m2"},
+{id:"b2p2_045",de:"gegenseitig",target:"mutually / reciprocally",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/\u02C8mju\u02D0t\u0283u\u0259li/",example_de:"Das ist gegenseitig vorteilhaft.",example_target:"That is mutually beneficial.",mod:"m2"},
+{id:"b2p2_046",de:"den Nagel auf den Kopf treffen",target:"to hit the nail on the head",lv:"B2",tp:"Idiome",ty:"phrase",phonetic:"/h\u026It \u03B0\u0259 ne\u026Al/",example_de:"Du hast den Nagel auf den Kopf getroffen.",example_target:"You've hit the nail on the head.",mod:"m2"},
+{id:"b2p2_047",de:"ins Schwarze treffen",target:"to hit the mark",lv:"B2",tp:"Idiome",ty:"phrase",phonetic:"/h\u026It \u03B0\u0259 m\u0251\u02D0k/",example_de:"Seine Kritik hat ins Schwarze getroffen.",example_target:"His criticism hit the mark.",mod:"m2"},
+{id:"b2p2_048",de:"auf dem Spiel stehen",target:"to be at stake",lv:"B2",tp:"Idiome",ty:"phrase",phonetic:"/bi \u00E6t ste\u026Ak/",example_de:"Viel steht auf dem Spiel.",example_target:"A lot is at stake.",mod:"m2"},
+{id:"b2p2_049",de:"unter Beweis stellen",target:"to prove / demonstrate",lv:"B2",tp:"Idiome",ty:"verb",phonetic:"/d\u02C8em\u0259nstre\u026At/",example_de:"Er hat sein Koennen unter Beweis gestellt.",example_target:"He demonstrated his ability.",mod:"m2"},
+{id:"b2p2_050",de:"zur Sprache bringen",target:"to bring up / raise",lv:"B2",tp:"Idiome",ty:"verb",phonetic:"/br\u026I\u014B \u028Cp/",example_de:"Er brachte das Thema zur Sprache.",example_target:"He brought up the topic.",mod:"m2"},
+{id:"b2p2_051",de:"in den Vordergrund ruecken",target:"to bring to the fore",lv:"B2",tp:"Idiome",ty:"verb",phonetic:"/br\u026I\u014B t\u028A \u03B0\u0259 f\u0254\u02D0/",example_de:"Das rueckt die Frage in den Vordergrund.",example_target:"That brings the question to the fore.",mod:"m2"},
+{id:"b2p2_052",de:"Rueckschluss ziehen",target:"to draw a conclusion",lv:"B2",tp:"Idiome",ty:"verb",phonetic:"/dr\u0254\u02D0 \u0259 k\u0259n\u02C8klu\u02D0\u0292n/",example_de:"Daraus laesst sich ein Rueckschluss ziehen.",example_target:"A conclusion can be drawn from this.",mod:"m2"},
+{id:"b2p2_053",de:"Grenzen setzen",target:"to set boundaries / draw the line",lv:"B2",tp:"Idiome",ty:"verb",phonetic:"/dr\u0254\u02D0 \u03B0\u0259 la\u026An/",example_de:"Man muss Grenzen setzen.",example_target:"One must draw the line.",mod:"m2"},
+{id:"b2p2_054",de:"Stellung nehmen",target:"to take a stance / comment",lv:"B2",tp:"Idiome",ty:"verb",phonetic:"/te\u026Ak \u0259 st\u00E6ns/",example_de:"Bitte nehmen Sie Stellung dazu.",example_target:"Please take a stance on this.",mod:"m2"},
+{id:"b2p2_055",de:"zum Ausdruck bringen",target:"to express / convey",lv:"B2",tp:"Idiome",ty:"verb",phonetic:"/\u026Ak\u02C8spres/",example_de:"Er brachte seine Unzufriedenheit zum Ausdruck.",example_target:"He expressed his dissatisfaction.",mod:"m2"}
+];
+
+// ── B2 PHASE 3 (m3) – Kollokationen & Akademisch ──────────────────────────
+var V3=[
+{id:"b2p3_001",de:"eine Ausnahme machen",target:"to make an exception",lv:"B2",tp:"Kollokation",ty:"verb",phonetic:"/me\u026Ak \u0259n \u026Ak\u02C8sep\u0283n/",example_de:"Koennen Sie eine Ausnahme machen?",example_target:"Could you make an exception?",mod:"m3"},
+{id:"b2p3_002",de:"einen Eindruck hinterlassen",target:"to make an impression",lv:"B2",tp:"Kollokation",ty:"verb",phonetic:"/me\u026Ak \u0259n \u026Am\u02C8pre\u0283n/",example_de:"Er hinterliess einen bleibenden Eindruck.",example_target:"He made a lasting impression.",mod:"m3"},
+{id:"b2p3_003",de:"Fortschritte machen",target:"to make progress",lv:"B2",tp:"Kollokation",ty:"verb",phonetic:"/me\u026Ak \u02C8pr\u0259\u028A\u0261res/",example_de:"Wir machen gute Fortschritte.",example_target:"We are making good progress.",mod:"m3"},
+{id:"b2p3_004",de:"eine Entscheidung treffen",target:"to make a decision",lv:"B2",tp:"Kollokation",ty:"verb",phonetic:"/me\u026Ak \u0259 d\u026A\u02C8s\u026I\u0292n/",example_de:"Es ist Zeit, eine Entscheidung zu treffen.",example_target:"It is time to make a decision.",mod:"m3"},
+{id:"b2p3_005",de:"einen Punkt ansprechen",target:"to make a point",lv:"B2",tp:"Kollokation",ty:"verb",phonetic:"/me\u026Ak \u0259 p\u0254\u026Ant/",example_de:"Er sprach einen wichtigen Punkt an.",example_target:"He made an important point.",mod:"m3"},
+{id:"b2p3_006",de:"eine Chance nutzen",target:"to take an opportunity",lv:"B2",tp:"Kollokation",ty:"verb",phonetic:"/te\u026Ak \u0259n \u02CCpp\u0259\u02C8tju\u02D0n\u026Ati/",example_de:"Nutze diese Chance.",example_target:"Take this opportunity.",mod:"m3"},
+{id:"b2p3_007",de:"Verantwortung uebernehmen",target:"to take responsibility",lv:"B2",tp:"Kollokation",ty:"verb",phonetic:"/te\u026Ak r\u026I\u02CCsp\u0252ns\u0259\u02C8b\u026Il\u026Iti/",example_de:"Er uebernahm die volle Verantwortung.",example_target:"He took full responsibility.",mod:"m3"},
+{id:"b2p3_008",de:"eine Position einnehmen",target:"to take a stance",lv:"B2",tp:"Kollokation",ty:"verb",phonetic:"/te\u026Ak \u0259 st\u00E6ns/",example_de:"Sie nahm eine klare Position ein.",example_target:"She took a clear stance.",mod:"m3"},
+{id:"b2p3_009",de:"etwas ernst nehmen",target:"to take something seriously",lv:"B2",tp:"Kollokation",ty:"verb",phonetic:"/te\u026Ak \u02C8s\u026I\u0259r\u026I\u0259sli/",example_de:"Nimm das ernst.",example_target:"Take that seriously.",mod:"m3"},
+{id:"b2p3_010",de:"Ruecksicht nehmen",target:"to show consideration for",lv:"B2",tp:"Kollokation",ty:"verb",phonetic:"/\u0283\u0259\u028A k\u0259n\u02CCz\u026Id\u0259\u02C8re\u026I\u0283n/",example_de:"Bitte nehmen Sie Ruecksicht.",example_target:"Please show consideration.",mod:"m3"},
+{id:"b2p3_011",de:"eine Erklaerung liefern",target:"to give an explanation",lv:"B2",tp:"Kollokation",ty:"verb",phonetic:"/\u0261\u026Av \u0259n \u02CCekspln\u02C8e\u026I\u0283n/",example_de:"Er gab eine ausfuehrliche Erklaerung.",example_target:"He gave a detailed explanation.",mod:"m3"},
+{id:"b2p3_012",de:"Auskunft geben",target:"to give information",lv:"B2",tp:"Kollokation",ty:"verb",phonetic:"/\u0261\u026Av \u02CCInf\u0259\u02C8me\u026I\u0283n/",example_de:"Koennen Sie mir Auskunft geben?",example_target:"Can you give me some information?",mod:"m3"},
+{id:"b2p3_013",de:"Prioritaet einraeumen",target:"to give priority",lv:"B2",tp:"Kollokation",ty:"verb",phonetic:"/\u0261\u026Av pra\u026A\u02C8\u0252r\u026Iti/",example_de:"Das sollte Prioritaet haben.",example_target:"That should be given priority.",mod:"m3"},
+{id:"b2p3_014",de:"erlaeutern",target:"to elaborate on",lv:"B2",tp:"Akademisch",ty:"verb",phonetic:"/\u026A\u02C8l\u00E6b\u0259re\u026At \u0252n/",example_de:"Koennen Sie das naeher erlaeutern?",example_target:"Could you elaborate on that?",mod:"m3"},
+{id:"b2p3_015",de:"untermauern",target:"to substantiate / back up",lv:"B2",tp:"Akademisch",ty:"verb",phonetic:"/s\u0259b\u02C8st\u00E6n\u0283\u026Ie\u026At/",example_de:"Diese Behauptung muss untermauert werden.",example_target:"This claim needs to be substantiated.",mod:"m3"},
+{id:"b2p3_016",de:"herleiten",target:"to derive / deduce",lv:"B2",tp:"Akademisch",ty:"verb",phonetic:"/d\u026A\u02C8dju\u02D0s/",example_de:"Daraus laesst sich ableiten, dass…",example_target:"From this we can deduce that…",mod:"m3"},
+{id:"b2p3_017",de:"gegenueberstellen",target:"to contrast / juxtapose",lv:"B2",tp:"Akademisch",ty:"verb",phonetic:"/\u02CCd\u0292\u028Ckst\u0259\u02C8p\u0259\u028Az/",example_de:"Wir stellen beide Ansaetze gegenueber.",example_target:"We juxtapose both approaches.",mod:"m3"},
+{id:"b2p3_018",de:"zusammenfassen",target:"to summarise / wrap up",lv:"B2",tp:"Akademisch",ty:"verb",phonetic:"/\u02C8s\u028Cm\u0259ra\u026Az/",example_de:"Lassen Sie mich kurz zusammenfassen.",example_target:"Let me briefly summarise.",mod:"m3"},
+{id:"b2p3_019",de:"schlussendlich feststellen",target:"to conclude / establish",lv:"B2",tp:"Akademisch",ty:"verb",phonetic:"/k\u0259n\u02C8klu\u02D0d/",example_de:"Abschliessend laesst sich feststellen.",example_target:"In conclusion, it can be established.",mod:"m3"},
+{id:"b2p3_020",de:"in Frage kommen",target:"to be applicable / qualify",lv:"B2",tp:"Akademisch",ty:"verb",phonetic:"/\u02C8kw\u0252l\u026Ifa\u026A/",example_de:"Wer kommt fuer diese Stelle in Frage?",example_target:"Who qualifies for this position?",mod:"m3"},
+{id:"b2p3_021",de:"der Nachweis",target:"the evidence / proof",lv:"B2",tp:"Akademisch",ty:"noun",phonetic:"/\u02C8ev\u026Id\u0259ns/",example_de:"Es fehlt der Nachweis.",example_target:"The evidence is lacking.",mod:"m3"},
+{id:"b2p3_022",de:"die Grundlage",target:"the basis / foundation",lv:"B2",tp:"Akademisch",ty:"noun",phonetic:"/\u02C8be\u026Is\u026Is/",example_de:"Auf welcher Grundlage?",example_target:"On what basis?",mod:"m3"},
+{id:"b2p3_023",de:"der Zusammenhang",target:"the correlation / connection",lv:"B2",tp:"Akademisch",ty:"noun",phonetic:"/\u02CCk\u0254r\u0259\u02C8le\u026I\u0283n/",example_de:"Es besteht ein klarer Zusammenhang.",example_target:"There is a clear correlation.",mod:"m3"},
+{id:"b2p3_024",de:"die Tragweite",target:"the significance / implications",lv:"B2",tp:"Akademisch",ty:"noun",phonetic:"/s\u026A\u0261\u02C8n\u026Afi\u02Cck\u0259ns/",example_de:"Die Tragweite ist enorm.",example_target:"The implications are enormous.",mod:"m3"},
+{id:"b2p3_025",de:"der Stellenwert",target:"the importance / significance",lv:"B2",tp:"Akademisch",ty:"noun",phonetic:"/\u026Am\u02C8p\u0254\u02D0t\u0259ns/",example_de:"Das hat einen hohen Stellenwert.",example_target:"That is of great significance.",mod:"m3"},
+{id:"b2p3_026",de:"die Herangehensweise",target:"the approach / methodology",lv:"B2",tp:"Akademisch",ty:"noun",phonetic:"/m\u0259\u02C8\u03B8\u0252d\u0259l\u0259d\u0292i/",example_de:"Seine Herangehensweise ist interessant.",example_target:"His approach is interesting.",mod:"m3"},
+{id:"b2p3_027",de:"ankuendigen",target:"to announce / herald",lv:"B2",tp:"C1-Vorbereitung",ty:"verb",phonetic:"/\u0259\u02C8na\u028Ans/",example_de:"Er kuendigte Veraenderungen an.",example_target:"He announced changes.",mod:"m3"},
+{id:"b2p3_028",de:"zuschreiben",target:"to attribute to",lv:"B2",tp:"C1-Vorbereitung",ty:"verb",phonetic:"/\u0259\u02C8tr\u026Ibju\u02D0t t\u028A/",example_de:"Das wird ihm zugeschrieben.",example_target:"That is attributed to him.",mod:"m3"},
+{id:"b2p3_029",de:"entgegenwirken",target:"to counteract / offset",lv:"B2",tp:"C1-Vorbereitung",ty:"verb",phonetic:"/\u02C8ka\u028Ant\u0259r\u00E6kt/",example_de:"Wir muessen dem entgegenwirken.",example_target:"We need to counteract that.",mod:"m3"},
+{id:"b2p3_030",de:"beeinflussen",target:"to influence / shape",lv:"B2",tp:"C1-Vorbereitung",ty:"verb",phonetic:"/\u02C8\u026Influ\u0259ns/",example_de:"Das beeinflusst das Ergebnis.",example_target:"That shapes the outcome.",mod:"m3"},
+{id:"b2p3_031",de:"unterschaetzen",target:"to underestimate",lv:"B2",tp:"C1-Vorbereitung",ty:"verb",phonetic:"/\u02CCd\u0259\u02C8est\u026Ime\u026At/",example_de:"Unterschaetze das nicht.",example_target:"Don't underestimate that.",mod:"m3"},
+{id:"b2p3_032",de:"ueberschaetzen",target:"to overestimate",lv:"B2",tp:"C1-Vorbereitung",ty:"verb",phonetic:"/\u02CC\u0259\u028Av\u0259r\u02C8est\u026Ime\u026At/",example_de:"Er neigt dazu, sich zu ueberschaetzen.",example_target:"He tends to overestimate himself.",mod:"m3"},
+{id:"b2p3_033",de:"kennzeichnen",target:"to characterise / mark",lv:"B2",tp:"C1-Vorbereitung",ty:"verb",phonetic:"/\u02C8k\u00E6r\u026Ikt\u0259ra\u026Az/",example_de:"Was kennzeichnet diesen Ansatz?",example_target:"What characterises this approach?",mod:"m3"},
+{id:"b2p3_034",de:"verknuepfen",target:"to link / connect",lv:"B2",tp:"C1-Vorbereitung",ty:"verb",phonetic:"/l\u026I\u014Bk/",example_de:"Beide Themen sind eng verknuepft.",example_target:"Both topics are closely linked.",mod:"m3"},
+{id:"b2p3_035",de:"weitgehend",target:"largely / to a great extent",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/\u02C8l\u0251\u02D0d\u0292li/",example_de:"Das ist weitgehend richtig.",example_target:"That is largely correct.",mod:"m3"},
+{id:"b2p3_036",de:"zunehmend",target:"increasingly",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/\u026An\u02C8kri\u02D0s\u026I\u014Bli/",example_de:"Das wird zunehmend wichtig.",example_target:"That is becoming increasingly important.",mod:"m3"},
+{id:"b2p3_037",de:"vergleichsweise",target:"comparatively / relatively",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/k\u0259m\u02C8p\u00E6r\u0259t\u026Avli/",example_de:"Das ist vergleichsweise guenstig.",example_target:"That is comparatively cheap.",mod:"m3"},
+{id:"b2p3_038",de:"bedingt",target:"to a certain extent / conditionally",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/t\u028A \u0259 \u02C8s\u025C\u02D0tn \u026Ak\u02C8stent/",example_de:"Das stimmt nur bedingt.",example_target:"That is only true to a certain extent.",mod:"m3"},
+{id:"b2p3_039",de:"im Wesentlichen",target:"essentially / in essence",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/\u026A\u02C8sen\u0283\u0259li/",example_de:"Das ist im Wesentlichen korrekt.",example_target:"That is essentially correct.",mod:"m3"},
+{id:"b2p3_040",de:"vorwiegend",target:"predominantly / mainly",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/pr\u026A\u02C8d\u0252m\u026In\u0259ntli/",example_de:"Das ist vorwiegend ein Missverstaendnis.",example_target:"That is predominantly a misunderstanding.",mod:"m3"},
+{id:"b2p3_041",de:"vielschichtig",target:"multifaceted / complex",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/\u02CCm\u028Clti\u02C8fe\u026As\u026Atid/",example_de:"Das Thema ist vielschichtig.",example_target:"The topic is multifaceted.",mod:"m3"},
+{id:"b2p3_042",de:"treffend",target:"apt / to the point",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/\u00E6pt/",example_de:"Das ist eine treffende Bemerkung.",example_target:"That is an apt remark.",mod:"m3"},
+{id:"b2p3_043",de:"in Erwaegung ziehen",target:"to consider / contemplate",lv:"B2",tp:"Formell",ty:"verb",phonetic:"/k\u0259n\u02C8s\u026Id\u0259/",example_de:"Wir ziehen das in Erwaegung.",example_target:"We are considering that.",mod:"m3"},
+{id:"b2p3_044",de:"sich vorbehalten",target:"to reserve the right",lv:"B2",tp:"Formell",ty:"verb",phonetic:"/r\u026A\u02C8z\u025C\u02D0v \u03B0\u0259 ra\u026At/",example_de:"Wir behalten uns das Recht vor.",example_target:"We reserve the right.",mod:"m3"},
+{id:"b2p3_045",de:"sich beziehen auf",target:"to refer to / with reference to",lv:"B2",tp:"Formell",ty:"verb",phonetic:"/r\u026A\u02C8f\u025C\u02D0 t\u028A/",example_de:"Ich beziehe mich auf Ihr Schreiben.",example_target:"I refer to your letter.",mod:"m3"},
+{id:"b2p3_046",de:"in Anbetracht",target:"in view of / considering",lv:"B2",tp:"Formell",ty:"adv",phonetic:"/\u026An vju\u02D0 \u0252v/",example_de:"In Anbetracht der Umstaende.",example_target:"In view of the circumstances.",mod:"m3"},
+{id:"b2p3_047",de:"vorbehaltlich",target:"subject to",lv:"B2",tp:"Formell",ty:"adv",phonetic:"/\u02C8s\u028Cbd\u0292\u026Ikt t\u028A/",example_de:"Vorbehaltlich Ihrer Zustimmung.",example_target:"Subject to your approval.",mod:"m3"},
+{id:"b2p3_048",de:"unverzueglich",target:"without delay / promptly",lv:"B2",tp:"Formell",ty:"adv",phonetic:"/w\u026I\u02C8\u03B0a\u028At d\u026A\u02C8le\u026A/",example_de:"Bitte handeln Sie unverzueglich.",example_target:"Please act without delay.",mod:"m3"},
+{id:"b2p3_049",de:"massgebend",target:"authoritative / definitive",lv:"B2",tp:"Formell",ty:"adj",phonetic:"/\u0254\u02D0\u02C8\u03B8\u0252r\u026Ite\u026Atv/",example_de:"Das ist die massgebende Version.",example_target:"That is the authoritative version.",mod:"m3"},
+{id:"b2p3_050",de:"verbindlich",target:"binding / definitive",lv:"B2",tp:"Formell",ty:"adj",phonetic:"/\u02C8ba\u026And\u026I\u014B/",example_de:"Das ist verbindlich.",example_target:"That is binding.",mod:"m3"},
+{id:"b2p3_051",de:"hiermit bestaetigen",target:"to hereby confirm",lv:"B2",tp:"Formell",ty:"verb",phonetic:"/h\u026A\u02C8ba\u026A k\u0259n\u02C8f\u025C\u02D0m/",example_de:"Ich bestatige hiermit die Buchung.",example_target:"I hereby confirm the booking.",mod:"m3"},
+{id:"b2p3_052",de:"auf Anhieb",target:"straight away / at once",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/stre\u026At \u0259\u02C8we\u026A/",example_de:"Das hat er auf Anhieb verstanden.",example_target:"He understood that straight away.",mod:"m3"},
+{id:"b2p3_053",de:"einhergehen mit",target:"to go hand in hand with",lv:"B2",tp:"Idiome",ty:"verb",phonetic:"/\u0261\u0259\u028A h\u00E6nd \u026An h\u00E6nd/",example_de:"Macht geht mit Verantwortung einher.",example_target:"Power goes hand in hand with responsibility.",mod:"m3"},
+{id:"b2p3_054",de:"sich ergeben aus",target:"to result from / follow from",lv:"B2",tp:"Idiome",ty:"verb",phonetic:"/r\u026A\u02C8z\u028Clt fr\u0252m/",example_de:"Das ergibt sich aus der Logik.",example_target:"That results from the logic.",mod:"m3"},
+{id:"b2p3_055",de:"festhalten an",target:"to stick to / adhere to",lv:"B2",tp:"Idiome",ty:"verb",phonetic:"/st\u026Ik t\u028A/",example_de:"Er haelt an seiner Meinung fest.",example_target:"He sticks to his opinion.",mod:"m3"},
+{id:"b2p3_056",de:"nahe legen",target:"to suggest / imply",lv:"B2",tp:"Idiome",ty:"verb",phonetic:"/\u026Am\u02C8pla\u026A/",example_de:"Das legt nahe, dass…",example_target:"That implies that…",mod:"m3"},
+{id:"b2p3_057",de:"sich durchsetzen",target:"to prevail / assert oneself",lv:"B2",tp:"Idiome",ty:"verb",phonetic:"/pr\u026A\u02C8ve\u026Al/",example_de:"Am Ende setzte er sich durch.",example_target:"In the end he prevailed.",mod:"m3"},
+{id:"b2p3_058",de:"zur Verfuegung stehen",target:"to be available",lv:"B2",tp:"Idiome",ty:"verb",phonetic:"/bi \u0259\u02C8ve\u026Il\u0259bl/",example_de:"Ich stehe zur Verfuegung.",example_target:"I am available.",mod:"m3"},
+{id:"b2p3_059",de:"in Anspruch nehmen",target:"to make use of / take up",lv:"B2",tp:"Idiome",ty:"verb",phonetic:"/te\u026Ak \u028Cp/",example_de:"Das nimmt viel Zeit in Anspruch.",example_target:"That takes up a lot of time.",mod:"m3"},
+{id:"b2p3_060",de:"uebereinstimmen mit",target:"to be consistent with / match",lv:"B2",tp:"Idiome",ty:"verb",phonetic:"/bi k\u0259n\u02C8s\u026Ist\u0259nt w\u026I\u03B0/",example_de:"Das stimmt nicht ueberein.",example_target:"That is not consistent.",mod:"m3"}
+];
+
+// ── B2 PHASE 4 (m4) – Phrasal Verbs, Diskurs, Register ───────────────────
+var V4=[
+{id:"b2p4_001",de:"aufgeben (Gewohnheit)",target:"to give up",lv:"B2",tp:"Phrasal Verb",ty:"verb",phonetic:"/\u0261\u026Av \u028Cp/",example_de:"Er hat das Rauchen aufgegeben.",example_target:"He gave up smoking.",mod:"m4"},
+{id:"b2p4_002",de:"herausfinden",target:"to find out",lv:"B2",tp:"Phrasal Verb",ty:"verb",phonetic:"/fa\u026And a\u028At/",example_de:"Ich werde es herausfinden.",example_target:"I will find out.",mod:"m4"},
+{id:"b2p4_003",de:"nachschlagen",target:"to look up",lv:"B2",tp:"Phrasal Verb",ty:"verb",phonetic:"/l\u028Ak \u028Cp/",example_de:"Schlag das Wort nach.",example_target:"Look up the word.",mod:"m4"},
+{id:"b2p4_004",de:"verschieben",target:"to put off / postpone",lv:"B2",tp:"Phrasal Verb",ty:"verb",phonetic:"/p\u028At \u0252f/",example_de:"Wir muessen das Treffen verschieben.",example_target:"We need to put off the meeting.",mod:"m4"},
+{id:"b2p4_005",de:"aufholen",target:"to catch up",lv:"B2",tp:"Phrasal Verb",ty:"verb",phonetic:"/k\u00E6t\u0283 \u028Cp/",example_de:"Ich muss aufholen.",example_target:"I need to catch up.",mod:"m4"},
+{id:"b2p4_006",de:"aufpassen auf",target:"to look out for / watch out",lv:"B2",tp:"Phrasal Verb",ty:"verb",phonetic:"/l\u028Ak a\u028At f\u0254\u02D0/",example_de:"Pass auf dich auf.",example_target:"Look out for yourself.",mod:"m4"},
+{id:"b2p4_007",de:"sich anmelden",target:"to sign up",lv:"B2",tp:"Phrasal Verb",ty:"verb",phonetic:"/sa\u026An \u028Cp/",example_de:"Melde dich fuer den Kurs an.",example_target:"Sign up for the course.",mod:"m4"},
+{id:"b2p4_008",de:"aufstehen fuer",target:"to stand up for",lv:"B2",tp:"Phrasal Verb",ty:"verb",phonetic:"/st\u00E6nd \u028Cp f\u0254\u02D0/",example_de:"Steh fuer deine Rechte ein.",example_target:"Stand up for your rights.",mod:"m4"},
+{id:"b2p4_009",de:"durchhalten",target:"to carry on / keep going",lv:"B2",tp:"Phrasal Verb",ty:"verb",phonetic:"/\u02C8k\u00E6ri \u0252n/",example_de:"Mach weiter so.",example_target:"Carry on like this.",mod:"m4"},
+{id:"b2p4_010",de:"sich herausstellen",target:"to turn out",lv:"B2",tp:"Phrasal Verb",ty:"verb",phonetic:"/t\u025C\u02D0n a\u028At/",example_de:"Es stellte sich heraus, dass…",example_target:"It turned out that…",mod:"m4"},
+{id:"b2p4_011",de:"zunehmen",target:"to go up / increase",lv:"B2",tp:"Phrasal Verb",ty:"verb",phonetic:"/\u0261\u0259\u028A \u028Cp/",example_de:"Die Preise nehmen zu.",example_target:"Prices are going up.",mod:"m4"},
+{id:"b2p4_012",de:"abnehmen",target:"to go down / decrease",lv:"B2",tp:"Phrasal Verb",ty:"verb",phonetic:"/\u0261\u0259\u028A da\u028An/",example_de:"Die Zahlen nehmen ab.",example_target:"The numbers are going down.",mod:"m4"},
+{id:"b2p4_013",de:"ueberdenken",target:"to think over / reconsider",lv:"B2",tp:"Phrasal Verb",ty:"verb",phonetic:"/\u03B8\u026I\u014Bk \u02C8\u0259\u028Av\u0259/",example_de:"Denk das nochmal ueber.",example_target:"Think that over.",mod:"m4"},
+{id:"b2p4_014",de:"zusammenbrechen",target:"to break down",lv:"B2",tp:"Phrasal Verb",ty:"verb",phonetic:"/bre\u026Ak da\u028An/",example_de:"Die Verhandlungen brachen zusammen.",example_target:"The negotiations broke down.",mod:"m4"},
+{id:"b2p4_015",de:"sich einigen",target:"to come to an agreement",lv:"B2",tp:"Phrasal Verb",ty:"verb",phonetic:"/k\u028Am t\u028A \u0259n \u0259\u02C8\u0261ri\u02D0m\u0259nt/",example_de:"Wir kamen zu einer Einigung.",example_target:"We came to an agreement.",mod:"m4"},
+{id:"b2p4_016",de:"andererseits",target:"on the other hand",lv:"B2",tp:"Diskurs",ty:"adv",phonetic:"/\u0252n \u03B0i \u02C8\u028C\u03B0\u0259 h\u00E6nd/",example_de:"Andererseits hat er recht.",example_target:"On the other hand, he is right.",mod:"m4"},
+{id:"b2p4_017",de:"abschliessend",target:"in conclusion / finally",lv:"B2",tp:"Diskurs",ty:"adv",phonetic:"/\u026An k\u0259n\u02C8klu\u02D0\u0292n/",example_de:"Abschliessend laesst sich sagen…",example_target:"In conclusion, it can be said…",mod:"m4"},
+{id:"b2p4_018",de:"darueber hinaus",target:"furthermore / moreover",lv:"B2",tp:"Diskurs",ty:"adv",phonetic:"/\u02C8f\u025C\u02D0\u03B0\u0259m\u0254\u02D0/",example_de:"Darueber hinaus ist es guenstiger.",example_target:"Furthermore, it is cheaper.",mod:"m4"},
+{id:"b2p4_019",de:"mit anderen Worten",target:"in other words",lv:"B2",tp:"Diskurs",ty:"adv",phonetic:"/\u026An \u02C8\u028C\u03B0\u0259 w\u025C\u02D0dz/",example_de:"Mit anderen Worten: Nein.",example_target:"In other words: No.",mod:"m4"},
+{id:"b2p4_020",de:"demgegenueber",target:"in contrast / conversely",lv:"B2",tp:"Diskurs",ty:"adv",phonetic:"/\u026An \u02C8k\u0252ntr\u0251\u02D0st/",example_de:"Demgegenueber steht die Tatsache.",example_target:"In contrast, there is the fact.",mod:"m4"},
+{id:"b2p4_021",de:"infolgedessen",target:"as a result / consequently",lv:"B2",tp:"Diskurs",ty:"adv",phonetic:"/\u00E6z \u0259 r\u026A\u02C8z\u028Clt/",example_de:"Infolgedessen mussten wir handeln.",example_target:"As a result, we had to act.",mod:"m4"},
+{id:"b2p4_022",de:"nichtsdestoweniger",target:"nevertheless",lv:"B2",tp:"Diskurs",ty:"adv",phonetic:"/\u02CCnev\u0259\u03B0\u0259\u02C8les/",example_de:"Nichtsdestoweniger versuchen wir es.",example_target:"Nevertheless, we try.",mod:"m4"},
+{id:"b2p4_023",de:"insbesondere",target:"in particular / especially",lv:"B2",tp:"Diskurs",ty:"adv",phonetic:"/\u026An p\u0259\u02C8t\u026Ikjul\u0259/",example_de:"Insbesondere gilt das fuer…",example_target:"In particular, this applies to…",mod:"m4"},
+{id:"b2p4_024",de:"wie bereits erwaehnt",target:"as mentioned / as noted",lv:"B2",tp:"Diskurs",ty:"adv",phonetic:"/\u00E6z \u02C8men\u0283\u0259nd/",example_de:"Wie bereits erwaehnt, ist das wichtig.",example_target:"As mentioned, that is important.",mod:"m4"},
+{id:"b2p4_025",de:"bezeichnend",target:"notably / significantly",lv:"B2",tp:"Diskurs",ty:"adv",phonetic:"/\u02C8n\u0259\u028Atabli/",example_de:"Bezeichnend ist dabei, dass…",example_target:"Notably, the fact is that…",mod:"m4"},
+{id:"b2p4_026",de:"in Anbetracht dessen",target:"in light of this",lv:"B2",tp:"Register",ty:"adv",phonetic:"/\u026An la\u026At \u0252v \u03B0\u026Is/",example_de:"In Anbetracht dessen schlage ich vor.",example_target:"In light of this, I suggest.",mod:"m4"},
+{id:"b2p4_027",de:"es sei darauf hingewiesen",target:"it should be noted that",lv:"B2",tp:"Register",ty:"phrase",phonetic:"/\u026At \u0283\u028Ad bi \u02C8n\u0259\u028Atid/",example_de:"Es sei darauf hingewiesen, dass…",example_target:"It should be noted that…",mod:"m4"},
+{id:"b2p4_028",de:"vorbehaltlich weiterer Pruefung",target:"subject to further review",lv:"B2",tp:"Register",ty:"adv",phonetic:"/\u02C8s\u028Cbd\u0292\u026Ikt t\u028A \u02C8f\u025C\u02D0\u03B0\u0259 r\u026A\u02C8vju\u02D0/",example_de:"Vorbehaltlich weiterer Pruefung.",example_target:"Subject to further review.",mod:"m4"},
+{id:"b2p4_029",de:"in diesem Zusammenhang",target:"in this context",lv:"B2",tp:"Register",ty:"adv",phonetic:"/\u026An \u03B0\u026Is \u02C8k\u0252ntekst/",example_de:"In diesem Zusammenhang ist wichtig…",example_target:"In this context, it is important…",mod:"m4"},
+{id:"b2p4_030",de:"es ergibt sich daraus",target:"it follows from this",lv:"B2",tp:"Register",ty:"phrase",phonetic:"/\u026At \u02C8f\u0252l\u0259\u028Az fr\u0252m \u03B0\u026Is/",example_de:"Es ergibt sich daraus, dass…",example_target:"It follows from this that…",mod:"m4"},
+{id:"b2p4_031",de:"unverhaeltnismaessig",target:"disproportionate",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/\u02CCd\u026Isp r\u0259\u02C8p\u0254\u02D0\u0283\u0259n\u0259t/",example_de:"Das ist unverhaeltnismaessig hoch.",example_target:"That is disproportionately high.",mod:"m4"},
+{id:"b2p4_032",de:"unvermeidbar",target:"inevitable",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/\u026An\u02C8ev\u026It\u0259bl/",example_de:"Das ist unvermeidbar.",example_target:"That is inevitable.",mod:"m4"},
+{id:"b2p4_033",de:"undurchfuehrbar",target:"unfeasible",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/\u028Cn\u02C8fi\u02D0z\u026Ibl/",example_de:"Das ist undurchfuehrbar.",example_target:"That is unfeasible.",mod:"m4"},
+{id:"b2p4_034",de:"zweideutig",target:"ambiguous",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/\u00E6m\u02C8b\u026I\u0261ju\u0259s/",example_de:"Die Aussage ist zweideutig.",example_target:"The statement is ambiguous.",mod:"m4"},
+{id:"b2p4_035",de:"eindeutig",target:"unambiguous / clear-cut",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/\u028Cn\u00E6m\u02C8b\u026I\u0261ju\u0259s/",example_de:"Das ist eindeutig.",example_target:"That is unambiguous.",mod:"m4"},
+{id:"b2p4_036",de:"aufwendig",target:"elaborate / costly",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/\u026A\u02C8l\u00E6b\u0259r\u026It/",example_de:"Das ist sehr aufwendig.",example_target:"That is very elaborate.",mod:"m4"},
+{id:"b2p4_037",de:"betraechtlich",target:"considerable / substantial",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/k\u0259n\u02C8s\u026Id\u0259r\u0259bl/",example_de:"Das ist ein betraechtlicher Aufwand.",example_target:"That is a considerable effort.",mod:"m4"},
+{id:"b2p4_038",de:"massvoll",target:"measured / moderate",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/\u02C8me\u0292\u0259d/",example_de:"Er reagierte sehr massvoll.",example_target:"He reacted very moderately.",mod:"m4"},
+{id:"b2p4_039",de:"in Kraft treten",target:"to come into effect",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/k\u028Am \u02C8\u026Int\u028A \u026A\u02C8fekt/",example_de:"Das Gesetz tritt in Kraft.",example_target:"The law comes into effect.",mod:"m4"},
+{id:"b2p4_040",de:"ausser Kraft setzen",target:"to override / repeal",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/\u02CC\u0259\u028Av\u0259\u02C8ra\u026Ad/",example_de:"Das setzt die Regel ausser Kraft.",example_target:"That overrides the rule.",mod:"m4"},
+{id:"b2p4_041",de:"in Angriff nehmen",target:"to tackle / address",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/\u02C8t\u00E6kl/",example_de:"Wir nehmen das Problem in Angriff.",example_target:"We tackle the problem.",mod:"m4"},
+{id:"b2p4_042",de:"in Kauf nehmen",target:"to accept / put up with",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/\u0259k\u02C8sept/",example_de:"Das nehmen wir in Kauf.",example_target:"We accept that.",mod:"m4"},
+{id:"b2p4_043",de:"zur Kenntnis nehmen",target:"to take note of",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/te\u026Ak n\u0259\u028At \u0252v/",example_de:"Bitte nehmen Sie das zur Kenntnis.",example_target:"Please take note of that.",mod:"m4"},
+{id:"b2p4_044",de:"in Zweifel ziehen",target:"to call into question",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/k\u0254\u02D0l \u02C8\u026Int\u028A \u02C8kwest\u0283\u0259n/",example_de:"Das zieht seine Glaubwuerdigkeit in Zweifel.",example_target:"That calls his credibility into question.",mod:"m4"},
+{id:"b2p4_045",de:"zur Sprache kommen",target:"to come up / be raised",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/k\u028Am \u028Cp/",example_de:"Das Thema kam zur Sprache.",example_target:"The topic came up.",mod:"m4"},
+{id:"b2p4_046",de:"aufrechterhalten",target:"to maintain / uphold",lv:"B2",tp:"Verben",ty:"verb",phonetic:"/me\u026An\u02C8te\u026An/",example_de:"Das muss aufrechterhalten werden.",example_target:"That must be maintained.",mod:"m4"},
+{id:"b2p4_047",de:"die Massnahme",target:"the measure",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/\u02C8me\u0292\u0259/",example_de:"Welche Massnahmen ergreifen wir?",example_target:"What measures do we take?",mod:"m4"},
+{id:"b2p4_048",de:"die Auflage",target:"the condition / requirement",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/k\u0259n\u02C8d\u026I\u0283n/",example_de:"Unter der Auflage, dass…",example_target:"On the condition that…",mod:"m4"},
+{id:"b2p4_049",de:"der Vorzug",target:"the preference / advantage",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/\u02C8pref\u0259r\u0259ns/",example_de:"Den Vorzug geben wir…",example_target:"We give preference to…",mod:"m4"},
+{id:"b2p4_050",de:"die Tragfaehigkeit",target:"the viability",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/\u02CCva\u026I\u0259\u02C8b\u026Il\u026Iti/",example_de:"Die Tragfaehigkeit ist fraglich.",example_target:"The viability is questionable.",mod:"m4"},
+{id:"b2p4_051",de:"der Handlungsbedarf",target:"the need for action",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/ni\u02D0d f\u0254\u02D0 \u02C8\u00E6k\u0283n/",example_de:"Es besteht dringender Handlungsbedarf.",example_target:"There is an urgent need for action.",mod:"m4"},
+{id:"b2p4_052",de:"der Ermessensspielraum",target:"the discretion",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/d\u026A\u02C8skre\u0283n/",example_de:"Das liegt in Ihrem Ermessensspielraum.",example_target:"That is at your discretion.",mod:"m4"},
+{id:"b2p4_053",de:"die Abhaengigkeit",target:"the dependency",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/d\u026A\u02C8pend\u0259nsi/",example_de:"Es besteht eine Abhaengigkeit.",example_target:"There is a dependency.",mod:"m4"},
+{id:"b2p4_054",de:"der Anknuepfungspunkt",target:"the point of reference",lv:"B2",tp:"Nomen",ty:"noun",phonetic:"/p\u0254\u026Ant \u0252v \u02C8refr\u0259ns/",example_de:"Das ist ein guter Anknuepfungspunkt.",example_target:"That is a good point of reference.",mod:"m4"},
+{id:"b2p4_055",de:"einschraenkend",target:"restrictive",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/r\u026A\u02C8str\u026Ikt\u026Av/",example_de:"Das ist eine einschraenkende Regelung.",example_target:"That is a restrictive regulation.",mod:"m4"},
+{id:"b2p4_056",de:"naheliegend",target:"obvious / straightforward",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/\u02C8\u0252bvi\u0259s/",example_de:"Das ist naheliegend.",example_target:"That is obvious.",mod:"m4"},
+{id:"b2p4_057",de:"zweifelhaft",target:"questionable / dubious",lv:"B2",tp:"Adj",ty:"adj",phonetic:"/\u02C8kwest\u0283\u0259n\u0259bl/",example_de:"Das ist zweifelhaft.",example_target:"That is questionable.",mod:"m4"},
+{id:"b2p4_058",de:"sinngemass",target:"in essence / broadly",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/\u026An \u02C8esns/",example_de:"Sinngemass sagte er das.",example_target:"In essence, he said that.",mod:"m4"},
+{id:"b2p4_059",de:"mit Ausnahme von",target:"with the exception of",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/w\u026I\u03B0 \u03B0i \u026Ak\u02C8sep\u0283n \u0252v/",example_de:"Mit Ausnahme von dir.",example_target:"With the exception of you.",mod:"m4"},
+{id:"b2p4_060",de:"im Zuge von",target:"in the course of / as a result of",lv:"B2",tp:"Adv",ty:"adv",phonetic:"/\u026An \u03B0\u0259 k\u0254\u02D0s \u0252v/",example_de:"Im Zuge der Verhandlungen.",example_target:"In the course of the negotiations.",mod:"m4"}
+];
+// ── C1 PHASE 1 (m5) – Nuancen & abstrakte Konzepte ───────────────────────
+var V5=[
+{id:"c1p1_001",de:"einraeumen",target:"to concede",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/k\u0259n\u02C8si\u02D0d/",example_de:"Er raeumte seinen Fehler ein.",example_target:"He conceded his mistake.",mod:"m5"},
+{id:"c1p1_002",de:"hinterfragen",target:"to scrutinise",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u02C8skru\u02D0t\u026Ina\u026Az/",example_de:"Man sollte das hinterfragen.",example_target:"One should scrutinise that.",mod:"m5"},
+{id:"c1p1_003",de:"verharmlosen",target:"to trivialise",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u02C8tr\u026Avi\u0259la\u026Az/",example_de:"Das darf man nicht verharmlosen.",example_target:"One must not trivialise that.",mod:"m5"},
+{id:"c1p1_004",de:"bewaeltigen",target:"to overcome",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u02CC\u0259\u028Av\u0259\u02C8k\u028Cm/",example_de:"Sie bewaeltigte die Herausforderung.",example_target:"She overcame the challenge.",mod:"m5"},
+{id:"c1p1_005",de:"praegen",target:"to shape / define",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u0283e\u026Ap/",example_de:"Das hat seine Persoenlichkeit gepraegt.",example_target:"That shaped his personality.",mod:"m5"},
+{id:"c1p1_006",de:"verschaerfen",target:"to exacerbate",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u026A\u0261\u02C8z\u00E6s\u0259be\u026At/",example_de:"Das verschaerft das Problem.",example_target:"That exacerbates the problem.",mod:"m5"},
+{id:"c1p1_007",de:"widerspiegeln",target:"to reflect",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/r\u026A\u02C8flekt/",example_de:"Das spiegelt die Realitaet wider.",example_target:"That reflects reality.",mod:"m5"},
+{id:"c1p1_008",de:"abfedern",target:"to cushion / mitigate",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u02C8m\u026It\u026I\u0261e\u026At/",example_de:"Die Auswirkungen wurden abgefedert.",example_target:"The effects were mitigated.",mod:"m5"},
+{id:"c1p1_009",de:"einbetten",target:"to embed",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u026Am\u02C8bed/",example_de:"Das ist tief eingebettet.",example_target:"That is deeply embedded.",mod:"m5"},
+{id:"c1p1_010",de:"zuspitzen",target:"to come to a head",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/k\u028Am t\u028A \u0259 hed/",example_de:"Die Lage spitzt sich zu.",example_target:"The situation is coming to a head.",mod:"m5"},
+{id:"c1p1_011",de:"entfalten",target:"to unfold / develop",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u028Cn\u02C8f\u0259\u028Ald/",example_de:"Das Potenzial entfaltet sich.",example_target:"The potential is unfolding.",mod:"m5"},
+{id:"c1p1_012",de:"anknuepfen an",target:"to build on",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/b\u026Ild \u0252n/",example_de:"Wir knoepfen an frueheren Ergebnissen an.",example_target:"We build on earlier results.",mod:"m5"},
+{id:"c1p1_013",de:"anmahnen",target:"to urge / call for",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/k\u0254\u02D0l f\u0254\u02D0/",example_de:"Er mahnte mehr Transparenz an.",example_target:"He called for more transparency.",mod:"m5"},
+{id:"c1p1_014",de:"durchdringen",target:"to permeate",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u02C8p\u025C\u02D0mie\u026At/",example_de:"Das Thema durchdringt alles.",example_target:"The topic permeates everything.",mod:"m5"},
+{id:"c1p1_015",de:"die Ambivalenz",target:"the ambivalence",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u00E6m\u02C8b\u026Av\u0259l\u0259ns/",example_de:"Er empfindet eine gewisse Ambivalenz.",example_target:"He feels a certain ambivalence.",mod:"m5"},
+{id:"c1p1_016",de:"das Paradoxon",target:"the paradox",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u02C8p\u00E6r\u0259d\u0252ks/",example_de:"Das ist ein interessantes Paradoxon.",example_target:"That is an interesting paradox.",mod:"m5"},
+{id:"c1p1_017",de:"die Nuance",target:"the nuance",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u02C8nju\u02D0\u0251\u02D0ns/",example_de:"Das erfordert ein Gespuer fuer Nuancen.",example_target:"That requires a feel for nuance.",mod:"m5"},
+{id:"c1p1_018",de:"das Dilemma",target:"the dilemma",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/d\u026A\u02C8lem\u0259/",example_de:"Wir stehen vor einem echten Dilemma.",example_target:"We face a genuine dilemma.",mod:"m5"},
+{id:"c1p1_019",de:"die Praemisse",target:"the premise",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u02C8prem\u026Is/",example_de:"Die Praemisse ist fragwuerdig.",example_target:"The premise is questionable.",mod:"m5"},
+{id:"c1p1_020",de:"der Konsens",target:"the consensus",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/k\u0259n\u02C8sens\u0259s/",example_de:"Es besteht ein breiter Konsens.",example_target:"There is a broad consensus.",mod:"m5"},
+{id:"c1p1_021",de:"die Diskrepanz",target:"the discrepancy",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/d\u026A\u02C8skrep\u0259nsi/",example_de:"Es gibt eine deutliche Diskrepanz.",example_target:"There is a clear discrepancy.",mod:"m5"},
+{id:"c1p1_022",de:"der Paradigmenwechsel",target:"the paradigm shift",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u02C8p\u00E6r\u0259da\u026Am \u0283\u026Ift/",example_de:"Das ist ein echter Paradigmenwechsel.",example_target:"That is a genuine paradigm shift.",mod:"m5"},
+{id:"c1p1_023",de:"die Abwaegung",target:"the trade-off",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u02C8tre\u026Ad \u0252f/",example_de:"Das ist eine schwierige Abwaegung.",example_target:"That is a difficult trade-off.",mod:"m5"},
+{id:"c1p1_024",de:"der Vorbehalt",target:"the reservation / caveat",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u02CCkev\u026I\u00E6t/",example_de:"Ich habe einige Vorbehalte.",example_target:"I have some reservations.",mod:"m5"},
+{id:"c1p1_025",de:"die Verflechtung",target:"the interconnection",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u02CCint\u0259k\u0259\u02C8nek\u0283n/",example_de:"Die Verflechtungen sind komplex.",example_target:"The interconnections are complex.",mod:"m5"},
+{id:"c1p1_026",de:"die Stringenz",target:"the rigour",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u02C8r\u026I\u0261\u0259/",example_de:"Die Argumentation braucht mehr Stringenz.",example_target:"The argument needs more rigour.",mod:"m5"},
+{id:"c1p1_027",de:"die Implikation",target:"the implication",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u02CCImplik\u02C8e\u026I\u0283n/",example_de:"Welche Implikationen hat das?",example_target:"What are the implications of that?",mod:"m5"},
+{id:"c1p1_028",de:"bahnbrechend",target:"pioneering / landmark",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/\u02C8pa\u026I\u0259n\u026I\u0259r\u026I\u014B/",example_de:"Das war eine bahnbrechende Entdeckung.",example_target:"That was a pioneering discovery.",mod:"m5"},
+{id:"c1p1_029",de:"wegweisend",target:"path-breaking / groundbreaking",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/\u02C8\u0261ra\u028Andbr e\u026Ak\u026I\u014B/",example_de:"Das ist eine wegweisende Entscheidung.",example_target:"That is a groundbreaking decision.",mod:"m5"},
+{id:"c1p1_030",de:"fadenscheinig",target:"flimsy",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/\u02C8fl\u026Imzi/",example_de:"Das ist ein fadenscheiniges Argument.",example_target:"That is a flimsy argument.",mod:"m5"},
+{id:"c1p1_031",de:"wagemutig",target:"audacious",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/\u0254\u02C8de\u026I\u0283\u0259s/",example_de:"Das war eine wagemutige Entscheidung.",example_target:"That was an audacious decision.",mod:"m5"},
+{id:"c1p1_032",de:"einschlaegig",target:"pertinent / relevant",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/\u02C8p\u025C\u02D0tin\u0259nt/",example_de:"Das ist einschlaegige Erfahrung.",example_target:"That is pertinent experience.",mod:"m5"},
+{id:"c1p1_033",de:"zwiespaetig",target:"ambivalent / conflicted",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/\u00E6m\u02C8b\u026Av\u0259l\u0259nt/",example_de:"Ich bin zwiespaetig.",example_target:"I feel ambivalent.",mod:"m5"},
+{id:"c1p1_034",de:"unbestreitbar",target:"undeniable",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/\u02CCd\u026A\u02C8na\u026I\u0259bl/",example_de:"Das ist unbestreitbar richtig.",example_target:"That is undeniably correct.",mod:"m5"},
+{id:"c1p1_035",de:"stringent",target:"rigorous",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/\u02C8r\u026I\u0261\u0259r\u0259s/",example_de:"Die Analyse ist sehr stringent.",example_target:"The analysis is very rigorous.",mod:"m5"},
+{id:"c1p1_036",de:"im Nachhinein",target:"in hindsight",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/\u026An \u02C8ha\u026Inds a\u026At/",example_de:"Im Nachhinein war das falsch.",example_target:"In hindsight that was wrong.",mod:"m5"},
+{id:"c1p1_037",de:"nichtsdestotrotz",target:"nonetheless",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/\u02CCn\u028Cn\u0259\u03B0\u0259\u02C8les/",example_de:"Nichtsdestotrotz hat er recht.",example_target:"Nonetheless he is right.",mod:"m5"},
+{id:"c1p1_038",de:"bezeichnenderweise",target:"tellingly / significantly",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/\u02C8tel\u026I\u014Bli/",example_de:"Bezeichnenderweise hat er geschwiegen.",example_target:"Tellingly, he remained silent.",mod:"m5"},
+{id:"c1p1_039",de:"allem Anschein nach",target:"apparently / seemingly",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/\u0259\u02C8p\u00E6r\u0259ntli/",example_de:"Allem Anschein nach hat er recht.",example_target:"Apparently he is right.",mod:"m5"},
+{id:"c1p1_040",de:"zu Recht",target:"rightly / justifiably",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/\u02C8ra\u026Atli/",example_de:"Er kritisiert das zu Recht.",example_target:"He rightly criticises that.",mod:"m5"},
+{id:"c1p1_041",de:"nach wie vor",target:"still / as ever",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/st\u026Ill/",example_de:"Das ist nach wie vor relevant.",example_target:"That is still relevant.",mod:"m5"},
+{id:"c1p1_042",de:"unter Umstaenden",target:"under certain circumstances",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/\u02C8s\u025C\u02D0tn \u02C8s\u025C\u02D0k\u0259mst\u0259nsiz/",example_de:"Das koennte unter Umstaenden klappen.",example_target:"That could work under certain circumstances.",mod:"m5"},
+{id:"c1p1_043",de:"auf den Punkt gebracht",target:"in a nutshell",lv:"C1",tp:"Idiome",ty:"adv",phonetic:"/\u026An \u0259 \u02C8n\u028Ct\u0283el/",example_de:"Auf den Punkt gebracht: Nein.",example_target:"In a nutshell: No.",mod:"m5"},
+{id:"c1p1_044",de:"mit Blick auf",target:"with a view to",lv:"C1",tp:"Idiome",ty:"adv",phonetic:"/w\u026I\u03B0 \u0259 vju\u02D0 t\u028A/",example_de:"Mit Blick auf die Zukunft.",example_target:"With a view to the future.",mod:"m5"},
+{id:"c1p1_045",de:"den Ausschlag geben",target:"to tip the balance",lv:"C1",tp:"Idiome",ty:"verb",phonetic:"/t\u026Ip \u03B0\u0259 \u02C8b\u00E6l\u0259ns/",example_de:"Das gab letztlich den Ausschlag.",example_target:"That ultimately tipped the balance.",mod:"m5"},
+{id:"c1p1_046",de:"ins Gewicht fallen",target:"to carry weight / matter",lv:"C1",tp:"Idiome",ty:"verb",phonetic:"/\u02C8k\u00E6ri we\u026At/",example_de:"Das faellt kaum ins Gewicht.",example_target:"That hardly carries any weight.",mod:"m5"},
+{id:"c1p1_047",de:"auf der Hand liegen",target:"to be self-evident / obvious",lv:"C1",tp:"Idiome",ty:"verb",phonetic:"/bi \u02C8self\u02CCev\u026Id\u0259nt/",example_de:"Das liegt doch auf der Hand.",example_target:"That is self-evident.",mod:"m5"},
+{id:"c1p1_048",de:"ausser Frage stehen",target:"to be beyond question",lv:"C1",tp:"Idiome",ty:"verb",phonetic:"/bi b\u026A\u02C8j\u0252nd \u02C8kwest\u0283\u0259n/",example_de:"Das steht ausser Frage.",example_target:"That is beyond question.",mod:"m5"},
+{id:"c1p1_049",de:"in Einklang bringen",target:"to reconcile / align",lv:"C1",tp:"Idiome",ty:"verb",phonetic:"/\u02C8rek\u0259nsa\u026Al/",example_de:"Beides laesst sich schwer in Einklang bringen.",example_target:"Both are hard to reconcile.",mod:"m5"},
+{id:"c1p1_050",de:"zur Debatte stehen",target:"to be up for debate",lv:"C1",tp:"Idiome",ty:"verb",phonetic:"/bi \u028Cp f\u0254\u02D0 d\u026A\u02C8be\u026At/",example_de:"Das steht zur Debatte.",example_target:"That is up for debate.",mod:"m5"},
+{id:"c1p1_051",de:"den Rahmen sprengen",target:"to go beyond the scope",lv:"C1",tp:"Idiome",ty:"verb",phonetic:"/\u0261\u0259\u028A b\u026A\u02C8j\u0252nd \u03B0\u0259 sk\u0259\u028Ap/",example_de:"Das wuerde den Rahmen sprengen.",example_target:"That would go beyond the scope.",mod:"m5"},
+{id:"c1p1_052",de:"zum Tragen kommen",target:"to come into play",lv:"C1",tp:"Idiome",ty:"verb",phonetic:"/k\u028Am \u02C8\u026Int\u028A ple\u026A/",example_de:"Hier kommt Erfahrung zum Tragen.",example_target:"Experience comes into play here.",mod:"m5"},
+{id:"c1p1_053",de:"Rechenschaft ablegen",target:"to be accountable / account for",lv:"C1",tp:"Idiome",ty:"verb",phonetic:"/bi \u0259\u02C8ka\u028Ant\u0259bl/",example_de:"Er muss Rechenschaft ablegen.",example_target:"He must be accountable.",mod:"m5"},
+{id:"c1p1_054",de:"im Grossen und Ganzen",target:"on the whole",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/\u0252n \u03B0\u0259 h\u0259\u028Al/",example_de:"Im Grossen und Ganzen war es gut.",example_target:"On the whole it was good.",mod:"m5"},
+{id:"c1p1_055",de:"aufsehenerregend",target:"sensational",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/sen\u02C8se\u026I\u0283\u0259nl/",example_de:"Das war aufsehenerregend.",example_target:"That was sensational.",mod:"m5"},
+{id:"c1p1_056",de:"der Anachronismus",target:"the anachronism",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u0259\u02C8n\u00E6kr\u0259n\u026Iz\u0259m/",example_de:"Das ist ein regelrechter Anachronismus.",example_target:"That is a real anachronism.",mod:"m5"},
+{id:"c1p1_057",de:"die Ambiguitaet",target:"the ambiguity",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u00E6m\u02CCb\u026I\u0261ju\u02C8\u026Iti/",example_de:"Die Ambiguitaet ist beabsichtigt.",example_target:"The ambiguity is intentional.",mod:"m5"},
+{id:"c1p1_058",de:"auf Anhieb",target:"straight away / at once",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/stre\u026At \u0259\u02C8we\u026A/",example_de:"Das hat er auf Anhieb verstanden.",example_target:"He understood that straight away.",mod:"m5"},
+{id:"c1p1_059",de:"die Verflechtung",target:"the entanglement / interconnection",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u026Ant\u00E6\u014B\u0261lm\u0259nt/",example_de:"Die globalen Verflechtungen sind komplex.",example_target:"The global entanglements are complex.",mod:"m5"},
+{id:"c1p1_060",de:"es fehlt an Stringenz",target:"it lacks rigour",lv:"C1",tp:"Phrase",ty:"phrase",phonetic:"/l\u00E6ks \u02C8r\u026I\u0261\u0259/",example_de:"Es fehlt an Stringenz.",example_target:"It lacks rigour.",mod:"m5"}
+];
+
+// ── C1 PHASE 2 (m6) – Abstrakte Konzepte & Akademisch ────────────────────
+var V6=[
+{id:"c1p2_001",de:"manifestieren",target:"to manifest",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u02C8m\u00E6n\u026Ifest/",example_de:"Das manifestiert sich in…",example_target:"That manifests itself in…",mod:"m6"},
+{id:"c1p2_002",de:"konsolidieren",target:"to consolidate",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/k\u0259n\u02C8s\u0252l\u026Ade\u026At/",example_de:"Wir muessen unsere Position konsolidieren.",example_target:"We need to consolidate our position.",mod:"m6"},
+{id:"c1p2_003",de:"differenzieren",target:"to differentiate",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u02CCd\u026Af\u0259\u02C8ren\u0283ie\u026At/",example_de:"Man muss hier differenzieren.",example_target:"One must differentiate here.",mod:"m6"},
+{id:"c1p2_004",de:"relativieren",target:"to put into perspective",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/p\u028At \u02C8\u026Int\u028A p\u0259\u02C8spektv/",example_de:"Das muss man relativieren.",example_target:"One must put that into perspective.",mod:"m6"},
+{id:"c1p2_005",de:"legitimieren",target:"to legitimise",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/l\u026A\u02C8d\u0292\u026It\u026Ima\u026Az/",example_de:"Womit wird das legitimiert?",example_target:"What legitimises that?",mod:"m6"},
+{id:"c1p2_006",de:"kompensieren",target:"to compensate",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u02C8k\u0252mp\u0259nse\u026At/",example_de:"Das kompensiert den Verlust.",example_target:"That compensates for the loss.",mod:"m6"},
+{id:"c1p2_007",de:"implizieren",target:"to imply",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u026Am\u02C8pla\u026A/",example_de:"Was impliziert das?",example_target:"What does that imply?",mod:"m6"},
+{id:"c1p2_008",de:"polarisieren",target:"to polarise",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u02C8p\u0259\u028Al\u0259ra\u026Az/",example_de:"Das Thema polarisiert die Gesellschaft.",example_target:"The topic polarises society.",mod:"m6"},
+{id:"c1p2_009",de:"reflektieren ueber",target:"to reflect on",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/r\u026A\u02C8flekt \u0252n/",example_de:"Wir sollten darueber reflektieren.",example_target:"We should reflect on that.",mod:"m6"},
+{id:"c1p2_010",de:"abstrahieren",target:"to abstract / generalise",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u02C8d\u0292en\u0259r\u0259la\u026Az/",example_de:"Wir abstrahieren zu sehr.",example_target:"We are generalising too much.",mod:"m6"},
+{id:"c1p2_011",de:"konkretisieren",target:"to make concrete / specify",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u02C8spes\u026Ifa\u026A/",example_de:"Bitte konkretisieren Sie das.",example_target:"Please specify that.",mod:"m6"},
+{id:"c1p2_012",de:"perpetuieren",target:"to perpetuate",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/p\u0259\u02C8pet\u0283\u028Ae\u026At/",example_de:"Das perpetuiert das Problem.",example_target:"That perpetuates the problem.",mod:"m6"},
+{id:"c1p2_013",de:"transformieren",target:"to transform",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/tr\u00E6ns\u02C8f\u0254\u02D0m/",example_de:"Das hat die Branche transformiert.",example_target:"That has transformed the industry.",mod:"m6"},
+{id:"c1p2_014",de:"deteriorieren",target:"to deteriorate",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/d\u026A\u02C8t\u026I\u0259ri\u0259re\u026At/",example_de:"Die Lage hat sich deterioriert.",example_target:"The situation has deteriorated.",mod:"m6"},
+{id:"c1p2_015",de:"die Kontroverse",target:"the controversy",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u02C8k\u0252ntr\u0259v\u025C\u02D0si/",example_de:"Das loeste eine Kontroverse aus.",example_target:"That sparked a controversy.",mod:"m6"},
+{id:"c1p2_016",de:"die Kohaerenz",target:"the coherence",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/k\u0259\u02C8h\u026I\u0259r\u0259ns/",example_de:"Der Argumentation fehlt Kohaerenz.",example_target:"The argument lacks coherence.",mod:"m6"},
+{id:"c1p2_017",de:"die Konvergenz",target:"the convergence",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/k\u0259n\u02C8v\u025C\u02D0d\u0292\u0259ns/",example_de:"Es gibt eine Konvergenz der Meinungen.",example_target:"There is a convergence of opinions.",mod:"m6"},
+{id:"c1p2_018",de:"die Divergenz",target:"the divergence",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/da\u026A\u02C8v\u025C\u02D0d\u0292\u0259ns/",example_de:"Eine deutliche Divergenz ist erkennbar.",example_target:"A clear divergence is apparent.",mod:"m6"},
+{id:"c1p2_019",de:"die Antinomie",target:"the antinomy / contradiction",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u00E6n\u02C8t\u026In\u0259mi/",example_de:"Das ist eine unloesbare Antinomie.",example_target:"That is an irresolvable antinomy.",mod:"m6"},
+{id:"c1p2_020",de:"die Dichotomie",target:"the dichotomy",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/da\u026A\u02C8k\u0252t\u0259mi/",example_de:"Diese Dichotomie ist vereinfachend.",example_target:"This dichotomy is oversimplified.",mod:"m6"},
+{id:"c1p2_021",de:"die Kausalitaet",target:"the causality",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/k\u0254\u02D0\u02C8z\u00E6l\u026Ati/",example_de:"Korrelation bedeutet keine Kausalitaet.",example_target:"Correlation does not imply causality.",mod:"m6"},
+{id:"c1p2_022",de:"das Axiom",target:"the axiom",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u02C8\u00E6ksi\u0259m/",example_de:"Das wird als Axiom behandelt.",example_target:"That is treated as an axiom.",mod:"m6"},
+{id:"c1p2_023",de:"die Korrelation",target:"the correlation",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u02CCk\u0252r\u0259\u02C8le\u026I\u0283n/",example_de:"Es besteht eine starke Korrelation.",example_target:"There is a strong correlation.",mod:"m6"},
+{id:"c1p2_024",de:"die Validitaet",target:"the validity",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/v\u0259\u02C8l\u026Id\u026Iti/",example_de:"Die Validitaet ist fraglich.",example_target:"The validity is questionable.",mod:"m6"},
+{id:"c1p2_025",de:"die Reliabilitaet",target:"the reliability",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/r\u026I\u02CCla\u026I\u0259\u02C8b\u026Il\u026Iti/",example_de:"Die Reliabilitaet der Daten ist hoch.",example_target:"The reliability of the data is high.",mod:"m6"},
+{id:"c1p2_026",de:"praezedenzlos",target:"unprecedented",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/\u028Cn\u02C8pres\u026Identid/",example_de:"Das ist praezedenzlos.",example_target:"That is unprecedented.",mod:"m6"},
+{id:"c1p2_027",de:"kontrovers",target:"contentious",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/k\u0259n\u02C8ten\u0283\u0259s/",example_de:"Das ist ein kontrovers diskutiertes Thema.",example_target:"That is a contentiously discussed topic.",mod:"m6"},
+{id:"c1p2_028",de:"paradigmatisch",target:"paradigmatic",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/\u02CCp\u00E6r\u0259d\u026Ag\u02C8m\u00E6t\u026Ik/",example_de:"Das ist ein paradigmatisches Beispiel.",example_target:"That is a paradigmatic example.",mod:"m6"},
+{id:"c1p2_029",de:"latent",target:"latent",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/\u02C8le\u026Ait\u0259nt/",example_de:"Es gibt ein latentes Problem.",example_target:"There is a latent problem.",mod:"m6"},
+{id:"c1p2_030",de:"intrinsisch",target:"intrinsic",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/\u026An\u02C8tr\u026Ins\u026Ik/",example_de:"Das hat einen intrinsischen Wert.",example_target:"That has an intrinsic value.",mod:"m6"},
+{id:"c1p2_031",de:"extrinsisch",target:"extrinsic",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/ek\u02C8str\u026Ins\u026Ik/",example_de:"Extrinsische Motivation reicht nicht.",example_target:"Extrinsic motivation is not enough.",mod:"m6"},
+{id:"c1p2_032",de:"normativ",target:"normative",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/\u02C8n\u0254\u02D0m\u0259t\u026Av/",example_de:"Das ist eine normative Aussage.",example_target:"That is a normative statement.",mod:"m6"},
+{id:"c1p2_033",de:"empirisch",target:"empirical",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/\u026Am\u02C8p\u026Ir\u026Ik\u0259l/",example_de:"Das braucht empirische Belege.",example_target:"That needs empirical evidence.",mod:"m6"},
+{id:"c1p2_034",de:"theoretisch fundiert",target:"theoretically grounded",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/\u02C8\u03B8\u026I\u0259r\u0259t\u026Ikli \u02C8\u0261ra\u028And\u026Id/",example_de:"Das ist gut theoretisch fundiert.",example_target:"That is well theoretically grounded.",mod:"m6"},
+{id:"c1p2_035",de:"demnach",target:"accordingly / hence",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/hens/",example_de:"Demnach laesst sich folgern…",example_target:"Hence, one can conclude…",mod:"m6"},
+{id:"c1p2_036",de:"diesbezueglich",target:"in this regard",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/\u026An \u03B0\u026Is r\u026A\u02C8\u0261\u0251\u02D0d/",example_de:"Diesbezueglich gibt es Klaerungsbedarf.",example_target:"In this regard, clarification is needed.",mod:"m6"},
+{id:"c1p2_037",de:"vornehmlich",target:"primarily / chiefly",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/\u02C8pra\u026Im\u0259r\u026Ili/",example_de:"Das betrifft vornehmlich…",example_target:"That primarily concerns…",mod:"m6"},
+{id:"c1p2_038",de:"im Kern",target:"at its core / essentially",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/\u00E6t \u026Ats k\u0254\u02D0/",example_de:"Im Kern geht es darum.",example_target:"At its core, it is about that.",mod:"m6"},
+{id:"c1p2_039",de:"de facto",target:"de facto / in practice",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/d\u0259 \u02C8f\u00E6kt\u0259\u028A/",example_de:"Das ist de facto unmoeglich.",example_target:"That is de facto impossible.",mod:"m6"},
+{id:"c1p2_040",de:"per se",target:"per se / in itself",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/p\u025C\u02D0 se\u026A/",example_de:"Das ist nicht per se falsch.",example_target:"That is not wrong per se.",mod:"m6"},
+{id:"c1p2_041",de:"a priori",target:"a priori",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/e\u026A pra\u026I\u02C8\u0254\u02D0ra\u026A/",example_de:"Das kann man nicht a priori annehmen.",example_target:"One cannot assume that a priori.",mod:"m6"},
+{id:"c1p2_042",de:"mutmasslich",target:"presumably / allegedly",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/pr\u026A\u02C8zju\u02D0m\u0259bli/",example_de:"Er hat das mutmasslich getan.",example_target:"He allegedly did that.",mod:"m6"},
+{id:"c1p2_043",de:"unverhohlen",target:"openly / unabashedly",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/\u02C8\u0259\u028Apnli/",example_de:"Er kritisierte das unverhohlen.",example_target:"He criticised that openly.",mod:"m6"},
+{id:"c1p2_044",de:"auf der Strecke bleiben",target:"to fall by the wayside",lv:"C1",tp:"Idiome",ty:"verb",phonetic:"/f\u0254\u02D0l ba\u026A \u03B0\u0259 \u02C8we\u026Isa\u026Ad/",example_de:"Wichtige Punkte bleiben auf der Strecke.",example_target:"Important points fall by the wayside.",mod:"m6"},
+{id:"c1p2_045",de:"den Boden bereiten fuer",target:"to pave the way for",lv:"C1",tp:"Idiome",ty:"verb",phonetic:"/pe\u026Av \u03B0\u0259 we\u026A f\u0254\u02D0/",example_de:"Das bereitet den Boden fuer…",example_target:"That paves the way for…",mod:"m6"},
+{id:"c1p2_046",de:"das Ruder herumreissen",target:"to turn things around",lv:"C1",tp:"Idiome",ty:"verb",phonetic:"/t\u025C\u02D0n \u03B8\u026I\u014Bz \u0259\u02C8ra\u028And/",example_de:"Jetzt muessen wir das Ruder herumreissen.",example_target:"Now we need to turn things around.",mod:"m6"},
+{id:"c1p2_047",de:"ueber den Tellerrand schauen",target:"to think outside the box",lv:"C1",tp:"Idiome",ty:"verb",phonetic:"/\u03B8\u026I\u014Bk a\u028Ats\u026Iad \u03B0\u0259 b\u0252ks/",example_de:"Wir muessen ueber den Tellerrand schauen.",example_target:"We need to think outside the box.",mod:"m6"},
+{id:"c1p2_048",de:"im Dunkeln tappen",target:"to be in the dark",lv:"C1",tp:"Idiome",ty:"verb",phonetic:"/bi \u026An \u03B0\u0259 d\u0251\u02D0k/",example_de:"Wir tappen noch im Dunkeln.",example_target:"We are still in the dark.",mod:"m6"},
+{id:"c1p2_049",de:"einen Nerv treffen",target:"to strike a nerve",lv:"C1",tp:"Idiome",ty:"verb",phonetic:"/stra\u026Ak \u0259 n\u025C\u02D0v/",example_de:"Das trifft einen Nerv.",example_target:"That strikes a nerve.",mod:"m6"},
+{id:"c1p2_050",de:"die Weichen stellen fuer",target:"to set the course for",lv:"C1",tp:"Idiome",ty:"verb",phonetic:"/set \u03B0\u0259 k\u0254\u02D0s f\u0254\u02D0/",example_de:"Jetzt werden die Weichen gestellt.",example_target:"Now the course is being set.",mod:"m6"},
+{id:"c1p2_051",de:"etwas auf den Pruefstand stellen",target:"to put to the test",lv:"C1",tp:"Idiome",ty:"verb",phonetic:"/p\u028At t\u028A \u03B0\u0259 test/",example_de:"Das sollte man auf den Pruefstand stellen.",example_target:"That should be put to the test.",mod:"m6"},
+{id:"c1p2_052",de:"einen Schlussstrich ziehen",target:"to draw a line under",lv:"C1",tp:"Idiome",ty:"verb",phonetic:"/dr\u0254\u02D0 \u0259 la\u026An \u02C8\u028And\u0259/",example_de:"Es ist Zeit, einen Schlussstrich zu ziehen.",example_target:"It is time to draw a line under this.",mod:"m6"},
+{id:"c1p2_053",de:"in einem anderen Licht erscheinen",target:"to appear in a different light",lv:"C1",tp:"Idiome",ty:"verb",phonetic:"/\u0259\u02C8p\u026I\u0259r \u026An \u0259 \u02C8d\u026Afr\u0259nt la\u026At/",example_de:"Das erscheint in einem anderen Licht.",example_target:"That appears in a different light.",mod:"m6"},
+{id:"c1p2_054",de:"die Intention",target:"the intention",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u026An\u02C8ten\u0283n/",example_de:"Was ist die dahinterliegende Intention?",example_target:"What is the underlying intention?",mod:"m6"},
+{id:"c1p2_055",de:"die Kausalitaet",target:"the causation",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/k\u0254\u02D0\u02C8ze\u026I\u0283n/",example_de:"Wir muessen Kausalitaet von Korrelation trennen.",example_target:"We must distinguish causation from correlation.",mod:"m6"},
+{id:"c1p2_056",de:"das Konzept",target:"the concept",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u02C8k\u0252nsept/",example_de:"Das ist ein schwieriges Konzept.",example_target:"That is a difficult concept.",mod:"m6"},
+{id:"c1p2_057",de:"gleichermassen",target:"likewise / similarly",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/\u02C8la\u026Akwa\u026Az/",example_de:"Das gilt gleichermassen.",example_target:"The same applies likewise.",mod:"m6"},
+{id:"c1p2_058",de:"im Nachgang",target:"subsequently / in hindsight",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/\u02C8s\u028Cbsikw\u0259ntli/",example_de:"Im Nachgang hat sich gezeigt.",example_target:"Subsequently it became clear.",mod:"m6"},
+{id:"c1p2_059",de:"im Grunde genommen",target:"fundamentally / basically",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/f\u028And\u0259\u02C8ment\u0259li/",example_de:"Im Grunde genommen stimmt das.",example_target:"Fundamentally, that is correct.",mod:"m6"},
+{id:"c1p2_060",de:"gewissermassen",target:"in a way / to some extent",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/t\u028A s\u028Cm \u026Ak\u02C8stent/",example_de:"Das ist gewissermassen richtig.",example_target:"That is correct to some extent.",mod:"m6"}
+];
+
+// ── C1 PHASE 3 (m7) – Gehobene Sprache & Praezision ──────────────────────
+var V7=[
+{id:"c1p3_001",de:"anprangern",target:"to denounce / condemn",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/d\u026A\u02C8na\u028Ans/",example_de:"Er prangerte die Ungerechtigkeit an.",example_target:"He denounced the injustice.",mod:"m7"},
+{id:"c1p3_002",de:"beschwichtigen",target:"to appease / placate",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u0259\u02C8pi\u02D0z/",example_de:"Er versuchte sie zu beschwichtigen.",example_target:"He tried to appease her.",mod:"m7"},
+{id:"c1p3_003",de:"erzwingen",target:"to enforce / compel",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u026An\u02C8f\u0254\u02D0s/",example_de:"Das kann man nicht erzwingen.",example_target:"That cannot be enforced.",mod:"m7"},
+{id:"c1p3_004",de:"erschuettern",target:"to shake / shatter",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u02C8\u0283\u00E6t\u0259/",example_de:"Das hat sein Weltbild erschuettert.",example_target:"That shattered his worldview.",mod:"m7"},
+{id:"c1p3_005",de:"beanspruchen",target:"to claim / assert",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/kle\u026Am/",example_de:"Er beansprucht das fuer sich.",example_target:"He claims that for himself.",mod:"m7"},
+{id:"c1p3_006",de:"aushebeln",target:"to undermine / circumvent",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u02CCd\u0259\u02C8s\u028Cpta\u026Az/",example_de:"Das hebelt das System aus.",example_target:"That undermines the system.",mod:"m7"},
+{id:"c1p3_007",de:"verdraengen",target:"to displace / suppress",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/d\u026A\u02C8sple\u026As/",example_de:"Angst verdraengt die Vernunft.",example_target:"Fear displaces reason.",mod:"m7"},
+{id:"c1p3_008",de:"erschliessen",target:"to open up / tap into",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u02C8\u0259\u028Ap\u0259n \u028Cp/",example_de:"Neue Maerkte erschliessen.",example_target:"To open up new markets.",mod:"m7"},
+{id:"c1p3_009",de:"in den Schatten stellen",target:"to overshadow",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u02CC\u0259\u028Av\u0259\u02C8\u0283\u00E6d\u0259\u028A/",example_de:"Das stellt alles andere in den Schatten.",example_target:"That overshadows everything else.",mod:"m7"},
+{id:"c1p3_010",de:"gleichsetzen mit",target:"to equate with",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u026A\u02C8kwe\u026At w\u026I\u03B0/",example_de:"Man darf das nicht gleichsetzen.",example_target:"One must not equate those.",mod:"m7"},
+{id:"c1p3_011",de:"vereinnahmen",target:"to co-opt / appropriate",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/k\u0259\u028A\u02C8\u0252pt/",example_de:"Das Thema wird vereinnahmt.",example_target:"The topic is being co-opted.",mod:"m7"},
+{id:"c1p3_012",de:"entgegenhalten",target:"to counter / argue against",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/\u02C8ka\u028Ant\u0259/",example_de:"Dem haelt er entgegen, dass…",example_target:"He counters that…",mod:"m7"},
+{id:"c1p3_013",de:"abwiegeln",target:"to play down / deflect",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/ple\u026A da\u028An/",example_de:"Er versuchte abzuwiegeln.",example_target:"He tried to play it down.",mod:"m7"},
+{id:"c1p3_014",de:"ansinnen",target:"to expect / demand",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/d\u026A\u02C8m\u0251\u02D0nd/",example_de:"Das kann man ihm nicht ansinnen.",example_target:"One cannot demand that of him.",mod:"m7"},
+{id:"c1p3_015",de:"die Zwickmuehle",target:"the dilemma / catch-22",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u02C8k\u00E6t\u0283 twenti tu\u02D0/",example_de:"Das ist eine echte Zwickmuehle.",example_target:"That is a real catch-22.",mod:"m7"},
+{id:"c1p3_016",de:"der Trugschluss",target:"the fallacy",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u02C8f\u00E6l\u0259si/",example_de:"Das ist ein Trugschluss.",example_target:"That is a fallacy.",mod:"m7"},
+{id:"c1p3_017",de:"das Zerrbild",target:"the distorted picture",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/d\u026A\u02C8st\u0254\u02D0t\u026Id \u02C8p\u026Ikt\u0283\u0259/",example_de:"Das zeichnet ein Zerrbild.",example_target:"That paints a distorted picture.",mod:"m7"},
+{id:"c1p3_018",de:"die Gratwanderung",target:"the balancing act",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u02C8b\u00E6l\u0259ns\u026I\u014B \u00E6kt/",example_de:"Das ist eine echte Gratwanderung.",example_target:"That is a real balancing act.",mod:"m7"},
+{id:"c1p3_019",de:"der Knackpunkt",target:"the crux / sticking point",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/kr\u028Cks/",example_de:"Das ist der eigentliche Knackpunkt.",example_target:"That is the real crux.",mod:"m7"},
+{id:"c1p3_020",de:"die Schluessigkeit",target:"the coherence / logic",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/k\u0259\u02C8h\u026I\u0259r\u0259ns/",example_de:"Die Schluessigkeit des Arguments.",example_target:"The coherence of the argument.",mod:"m7"},
+{id:"c1p3_021",de:"die Spannbreite",target:"the range / spectrum",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/re\u026And\u0292/",example_de:"Die Spannbreite ist enorm.",example_target:"The range is enormous.",mod:"m7"},
+{id:"c1p3_022",de:"der Erkenntnisgewinn",target:"the insight gained",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u02C8\u026Insa\u026At \u0261e\u026And/",example_de:"Der Erkenntnisgewinn ist gross.",example_target:"The insight gained is significant.",mod:"m7"},
+{id:"c1p3_023",de:"die Weichenstellung",target:"the pivotal decision",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u02C8p\u026Av\u0259tl d\u026A\u02C8s\u026I\u0292n/",example_de:"Das war eine wichtige Weichenstellung.",example_target:"That was a pivotal decision.",mod:"m7"},
+{id:"c1p3_024",de:"der Sachverhalt",target:"the facts of the matter",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/f\u00E6kts \u0252v \u03B0\u0259 \u02C8m\u00E6t\u0259/",example_de:"Wie stellt sich der Sachverhalt dar?",example_target:"What are the facts of the matter?",mod:"m7"},
+{id:"c1p3_025",de:"der Gesichtspunkt",target:"the viewpoint / angle",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u02C8vju\u02D0p\u0254\u026Ant/",example_de:"Unter diesem Gesichtspunkt…",example_target:"From this viewpoint…",mod:"m7"},
+{id:"c1p3_026",de:"der Stolperstein",target:"the stumbling block",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u02C8st\u028Cmbl\u026I\u014B bl\u0252k/",example_de:"Das ist der groesste Stolperstein.",example_target:"That is the biggest stumbling block.",mod:"m7"},
+{id:"c1p3_027",de:"brisant",target:"explosive / sensitive",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/\u026Ak\u02C8spl\u0259\u028As\u026Av/",example_de:"Das ist ein brisantes Thema.",example_target:"That is an explosive topic.",mod:"m7"},
+{id:"c1p3_028",de:"anfechtbar",target:"contestable / disputable",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/d\u026A\u02C8spju\u02D0t\u0259bl/",example_de:"Das ist anfechtbar.",example_target:"That is disputable.",mod:"m7"},
+{id:"c1p3_029",de:"unhaltbar",target:"untenable",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/\u028Cn\u02C8ten\u0259bl/",example_de:"Diese Position ist unhaltbar.",example_target:"This position is untenable.",mod:"m7"},
+{id:"c1p3_030",de:"treffsicher",target:"accurate / on target",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/\u02C8\u00E6kj\u028Ar\u0259t/",example_de:"Eine treffsichere Analyse.",example_target:"An accurate analysis.",mod:"m7"},
+{id:"c1p3_031",de:"weitschweifig",target:"verbose / long-winded",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/l\u0252\u014B \u02C8w\u026And\u026Id/",example_de:"Der Vortrag war zu weitschweifig.",example_target:"The lecture was too long-winded.",mod:"m7"},
+{id:"c1p3_032",de:"pragnant",target:"concise / pithy",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/k\u0259n\u02C8sa\u026As/",example_de:"Eine praegnante Zusammenfassung.",example_target:"A concise summary.",mod:"m7"},
+{id:"c1p3_033",de:"ergebnisoffen",target:"open-ended",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/\u02C8\u0259\u028Ap\u0259n\u02CCend\u026Id/",example_de:"Der Prozess ist ergebnisoffen.",example_target:"The process is open-ended.",mod:"m7"},
+{id:"c1p3_034",de:"nachrangig",target:"secondary / subordinate",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/\u02C8sek\u0259ndri/",example_de:"Das ist von nachrangiger Bedeutung.",example_target:"That is of secondary importance.",mod:"m7"},
+{id:"c1p3_035",de:"vordringlich",target:"pressing / urgent",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/\u02C8\u025C\u02D0d\u0292\u0259nt/",example_de:"Das ist vordringlich zu loesen.",example_target:"That needs to be solved urgently.",mod:"m7"},
+{id:"c1p3_036",de:"schlechthin",target:"par excellence / simply",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/p\u0251\u02D0 \u02CCeks\u0259\u02C8l\u0251\u02D0ns/",example_de:"Das ist das Problem schlechthin.",example_target:"That is the problem par excellence.",mod:"m7"},
+{id:"c1p3_037",de:"mitnichten",target:"by no means / not at all",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/ba\u026A n\u0259\u028A mi\u02D0nz/",example_de:"Das stimmt mitnichten.",example_target:"That is by no means true.",mod:"m7"},
+{id:"c1p3_038",de:"schwerlich",target:"hardly / scarcely",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/\u02C8h\u0251\u02D0dli/",example_de:"Das ist schwerlich moeglich.",example_target:"That is hardly possible.",mod:"m7"},
+{id:"c1p3_039",de:"wohl",target:"presumably / probably",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/pr\u026A\u02C8zju\u02D0m\u0259bli/",example_de:"Das wird wohl so sein.",example_target:"That is presumably the case.",mod:"m7"},
+{id:"c1p3_040",de:"nolens volens",target:"willy-nilly / perforce",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/\u02C8w\u026Ilin\u026Ili/",example_de:"Er musste nolens volens zustimmen.",example_target:"He had to agree willy-nilly.",mod:"m7"},
+{id:"c1p3_041",de:"dabei ist zu beachten",target:"it should be noted that",lv:"C1",tp:"Phrase",ty:"phrase",phonetic:"/\u026At \u0283\u028Ad bi \u02C8n\u0259\u028Atid/",example_de:"Dabei ist zu beachten, dass…",example_target:"It should be noted that…",mod:"m7"},
+{id:"c1p3_042",de:"es bleibt festzuhalten",target:"it remains to be noted",lv:"C1",tp:"Phrase",ty:"phrase",phonetic:"/\u026At r\u026A\u02C8me\u026Inz t\u028A bi \u02C8n\u0259\u028Atid/",example_de:"Es bleibt festzuhalten, dass…",example_target:"It remains to be noted that…",mod:"m7"},
+{id:"c1p3_043",de:"das fuehrt uns zu",target:"that brings us to",lv:"C1",tp:"Phrase",ty:"phrase",phonetic:"/\u03B0\u00E6t br\u026I\u014Bz \u028Cs t\u028A/",example_de:"Das fuehrt uns zur Frage…",example_target:"That brings us to the question…",mod:"m7"},
+{id:"c1p3_044",de:"es draengt sich die Frage auf",target:"the question arises",lv:"C1",tp:"Phrase",ty:"phrase",phonetic:"/\u03B0\u0259 \u02C8kwest\u0283\u0259n \u0259\u02C8ra\u026Aziz/",example_de:"Es draengt sich die Frage auf…",example_target:"The question arises whether…",mod:"m7"},
+{id:"c1p3_045",de:"im Lichte dieser Erkenntnisse",target:"in light of these findings",lv:"C1",tp:"Phrase",ty:"phrase",phonetic:"/\u026An la\u026At \u0252v \u03B0i\u02D0z \u02C8fa\u026And\u026I\u014Bz/",example_de:"Im Lichte dieser Erkenntnisse…",example_target:"In light of these findings…",mod:"m7"},
+{id:"c1p3_046",de:"ausgehend von",target:"starting from / based on",lv:"C1",tp:"Phrase",ty:"phrase",phonetic:"/\u02C8ste\u026It\u026I\u014B fr\u0252m/",example_de:"Ausgehend von dieser Annahme…",example_target:"Starting from this assumption…",mod:"m7"},
+{id:"c1p3_047",de:"was nicht heisst dass",target:"which does not mean that",lv:"C1",tp:"Phrase",ty:"phrase",phonetic:"/wIt\u0283 d\u028Az n\u0252t mi\u02D0n \u03B0\u00E6t/",example_de:"Was nicht heisst, dass alles gut ist.",example_target:"Which does not mean that all is well.",mod:"m7"},
+{id:"c1p3_048",de:"unter dem Strich",target:"all in all / at the end of the day",lv:"C1",tp:"Phrase",ty:"phrase",phonetic:"/\u0254\u02D0l \u026An \u0254\u02D0l/",example_de:"Unter dem Strich ist das positiv.",example_target:"All in all, that is positive.",mod:"m7"},
+{id:"c1p3_049",de:"dem Grunde nach",target:"fundamentally / in essence",lv:"C1",tp:"Phrase",ty:"phrase",phonetic:"/f\u028And\u0259\u02C8ment\u0259li/",example_de:"Dem Grunde nach ist das korrekt.",example_target:"Fundamentally, that is correct.",mod:"m7"},
+{id:"c1p3_050",de:"vorbehaltlich anderer Erkenntnisse",target:"unless other evidence emerges",lv:"C1",tp:"Phrase",ty:"phrase",phonetic:"/\u028Cn\u02C8les \u02C8\u028C\u03B0\u0259r \u02C8ev\u026Id\u0259ns \u026A\u02C8m\u025C\u02D0d\u0292\u026Az/",example_de:"Vorbehaltlich anderer Erkenntnisse gilt…",example_target:"Unless other evidence emerges…",mod:"m7"},
+{id:"c1p3_051",de:"der Anachronismus (C1)",target:"the anachronism",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u0259\u02C8n\u00E6kr\u0259n\u026Iz\u0259m/",example_de:"Das ist ein regelrechter Anachronismus.",example_target:"That is a genuine anachronism.",mod:"m7"},
+{id:"c1p3_052",de:"das Konzept (abstrakt)",target:"the framework / paradigm",lv:"C1",tp:"Nomen",ty:"noun",phonetic:"/\u02C8p\u00E6r\u0259da\u026Am/",example_de:"Dieses Konzept braucht ein neues Paradigma.",example_target:"This concept needs a new paradigm.",mod:"m7"},
+{id:"c1p3_053",de:"prolongieren",target:"to prolong / extend",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/pr\u0259\u02C8l\u0252\u014B/",example_de:"Den Vertrag prolongieren.",example_target:"To prolong the contract.",mod:"m7"},
+{id:"c1p3_054",de:"differenziert betrachten",target:"to view in a nuanced way",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/vju\u02D0 \u026An \u0259 \u02C8nju\u02D0\u0251\u02D0nst we\u026A/",example_de:"Das muss man differenziert betrachten.",example_target:"That must be viewed in a nuanced way.",mod:"m7"},
+{id:"c1p3_055",de:"aufsehenerregend",target:"causing a stir / sensational",lv:"C1",tp:"Adj",ty:"adj",phonetic:"/\u02C8k\u0254\u02D0z\u026I\u014B \u0259 st\u025C\u02D0/",example_de:"Das war ein aufsehenerregendes Urteil.",example_target:"That was a stir-causing verdict.",mod:"m7"},
+{id:"c1p3_056",de:"im Lichte von",target:"in light of",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/\u026An la\u026At \u0252v/",example_de:"Im Lichte dieser Erkenntnisse ist das klar.",example_target:"In light of these findings, that is clear.",mod:"m7"},
+{id:"c1p3_057",de:"sich auf etwas stuetzen",target:"to rely on / draw on",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/r\u026A\u02C8la\u026A \u0252n/",example_de:"Er stuetzt sich auf valide Daten.",example_target:"He relies on valid data.",mod:"m7"},
+{id:"c1p3_058",de:"gerechtfertigt sein",target:"to be warranted / justified",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/bi \u02C8w\u0254\u02D0r\u0259nt\u026Id/",example_de:"Diese Kritik ist durchaus gerechtfertigt.",example_target:"This criticism is entirely warranted.",mod:"m7"},
+{id:"c1p3_059",de:"hinweisen auf (akademisch)",target:"to point to / indicate",lv:"C1",tp:"Verben",ty:"verb",phonetic:"/p\u0254\u026Ant t\u028A/",example_de:"Die Daten weisen klar darauf hin.",example_target:"The data clearly point to that.",mod:"m7"},
+{id:"c1p3_060",de:"nicht zuletzt",target:"not least / above all",lv:"C1",tp:"Adv",ty:"adv",phonetic:"/n\u0252t li\u02D0st/",example_de:"Nicht zuletzt wegen seiner Erfahrung.",example_target:"Not least because of his experience.",mod:"m7"}
+];
+
+// ═══════════════════════════════════════════════════════════════════════════
+// MODUL-MAPPING & GESAMTLISTE
+// ═══════════════════════════════════════════════════════════════════════════
+var MV={"m1":V1,"m2":V2,"m3":V3,"m4":V4,"m5":V5,"m6":V6,"m7":V7};
+var VA=V1.concat(V2,V3,V4,V5,V6,V7);
+
+// ═══════════════════════════════════════════════════════════════════════════
+// STORAGE – localStorage mit In-Memory-Fallback
+// ═══════════════════════════════════════════════════════════════════════════
+var _mem={},_lsOk=false;
+try{localStorage.setItem("_t","1");localStorage.removeItem("_t");_lsOk=true;}catch(e){}
+function sg(k){
+  try{var r=_lsOk?localStorage.getItem(CFG.storeKey+k):(_mem[k]||null);return r?JSON.parse(r):null;}
+  catch(e){return null;}
+}
+function ss(k,v){
+  try{var s=JSON.stringify(v);if(_lsOk)localStorage.setItem(CFG.storeKey+k,s);_mem[k]=s;}
+  catch(e){}
+}
+var DP={startLv:"B2",streak:0,lastStudied:null,goal:20,ttsOn:true,ttsAuto:false,ttsSpd:0.9,dir:"de_to_target"};
+function lp(){var s=sg("p")||{},p={},k;for(k in DP)p[k]=(k in s)?s[k]:DP[k];return p;}
+function sp(p){ss("p",p);}
+function lls(){return sg("ls")||{};}
+function sls(s){ss("ls",s);}
+function lday(){var d=sg("d");return(d&&d.date===td())?(d.count||0):0;}
+function sday(n){ss("d",{date:td(),count:n});}
+function td(){return new Date().toISOString().slice(0,10);}
+function ustrk(p){
+  var t=td();if(p.lastStudied===t)return p;
+  if(p.lastStudied){var d=(new Date(t)-new Date(p.lastStudied))/86400000;p.streak=d<=1.5?(p.streak+1):1;}
+  else{p.streak=1;}
+  p.lastStudied=t;return p;
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// SM-2 SPACED REPETITION
+// ═══════════════════════════════════════════════════════════════════════════
+var LR={C2:6,C1:5,B2:4,B1:3,A2:2,A1:1};
+function sm2(st,q){
+  var iv=st?st.interval:1,rp=st?st.repetitions:0,
+      ef=Math.max(1.3,(st?st.easeFactor:2.5)+(0.1-(3-q)*(0.08+(3-q)*0.02)));
+  var ni,nr;
+  if(q<2){ni=1;nr=0;}
+  else if(rp===0){ni=1;nr=1;}
+  else if(rp===1){ni=6;nr=2;}
+  else{ni=Math.round(iv*ef);nr=rp+1;}
+  var d=new Date();d.setDate(d.getDate()+ni);
+  return{interval:ni,repetitions:nr,easeFactor:ef,nextReview:d.toISOString().slice(0,10)};
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// QUEUE – Lernwarteschlange
+// ═══════════════════════════════════════════════════════════════════════════
+function bq(ls,lim,slv){
+  var ts=td(),minR=LR[slv]||1,due=[],nw=[],i,v,s;
+  for(i=0;i<VA.length;i++){
+    v=VA[i];s=ls[v.id];
+    if(s&&s.repetitions>=12)continue;
+    if(s&&s.nextReview<=ts)due.push(v);
+    else if(!s&&(LR[v.lv]||1)>=minR)nw.push(v);
+  }
+  function byLv(a,b){return(LR[b.lv]||1)-(LR[a.lv]||1);}
+  due.sort(byLv);nw.sort(byLv);
+  for(var j=due.length-1;j>0;j--){
+    var k=Math.floor(Math.random()*(j+1)),t=due[j];due[j]=due[k];due[k]=t;
+  }
+  return due.concat(nw).slice(0,lim||20);
+}
+function cdue(ls){
+  var ts=td(),n=0,i,s;
+  for(i=0;i<VA.length;i++){s=ls[VA[i].id];if(!s||s.nextReview<=ts)n++;}
+  return n;
+}
+function cseen(ls){var n=0,i;for(i=0;i<VA.length;i++){if(ls[VA[i].id])n++;}return n;}
+function cmas(ls){var n=0,i,s;for(i=0;i<VA.length;i++){s=ls[VA[i].id];if(s&&s.repetitions>=5)n++;}return n;}
+function gdist(cur,n){
+  var p=[],i;
+  for(i=0;i<VA.length;i++){if(VA[i].id!==cur.id)p.push(VA[i]);}
+  for(i=p.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=p[i];p[i]=p[j];p[j]=t;}
+  return p.slice(0,n||3);
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// TTS
+// ═══════════════════════════════════════════════════════════════════════════
+function speak(txt,spd){
+  try{
+    if(!("speechSynthesis"in window))return;
+    window.speechSynthesis.cancel();
+    var u=new SpeechSynthesisUtterance(txt);
+    u.lang=CFG.ttsLocale;u.rate=spd||0.9;
+    try{
+      var vs=window.speechSynthesis.getVoices();
+      for(var i=0;i<vs.length;i++){if(vs[i].lang===u.lang){u.voice=vs[i];break;}}
+    }catch(e){}
+    window.speechSynthesis.speak(u);
+  }catch(e){}
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// TOAST
+// ═══════════════════════════════════════════════════════════════════════════
+var _tt=null;
+function toast(msg,tp){
+  var e=document.getElementById("toast");if(!e)return;
+  if(_tt)clearTimeout(_tt);
+  e.className="toast"+(tp==="ok"?" tok":tp==="er"?" ter":"");
+  e.textContent=msg;e.classList.add("on");
+  _tt=setTimeout(function(){e.classList.remove("on");},2500);
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// ROUTER
+// ═══════════════════════════════════════════════════════════════════════════
+var NAV={"sc-home":"n-home","sc-learn":"n-learn","sc-modules":"n-modules","sc-stats":"n-stats","sc-set":"n-set"};
+var HK={};
+function goTo(id,params){
+  var ss=document.querySelectorAll(".screen"),i;
+  for(i=0;i<ss.length;i++)ss[i].classList.remove("on");
+  var t=document.getElementById(id);if(t)t.classList.add("on");
+  var nb=document.querySelectorAll(".nb");
+  for(i=0;i<nb.length;i++)nb[i].classList.remove("on");
+  var n=document.getElementById(NAV[id]);if(n)n.classList.add("on");
+  if(HK[id])HK[id](params||{});
+}
+function el(id){return document.getElementById(id);}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// HOME SCREEN
+// ═══════════════════════════════════════════════════════════════════════════
+function amx(ls){
+  var i,j,mod,w,m;
+  for(i=0;i<MODS.length;i++){
+    mod=MODS[i];w=MV[mod.id]||[];m=0;
+    for(j=0;j<w.length;j++){var s=ls[w[j].id];if(s&&s.repetitions>=5)m++;}
+    if(m<w.length)return i;
+  }
+  return MODS.length-1;
+}
+function rh(){
+  try{
+    var p=lp(),ls=lls(),day=lday();
+    el("h-done").textContent=day;el("h-goal").textContent=p.goal;
+    el("h-bar").style.width=Math.min(100,Math.round(day/p.goal*100))+"%";
+    el("h-streak").textContent=p.streak;
+    el("h-seen").textContent=cseen(ls);
+    el("h-master").textContent=cmas(ls);
+    el("h-due").textContent=cdue(ls);
+    var ai=amx(ls),mod=MODS[ai],w=MV[mod.id]||[],mMas=0,j;
+    for(j=0;j<w.length;j++){var s=ls[w[j].id];if(s&&s.repetitions>=5)mMas++;}
+    var pct=w.length?Math.round(mMas/w.length*100):0;
+    el("h-mod-info").innerHTML=
+      "<div class='flex jb ai'><span class='sm'>Aktives Modul</span>"+
+      "<span style='font-size:11px;padding:2px 8px;border-radius:8px;background:var(--acd);color:var(--ac)'>"+mod.lv+"</span></div>"+
+      "<div style='font-weight:600;margin-top:6px'>"+mod.name+"</div>"+
+      "<div class='xs mu mt8'>"+mod.sub+"</div>"+
+      "<div class='bar mt8'><div class='bfill' style='width:"+pct+"%'></div></div>"+
+      "<div class='xs mu' style='margin-top:4px'>"+mMas+"/"+w.length+" gemeistert ("+pct+"%)</div>";
+  }catch(e){console.error("[rh]",e);}
+}
+HK["sc-home"]=rh;
+
+// ═══════════════════════════════════════════════════════════════════════════
+// LEARN SCREEN
+// ═══════════════════════════════════════════════════════════════════════════
+var _lq=[],_li=0,_lok=0,_mode="mc",_dir="de_to_target",_cur=null,_rev=false,_lkd=false;
+
+function linit(params){
+  var p=lp(),ls=lls();
+  if(params&&params.mode)_mode=params.mode;
+  _dir=p.dir||"de_to_target";_li=0;_lok=0;
+  _lq=bq(ls,p.goal,p.startLv);
+  rlh();hui();rc();
+}
+HK["sc-learn"]=linit;
+
+function rlh(){
+  el("m-mc").className="btn bsm"+(_mode==="mc"?" bp":" bg");
+  el("m-fl").className="btn bsm"+(_mode==="flash"?" bp":" bg");
+  el("l-dir").textContent=_dir==="de_to_target"?"DE \u2192 EN":"EN \u2192 DE";
+}
+function hui(){
+  el("fc-wrap").classList.add("hidden");
+  el("mc-wrap").classList.add("hidden");
+  el("done-wrap").classList.add("hidden");
+}
+function rc(){
+  if(_li>=_lq.length){sdone();return;}
+  _cur=_lq[_li];_rev=false;_lkd=false;
+  el("l-bar").style.width=Math.round(_li/_lq.length*100)+"%";
+  el("l-prog").textContent=(_li+1)+"/"+_lq.length;
+  el("l-tp").textContent=_cur.tp||"";
+  el("l-lv").textContent=_cur.lv||"";
+  var mn="",mk;
+  for(mk in MV){var w=MV[mk],j;for(j=0;j<w.length;j++){if(w[j].id===_cur.id){for(var mi=0;mi<MODS.length;mi++){if(MODS[mi].id===mk){mn=MODS[mi].name;break;}}break;}}}
+  el("l-mod").textContent=mn;
+  if(_mode==="mc")rmc();else rfl();
+}
+
+// FLASHCARD
+function rfl(){
+  hui();el("fc-wrap").classList.remove("hidden");el("rrow").classList.add("hidden");
+  var isDE=_dir==="de_to_target";
+  el("fc-dl").textContent=isDE?"Deutsch":"Englisch";
+  el("fc-front").textContent=isDE?_cur.de:_cur.target;
+  el("fc-ph").textContent=(!isDE&&_cur.phonetic)?_cur.phonetic:"";
+  el("fc-hint").style.display="";
+  el("fc-back").classList.remove("on");
+}
+function rev(){
+  if(_rev||_mode!=="flash")return;_rev=true;
+  var isDE=_dir==="de_to_target";
+  el("fc-bl").textContent=isDE?"Englisch":"Deutsch";
+  el("fc-trans").textContent=isDE?_cur.target:_cur.de;
+  el("fc-ex").textContent=isDE?(_cur.example_target||""):(_cur.example_de||"");
+  el("fc-back").classList.add("on");
+  el("fc-hint").style.display="none";
+  el("rrow").classList.remove("hidden");
+  var p=lp();if(p.ttsAuto&&p.ttsOn)speak(isDE?_cur.target:_cur.de,p.ttsSpd);
+}
+
+// MULTIPLE CHOICE
+function rmc(){
+  hui();el("mc-wrap").classList.remove("hidden");el("mc-hint").textContent="";
+  var isDE=_dir==="de_to_target";
+  el("mc-q").textContent=isDE?_cur.de:_cur.target;
+  var dist=gdist(_cur,3),opts=[_cur].concat(dist),i;
+  for(i=opts.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=opts[i];opts[i]=opts[j];opts[j]=t;}
+  var c=el("mc-opts");c.innerHTML="";
+  for(i=0;i<opts.length;i++){
+    (function(opt){
+      var b=document.createElement("button");
+      b.className="mcopt";
+      b.textContent=isDE?opt.target:opt.de;
+      b.onclick=function(){hmc(b,opt.id===_cur.id);};
+      c.appendChild(b);
+    })(opts[i]);
+  }
+}
+function hmc(btn,ok){
+  if(_lkd)return;_lkd=true;
+  var isDE=_dir==="de_to_target";
+  if(ok){btn.classList.add("ok");_lok++;setTimeout(function(){rate(2);},800);}
+  else{
+    btn.classList.add("er");
+    var ct=isDE?_cur.target:_cur.de,btns=document.querySelectorAll(".mcopt"),i;
+    for(i=0;i<btns.length;i++){if(btns[i].textContent===ct)btns[i].classList.add("ok");}
+    setTimeout(function(){rate(0);},1200);
+  }
+}
+function rate(q){
+  var ls=lls(),ns=sm2(ls[_cur.id]||null,q);
+  ls[_cur.id]=ns;sls(ls);
+  var p=lp();p=ustrk(p);sp(p);sday(lday()+1);
+  _li++;rc();
+}
+function mkn(){
+  if(!_cur)return;
+  var d=new Date();d.setDate(d.getDate()+90);
+  var ls=lls();
+  ls[_cur.id]={interval:90,repetitions:5,easeFactor:2.5,nextReview:d.toISOString().slice(0,10)};
+  sls(ls);toast("Bekannt \u2714","ok");
+  el("mc-hint").textContent="";
+  setTimeout(function(){_li++;rc();},600);
+}
+function spk(){
+  var p=lp();if(!p.ttsOn||!_cur)return;
+  speak(_dir==="de_to_target"?_cur.target:_cur.de,p.ttsSpd);
+}
+function sdone(){
+  hui();el("done-wrap").classList.remove("hidden");
+  el("done-sub").textContent=_lok+" von "+_lq.length+" richtig.";
+}
+function lrest(){
+  _li=0;_lok=0;var p=lp(),ls=lls();
+  _lq=bq(ls,p.goal,p.startLv);hui();rc();
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// MODULE SCREEN
+// ═══════════════════════════════════════════════════════════════════════════
+HK["sc-modules"]=function(){
+  var ls=lls(),ai=amx(ls),c=el("mod-list");c.innerHTML="";
+  for(var i=0;i<MODS.length;i++){
+    var mod=MODS[i],w=MV[mod.id]||[],mMas=0,j;
+    for(j=0;j<w.length;j++){var s=ls[w[j].id];if(s&&s.repetitions>=5)mMas++;}
+    var isDone=mMas>=w.length&&w.length>0,isActive=i===ai,
+        pct=w.length?Math.round(mMas/w.length*100):0;
+    var icls=isDone?"mi-d":isActive?"mi-a":"mi-l",
+        itxt=isDone?"\u2713":isActive?"\u25B6":(i+1)+"";
+    var d=document.createElement("div");d.className="mod-card";
+    d.innerHTML=
+      "<div class='mod-icon "+icls+"'>"+itxt+"</div>"+
+      "<div style='flex:1;min-width:0'>"+
+        "<div style='font-weight:600;font-size:14px'>"+mod.name+
+        " <span style='font-size:10px;padding:1px 6px;border-radius:6px;background:var(--s3);color:var(--mu)'>"+mod.lv+"</span></div>"+
+        "<div style='font-size:12px;color:var(--mu);margin-top:2px'>"+mod.sub+"</div>"+
+        "<div class='bar mt8'><div class='bfill' style='width:"+pct+"%;background:"+(isDone?"var(--ok)":"var(--ac)")+"'></div></div>"+
+        "<div class='xs mu' style='margin-top:3px'>"+mMas+"/"+w.length+" gemeistert</div>"+
+      "</div>";
+    c.appendChild(d);
+  }
+};
+
+// ═══════════════════════════════════════════════════════════════════════════
+// STATS SCREEN
+// ═══════════════════════════════════════════════════════════════════════════
+HK["sc-stats"]=function(){
+  var ls=lls(),p=lp();
+  el("st-tot").textContent=cseen(ls);
+  el("st-mas").textContent=cmas(ls);
+  el("st-str").textContent=p.streak;
+  var lc=el("st-levels");lc.innerHTML="";
+  for(var li=0;li<CFG.levels.length;li++){
+    var lv=CFG.levels[li];
+    var lvW=VA.filter(function(v){return v.lv===lv;});
+    var lvM=lvW.filter(function(v){var s=ls[v.id];return s&&s.repetitions>=5;}).length;
+    var pct=lvW.length?Math.round(lvM/lvW.length*100):0;
+    var clr=CFG.lvColors[lv]||"var(--ac)";
+    var row=document.createElement("div");row.style.marginBottom="12px";
+    row.innerHTML=
+      "<div class='flex jb ai' style='margin-bottom:4px'>"+
+        "<span class='sm'>"+lv+"</span>"+
+        "<span class='xs mu'>"+lvM+"/"+lvW.length+" ("+pct+"%)</span>"+
+      "</div>"+
+      "<div class='bar'><div class='bfill' style='width:"+pct+"%;background:"+clr+"'></div></div>";
+    lc.appendChild(row);
+  }
+  var mc=el("st-mods");mc.innerHTML="";
+  for(var mi=0;mi<MODS.length;mi++){
+    var mod=MODS[mi];
+    var mW=MV[mod.id]||[];
+    var mM=mW.filter(function(v){var s=ls[v.id];return s&&s.repetitions>=5;}).length;
+    var mpct=mW.length?Math.round(mM/mW.length*100):0;
+    var mrow=document.createElement("div");mrow.style.marginBottom="10px";
+    mrow.innerHTML=
+      "<div class='flex jb ai' style='margin-bottom:3px'>"+
+        "<span class='sm'>"+mod.name+"</span>"+
+        "<span class='xs mu'>"+mM+"/"+mW.length+"</span>"+
+      "</div>"+
+      "<div class='bar'><div class='bfill' style='width:"+mpct+"%'></div></div>";
+    mc.appendChild(mrow);
+  }
+};
+
+// ═══════════════════════════════════════════════════════════════════════════
+// SETTINGS SCREEN
+// ═══════════════════════════════════════════════════════════════════════════
+function bbtns(cid,vals,onSel,lbls){
+  var c=el(cid);if(!c||c.children.length)return;
+  for(var i=0;i<vals.length;i++){
+    (function(v,l){
+      var b=document.createElement("button");
+      b.className="btn bg bsm";b.textContent=l||v;b.dataset.v=v;
+      b.onclick=function(){var p=lp();onSel(p,v);sp(p);syncS();};
+      c.appendChild(b);
+    })(vals[i],lbls?lbls[i]:null);
+  }
+}
+function syncS(){
+  var p=lp();
+  el("tts-on").textContent=p.ttsOn?"Ein":"Aus";
+  el("tts-auto").textContent=p.ttsAuto?"Ja":"Nein";
+  var grps=[
+    {id:"goal-btns",cur:p.goal,cast:function(v){return parseInt(v);}},
+    {id:"lvl-btns",cur:p.startLv,cast:function(v){return v;}},
+    {id:"spd-btns",cur:p.ttsSpd,cast:function(v){return parseFloat(v);}}
+  ],g,i,btns;
+  for(g=0;g<grps.length;g++){
+    btns=document.querySelectorAll("#"+grps[g].id+" .btn");
+    for(i=0;i<btns.length;i++){
+      btns[i].className="btn bsm "+(grps[g].cast(btns[i].dataset.v)===grps[g].cur?"bp":"bg");
+    }
+  }
+}
+HK["sc-set"]=function(){
+  bbtns("goal-btns",[10,20,30,50],function(p,v){p.goal=parseInt(v);toast("Tagesziel: "+v,"ok");});
+  bbtns("lvl-btns",CFG.levels,function(p,v){p.startLv=v;toast("Start-Level: "+v,"ok");});
+  bbtns("spd-btns",[0.7,0.9,1.2],function(p,v){p.ttsSpd=parseFloat(v);},["Langsam","Normal","Schnell"]);
+  syncS();
+};
+
+// ═══════════════════════════════════════════════════════════════════════════
+// EVENT BINDINGS
+// ═══════════════════════════════════════════════════════════════════════════
+function bind(){
+  el("btn-mc").onclick=function(){goTo("sc-learn",{mode:"mc"});};
+  el("btn-fl").onclick=function(){goTo("sc-learn",{mode:"flash"});};
+  el("n-home").onclick=function(){goTo("sc-home");};
+  el("n-learn").onclick=function(){goTo("sc-learn",{});};
+  el("n-modules").onclick=function(){goTo("sc-modules");};
+  el("n-stats").onclick=function(){goTo("sc-stats");};
+  el("n-set").onclick=function(){goTo("sc-set");};
+  el("btn-back").onclick=function(){goTo("sc-home");};
+  el("btn-home2").onclick=function(){goTo("sc-home");};
+  el("m-mc").onclick=function(){_mode="mc";_li=0;_lok=0;var p=lp(),ls=lls();_lq=bq(ls,p.goal,p.startLv);rlh();hui();rc();};
+  el("m-fl").onclick=function(){_mode="flash";_li=0;_lok=0;var p=lp(),ls=lls();_lq=bq(ls,p.goal,p.startLv);rlh();hui();rc();};
+  el("btn-dir").onclick=function(){
+    var p=lp();
+    _dir=_dir==="de_to_target"?"target_to_de":"de_to_target";
+    p.dir=_dir;sp(p);rlh();rc();
+  };
+  el("fcard").onclick=function(){rev();};
+  el("r0").onclick=function(){rate(0);};el("r1").onclick=function(){rate(1);};
+  el("r2").onclick=function(){rate(2);};el("r3").onclick=function(){rate(3);};
+  el("btn-spk-fc").onclick=function(e){e.stopPropagation();spk();};
+  el("btn-spk-mc").onclick=function(){spk();};
+  el("btn-known").onclick=function(){mkn();};
+  el("btn-again").onclick=function(){lrest();};
+  el("tts-on").onclick=function(){var p=lp();p.ttsOn=!p.ttsOn;sp(p);syncS();};
+  el("tts-auto").onclick=function(){var p=lp();p.ttsAuto=!p.ttsAuto;sp(p);syncS();};
+  el("btn-exp").onclick=function(){
+    try{
+      var blob=new Blob([JSON.stringify({date:td(),lang:CFG.id,p:lp(),ls:lls()},null,2)],{type:"application/json"});
+      var a=document.createElement("a");a.href=URL.createObjectURL(blob);
+      a.download="vt_"+CFG.id+"_"+td()+".json";a.click();URL.revokeObjectURL(a.href);
+      toast("Export gestartet","ok");
+    }catch(e){toast("Export fehlgeschlagen","er");}
+  };
+  el("btn-reset").onclick=function(){
+    if(!confirm("Fortschritt wirklich zuruecksetzen?"))return;
+    try{var keys=Object.keys(localStorage);for(var i=0;i<keys.length;i++){if(keys[i].indexOf(CFG.storeKey)===0)localStorage.removeItem(keys[i]);}}catch(e){}
+    _mem={};
+    toast("Zurueckgesetzt","ok");goTo("sc-home");
+  };
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// START
+// ═══════════════════════════════════════════════════════════════════════════
+bind();
+try{if("speechSynthesis"in window)window.speechSynthesis.getVoices();}catch(e){}
+try{var _ip=lp();_ip=ustrk(_ip);sp(_ip);}catch(e){}
+// App-Beschriftung
+el("lang-title").textContent=CFG.name;
+el("lang-flag").textContent=CFG.flag;
+goTo("sc-home");
+console.log("[VT "+CFG.id.toUpperCase()+"] bereit. Vokabeln: "+VA.length+" | Module: "+MODS.length);
+
+})();
+</script>
+</body>
+</html>
