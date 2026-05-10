@@ -67,13 +67,13 @@ h1{font-family:var(--serif);font-size:28px;font-weight:400}h2{font-size:20px;fon
 </style>
 </head>
 <body>
-<div id="loading"><div class="spinner"></div><div class="msg">Vokabeln werden geladen…</div></div>
+<div id="loading"><div class="spinner"></div><div class="msg">Vokabeln werden geladen...</div></div>
 <div id="app" style="display:none">
 
 <div id="sc-home" class="screen on">
   <div class="flex jb ai mt8">
     <h1 id="lang-title">Englisch</h1>
-    <span id="lang-flag" style="font-size:28px">🇬🇧</span>
+    <span id="lang-flag" style="font-size:28px">&#127468;&#127463;</span>
   </div>
   <div class="card mt12">
     <div class="flex jb ai"><span class="sm mu">Tagesziel</span>
@@ -98,7 +98,7 @@ h1{font-family:var(--serif);font-size:28px;font-weight:400}h2{font-size:20px;fon
 
 <div id="sc-learn" class="screen">
   <div class="flex jb ai mt8">
-    <button class="btn bg bsm" id="btn-back">Zurück</button>
+    <button class="btn bg bsm" id="btn-back">Zurueck</button>
     <span class="mu xs" id="l-prog">0/0</span>
   </div>
   <div class="bar mt10"><div class="bfill" id="l-bar" style="width:0%"></div></div>
@@ -107,7 +107,7 @@ h1{font-family:var(--serif);font-size:28px;font-weight:400}h2{font-size:20px;fon
     <button id="m-fl" class="btn bg bsm" style="flex:1">Karteikarten</button>
   </div>
   <div class="flex jb ai mt8">
-    <span class="mu xs" id="l-dir">DE → EN</span>
+    <span class="mu xs" id="l-dir">DE &rarr; EN</span>
     <button class="btn bg bsm" id="btn-dir">Wechseln</button>
   </div>
   <div class="mt8">
@@ -125,7 +125,7 @@ h1{font-family:var(--serif);font-size:28px;font-weight:400}h2{font-size:20px;fon
         <div class="xs mu" id="fc-bl">Englisch</div>
         <div class="ftrans" id="fc-trans"></div>
         <div class="fex" id="fc-ex"></div>
-        <button class="btn bg bsm mt8" id="btn-spk-fc">🔊 Anhören</button>
+        <button class="btn bg bsm mt8" id="btn-spk-fc">&#128266; Anhoeren</button>
       </div>
     </div>
     <div class="rrow hidden" id="rrow">
@@ -139,18 +139,18 @@ h1{font-family:var(--serif);font-size:28px;font-weight:400}h2{font-size:20px;fon
     <div class="mcq" id="mc-q"></div>
     <div class="mcopts" id="mc-opts"></div>
     <div class="flex ai gap8 mt12">
-      <button class="btn bg bsm" id="btn-spk-mc">🔊 Anhören</button>
+      <button class="btn bg bsm" id="btn-spk-mc">&#128266; Anhoeren</button>
       <span class="mu xs" id="mc-hint" style="flex:1"></span>
       <button class="btn bg bsm" id="btn-known">Bekannt</button>
     </div>
   </div>
   <div id="done-wrap" class="hidden">
     <div style="text-align:center;padding:40px 0">
-      <div style="font-size:52px;margin-bottom:12px">🎉</div>
+      <div style="font-size:52px;margin-bottom:12px">&#127881;</div>
       <div style="font-family:var(--serif);font-size:26px;margin-bottom:6px">Session fertig!</div>
       <div class="mu sm" id="done-sub" style="margin-bottom:24px"></div>
       <button class="btn bp bw" id="btn-again">Nochmal</button>
-      <button class="btn bg bw mt8" id="btn-home2">Zur Übersicht</button>
+      <button class="btn bg bw mt8" id="btn-home2">Zur Uebersicht</button>
     </div>
   </div>
 </div>
@@ -214,7 +214,7 @@ if ("serviceWorker" in navigator) {
 var CFG = {
   id: "en",
   name: "Englisch",
-  flag: "🇬🇧",
+  flag: "&#127468;&#127463;",
   ttsLocale: "en-GB",
   storeKey: "vt_en_",
   startLv: "B2",
@@ -224,13 +224,13 @@ var CFG = {
 
 // Modul-Definitionen
 var MODS = [
-  {id:"m1", name:"B2 Phase 1", sub:"Präpositionen & Präzise Verben", lv:"B2"},
+  {id:"m1", name:"B2 Phase 1", sub:"Praepositionen & Praezise Verben", lv:"B2"},
   {id:"m2", name:"B2 Phase 2", sub:"Nomen, Adjektive, Business",     lv:"B2"},
   {id:"m3", name:"B2 Phase 3", sub:"Kollokationen & Akademisch",      lv:"B2"},
   {id:"m4", name:"B2 Phase 4", sub:"Phrasal Verbs, Diskurs, Register",lv:"B2"},
   {id:"m5", name:"C1 Phase 1", sub:"Nuancen & abstrakte Konzepte",    lv:"C1"},
   {id:"m6", name:"C1 Phase 2", sub:"Abstrakte Konzepte & Akademisch", lv:"C1"},
-  {id:"m7", name:"C1 Phase 3", sub:"Gehobene Sprache & Präzision",    lv:"C1"}
+  {id:"m7", name:"C1 Phase 3", sub:"Gehobene Sprache & Praezision",    lv:"C1"}
 ];
 
 // Vokabeldateien laden
@@ -255,7 +255,7 @@ function loadVocab() {
     s.onload = function() {
       loaded++;
       if (loaded === VOCAB_FILES.length) {
-        // Alle geladen — App starten
+        // Alle geladen - App starten
         VA = [].concat(
           window.VOCAB_B2_P1 || [],
           window.VOCAB_B2_P2 || [],
@@ -375,7 +375,7 @@ HK["sc-home"]=rh;
 var _lq=[],_li=0,_lok=0,_mode="mc",_dir="de_to_target",_cur=null,_rev=false,_lkd=false;
 function linit(params){var p=lp(),ls=lls();if(params&&params.mode)_mode=params.mode;_dir=p.dir||"de_to_target";_li=0;_lok=0;_lq=bq(ls,p.goal,p.startLv);rlh();hui();rc();}
 HK["sc-learn"]=linit;
-function rlh(){el("m-mc").className="btn bsm"+(_mode==="mc"?" bp":" bg");el("m-fl").className="btn bsm"+(_mode==="flash"?" bp":" bg");el("l-dir").textContent=_dir==="de_to_target"?"DE → EN":"EN → DE";}
+function rlh(){el("m-mc").className="btn bsm"+(_mode==="mc"?" bp":" bg");el("m-fl").className="btn bsm"+(_mode==="flash"?" bp":" bg");el("l-dir").textContent=_dir==="de_to_target"?"DE > EN":"EN > DE";}
 function hui(){el("fc-wrap").classList.add("hidden");el("mc-wrap").classList.add("hidden");el("done-wrap").classList.add("hidden");}
 function rc(){
   if(_li>=_lq.length){sdone();return;}
@@ -392,13 +392,13 @@ function rev(){if(_rev||_mode!=="flash")return;_rev=true;var isDE=_dir==="de_to_
 function rmc(){hui();el("mc-wrap").classList.remove("hidden");el("mc-hint").textContent="";var isDE=_dir==="de_to_target";el("mc-q").textContent=isDE?_cur.de:_cur.target;var dist=gdist(_cur,3),opts=[_cur].concat(dist),i;for(i=opts.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=opts[i];opts[i]=opts[j];opts[j]=t;}var c=el("mc-opts");c.innerHTML="";for(i=0;i<opts.length;i++){(function(opt){var b=document.createElement("button");b.className="mcopt";b.textContent=isDE?opt.target:opt.de;b.onclick=function(){hmc(b,opt.id===_cur.id);};c.appendChild(b);})(opts[i]);}}
 function hmc(btn,ok){if(_lkd)return;_lkd=true;var isDE=_dir==="de_to_target";if(ok){btn.classList.add("ok");_lok++;setTimeout(function(){rate(2);},800);}else{btn.classList.add("er");var ct=isDE?_cur.target:_cur.de,btns=document.querySelectorAll(".mcopt"),i;for(i=0;i<btns.length;i++){if(btns[i].textContent===ct)btns[i].classList.add("ok");}setTimeout(function(){rate(0);},1200);}}
 function rate(q){var ls=lls(),ns=sm2(ls[_cur.id]||null,q);ls[_cur.id]=ns;sls(ls);var p=lp();p=ustrk(p);sp(p);sday(lday()+1);_li++;rc();}
-function mkn(){if(!_cur)return;var d=new Date();d.setDate(d.getDate()+90);var ls=lls();ls[_cur.id]={interval:90,repetitions:5,easeFactor:2.5,nextReview:d.toISOString().slice(0,10)};sls(ls);toast("Bekannt ✓","ok");setTimeout(function(){_li++;rc();},600);}
+function mkn(){if(!_cur)return;var d=new Date();d.setDate(d.getDate()+90);var ls=lls();ls[_cur.id]={interval:90,repetitions:5,easeFactor:2.5,nextReview:d.toISOString().slice(0,10)};sls(ls);toast("Bekannt +","ok");setTimeout(function(){_li++;rc();},600);}
 function spk(){var p=lp();if(!p.ttsOn||!_cur)return;speak(_dir==="de_to_target"?_cur.target:_cur.de,p.ttsSpd);}
 function sdone(){hui();el("done-wrap").classList.remove("hidden");el("done-sub").textContent=_lok+" von "+_lq.length+" richtig.";}
 function lrest(){_li=0;_lok=0;var p=lp(),ls=lls();_lq=bq(ls,p.goal,p.startLv);hui();rc();}
 
 // MODULES
-HK["sc-modules"]=function(){var ls=lls(),ai=amx(ls),c=el("mod-list");c.innerHTML="";for(var i=0;i<MODS.length;i++){var mod=MODS[i],w=MV[mod.id]||[],mMas=0,j;for(j=0;j<w.length;j++){var s=ls[w[j].id];if(s&&s.repetitions>=5)mMas++;}var isDone=mMas>=w.length&&w.length>0,isActive=i===ai,pct=w.length?Math.round(mMas/w.length*100):0;var icls=isDone?"mi-d":isActive?"mi-a":"mi-l",itxt=isDone?"✓":isActive?"▶":(i+1)+"";var d=document.createElement("div");d.className="mod-card";d.innerHTML="<div class='mod-icon "+icls+"'>"+itxt+"</div><div style='flex:1;min-width:0'><div style='font-weight:600;font-size:14px'>"+mod.name+" <span style='font-size:10px;padding:1px 6px;border-radius:6px;background:var(--s3);color:var(--mu)'>"+mod.lv+"</span></div><div style='font-size:12px;color:var(--mu);margin-top:2px'>"+mod.sub+"</div><div class='bar mt8'><div class='bfill' style='width:"+pct+"%;background:"+(isDone?"var(--ok)":"var(--ac)")+"'></div></div><div class='xs mu' style='margin-top:3px'>"+mMas+"/"+w.length+" gemeistert</div></div>";c.appendChild(d);}};
+HK["sc-modules"]=function(){var ls=lls(),ai=amx(ls),c=el("mod-list");c.innerHTML="";for(var i=0;i<MODS.length;i++){var mod=MODS[i],w=MV[mod.id]||[],mMas=0,j;for(j=0;j<w.length;j++){var s=ls[w[j].id];if(s&&s.repetitions>=5)mMas++;}var isDone=mMas>=w.length&&w.length>0,isActive=i===ai,pct=w.length?Math.round(mMas/w.length*100):0;var icls=isDone?"mi-d":isActive?"mi-a":"mi-l",itxt=isDone?"v":isActive?">":(i+1)+"";var d=document.createElement("div");d.className="mod-card";d.innerHTML="<div class='mod-icon "+icls+"'>"+itxt+"</div><div style='flex:1;min-width:0'><div style='font-weight:600;font-size:14px'>"+mod.name+" <span style='font-size:10px;padding:1px 6px;border-radius:6px;background:var(--s3);color:var(--mu)'>"+mod.lv+"</span></div><div style='font-size:12px;color:var(--mu);margin-top:2px'>"+mod.sub+"</div><div class='bar mt8'><div class='bfill' style='width:"+pct+"%;background:"+(isDone?"var(--ok)":"var(--ac)")+"'></div></div><div class='xs mu' style='margin-top:3px'>"+mMas+"/"+w.length+" gemeistert</div></div>";c.appendChild(d);}};
 
 // STATS
 HK["sc-stats"]=function(){var ls=lls(),p=lp();el("st-tot").textContent=cseen(ls);el("st-mas").textContent=cmas(ls);el("st-str").textContent=p.streak;var lc=el("st-levels");lc.innerHTML="";for(var li=0;li<CFG.levels.length;li++){var lv=CFG.levels[li],lvW=VA.filter(function(v){return v.lv===lv;}),lvM=lvW.filter(function(v){var s=ls[v.id];return s&&s.repetitions>=5;}).length,pct=lvW.length?Math.round(lvM/lvW.length*100):0,clr=CFG.lvColors[lv]||"var(--ac)";var row=document.createElement("div");row.style.marginBottom="12px";row.innerHTML="<div class='flex jb ai' style='margin-bottom:4px'><span class='sm'>"+lv+"</span><span class='xs mu'>"+lvM+"/"+lvW.length+" ("+pct+"%)</span></div><div class='bar'><div class='bfill' style='width:"+pct+"%;background:"+clr+"'></div></div>";lc.appendChild(row);}var mc=el("st-mods");mc.innerHTML="";for(var mi=0;mi<MODS.length;mi++){var mod=MODS[mi],mW=MV[mod.id]||[],mM=mW.filter(function(v){var s=ls[v.id];return s&&s.repetitions>=5;}).length,mpct=mW.length?Math.round(mM/mW.length*100):0;var mrow=document.createElement("div");mrow.style.marginBottom="10px";mrow.innerHTML="<div class='flex jb ai' style='margin-bottom:3px'><span class='sm'>"+mod.name+"</span><span class='xs mu'>"+mM+"/"+mW.length+"</span></div><div class='bar'><div class='bfill' style='width:"+mpct+"%'></div></div>";mc.appendChild(mrow);}};
@@ -431,7 +431,7 @@ function bind(){
   el("tts-on").onclick=function(){var p=lp();p.ttsOn=!p.ttsOn;sp(p);syncS();};
   el("tts-auto").onclick=function(){var p=lp();p.ttsAuto=!p.ttsAuto;sp(p);syncS();};
   el("btn-exp").onclick=function(){try{var blob=new Blob([JSON.stringify({date:td(),lang:CFG.id,p:lp(),ls:lls()},null,2)],{type:"application/json"});var a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="vt_en_"+td()+".json";a.click();URL.revokeObjectURL(a.href);toast("Export gestartet","ok");}catch(e){toast("Export fehlgeschlagen","er");}};
-  el("btn-reset").onclick=function(){if(!confirm("Fortschritt wirklich zurücksetzen?"))return;try{var keys=Object.keys(localStorage);for(var i=0;i<keys.length;i++){if(keys[i].indexOf(CFG.storeKey)===0)localStorage.removeItem(keys[i]);}}catch(e){}toast("Zurückgesetzt","ok");goTo("sc-home");};
+  el("btn-reset").onclick=function(){if(!confirm("Fortschritt wirklich zuruecksetzen?"))return;try{var keys=Object.keys(localStorage);for(var i=0;i<keys.length;i++){if(keys[i].indexOf(CFG.storeKey)===0)localStorage.removeItem(keys[i]);}}catch(e){}toast("Zurueckgesetzt","ok");goTo("sc-home");};
 }
 
 bind();
