@@ -138,8 +138,14 @@ h1{font-family:var(--serif);font-size:28px;font-weight:400}h2{font-size:20px;fon
   <div id="mc-wrap" class="mt12 hidden">
     <div class="mcq" id="mc-q"></div>
     <div class="mcopts" id="mc-opts"></div>
+    <div id="mc-ex" class="hidden" style="background:var(--s2);border-radius:var(--R);padding:12px 14px;margin-top:10px">
+      <div class="xs mu" id="mc-ex-lbl">Beispiel</div>
+      <div style="font-size:14px;margin-top:4px;font-style:italic" id="mc-ex-de"></div>
+      <div style="font-size:14px;margin-top:4px;color:var(--ac)" id="mc-ex-en"></div>
+    </div>
     <div class="flex ai gap8 mt12">
       <button class="btn bg bsm" id="btn-spk-mc">&#128266; Anhoeren</button>
+      <button class="btn bg bsm" id="btn-ex-mc">Beispiel</button>
       <span class="mu xs" id="mc-hint" style="flex:1"></span>
       <button class="btn bg bsm" id="btn-known">Bekannt</button>
     </div>
@@ -792,6 +798,7 @@ function hui(){el("fc-wrap").classList.add("hidden");el("mc-wrap").classList.add
 function rc(){
   if(_li>=_lq.length){sdone();return;}
   _cur=_lq[_li];_rev=false;_lkd=false;
+  try{el("mc-ex").classList.add("hidden");}catch(e){}
   el("l-bar").style.width=Math.round(_li/_lq.length*100)+"%";
   el("l-prog").textContent=(_li+1)+"/"+_lq.length;
   el("l-tp").textContent=_cur.tp||"";el("l-lv").textContent=_cur.lv||"";
@@ -854,6 +861,14 @@ el("btn-mc").addEventListener("touchend",function(e){e.preventDefault();mcStart(
   el("r0").onclick=function(){rate(0);};el("r1").onclick=function(){rate(1);};el("r2").onclick=function(){rate(2);};el("r3").onclick=function(){rate(3);};
   el("btn-spk-fc").onclick=function(e){e.stopPropagation();spk();};
   el("btn-spk-mc").onclick=function(){spk();};
+  el("btn-ex-mc").onclick=function(){
+    if(!_cur)return;
+    var box=el("mc-ex");
+    if(!box.classList.contains("hidden")){box.classList.add("hidden");return;}
+    el("mc-ex-de").textContent=_cur.example_de||"";
+    el("mc-ex-en").textContent=_cur.example_target||"";
+    box.classList.remove("hidden");
+  };
   el("btn-known").onclick=function(){mkn();};
   el("btn-again").onclick=function(){lrest();};
   el("tts-on").onclick=function(){var p=lp();p.ttsOn=!p.ttsOn;sp(p);syncS();};
