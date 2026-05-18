@@ -45,6 +45,18 @@ html,body{height:100%;background:var(--bg);color:var(--tx);font-family:var(--fon
 .fback{margin-top:18px;padding-top:18px;border-top:1px solid var(--bd);width:100%;display:none}
 .fback.on{display:block}.ftrans{font-size:22px;font-weight:600;margin-bottom:6px}
 .fex{font-size:13px;color:var(--mu);font-style:italic}
+.fc-exrow{background:var(--s2);border-radius:8px;padding:8px 10px;margin-bottom:4px;text-align:left;position:relative}
+.fc-ex-en{font-size:13px;font-style:italic;line-height:1.4;padding-right:28px;color:var(--tx)}
+.fc-ex-de{font-size:11px;color:var(--mu);margin-top:2px}
+.fc-tts-btn{position:absolute;top:6px;right:6px;background:none;border:none;cursor:pointer;font-size:14px;color:var(--ac);opacity:.7;padding:2px;line-height:1}
+.fc-ext{border-radius:8px;padding:8px 10px;margin-top:8px;text-align:left;width:100%}
+.fc-ext-lbl{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}
+.fc-opp-box{background:#3a1820;border-left:3px solid var(--er)}.fc-opp-box .fc-ext-lbl{color:var(--er)}
+.fc-syn-box{background:#1a1f3a;border-left:3px solid var(--ac)}.fc-syn-box .fc-ext-lbl{color:var(--ac)}
+.fc-fam-box{background:var(--s3);border-left:3px solid var(--mu)}.fc-fam-box .fc-ext-lbl{color:var(--mu)}
+.fc-pv-box{background:#2e2412;border-left:3px solid var(--wa)}.fc-pv-box .fc-ext-lbl{color:var(--wa)}
+.fc-chip{display:inline-flex;flex-direction:column;align-items:center;background:var(--ac);color:#fff;border-radius:16px;padding:3px 10px;font-size:11px;font-weight:600;margin:2px 2px 0 0}
+.fc-chip-de{font-size:9px;font-weight:400;opacity:.8;line-height:1.3}
 .rrow{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:10px}
 .rbtn{padding:10px 4px;border:none;border-radius:10px;font-size:12px;font-weight:600;cursor:pointer;min-height:44px;font-family:var(--font)}
 .rbtn:active{opacity:.7}
@@ -124,8 +136,13 @@ h1{font-family:var(--serif);font-size:28px;font-weight:400}h2{font-size:20px;fon
       <div class="fback" id="fc-back">
         <div class="xs mu" id="fc-bl">Englisch</div>
         <div class="ftrans" id="fc-trans"></div>
+        <div id="fc-examples"></div>
         <div class="fex" id="fc-ex"></div>
         <button class="btn bg bsm mt8" id="btn-spk-fc">&#128266; Anhoeren</button>
+        <div id="fc-opp" class="fc-ext fc-opp-box" style="display:none"></div>
+        <div id="fc-syn" class="fc-ext fc-syn-box" style="display:none"></div>
+        <div id="fc-fam" class="fc-ext fc-fam-box" style="display:none"></div>
+        <div id="fc-pv" class="fc-ext fc-pv-box" style="display:none"></div>
       </div>
     </div>
     <div class="rrow hidden" id="rrow">
@@ -873,7 +890,58 @@ function rc(){
   if(_mode==="mc")rmc();else rfl();
 }
 function rfl(){hui();el("fc-wrap").classList.remove("hidden");el("rrow").classList.add("hidden");var isDE=_dir==="de_to_target";el("fc-dl").textContent=isDE?"Deutsch":"Englisch";el("fc-front").textContent=isDE?_cur.de:_cur.target;el("fc-ph").textContent=(!isDE&&_cur.phonetic)?_cur.phonetic:"";el("fc-hint").style.display="";el("fc-back").classList.remove("on");}
-function rev(){if(_rev||_mode!=="flash")return;_rev=true;var isDE=_dir==="de_to_target";el("fc-bl").textContent=isDE?"Englisch":"Deutsch";el("fc-trans").textContent=isDE?_cur.target:_cur.de;el("fc-ex").textContent=isDE?(_cur.example_target||""):(_cur.example_de||"");el("fc-back").classList.add("on");el("fc-hint").style.display="none";el("rrow").classList.remove("hidden");var p=lp();if(p.ttsAuto&&p.ttsOn)speak(isDE?_cur.target:_cur.de,p.ttsSpd);}
+window.spkEx=function(idx){if(!_cur||!_cur.examples||!_cur.examples[idx])return;speak(_cur.examples[idx].en,0.92);};
+function rev(){
+  if(_rev||_mode!=="flash")return;
+  _rev=true;
+  var isDE=_dir==="de_to_target";
+  el("fc-bl").textContent=isDE?"Englisch":"Deutsch";
+  el("fc-trans").textContent=isDE?_cur.target:_cur.de;
+  // Beispielsaetze
+  var exs=_cur.examples;
+  if(exs&&exs.length){
+    var eh="",i;
+    for(i=0;i<exs.length;i++)
+      eh+="<div class='fc-exrow'><button class='fc-tts-btn' onclick='event.stopPropagation();spkEx("+i+")'>&#128266;</button><div class='fc-ex-en'>"+exs[i].en+"</div><div class='fc-ex-de'>"+exs[i].de+"</div></div>";
+    el("fc-examples").innerHTML=eh;el("fc-examples").style.display="";
+    el("fc-ex").style.display="none";el("btn-spk-fc").style.display="none";
+  }else{
+    el("fc-examples").innerHTML="";el("fc-examples").style.display="none";
+    el("fc-ex").textContent=isDE?(_cur.example_target||""):(_cur.example_de||"");
+    el("fc-ex").style.display="";el("btn-spk-fc").style.display="";
+  }
+  // Gegenteil
+  var opp=_cur.opposite;
+  if(opp&&opp.en){
+    el("fc-opp").innerHTML="<div class='fc-ext-lbl'>&#10231; Gegenteil</div><div style='font-size:14px;font-weight:700;color:var(--er)'>"+opp.en+"<span style='font-weight:400;font-size:12px;color:var(--mu);margin-left:4px'>&#183; "+opp.de+"</span></div>"+(opp.example_en?"<div style='font-size:11px;font-style:italic;color:var(--mu);margin-top:3px'>"+opp.example_en+"</div>":"");
+    el("fc-opp").style.display="";
+  }else{el("fc-opp").style.display="none";}
+  // Synonyme
+  var syns=_cur.synonyms;
+  if(syns&&syns.length){
+    var sh="<div class='fc-ext-lbl'>&#8776; Synonyme</div><div style='display:flex;flex-wrap:wrap'>",j;
+    for(j=0;j<syns.length;j++)sh+="<div class='fc-chip'>"+syns[j].word+"<span class='fc-chip-de'>"+syns[j].de+"</span></div>";
+    el("fc-syn").innerHTML=sh+"</div>";el("fc-syn").style.display="";
+  }else{el("fc-syn").style.display="none";}
+  // Wortfamilie
+  var wfa=_cur.word_family;
+  if(wfa&&wfa.length){
+    var fh="<div class='fc-ext-lbl'>&#128292; Wortfamilie</div>",k;
+    for(k=0;k<wfa.length;k++)fh+="<div style='display:flex;align-items:baseline;gap:6px;font-size:12px;margin-top:3px'><span style='font-weight:700;min-width:90px;color:var(--tx)'>"+wfa[k].word+"</span><span style='font-size:10px;background:var(--s2);padding:1px 6px;border-radius:10px;color:var(--mu)'>"+wfa[k].pos+"</span><span style='color:var(--mu)'>"+wfa[k].de+"</span></div>";
+    el("fc-fam").innerHTML=fh;el("fc-fam").style.display="";
+  }else{el("fc-fam").style.display="none";}
+  // Phrasal Verbs
+  var pvs=_cur.phrasal_verbs;
+  if(pvs&&pvs.length){
+    var ph="<div class='fc-ext-lbl'>&#9889; Phrasal Verbs</div>",l;
+    for(l=0;l<pvs.length;l++)ph+="<div style='margin-top:5px'><span style='font-weight:700;font-size:13px;color:var(--wa)'>"+pvs[l].phrase+"</span><span style='font-size:11px;color:var(--mu);margin-left:6px'>"+pvs[l].de+"</span><div style='font-size:11px;font-style:italic;color:var(--mu);margin-top:1px'>"+pvs[l].example+"</div></div>";
+    el("fc-pv").innerHTML=ph;el("fc-pv").style.display="";
+  }else{el("fc-pv").style.display="none";}
+  el("fc-back").classList.add("on");
+  el("fc-hint").style.display="none";
+  el("rrow").classList.remove("hidden");
+  var p=lp();if(p.ttsAuto&&p.ttsOn)speak(isDE?_cur.target:_cur.de,p.ttsSpd);
+}
 function rmc(){hui();el("mc-wrap").classList.remove("hidden");el("mc-hint").textContent="";var isDE=_dir==="de_to_target";el("mc-q").textContent=isDE?_cur.de:_cur.target;var dist=gdist(_cur,3),opts=[_cur].concat(dist),i;for(i=opts.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=opts[i];opts[i]=opts[j];opts[j]=t;}var c=el("mc-opts");c.innerHTML="";for(i=0;i<opts.length;i++){(function(opt){var b=document.createElement("button");b.className="mcopt";b.textContent=isDE?opt.target:opt.de;b.onclick=function(){hmc(b,opt.id===_cur.id);};c.appendChild(b);})(opts[i]);}}
 function hmc(btn,ok){if(_lkd)return;_lkd=true;var isDE=_dir==="de_to_target";if(ok){btn.classList.add("ok");_lok++;setTimeout(function(){rate(2);},800);}else{btn.classList.add("er");var ct=isDE?_cur.target:_cur.de,btns=document.querySelectorAll(".mcopt"),i;for(i=0;i<btns.length;i++){if(btns[i].textContent===ct)btns[i].classList.add("ok");}setTimeout(function(){rate(0);},1200);}}
 function rate(q){var ls=lls(),ns=sm2(ls[_cur.id]||null,q);ls[_cur.id]=ns;sls(ls);var p=lp();p=ustrk(p);sp(p);sday(lday()+1);_li++;rc();}
