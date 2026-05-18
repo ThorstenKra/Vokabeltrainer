@@ -1,16 +1,9 @@
 // service-worker.js
 // Cacht alle App-Dateien beim ersten Besuch für Offline-Nutzung
 
-const CACHE = "vt-en-v1";
+const CACHE = "vt-en-v2";
 const FILES = [
-  "./Vokabeltrainer_EN.html",
-  "./vocab/en_b2_p1.js",
-  "./vocab/en_b2_p2.js",
-  "./vocab/en_b2_p3.js",
-  "./vocab/en_b2_p4.js",
-  "./vocab/en_c1_p1.js",
-  "./vocab/en_c1_p2.js",
-  "./vocab/en_c1_p3.js"
+  "./Vokabeltrainer_EN.html"
 ];
 
 self.addEventListener("install", e => {

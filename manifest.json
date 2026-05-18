@@ -2,7 +2,7 @@
   "name": "Vokabeltrainer",
   "short_name": "Vokabel",
   "description": "Persönlicher Vokabeltrainer mit Spaced Repetition für EN · FR · ES · RO",
-  "start_url": "/index.html",
+  "start_url": "/Vokabeltrainer_EN.html",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#F5F2ED",
