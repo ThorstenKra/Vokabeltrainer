@@ -2,7 +2,7 @@
 
 Fertige Prompts für die Implementierung jedes Features.
 Einfach kopieren und in Claude Code (CLI) oder einem neuen Chat einfügen.
-Immer zuerst die aktuelle `index.html` in den Chat hochladen oder den Pfad nennen.
+Immer zuerst die aktuelle `Vokabeltrainer_EN.html` in den Chat hochladen oder den Pfad nennen.
 
 ---
 
@@ -10,7 +10,7 @@ Immer zuerst die aktuelle `index.html` in den Chat hochladen oder den Pfad nenne
 
 ```
 Ich arbeite an meinem Vokabeltrainer (HTML/JS/PWA für iPhone und iPad).
-Hier ist die aktuelle index.html: [Datei anhängen oder Inhalt einfügen]
+Hier ist die aktuelle Vokabeltrainer_EN.html: [Datei anhängen oder Inhalt einfügen]
 
 Aufgabe: Implementiere das erweiterte Karteikarten-Layout.
 
@@ -43,7 +43,7 @@ SM-2-Bewertung (4 Buttons: Falsch / Schwer / Gut / Leicht) bleibt unverändert.
 
 ```
 Ich arbeite an meinem Vokabeltrainer (HTML/JS/PWA für iPhone und iPad).
-Hier ist die aktuelle index.html: [Datei anhängen]
+Hier ist die aktuelle Vokabeltrainer_EN.html: [Datei anhängen]
 
 Aufgabe: Füge einen dritten Lernmodus "Lückentext" hinzu.
 
@@ -72,7 +72,7 @@ Referenz-Demo: docs/cloze_demo.html (liegt im Repo)
 
 ```
 Ich arbeite an meinem Vokabeltrainer (HTML/JS/PWA für iPhone und iPad).
-Hier ist die aktuelle index.html: [Datei anhängen]
+Hier ist die aktuelle Vokabeltrainer_EN.html: [Datei anhängen]
 
 Aufgabe: Baue ein Statistik-Dashboard als eigene Tab-Ansicht ein.
 
@@ -104,9 +104,9 @@ Alle Daten aus localStorage, kein Backend.
 
 ```
 Ich arbeite an meinem Vokabeltrainer (HTML/JS/PWA für iPhone und iPad).
-Hier ist die aktuelle index.html: [Datei anhängen]
+Hier ist die aktuelle Vokabeltrainer_EN.html: [Datei anhängen]
 
-Aufgabe: Binde die philosophy_rhetoric_en.json als neue Lektionsgruppe ein.
+Aufgabe: Binde die src/data/philosophy_rhetoric_en.json als neue Lektionsgruppe ein.
 
 Besonderheiten dieser Lektionen gegenüber normalen Vokabeln:
 - Zusätzliches Feld "definition": { en, de }
@@ -130,7 +130,7 @@ Beim Lückentext-Modus: Definitionsfeld als Hinweis anzeigen, Wort in Lücke.
 
 ```
 Ich arbeite an meinem Vokabeltrainer (HTML/JS/PWA für iPhone und iPad).
-Hier ist die aktuelle index.html: [Datei anhängen]
+Hier ist die aktuelle Vokabeltrainer_EN.html: [Datei anhängen]
 
 Aufgabe: Füge einen vierten Lernmodus "Hören" hinzu.
 
@@ -156,7 +156,7 @@ Icon: 🎧 Hören
 
 ```
 Ich arbeite an meinem Vokabeltrainer (HTML/JS/PWA für iPhone und iPad).
-Hier ist die aktuelle index.html: [Datei anhängen]
+Hier ist die aktuelle Vokabeltrainer_EN.html: [Datei anhängen]
 
 Aufgabe: Füge eine neue Ansicht "📄 PDF importieren" hinzu.
 
@@ -204,7 +204,7 @@ Fehlerbehandlung: PDF nicht lesbar, API-Key fehlt, Rate Limit.
 
 ```
 Ich arbeite an meinem Vokabeltrainer (HTML/JS/PWA für iPhone und iPad).
-Hier ist die aktuelle index.html: [Datei anhängen]
+Hier ist die aktuelle Vokabeltrainer_EN.html: [Datei anhängen]
 
 Aufgabe: Füge ein "Wort des Tages"-Widget auf der Startseite ein.
 
