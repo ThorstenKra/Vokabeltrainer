@@ -1002,6 +1002,40 @@ try{var _ip=lp();_ip=ustrk(_ip);sp(_ip);}catch(e){}
 goTo("sc-home");
 console.log("[VT EN] bereit. Vokabeln: "+VA.length);
 
+// Praepositionen EN aus JSON laden
+(function(){
+  if(!window.fetch)return;
+  fetch("src/data/prepositions_en.json")
+    .then(function(r){return r.json();})
+    .then(function(data){
+      if(!Array.isArray(data))return;
+      var prep=[],i,j;
+      for(i=0;i<data.length;i++){
+        j=data[i];
+        prep.push({
+          id:j.id,
+          de:(j.translations&&j.translations.de)||"",
+          target:j.word||"",
+          lv:"B2",tp:"Praep",ty:"prep",mod:"prep",
+          example_de:(j.examples&&j.examples[0])?j.examples[0].de:"",
+          example_target:(j.examples&&j.examples[0])?j.examples[0].en:"",
+          examples:j.examples||[],
+          opposite:j.opposite||null,
+          synonyms:j.synonyms||[],
+          word_family:j.word_family||[],
+          phrasal_verbs:j.phrasal_verbs||[]
+        });
+      }
+      if(!prep.length)return;
+      window.VOCAB_PREP=prep;
+      MODS.push({id:"prep",name:"Praepositionen EN",sub:"8 Kernpraepositionen",lv:"B2"});
+      MV.prep=prep;
+      for(i=0;i<prep.length;i++)VA.push(prep[i]);
+      toast("Praepositionen geladen ("+prep.length+")","ok");
+    })
+    .catch(function(e){console.warn("[VT] Praep fetch fehlgeschlagen",e);});
+})();
+
 } // end init()
 
 init();
