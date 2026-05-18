@@ -37,7 +37,7 @@ Detailliertes Konzept: [`docs/Vokabeltrainer_Roadmap.pdf`](docs/Vokabeltrainer_R
 
 ### 1a Präpositionen-Lektionen in App integrieren
 
-**Ziel:** Die neue `prepositions_en.json` im Karteikarten- und Lückentext-Modus nutzbar machen.
+**Ziel:** Die neue `src/data/prepositions_en.json` im Karteikarten- und Lückentext-Modus nutzbar machen.
 
 **Aufgaben:**
 - [ ] Neues Karteikarten-Layout mit allen 7 Feldern implementieren (Referenz: `docs/flashcard_demo.html`)
