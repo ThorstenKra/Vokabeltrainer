@@ -21,15 +21,15 @@ Detailliertes Konzept: [`docs/Vokabeltrainer_Roadmap.pdf`](docs/Vokabeltrainer_R
 
 | Status | Feature | Beschreibung |
 |---|---|---|
-| ✅ | `prepositions_en.json` | 8 Kernpräpositionen EN mit allen Feldern |
-| ✅ | `philosophy_rhetoric_en.json` | 18 Philosophie- / Rhetorik-Begriffe EN |
-| ✅ | `flashcard_demo.html` | UI-Referenz neue Karteikarten-Felder |
-| ✅ | `sm2.js` | SM-2 Spaced-Repetition-Algorithmus |
-| ✅ | `tts.js` | Web Speech API Wrapper |
-| 📋 | `lessons_en.json` | Allgemeinwortschatz EN A1–B1 ausbauen |
-| 🔵 | `lessons_fr.json` | Französisch-Lektionen |
-| 🔵 | `lessons_es.json` | Spanisch-Lektionen |
-| 🔵 | `lessons_ro.json` | Rumänisch-Lektionen |
+| ✅ | `src/data/prepositions_en.json` | 8 Kernpräpositionen EN mit allen Feldern |
+| ✅ | `src/data/philosophy_rhetoric_en.json` | 18 Philosophie- / Rhetorik-Begriffe EN |
+| ✅ | `docs/flashcard_demo.html` | UI-Referenz neue Karteikarten-Felder |
+| ✅ | `src/js/sm2.js` | SM-2 Spaced-Repetition-Algorithmus |
+| ✅ | `src/js/tts.js` | Web Speech API Wrapper |
+| 📋 | `src/data/lessons_en.json` | Allgemeinwortschatz EN A1–B1 ausbauen |
+| 🔵 | `src/data/lessons_fr.json` | Französisch-Lektionen |
+| 🔵 | `src/data/lessons_es.json` | Spanisch-Lektionen |
+| 🔵 | `src/data/lessons_ro.json` | Rumänisch-Lektionen |
 
 ---
 
@@ -98,7 +98,7 @@ Moduswahl im Haupt-UI als dritte Option neben Karteikarte und Multiple Choice.
 
 ### 2a Philosophie / Rhetorik-Lektionen integrieren
 
-- [ ] `philosophy_rhetoric_en.json` in App einbinden
+- [ ] `src/data/philosophy_rhetoric_en.json` in App einbinden
 - [ ] Gruppen-Filter (A / B / C) in der Lektionsauswahl
 - [ ] Definition-Feld auf Karteikarte anzeigen (zusätzliches Feld zu Übersetzung)
 
