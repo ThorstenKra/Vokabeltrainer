@@ -10,8 +10,8 @@ Format: [Semantic Versioning](https://semver.org/lang/de/)
 ### Hinzugefügt
 - `prepositions_en.json` — 8 Kernpräpositionen EN mit erweitertem Datenformat
 - `philosophy_rhetoric_en.json` — 18 Philosophie- / Rhetorik-Begriffe EN
-- `sm2.js` — SM-2 Spaced-Repetition-Algorithmus als eigenständiges Modul
-- `tts.js` — Web Speech API Wrapper für EN / DE / FR / ES / RO
+- `src/js/sm2.js` — SM-2 Spaced-Repetition-Algorithmus als eigenständiges Modul
+- `src/js/tts.js` — Web Speech API Wrapper für EN / DE / FR / ES / RO
 - `docs/flashcard_demo.html` — UI-Referenz für erweitertes Karteikarten-Format
 - `docs/Vokabeltrainer_Roadmap.pdf` — Konzept und Entwicklungsplanung
 - Erweitertes Vokabel-Datenformat:
@@ -26,7 +26,7 @@ Format: [Semantic Versioning](https://semver.org/lang/de/)
 ## [0.1.0] – 2026-04
 
 ### Hinzugefügt
-- Grundstruktur der App (`index.html`)
+- Grundstruktur der App (`Vokabeltrainer_EN.html`)
 - Karteikarten-Modus (bidirektional DE ↔ EN)
 - Multiple-Choice-Modus (4 Optionen)
 - SM-2 Spaced Repetition
