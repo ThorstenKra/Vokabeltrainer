@@ -48,13 +48,23 @@ Basissprache **Deutsch**, Zielsprachen **Englisch · Französisch · Spanisch ·
 
 ```
 vokabeltrainer/
-├── index.html                  ← App-Einstiegspunkt (PWA)
+├── Vokabeltrainer_EN.html      ← App (self-contained, PWA-Einstiegspunkt)
+├── service-worker.js           ← Offline-Cache
+├── manifest.json               ← PWA-Manifest
 ├── README.md
 ├── ROADMAP.md
 ├── CHANGELOG.md
 │
 ├── src/
 │   ├── data/
+│   │   ├── en_b2_p1.js         ← Vokabeln B2, Paket 1–5
+│   │   ├── en_b2_p2.js
+│   │   ├── en_b2_p3.js
+│   │   ├── en_b2_p4.js
+│   │   ├── en_b2_p5.js
+│   │   ├── en_c1_p1.js         ← Vokabeln C1, Paket 1–3
+│   │   ├── en_c1_p2.js
+│   │   ├── en_c1_p3.js
 │   │   ├── prepositions_en.json
 │   │   ├── philosophy_rhetoric_en.json
 │   │   ├── lessons_en.json
@@ -62,20 +72,18 @@ vokabeltrainer/
 │   │   ├── lessons_es.json
 │   │   └── lessons_ro.json
 │   │
-│   ├── js/
-│   │   ├── sm2.js              ← Spaced-Repetition-Algorithmus
-│   │   ├── tts.js              ← Web Speech API Wrapper
-│   │   ├── stats.js            ← Statistik-Logik
-│   │   └── pdf_import.js       ← PDF-Schnittstelle (geplant)
-│   │
-│   └── css/
-│       └── app.css
+│   └── js/
+│       ├── sm2.js              ← Spaced-Repetition-Algorithmus
+│       ├── tts.js              ← Web Speech API Wrapper
+│       └── stats.js            ← Statistik-Logik
 │
-├── docs/
-│   ├── Vokabeltrainer_Roadmap.pdf
-│   └── flashcard_demo.html     ← UI-Referenz neue Karteikarten-Felder
-│
-└── manifest.json               ← PWA-Manifest
+└── docs/
+    ├── Vokabeltrainer_Roadmap.pdf
+    ├── flashcard_demo.html     ← UI-Referenz Karteikarten-Format
+    ├── cloze_demo.html         ← UI-Referenz Lückentext-Modus
+    ├── docs_prompts.md         ← Prompt-Dokumentation
+    ├── test_simple.html        ← Testseite
+    └── Vokabeltrainer_EN_1.html
 ```
 
 ---
