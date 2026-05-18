@@ -7,6 +7,28 @@ Format: [Semantic Versioning](https://semver.org/lang/de/)
 
 ## [Unreleased]
 
+### Hinzugefügt (2026-05-18)
+- Erweitertes Karteikarten-Layout (Rückseite):
+  - Zwei Beispielsätze mit je TTS-Button (🔊, rate 0.92)
+  - Gegenteil-Box (rot), Synonyme-Box mit Chips (blau), Wortfamilien-Box (grau), Phrasal-Verbs-Box (gold)
+  - Graceful Fallback auf altes Format (`example_de`/`example_target`) für bestehende B2/C1-Vokabeln
+- `prepositions_en.json` per `fetch()` zur Laufzeit geladen — erscheint als Modul "Praepositionen EN"
+- `window.spkEx(idx)` für TTS pro Beispielsatz
+
+### Geändert (2026-05-18)
+- Repository-Struktur reorganisiert: `src/js/`, `src/data/`, `docs/`
+- `vocab/`-Ordner aufgelöst: JS-Dateien → `src/data/`, HTML → `docs/`
+- `service-worker.js`: veraltete `vocab/`-Pfade entfernt, Cache-Version auf `vt-en-v2` erhöht
+- `manifest.json`: `start_url` von `/index.html` → `/Vokabeltrainer_EN.html` korrigiert
+
+### Dokumentation (2026-05-18)
+- README, CHANGELOG, ROADMAP, `docs/docs_prompts.md`: alle Pfadreferenzen auf neue Struktur aktualisiert
+  (`index.html` → `Vokabeltrainer_EN.html`, `sm2.js` → `src/js/sm2.js`, etc.)
+
+---
+
+## [Unreleased – vorherige Einträge]
+
 ### Hinzugefügt
 - `prepositions_en.json` — 8 Kernpräpositionen EN mit erweitertem Datenformat
 - `philosophy_rhetoric_en.json` — 18 Philosophie- / Rhetorik-Begriffe EN
