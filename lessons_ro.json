@@ -1,0 +1,92 @@
+[
+  {
+    "id": "ro_buna_01",
+    "word": "bună",
+    "group": "Grundwortschatz",
+    "group_label": "Begrüßung & Alltag",
+    "type": "general",
+    "pos": "interjection/adj",
+    "translations": { "de": "hallo / guten Tag / gut (fem.)" },
+    "examples": [
+      { "ro": "Bună, cum ești azi?", "de": "Hallo, wie geht es dir heute?" },
+      { "ro": "Ea a spus bună tuturor cu un zâmbet larg.", "de": "Sie sagte allen hallo mit einem breiten Lächeln." }
+    ],
+    "opposite": {
+      "ro": "la revedere",
+      "de": "auf Wiedersehen / tschüss",
+      "example_ro": "La revedere, pe curând!",
+      "example_de": "Auf Wiedersehen, bis bald!"
+    },
+    "synonyms": [
+      { "word": "bună ziua",      "de": "guten Tag (formell)" },
+      { "word": "salut",          "de": "hallo / hi (informell)" }
+    ],
+    "word_family": [
+      { "word": "bun",      "pos": "adj (masc.)", "de": "gut / lieb (männlich)" },
+      { "word": "bunătate", "pos": "noun",        "de": "Güte / Freundlichkeit" },
+      { "word": "bine",     "pos": "adv",         "de": "gut / wohl / in Ordnung" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+  {
+    "id": "ro_multumesc_02",
+    "word": "mulțumesc",
+    "group": "Grundwortschatz",
+    "group_label": "Begrüßung & Alltag",
+    "type": "general",
+    "pos": "interjection/verb",
+    "translations": { "de": "danke / ich danke" },
+    "examples": [
+      { "ro": "Mulțumesc foarte mult pentru ajutor.", "de": "Vielen Dank für die Hilfe." },
+      { "ro": "I-am spus mulțumesc și am plecat.", "de": "Ich sagte Danke und ging." }
+    ],
+    "opposite": {
+      "ro": "cu plăcere",
+      "de": "bitte / gern geschehen / mit Vergnügen",
+      "example_ro": "— Mulțumesc! — Cu plăcere.",
+      "example_de": "— Danke! — Bitte sehr / Gern geschehen."
+    },
+    "synonyms": [
+      { "word": "îți mulțumesc",  "de": "ich danke dir (betont, informell)" },
+      { "word": "vă mulțumesc",   "de": "ich danke Ihnen (formell)" }
+    ],
+    "word_family": [
+      { "word": "mulțumire",  "pos": "noun", "de": "Dank / Zufriedenheit" },
+      { "word": "mulțumit",   "pos": "adj",  "de": "zufrieden / dankbar" },
+      { "word": "a mulțumi",  "pos": "verb", "de": "danken / zufriedenstellen" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+  {
+    "id": "ro_frumos_03",
+    "word": "frumos",
+    "group": "Grundwortschatz",
+    "group_label": "Eigenschaften",
+    "type": "general",
+    "pos": "adj",
+    "translations": { "de": "schön / hübsch / nett / wunderbar" },
+    "examples": [
+      { "ro": "Ce zi frumoasă este astăzi!", "de": "Was für ein schöner Tag ist heute!" },
+      { "ro": "El are o voce foarte frumoasă.", "de": "Er hat eine sehr schöne Stimme." }
+    ],
+    "opposite": {
+      "ro": "urât",
+      "de": "hässlich / unangenehm / schlecht",
+      "example_ro": "Vremea urâtă ne-a stricat planurile.",
+      "example_de": "Das schlechte Wetter hat unsere Pläne ruiniert."
+    },
+    "synonyms": [
+      { "word": "minunat",  "de": "wunderbar / herrlich" },
+      { "word": "drăguț",   "de": "niedlich / hübsch / nett" }
+    ],
+    "word_family": [
+      { "word": "frumusețe", "pos": "noun", "de": "Schönheit" },
+      { "word": "frumos",    "pos": "adv",  "de": "schön / gut (auch als Adverb)" },
+      { "word": "înfrumuseța","pos": "verb","de": "verschönern / aufhübschen" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  }
+]

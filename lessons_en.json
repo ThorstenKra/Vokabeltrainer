@@ -1,0 +1,493 @@
+[
+
+  // ═══════════════════════════════════════════════════════════════
+  // THEMA: Gefühle & Emotionen
+  // ═══════════════════════════════════════════════════════════════
+
+  {
+    "id": "en_happy_01",
+    "word": "happy",
+    "group": "Gefühle",
+    "group_label": "Gefühle & Emotionen",
+    "type": "general",
+    "pos": "adj",
+    "translations": { "de": "glücklich / fröhlich / zufrieden" },
+    "examples": [
+      { "en": "She felt happy when she heard the good news.", "de": "Sie fühlte sich glücklich, als sie die guten Nachrichten hörte." },
+      { "en": "The children were happy to play in the garden.", "de": "Die Kinder waren froh, im Garten spielen zu können." }
+    ],
+    "opposite": {
+      "en": "sad",
+      "de": "traurig / unglücklich",
+      "example_en": "He looked sad after hearing the bad news.",
+      "example_de": "Er sah traurig aus, nachdem er die schlechten Nachrichten gehört hatte."
+    },
+    "synonyms": [
+      { "word": "joyful",   "de": "freudvoll / fröhlich" },
+      { "word": "content",  "de": "zufrieden / glücklich" }
+    ],
+    "word_family": [
+      { "word": "happiness", "pos": "noun", "de": "Glück / Glücklichsein" },
+      { "word": "happily",   "pos": "adv",  "de": "glücklich / fröhlich / gerne" },
+      { "word": "unhappy",   "pos": "adj",  "de": "unglücklich / unzufrieden" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+
+  {
+    "id": "en_angry_02",
+    "word": "angry",
+    "group": "Gefühle",
+    "group_label": "Gefühle & Emotionen",
+    "type": "general",
+    "pos": "adj",
+    "translations": { "de": "wütend / ärgerlich / verärgert" },
+    "examples": [
+      { "en": "He was angry because his flight was cancelled.", "de": "Er war wütend, weil sein Flug gestrichen wurde." },
+      { "en": "She tried not to sound angry during the meeting.", "de": "Sie versuchte, während des Meetings nicht wütend zu klingen." }
+    ],
+    "opposite": {
+      "en": "calm",
+      "de": "ruhig / gelassen",
+      "example_en": "Take a deep breath and stay calm.",
+      "example_de": "Atme tief durch und bleib ruhig."
+    },
+    "synonyms": [
+      { "word": "furious",   "de": "rasend / außer sich vor Wut" },
+      { "word": "irritated", "de": "gereizt / genervt" }
+    ],
+    "word_family": [
+      { "word": "anger",  "pos": "noun", "de": "Wut / Ärger / Zorn" },
+      { "word": "angrily","pos": "adv",  "de": "wütend / ärgerlich" },
+      { "word": "enrage", "pos": "verb", "de": "wütend machen / erzürnen" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+
+  {
+    "id": "en_afraid_03",
+    "word": "afraid",
+    "group": "Gefühle",
+    "group_label": "Gefühle & Emotionen",
+    "type": "general",
+    "pos": "adj",
+    "translations": { "de": "ängstlich / verängstigt / sich fürchtend" },
+    "examples": [
+      { "en": "The child was afraid of the dark.", "de": "Das Kind hatte Angst vor der Dunkelheit." },
+      { "en": "I'm afraid I can't help you with that today.", "de": "Ich fürchte, ich kann Ihnen damit heute nicht helfen." }
+    ],
+    "opposite": {
+      "en": "brave",
+      "de": "mutig / tapfer",
+      "example_en": "You have to be brave and face your fears.",
+      "example_de": "Du musst mutig sein und deinen Ängsten ins Gesicht sehen."
+    },
+    "synonyms": [
+      { "word": "scared",     "de": "verängstigt / erschrocken" },
+      { "word": "frightened", "de": "erschrocken / eingeschüchtert" }
+    ],
+    "word_family": [
+      { "word": "fear",     "pos": "noun/verb", "de": "Angst / fürchten" },
+      { "word": "fearful",  "pos": "adj",       "de": "ängstlich / furchtsam" },
+      { "word": "fearless", "pos": "adj",       "de": "furchtlos / unerschrocken" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+
+  // ═══════════════════════════════════════════════════════════════
+  // THEMA: Zeit & Zahlen
+  // ═══════════════════════════════════════════════════════════════
+
+  {
+    "id": "en_always_04",
+    "word": "always",
+    "group": "Zeit",
+    "group_label": "Zeit & Häufigkeit",
+    "type": "general",
+    "pos": "adv",
+    "translations": { "de": "immer / stets / jederzeit" },
+    "examples": [
+      { "en": "She always drinks coffee in the morning.", "de": "Sie trinkt morgens immer Kaffee." },
+      { "en": "You can always call me if you need help.", "de": "Du kannst mich immer anrufen, wenn du Hilfe brauchst." }
+    ],
+    "opposite": {
+      "en": "never",
+      "de": "nie / niemals",
+      "example_en": "He never forgets his mother's birthday.",
+      "example_de": "Er vergisst nie den Geburtstag seiner Mutter."
+    },
+    "synonyms": [
+      { "word": "constantly",  "de": "ständig / beständig" },
+      { "word": "every time",  "de": "jedes Mal" }
+    ],
+    "word_family": [
+      { "word": "all",      "pos": "adj/pron", "de": "alle / alles / ganz" },
+      { "word": "already",  "pos": "adv",      "de": "schon / bereits" },
+      { "word": "still",    "pos": "adv",      "de": "noch / immer noch" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+
+  {
+    "id": "en_soon_05",
+    "word": "soon",
+    "group": "Zeit",
+    "group_label": "Zeit & Häufigkeit",
+    "type": "general",
+    "pos": "adv",
+    "translations": { "de": "bald / demnächst / gleich" },
+    "examples": [
+      { "en": "The train will arrive soon.", "de": "Der Zug wird bald ankommen." },
+      { "en": "I'll be back soon – just five minutes.", "de": "Ich bin bald wieder da – nur fünf Minuten." }
+    ],
+    "opposite": {
+      "en": "late",
+      "de": "spät / zu spät",
+      "example_en": "He arrived late and missed the beginning.",
+      "example_de": "Er kam zu spät und verpasste den Anfang."
+    },
+    "synonyms": [
+      { "word": "shortly",    "de": "in Kürze / kurz darauf" },
+      { "word": "before long","de": "nicht lange und … / bald" }
+    ],
+    "word_family": [
+      { "word": "sooner",    "pos": "adv (comparative)", "de": "früher / eher" },
+      { "word": "soonest",   "pos": "adv (superlative)", "de": "am frühesten / so bald wie möglich" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+
+  // ═══════════════════════════════════════════════════════════════
+  // THEMA: Reisen & Orte
+  // ═══════════════════════════════════════════════════════════════
+
+  {
+    "id": "en_travel_06",
+    "word": "travel",
+    "group": "Reisen",
+    "group_label": "Reisen & Orte",
+    "type": "general",
+    "pos": "verb/noun",
+    "translations": { "de": "reisen / Reise / Fahrt" },
+    "examples": [
+      { "en": "She loves to travel to new countries every year.", "de": "Sie reist jedes Jahr gerne in neue Länder." },
+      { "en": "The travel to the conference took three hours.", "de": "Die Reise zur Konferenz dauerte drei Stunden." }
+    ],
+    "opposite": {
+      "en": "stay",
+      "de": "bleiben / zu Hause bleiben",
+      "example_en": "This year we decided to stay at home for the holidays.",
+      "example_de": "Dieses Jahr haben wir beschlossen, für die Feiertage zu Hause zu bleiben."
+    },
+    "synonyms": [
+      { "word": "journey", "de": "Reise / Fahrt / Weg" },
+      { "word": "trip",    "de": "Ausflug / Reise / Trip" }
+    ],
+    "word_family": [
+      { "word": "traveller",  "pos": "noun", "de": "Reisende/r" },
+      { "word": "travelling", "pos": "adj/noun", "de": "reisend / Reisen" },
+      { "word": "well-travelled","pos": "adj", "de": "weitgereist / erfahren" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+
+  {
+    "id": "en_arrive_07",
+    "word": "arrive",
+    "group": "Reisen",
+    "group_label": "Reisen & Orte",
+    "type": "general",
+    "pos": "verb",
+    "translations": { "de": "ankommen / eintreffen / einlangen" },
+    "examples": [
+      { "en": "They arrived at the hotel after midnight.", "de": "Sie kamen nach Mitternacht im Hotel an." },
+      { "en": "The package should arrive within three days.", "de": "Das Paket sollte innerhalb von drei Tagen ankommen." }
+    ],
+    "opposite": {
+      "en": "depart",
+      "de": "abreisen / abfahren / abfliegen",
+      "example_en": "The train departs at nine in the morning.",
+      "example_de": "Der Zug fährt um neun Uhr morgens ab."
+    },
+    "synonyms": [
+      { "word": "reach",  "de": "erreichen / ankommen" },
+      { "word": "get to", "de": "ankommen bei / erreichen" }
+    ],
+    "word_family": [
+      { "word": "arrival",   "pos": "noun", "de": "Ankunft / Eintreffen" },
+      { "word": "late arrival","pos": "noun","de": "verspätete Ankunft / Nachzügler" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+
+  // ═══════════════════════════════════════════════════════════════
+  // THEMA: Essen & Trinken
+  // ═══════════════════════════════════════════════════════════════
+
+  {
+    "id": "en_delicious_08",
+    "word": "delicious",
+    "group": "Essen",
+    "group_label": "Essen & Trinken",
+    "type": "general",
+    "pos": "adj",
+    "translations": { "de": "köstlich / lecker / wohlschmeckend" },
+    "examples": [
+      { "en": "The homemade soup was absolutely delicious.", "de": "Die hausgemachte Suppe war absolut köstlich." },
+      { "en": "She made a delicious cake for the birthday party.", "de": "Sie backte einen leckeren Kuchen für die Geburtstagsfeier." }
+    ],
+    "opposite": {
+      "en": "disgusting",
+      "de": "ekelhaft / widerlich / unappetitlich",
+      "example_en": "The old food smelled disgusting and was thrown away.",
+      "example_de": "Das alte Essen roch ekelhaft und wurde weggeworfen."
+    },
+    "synonyms": [
+      { "word": "tasty",    "de": "lecker / schmackhaft" },
+      { "word": "scrumptious","de": "köstlich / himmlisch gut (umgangsspr.)" }
+    ],
+    "word_family": [
+      { "word": "delicacy",    "pos": "noun", "de": "Delikatesse / Feinkost / Zartheit" },
+      { "word": "deliciously", "pos": "adv",  "de": "köstlich / verführerisch" },
+      { "word": "delicate",    "pos": "adj",  "de": "zart / fein / empfindlich" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+
+  {
+    "id": "en_hungry_09",
+    "word": "hungry",
+    "group": "Essen",
+    "group_label": "Essen & Trinken",
+    "type": "general",
+    "pos": "adj",
+    "translations": { "de": "hungrig / ausgehungert" },
+    "examples": [
+      { "en": "I'm so hungry – I haven't eaten since morning.", "de": "Ich bin so hungrig – ich habe seit dem Morgen nichts gegessen." },
+      { "en": "The hungry children eagerly waited for dinner.", "de": "Die hungrigen Kinder warteten ungeduldig auf das Abendessen." }
+    ],
+    "opposite": {
+      "en": "full",
+      "de": "satt / voll",
+      "example_en": "After three courses, I was completely full.",
+      "example_de": "Nach drei Gängen war ich vollkommen satt."
+    },
+    "synonyms": [
+      { "word": "starving",  "de": "am Verhungern / sehr hungrig (umgangsspr.)" },
+      { "word": "famished",  "de": "ausgehungert / sehr hungrig" }
+    ],
+    "word_family": [
+      { "word": "hunger",    "pos": "noun", "de": "Hunger / Hungergefühl" },
+      { "word": "hungrily",  "pos": "adv",  "de": "hungrig / gierig" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+
+  // ═══════════════════════════════════════════════════════════════
+  // THEMA: Körper & Gesundheit
+  // ═══════════════════════════════════════════════════════════════
+
+  {
+    "id": "en_tired_10",
+    "word": "tired",
+    "group": "Körper",
+    "group_label": "Körper & Gesundheit",
+    "type": "general",
+    "pos": "adj",
+    "translations": { "de": "müde / erschöpft / abgespannt" },
+    "examples": [
+      { "en": "She was tired after the long journey.", "de": "Sie war nach der langen Reise müde." },
+      { "en": "I'm tired of waiting – let's go.", "de": "Ich bin es müde zu warten – lass uns gehen." }
+    ],
+    "opposite": {
+      "en": "energetic",
+      "de": "energiegeladen / voller Energie",
+      "example_en": "He felt energetic after a good night's sleep.",
+      "example_de": "Er fühlte sich energiegeladen nach einer guten Nacht."
+    },
+    "synonyms": [
+      { "word": "exhausted", "de": "erschöpft / ausgelaugt" },
+      { "word": "weary",     "de": "müde / abgespannt / überdrüssig" }
+    ],
+    "word_family": [
+      { "word": "tiredness", "pos": "noun", "de": "Müdigkeit / Erschöpfung" },
+      { "word": "tiring",    "pos": "adj",  "de": "ermüdend / anstrengend" },
+      { "word": "tireless",  "pos": "adj",  "de": "unermüdlich / rastlos" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+
+  {
+    "id": "en_strong_11",
+    "word": "strong",
+    "group": "Körper",
+    "group_label": "Körper & Gesundheit",
+    "type": "general",
+    "pos": "adj",
+    "translations": { "de": "stark / kräftig / stabil / intensiv" },
+    "examples": [
+      { "en": "You need strong muscles to lift heavy weights.", "de": "Du brauchst starke Muskeln, um schwere Gewichte zu heben." },
+      { "en": "She has a strong opinion on this subject.", "de": "Sie hat eine starke Meinung zu diesem Thema." }
+    ],
+    "opposite": {
+      "en": "weak",
+      "de": "schwach / kraftlos",
+      "example_en": "He felt weak after his illness and needed rest.",
+      "example_de": "Er fühlte sich nach seiner Krankheit schwach und brauchte Ruhe."
+    },
+    "synonyms": [
+      { "word": "powerful",  "de": "mächtig / kraftvoll" },
+      { "word": "robust",    "de": "robust / widerstandsfähig / kräftig" }
+    ],
+    "word_family": [
+      { "word": "strength",   "pos": "noun", "de": "Stärke / Kraft / Festigkeit" },
+      { "word": "strengthen", "pos": "verb", "de": "stärken / festigen / kräftigen" },
+      { "word": "strongly",   "pos": "adv",  "de": "stark / kräftig / nachdrücklich" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+
+  // ═══════════════════════════════════════════════════════════════
+  // THEMA: Arbeit & Alltag
+  // ═══════════════════════════════════════════════════════════════
+
+  {
+    "id": "en_important_12",
+    "word": "important",
+    "group": "Alltag",
+    "group_label": "Arbeit & Alltag",
+    "type": "general",
+    "pos": "adj",
+    "translations": { "de": "wichtig / bedeutend / bedeutsam" },
+    "examples": [
+      { "en": "It is important to drink enough water every day.", "de": "Es ist wichtig, jeden Tag genug Wasser zu trinken." },
+      { "en": "She made an important decision about her career.", "de": "Sie traf eine wichtige Entscheidung über ihre Karriere." }
+    ],
+    "opposite": {
+      "en": "unimportant",
+      "de": "unwichtig / unbedeutend / bedeutungslos",
+      "example_en": "Don't waste time on unimportant details.",
+      "example_de": "Verschwende keine Zeit mit unwichtigen Details."
+    },
+    "synonyms": [
+      { "word": "significant",  "de": "bedeutend / wesentlich / erheblich" },
+      { "word": "essential",    "de": "wesentlich / unerlässlich / grundlegend" }
+    ],
+    "word_family": [
+      { "word": "importance",   "pos": "noun", "de": "Wichtigkeit / Bedeutung / Bedeutsamkeit" },
+      { "word": "importantly",  "pos": "adv",  "de": "wichtigerweise / was wichtiger ist" },
+      { "word": "unimportant",  "pos": "adj",  "de": "unwichtig / unbedeutend" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+
+  {
+    "id": "en_difficult_13",
+    "word": "difficult",
+    "group": "Alltag",
+    "group_label": "Arbeit & Alltag",
+    "type": "general",
+    "pos": "adj",
+    "translations": { "de": "schwierig / schwer / anspruchsvoll" },
+    "examples": [
+      { "en": "Learning a new language can be difficult at first.", "de": "Eine neue Sprache zu lernen kann anfangs schwierig sein." },
+      { "en": "It was a difficult decision that took weeks to make.", "de": "Es war eine schwierige Entscheidung, die Wochen in Anspruch nahm." }
+    ],
+    "opposite": {
+      "en": "easy",
+      "de": "einfach / leicht / mühelos",
+      "example_en": "The test was surprisingly easy for most students.",
+      "example_de": "Der Test war für die meisten Schüler überraschend einfach."
+    },
+    "synonyms": [
+      { "word": "challenging", "de": "herausfordernd / anspruchsvoll" },
+      { "word": "tough",       "de": "hart / schwierig / zäh" }
+    ],
+    "word_family": [
+      { "word": "difficulty",   "pos": "noun", "de": "Schwierigkeit / Problem / Mühe" },
+      { "word": "difficulties", "pos": "noun (pl)", "de": "Schwierigkeiten / Probleme" },
+      { "word": "with difficulty","pos": "phrase", "de": "mühsam / mit Mühe" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+
+  {
+    "id": "en_remember_14",
+    "word": "remember",
+    "group": "Alltag",
+    "group_label": "Arbeit & Alltag",
+    "type": "general",
+    "pos": "verb",
+    "translations": { "de": "sich erinnern / behalten / denken an" },
+    "examples": [
+      { "en": "Do you remember what we talked about yesterday?", "de": "Erinnerst du dich, worüber wir gestern gesprochen haben?" },
+      { "en": "Please remember to turn off the lights before you leave.", "de": "Bitte denk daran, das Licht auszuschalten, bevor du gehst." }
+    ],
+    "opposite": {
+      "en": "forget",
+      "de": "vergessen",
+      "example_en": "I always forget where I put my keys.",
+      "example_de": "Ich vergesse immer, wo ich meine Schlüssel hingelegt habe."
+    },
+    "synonyms": [
+      { "word": "recall",    "de": "sich erinnern / abrufen / in Erinnerung rufen" },
+      { "word": "recollect", "de": "sich ins Gedächtnis rufen / erinnern" }
+    ],
+    "word_family": [
+      { "word": "memory",       "pos": "noun", "de": "Erinnerung / Gedächtnis / Andenken" },
+      { "word": "memorable",    "pos": "adj",  "de": "unvergesslich / denkwürdig" },
+      { "word": "remembrance",  "pos": "noun", "de": "Erinnerung / Gedenken / Andenken" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+
+  // ═══════════════════════════════════════════════════════════════
+  // THEMA: Natur & Umwelt
+  // ═══════════════════════════════════════════════════════════════
+
+  {
+    "id": "en_beautiful_15",
+    "word": "beautiful",
+    "group": "Natur",
+    "group_label": "Natur & Umwelt",
+    "type": "general",
+    "pos": "adj",
+    "translations": { "de": "schön / wunderschön / hübsch" },
+    "examples": [
+      { "en": "The sunset over the mountains was absolutely beautiful.", "de": "Der Sonnenuntergang über den Bergen war absolut wunderschön." },
+      { "en": "She has a beautiful voice that fills the whole room.", "de": "Sie hat eine wunderschöne Stimme, die den ganzen Raum erfüllt." }
+    ],
+    "opposite": {
+      "en": "ugly",
+      "de": "hässlich / unschön / unansehnlich",
+      "example_en": "The old building was considered ugly by most people.",
+      "example_de": "Das alte Gebäude wurde von den meisten Menschen als hässlich angesehen."
+    },
+    "synonyms": [
+      { "word": "gorgeous",   "de": "wunderschön / atemberaubend / hinreißend" },
+      { "word": "stunning",   "de": "umwerfend / atemberaubend" }
+    ],
+    "word_family": [
+      { "word": "beauty",      "pos": "noun", "de": "Schönheit / Schöne/r" },
+      { "word": "beautifully", "pos": "adv",  "de": "wunderschön / wunderbar" },
+      { "word": "beautify",    "pos": "verb", "de": "verschönern / aufhübschen" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  }
+
+]

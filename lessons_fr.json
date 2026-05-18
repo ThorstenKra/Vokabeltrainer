@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fr_bonjour_01",
+    "word": "bonjour",
+    "group": "Grundwortschatz",
+    "group_label": "Begrüßung & Alltag",
+    "type": "general",
+    "pos": "interjection/noun",
+    "translations": { "de": "guten Tag / hallo / guten Morgen" },
+    "examples": [
+      { "fr": "Bonjour, comment allez-vous ?", "de": "Guten Tag, wie geht es Ihnen?" },
+      { "fr": "Elle dit bonjour à tous ses collègues chaque matin.", "de": "Sie sagt jeden Morgen all ihren Kollegen guten Tag." }
+    ],
+    "opposite": {
+      "fr": "au revoir",
+      "de": "auf Wiedersehen / tschüss",
+      "example_fr": "Au revoir, à demain !",
+      "example_de": "Auf Wiedersehen, bis morgen!"
+    },
+    "synonyms": [
+      { "word": "salut",   "de": "hallo / hi (informell)" },
+      { "word": "coucou",  "de": "hallo / juhuu (sehr informell)" }
+    ],
+    "word_family": [
+      { "word": "bonsoir",   "pos": "interjection", "de": "guten Abend" },
+      { "word": "bonne nuit","pos": "phrase",        "de": "gute Nacht" },
+      { "word": "bon",       "pos": "adj",           "de": "gut / schön" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+  {
+    "id": "fr_merci_02",
+    "word": "merci",
+    "group": "Grundwortschatz",
+    "group_label": "Begrüßung & Alltag",
+    "type": "general",
+    "pos": "interjection/noun",
+    "translations": { "de": "danke / Dankeschön" },
+    "examples": [
+      { "fr": "Merci beaucoup pour votre aide !", "de": "Vielen Dank für Ihre Hilfe!" },
+      { "fr": "Elle a dit merci et a souri.", "de": "Sie sagte Danke und lächelte." }
+    ],
+    "opposite": {
+      "fr": "de rien",
+      "de": "bitte / gern geschehen",
+      "example_fr": "— Merci ! — De rien, c'est normal.",
+      "example_de": "— Danke! — Bitte, das ist doch selbstverständlich."
+    },
+    "synonyms": [
+      { "word": "je vous remercie", "de": "ich danke Ihnen (formal)" },
+      { "word": "grand merci",      "de": "herzlichen Dank" }
+    ],
+    "word_family": [
+      { "word": "remercier",     "pos": "verb", "de": "danken / sich bedanken" },
+      { "word": "remerciement",  "pos": "noun", "de": "Dankeschön / Dankesbezeugung" },
+      { "word": "merciable",     "pos": "adj",  "de": "dankbar (veraltet)" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  }
+]

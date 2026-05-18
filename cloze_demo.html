@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Vokabeltrainer – Lückentext</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:        #F5F2ED;
+    --card:      #FFFFFF;
+    --ink:       #1C1C1E;
+    --ink-mid:   #555;
+    --ink-faint: #888;
+    --accent:    #1E3A5F;
+    --accent-lt: #EBF3FF;
+    --green:     #1A6140;
+    --green-lt:  #EBF7F1;
+    --rose:      #C0392B;
+    --rose-lt:   #FEF0EE;
+    --gold:      #8B6914;
+    --gold-lt:   #FDF6E3;
+    --border:    #E2E2E8;
+    --grey-lt:   #F3F3F5;
+    --shadow:    0 2px 16px rgba(30,58,95,.08), 0 1px 3px rgba(0,0,0,.06);
+    --r:         14px;
+    --r-sm:      8px;
+    --font-body: 'DM Sans', sans-serif;
+    --font-serif:'Lora', Georgia, serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 16px env(safe-area-inset-bottom);
+    color: var(--ink);
+  }
+
+  /* ── Header ───────────────────────────────────────────────── */
+  .app-header {
+    width: 100%; max-width: 640px;
+    display: flex; align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .app-title {
+    font-family: var(--font-serif);
+    font-size: 1.1rem; color: var(--accent); letter-spacing: .02em;
+  }
+  .progress-wrap {
+    display: flex; flex-direction: column; align-items: flex-end; gap: 4px;
+  }
+  .progress-pill {
+    font-size: .78rem; font-weight: 600; color: var(--ink-faint);
+    background: var(--grey-lt); padding: 4px 12px; border-radius: 20px;
+  }
+  .progress-bar-wrap {
+    width: 120px; height: 4px; background: var(--border); border-radius: 2px;
+  }
+  .progress-bar {
+    height: 100%; background: var(--accent); border-radius: 2px;
+    transition: width .4s ease;
+  }
+
+  /* ── Mode bar ─────────────────────────────────────────────── */
+  .mode-bar {
+    width: 100%; max-width: 640px;
+    display: flex; gap: 8px; margin-bottom: 20px;
+  }
+  .mode-btn {
+    flex: 1; padding: 9px 0;
+    border: 1.5px solid var(--border); border-radius: var(--r-sm);
+    background: var(--card);
+    font-family: var(--font-body); font-size: .8rem; font-weight: 500;
+    color: var(--ink-mid); cursor: pointer; transition: all .18s;
+  }
+  .mode-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+  /* ── Lesson badge ─────────────────────────────────────────── */
+  .lesson-badge {
+    width: 100%; max-width: 640px;
+    display: flex; align-items: center; gap: 10px;
+    margin-bottom: 16px;
+  }
+  .badge-dot {
+    width: 8px; height: 8px; border-radius: 50%; background: var(--accent);
+  }
+  .badge-label {
+    font-size: .78rem; font-weight: 600; letter-spacing: .06em;
+    text-transform: uppercase; color: var(--ink-faint);
+  }
+
+  /* ── Main card ────────────────────────────────────────────── */
+  .card {
+    width: 100%; max-width: 640px;
+    background: var(--card); border-radius: var(--r);
+    box-shadow: var(--shadow); padding: 28px 28px 24px;
+    margin-bottom: 16px;
+  }
+
+  /* Sentence display */
+  .sentence-wrap {
+    margin-bottom: 24px;
+  }
+  .sentence-label {
+    font-size: .7rem; font-weight: 600; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--ink-faint); margin-bottom: 10px;
+  }
+  .sentence {
+    font-family: var(--font-serif); font-size: 1.25rem;
+    line-height: 1.7; color: var(--ink);
+  }
+  .gap {
+    display: inline-block;
+    min-width: 90px;
+    border-bottom: 2.5px solid var(--accent);
+    margin: 0 4px;
+    vertical-align: bottom;
+    text-align: center;
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--accent);
+    transition: all .25s;
+    padding: 0 6px;
+  }
+  .gap.correct { border-color: var(--green); color: var(--green); }
+  .gap.wrong   { border-color: var(--rose);  color: var(--rose);  }
+
+  .sentence-de {
+    margin-top: 8px; font-size: .85rem; color: var(--ink-faint);
+    font-style: italic; line-height: 1.5;
+    opacity: 0; transition: opacity .35s;
+  }
+  .sentence-de.visible { opacity: 1; }
+
+  /* TTS row */
+  .tts-row {
+    display: flex; gap: 8px; margin-bottom: 20px;
+  }
+  .tts-btn {
+    background: var(--grey-lt); border: none;
+    border-radius: var(--r-sm); padding: 8px 14px;
+    font-family: var(--font-body); font-size: .8rem; font-weight: 500;
+    color: var(--ink-mid); cursor: pointer; transition: background .15s;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .tts-btn:hover { background: var(--accent-lt); color: var(--accent); }
+
+  /* Options */
+  .options-label {
+    font-size: .7rem; font-weight: 600; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--ink-faint); margin-bottom: 10px;
+  }
+  .options-grid {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .option-btn {
+    padding: 16px 12px;
+    border: 1.5px solid var(--border);
+    border-radius: var(--r-sm);
+    background: var(--card);
+    font-family: var(--font-body); font-size: .95rem; font-weight: 500;
+    color: var(--ink); cursor: pointer;
+    transition: all .18s;
+    text-align: center; line-height: 1.3;
+    display: flex; flex-direction: column; gap: 3px;
+    align-items: center;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .option-btn:hover:not(:disabled) {
+    border-color: var(--accent); background: var(--accent-lt);
+  }
+  .option-btn .opt-de {
+    font-size: .75rem; color: var(--ink-faint); font-weight: 400;
+  }
+  .option-btn.correct {
+    border-color: var(--green); background: var(--green-lt);
+    color: var(--green);
+  }
+  .option-btn.correct .opt-de { color: #2a7a52; }
+  .option-btn.wrong {
+    border-color: var(--rose); background: var(--rose-lt);
+    color: var(--rose);
+  }
+  .option-btn.wrong .opt-de { color: #9b3428; }
+  .option-btn:disabled { cursor: default; }
+
+  /* Feedback strip */
+  .feedback {
+    margin-top: 16px; padding: 12px 16px;
+    border-radius: var(--r-sm);
+    font-size: .9rem; font-weight: 500;
+    display: none; align-items: center; gap: 10px;
+  }
+  .feedback.correct { background: var(--green-lt); color: var(--green); display: flex; }
+  .feedback.wrong   { background: var(--rose-lt);  color: var(--rose);  display: flex; }
+  .feedback .fb-icon { font-size: 1.2rem; }
+  .feedback .fb-text { line-height: 1.4; }
+  .feedback .correct-was {
+    font-size: .82rem; font-weight: 400; margin-top: 2px;
+    opacity: .85;
+  }
+
+  /* ── Next button ──────────────────────────────────────────── */
+  .next-btn {
+    width: 100%; max-width: 640px;
+    padding: 16px;
+    background: var(--accent); border: none;
+    border-radius: var(--r-sm); color: #fff;
+    font-family: var(--font-body); font-size: 1rem; font-weight: 600;
+    cursor: pointer; transition: opacity .2s;
+    display: none;
+  }
+  .next-btn.visible { display: block; }
+  .next-btn:hover { opacity: .9; }
+
+  /* ── Word info strip (nach Antwort) ───────────────────────── */
+  .word-info {
+    width: 100%; max-width: 640px;
+    background: var(--card); border-radius: var(--r);
+    box-shadow: var(--shadow); padding: 16px 20px;
+    margin-bottom: 16px;
+    display: none;
+  }
+  .word-info.visible { display: block; }
+  .wi-row {
+    display: flex; gap: 8px; align-items: flex-start;
+    font-size: .85rem; color: var(--ink-mid);
+    margin-bottom: 6px;
+  }
+  .wi-row:last-child { margin-bottom: 0; }
+  .wi-label {
+    font-size: .7rem; font-weight: 600; letter-spacing: .06em;
+    text-transform: uppercase; color: var(--ink-faint);
+    min-width: 70px; padding-top: 1px;
+  }
+  .wi-value { line-height: 1.5; }
+  .wi-value b { color: var(--ink); }
+
+  /* ── Nav ──────────────────────────────────────────────────── */
+  .nav-row {
+    width: 100%; max-width: 640px;
+    display: flex; justify-content: space-between;
+    align-items: center; margin-top: 4px;
+  }
+  .nav-btn {
+    background: var(--card); border: 1.5px solid var(--border);
+    border-radius: var(--r-sm); padding: 10px 20px;
+    font-family: var(--font-body); font-size: .85rem; font-weight: 500;
+    color: var(--ink-mid); cursor: pointer; transition: background .15s;
+  }
+  .nav-btn:hover { background: var(--grey-lt); }
+  .score-badge {
+    font-size: .85rem; font-weight: 600; color: var(--accent);
+    background: var(--accent-lt); padding: 6px 14px; border-radius: 20px;
+  }
+</style>
+</head>
+<body>
+
+<header class="app-header">
+  <span class="app-title">Vokabeltrainer</span>
+  <div class="progress-wrap">
+    <span class="progress-pill" id="progressLabel">2 / 5</span>
+    <div class="progress-bar-wrap">
+      <div class="progress-bar" id="progressBar" style="width:40%"></div>
+    </div>
+  </div>
+</header>
+
+<div class="mode-bar">
+  <button class="mode-btn">Karteikarte</button>
+  <button class="mode-btn">Multiple Choice</button>
+  <button class="mode-btn active">Lückentext</button>
+</div>
+
+<div class="lesson-badge">
+  <div class="badge-dot"></div>
+  <span class="badge-label">Präpositionen EN</span>
+</div>
+
+<!-- ── MAIN CARD ────────────────────────────────────────────── -->
+<div class="card" id="mainCard">
+
+  <div class="sentence-wrap">
+    <div class="sentence-label">Vervollständige den Satz</div>
+    <div class="sentence" id="sentence">
+      <!-- injected by JS -->
+    </div>
+    <div class="sentence-de" id="sentenceDe"></div>
+  </div>
+
+  <div class="tts-row">
+    <button class="tts-btn" id="ttsBtn" onclick="speakCurrent()">
+      🔊 Vorlesen
+    </button>
+    <button class="tts-btn" id="ttsSlowBtn" onclick="speakSlow()">
+      🐢 Langsam
+    </button>
+  </div>
+
+  <div class="options-label">Wähle die richtige Antwort</div>
+  <div class="options-grid" id="optionsGrid">
+    <!-- injected by JS -->
+  </div>
+
+  <div class="feedback" id="feedback">
+    <span class="fb-icon" id="fbIcon"></span>
+    <div class="fb-text">
+      <div id="fbMsg"></div>
+      <div class="correct-was" id="fbCorrect"></div>
+    </div>
+  </div>
+
+</div><!-- /card -->
+
+<!-- ── WORD INFO (nach Antwort) ──────────────────────────────── -->
+<div class="word-info" id="wordInfo">
+  <div class="wi-row">
+    <span class="wi-label">Gegenteil</span>
+    <span class="wi-value" id="wiOpposite"></span>
+  </div>
+  <div class="wi-row">
+    <span class="wi-label">Synonyme</span>
+    <span class="wi-value" id="wiSynonyms"></span>
+  </div>
+  <div class="wi-row">
+    <span class="wi-label">Wortfamilie</span>
+    <span class="wi-value" id="wiFamily"></span>
+  </div>
+</div>
+
+<button class="next-btn" id="nextBtn" onclick="nextQuestion()">
+  Weiter →
+</button>
+
+<div class="nav-row">
+  <button class="nav-btn" onclick="prevQuestion()">← Zurück</button>
+  <span class="score-badge" id="scoreBadge">0 / 0</span>
+  <button class="nav-btn" onclick="nextQuestion()">Überspringen</button>
+</div>
+
+<script>
+// ── Demo-Daten (Auszug aus prepositions_en.json) ────────────────
+const WORDS = [
+  {
+    id: "prep_up_01", word: "up",
+    translations: { de: "aufwärts / hinauf" },
+    examples: [
+      { en: "She walked ___ the stairs slowly.",      de: "Sie ging die Treppe langsam hinauf.",          full_en: "She walked up the stairs slowly." },
+      { en: "He looked ___ at the bright stars.",     de: "Er blickte zu den hellen Sternen hinauf.",     full_en: "He looked up at the bright stars." }
+    ],
+    opposite:  { en: "down", de: "unten / herunter" },
+    synonyms:  [{ word: "above", de: "oberhalb" }, { word: "upward", de: "aufwärts" }],
+    word_family: [
+      { word: "upward", pos: "adj/adv", de: "aufwärts gerichtet" },
+      { word: "upgrade", pos: "verb/noun", de: "verbessern / Aufwertung" }
+    ]
+  },
+  {
+    id: "prep_out_02", word: "out",
+    translations: { de: "heraus / außen / draußen" },
+    examples: [
+      { en: "Please take the trash ___ tonight.",     de: "Bitte bring heute Abend den Müll raus.",       full_en: "Please take the trash out tonight." },
+      { en: "She ran ___ of the building quickly.",   de: "Sie rannte schnell aus dem Gebäude heraus.",   full_en: "She ran out of the building quickly." }
+    ],
+    opposite:  { en: "in", de: "hinein / drinnen" },
+    synonyms:  [{ word: "outside", de: "außerhalb" }, { word: "outward", de: "nach außen" }],
+    word_family: [
+      { word: "outer",   pos: "adj",      de: "äußerer" },
+      { word: "outcome", pos: "noun",     de: "Ergebnis / Ausgang" }
+    ]
+  },
+  {
+    id: "prep_on_03", word: "on",
+    translations: { de: "auf / an / ein / weiter" },
+    examples: [
+      { en: "The book is ___ the table.",             de: "Das Buch liegt auf dem Tisch.",                full_en: "The book is on the table." },
+      { en: "Keep ___ working – you're doing great.", de: "Mach weiter so – du machst das großartig.",    full_en: "Keep on working – you're doing great." }
+    ],
+    opposite:  { en: "off", de: "aus / weg / ab" },
+    synonyms:  [{ word: "upon", de: "auf / oben auf" }, { word: "atop", de: "oben auf" }],
+    word_family: [
+      { word: "ongoing", pos: "adj",     de: "laufend / andauernd" },
+      { word: "onset",   pos: "noun",    de: "Beginn / Ausbruch" }
+    ]
+  },
+  {
+    id: "prep_in_04", word: "in",
+    translations: { de: "in / drin / innerhalb" },
+    examples: [
+      { en: "She is ___ the kitchen right now.",      de: "Sie ist gerade in der Küche.",                 full_en: "She is in the kitchen right now." },
+      { en: "He arrived ___ time for dinner.",        de: "Er kam rechtzeitig zum Abendessen an.",        full_en: "He arrived in time for dinner." }
+    ],
+    opposite:  { en: "out", de: "außen / heraus" },
+    synonyms:  [{ word: "inside", de: "innen" }, { word: "within", de: "innerhalb" }],
+    word_family: [
+      { word: "inner",  pos: "adj",     de: "innerer" },
+      { word: "income", pos: "noun",    de: "Einkommen" }
+    ]
+  },
+  {
+    id: "prep_over_05", word: "over",
+    translations: { de: "über / hinüber / vorbei" },
+    examples: [
+      { en: "The plane flew ___ the mountains.",      de: "Das Flugzeug flog über die Berge.",            full_en: "The plane flew over the mountains." },
+      { en: "Let's go ___ the plan one more time.",   de: "Lass uns den Plan noch einmal durchgehen.",    full_en: "Let's go over the plan one more time." }
+    ],
+    opposite:  { en: "under", de: "unter / darunter" },
+    synonyms:  [{ word: "above", de: "oberhalb" }, { word: "across", de: "quer über" }],
+    word_family: [
+      { word: "overall",  pos: "adj/adv", de: "insgesamt" },
+      { word: "overcome", pos: "verb",    de: "überwinden" }
+    ]
+  }
+];
+
+// ── Distraktoren-Pool (alle anderen Wörter) ─────────────────────
+const ALL_WORDS = ["up","out","on","in","off","over","to","for",
+                   "down","under","into","from","with","without","above","below"];
+
+// ── State ───────────────────────────────────────────────────────
+let current    = 0;
+let exIndex    = 0; // welcher Beispielsatz (0 oder 1)
+let answered   = false;
+let score      = { correct: 0, total: 0 };
+let queue      = shuffle([...WORDS]);
+
+// ── Init ────────────────────────────────────────────────────────
+renderQuestion();
+
+function renderQuestion() {
+  answered = false;
+  const word = queue[current];
+  exIndex    = current % 2; // abwechselnd Satz 0 und 1
+
+  // Sentence mit Lücke
+  const ex = word.examples[exIndex];
+  document.getElementById('sentence').innerHTML =
+    ex.en.replace('___', `<span class="gap" id="gap">___</span>`);
+  document.getElementById('sentenceDe').textContent = ex.de;
+  document.getElementById('sentenceDe').classList.remove('visible');
+
+  // Feedback zurücksetzen
+  const fb = document.getElementById('feedback');
+  fb.className = 'feedback';
+  document.getElementById('wordInfo').classList.remove('visible');
+  document.getElementById('nextBtn').classList.remove('visible');
+
+  // Score
+  updateScore();
+  updateProgress();
+
+  // Optionen generieren
+  const distractors = getDistractors(word.word, 3);
+  const options = shuffle([word.word, ...distractors]);
+  const grid = document.getElementById('optionsGrid');
+  grid.innerHTML = '';
+  options.forEach(opt => {
+    const de = opt === word.word
+      ? word.translations.de.split('/')[0].trim()
+      : getDE(opt);
+    const btn = document.createElement('button');
+    btn.className = 'option-btn';
+    btn.innerHTML = `<span>${opt}</span><span class="opt-de">${de}</span>`;
+    btn.onclick = () => checkAnswer(btn, opt, word);
+    grid.appendChild(btn);
+  });
+}
+
+function checkAnswer(btn, chosen, word) {
+  if (answered) return;
+  answered = true;
+  score.total++;
+
+  const isCorrect = chosen === word.word;
+  if (isCorrect) score.correct++;
+
+  // Gap füllen
+  const gap = document.getElementById('gap');
+  gap.textContent = word.word;
+  gap.classList.add(isCorrect ? 'correct' : 'wrong');
+
+  // Deutsche Übersetzung einblenden
+  document.getElementById('sentenceDe').classList.add('visible');
+
+  // Alle Buttons sperren und markieren
+  document.querySelectorAll('.option-btn').forEach(b => {
+    b.disabled = true;
+    const label = b.querySelector('span:first-child').textContent;
+    if (label === word.word) b.classList.add('correct');
+    else if (label === chosen && !isCorrect) b.classList.add('wrong');
+  });
+
+  // Feedback
+  const fb = document.getElementById('feedback');
+  fb.className = 'feedback ' + (isCorrect ? 'correct' : 'wrong');
+  document.getElementById('fbIcon').textContent = isCorrect ? '✓' : '✗';
+  document.getElementById('fbMsg').textContent  = isCorrect
+    ? 'Richtig! Sehr gut.'
+    : `Nicht ganz – die Antwort war: „${word.word}"`;
+  document.getElementById('fbCorrect').textContent = isCorrect ? '' :
+    `(${word.translations.de.split('/')[0].trim()})`;
+
+  // Word Info einblenden
+  const opp = word.opposite;
+  document.getElementById('wiOpposite').innerHTML =
+    `<b>${opp.en}</b> · ${opp.de}`;
+  document.getElementById('wiSynonyms').innerHTML =
+    word.synonyms.map(s => `<b>${s.word}</b> (${s.de})`).join(' · ');
+  document.getElementById('wiFamily').innerHTML =
+    word.word_family.map(f => `<b>${f.word}</b> <em>${f.pos}</em> – ${f.de}`).join('<br>');
+  document.getElementById('wordInfo').classList.add('visible');
+
+  // TTS: vollständigen Satz vorlesen
+  const ex = word.examples[exIndex];
+  setTimeout(() => speak(ex.full_en, 0.88), 400);
+
+  // Next-Button
+  document.getElementById('nextBtn').classList.add('visible');
+  updateScore();
+}
+
+function nextQuestion() {
+  current = (current + 1) % queue.length;
+  renderQuestion();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+function prevQuestion() {
+  current = (current - 1 + queue.length) % queue.length;
+  renderQuestion();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ── Progress ────────────────────────────────────────────────────
+function updateProgress() {
+  document.getElementById('progressLabel').textContent =
+    `${current + 1} / ${queue.length}`;
+  document.getElementById('progressBar').style.width =
+    `${Math.round(((current + 1) / queue.length) * 100)}%`;
+}
+function updateScore() {
+  document.getElementById('scoreBadge').textContent =
+    `${score.correct} / ${score.total}`;
+}
+
+// ── Distraktoren ─────────────────────────────────────────────────
+function getDistractors(correct, n) {
+  const pool = ALL_WORDS.filter(w => w !== correct);
+  return shuffle(pool).slice(0, n);
+}
+
+// ── TTS ──────────────────────────────────────────────────────────
+function speak(text, rate = 0.92) {
+  if (!window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang  = 'en-US';
+  u.rate  = rate;
+  setTimeout(() => window.speechSynthesis.speak(u), 50);
+}
+function speakCurrent() {
+  const word = queue[current];
+  speak(word.examples[exIndex].full_en);
+}
+function speakSlow() {
+  const word = queue[current];
+  speak(word.examples[exIndex].full_en, 0.65);
+}
+
+// ── Hilfsfunktionen ──────────────────────────────────────────────
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+function getDE(word) {
+  const map = {
+    down:"unten / herunter", under:"unter", into:"hinein",
+    from:"von / aus", with:"mit", without:"ohne",
+    above:"oberhalb", below:"unterhalb", off:"aus / weg",
+    for:"für", to:"zu / nach", over:"über"
+  };
+  return map[word] || '–';
+}
+
+// Mode-Buttons (UI only)
+document.querySelectorAll('.mode-btn').forEach(btn => {
+  btn.addEventListener('click', e => {
+    document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+  });
+});
+</script>
+</body>
+</html>

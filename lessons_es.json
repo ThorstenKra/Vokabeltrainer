@@ -1,0 +1,91 @@
+[
+  {
+    "id": "es_hola_01",
+    "word": "hola",
+    "group": "Grundwortschatz",
+    "group_label": "Begrüßung & Alltag",
+    "type": "general",
+    "pos": "interjection",
+    "translations": { "de": "hallo / guten Tag" },
+    "examples": [
+      { "es": "Hola, ¿cómo estás hoy?", "de": "Hallo, wie geht es dir heute?" },
+      { "es": "Ella dijo hola a todos con una gran sonrisa.", "de": "Sie sagte allen hallo mit einem großen Lächeln." }
+    ],
+    "opposite": {
+      "es": "adiós",
+      "de": "auf Wiedersehen / tschüss",
+      "example_es": "Adiós, hasta la próxima semana.",
+      "example_de": "Auf Wiedersehen, bis nächste Woche."
+    },
+    "synonyms": [
+      { "word": "buenos días",  "de": "guten Morgen" },
+      { "word": "buenas",       "de": "hallo / hi (informell)" }
+    ],
+    "word_family": [
+      { "word": "saludar",  "pos": "verb", "de": "grüßen / begrüßen" },
+      { "word": "saludo",   "pos": "noun", "de": "Gruß / Begrüßung" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+  {
+    "id": "es_gracias_02",
+    "word": "gracias",
+    "group": "Grundwortschatz",
+    "group_label": "Begrüßung & Alltag",
+    "type": "general",
+    "pos": "interjection/noun",
+    "translations": { "de": "danke / Dankeschön" },
+    "examples": [
+      { "es": "Muchas gracias por tu ayuda.", "de": "Vielen Dank für deine Hilfe." },
+      { "es": "Le dije gracias y me fui.", "de": "Ich sagte Danke und ging." }
+    ],
+    "opposite": {
+      "es": "de nada",
+      "de": "bitte / gern geschehen",
+      "example_es": "— Gracias. — De nada, es un placer.",
+      "example_de": "— Danke. — Bitte, gerne."
+    },
+    "synonyms": [
+      { "word": "te lo agradezco",  "de": "ich danke dir (betont)" },
+      { "word": "mil gracias",      "de": "tausend Dank" }
+    ],
+    "word_family": [
+      { "word": "agradecer",    "pos": "verb", "de": "danken / dankbar sein" },
+      { "word": "agradecimiento","pos": "noun","de": "Dankbarkeit / Dankesbezeugung" },
+      { "word": "agradecido",   "pos": "adj",  "de": "dankbar" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+  {
+    "id": "es_hablar_03",
+    "word": "hablar",
+    "group": "Grundwortschatz",
+    "group_label": "Kommunikation",
+    "type": "general",
+    "pos": "verb",
+    "translations": { "de": "sprechen / reden / sagen" },
+    "examples": [
+      { "es": "Ella habla tres idiomas con fluidez.", "de": "Sie spricht drei Sprachen fließend." },
+      { "es": "Tenemos que hablar sobre este problema.", "de": "Wir müssen über dieses Problem reden." }
+    ],
+    "opposite": {
+      "es": "callar",
+      "de": "schweigen / still sein",
+      "example_es": "Por favor, calla un momento y escucha.",
+      "example_de": "Bitte schweig einen Moment und hör zu."
+    },
+    "synonyms": [
+      { "word": "conversar", "de": "sich unterhalten / plaudern" },
+      { "word": "charlar",   "de": "plaudern / schwatzen (informell)" }
+    ],
+    "word_family": [
+      { "word": "hablante",  "pos": "noun", "de": "Sprecher/in" },
+      { "word": "hablador",  "pos": "adj",  "de": "gesprächig / redselig" },
+      { "word": "habla",     "pos": "noun", "de": "Sprache / Rede / Sprechweise" }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  }
+]
