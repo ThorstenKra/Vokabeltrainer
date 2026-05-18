@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Vokabeltrainer – Karteikarte</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* ── Reset & Tokens ───────────────────────────────────────────── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:        #F5F2ED;
+    --card:      #FFFFFF;
+    --ink:       #1C1C1E;
+    --ink-mid:   #555;
+    --ink-faint: #888;
+    --accent:    #1E3A5F;
+    --accent-lt: #EBF3FF;
+    --rose:      #C0392B;
+    --rose-lt:   #FEF0EE;
+    --green:     #1A6140;
+    --green-lt:  #EBF7F1;
+    --gold:      #8B6914;
+    --gold-lt:   #FDF6E3;
+    --grey-lt:   #F3F3F5;
+    --border:    #E2E2E8;
+    --shadow:    0 2px 16px rgba(30,58,95,.08), 0 1px 3px rgba(0,0,0,.06);
+    --r:         14px;
+    --r-sm:      8px;
+    --font-body: 'DM Sans', sans-serif;
+    --font-serif:'Lora', Georgia, serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 16px env(safe-area-inset-bottom);
+    color: var(--ink);
+  }
+
+  /* ── Header ───────────────────────────────────────────────────── */
+  .app-header {
+    width: 100%;
+    max-width: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .app-title {
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    color: var(--accent);
+    letter-spacing: .02em;
+  }
+  .progress-pill {
+    font-size: .78rem;
+    font-weight: 600;
+    color: var(--ink-faint);
+    background: var(--grey-lt);
+    padding: 4px 12px;
+    border-radius: 20px;
+    letter-spacing: .04em;
+  }
+
+  /* ── Mode Switcher ────────────────────────────────────────────── */
+  .mode-bar {
+    width: 100%;
+    max-width: 640px;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  .mode-btn {
+    flex: 1;
+    padding: 9px 0;
+    border: 1.5px solid var(--border);
+    border-radius: var(--r-sm);
+    background: var(--card);
+    font-family: var(--font-body);
+    font-size: .8rem;
+    font-weight: 500;
+    color: var(--ink-mid);
+    cursor: pointer;
+    transition: all .18s;
+  }
+  .mode-btn.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+
+  /* ── Card Wrapper ─────────────────────────────────────────────── */
+  .card-wrap {
+    width: 100%;
+    max-width: 640px;
+    perspective: 1200px;
+    cursor: pointer;
+  }
+  .card-inner {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform .55s cubic-bezier(.4,0,.2,1);
+    min-height: 220px;
+  }
+  .card-wrap.flipped .card-inner { transform: rotateY(180deg); }
+
+  .card-face {
+    position: absolute; inset: 0;
+    background: var(--card);
+    border-radius: var(--r);
+    box-shadow: var(--shadow);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    padding: 28px 28px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .card-face.back {
+    transform: rotateY(180deg);
+    position: relative;
+    inset: auto;
+  }
+
+  /* Card height trick: front is absolute, back determines height */
+  .card-wrap { position: relative; }
+  .card-inner { height: auto; }
+  .card-face.front {
+    /* will be hidden once we know back height */
+    min-height: inherit;
+  }
+
+  /* ── Front Face ───────────────────────────────────────────────── */
+  .card-tag {
+    font-size: .7rem;
+    font-weight: 600;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 12px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  .group-badge {
+    background: var(--accent-lt);
+    color: var(--accent);
+    padding: 2px 8px;
+    border-radius: 20px;
+    font-size: .68rem;
+  }
+  .card-word {
+    font-family: var(--font-serif);
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: var(--ink);
+    line-height: 1.1;
+    margin-bottom: 6px;
+  }
+  .card-translation {
+    font-size: .95rem;
+    color: var(--ink-mid);
+    margin-bottom: 16px;
+    font-style: italic;
+  }
+  .card-definition {
+    font-size: .88rem;
+    line-height: 1.6;
+    color: var(--ink-mid);
+    border-left: 3px solid var(--accent);
+    padding-left: 12px;
+    margin-bottom: 16px;
+  }
+  .flip-hint {
+    margin-top: auto;
+    font-size: .75rem;
+    color: var(--ink-faint);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+  }
+  .flip-hint svg { opacity: .5; }
+
+  /* ── Back Face ────────────────────────────────────────────────── */
+  .back-word {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--accent);
+    margin-bottom: 20px;
+  }
+
+  .section {
+    margin-bottom: 14px;
+  }
+  .section-label {
+    font-size: .68rem;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-bottom: 6px;
+  }
+
+  /* Examples */
+  .example-row {
+    background: var(--grey-lt);
+    border-radius: var(--r-sm);
+    padding: 10px 12px;
+    margin-bottom: 6px;
+  }
+  .example-row + .example-row {
+    background: #EFEFF2;
+  }
+  .ex-en {
+    font-size: .88rem;
+    font-style: italic;
+    color: var(--ink);
+    line-height: 1.5;
+    margin-bottom: 2px;
+  }
+  .ex-de {
+    font-size: .78rem;
+    color: var(--ink-faint);
+    line-height: 1.4;
+  }
+  .tts-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    float: right;
+    color: var(--accent);
+    padding: 0 0 0 6px;
+    font-size: .9rem;
+    line-height: 1;
+    opacity: .7;
+    transition: opacity .15s;
+  }
+  .tts-btn:hover { opacity: 1; }
+
+  /* Opposite */
+  .opposite-box {
+    background: var(--rose-lt);
+    border-radius: var(--r-sm);
+    padding: 10px 12px;
+    border-left: 3px solid var(--rose);
+  }
+  .opp-label {
+    font-size: .7rem;
+    font-weight: 600;
+    color: var(--rose);
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .opp-words {
+    font-size: .92rem;
+    font-weight: 600;
+    color: var(--rose);
+  }
+  .opp-words span {
+    font-weight: 400;
+    color: #8a3028;
+    font-size: .82rem;
+    margin-left: 6px;
+  }
+  .opp-example {
+    font-size: .78rem;
+    color: #8a3028;
+    font-style: italic;
+    margin-top: 4px;
+    line-height: 1.4;
+  }
+
+  /* Synonyms */
+  .synonyms-box {
+    background: var(--accent-lt);
+    border-radius: var(--r-sm);
+    padding: 10px 12px;
+    border-left: 3px solid var(--accent);
+  }
+  .syn-label {
+    font-size: .7rem;
+    font-weight: 600;
+    color: var(--accent);
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .syn-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .syn-chip {
+    background: var(--accent);
+    color: #fff;
+    border-radius: 20px;
+    padding: 3px 10px;
+    font-size: .8rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .syn-chip-de {
+    font-size: .68rem;
+    font-weight: 400;
+    opacity: .8;
+    margin-top: 1px;
+  }
+
+  /* Word Family */
+  .family-box {
+    background: var(--grey-lt);
+    border-radius: var(--r-sm);
+    padding: 10px 12px;
+    border-left: 3px solid #999;
+  }
+  .fam-label {
+    font-size: .7rem;
+    font-weight: 600;
+    color: var(--ink-faint);
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .fam-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .fam-row {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    font-size: .85rem;
+  }
+  .fam-word {
+    font-weight: 600;
+    color: var(--ink);
+    min-width: 100px;
+  }
+  .fam-pos {
+    font-size: .72rem;
+    color: var(--ink-faint);
+    font-style: italic;
+    background: var(--border);
+    padding: 1px 6px;
+    border-radius: 20px;
+    white-space: nowrap;
+  }
+  .fam-de {
+    font-size: .8rem;
+    color: var(--ink-mid);
+  }
+
+  /* Phrasal Verbs (Präpositionen) */
+  .phrasal-box {
+    background: var(--gold-lt);
+    border-radius: var(--r-sm);
+    padding: 10px 12px;
+    border-left: 3px solid var(--gold);
+  }
+  .pv-label {
+    font-size: .7rem;
+    font-weight: 600;
+    color: var(--gold);
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .pv-rows { display: flex; flex-direction: column; gap: 6px; }
+  .pv-row { display: flex; flex-direction: column; gap: 1px; }
+  .pv-phrase { font-weight: 600; font-size: .88rem; color: var(--gold); }
+  .pv-de { font-size: .78rem; color: #7a5c10; }
+  .pv-ex { font-size: .78rem; color: #7a5c10; font-style: italic; }
+
+  /* ── Rating Buttons ───────────────────────────────────────────── */
+  .rating-row {
+    width: 100%;
+    max-width: 640px;
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+  }
+  .rating-btn {
+    flex: 1;
+    padding: 14px 8px;
+    border: none;
+    border-radius: var(--r-sm);
+    font-family: var(--font-body);
+    font-size: .82rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform .12s, opacity .15s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+  }
+  .rating-btn:active { transform: scale(.96); }
+  .rating-btn .emoji { font-size: 1.3rem; }
+  .rating-btn.wrong  { background: #FDEEEE; color: var(--rose); }
+  .rating-btn.hard   { background: #FFF7E6; color: #9B6600; }
+  .rating-btn.good   { background: #E8F5E9; color: #2E7D32; }
+  .rating-btn.easy   { background: var(--accent-lt); color: var(--accent); }
+
+  /* ── Nav ──────────────────────────────────────────────────────── */
+  .nav-row {
+    width: 100%;
+    max-width: 640px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14px;
+  }
+  .nav-btn {
+    background: var(--card);
+    border: 1.5px solid var(--border);
+    border-radius: var(--r-sm);
+    padding: 10px 20px;
+    font-family: var(--font-body);
+    font-size: .85rem;
+    font-weight: 500;
+    color: var(--ink-mid);
+    cursor: pointer;
+    transition: background .15s;
+  }
+  .nav-btn:hover { background: var(--grey-lt); }
+  .nav-dots {
+    display: flex;
+    gap: 6px;
+  }
+  .dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--border);
+    transition: background .2s;
+  }
+  .dot.active { background: var(--accent); }
+
+  /* ── Spacer for card height ───────────────────────────────────── */
+  .card-spacer {
+    visibility: hidden;
+    pointer-events: none;
+    padding: 28px 28px 20px;
+  }
+</style>
+</head>
+<body>
+
+<header class="app-header">
+  <span class="app-title">Vokabeltrainer</span>
+  <span class="progress-pill">3 / 18</span>
+</header>
+
+<div class="mode-bar">
+  <button class="mode-btn active">Karteikarte</button>
+  <button class="mode-btn">Multiple Choice</button>
+  <button class="mode-btn">Lückentext</button>
+</div>
+
+<!-- ── CARD ─────────────────────────────────────────────────────── -->
+<div class="card-wrap" id="card" onclick="flipCard()">
+  <div class="card-inner" id="cardInner">
+
+    <!-- FRONT -->
+    <div class="card-face front" id="front">
+      <div class="card-tag">
+        <span>Nomen</span>
+        <span class="group-badge">Philosophie</span>
+      </div>
+      <div class="card-word">paradox</div>
+      <div class="card-translation">Paradoxon · Widerspruch · Scheinwiderspruch</div>
+      <div class="card-definition">
+        A statement that contradicts itself or seems impossible, yet may express a deeper truth.
+      </div>
+      <div class="flip-hint">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M1 4v6h6M23 20v-6h-6"/><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4-4.64 4.36A9 9 0 0 1 3.51 15"/>
+        </svg>
+        Tippe zum Umdrehen
+      </div>
+    </div>
+
+    <!-- BACK -->
+    <div class="card-face back" id="back">
+      <div class="back-word">paradox</div>
+
+      <!-- Beispielsätze -->
+      <div class="section">
+        <div class="section-label">Beispielsätze</div>
+
+        <div class="example-row">
+          <button class="tts-btn" onclick="speak(event, 'The paradox of tolerance: tolerating intolerance destroys tolerance itself.')">🔊</button>
+          <div class="ex-en">The paradox of tolerance: tolerating intolerance destroys tolerance itself.</div>
+          <div class="ex-de">Das Paradoxon der Toleranz: Intoleranz zu tolerieren zerstört die Toleranz selbst.</div>
+        </div>
+
+        <div class="example-row">
+          <button class="tts-btn" onclick="speak(event, 'It is a paradox that the more choices we have, the less happy we seem to be.')">🔊</button>
+          <div class="ex-en">It is a paradox that the more choices we have, the less happy we seem to be.</div>
+          <div class="ex-de">Es ist ein Paradoxon, dass wir umso weniger glücklich zu sein scheinen, je mehr Wahlmöglichkeiten wir haben.</div>
+        </div>
+      </div>
+
+      <!-- Gegenteil -->
+      <div class="section">
+        <div class="opposite-box">
+          <div class="opp-label">⟷ Gegenteil</div>
+          <div class="opp-words">truism <span>· Binsenwahrheit</span></div>
+          <div class="opp-example">Saying 'all people die' is a truism, not a paradox.</div>
+        </div>
+      </div>
+
+      <!-- Synonyme -->
+      <div class="section">
+        <div class="synonyms-box">
+          <div class="syn-label">≈ Synonyme</div>
+          <div class="syn-chips">
+            <div class="syn-chip">
+              contradiction
+              <span class="syn-chip-de">Widerspruch</span>
+            </div>
+            <div class="syn-chip">
+              antinomy
+              <span class="syn-chip-de">unauflösbarer Widerspruch</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wortfamilie -->
+      <div class="section">
+        <div class="family-box">
+          <div class="fam-label">🔤 Wortfamilie</div>
+          <div class="fam-rows">
+            <div class="fam-row">
+              <span class="fam-word">paradoxical</span>
+              <span class="fam-pos">adj</span>
+              <span class="fam-de">paradox / widersprüchlich</span>
+            </div>
+            <div class="fam-row">
+              <span class="fam-word">paradoxically</span>
+              <span class="fam-pos">adv</span>
+              <span class="fam-de">paradoxerweise</span>
+            </div>
+            <div class="fam-row">
+              <span class="fam-word">paradoxes</span>
+              <span class="fam-pos">noun pl.</span>
+              <span class="fam-de">Paradoxa / Paradoxien</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /back -->
+  </div><!-- /card-inner -->
+</div><!-- /card-wrap -->
+
+<!-- ── RATING ─────────────────────────────────────────────────────── -->
+<div class="rating-row" id="ratingRow" style="display:none;">
+  <button class="rating-btn wrong"  onclick="rate(1)"><span class="emoji">✗</span>Falsch</button>
+  <button class="rating-btn hard"   onclick="rate(2)"><span class="emoji">◑</span>Schwer</button>
+  <button class="rating-btn good"   onclick="rate(4)"><span class="emoji">✓</span>Gut</button>
+  <button class="rating-btn easy"   onclick="rate(5)"><span class="emoji">★</span>Leicht</button>
+</div>
+
+<!-- ── NAV ───────────────────────────────────────────────────────── -->
+<div class="nav-row">
+  <button class="nav-btn" onclick="prevCard()">← Zurück</button>
+  <div class="nav-dots">
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot active"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </div>
+  <button class="nav-btn" onclick="nextCard()">Weiter →</button>
+</div>
+
+<!-- ── Demo: Präpositionen-Karte (zweite Karte) ───────────────────── -->
+<div style="width:100%;max-width:640px;margin-top:40px;">
+  <div style="font-size:.75rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
+              color:#888;margin-bottom:12px;text-align:center;">
+    Demo – Präpositionen-Karte (Rückseite)
+  </div>
+</div>
+
+<div class="card-wrap" id="card2" onclick="flipCard2()">
+  <div class="card-inner" id="cardInner2">
+    <div class="card-face front" id="front2">
+      <div class="card-tag">
+        <span>Präposition</span>
+        <span class="group-badge" style="background:#FDF6E3;color:#8B6914;">EN</span>
+      </div>
+      <div class="card-word">up</div>
+      <div class="card-translation">aufwärts · hinauf · fertig · hoch</div>
+      <div class="card-definition">
+        Movement to a higher position; completion or intensification of an action.
+      </div>
+      <div class="flip-hint">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M1 4v6h6M23 20v-6h-6"/><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4-4.64 4.36A9 9 0 0 1 3.51 15"/>
+        </svg>
+        Tippe zum Umdrehen
+      </div>
+    </div>
+
+    <div class="card-face back" id="back2">
+      <div class="back-word">up</div>
+
+      <div class="section">
+        <div class="section-label">Beispielsätze</div>
+        <div class="example-row">
+          <button class="tts-btn" onclick="speak(event,'She walked up the stairs slowly.')">🔊</button>
+          <div class="ex-en">She walked up the stairs slowly.</div>
+          <div class="ex-de">Sie ging die Treppe langsam hinauf.</div>
+        </div>
+        <div class="example-row">
+          <button class="tts-btn" onclick="speak(event,'He looked up at the bright stars above.')">🔊</button>
+          <div class="ex-en">He looked up at the bright stars above.</div>
+          <div class="ex-de">Er blickte zu den hellen Sternen hinauf.</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="opposite-box">
+          <div class="opp-label">⟷ Gegenteil</div>
+          <div class="opp-words">down <span>· unten / herunter / hinab</span></div>
+          <div class="opp-example">She walked down the stairs carefully.</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="synonyms-box">
+          <div class="syn-label">≈ Synonyme</div>
+          <div class="syn-chips">
+            <div class="syn-chip">above<span class="syn-chip-de">oberhalb</span></div>
+            <div class="syn-chip">upward<span class="syn-chip-de">aufwärts</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="family-box">
+          <div class="fam-label">🔤 Wortfamilie</div>
+          <div class="fam-rows">
+            <div class="fam-row"><span class="fam-word">upward</span><span class="fam-pos">adj/adv</span><span class="fam-de">aufwärts gerichtet</span></div>
+            <div class="fam-row"><span class="fam-word">uphill</span><span class="fam-pos">adj/adv</span><span class="fam-de">bergauf / ansteigend</span></div>
+            <div class="fam-row"><span class="fam-word">upgrade</span><span class="fam-pos">verb/noun</span><span class="fam-de">verbessern / Aufwertung</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="phrasal-box">
+          <div class="pv-label">⚡ Phrasal Verbs</div>
+          <div class="pv-rows">
+            <div class="pv-row">
+              <span class="pv-phrase">give up</span>
+              <span class="pv-de">aufgeben</span>
+              <span class="pv-ex">Don't give up – keep trying.</span>
+            </div>
+            <div class="pv-row">
+              <span class="pv-phrase">wake up</span>
+              <span class="pv-de">aufwachen</span>
+              <span class="pv-ex">I wake up at seven every day.</span>
+            </div>
+            <div class="pv-row">
+              <span class="pv-phrase">set up</span>
+              <span class="pv-de">einrichten / aufbauen</span>
+              <span class="pv-ex">She set up a new project.</span>
+            </div>
+            <div class="pv-row">
+              <span class="pv-phrase">show up</span>
+              <span class="pv-de">erscheinen / auftauchen</span>
+              <span class="pv-ex">He showed up an hour late.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="rating-row" id="ratingRow2" style="display:none;margin-top:16px;">
+  <button class="rating-btn wrong"  onclick="rate2(1)"><span class="emoji">✗</span>Falsch</button>
+  <button class="rating-btn hard"   onclick="rate2(2)"><span class="emoji">◑</span>Schwer</button>
+  <button class="rating-btn good"   onclick="rate2(4)"><span class="emoji">✓</span>Gut</button>
+  <button class="rating-btn easy"   onclick="rate2(5)"><span class="emoji">★</span>Leicht</button>
+</div>
+
+<div style="height:40px;"></div>
+
+<script>
+  // ── TTS ────────────────────────────────────────────────────────
+  function speak(event, text) {
+    event.stopPropagation();
+    if (!window.speechSynthesis) return;
+    window.speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = 'en-US';
+    u.rate = 0.92;
+    window.speechSynthesis.speak(u);
+  }
+
+  // ── Card 1 ─────────────────────────────────────────────────────
+  let flipped = false;
+  function flipCard() {
+    flipped = !flipped;
+    document.getElementById('card').classList.toggle('flipped', flipped);
+    // sync card height when showing back
+    const back = document.getElementById('back');
+    const inner = document.getElementById('cardInner');
+    if (flipped) {
+      inner.style.height = back.scrollHeight + 'px';
+      document.getElementById('ratingRow').style.display = 'flex';
+    } else {
+      inner.style.height = '';
+      document.getElementById('ratingRow').style.display = 'none';
+    }
+  }
+  function rate(quality) {
+    const labels = {1:'✗ Falsch – wird bald wiederholt', 2:'◑ Schwer – morgen wieder', 4:'✓ Gut – in 3 Tagen', 5:'★ Leicht – in 7 Tagen'};
+    const pill = document.createElement('div');
+    pill.style.cssText = 'position:fixed;bottom:32px;left:50%;transform:translateX(-50%);background:#1E3A5F;color:#fff;padding:10px 20px;border-radius:20px;font-size:.85rem;font-weight:600;z-index:99;transition:opacity .4s';
+    pill.textContent = labels[quality];
+    document.body.appendChild(pill);
+    setTimeout(() => { pill.style.opacity = '0'; setTimeout(() => pill.remove(), 400); }, 1800);
+  }
+  function nextCard() { /* integration point */ }
+  function prevCard() { /* integration point */ }
+
+  // ── Card 2 ─────────────────────────────────────────────────────
+  let flipped2 = false;
+  function flipCard2() {
+    flipped2 = !flipped2;
+    document.getElementById('card2').classList.toggle('flipped', flipped2);
+    const back2 = document.getElementById('back2');
+    const inner2 = document.getElementById('cardInner2');
+    if (flipped2) {
+      inner2.style.height = back2.scrollHeight + 'px';
+      document.getElementById('ratingRow2').style.display = 'flex';
+    } else {
+      inner2.style.height = '';
+      document.getElementById('ratingRow2').style.display = 'none';
+    }
+  }
+  function rate2(q) { rate(q); }
+
+  // ── Mode buttons (UI only) ─────────────────────────────────────
+  document.querySelectorAll('.mode-btn').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+</script>
+</body>
+</html>

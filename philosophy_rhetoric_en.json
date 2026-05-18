@@ -1,0 +1,1204 @@
+[
+  {
+    "id": "phil_syllogism_01",
+    "word": "syllogism",
+    "group": "A",
+    "group_label": "Philosophie – Fachbegriffe",
+    "type": "concept",
+    "pos": "noun",
+    "translations": {
+      "de": "Syllogismus / logischer Schluss"
+    },
+    "definition": {
+      "en": "A form of deductive reasoning with two premises and a conclusion.",
+      "de": "Eine Form des deduktiven Denkens mit zwei Prämissen und einer Schlussfolgerung."
+    },
+    "examples": [
+      {
+        "en": "The classic syllogism: All humans are mortal; Socrates is human; therefore Socrates is mortal.",
+        "de": "Der klassische Syllogismus: Alle Menschen sind sterblich; Sokrates ist ein Mensch; also ist Sokrates sterblich."
+      },
+      {
+        "en": "His argument was a flawed syllogism – the second premise was simply false.",
+        "de": "Sein Argument war ein fehlerhafter Syllogismus – die zweite Prämisse war schlicht falsch."
+      }
+    ],
+    "opposite": {
+      "en": "induction",
+      "de": "Induktion / induktiver Schluss",
+      "example_en": "Induction draws general conclusions from specific observations.",
+      "example_de": "Induktion zieht allgemeine Schlüsse aus konkreten Beobachtungen."
+    },
+    "synonyms": [
+      {
+        "word": "logical inference",
+        "de": "logischer Schluss"
+      },
+      {
+        "word": "deductive argument",
+        "de": "deduktives Argument"
+      }
+    ],
+    "word_family": [
+      {
+        "word": "syllogistic",
+        "pos": "adj",
+        "de": "syllogistisch / auf Syllogismen beruhend"
+      },
+      {
+        "word": "syllogize",
+        "pos": "verb",
+        "de": "syllogistisch schlussfolgern"
+      }
+    ],
+    "sm2": {
+      "ef": 2.5,
+      "interval": 1,
+      "repetitions": 0,
+      "due": null
+    },
+    "stats": {
+      "correct": 0,
+      "wrong": 0,
+      "history": []
+    }
+  },
+  {
+    "id": "phil_aporia_02",
+    "word": "aporia",
+    "group": "A",
+    "group_label": "Philosophie – Fachbegriffe",
+    "type": "concept",
+    "pos": "noun",
+    "translations": {
+      "de": "Aporie / philosophische Ratlosigkeit / unlösbares Problem"
+    },
+    "definition": {
+      "en": "A state of puzzlement or an irresolvable contradiction in a philosophical argument.",
+      "de": "Ein Zustand der Ratlosigkeit oder ein unlösbarer Widerspruch in einem philosophischen Argument."
+    },
+    "examples": [
+      {
+        "en": "Plato's early dialogues often end in aporia – no clear answer is reached.",
+        "de": "Platons frühe Dialoge enden oft in einer Aporie – es wird keine klare Antwort gefunden."
+      },
+      {
+        "en": "The question of free will leads many philosophers into aporia.",
+        "de": "Die Frage nach dem freien Willen führt viele Philosophen in eine Aporie."
+      }
+    ],
+    "opposite": {
+      "en": "resolution",
+      "de": "Auflösung / Lösung / Klarheit",
+      "example_en": "After long debate, they finally reached a resolution.",
+      "example_de": "Nach langer Debatte kamen sie endlich zu einer Auflösung."
+    },
+    "synonyms": [
+      {
+        "word": "impasse",
+        "de": "Sackgasse / festgefahrene Situation"
+      },
+      {
+        "word": "puzzlement",
+        "de": "Verwirrung / Ratlosigkeit"
+      }
+    ],
+    "word_family": [
+      {
+        "word": "aporetic",
+        "pos": "adj",
+        "de": "aporetisch / rätselhaft / ohne Lösung"
+      },
+      {
+        "word": "aporetics",
+        "pos": "noun",
+        "de": "Aporietik / Lehre der unlösbaren Fragen"
+      }
+    ],
+    "sm2": {
+      "ef": 2.5,
+      "interval": 1,
+      "repetitions": 0,
+      "due": null
+    },
+    "stats": {
+      "correct": 0,
+      "wrong": 0,
+      "history": []
+    }
+  },
+  {
+    "id": "phil_paradox_03",
+    "word": "paradox",
+    "group": "A",
+    "group_label": "Philosophie – Fachbegriffe",
+    "type": "concept",
+    "pos": "noun",
+    "translations": {
+      "de": "Paradoxon / Widerspruch / Scheinwiderspruch"
+    },
+    "definition": {
+      "en": "A statement that contradicts itself or seems impossible, yet may express a deeper truth.",
+      "de": "Eine Aussage, die sich selbst widerspricht oder unmöglich erscheint, aber dennoch eine tiefere Wahrheit ausdrücken kann."
+    },
+    "examples": [
+      {
+        "en": "The paradox of tolerance: tolerating intolerance destroys tolerance itself.",
+        "de": "Das Paradoxon der Toleranz: Intoleranz zu tolerieren zerstört die Toleranz selbst."
+      },
+      {
+        "en": "It is a paradox that the more choices we have, the less happy we seem to be.",
+        "de": "Es ist ein Paradoxon, dass wir umso weniger glücklich zu sein scheinen, je mehr Wahlmöglichkeiten wir haben."
+      }
+    ],
+    "opposite": {
+      "en": "truism",
+      "de": "Binsenwahrheit / selbstverständliche Aussage",
+      "example_en": "Saying 'all people die' is a truism, not a paradox.",
+      "example_de": "Zu sagen 'alle Menschen sterben' ist eine Binsenwahrheit, kein Paradoxon."
+    },
+    "synonyms": [
+      {
+        "word": "contradiction",
+        "de": "Widerspruch / Gegensatz"
+      },
+      {
+        "word": "antinomy",
+        "de": "Antinomie / unauflösbarer Widerspruch"
+      }
+    ],
+    "word_family": [
+      {
+        "word": "paradoxical",
+        "pos": "adj",
+        "de": "paradox / widersprüchlich"
+      },
+      {
+        "word": "paradoxically",
+        "pos": "adv",
+        "de": "paradoxerweise"
+      },
+      {
+        "word": "paradoxes",
+        "pos": "noun (pl)",
+        "de": "Paradoxa / Paradoxien"
+      }
+    ],
+    "sm2": {
+      "ef": 2.5,
+      "interval": 1,
+      "repetitions": 0,
+      "due": null
+    },
+    "stats": {
+      "correct": 0,
+      "wrong": 0,
+      "history": []
+    }
+  },
+  {
+    "id": "phil_analogy_04",
+    "word": "analogy",
+    "group": "A",
+    "group_label": "Philosophie – Fachbegriffe",
+    "type": "concept",
+    "pos": "noun",
+    "translations": {
+      "de": "Analogie / Vergleich / Entsprechung"
+    },
+    "definition": {
+      "en": "A comparison between two things to explain or clarify an idea.",
+      "de": "Ein Vergleich zwischen zwei Dingen, um eine Idee zu erklären oder zu verdeutlichen."
+    },
+    "examples": [
+      {
+        "en": "He used the analogy of a river to explain the flow of time.",
+        "de": "Er nutzte die Analogie eines Flusses, um den Fluss der Zeit zu erklären."
+      },
+      {
+        "en": "Drawing an analogy between the brain and a computer has its limits.",
+        "de": "Eine Analogie zwischen dem Gehirn und einem Computer zu ziehen hat ihre Grenzen."
+      }
+    ],
+    "opposite": {
+      "en": "contrast",
+      "de": "Kontrast / Gegensatz / Unterschied",
+      "example_en": "In contrast to an analogy, a contrast highlights differences.",
+      "example_de": "Im Gegensatz zur Analogie betont der Kontrast die Unterschiede."
+    },
+    "synonyms": [
+      {
+        "word": "comparison",
+        "de": "Vergleich"
+      },
+      {
+        "word": "parallel",
+        "de": "Parallele / Entsprechung"
+      }
+    ],
+    "word_family": [
+      {
+        "word": "analogous",
+        "pos": "adj",
+        "de": "analog / entsprechend / vergleichbar"
+      },
+      {
+        "word": "analogously",
+        "pos": "adv",
+        "de": "analog dazu / entsprechend"
+      },
+      {
+        "word": "analogize",
+        "pos": "verb",
+        "de": "eine Analogie herstellen / vergleichen"
+      }
+    ],
+    "sm2": {
+      "ef": 2.5,
+      "interval": 1,
+      "repetitions": 0,
+      "due": null
+    },
+    "stats": {
+      "correct": 0,
+      "wrong": 0,
+      "history": []
+    }
+  },
+  {
+    "id": "phil_induction_05",
+    "word": "induction",
+    "group": "A",
+    "group_label": "Philosophie – Fachbegriffe",
+    "type": "concept",
+    "pos": "noun",
+    "translations": {
+      "de": "Induktion / induktives Schließen"
+    },
+    "definition": {
+      "en": "Reasoning from specific observations to a general conclusion.",
+      "de": "Schlussfolgerung von konkreten Einzelbeobachtungen auf eine allgemeine Aussage."
+    },
+    "examples": [
+      {
+        "en": "Seeing a thousand white swans and concluding all swans are white is induction.",
+        "de": "Tausend weiße Schwäne zu sehen und zu schlussfolgern, alle Schwäne seien weiß, ist Induktion."
+      },
+      {
+        "en": "Scientific induction builds theories from repeated experimental results.",
+        "de": "Wissenschaftliche Induktion baut Theorien aus wiederholten Versuchsergebnissen auf."
+      }
+    ],
+    "opposite": {
+      "en": "deduction",
+      "de": "Deduktion / deduktives Schließen",
+      "example_en": "Deduction applies a general rule to reach a specific conclusion.",
+      "example_de": "Deduktion wendet eine allgemeine Regel an, um eine konkrete Schlussfolgerung zu ziehen."
+    },
+    "synonyms": [
+      {
+        "word": "generalization",
+        "de": "Verallgemeinerung"
+      },
+      {
+        "word": "inference",
+        "de": "Schlussfolgerung / Ableitung"
+      }
+    ],
+    "word_family": [
+      {
+        "word": "inductive",
+        "pos": "adj",
+        "de": "induktiv / verallgemeinernd"
+      },
+      {
+        "word": "inductively",
+        "pos": "adv",
+        "de": "induktiv / durch Induktion"
+      },
+      {
+        "word": "induce",
+        "pos": "verb",
+        "de": "veranlassen / herbeiführen / ableiten"
+      }
+    ],
+    "sm2": {
+      "ef": 2.5,
+      "interval": 1,
+      "repetitions": 0,
+      "due": null
+    },
+    "stats": {
+      "correct": 0,
+      "wrong": 0,
+      "history": []
+    }
+  },
+  {
+    "id": "phil_deduction_06",
+    "word": "deduction",
+    "group": "A",
+    "group_label": "Philosophie – Fachbegriffe",
+    "type": "concept",
+    "pos": "noun",
+    "translations": {
+      "de": "Deduktion / deduktives Schließen / Abzug"
+    },
+    "definition": {
+      "en": "Reasoning from general principles to a specific, logically certain conclusion.",
+      "de": "Schlussfolgerung von allgemeinen Prinzipien zu einer spezifischen, logisch zwingenden Aussage."
+    },
+    "examples": [
+      {
+        "en": "If all mammals breathe air, and a whale is a mammal, then by deduction a whale breathes air.",
+        "de": "Wenn alle Säugetiere Luft atmen und ein Wal ein Säugetier ist, dann atmet ein Wal per Deduktion Luft."
+      },
+      {
+        "en": "Sherlock Holmes was famous for his rapid deduction from small clues.",
+        "de": "Sherlock Holmes war berühmt für seine schnelle Deduktion aus kleinen Hinweisen."
+      }
+    ],
+    "opposite": {
+      "en": "induction",
+      "de": "Induktion / induktives Schließen",
+      "example_en": "Unlike deduction, induction never guarantees the conclusion.",
+      "example_de": "Im Gegensatz zur Deduktion garantiert Induktion nie die Schlussfolgerung."
+    },
+    "synonyms": [
+      {
+        "word": "inference",
+        "de": "Schlussfolgerung"
+      },
+      {
+        "word": "logical conclusion",
+        "de": "logische Schlussfolgerung"
+      }
+    ],
+    "word_family": [
+      {
+        "word": "deductive",
+        "pos": "adj",
+        "de": "deduktiv / logisch ableitend"
+      },
+      {
+        "word": "deductively",
+        "pos": "adv",
+        "de": "deduktiv / durch Ableitung"
+      },
+      {
+        "word": "deduce",
+        "pos": "verb",
+        "de": "ableiten / folgern / schlussfolgern"
+      }
+    ],
+    "sm2": {
+      "ef": 2.5,
+      "interval": 1,
+      "repetitions": 0,
+      "due": null
+    },
+    "stats": {
+      "correct": 0,
+      "wrong": 0,
+      "history": []
+    }
+  },
+  {
+    "id": "phil_tautology_07",
+    "word": "tautology",
+    "group": "A",
+    "group_label": "Philosophie – Fachbegriffe",
+    "type": "concept",
+    "pos": "noun",
+    "translations": {
+      "de": "Tautologie / unnötige Wiederholung / Leerformel"
+    },
+    "definition": {
+      "en": "A statement that is true by definition or repeats the same idea in different words.",
+      "de": "Eine Aussage, die per Definition wahr ist oder dieselbe Idee mit anderen Worten wiederholt."
+    },
+    "examples": [
+      {
+        "en": "'It will either rain or it will not rain' is a tautology – it is always true.",
+        "de": "'Es wird entweder regnen oder nicht regnen' ist eine Tautologie – sie ist immer wahr."
+      },
+      {
+        "en": "Saying 'a bachelor is an unmarried man' is a tautology, not new information.",
+        "de": "Zu sagen 'ein Junggeselle ist ein unverheirateter Mann' ist eine Tautologie, keine neue Information."
+      }
+    ],
+    "opposite": {
+      "en": "contradiction",
+      "de": "Widerspruch / Kontradiktion",
+      "example_en": "A contradiction is a statement that is always false, the opposite of a tautology.",
+      "example_de": "Eine Kontradiktion ist eine Aussage, die immer falsch ist – das Gegenteil einer Tautologie."
+    },
+    "synonyms": [
+      {
+        "word": "redundancy",
+        "de": "Redundanz / Überflüssigkeit"
+      },
+      {
+        "word": "pleonasm",
+        "de": "Pleonasmus / sinnlose Doppelung"
+      }
+    ],
+    "word_family": [
+      {
+        "word": "tautological",
+        "pos": "adj",
+        "de": "tautologisch / sich wiederholend"
+      },
+      {
+        "word": "tautologically",
+        "pos": "adv",
+        "de": "tautologisch / auf tautologische Weise"
+      }
+    ],
+    "sm2": {
+      "ef": 2.5,
+      "interval": 1,
+      "repetitions": 0,
+      "due": null
+    },
+    "stats": {
+      "correct": 0,
+      "wrong": 0,
+      "history": []
+    }
+  },
+  {
+    "id": "phil_empiricism_08",
+    "word": "empiricism",
+    "group": "A",
+    "group_label": "Philosophie – Fachbegriffe",
+    "type": "concept",
+    "pos": "noun",
+    "translations": {
+      "de": "Empirismus / Erfahrungsphilosophie"
+    },
+    "definition": {
+      "en": "The philosophical view that all knowledge comes from sensory experience and observation.",
+      "de": "Die philosophische Ansicht, dass alles Wissen aus sinnlicher Erfahrung und Beobachtung stammt."
+    },
+    "examples": [
+      {
+        "en": "John Locke and David Hume are key figures in the tradition of British empiricism.",
+        "de": "John Locke und David Hume sind Schlüsselfiguren der britischen Tradition des Empirismus."
+      },
+      {
+        "en": "Empiricism holds that we are born as a blank slate, shaped entirely by experience.",
+        "de": "Der Empirismus geht davon aus, dass wir als unbeschriebenes Blatt geboren werden, geprägt allein durch Erfahrung."
+      }
+    ],
+    "opposite": {
+      "en": "rationalism",
+      "de": "Rationalismus / Vernunftphilosophie",
+      "example_en": "Rationalism holds that reason, not experience, is the source of knowledge.",
+      "example_de": "Der Rationalismus vertritt, dass Vernunft, nicht Erfahrung, die Quelle des Wissens ist."
+    },
+    "synonyms": [
+      {
+        "word": "experimentalism",
+        "de": "Experimentalismus / erfahrungsbasierter Ansatz"
+      },
+      {
+        "word": "positivism",
+        "de": "Positivismus / auf Erfahrung gestütztes Denken"
+      }
+    ],
+    "word_family": [
+      {
+        "word": "empirical",
+        "pos": "adj",
+        "de": "empirisch / erfahrungsbasiert"
+      },
+      {
+        "word": "empirically",
+        "pos": "adv",
+        "de": "empirisch / auf Erfahrung gestützt"
+      },
+      {
+        "word": "empiricist",
+        "pos": "noun",
+        "de": "Empirist / Vertreter des Empirismus"
+      }
+    ],
+    "sm2": {
+      "ef": 2.5,
+      "interval": 1,
+      "repetitions": 0,
+      "due": null
+    },
+    "stats": {
+      "correct": 0,
+      "wrong": 0,
+      "history": []
+    }
+  },
+  {
+    "id": "arg_premise_09",
+    "word": "premise",
+    "group": "B",
+    "group_label": "Argumentationsstruktur",
+    "type": "concept",
+    "pos": "noun",
+    "translations": {
+      "de": "Prämisse / Voraussetzung / Ausgangssatz"
+    },
+    "definition": {
+      "en": "A statement assumed to be true as the basis for an argument or reasoning.",
+      "de": "Eine als wahr vorausgesetzte Aussage, die als Grundlage für ein Argument oder eine Schlussfolgerung dient."
+    },
+    "examples": [
+      {
+        "en": "The argument breaks down because its central premise is unproven.",
+        "de": "Das Argument bricht zusammen, weil seine zentrale Prämisse unbewiesen ist."
+      },
+      {
+        "en": "Start with a clear premise before building your conclusion.",
+        "de": "Beginne mit einer klaren Prämisse, bevor du deine Schlussfolgerung aufbaust."
+      }
+    ],
+    "opposite": {
+      "en": "conclusion",
+      "de": "Schlussfolgerung / Fazit / Ergebnis",
+      "example_en": "The conclusion follows logically from the premises.",
+      "example_de": "Die Schlussfolgerung ergibt sich logisch aus den Prämissen."
+    },
+    "synonyms": [
+      {
+        "word": "assumption",
+        "de": "Annahme / Voraussetzung"
+      },
+      {
+        "word": "presupposition",
+        "de": "Voraussetzung / Präsupposition"
+      }
+    ],
+    "word_family": [
+      {
+        "word": "presume",
+        "pos": "verb",
+        "de": "annehmen / voraussetzen / vermuten"
+      },
+      {
+        "word": "presumption",
+        "pos": "noun",
+        "de": "Annahme / Vermutung / Präsumption"
+      },
+      {
+        "word": "presumptuous",
+        "pos": "adj",
+        "de": "anmaßend / vorschnell urteilend"
+      }
+    ],
+    "sm2": {
+      "ef": 2.5,
+      "interval": 1,
+      "repetitions": 0,
+      "due": null
+    },
+    "stats": {
+      "correct": 0,
+      "wrong": 0,
+      "history": []
+    }
+  },
+  {
+    "id": "arg_fallacy_10",
+    "word": "fallacy",
+    "group": "B",
+    "group_label": "Argumentationsstruktur",
+    "type": "concept",
+    "pos": "noun",
+    "translations": {
+      "de": "Trugschluss / Denkfehler / Fehlschluss"
+    },
+    "definition": {
+      "en": "A mistaken belief or flawed pattern of reasoning that appears convincing but is logically invalid.",
+      "de": "Ein irrtümlicher Glaube oder ein fehlerhaftes Denkmuster, das überzeugend wirkt, aber logisch ungültig ist."
+    },
+    "examples": [
+      {
+        "en": "Ad hominem is a fallacy that attacks the person instead of the argument.",
+        "de": "Ad hominem ist ein Trugschluss, der die Person anstatt das Argument angreift."
+      },
+      {
+        "en": "Correlation is not causation – confusing them is a common fallacy.",
+        "de": "Korrelation ist nicht Kausalität – sie zu verwechseln ist ein häufiger Denkfehler."
+      }
+    ],
+    "opposite": {
+      "en": "valid argument",
+      "de": "gültiges Argument / schlüssige Begründung",
+      "example_en": "A valid argument follows correct logical form and leads to a sound conclusion.",
+      "example_de": "Ein gültiges Argument folgt einer korrekten logischen Form und führt zu einer fundierten Schlussfolgerung."
+    },
+    "synonyms": [
+      {
+        "word": "error in reasoning",
+        "de": "Denkfehler / Schlussfolgerungsfehler"
+      },
+      {
+        "word": "sophism",
+        "de": "Sophismus / trügerisches Argument"
+      }
+    ],
+    "word_family": [
+      {
+        "word": "fallacious",
+        "pos": "adj",
+        "de": "trügerisch / fehlerhaft / falsch"
+      },
+      {
+        "word": "fallaciously",
+        "pos": "adv",
+        "de": "auf fehlerhafte / trügerische Weise"
+      }
+    ],
+    "sm2": {
+      "ef": 2.5,
+      "interval": 1,
+      "repetitions": 0,
+      "due": null
+    },
+    "stats": {
+      "correct": 0,
+      "wrong": 0,
+      "history": []
+    }
+  },
+  {
+    "id": "arg_rebuttal_11",
+    "word": "rebuttal",
+    "group": "B",
+    "group_label": "Argumentationsstruktur",
+    "type": "concept",
+    "pos": "noun",
+    "translations": {
+      "de": "Widerlegung / Gegenbeweis / Entgegnung"
+    },
+    "definition": {
+      "en": "A counter-argument or evidence that disproves or weakens an opposing claim.",
+      "de": "Ein Gegenargument oder Beweis, der eine gegenteilige Behauptung widerlegt oder schwächt."
+    },
+    "examples": [
+      {
+        "en": "Her rebuttal dismantled his argument point by point.",
+        "de": "Ihre Widerlegung zerlegte sein Argument Punkt für Punkt."
+      },
+      {
+        "en": "In a debate, each side is given time for a rebuttal after the opening statements.",
+        "de": "In einer Debatte erhält jede Seite Zeit für eine Widerlegung nach den Eröffnungsstatements."
+      }
+    ],
+    "opposite": {
+      "en": "concession",
+      "de": "Zugeständnis / Einräumung",
+      "example_en": "He made a concession and admitted the opposing point was valid.",
+      "example_de": "Er machte ein Zugeständnis und räumte ein, dass der gegnerische Punkt berechtigt war."
+    },
+    "synonyms": [
+      {
+        "word": "refutation",
+        "de": "Widerlegung / Falsifikation"
+      },
+      {
+        "word": "counterargument",
+        "de": "Gegenargument / Einwand"
+      }
+    ],
+    "word_family": [
+      {
+        "word": "rebut",
+        "pos": "verb",
+        "de": "widerlegen / entkräften"
+      },
+      {
+        "word": "rebutting",
+        "pos": "verb (participle)",
+        "de": "widerlegend"
+      }
+    ],
+    "sm2": {
+      "ef": 2.5,
+      "interval": 1,
+      "repetitions": 0,
+      "due": null
+    },
+    "stats": {
+      "correct": 0,
+      "wrong": 0,
+      "history": []
+    }
+  },
+  {
+    "id": "arg_assertion_12",
+    "word": "assertion",
+    "group": "B",
+    "group_label": "Argumentationsstruktur",
+    "type": "concept",
+    "pos": "noun",
+    "translations": {
+      "de": "Behauptung / Aussage / These"
+    },
+    "definition": {
+      "en": "A confident statement of fact or belief without proof or supporting evidence.",
+      "de": "Eine selbstbewusste Aussage über eine Tatsache oder Überzeugung ohne Beweis oder unterstützende Belege."
+    },
+    "examples": [
+      {
+        "en": "His assertion that the project would succeed was based on little evidence.",
+        "de": "Seine Behauptung, das Projekt werde erfolgreich sein, stützte sich auf wenig Belege."
+      },
+      {
+        "en": "An assertion is not an argument – you need evidence to support your claim.",
+        "de": "Eine Behauptung ist kein Argument – du brauchst Belege, um deine These zu stützen."
+      }
+    ],
+    "opposite": {
+      "en": "denial",
+      "de": "Verneinung / Ablehnung / Widerspruch",
+      "example_en": "Her flat denial contradicted every assertion he had made.",
+      "example_de": "Ihr klares Dementi widersprach jeder Behauptung, die er gemacht hatte."
+    },
+    "synonyms": [
+      {
+        "word": "claim",
+        "de": "Behauptung / Anspruch"
+      },
+      {
+        "word": "declaration",
+        "de": "Erklärung / Deklaration"
+      }
+    ],
+    "word_family": [
+      {
+        "word": "assert",
+        "pos": "verb",
+        "de": "behaupten / geltend machen / durchsetzen"
+      },
+      {
+        "word": "assertive",
+        "pos": "adj",
+        "de": "selbstbewusst / bestimmt / durchsetzungsstark"
+      },
+      {
+        "word": "assertively",
+        "pos": "adv",
+        "de": "selbstbewusst / bestimmt"
+      }
+    ],
+    "sm2": {
+      "ef": 2.5,
+      "interval": 1,
+      "repetitions": 0,
+      "due": null
+    },
+    "stats": {
+      "correct": 0,
+      "wrong": 0,
+      "history": []
+    }
+  },
+  {
+    "id": "rhet_metaphor_13",
+    "word": "metaphor",
+    "group": "C",
+    "group_label": "Rhetorische Figuren",
+    "type": "rhetorical_figure",
+    "pos": "noun",
+    "translations": {
+      "de": "Metapher / bildlicher Ausdruck / übertragene Bedeutung"
+    },
+    "definition": {
+      "en": "A figure of speech that describes something as if it were something else to suggest a resemblance.",
+      "de": "Eine Redefigur, die etwas so beschreibt, als wäre es etwas anderes, um eine Ähnlichkeit anzudeuten."
+    },
+    "examples": [
+      {
+        "en": "'Life is a journey' is a classic metaphor that shapes how we think about time.",
+        "de": "'Das Leben ist eine Reise' ist eine klassische Metapher, die unser Denken über Zeit prägt."
+      },
+      {
+        "en": "She used the metaphor of a shield to describe how humor protects us from pain.",
+        "de": "Sie nutzte die Metapher eines Schildes, um zu beschreiben, wie Humor uns vor Schmerz schützt."
+      }
+    ],
+    "opposite": {
+      "en": "literal expression",
+      "de": "wörtlicher Ausdruck / direkte Aussage",
+      "example_en": "Instead of a metaphor, he gave a literal description of the facts.",
+      "example_de": "Anstelle einer Metapher gab er eine wörtliche Beschreibung der Tatsachen."
+    },
+    "synonyms": [
+      {
+        "word": "figure of speech",
+        "de": "Redefigur / rhetorische Figur"
+      },
+      {
+        "word": "trope",
+        "de": "Tropus / übertragener Ausdruck"
+      }
+    ],
+    "word_family": [
+      {
+        "word": "metaphorical",
+        "pos": "adj",
+        "de": "metaphorisch / bildlich / übertragen"
+      },
+      {
+        "word": "metaphorically",
+        "pos": "adv",
+        "de": "metaphorisch / im übertragenen Sinne"
+      },
+      {
+        "word": "metaphorize",
+        "pos": "verb",
+        "de": "in eine Metapher fassen / bildlich ausdrücken"
+      }
+    ],
+    "sm2": {
+      "ef": 2.5,
+      "interval": 1,
+      "repetitions": 0,
+      "due": null
+    },
+    "stats": {
+      "correct": 0,
+      "wrong": 0,
+      "history": []
+    }
+  },
+  {
+    "id": "rhet_irony_14",
+    "word": "irony",
+    "group": "C",
+    "group_label": "Rhetorische Figuren",
+    "type": "rhetorical_figure",
+    "pos": "noun",
+    "translations": {
+      "de": "Ironie / Gegensatz von Gesagtem und Gemeintem"
+    },
+    "definition": {
+      "en": "The use of words to express the opposite of their literal meaning, often for humorous or critical effect.",
+      "de": "Die Verwendung von Wörtern, um das Gegenteil ihrer wörtlichen Bedeutung auszudrücken, oft zu humoristischen oder kritischen Zwecken."
+    },
+    "examples": [
+      {
+        "en": "Saying 'what lovely weather' during a storm is a simple example of irony.",
+        "de": "'Was für ein herrliches Wetter' während eines Sturms zu sagen ist ein einfaches Beispiel für Ironie."
+      },
+      {
+        "en": "The irony is that the fire station burned down first.",
+        "de": "Die Ironie ist, dass die Feuerwache als erstes niederbrannte."
+      }
+    ],
+    "opposite": {
+      "en": "sincerity",
+      "de": "Aufrichtigkeit / Ernst / direkte Aussage",
+      "example_en": "He dropped the irony and spoke with complete sincerity.",
+      "example_de": "Er ließ die Ironie fallen und sprach mit völliger Aufrichtigkeit."
+    },
+    "synonyms": [
+      {
+        "word": "sarcasm",
+        "de": "Sarkasmus / beißende Ironie"
+      },
+      {
+        "word": "satire",
+        "de": "Satire / gesellschaftskritische Ironie"
+      }
+    ],
+    "word_family": [
+      {
+        "word": "ironic",
+        "pos": "adj",
+        "de": "ironisch / gegensätzlich zum Gesagten"
+      },
+      {
+        "word": "ironically",
+        "pos": "adv",
+        "de": "ironischerweise / auf ironische Weise"
+      },
+      {
+        "word": "ironist",
+        "pos": "noun",
+        "de": "Ironiker / jemand, der Ironie einsetzt"
+      }
+    ],
+    "sm2": {
+      "ef": 2.5,
+      "interval": 1,
+      "repetitions": 0,
+      "due": null
+    },
+    "stats": {
+      "correct": 0,
+      "wrong": 0,
+      "history": []
+    }
+  },
+  {
+    "id": "rhet_hyperbole_15",
+    "word": "hyperbole",
+    "group": "C",
+    "group_label": "Rhetorische Figuren",
+    "type": "rhetorical_figure",
+    "pos": "noun",
+    "translations": {
+      "de": "Hyperbel / Übertreibung / Übersteigerung"
+    },
+    "definition": {
+      "en": "Deliberate and obvious exaggeration used for emphasis or dramatic effect.",
+      "de": "Bewusste und offensichtliche Übertreibung zur Betonung oder für dramatische Wirkung."
+    },
+    "examples": [
+      {
+        "en": "'I've told you a million times' is a hyperbole – not a literal count.",
+        "de": "'Ich habe es dir tausend Mal gesagt' ist eine Hyperbel – keine wörtliche Zählung."
+      },
+      {
+        "en": "Poets often use hyperbole to intensify emotion and create vivid imagery.",
+        "de": "Dichter verwenden oft Hyperbeln, um Emotionen zu verstärken und lebhafte Bilder zu erzeugen."
+      }
+    ],
+    "opposite": {
+      "en": "litotes",
+      "de": "Litotes / Untertreibung / Understatement",
+      "example_en": "Litotes is the opposite: 'not bad' meaning 'very good'.",
+      "example_de": "Litotes ist das Gegenteil: 'nicht schlecht' im Sinne von 'sehr gut'."
+    },
+    "synonyms": [
+      {
+        "word": "exaggeration",
+        "de": "Übertreibung"
+      },
+      {
+        "word": "overstatement",
+        "de": "Übertreibung / übertriebene Aussage"
+      }
+    ],
+    "word_family": [
+      {
+        "word": "hyperbolic",
+        "pos": "adj",
+        "de": "hyperbolisch / übertrieben"
+      },
+      {
+        "word": "hyperbolically",
+        "pos": "adv",
+        "de": "hyperbolisch / auf übertriebene Weise"
+      }
+    ],
+    "sm2": {
+      "ef": 2.5,
+      "interval": 1,
+      "repetitions": 0,
+      "due": null
+    },
+    "stats": {
+      "correct": 0,
+      "wrong": 0,
+      "history": []
+    }
+  },
+  {
+    "id": "rhet_oxymoron_16",
+    "word": "oxymoron",
+    "group": "C",
+    "group_label": "Rhetorische Figuren",
+    "type": "rhetorical_figure",
+    "pos": "noun",
+    "translations": {
+      "de": "Oxymoron / Widerspruch in sich / Paradoxverbindung"
+    },
+    "definition": {
+      "en": "A figure of speech combining two contradictory terms to create a striking effect.",
+      "de": "Eine Redefigur, die zwei widersprüchliche Begriffe verbindet, um eine eindrucksvolle Wirkung zu erzielen."
+    },
+    "examples": [
+      {
+        "en": "'Deafening silence' and 'living death' are classic oxymorons in English literature.",
+        "de": "'Ohrenbetäubende Stille' und 'lebendiger Tod' sind klassische Oxymorons in der englischen Literatur."
+      },
+      {
+        "en": "The phrase 'bittersweet memories' is an oxymoron that captures mixed emotions perfectly.",
+        "de": "Der Ausdruck 'bittersüße Erinnerungen' ist ein Oxymoron, das gemischte Gefühle treffend erfasst."
+      }
+    ],
+    "opposite": {
+      "en": "tautology",
+      "de": "Tautologie / sinnlose Wiederholung",
+      "example_en": "A tautology repeats the same idea; an oxymoron combines opposites.",
+      "example_de": "Eine Tautologie wiederholt dieselbe Idee; ein Oxymoron verbindet Gegensätze."
+    },
+    "synonyms": [
+      {
+        "word": "contradiction in terms",
+        "de": "Widerspruch in sich"
+      },
+      {
+        "word": "paradoxical phrase",
+        "de": "paradoxe Wendung / widersprüchlicher Ausdruck"
+      }
+    ],
+    "word_family": [
+      {
+        "word": "oxymoronic",
+        "pos": "adj",
+        "de": "oxymoronisch / widersprüchlich verbunden"
+      },
+      {
+        "word": "oxymoronically",
+        "pos": "adv",
+        "de": "auf oxymoronische Weise"
+      }
+    ],
+    "sm2": {
+      "ef": 2.5,
+      "interval": 1,
+      "repetitions": 0,
+      "due": null
+    },
+    "stats": {
+      "correct": 0,
+      "wrong": 0,
+      "history": []
+    }
+  },
+  {
+    "id": "rhet_euphemism_17",
+    "word": "euphemism",
+    "group": "C",
+    "group_label": "Rhetorische Figuren",
+    "type": "rhetorical_figure",
+    "pos": "noun",
+    "translations": {
+      "de": "Euphemismus / beschönigende Umschreibung"
+    },
+    "definition": {
+      "en": "A mild or indirect expression used in place of one that might seem too harsh or blunt.",
+      "de": "Ein milder oder indirekter Ausdruck, der anstelle eines zu harten oder direkten Ausdrucks verwendet wird."
+    },
+    "examples": [
+      {
+        "en": "'Passed away' is a euphemism for 'died', used to soften the impact.",
+        "de": "'Verschieden' oder 'eingeschlafen' ist ein Euphemismus für 'gestorben', um die Wirkung abzumildern."
+      },
+      {
+        "en": "Politicians often use euphemisms like 'collateral damage' instead of 'civilian deaths'.",
+        "de": "Politiker verwenden oft Euphemismen wie 'Kollateralschäden' anstelle von 'zivile Todesopfer'."
+      }
+    ],
+    "opposite": {
+      "en": "dysphemism",
+      "de": "Dysphemismus / absichtliche Vergröberung",
+      "example_en": "A dysphemism uses a harsher term than necessary to shock or offend.",
+      "example_de": "Ein Dysphemismus verwendet einen härteren Begriff als nötig, um zu schockieren oder zu beleidigen."
+    },
+    "synonyms": [
+      {
+        "word": "circumlocution",
+        "de": "Umschreibung / Umgehung"
+      },
+      {
+        "word": "indirect expression",
+        "de": "indirekter Ausdruck / verhüllende Umschreibung"
+      }
+    ],
+    "word_family": [
+      {
+        "word": "euphemistic",
+        "pos": "adj",
+        "de": "euphemistisch / beschönigend"
+      },
+      {
+        "word": "euphemistically",
+        "pos": "adv",
+        "de": "euphemistisch / auf beschönigende Weise"
+      },
+      {
+        "word": "euphemize",
+        "pos": "verb",
+        "de": "beschönigen / euphemistisch ausdrücken"
+      }
+    ],
+    "sm2": {
+      "ef": 2.5,
+      "interval": 1,
+      "repetitions": 0,
+      "due": null
+    },
+    "stats": {
+      "correct": 0,
+      "wrong": 0,
+      "history": []
+    }
+  },
+  {
+    "id": "rhet_anaphora_18",
+    "word": "anaphora",
+    "group": "C",
+    "group_label": "Rhetorische Figuren",
+    "type": "rhetorical_figure",
+    "pos": "noun",
+    "translations": {
+      "de": "Anapher / Wiederholung am Satzanfang"
+    },
+    "definition": {
+      "en": "The repetition of a word or phrase at the beginning of successive clauses for rhetorical emphasis.",
+      "de": "Die Wiederholung eines Wortes oder einer Phrase am Anfang aufeinanderfolgender Sätze zur rhetorischen Betonung."
+    },
+    "examples": [
+      {
+        "en": "Martin Luther King's 'I have a dream... I have a dream...' is a famous anaphora.",
+        "de": "Martin Luther Kings 'Ich habe einen Traum... Ich habe einen Traum...' ist eine berühmte Anapher."
+      },
+      {
+        "en": "Churchill used anaphora in 'We shall fight on the beaches, we shall fight on the landing grounds...'",
+        "de": "Churchill nutzte die Anapher in 'Wir werden an den Stränden kämpfen, wir werden auf den Landungsfeldern kämpfen...'"
+      }
+    ],
+    "opposite": {
+      "en": "epiphora",
+      "de": "Epipher / Wiederholung am Satzende",
+      "example_en": "Epiphora repeats a word at the end of clauses, not the beginning.",
+      "example_de": "Die Epipher wiederholt ein Wort am Ende von Sätzen, nicht am Anfang."
+    },
+    "synonyms": [
+      {
+        "word": "repetition",
+        "de": "Wiederholung"
+      },
+      {
+        "word": "beginning repetition",
+        "de": "Wiederholung am Satzbeginn"
+      }
+    ],
+    "word_family": [
+      {
+        "word": "anaphoric",
+        "pos": "adj",
+        "de": "anaphorisch / auf Wiederholung basierend"
+      },
+      {
+        "word": "anaphorically",
+        "pos": "adv",
+        "de": "anaphorisch / durch Wiederholung"
+      }
+    ],
+    "sm2": {
+      "ef": 2.5,
+      "interval": 1,
+      "repetitions": 0,
+      "due": null
+    },
+    "stats": {
+      "correct": 0,
+      "wrong": 0,
+      "history": []
+    }
+  }
+]

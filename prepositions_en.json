@@ -1,0 +1,296 @@
+[
+  {
+    "id": "prep_up_01",
+    "word": "up",
+    "type": "preposition",
+    "pos": "prep",
+    "translations": { "de": "aufwärts / hinauf / fertig / hoch" },
+    "examples": [
+      { "en": "She walked up the stairs slowly.", "de": "Sie ging die Treppe langsam hinauf." },
+      { "en": "He looked up at the bright stars above.", "de": "Er blickte zu den hellen Sternen hinauf." }
+    ],
+    "opposite": {
+      "en": "down",
+      "de": "unten / herunter / hinab",
+      "example_en": "She walked down the stairs carefully.",
+      "example_de": "Sie ging die Treppe vorsichtig hinunter."
+    },
+    "synonyms": [
+      { "word": "above",   "de": "oberhalb / darüber" },
+      { "word": "upward",  "de": "aufwärts / nach oben" }
+    ],
+    "word_family": [
+      { "word": "upward",  "pos": "adj/adv",   "de": "aufwärts gerichtet" },
+      { "word": "uphill",  "pos": "adj/adv",   "de": "bergauf / ansteigend" },
+      { "word": "upgrade", "pos": "verb/noun", "de": "verbessern / Aufwertung" },
+      { "word": "upset",   "pos": "verb/adj",  "de": "verärgern / verärgert" },
+      { "word": "update",  "pos": "verb/noun", "de": "aktualisieren / Aktualisierung" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "give up",  "de": "aufgeben",         "example": "Don't give up – keep trying." },
+      { "phrase": "wake up",  "de": "aufwachen",        "example": "I wake up at seven every day." },
+      { "phrase": "set up",   "de": "einrichten / aufbauen", "example": "She set up a new project." },
+      { "phrase": "show up",  "de": "erscheinen / auftauchen", "example": "He showed up an hour late." }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+
+  {
+    "id": "prep_out_02",
+    "word": "out",
+    "type": "preposition",
+    "pos": "prep",
+    "translations": { "de": "heraus / außen / draußen / erschöpft" },
+    "examples": [
+      { "en": "Please take the trash out tonight.", "de": "Bitte bring heute Abend den Müll raus." },
+      { "en": "She ran out of the building quickly.", "de": "Sie rannte schnell aus dem Gebäude heraus." }
+    ],
+    "opposite": {
+      "en": "in",
+      "de": "hinein / innen / drinnen",
+      "example_en": "Please come in and sit down.",
+      "example_de": "Bitte komm herein und setz dich."
+    },
+    "synonyms": [
+      { "word": "outside",  "de": "außerhalb / draußen" },
+      { "word": "outward",  "de": "nach außen / äußerlich" }
+    ],
+    "word_family": [
+      { "word": "outer",    "pos": "adj",       "de": "äußerer / außen befindlich" },
+      { "word": "outside",  "pos": "noun/adv",  "de": "Außenseite / draußen" },
+      { "word": "output",   "pos": "noun",      "de": "Ausgabe / Leistung / Ergebnis" },
+      { "word": "outcome",  "pos": "noun",      "de": "Ergebnis / Ausgang" },
+      { "word": "outgoing", "pos": "adj",       "de": "kontaktfreudig / ausgehend" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "find out",   "de": "herausfinden",     "example": "I need to find out the truth." },
+      { "phrase": "run out",    "de": "ausgehen / verbraucht sein", "example": "We ran out of coffee." },
+      { "phrase": "point out",  "de": "hinweisen auf",    "example": "She pointed out the mistake." },
+      { "phrase": "carry out",  "de": "ausführen / durchführen", "example": "They carried out the plan." }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+
+  {
+    "id": "prep_on_03",
+    "word": "on",
+    "type": "preposition",
+    "pos": "prep",
+    "translations": { "de": "auf / an / ein / weiter" },
+    "examples": [
+      { "en": "The book is on the table.", "de": "Das Buch liegt auf dem Tisch." },
+      { "en": "Keep on working – you're doing great.", "de": "Mach weiter so – du machst das großartig." }
+    ],
+    "opposite": {
+      "en": "off",
+      "de": "aus / weg / ab / getrennt",
+      "example_en": "Please turn off the lights when you leave.",
+      "example_de": "Bitte mach das Licht aus, wenn du gehst."
+    },
+    "synonyms": [
+      { "word": "upon",   "de": "auf / oben auf" },
+      { "word": "atop",   "de": "oben auf / an der Spitze von" }
+    ],
+    "word_family": [
+      { "word": "ongoing",  "pos": "adj",      "de": "laufend / andauernd" },
+      { "word": "onset",    "pos": "noun",     "de": "Beginn / Ausbruch" },
+      { "word": "onward",   "pos": "adj/adv",  "de": "vorwärts / weiter" },
+      { "word": "online",   "pos": "adj/adv",  "de": "online / vernetzt" },
+      { "word": "onlooker", "pos": "noun",     "de": "Zuschauer / Beobachter" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "go on",     "de": "weitergehen / fortfahren", "example": "Please go on with your story." },
+      { "phrase": "turn on",   "de": "einschalten / anmachen",   "example": "Can you turn on the light?" },
+      { "phrase": "carry on",  "de": "weitermachen / fortsetzen","example": "Carry on despite the setback." },
+      { "phrase": "count on",  "de": "sich verlassen auf",       "example": "You can always count on me." }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+
+  {
+    "id": "prep_in_04",
+    "word": "in",
+    "type": "preposition",
+    "pos": "prep",
+    "translations": { "de": "in / drin / innerhalb / hinein" },
+    "examples": [
+      { "en": "She is in the kitchen right now.", "de": "Sie ist gerade in der Küche." },
+      { "en": "He arrived in time for dinner.", "de": "Er kam rechtzeitig zum Abendessen an." }
+    ],
+    "opposite": {
+      "en": "out",
+      "de": "außen / heraus / draußen",
+      "example_en": "The cat wants to go out into the garden.",
+      "example_de": "Die Katze möchte in den Garten hinaus."
+    },
+    "synonyms": [
+      { "word": "inside",  "de": "innen / im Inneren" },
+      { "word": "within",  "de": "innerhalb / im Rahmen von" }
+    ],
+    "word_family": [
+      { "word": "inner",   "pos": "adj",      "de": "innerer / innen befindlich" },
+      { "word": "inward",  "pos": "adj/adv",  "de": "nach innen / innerlich" },
+      { "word": "input",   "pos": "noun",     "de": "Eingabe / Beitrag / Input" },
+      { "word": "income",  "pos": "noun",     "de": "Einkommen / Einnahmen" },
+      { "word": "indoor",  "pos": "adj",      "de": "Innen- / überdacht" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "give in",   "de": "nachgeben / kapitulieren",  "example": "He finally gave in to their demands." },
+      { "phrase": "take in",   "de": "aufnehmen / begreifen",     "example": "It was a lot of information to take in." },
+      { "phrase": "fill in",   "de": "ausfüllen / einspringen",   "example": "Please fill in this form." },
+      { "phrase": "check in",  "de": "einchecken / anmelden",     "example": "We checked in at the hotel at noon." }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+
+  {
+    "id": "prep_off_05",
+    "word": "off",
+    "type": "preposition",
+    "pos": "prep",
+    "translations": { "de": "aus / ab / weg / getrennt / frei" },
+    "examples": [
+      { "en": "He turned off the lights before bed.", "de": "Er machte das Licht aus, bevor er schlafen ging." },
+      { "en": "The meeting was called off at noon.", "de": "Das Meeting wurde mittags abgesagt." }
+    ],
+    "opposite": {
+      "en": "on",
+      "de": "an / ein / auf / dabei",
+      "example_en": "Turn on the heating – it is cold.",
+      "example_de": "Mach die Heizung an – es ist kalt."
+    },
+    "synonyms": [
+      { "word": "away",   "de": "weg / entfernt" },
+      { "word": "apart",  "de": "getrennt / auseinander" }
+    ],
+    "word_family": [
+      { "word": "offset",   "pos": "noun/verb", "de": "Ausgleich / ausgleichen / versetzen" },
+      { "word": "offline",  "pos": "adj/adv",   "de": "offline / nicht verbunden" },
+      { "word": "offside",  "pos": "adj/noun",  "de": "abseits (Sport)" },
+      { "word": "offhand",  "pos": "adj/adv",   "de": "beiläufig / aus dem Stegreif" },
+      { "word": "off-peak", "pos": "adj",       "de": "außerhalb der Stoßzeit / Nebensaison" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "take off",  "de": "abheben / ausziehen / ablegen", "example": "The plane took off on time." },
+      { "phrase": "put off",   "de": "verschieben / aufschieben",     "example": "Don't put off what you can do today." },
+      { "phrase": "call off",  "de": "absagen / abbrechen",           "example": "They called off the event due to rain." },
+      { "phrase": "show off",  "de": "angeben / zur Schau stellen",   "example": "He loves to show off his new car." }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+
+  {
+    "id": "prep_over_06",
+    "word": "over",
+    "type": "preposition",
+    "pos": "prep",
+    "translations": { "de": "über / hinüber / vorbei / fertig / mehr als" },
+    "examples": [
+      { "en": "The plane flew over the mountains.", "de": "Das Flugzeug flog über die Berge." },
+      { "en": "Let's go over the plan one more time.", "de": "Lass uns den Plan noch einmal durchgehen." }
+    ],
+    "opposite": {
+      "en": "under",
+      "de": "unter / darunter / weniger als",
+      "example_en": "The cat is sleeping under the table.",
+      "example_de": "Die Katze schläft unter dem Tisch."
+    },
+    "synonyms": [
+      { "word": "above",   "de": "oberhalb / über" },
+      { "word": "across",  "de": "quer über / auf der anderen Seite" }
+    ],
+    "word_family": [
+      { "word": "overall",    "pos": "adj/adv", "de": "insgesamt / gesamt / allgemein" },
+      { "word": "overcome",   "pos": "verb",    "de": "überwinden / bewältigen" },
+      { "word": "overlook",   "pos": "verb",    "de": "übersehen / ignorieren / überblicken" },
+      { "word": "overflow",   "pos": "verb/noun","de": "überlaufen / Überlauf" },
+      { "word": "overdue",    "pos": "adj",     "de": "überfällig / verspätet" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "get over",   "de": "überwinden / verkraften",       "example": "It took time to get over the loss." },
+      { "phrase": "think over", "de": "überdenken / nachdenken über",  "example": "I need to think it over carefully." },
+      { "phrase": "come over",  "de": "vorbeikommen / rüberkommen",    "example": "Why don't you come over for dinner?" },
+      { "phrase": "take over",  "de": "übernehmen / die Kontrolle übernehmen", "example": "She took over the project." }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+
+  {
+    "id": "prep_to_07",
+    "word": "to",
+    "type": "preposition",
+    "pos": "prep",
+    "translations": { "de": "zu / nach / hin / bis / an" },
+    "examples": [
+      { "en": "I'm going to the market this morning.", "de": "Ich gehe heute Morgen zum Markt." },
+      { "en": "She listened to the music with closed eyes.", "de": "Sie hörte mit geschlossenen Augen der Musik zu." }
+    ],
+    "opposite": {
+      "en": "from",
+      "de": "von / aus / ab",
+      "example_en": "He came from the office late yesterday.",
+      "example_de": "Er kam gestern spät aus dem Büro."
+    },
+    "synonyms": [
+      { "word": "toward",  "de": "in Richtung / auf … zu" },
+      { "word": "unto",    "de": "bis hin zu / an (veraltet/formal)" }
+    ],
+    "word_family": [
+      { "word": "toward",    "pos": "prep/adv", "de": "in Richtung / gegenüber" },
+      { "word": "together",  "pos": "adv",      "de": "zusammen / gemeinsam" },
+      { "word": "today",     "pos": "adv/noun", "de": "heute / heutzutage" },
+      { "word": "too",       "pos": "adv",      "de": "auch / zu / ebenfalls" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "look forward to", "de": "sich freuen auf",        "example": "I look forward to seeing you." },
+      { "phrase": "get used to",     "de": "sich gewöhnen an",       "example": "You will get used to the noise." },
+      { "phrase": "amount to",       "de": "sich belaufen auf / gleichkommen", "example": "The costs amounted to €500." },
+      { "phrase": "refer to",        "de": "sich beziehen auf / verweisen auf", "example": "Please refer to the manual." }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  },
+
+  {
+    "id": "prep_for_08",
+    "word": "for",
+    "type": "preposition",
+    "pos": "prep",
+    "translations": { "de": "für / wegen / seit / als / zugunsten von" },
+    "examples": [
+      { "en": "This gift is for you, with love.", "de": "Dieses Geschenk ist für dich, mit Liebe." },
+      { "en": "We waited for an hour at the gate.", "de": "Wir warteten eine Stunde am Gate." }
+    ],
+    "opposite": {
+      "en": "against",
+      "de": "gegen / wider / entgegen",
+      "example_en": "He argued against the new policy.",
+      "example_de": "Er argumentierte gegen die neue Regelung."
+    },
+    "synonyms": [
+      { "word": "in favor of", "de": "zugunsten von / für" },
+      { "word": "on behalf of","de": "im Namen von / stellvertretend für" }
+    ],
+    "word_family": [
+      { "word": "forward",      "pos": "adv/adj",   "de": "vorwärts / weiter / zukunftsorientiert" },
+      { "word": "forthcoming",  "pos": "adj",       "de": "bevorstehend / entgegenkommend" },
+      { "word": "forever",      "pos": "adv",       "de": "für immer / ewig" },
+      { "word": "forbid",       "pos": "verb",      "de": "verbieten / untersagen" },
+      { "word": "foresee",      "pos": "verb",      "de": "vorhersehen / voraussehen" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "stand for",   "de": "stehen für / bedeuten / vertreten", "example": "What does this abbreviation stand for?" },
+      { "phrase": "account for", "de": "erklären / ausmachen / verantworten", "example": "How do you account for the difference?" },
+      { "phrase": "look for",    "de": "suchen / Ausschau halten nach",      "example": "I'm looking for my glasses." },
+      { "phrase": "go for",      "de": "sich entscheiden für / angreifen",   "example": "Go for it – you have nothing to lose." }
+    ],
+    "sm2": { "ef": 2.5, "interval": 1, "repetitions": 0, "due": null },
+    "stats": { "correct": 0, "wrong": 0, "history": [] }
+  }
+]
