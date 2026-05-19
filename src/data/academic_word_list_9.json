@@ -1,0 +1,693 @@
+[
+  {
+    "id": "awl9_accumulate_01",
+    "word": "accumulate",
+    "group": "AWL9",
+    "group_label": "Academic Word List – Sublist 9",
+    "pos": "verb",
+    "translations": { "de": "ansammeln / anhäufen / aufbauen / akkumulieren" },
+    "examples": [
+      {
+        "en": "Researchers accumulate evidence over many years before drawing firm conclusions.",
+        "de": "Forscher sammeln über viele Jahre hinweg Belege, bevor sie endgültige Schlussfolgerungen ziehen."
+      },
+      {
+        "en": "Pollutants can accumulate in the food chain and reach dangerous concentrations.",
+        "de": "Schadstoffe können sich in der Nahrungskette anreichern und gefährliche Konzentrationen erreichen."
+      }
+    ],
+    "opposite": {
+      "en": "dissipate",
+      "de": "sich auflösen / verteilen / zerstreuen",
+      "example_en": "Heat generated during the process will dissipate once the reaction is complete.",
+      "example_de": "Die während des Prozesses erzeugte Wärme wird sich auflösen, sobald die Reaktion abgeschlossen ist."
+    },
+    "synonyms": [
+      { "word": "amass", "de": "anhäufen / ansammeln / aufhäufen" },
+      { "word": "gather", "de": "sammeln / zusammentragen / ansammeln" },
+      { "word": "build up", "de": "aufbauen / ansteigen / sich ansammeln" }
+    ],
+    "word_family": [
+      { "word": "accumulation", "pos": "noun", "de": "Ansammlung / Anhäufung / Akkumulation" },
+      { "word": "accumulative", "pos": "adj", "de": "kumulativ / sich anhäufend / anwachsend" },
+      { "word": "accumulator", "pos": "noun", "de": "Akkumulator / Sammler / Speicher" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl9_allocate_01",
+    "word": "allocate",
+    "group": "AWL9",
+    "group_label": "Academic Word List – Sublist 9",
+    "pos": "verb",
+    "translations": { "de": "zuweisen / zuteilen / bereitstellen / vergeben" },
+    "examples": [
+      {
+        "en": "Governments must decide how to allocate limited resources across competing public needs.",
+        "de": "Regierungen müssen entscheiden, wie sie begrenzte Ressourcen auf konkurrierende öffentliche Bedürfnisse verteilen."
+      },
+      {
+        "en": "In the study, participants were randomly allocated to either the treatment or control group.",
+        "de": "In der Studie wurden die Teilnehmer zufällig entweder der Behandlungs- oder der Kontrollgruppe zugeteilt."
+      }
+    ],
+    "opposite": {
+      "en": "withhold",
+      "de": "zurückhalten / vorenthalten / verweigern",
+      "example_en": "The committee decided to withhold funding until clearer targets were established.",
+      "example_de": "Der Ausschuss beschloss, die Finanzierung zurückzuhalten, bis klarere Ziele festgelegt wurden."
+    },
+    "synonyms": [
+      { "word": "assign", "de": "zuweisen / zuordnen / übertragen" },
+      { "word": "distribute", "de": "verteilen / austeilen / vergeben" },
+      { "word": "apportion", "de": "aufteilen / zuteilen / verteilen" }
+    ],
+    "word_family": [
+      { "word": "allocation", "pos": "noun", "de": "Zuteilung / Zuweisung / Vergabe" },
+      { "word": "allocated", "pos": "adj", "de": "zugeteilt / zugewiesen / bereitgestellt" },
+      { "word": "reallocation", "pos": "noun", "de": "Umverteilung / Neuzuweisung / Umzuteilung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl9_anticipate_01",
+    "word": "anticipate",
+    "group": "AWL9",
+    "group_label": "Academic Word List – Sublist 9",
+    "pos": "verb",
+    "translations": { "de": "erwarten / voraussehen / vorwegnehmen / antizipieren" },
+    "examples": [
+      {
+        "en": "Economists anticipate a gradual recovery in consumer spending over the next two quarters.",
+        "de": "Wirtschaftswissenschaftler erwarten eine schrittweise Erholung der Verbraucherausgaben in den nächsten zwei Quartalen."
+      },
+      {
+        "en": "The model failed to anticipate the rapid spread of the technology across developing markets.",
+        "de": "Das Modell konnte die schnelle Verbreitung der Technologie auf Entwicklungsmärkten nicht voraussehen."
+      }
+    ],
+    "opposite": {
+      "en": "overlook",
+      "de": "übersehen / außer Acht lassen / ignorieren",
+      "example_en": "Researchers who overlook confounding variables may draw misleading conclusions.",
+      "example_de": "Forscher, die Störvariablen übersehen, können irreführende Schlussfolgerungen ziehen."
+    },
+    "synonyms": [
+      { "word": "expect", "de": "erwarten / rechnen mit / voraussehen" },
+      { "word": "foresee", "de": "vorhersehen / vorausahnen / absehen" },
+      { "word": "predict", "de": "vorhersagen / prognostizieren / voraussagen" }
+    ],
+    "word_family": [
+      { "word": "anticipation", "pos": "noun", "de": "Erwartung / Vorwegnahme / Antizipation" },
+      { "word": "anticipated", "pos": "adj", "de": "erwartet / vorhergesehen / vorweggenommen" },
+      { "word": "unanticipated", "pos": "adj", "de": "unerwartet / unvorhergesehen / nicht antizipiert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl9_assemble_01",
+    "word": "assemble",
+    "group": "AWL9",
+    "group_label": "Academic Word List – Sublist 9",
+    "pos": "verb",
+    "translations": { "de": "zusammenstellen / versammeln / zusammensetzen / zusammenbauen" },
+    "examples": [
+      {
+        "en": "The research team assembled a comprehensive dataset from multiple international sources.",
+        "de": "Das Forschungsteam stellte einen umfassenden Datensatz aus mehreren internationalen Quellen zusammen."
+      },
+      {
+        "en": "Delegates assembled in Geneva to negotiate the terms of the new trade agreement.",
+        "de": "Delegierte versammelten sich in Genf, um die Bedingungen des neuen Handelsabkommens auszuhandeln."
+      }
+    ],
+    "opposite": {
+      "en": "disassemble",
+      "de": "auseinandernehmen / zerlegen / demontieren",
+      "example_en": "Engineers had to disassemble the prototype to locate the structural fault.",
+      "example_de": "Ingenieure mussten den Prototypen auseinandernehmen, um den Konstruktionsfehler zu finden."
+    },
+    "synonyms": [
+      { "word": "compile", "de": "zusammenstellen / kompilieren / erarbeiten" },
+      { "word": "gather", "de": "versammeln / sammeln / zusammenbringen" },
+      { "word": "convene", "de": "einberufen / zusammenkommen / zusammentreten" }
+    ],
+    "word_family": [
+      { "word": "assembly", "pos": "noun", "de": "Versammlung / Montage / Zusammensetzung" },
+      { "word": "assembled", "pos": "adj", "de": "versammelt / zusammengestellt / montiert" },
+      { "word": "reassemble", "pos": "verb", "de": "wieder zusammensetzen / neu versammeln / erneut zusammenstellen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl9_cease_01",
+    "word": "cease",
+    "group": "AWL9",
+    "group_label": "Academic Word List – Sublist 9",
+    "pos": "verb",
+    "translations": { "de": "aufhören / einstellen / beenden / zum Erliegen bringen" },
+    "examples": [
+      {
+        "en": "The organization ceased operations after failing to secure long-term funding.",
+        "de": "Die Organisation stellte ihren Betrieb ein, nachdem es nicht gelungen war, eine langfristige Finanzierung zu sichern."
+      },
+      {
+        "en": "Hostilities must cease before diplomatic negotiations can begin.",
+        "de": "Die Feindseligkeiten müssen aufhören, bevor diplomatische Verhandlungen beginnen können."
+      }
+    ],
+    "opposite": {
+      "en": "commence",
+      "de": "beginnen / starten / in Gang setzen",
+      "example_en": "Construction will commence as soon as planning permission is granted.",
+      "example_de": "Der Bau beginnt, sobald die Baugenehmigung erteilt wird."
+    },
+    "synonyms": [
+      { "word": "stop", "de": "stoppen / aufhören / anhalten" },
+      { "word": "discontinue", "de": "einstellen / aufgeben / abbrechen" },
+      { "word": "terminate", "de": "beenden / kündigen / abschließen" }
+    ],
+    "word_family": [
+      { "word": "cessation", "pos": "noun", "de": "Einstellung / Aufhören / Beendigung" },
+      { "word": "ceaseless", "pos": "adj", "de": "unaufhörlich / ununterbrochen / endlos" },
+      { "word": "ceaselessly", "pos": "adv", "de": "unaufhörlich / ununterbrochen / pausenlos" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl9_coherent_01",
+    "word": "coherent",
+    "group": "AWL9",
+    "group_label": "Academic Word List – Sublist 9",
+    "pos": "adj",
+    "translations": { "de": "kohärent / schlüssig / stimmig / zusammenhängend" },
+    "examples": [
+      {
+        "en": "A coherent argument requires clear premises, logical reasoning, and well-supported conclusions.",
+        "de": "Ein schlüssiges Argument erfordert klare Prämissen, logisches Denken und gut begründete Schlussfolgerungen."
+      },
+      {
+        "en": "The government has yet to produce a coherent strategy for addressing the housing crisis.",
+        "de": "Die Regierung hat bislang noch keine kohärente Strategie zur Bewältigung der Wohnungskrise vorgelegt."
+      }
+    ],
+    "opposite": {
+      "en": "incoherent",
+      "de": "inkohärent / unzusammenhängend / unschlüssig",
+      "example_en": "The incoherent proposal was rejected at the first review stage.",
+      "example_de": "Der unschlüssige Vorschlag wurde in der ersten Überprüfungsphase abgelehnt."
+    },
+    "synonyms": [
+      { "word": "logical", "de": "logisch / folgerichtig / schlüssig" },
+      { "word": "consistent", "de": "konsequent / einheitlich / widerspruchsfrei" },
+      { "word": "structured", "de": "strukturiert / geordnet / aufgebaut" }
+    ],
+    "word_family": [
+      { "word": "coherence", "pos": "noun", "de": "Kohärenz / Stimmigkeit / Zusammenhang" },
+      { "word": "coherently", "pos": "adv", "de": "kohärent / schlüssig / zusammenhängend" },
+      { "word": "cohere", "pos": "verb", "de": "zusammenhängen / übereinstimmen / harmonieren" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl9_coincide_01",
+    "word": "coincide",
+    "group": "AWL9",
+    "group_label": "Academic Word List – Sublist 9",
+    "pos": "verb",
+    "translations": { "de": "zusammenfallen / übereinstimmen / gleichzeitig eintreten / koinzidieren" },
+    "examples": [
+      {
+        "en": "The spike in energy prices coincided with a period of unusually cold weather.",
+        "de": "Der Energiepreisanstieg fiel mit einer ungewöhnlich kalten Wetterperiode zusammen."
+      },
+      {
+        "en": "The findings coincide with earlier studies showing a link between stress and immune function.",
+        "de": "Die Ergebnisse stimmen mit früheren Studien überein, die einen Zusammenhang zwischen Stress und Immunfunktion zeigen."
+      }
+    ],
+    "opposite": {
+      "en": "diverge",
+      "de": "auseinandergehen / divergieren / voneinander abweichen",
+      "example_en": "The two theories diverge significantly on the question of causation.",
+      "example_de": "Die beiden Theorien weichen bei der Frage der Kausalität erheblich voneinander ab."
+    },
+    "synonyms": [
+      { "word": "correspond", "de": "entsprechen / übereinstimmen / korrespondieren" },
+      { "word": "align", "de": "übereinstimmen / ausrichten / in Einklang stehen" },
+      { "word": "concur", "de": "übereinstimmen / zusammentreffen / gleichzeitig eintreten" }
+    ],
+    "word_family": [
+      { "word": "coincidence", "pos": "noun", "de": "Zufall / Übereinstimmung / Koinzidenz" },
+      { "word": "coincidental", "pos": "adj", "de": "zufällig / gleichzeitig / koinzidental" },
+      { "word": "coincidentally", "pos": "adv", "de": "zufälligerweise / gleichzeitig / beiläufig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl9_commence_01",
+    "word": "commence",
+    "group": "AWL9",
+    "group_label": "Academic Word List – Sublist 9",
+    "pos": "verb",
+    "translations": { "de": "beginnen / anfangen / starten / in Angriff nehmen" },
+    "examples": [
+      {
+        "en": "Data collection will commence once ethical approval has been granted.",
+        "de": "Die Datenerhebung beginnt, sobald die ethische Genehmigung erteilt wurde."
+      },
+      {
+        "en": "The trial commenced in September and is expected to conclude by the following March.",
+        "de": "Der Prozess begann im September und soll bis zum darauffolgenden März abgeschlossen sein."
+      }
+    ],
+    "opposite": {
+      "en": "cease",
+      "de": "aufhören / einstellen / beenden",
+      "example_en": "Activities cease at the end of the funding period unless renewed.",
+      "example_de": "Die Aktivitäten werden am Ende des Förderzeitraums eingestellt, sofern keine Verlängerung erfolgt."
+    },
+    "synonyms": [
+      { "word": "begin", "de": "beginnen / anfangen / loslegen" },
+      { "word": "initiate", "de": "einleiten / initiieren / starten" },
+      { "word": "launch", "de": "starten / einleiten / ins Leben rufen" }
+    ],
+    "word_family": [
+      { "word": "commencement", "pos": "noun", "de": "Beginn / Anfang / Aufnahme" },
+      { "word": "commenced", "pos": "adj", "de": "begonnen / gestartet / angelaufen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl9_compatible_01",
+    "word": "compatible",
+    "group": "AWL9",
+    "group_label": "Academic Word List – Sublist 9",
+    "pos": "adj",
+    "translations": { "de": "kompatibel / vereinbar / verträglich / übereinstimmend" },
+    "examples": [
+      {
+        "en": "The two datasets were not compatible due to differences in measurement scales.",
+        "de": "Die beiden Datensätze waren aufgrund unterschiedlicher Messskalen nicht kompatibel."
+      },
+      {
+        "en": "Economic growth and environmental sustainability are not necessarily incompatible goals.",
+        "de": "Wirtschaftswachstum und ökologische Nachhaltigkeit sind nicht zwangsläufig unvereinbare Ziele."
+      }
+    ],
+    "opposite": {
+      "en": "incompatible",
+      "de": "inkompatibel / unvereinbar / unverträglich",
+      "example_en": "The proposed measures are incompatible with existing legal frameworks.",
+      "example_de": "Die vorgeschlagenen Maßnahmen sind mit den bestehenden Rechtsrahmen unvereinbar."
+    },
+    "synonyms": [
+      { "word": "consistent", "de": "konsistent / einheitlich / widerspruchsfrei" },
+      { "word": "harmonious", "de": "harmonisch / übereinstimmend / stimmig" },
+      { "word": "congruent", "de": "kongruent / deckungsgleich / übereinstimmend" }
+    ],
+    "word_family": [
+      { "word": "compatibility", "pos": "noun", "de": "Kompatibilität / Vereinbarkeit / Verträglichkeit" },
+      { "word": "compatibly", "pos": "adv", "de": "kompatibel / vereinbar / verträglich" },
+      { "word": "incompatible", "pos": "adj", "de": "inkompatibel / unvereinbar / unverträglich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl9_concurrent_01",
+    "word": "concurrent",
+    "group": "AWL9",
+    "group_label": "Academic Word List – Sublist 9",
+    "pos": "adj",
+    "translations": { "de": "gleichzeitig / parallel / nebenläufig / zeitgleich" },
+    "examples": [
+      {
+        "en": "The two concurrent trials used identical protocols to allow direct comparison of outcomes.",
+        "de": "Die beiden gleichzeitig laufenden Studien verwendeten identische Protokolle, um einen direkten Vergleich der Ergebnisse zu ermöglichen."
+      },
+      {
+        "en": "Concurrent processing allows the system to handle multiple tasks without performance degradation.",
+        "de": "Parallele Verarbeitung ermöglicht es dem System, mehrere Aufgaben ohne Leistungseinbußen zu bewältigen."
+      }
+    ],
+    "opposite": {
+      "en": "sequential",
+      "de": "sequenziell / aufeinanderfolgend / hintereinander",
+      "example_en": "Sequential testing increases the total time required to complete the evaluation.",
+      "example_de": "Sequenzielle Tests erhöhen die Gesamtzeit, die für die Durchführung der Bewertung erforderlich ist."
+    },
+    "synonyms": [
+      { "word": "simultaneous", "de": "simultan / gleichzeitig / zeitgleich" },
+      { "word": "parallel", "de": "parallel / gleichzeitig / nebenläufig" },
+      { "word": "synchronous", "de": "synchron / gleichzeitig / zeitgleich" }
+    ],
+    "word_family": [
+      { "word": "concurrently", "pos": "adv", "de": "gleichzeitig / zeitgleich / parallel" },
+      { "word": "concurrence", "pos": "noun", "de": "Gleichzeitigkeit / Übereinstimmung / Zusammentreffen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl9_deduce_01",
+    "word": "deduce",
+    "group": "AWL9",
+    "group_label": "Academic Word List – Sublist 9",
+    "pos": "verb",
+    "translations": { "de": "schlussfolgern / ableiten / folgern / herleiten" },
+    "examples": [
+      {
+        "en": "From the pattern of results, we can deduce that the variable has a nonlinear effect.",
+        "de": "Aus dem Muster der Ergebnisse können wir schlussfolgern, dass die Variable einen nichtlinearen Effekt hat."
+      },
+      {
+        "en": "The investigator deduced the cause of failure from the physical evidence at the scene.",
+        "de": "Der Ermittler leitete die Ursache des Versagens aus den physischen Beweisen am Tatort ab."
+      }
+    ],
+    "opposite": {
+      "en": "assume",
+      "de": "annehmen / voraussetzen / vermuten",
+      "example_en": "It is problematic to assume causation where only correlation has been demonstrated.",
+      "example_de": "Es ist problematisch, Kausalität anzunehmen, wo nur Korrelation nachgewiesen wurde."
+    },
+    "synonyms": [
+      { "word": "infer", "de": "schlussfolgern / ableiten / folgern" },
+      { "word": "conclude", "de": "schlussfolgern / zu dem Schluss kommen / folgern" },
+      { "word": "derive", "de": "ableiten / herleiten / entnehmen" }
+    ],
+    "word_family": [
+      { "word": "deduction", "pos": "noun", "de": "Schlussfolgerung / Ableitung / Deduktion" },
+      { "word": "deductive", "pos": "adj", "de": "deduktiv / schlussfolgend / ableitend" },
+      { "word": "deducible", "pos": "adj", "de": "ableitbar / folgerbarer / herleitbar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl9_diminish_01",
+    "word": "diminish",
+    "group": "AWL9",
+    "group_label": "Academic Word List – Sublist 9",
+    "pos": "verb",
+    "translations": { "de": "abnehmen / verringern / nachlassen / schwinden" },
+    "examples": [
+      {
+        "en": "The protective effect of the vaccine appeared to diminish after approximately six months.",
+        "de": "Die Schutzwirkung des Impfstoffs schien nach etwa sechs Monaten nachzulassen."
+      },
+      {
+        "en": "Repeated exposure to the stimulus diminished the subjects' physiological response over time.",
+        "de": "Wiederholte Exposition gegenüber dem Reiz verringerte die physiologische Reaktion der Probanden im Laufe der Zeit."
+      }
+    ],
+    "opposite": {
+      "en": "intensify",
+      "de": "verstärken / zunehmen / intensivieren",
+      "example_en": "Competitive pressures are likely to intensify as new firms enter the market.",
+      "example_de": "Der Wettbewerbsdruck dürfte zunehmen, wenn neue Unternehmen in den Markt eintreten."
+    },
+    "synonyms": [
+      { "word": "reduce", "de": "verringern / reduzieren / vermindern" },
+      { "word": "decrease", "de": "abnehmen / sinken / zurückgehen" },
+      { "word": "wane", "de": "abnehmen / nachlassen / schwinden" }
+    ],
+    "word_family": [
+      { "word": "diminishing", "pos": "adj", "de": "abnehmend / schwindend / nachlassend" },
+      { "word": "diminishment", "pos": "noun", "de": "Verringerung / Abnahme / Verminderung" },
+      { "word": "diminution", "pos": "noun", "de": "Verkleinerung / Verminderung / Reduzierung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl9_duration_01",
+    "word": "duration",
+    "group": "AWL9",
+    "group_label": "Academic Word List – Sublist 9",
+    "pos": "noun",
+    "translations": { "de": "Dauer / Zeitspanne / Zeitraum / Laufzeit" },
+    "examples": [
+      {
+        "en": "The duration of the intervention varied across participants depending on their individual progress.",
+        "de": "Die Dauer der Intervention variierte je nach individuellem Fortschritt der Teilnehmer."
+      },
+      {
+        "en": "A longer exposure duration was associated with significantly higher rates of adverse effects.",
+        "de": "Eine längere Expositionsdauer war mit deutlich höheren Nebenwirkungsraten verbunden."
+      }
+    ],
+    "opposite": {
+      "en": "instant",
+      "de": "Augenblick / Moment / sofortiger Zeitpunkt",
+      "example_en": "The reaction occurred in an instant, making it difficult to observe in real time.",
+      "example_de": "Die Reaktion erfolgte in einem Augenblick, was eine Beobachtung in Echtzeit erschwerte."
+    },
+    "synonyms": [
+      { "word": "length", "de": "Länge / Dauer / Zeitraum" },
+      { "word": "period", "de": "Zeitraum / Periode / Phase" },
+      { "word": "span", "de": "Zeitspanne / Spanne / Ausdehnung" }
+    ],
+    "word_family": [
+      { "word": "durable", "pos": "adj", "de": "dauerhaft / beständig / langlebig" },
+      { "word": "durability", "pos": "noun", "de": "Haltbarkeit / Beständigkeit / Dauerhaftigkeit" },
+      { "word": "endure", "pos": "verb", "de": "andauern / aushalten / ertragen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl9_forthcoming_01",
+    "word": "forthcoming",
+    "group": "AWL9",
+    "group_label": "Academic Word List – Sublist 9",
+    "pos": "adj",
+    "translations": { "de": "bevorstehend / kommend / demnächst erscheinend / kooperativ" },
+    "examples": [
+      {
+        "en": "Details of the forthcoming policy revision will be published in the official gazette.",
+        "de": "Einzelheiten der bevorstehenden Richtlinienüberarbeitung werden im Amtsblatt veröffentlicht."
+      },
+      {
+        "en": "The spokesperson was not forthcoming about the reasons behind the sudden restructuring.",
+        "de": "Der Sprecher war nicht sehr auskunftsfreudig bezüglich der Gründe für die plötzliche Umstrukturierung."
+      }
+    ],
+    "opposite": {
+      "en": "past",
+      "de": "vergangen / abgeschlossen / zurückliegend",
+      "example_en": "Past research has laid the groundwork for the current investigation.",
+      "example_de": "Frühere Forschungsarbeiten haben den Grundstein für die aktuelle Untersuchung gelegt."
+    },
+    "synonyms": [
+      { "word": "upcoming", "de": "bevorstehend / kommend / anstehend" },
+      { "word": "imminent", "de": "unmittelbar bevorstehend / drohend / nahe" },
+      { "word": "approaching", "de": "bevorstehend / sich nähernd / herannahend" }
+    ],
+    "word_family": [],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl9_implicit_01",
+    "word": "implicit",
+    "group": "AWL9",
+    "group_label": "Academic Word List – Sublist 9",
+    "pos": "adj",
+    "translations": { "de": "implizit / stillschweigend / unausgesprochen / indirekt" },
+    "examples": [
+      {
+        "en": "The model contains an implicit assumption that all actors behave rationally at all times.",
+        "de": "Das Modell enthält die implizite Annahme, dass alle Akteure jederzeit rational handeln."
+      },
+      {
+        "en": "There is an implicit tension between the two stated objectives of the policy.",
+        "de": "Zwischen den beiden erklärten Zielen der Politik besteht eine implizite Spannung."
+      }
+    ],
+    "opposite": {
+      "en": "explicit",
+      "de": "explizit / ausdrücklich / eindeutig",
+      "example_en": "The guidelines provide explicit instructions on how to handle conflicts of interest.",
+      "example_de": "Die Richtlinien enthalten ausdrückliche Anweisungen zum Umgang mit Interessenkonflikten."
+    },
+    "synonyms": [
+      { "word": "implied", "de": "impliziert / angedeutet / mitgemeint" },
+      { "word": "tacit", "de": "stillschweigend / unausgesprochen / implizit" },
+      { "word": "unspoken", "de": "unausgesprochen / stillschweigend / nicht artikuliert" }
+    ],
+    "word_family": [
+      { "word": "implicitly", "pos": "adv", "de": "implizit / stillschweigend / unausgesprochen" },
+      { "word": "implication", "pos": "noun", "de": "Implikation / Schlussfolgerung / Konsequenz" },
+      { "word": "imply", "pos": "verb", "de": "implizieren / nahelegen / andeuten" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl9_integrity_01",
+    "word": "integrity",
+    "group": "AWL9",
+    "group_label": "Academic Word List – Sublist 9",
+    "pos": "noun",
+    "translations": { "de": "Integrität / Unversehrtheit / Redlichkeit / Vollständigkeit" },
+    "examples": [
+      {
+        "en": "Academic integrity requires that all sources be properly cited and data not be fabricated.",
+        "de": "Akademische Integrität erfordert, dass alle Quellen ordnungsgemäß zitiert und Daten nicht gefälscht werden."
+      },
+      {
+        "en": "The structural integrity of the bridge was compromised by years of inadequate maintenance.",
+        "de": "Die strukturelle Unversehrtheit der Brücke wurde durch jahrelange unzureichende Wartung beeinträchtigt."
+      }
+    ],
+    "opposite": {
+      "en": "corruption",
+      "de": "Korruption / Verderbtheit / Verfälschung",
+      "example_en": "Corruption in the data collection process undermines the validity of the findings.",
+      "example_de": "Korruption im Datenerhebungsprozess untergräbt die Gültigkeit der Erkenntnisse."
+    },
+    "synonyms": [
+      { "word": "honesty", "de": "Ehrlichkeit / Aufrichtigkeit / Redlichkeit" },
+      { "word": "soundness", "de": "Solidität / Unversehrtheit / Zuverlässigkeit" },
+      { "word": "wholeness", "de": "Vollständigkeit / Ganzheit / Unversehrtheit" }
+    ],
+    "word_family": [
+      { "word": "integral", "pos": "adj", "de": "wesentlich / integraler Bestandteil / untrennbar" },
+      { "word": "integrate", "pos": "verb", "de": "integrieren / eingliedern / zusammenführen" },
+      { "word": "disintegrate", "pos": "verb", "de": "sich auflösen / zerfallen / auseinanderfallen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl9_parameter_01",
+    "word": "parameter",
+    "group": "AWL9",
+    "group_label": "Academic Word List – Sublist 9",
+    "pos": "noun",
+    "translations": { "de": "Parameter / Kennwert / Einflussgröße / Rahmenbedingung" },
+    "examples": [
+      {
+        "en": "The researchers adjusted several key parameters to test the robustness of the model.",
+        "de": "Die Forscher passten mehrere Schlüsselparameter an, um die Robustheit des Modells zu testen."
+      },
+      {
+        "en": "Temperature and pressure are the two most important parameters in this reaction.",
+        "de": "Temperatur und Druck sind die beiden wichtigsten Parameter bei dieser Reaktion."
+      }
+    ],
+    "opposite": {
+      "en": "constant",
+      "de": "Konstante / unveränderliche Größe / fester Wert",
+      "example_en": "Speed of light is treated as a constant in classical electromagnetic theory.",
+      "example_de": "Die Lichtgeschwindigkeit wird in der klassischen elektromagnetischen Theorie als Konstante behandelt."
+    },
+    "synonyms": [
+      { "word": "variable", "de": "Variable / Veränderliche / Einflussgröße" },
+      { "word": "factor", "de": "Faktor / Einflussgröße / Größe" },
+      { "word": "criterion", "de": "Kriterium / Maßstab / Kennwert" }
+    ],
+    "word_family": [
+      { "word": "parametric", "pos": "adj", "de": "parametrisch / parameterbasiert / kennwertbezogen" },
+      { "word": "parameterize", "pos": "verb", "de": "parametrisieren / mit Parametern beschreiben / kennwertmäßig erfassen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl9_preliminary_01",
+    "word": "preliminary",
+    "group": "AWL9",
+    "group_label": "Academic Word List – Sublist 9",
+    "pos": "adj",
+    "translations": { "de": "vorläufig / einleitend / vorbereitend / Vor-" },
+    "examples": [
+      {
+        "en": "Preliminary findings indicate a strong positive correlation between the two variables.",
+        "de": "Vorläufige Ergebnisse deuten auf eine starke positive Korrelation zwischen den beiden Variablen hin."
+      },
+      {
+        "en": "A preliminary review of the literature revealed a significant gap in current knowledge.",
+        "de": "Eine vorläufige Literaturrecherche ergab eine erhebliche Lücke im aktuellen Wissensstand."
+      }
+    ],
+    "opposite": {
+      "en": "final",
+      "de": "abschließend / endgültig / definitiv",
+      "example_en": "The final report will be submitted to the committee before the end of the fiscal year.",
+      "example_de": "Der abschließende Bericht wird vor Ende des Geschäftsjahres dem Ausschuss vorgelegt."
+    },
+    "synonyms": [
+      { "word": "initial", "de": "anfänglich / erste / einleitend" },
+      { "word": "preparatory", "de": "vorbereitend / einführend / propädeutisch" },
+      { "word": "introductory", "de": "einführend / einleitend / vorbereitend" }
+    ],
+    "word_family": [
+      { "word": "preliminaries", "pos": "noun", "de": "Vorbereitungen / Vorgespräche / Vorrunden" },
+      { "word": "preliminarily", "pos": "adv", "de": "vorläufig / einleitend / vorab" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl9_subsequent_01",
+    "word": "subsequent",
+    "group": "AWL9",
+    "group_label": "Academic Word List – Sublist 9",
+    "pos": "adj",
+    "translations": { "de": "anschließend / nachfolgend / spätere / darauffolgend" },
+    "examples": [
+      {
+        "en": "The initial findings were confirmed in subsequent studies conducted across three continents.",
+        "de": "Die ersten Befunde wurden in nachfolgenden Studien bestätigt, die auf drei Kontinenten durchgeführt wurden."
+      },
+      {
+        "en": "Subsequent analysis revealed that the original model had underestimated the effect size.",
+        "de": "Die anschließende Analyse ergab, dass das ursprüngliche Modell die Effektgröße unterschätzt hatte."
+      }
+    ],
+    "opposite": {
+      "en": "prior",
+      "de": "vorherig / früher / vorausgehend",
+      "example_en": "Prior experience in statistical methods is recommended for this course.",
+      "example_de": "Frühere Erfahrungen in statistischen Methoden werden für diesen Kurs empfohlen."
+    },
+    "synonyms": [
+      { "word": "following", "de": "folgend / nachfolgend / anschließend" },
+      { "word": "later", "de": "spätere / nachfolgende / folgende" },
+      { "word": "ensuing", "de": "darauffolgende / sich ergebend / nachfolgend" }
+    ],
+    "word_family": [
+      { "word": "subsequently", "pos": "adv", "de": "anschließend / darauffolgend / später" },
+      { "word": "subsequence", "pos": "noun", "de": "Nachfolge / Teilfolge / Unterfolge" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl9_suspend_01",
+    "word": "suspend",
+    "group": "AWL9",
+    "group_label": "Academic Word List – Sublist 9",
+    "pos": "verb",
+    "translations": { "de": "aussetzen / vorübergehend einstellen / suspendieren / aufhängen" },
+    "examples": [
+      {
+        "en": "The clinical trial was suspended after participants reported unexpected adverse effects.",
+        "de": "Die klinische Studie wurde ausgesetzt, nachdem Teilnehmer unerwartete Nebenwirkungen meldeten."
+      },
+      {
+        "en": "Trading in the company's shares was suspended pending an official investigation.",
+        "de": "Der Handel mit den Aktien des Unternehmens wurde ausgesetzt, bis eine offizielle Untersuchung eingeleitet wurde."
+      }
+    ],
+    "opposite": {
+      "en": "resume",
+      "de": "wiederaufnehmen / fortsetzen / fortfahren",
+      "example_en": "The negotiations resumed after a two-week recess with renewed optimism.",
+      "example_de": "Die Verhandlungen wurden nach einer zweiwöchigen Pause mit neuem Optimismus wieder aufgenommen."
+    },
+    "synonyms": [
+      { "word": "halt", "de": "anhalten / stoppen / vorübergehend einstellen" },
+      { "word": "pause", "de": "unterbrechen / pausieren / innehalten" },
+      { "word": "adjourn", "de": "vertagen / unterbrechen / aussetzen" }
+    ],
+    "word_family": [
+      { "word": "suspension", "pos": "noun", "de": "Aussetzung / Suspendierung / Unterbrechung" },
+      { "word": "suspended", "pos": "adj", "de": "ausgesetzt / suspendiert / schwebend" },
+      { "word": "suspense", "pos": "noun", "de": "Spannung / Ungewissheit / Schwebe" }
+    ],
+    "phrasal_verbs": []
+  }
+]
