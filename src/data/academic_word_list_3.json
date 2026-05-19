@@ -1,0 +1,707 @@
+[
+  {
+    "id": "awl3_alternative_01",
+    "word": "alternative",
+    "group": "AWL3",
+    "group_label": "Academic Word List – Sublist 3",
+    "pos": "noun",
+    "translations": { "de": "Alternative / Möglichkeit / Ersatz" },
+    "examples": [
+      {
+        "en": "Researchers must consider alternative explanations before drawing conclusions.",
+        "de": "Forscher müssen alternative Erklärungen in Betracht ziehen, bevor sie Schlussfolgerungen ziehen."
+      },
+      {
+        "en": "The study proposes a cost-effective alternative to conventional treatment methods.",
+        "de": "Die Studie schlägt eine kostengünstige Alternative zu herkömmlichen Behandlungsmethoden vor."
+      }
+    ],
+    "opposite": {
+      "en": "sole option",
+      "de": "einzige Möglichkeit",
+      "example_en": "When there is no alternative, researchers must rely on the available data.",
+      "example_de": "Wenn es keine Alternative gibt, müssen Forscher auf die verfügbaren Daten zurückgreifen."
+    },
+    "synonyms": [
+      { "word": "option", "de": "Option / Möglichkeit" },
+      { "word": "substitute", "de": "Ersatz / Alternative" },
+      { "word": "choice", "de": "Wahl / Möglichkeit" }
+    ],
+    "word_family": [
+      { "word": "alternatively", "pos": "adv", "de": "alternativ / andernfalls" },
+      { "word": "alternate", "pos": "verb", "de": "abwechseln / alternieren" },
+      { "word": "alternating", "pos": "adj", "de": "abwechselnd / alternierend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl3_circumstance_02",
+    "word": "circumstance",
+    "group": "AWL3",
+    "group_label": "Academic Word List – Sublist 3",
+    "pos": "noun",
+    "translations": { "de": "Umstand / Situation / Gegebenheit" },
+    "examples": [
+      {
+        "en": "The outcome varies depending on the circumstances under which the study was conducted.",
+        "de": "Das Ergebnis variiert je nach den Umständen, unter denen die Studie durchgeführt wurde."
+      },
+      {
+        "en": "In most circumstances, peer review ensures the reliability of published research.",
+        "de": "Unter den meisten Umständen gewährleistet die Begutachtung durch Fachkollegen die Zuverlässigkeit veröffentlichter Forschung."
+      }
+    ],
+    "opposite": {
+      "en": "certainty",
+      "de": "Gewissheit / Sicherheit",
+      "example_en": "Knowing the outcome with certainty removes the need to account for different circumstances.",
+      "example_de": "Das sichere Wissen über das Ergebnis macht es unnötig, verschiedene Umstände zu berücksichtigen."
+    },
+    "synonyms": [
+      { "word": "situation", "de": "Situation / Lage" },
+      { "word": "condition", "de": "Bedingung / Zustand" },
+      { "word": "context", "de": "Kontext / Zusammenhang" }
+    ],
+    "word_family": [
+      { "word": "circumstances", "pos": "noun", "de": "Umstände / Gegebenheiten (Plural)" },
+      { "word": "circumstantial", "pos": "adj", "de": "umständebedingt / situationsbezogen" },
+      { "word": "circumstantially", "pos": "adv", "de": "unter den gegebenen Umständen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl3_component_03",
+    "word": "component",
+    "group": "AWL3",
+    "group_label": "Academic Word List – Sublist 3",
+    "pos": "noun",
+    "translations": { "de": "Komponente / Bestandteil / Element" },
+    "examples": [
+      {
+        "en": "Critical thinking is a key component of academic writing at university level.",
+        "de": "Kritisches Denken ist ein wesentlicher Bestandteil des wissenschaftlichen Schreibens auf Universitätsniveau."
+      },
+      {
+        "en": "Each component of the theoretical model must be tested independently.",
+        "de": "Jede Komponente des theoretischen Modells muss unabhängig getestet werden."
+      }
+    ],
+    "opposite": {
+      "en": "whole",
+      "de": "Gesamtheit / Ganzes",
+      "example_en": "Understanding the whole requires examining how each component interacts with the others.",
+      "example_de": "Das Verständnis des Ganzen erfordert die Untersuchung, wie jede Komponente mit den anderen interagiert."
+    },
+    "synonyms": [
+      { "word": "element", "de": "Element / Bestandteil" },
+      { "word": "part", "de": "Teil / Bestandteil" },
+      { "word": "constituent", "de": "Bestandteil / Konstituente" }
+    ],
+    "word_family": [
+      { "word": "components", "pos": "noun", "de": "Komponenten / Bestandteile (Plural)" },
+      { "word": "composite", "pos": "adj", "de": "zusammengesetzt / kompositartig" },
+      { "word": "composition", "pos": "noun", "de": "Zusammensetzung / Komposition" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl3_context_04",
+    "word": "context",
+    "group": "AWL3",
+    "group_label": "Academic Word List – Sublist 3",
+    "pos": "noun",
+    "translations": { "de": "Kontext / Zusammenhang / Umfeld" },
+    "examples": [
+      {
+        "en": "Data must always be interpreted within the context in which it was collected.",
+        "de": "Daten müssen stets im Kontext interpretiert werden, in dem sie erhoben wurden."
+      },
+      {
+        "en": "The historical context of the policy reform is essential for understanding its impact.",
+        "de": "Der historische Kontext der Politikreform ist für das Verständnis ihrer Auswirkungen unerlässlich."
+      }
+    ],
+    "opposite": {
+      "en": "isolation",
+      "de": "Isolation / Loslösung",
+      "example_en": "Examining data in isolation, without context, can lead to misleading conclusions.",
+      "example_de": "Daten isoliert, ohne Kontext zu betrachten, kann zu irreführenden Schlussfolgerungen führen."
+    },
+    "synonyms": [
+      { "word": "setting", "de": "Umfeld / Rahmen" },
+      { "word": "background", "de": "Hintergrund" },
+      { "word": "framework", "de": "Rahmen / Kontext" }
+    ],
+    "word_family": [
+      { "word": "contextual", "pos": "adj", "de": "kontextuell / kontextbezogen" },
+      { "word": "contextualise", "pos": "verb", "de": "kontextualisieren / in den Kontext stellen" },
+      { "word": "out of context", "pos": "phrase", "de": "aus dem Zusammenhang gerissen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl3_convention_05",
+    "word": "convention",
+    "group": "AWL3",
+    "group_label": "Academic Word List – Sublist 3",
+    "pos": "noun",
+    "translations": { "de": "Konvention / Übereinkunft / Gepflogenheit" },
+    "examples": [
+      {
+        "en": "Academic writing follows strict conventions regarding citation and referencing.",
+        "de": "Wissenschaftliches Schreiben folgt strengen Konventionen bezüglich Zitation und Quellenangabe."
+      },
+      {
+        "en": "The convention of using passive voice is common in scientific reporting.",
+        "de": "Die Konvention, das Passiv zu verwenden, ist in der wissenschaftlichen Berichterstattung verbreitet."
+      }
+    ],
+    "opposite": {
+      "en": "innovation",
+      "de": "Innovation / Neuerung",
+      "example_en": "Breaking with convention can lead to significant innovation in research methodology.",
+      "example_de": "Das Brechen mit Konventionen kann zu bedeutenden Innovationen in der Forschungsmethodik führen."
+    },
+    "synonyms": [
+      { "word": "norm", "de": "Norm / Standard" },
+      { "word": "tradition", "de": "Tradition / Gepflogenheit" },
+      { "word": "practice", "de": "Praxis / Übung" }
+    ],
+    "word_family": [
+      { "word": "conventional", "pos": "adj", "de": "konventionell / herkömmlich" },
+      { "word": "unconventional", "pos": "adj", "de": "unkonventionell / unüblich" },
+      { "word": "conventionally", "pos": "adv", "de": "konventionell / üblicherweise" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl3_demonstrate_06",
+    "word": "demonstrate",
+    "group": "AWL3",
+    "group_label": "Academic Word List – Sublist 3",
+    "pos": "verb",
+    "translations": { "de": "demonstrieren / belegen / zeigen / nachweisen" },
+    "examples": [
+      {
+        "en": "The experiment demonstrates a clear causal link between diet and cognitive function.",
+        "de": "Das Experiment belegt einen klaren Kausalzusammenhang zwischen Ernährung und kognitiver Funktion."
+      },
+      {
+        "en": "The researcher demonstrates how social inequality affects educational attainment.",
+        "de": "Der Forscher zeigt, wie soziale Ungleichheit den Bildungserfolg beeinflusst."
+      }
+    ],
+    "opposite": {
+      "en": "conceal",
+      "de": "verbergen / verschleiern",
+      "example_en": "Selective reporting can conceal unfavourable results and bias scientific conclusions.",
+      "example_de": "Selektives Berichten kann ungünstige Ergebnisse verbergen und wissenschaftliche Schlussfolgerungen verzerren."
+    },
+    "synonyms": [
+      { "word": "show", "de": "zeigen / belegen" },
+      { "word": "illustrate", "de": "veranschaulichen / verdeutlichen" },
+      { "word": "prove", "de": "beweisen / nachweisen" }
+    ],
+    "word_family": [
+      { "word": "demonstration", "pos": "noun", "de": "Demonstration / Nachweis / Beweis" },
+      { "word": "demonstrable", "pos": "adj", "de": "nachweisbar / belegbar" },
+      { "word": "demonstrably", "pos": "adv", "de": "nachweislich / belegbar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl3_document_07",
+    "word": "document",
+    "group": "AWL3",
+    "group_label": "Academic Word List – Sublist 3",
+    "pos": "verb",
+    "translations": { "de": "dokumentieren / belegen / festhalten" },
+    "examples": [
+      {
+        "en": "Researchers must carefully document all steps of their experimental procedure.",
+        "de": "Forscher müssen alle Schritte ihres experimentellen Verfahrens sorgfältig dokumentieren."
+      },
+      {
+        "en": "The case study documents the long-term effects of urban pollution on public health.",
+        "de": "Die Fallstudie dokumentiert die langfristigen Auswirkungen der Stadtverschmutzung auf die öffentliche Gesundheit."
+      }
+    ],
+    "opposite": {
+      "en": "omit",
+      "de": "auslassen / weglassen / übergehen",
+      "example_en": "Failing to document a key step in the process can lead to irreproducible results.",
+      "example_de": "Das Versäumnis, einen wichtigen Schritt im Prozess zu dokumentieren, kann zu nicht reproduzierbaren Ergebnissen führen."
+    },
+    "synonyms": [
+      { "word": "record", "de": "aufzeichnen / festhalten" },
+      { "word": "log", "de": "protokollieren / erfassen" },
+      { "word": "register", "de": "registrieren / erfassen" }
+    ],
+    "word_family": [
+      { "word": "document", "pos": "noun", "de": "Dokument / Schriftstück / Unterlagen" },
+      { "word": "documentation", "pos": "noun", "de": "Dokumentation / Unterlagen" },
+      { "word": "documented", "pos": "adj", "de": "dokumentiert / belegt / nachgewiesen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl3_emphasis_08",
+    "word": "emphasis",
+    "group": "AWL3",
+    "group_label": "Academic Word List – Sublist 3",
+    "pos": "noun",
+    "translations": { "de": "Betonung / Schwerpunkt / Nachdruck" },
+    "examples": [
+      {
+        "en": "The report places particular emphasis on the need for long-term investment in education.",
+        "de": "Der Bericht legt besonderen Schwerpunkt auf die Notwendigkeit langfristiger Investitionen in Bildung."
+      },
+      {
+        "en": "There has been a growing emphasis on interdisciplinary research in recent decades.",
+        "de": "In den letzten Jahrzehnten hat die Betonung interdisziplinärer Forschung zugenommen."
+      }
+    ],
+    "opposite": {
+      "en": "neglect",
+      "de": "Vernachlässigung / mangelnde Beachtung",
+      "example_en": "The neglect of qualitative methods in the study undermines the validity of its findings.",
+      "example_de": "Die Vernachlässigung qualitativer Methoden in der Studie untergräbt die Gültigkeit ihrer Ergebnisse."
+    },
+    "synonyms": [
+      { "word": "stress", "de": "Betonung / Nachdruck" },
+      { "word": "focus", "de": "Fokus / Schwerpunkt" },
+      { "word": "priority", "de": "Priorität / Vorrang" }
+    ],
+    "word_family": [
+      { "word": "emphasise", "pos": "verb", "de": "betonen / hervorheben / unterstreichen" },
+      { "word": "emphatic", "pos": "adj", "de": "nachdrücklich / betont / ausdrücklich" },
+      { "word": "emphatically", "pos": "adv", "de": "nachdrücklich / ausdrücklich / entschieden" }
+    ],
+    "phrasal_verbs": [
+      {
+        "phrase": "place emphasis on",
+        "de": "Schwerpunkt legen auf / betonen",
+        "example": "The curriculum places great emphasis on developing analytical and critical thinking skills."
+      }
+    ]
+  },
+  {
+    "id": "awl3_ensure_09",
+    "word": "ensure",
+    "group": "AWL3",
+    "group_label": "Academic Word List – Sublist 3",
+    "pos": "verb",
+    "translations": { "de": "sicherstellen / gewährleisten / dafür sorgen" },
+    "examples": [
+      {
+        "en": "The review process is designed to ensure the quality and accuracy of published work.",
+        "de": "Der Begutachtungsprozess soll die Qualität und Genauigkeit veröffentlichter Arbeiten gewährleisten."
+      },
+      {
+        "en": "Strict protocols ensure that participant data remains confidential throughout the study.",
+        "de": "Strenge Protokolle stellen sicher, dass die Teilnehmerdaten während der gesamten Studie vertraulich bleiben."
+      }
+    ],
+    "opposite": {
+      "en": "jeopardise",
+      "de": "gefährden / aufs Spiel setzen",
+      "example_en": "Poor data management can jeopardise the integrity of an entire research project.",
+      "example_de": "Schlechtes Datenmanagement kann die Integrität eines gesamten Forschungsprojekts gefährden."
+    },
+    "synonyms": [
+      { "word": "guarantee", "de": "garantieren / sicherstellen" },
+      { "word": "secure", "de": "sichern / sicherstellen" },
+      { "word": "safeguard", "de": "schützen / absichern" }
+    ],
+    "word_family": [
+      { "word": "assurance", "pos": "noun", "de": "Zusicherung / Gewährleistung" },
+      { "word": "reassure", "pos": "verb", "de": "beruhigen / versichern" },
+      { "word": "assured", "pos": "adj", "de": "sicher / gewiss / überzeugt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl3_exclude_10",
+    "word": "exclude",
+    "group": "AWL3",
+    "group_label": "Academic Word List – Sublist 3",
+    "pos": "verb",
+    "translations": { "de": "ausschließen / ausklammern / aussondern" },
+    "examples": [
+      {
+        "en": "The researchers excluded participants who had prior experience with the task.",
+        "de": "Die Forscher schlossen Teilnehmer aus, die bereits Vorerfahrung mit der Aufgabe hatten."
+      },
+      {
+        "en": "Outliers were excluded from the analysis to prevent distortion of the results.",
+        "de": "Ausreißer wurden von der Analyse ausgeschlossen, um eine Verzerrung der Ergebnisse zu verhindern."
+      }
+    ],
+    "opposite": {
+      "en": "include",
+      "de": "einschließen / einbeziehen / aufnehmen",
+      "example_en": "A representative sample must include participants from all relevant demographic groups.",
+      "example_de": "Eine repräsentative Stichprobe muss Teilnehmer aus allen relevanten demografischen Gruppen einschließen."
+    },
+    "synonyms": [
+      { "word": "omit", "de": "auslassen / übergehen" },
+      { "word": "eliminate", "de": "eliminieren / ausschließen" },
+      { "word": "rule out", "de": "ausschließen / verwerfen" }
+    ],
+    "word_family": [
+      { "word": "exclusion", "pos": "noun", "de": "Ausschluss / Ausgrenzung" },
+      { "word": "exclusive", "pos": "adj", "de": "exklusiv / ausschließlich" },
+      { "word": "exclusively", "pos": "adv", "de": "ausschließlich / exklusiv" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl3_framework_11",
+    "word": "framework",
+    "group": "AWL3",
+    "group_label": "Academic Word List – Sublist 3",
+    "pos": "noun",
+    "translations": { "de": "Rahmen / Konzept / Gerüst / Bezugssystem" },
+    "examples": [
+      {
+        "en": "The study applies a sociocultural framework to analyse patterns of language use.",
+        "de": "Die Studie wendet einen soziokulturellen Rahmen an, um Muster des Sprachgebrauchs zu analysieren."
+      },
+      {
+        "en": "A clear theoretical framework is essential for guiding the research design.",
+        "de": "Ein klarer theoretischer Rahmen ist für die Anleitung des Forschungsdesigns unerlässlich."
+      }
+    ],
+    "opposite": {
+      "en": "chaos",
+      "de": "Chaos / Regellosigkeit",
+      "example_en": "Without a guiding framework, data collection risks becoming disorganised and incoherent.",
+      "example_de": "Ohne einen Leitrahmen riskiert die Datenerhebung, unorganisiert und inkohärent zu werden."
+    },
+    "synonyms": [
+      { "word": "structure", "de": "Struktur / Aufbau" },
+      { "word": "model", "de": "Modell / Schema" },
+      { "word": "system", "de": "System / Rahmen" }
+    ],
+    "word_family": [
+      { "word": "frameworks", "pos": "noun", "de": "Rahmenbedingungen / Konzepte (Plural)" },
+      { "word": "conceptual framework", "pos": "phrase", "de": "konzeptueller Rahmen / Bezugsrahmen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl3_illustrate_12",
+    "word": "illustrate",
+    "group": "AWL3",
+    "group_label": "Academic Word List – Sublist 3",
+    "pos": "verb",
+    "translations": { "de": "veranschaulichen / illustrieren / verdeutlichen" },
+    "examples": [
+      {
+        "en": "The graph illustrates a steady increase in global average temperatures since 1950.",
+        "de": "Das Diagramm veranschaulicht einen stetigen Anstieg der globalen Durchschnittstemperaturen seit 1950."
+      },
+      {
+        "en": "Case studies are often used to illustrate theoretical concepts in a real-world context.",
+        "de": "Fallstudien werden häufig verwendet, um theoretische Konzepte in einem realen Kontext zu veranschaulichen."
+      }
+    ],
+    "opposite": {
+      "en": "obscure",
+      "de": "verschleiern / verunkläen / verbergen",
+      "example_en": "Overly complex language can obscure the key findings rather than make them accessible.",
+      "example_de": "Übermäßig komplexe Sprache kann die wichtigsten Erkenntnisse eher verschleiern, als sie zugänglich zu machen."
+    },
+    "synonyms": [
+      { "word": "demonstrate", "de": "demonstrieren / belegen" },
+      { "word": "clarify", "de": "klarstellen / verdeutlichen" },
+      { "word": "exemplify", "de": "veranschaulichen / als Beispiel dienen" }
+    ],
+    "word_family": [
+      { "word": "illustration", "pos": "noun", "de": "Veranschaulichung / Illustration / Beispiel" },
+      { "word": "illustrative", "pos": "adj", "de": "veranschaulichend / beispielhaft" },
+      { "word": "illustrated", "pos": "adj", "de": "veranschaulicht / illustriert / bebildert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl3_implication_13",
+    "word": "implication",
+    "group": "AWL3",
+    "group_label": "Academic Word List – Sublist 3",
+    "pos": "noun",
+    "translations": { "de": "Implikation / Auswirkung / Bedeutung / Konsequenz" },
+    "examples": [
+      {
+        "en": "The findings have significant implications for future research in this field.",
+        "de": "Die Erkenntnisse haben erhebliche Implikationen für die künftige Forschung in diesem Bereich."
+      },
+      {
+        "en": "The policy has far-reaching implications for public health and social welfare.",
+        "de": "Die Politik hat weitreichende Konsequenzen für die öffentliche Gesundheit und das soziale Wohlergehen."
+      }
+    ],
+    "opposite": {
+      "en": "irrelevance",
+      "de": "Bedeutungslosigkeit / Irrelevanz",
+      "example_en": "A finding without practical implications may have limited value outside academia.",
+      "example_de": "Eine Erkenntnis ohne praktische Implikationen hat möglicherweise nur begrenzten Wert außerhalb der Wissenschaft."
+    },
+    "synonyms": [
+      { "word": "consequence", "de": "Konsequenz / Folge" },
+      { "word": "significance", "de": "Bedeutung / Wichtigkeit" },
+      { "word": "ramification", "de": "Auswirkung / Konsequenz" }
+    ],
+    "word_family": [
+      { "word": "imply", "pos": "verb", "de": "implizieren / bedeuten / nahelegen" },
+      { "word": "implicit", "pos": "adj", "de": "implizit / stillschweigend / unausgesprochen" },
+      { "word": "implicitly", "pos": "adv", "de": "implizit / stillschweigend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl3_initial_14",
+    "word": "initial",
+    "group": "AWL3",
+    "group_label": "Academic Word List – Sublist 3",
+    "pos": "adj",
+    "translations": { "de": "anfänglich / ursprünglich / erst / initial" },
+    "examples": [
+      {
+        "en": "The initial results were promising, but further testing is required to confirm them.",
+        "de": "Die anfänglichen Ergebnisse waren vielversprechend, aber weitere Tests sind erforderlich, um sie zu bestätigen."
+      },
+      {
+        "en": "An initial review of the literature revealed several key gaps in existing research.",
+        "de": "Eine erste Literaturrecherche ergab mehrere wesentliche Lücken in der bestehenden Forschung."
+      }
+    ],
+    "opposite": {
+      "en": "final",
+      "de": "abschließend / endgültig / final",
+      "example_en": "The final report drew conclusions that differed considerably from the initial hypotheses.",
+      "example_de": "Der abschließende Bericht zog Schlussfolgerungen, die erheblich von den anfänglichen Hypothesen abwichen."
+    },
+    "synonyms": [
+      { "word": "preliminary", "de": "vorläufig / einleitend" },
+      { "word": "early", "de": "früh / frühzeitig" },
+      { "word": "first", "de": "erste / anfänglich" }
+    ],
+    "word_family": [
+      { "word": "initially", "pos": "adv", "de": "anfangs / zunächst / ursprünglich" },
+      { "word": "initiate", "pos": "verb", "de": "einleiten / initiieren / beginnen" },
+      { "word": "initiative", "pos": "noun", "de": "Initiative / Maßnahme / Vorstoß" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl3_instance_15",
+    "word": "instance",
+    "group": "AWL3",
+    "group_label": "Academic Word List – Sublist 3",
+    "pos": "noun",
+    "translations": { "de": "Beispiel / Fall / Instanz" },
+    "examples": [
+      {
+        "en": "This is not an isolated case; there are numerous instances of this pattern in the data.",
+        "de": "Dies ist kein Einzelfall; es gibt zahlreiche Beispiele dieses Musters in den Daten."
+      },
+      {
+        "en": "In this instance, the researchers opted for a qualitative rather than quantitative approach.",
+        "de": "In diesem Fall entschieden sich die Forscher für einen qualitativen anstelle eines quantitativen Ansatzes."
+      }
+    ],
+    "opposite": {
+      "en": "exception",
+      "de": "Ausnahme / Sonderfall",
+      "example_en": "While instances of the pattern are common, clear exceptions also exist in the literature.",
+      "example_de": "Obwohl Beispiele des Musters häufig sind, gibt es in der Literatur auch klare Ausnahmen."
+    },
+    "synonyms": [
+      { "word": "example", "de": "Beispiel" },
+      { "word": "case", "de": "Fall" },
+      { "word": "occurrence", "de": "Vorkommnis / Auftreten" }
+    ],
+    "word_family": [
+      { "word": "for instance", "pos": "phrase", "de": "zum Beispiel / beispielsweise" },
+      { "word": "instantiate", "pos": "verb", "de": "veranschaulichen / konkretisieren" },
+      { "word": "instantiation", "pos": "noun", "de": "Konkretisierung / Instanziierung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl3_interact_16",
+    "word": "interact",
+    "group": "AWL3",
+    "group_label": "Academic Word List – Sublist 3",
+    "pos": "verb",
+    "translations": { "de": "interagieren / zusammenwirken / in Wechselwirkung stehen" },
+    "examples": [
+      {
+        "en": "The study examines how genetic and environmental factors interact to influence behaviour.",
+        "de": "Die Studie untersucht, wie genetische und Umweltfaktoren zusammenwirken, um das Verhalten zu beeinflussen."
+      },
+      {
+        "en": "Students learn most effectively when they interact with peers and instructors regularly.",
+        "de": "Studierende lernen am effektivsten, wenn sie regelmäßig mit Kommilitonen und Lehrenden interagieren."
+      }
+    ],
+    "opposite": {
+      "en": "operate in isolation",
+      "de": "unabhängig agieren / isoliert funktionieren",
+      "example_en": "Variables rarely operate in isolation; they almost always interact with one another.",
+      "example_de": "Variablen agieren selten unabhängig; sie interagieren fast immer miteinander."
+    },
+    "synonyms": [
+      { "word": "engage", "de": "sich befassen / interagieren" },
+      { "word": "communicate", "de": "kommunizieren / in Kontakt treten" },
+      { "word": "collaborate", "de": "zusammenarbeiten / kooperieren" }
+    ],
+    "word_family": [
+      { "word": "interaction", "pos": "noun", "de": "Interaktion / Wechselwirkung / Austausch" },
+      { "word": "interactive", "pos": "adj", "de": "interaktiv / wechselseitig" },
+      { "word": "interactively", "pos": "adv", "de": "interaktiv / im Austausch" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl3_potential_17",
+    "word": "potential",
+    "group": "AWL3",
+    "group_label": "Academic Word List – Sublist 3",
+    "pos": "noun",
+    "translations": { "de": "Potenzial / Möglichkeit / Fähigkeit" },
+    "examples": [
+      {
+        "en": "The technology has significant potential for improving outcomes in medical diagnosis.",
+        "de": "Die Technologie hat erhebliches Potenzial für die Verbesserung der Ergebnisse in der medizinischen Diagnostik."
+      },
+      {
+        "en": "Researchers must identify and address potential sources of bias in their methodology.",
+        "de": "Forscher müssen potenzielle Quellen von Verzerrungen in ihrer Methodik identifizieren und angehen."
+      }
+    ],
+    "opposite": {
+      "en": "limitation",
+      "de": "Einschränkung / Begrenzung",
+      "example_en": "Every research method has both potential and limitations that must be acknowledged.",
+      "example_de": "Jede Forschungsmethode hat sowohl Potenzial als auch Einschränkungen, die anerkannt werden müssen."
+    },
+    "synonyms": [
+      { "word": "capacity", "de": "Kapazität / Fähigkeit / Potenzial" },
+      { "word": "possibility", "de": "Möglichkeit / Chance" },
+      { "word": "capability", "de": "Fähigkeit / Kapazität" }
+    ],
+    "word_family": [
+      { "word": "potential", "pos": "adj", "de": "potenziell / möglich / denkbar" },
+      { "word": "potentially", "pos": "adv", "de": "potenziell / möglicherweise" },
+      { "word": "potentiality", "pos": "noun", "de": "Potenzialität / Möglichkeit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl3_relevant_18",
+    "word": "relevant",
+    "group": "AWL3",
+    "group_label": "Academic Word List – Sublist 3",
+    "pos": "adj",
+    "translations": { "de": "relevant / zutreffend / bedeutsam / einschlägig" },
+    "examples": [
+      {
+        "en": "Only studies that are directly relevant to the research question were included in the review.",
+        "de": "In die Übersicht wurden nur Studien aufgenommen, die direkt relevant für die Forschungsfrage sind."
+      },
+      {
+        "en": "It is important to consider all relevant evidence before formulating a theory.",
+        "de": "Es ist wichtig, alle relevanten Belege zu berücksichtigen, bevor eine Theorie formuliert wird."
+      }
+    ],
+    "opposite": {
+      "en": "irrelevant",
+      "de": "irrelevant / unerheblich / bedeutungslos",
+      "example_en": "Irrelevant variables should be controlled for to prevent them from distorting the results.",
+      "example_de": "Irrelevante Variablen sollten kontrolliert werden, um zu verhindern, dass sie die Ergebnisse verzerren."
+    },
+    "synonyms": [
+      { "word": "pertinent", "de": "relevant / zutreffend / einschlägig" },
+      { "word": "applicable", "de": "anwendbar / zutreffend" },
+      { "word": "significant", "de": "bedeutsam / wesentlich" }
+    ],
+    "word_family": [
+      { "word": "relevance", "pos": "noun", "de": "Relevanz / Bedeutsamkeit / Bezug" },
+      { "word": "irrelevant", "pos": "adj", "de": "irrelevant / unerheblich" },
+      { "word": "relevantly", "pos": "adv", "de": "in relevanter Weise / treffend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl3_restrict_19",
+    "word": "restrict",
+    "group": "AWL3",
+    "group_label": "Academic Word List – Sublist 3",
+    "pos": "verb",
+    "translations": { "de": "einschränken / begrenzen / beschränken" },
+    "examples": [
+      {
+        "en": "The study was restricted to adult participants over the age of eighteen.",
+        "de": "Die Studie war auf erwachsene Teilnehmer über achtzehn Jahre beschränkt."
+      },
+      {
+        "en": "Ethical guidelines restrict the ways in which human subjects can be used in experiments.",
+        "de": "Ethische Richtlinien schränken die Arten und Weisen ein, wie Menschen in Experimenten eingesetzt werden können."
+      }
+    ],
+    "opposite": {
+      "en": "expand",
+      "de": "erweitern / ausdehnen / ausweiten",
+      "example_en": "Funding was secured to expand the scope of the study to include more participants.",
+      "example_de": "Mittel wurden gesichert, um den Umfang der Studie auf mehr Teilnehmer auszuweiten."
+    },
+    "synonyms": [
+      { "word": "limit", "de": "begrenzen / einschränken" },
+      { "word": "confine", "de": "beschränken / eingrenzen" },
+      { "word": "constrain", "de": "einschränken / zwingen" }
+    ],
+    "word_family": [
+      { "word": "restriction", "pos": "noun", "de": "Einschränkung / Begrenzung / Beschränkung" },
+      { "word": "restrictive", "pos": "adj", "de": "einschränkend / restriktiv" },
+      { "word": "restricted", "pos": "adj", "de": "eingeschränkt / begrenzt / beschränkt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl3_specific_20",
+    "word": "specific",
+    "group": "AWL3",
+    "group_label": "Academic Word List – Sublist 3",
+    "pos": "adj",
+    "translations": { "de": "spezifisch / bestimmt / konkret / genau" },
+    "examples": [
+      {
+        "en": "The methodology chapter must describe the specific procedures used to collect data.",
+        "de": "Das Methodenkapitel muss die spezifischen Verfahren beschreiben, die zur Datenerhebung verwendet wurden."
+      },
+      {
+        "en": "The intervention targets a specific subgroup of learners who struggle with reading comprehension.",
+        "de": "Die Intervention richtet sich an eine bestimmte Untergruppe von Lernenden, die Schwierigkeiten mit dem Leseverständnis haben."
+      }
+    ],
+    "opposite": {
+      "en": "vague",
+      "de": "vage / ungenau / unbestimmt",
+      "example_en": "Vague research questions lead to unfocused studies that are difficult to replicate.",
+      "example_de": "Vage Forschungsfragen führen zu unstrukturierten Studien, die schwer zu replizieren sind."
+    },
+    "synonyms": [
+      { "word": "particular", "de": "bestimmt / speziell" },
+      { "word": "precise", "de": "präzise / genau" },
+      { "word": "explicit", "de": "explizit / ausdrücklich" }
+    ],
+    "word_family": [
+      { "word": "specifically", "pos": "adv", "de": "spezifisch / ausdrücklich / konkret" },
+      { "word": "specificity", "pos": "noun", "de": "Spezifität / Genauigkeit / Bestimmtheit" },
+      { "word": "specify", "pos": "verb", "de": "spezifizieren / festlegen / genau angeben" }
+    ],
+    "phrasal_verbs": []
+  }
+]
