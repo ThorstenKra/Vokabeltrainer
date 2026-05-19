@@ -1,0 +1,691 @@
+[
+  {
+    "id": "awl12_acquire_01",
+    "word": "acquire",
+    "group": "AWL12",
+    "group_label": "Academic Word List – Sublist 12",
+    "pos": "verb",
+    "translations": { "de": "erwerben / erlangen / aneignen / gewinnen" },
+    "examples": [
+      {
+        "en": "Children acquire language naturally through immersion in a rich communicative environment.",
+        "de": "Kinder erwerben Sprache auf natürliche Weise durch Einbettung in eine sprachlich reiche Umgebung."
+      },
+      {
+        "en": "The institution acquired a substantial collection of primary documents from the national archive.",
+        "de": "Die Einrichtung erwarb eine umfangreiche Sammlung von Primärdokumenten aus dem Nationalarchiv."
+      }
+    ],
+    "opposite": {
+      "en": "relinquish",
+      "de": "aufgeben / abtreten / verzichten auf",
+      "example_en": "The company agreed to relinquish its controlling stake as part of the settlement.",
+      "example_de": "Das Unternehmen stimmte zu, seinen Mehrheitsanteil im Rahmen des Vergleichs abzutreten."
+    },
+    "synonyms": [
+      { "word": "obtain", "de": "erlangen / erhalten / beziehen" },
+      { "word": "gain", "de": "gewinnen / erlangen / erwerben" },
+      { "word": "attain", "de": "erreichen / erlangen / erzielen" }
+    ],
+    "word_family": [
+      { "word": "acquisition", "pos": "noun", "de": "Erwerb / Aneignung / Akquisition" },
+      { "word": "acquired", "pos": "adj", "de": "erworben / angeeignet / erlangt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl12_albeit_01",
+    "word": "albeit",
+    "group": "AWL12",
+    "group_label": "Academic Word List – Sublist 12",
+    "pos": "conj",
+    "translations": { "de": "obwohl / wenngleich / wenn auch / obgleich" },
+    "examples": [
+      {
+        "en": "The intervention produced a positive effect, albeit a modest one that did not reach significance.",
+        "de": "Die Intervention erzielte eine positive Wirkung, wenngleich eine bescheidene, die keine Signifikanz erreichte."
+      },
+      {
+        "en": "Progress has been made, albeit slowly, in closing the gender pay gap across the sector.",
+        "de": "Es wurden Fortschritte gemacht, wenn auch langsam, beim Schließen des geschlechtsspezifischen Lohngefälles im gesamten Sektor."
+      }
+    ],
+    "opposite": {
+      "en": "consequently",
+      "de": "folglich / infolgedessen / daher",
+      "example_en": "The sample was large; consequently, even small effects reached statistical significance.",
+      "example_de": "Die Stichprobe war groß; folglich erreichten selbst kleine Effekte statistische Signifikanz."
+    },
+    "synonyms": [
+      { "word": "although", "de": "obwohl / obgleich / auch wenn" },
+      { "word": "even though", "de": "obwohl / auch wenn / wenngleich" },
+      { "word": "though", "de": "obwohl / wenn auch / allerdings" }
+    ],
+    "word_family": [],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl12_assert_01",
+    "word": "assert",
+    "group": "AWL12",
+    "group_label": "Academic Word List – Sublist 12",
+    "pos": "verb",
+    "translations": { "de": "behaupten / geltend machen / betonen / versichern" },
+    "examples": [
+      {
+        "en": "The authors assert that existing theories fail to account for cross-cultural variation.",
+        "de": "Die Autoren behaupten, dass bestehende Theorien grenzüberschreitende kulturelle Variation nicht erklären können."
+      },
+      {
+        "en": "It would be premature to assert a causal relationship on the basis of correlational evidence alone.",
+        "de": "Es wäre verfrüht, auf der Grundlage von Korrelationsnachweisen allein einen kausalen Zusammenhang zu behaupten."
+      }
+    ],
+    "opposite": {
+      "en": "deny",
+      "de": "leugnen / verneinen / bestreiten",
+      "example_en": "The spokesperson denied that the results had been selectively reported.",
+      "example_de": "Der Sprecher bestritt, dass die Ergebnisse selektiv berichtet worden waren."
+    },
+    "synonyms": [
+      { "word": "claim", "de": "behaupten / geltend machen / beanspruchen" },
+      { "word": "maintain", "de": "aufrechterhalten / behaupten / vertreten" },
+      { "word": "contend", "de": "behaupten / vorbringen / vertreten" }
+    ],
+    "word_family": [
+      { "word": "assertion", "pos": "noun", "de": "Behauptung / Aussage / Feststellung" },
+      { "word": "assertive", "pos": "adj", "de": "selbstbewusst / bestimmt / durchsetzungsfähig" },
+      { "word": "unasserted", "pos": "adj", "de": "nicht behauptet / nicht geltend gemacht / unstrittig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl12_classify_01",
+    "word": "classify",
+    "group": "AWL12",
+    "group_label": "Academic Word List – Sublist 12",
+    "pos": "verb",
+    "translations": { "de": "klassifizieren / einordnen / kategorisieren / einstufen" },
+    "examples": [
+      {
+        "en": "Participants were classified into three groups based on their baseline scores.",
+        "de": "Die Teilnehmer wurden anhand ihrer Ausgangswerte in drei Gruppen eingeteilt."
+      },
+      {
+        "en": "It remains unclear how to classify certain hybrid organisational forms within existing taxonomies.",
+        "de": "Es ist nach wie vor unklar, wie bestimmte hybride Organisationsformen in bestehende Taxonomien einzuordnen sind."
+      }
+    ],
+    "opposite": {
+      "en": "misclassify",
+      "de": "falsch klassifizieren / falsch einordnen / fehlerhaft kategorisieren",
+      "example_en": "Misclassifying expenditure as capital investment can distort financial reporting significantly.",
+      "example_de": "Die falsche Klassifizierung von Ausgaben als Kapitalinvestition kann die Finanzberichterstattung erheblich verzerren."
+    },
+    "synonyms": [
+      { "word": "categorise", "de": "kategorisieren / einteilen / einordnen" },
+      { "word": "sort", "de": "sortieren / einteilen / ordnen" },
+      { "word": "label", "de": "beschriften / kennzeichnen / einordnen" }
+    ],
+    "word_family": [
+      { "word": "classification", "pos": "noun", "de": "Klassifikation / Einteilung / Kategorisierung" },
+      { "word": "classified", "pos": "adj", "de": "klassifiziert / eingestuft / kategorisiert" },
+      { "word": "reclassify", "pos": "verb", "de": "umklassifizieren / neu einordnen / neu einstufen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl12_commodity_01",
+    "word": "commodity",
+    "group": "AWL12",
+    "group_label": "Academic Word List – Sublist 12",
+    "pos": "noun",
+    "translations": { "de": "Ware / Rohstoff / Gut / Handelsgut" },
+    "examples": [
+      {
+        "en": "Global commodity prices are highly sensitive to geopolitical instability and supply chain disruptions.",
+        "de": "Die globalen Rohstoffpreise reagieren sehr empfindlich auf geopolitische Instabilität und Störungen der Lieferkette."
+      },
+      {
+        "en": "In an attention economy, personal data has become a valuable commodity.",
+        "de": "In einer Aufmerksamkeitswirtschaft sind persönliche Daten zu einem wertvollen Gut geworden."
+      }
+    ],
+    "opposite": {
+      "en": "service",
+      "de": "Dienstleistung / Service / immaterielles Gut",
+      "example_en": "The economy has shifted from manufacturing commodities to delivering digital services.",
+      "example_de": "Die Wirtschaft hat sich von der Produktion von Gütern zur Bereitstellung digitaler Dienstleistungen verlagert."
+    },
+    "synonyms": [
+      { "word": "product", "de": "Produkt / Erzeugnis / Ware" },
+      { "word": "good", "de": "Gut / Ware / Handelsartikel" },
+      { "word": "resource", "de": "Ressource / Rohstoff / Mittel" }
+    ],
+    "word_family": [
+      { "word": "commodification", "pos": "noun", "de": "Kommodifizierung / Vermarktlichung / Kommerzialisierung" },
+      { "word": "commodify", "pos": "verb", "de": "zur Ware machen / kommerzialisieren / kommodifizieren" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl12_comprehensive_01",
+    "word": "comprehensive",
+    "group": "AWL12",
+    "group_label": "Academic Word List – Sublist 12",
+    "pos": "adj",
+    "translations": { "de": "umfassend / vollständig / erschöpfend / weitreichend" },
+    "examples": [
+      {
+        "en": "A comprehensive review of the literature was conducted before the research questions were finalised.",
+        "de": "Vor der endgültigen Festlegung der Forschungsfragen wurde eine umfassende Literaturrecherche durchgeführt."
+      },
+      {
+        "en": "The report offers a comprehensive analysis of trends across all major market segments.",
+        "de": "Der Bericht bietet eine umfassende Analyse der Trends in allen wichtigen Marktsegmenten."
+      }
+    ],
+    "opposite": {
+      "en": "partial",
+      "de": "teilweise / unvollständig / partiell",
+      "example_en": "A partial analysis risks producing misleading conclusions about the overall picture.",
+      "example_de": "Eine Teilanalyse birgt das Risiko, irreführende Schlussfolgerungen über das Gesamtbild zu ziehen."
+    },
+    "synonyms": [
+      { "word": "thorough", "de": "gründlich / umfassend / eingehend" },
+      { "word": "exhaustive", "de": "erschöpfend / vollständig / umfassend" },
+      { "word": "complete", "de": "vollständig / komplett / umfassend" }
+    ],
+    "word_family": [
+      { "word": "comprehensively", "pos": "adv", "de": "umfassend / gründlich / vollständig" },
+      { "word": "comprehensiveness", "pos": "noun", "de": "Vollständigkeit / Umfang / Umfassendheit" },
+      { "word": "comprehend", "pos": "verb", "de": "begreifen / erfassen / umfassen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl12_constitute_01",
+    "word": "constitute",
+    "group": "AWL12",
+    "group_label": "Academic Word List – Sublist 12",
+    "pos": "verb",
+    "translations": { "de": "ausmachen / darstellen / bilden / konstituieren" },
+    "examples": [
+      {
+        "en": "Women constitute over sixty percent of the workforce in the healthcare sector.",
+        "de": "Frauen machen über sechzig Prozent der Beschäftigten im Gesundheitswesen aus."
+      },
+      {
+        "en": "It is debated whether such behaviour constitutes a violation of existing international norms.",
+        "de": "Es wird diskutiert, ob ein solches Verhalten einen Verstoß gegen bestehende internationale Normen darstellt."
+      }
+    ],
+    "opposite": {
+      "en": "exclude",
+      "de": "ausschließen / nicht umfassen / auslassen",
+      "example_en": "The definition explicitly excludes cases where no formal agreement was reached.",
+      "example_de": "Die Definition schließt ausdrücklich Fälle aus, in denen keine formelle Einigung erzielt wurde."
+    },
+    "synonyms": [
+      { "word": "comprise", "de": "umfassen / ausmachen / bestehen aus" },
+      { "word": "form", "de": "bilden / ausmachen / darstellen" },
+      { "word": "make up", "de": "ausmachen / bilden / zusammenstellen" }
+    ],
+    "word_family": [
+      { "word": "constitution", "pos": "noun", "de": "Verfassung / Aufbau / Zusammensetzung" },
+      { "word": "constitutional", "pos": "adj", "de": "verfassungsmäßig / grundlegend / konstitutionell" },
+      { "word": "constituent", "pos": "noun", "de": "Bestandteil / Komponente / Wähler" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl12_coordinate_01",
+    "word": "coordinate",
+    "group": "AWL12",
+    "group_label": "Academic Word List – Sublist 12",
+    "pos": "verb",
+    "translations": { "de": "koordinieren / abstimmen / zusammenführen / organisieren" },
+    "examples": [
+      {
+        "en": "The project requires multiple agencies to coordinate their efforts to avoid duplication.",
+        "de": "Das Projekt erfordert, dass mehrere Behörden ihre Bemühungen koordinieren, um Doppelarbeit zu vermeiden."
+      },
+      {
+        "en": "A dedicated team was appointed to coordinate data collection across all participating sites.",
+        "de": "Ein spezielles Team wurde ernannt, um die Datenerhebung an allen teilnehmenden Standorten zu koordinieren."
+      }
+    ],
+    "opposite": {
+      "en": "fragment",
+      "de": "zersplittern / aufteilen / fragmentieren",
+      "example_en": "Without leadership, the response efforts began to fragment into isolated actions.",
+      "example_de": "Ohne Führung begannen die Reaktionsbemühungen, sich in isolierte Maßnahmen zu zersplittern."
+    },
+    "synonyms": [
+      { "word": "organise", "de": "organisieren / strukturieren / ordnen" },
+      { "word": "harmonise", "de": "harmonisieren / abstimmen / in Einklang bringen" },
+      { "word": "align", "de": "ausrichten / abstimmen / angleichen" }
+    ],
+    "word_family": [
+      { "word": "coordination", "pos": "noun", "de": "Koordination / Abstimmung / Koordinierung" },
+      { "word": "coordinator", "pos": "noun", "de": "Koordinator / Koordinatorin / Abstimmungsstelle" },
+      { "word": "coordinated", "pos": "adj", "de": "koordiniert / abgestimmt / organisiert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl12_denote_01",
+    "word": "denote",
+    "group": "AWL12",
+    "group_label": "Academic Word List – Sublist 12",
+    "pos": "verb",
+    "translations": { "de": "bezeichnen / bedeuten / kennzeichnen / hinweisen auf" },
+    "examples": [
+      {
+        "en": "In the diagram, shaded regions denote areas of statistical uncertainty.",
+        "de": "Im Diagramm bezeichnen schraffierte Bereiche Zonen statistischer Unsicherheit."
+      },
+      {
+        "en": "The asterisk denotes a significant difference between the treatment and control conditions.",
+        "de": "Das Sternchen bezeichnet einen signifikanten Unterschied zwischen der Behandlungs- und der Kontrollbedingung."
+      }
+    ],
+    "opposite": {
+      "en": "obscure",
+      "de": "verschleiern / verdecken / unklar machen",
+      "example_en": "Overly complex notation can obscure rather than clarify the underlying relationships.",
+      "example_de": "Zu komplexe Notation kann die zugrunde liegenden Beziehungen eher verschleiern als klären."
+    },
+    "synonyms": [
+      { "word": "indicate", "de": "anzeigen / hinweisen auf / kennzeichnen" },
+      { "word": "signify", "de": "bedeuten / bezeichnen / anzeigen" },
+      { "word": "represent", "de": "darstellen / bezeichnen / repräsentieren" }
+    ],
+    "word_family": [
+      { "word": "denotation", "pos": "noun", "de": "Bezeichnung / Bedeutung / Denotation" },
+      { "word": "denotative", "pos": "adj", "de": "denotativ / bezeichnend / wörtlich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl12_distribute_01",
+    "word": "distribute",
+    "group": "AWL12",
+    "group_label": "Academic Word List – Sublist 12",
+    "pos": "verb",
+    "translations": { "de": "verteilen / austeilen / streuen / weitergeben" },
+    "examples": [
+      {
+        "en": "Questionnaires were distributed to all registered participants one week before the event.",
+        "de": "Fragebögen wurden eine Woche vor der Veranstaltung an alle angemeldeten Teilnehmer verteilt."
+      },
+      {
+        "en": "The data are not normally distributed, which affects the choice of statistical test.",
+        "de": "Die Daten sind nicht normalverteilt, was die Wahl des statistischen Tests beeinflusst."
+      }
+    ],
+    "opposite": {
+      "en": "concentrate",
+      "de": "konzentrieren / bündeln / zentralisieren",
+      "example_en": "Wealth continues to concentrate among a small segment of the population.",
+      "example_de": "Der Reichtum konzentriert sich weiterhin auf einen kleinen Teil der Bevölkerung."
+    },
+    "synonyms": [
+      { "word": "dispense", "de": "austeilen / vergeben / verteilen" },
+      { "word": "spread", "de": "verbreiten / streuen / ausbreiten" },
+      { "word": "allocate", "de": "zuteilen / zuweisen / verteilen" }
+    ],
+    "word_family": [
+      { "word": "distribution", "pos": "noun", "de": "Verteilung / Verbreitung / Aufteilung" },
+      { "word": "distributed", "pos": "adj", "de": "verteilt / gestreut / weitergegeben" },
+      { "word": "redistribution", "pos": "noun", "de": "Umverteilung / Neuverteilung / Redistribution" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl12_erode_01",
+    "word": "erode",
+    "group": "AWL12",
+    "group_label": "Academic Word List – Sublist 12",
+    "pos": "verb",
+    "translations": { "de": "erodieren / abtragen / untergraben / aushöhlen" },
+    "examples": [
+      {
+        "en": "Repeated policy failures have gradually eroded public trust in the institution.",
+        "de": "Wiederholte politische Misserfolge haben das öffentliche Vertrauen in die Institution schrittweise untergraben."
+      },
+      {
+        "en": "Rising sea levels are eroding coastal habitats at an accelerating rate.",
+        "de": "Der steigende Meeresspiegel erodiert Küstenlebensräume in zunehmendem Tempo."
+      }
+    ],
+    "opposite": {
+      "en": "strengthen",
+      "de": "stärken / festigen / ausbauen",
+      "example_en": "Transparent communication can strengthen institutional credibility over time.",
+      "example_de": "Transparente Kommunikation kann die institutionelle Glaubwürdigkeit im Laufe der Zeit stärken."
+    },
+    "synonyms": [
+      { "word": "wear away", "de": "abtragen / zerfressen / aufzehren" },
+      { "word": "undermine", "de": "untergraben / schwächen / aushöhlen" },
+      { "word": "corrode", "de": "zerfressen / korrodieren / aufzehren" }
+    ],
+    "word_family": [
+      { "word": "erosion", "pos": "noun", "de": "Erosion / Abtragung / Aushöhlung" },
+      { "word": "eroded", "pos": "adj", "de": "erodiert / abgetragen / geschwächt" },
+      { "word": "erosive", "pos": "adj", "de": "erosiv / abtragend / zerstörend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl12_eventual_01",
+    "word": "eventual",
+    "group": "AWL12",
+    "group_label": "Academic Word List – Sublist 12",
+    "pos": "adj",
+    "translations": { "de": "schließlich / letztendlich / endgültig / zuletzt eintretend" },
+    "examples": [
+      {
+        "en": "The eventual outcome of the negotiations was a compromise acceptable to all parties.",
+        "de": "Das schließliche Ergebnis der Verhandlungen war ein für alle Parteien akzeptabler Kompromiss."
+      },
+      {
+        "en": "Early detection significantly improves the chances of eventual recovery.",
+        "de": "Eine frühzeitige Erkennung verbessert die Chancen auf eine letztendliche Genesung erheblich."
+      }
+    ],
+    "opposite": {
+      "en": "immediate",
+      "de": "sofortig / unmittelbar / direkt",
+      "example_en": "The immediate effects of the treatment were mild, but long-term benefits were substantial.",
+      "example_de": "Die unmittelbaren Auswirkungen der Behandlung waren mild, aber die langfristigen Vorteile waren erheblich."
+    },
+    "synonyms": [
+      { "word": "final", "de": "abschließend / endgültig / letztlich" },
+      { "word": "ultimate", "de": "letztendlich / endgültig / abschließend" },
+      { "word": "resulting", "de": "sich ergebend / daraus folgend / resultierend" }
+    ],
+    "word_family": [
+      { "word": "eventually", "pos": "adv", "de": "schließlich / letztendlich / irgendwann" },
+      { "word": "eventuality", "pos": "noun", "de": "Eventualität / mögliches Ereignis / Möglichkeit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl12_paradigm_01",
+    "word": "paradigm",
+    "group": "AWL12",
+    "group_label": "Academic Word List – Sublist 12",
+    "pos": "noun",
+    "translations": { "de": "Paradigma / Muster / Denkmuster / Rahmen" },
+    "examples": [
+      {
+        "en": "The discovery challenged the dominant paradigm and forced researchers to reconsider foundational assumptions.",
+        "de": "Die Entdeckung stellte das vorherrschende Paradigma in Frage und zwang Forscher, grundlegende Annahmen zu überdenken."
+      },
+      {
+        "en": "Kuhn argued that scientific progress occurs through paradigm shifts rather than gradual accumulation.",
+        "de": "Kuhn argumentierte, dass wissenschaftlicher Fortschritt durch Paradigmenwechsel und nicht durch allmähliche Anhäufung erfolgt."
+      }
+    ],
+    "opposite": {
+      "en": "anomaly",
+      "de": "Anomalie / Ausnahme / Abweichung",
+      "example_en": "Anomalies that resist explanation eventually force the field to revise its theoretical paradigm.",
+      "example_de": "Anomalien, die sich einer Erklärung widersetzen, zwingen das Fachgebiet schließlich, sein theoretisches Paradigma zu überarbeiten."
+    },
+    "synonyms": [
+      { "word": "model", "de": "Modell / Vorlage / Muster" },
+      { "word": "framework", "de": "Rahmen / Denkmuster / Bezugsrahmen" },
+      { "word": "archetype", "de": "Archetyp / Urbild / Muster" }
+    ],
+    "word_family": [
+      { "word": "paradigmatic", "pos": "adj", "de": "paradigmatisch / beispielhaft / musterhaft" },
+      { "word": "paradigm shift", "pos": "noun", "de": "Paradigmenwechsel / Umbruch / Wandel des Denkrahmens" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl12_perceive_01",
+    "word": "perceive",
+    "group": "AWL12",
+    "group_label": "Academic Word List – Sublist 12",
+    "pos": "verb",
+    "translations": { "de": "wahrnehmen / erkennen / verstehen / auffassen" },
+    "examples": [
+      {
+        "en": "How risks are perceived by the public does not always align with objective probabilistic assessments.",
+        "de": "Wie Risiken von der Öffentlichkeit wahrgenommen werden, stimmt nicht immer mit objektiven probabilistischen Bewertungen überein."
+      },
+      {
+        "en": "The policy was perceived as a threat to individual autonomy by a significant portion of respondents.",
+        "de": "Die Politik wurde von einem erheblichen Teil der Befragten als Bedrohung der individuellen Autonomie wahrgenommen."
+      }
+    ],
+    "opposite": {
+      "en": "overlook",
+      "de": "übersehen / außer Acht lassen / nicht wahrnehmen",
+      "example_en": "Decision-makers often overlook risks that are unfamiliar or difficult to quantify.",
+      "example_de": "Entscheidungsträger übersehen oft Risiken, die unbekannt oder schwer zu quantifizieren sind."
+    },
+    "synonyms": [
+      { "word": "recognise", "de": "erkennen / wahrnehmen / anerkennen" },
+      { "word": "observe", "de": "beobachten / wahrnehmen / feststellen" },
+      { "word": "interpret", "de": "interpretieren / deuten / auffassen" }
+    ],
+    "word_family": [
+      { "word": "perception", "pos": "noun", "de": "Wahrnehmung / Auffassung / Einschätzung" },
+      { "word": "perceived", "pos": "adj", "de": "wahrgenommen / empfunden / eingeschätzt" },
+      { "word": "perceptive", "pos": "adj", "de": "aufmerksam / einfühlsam / scharfsinnig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl12_phenomenon_01",
+    "word": "phenomenon",
+    "group": "AWL12",
+    "group_label": "Academic Word List – Sublist 12",
+    "pos": "noun",
+    "translations": { "de": "Phänomen / Erscheinung / Vorkommnis / Sachverhalt" },
+    "examples": [
+      {
+        "en": "Globalisation is a complex phenomenon that cannot be explained by any single theoretical framework.",
+        "de": "Globalisierung ist ein komplexes Phänomen, das durch keinen einzigen theoretischen Rahmen erklärt werden kann."
+      },
+      {
+        "en": "The researchers set out to document and explain a previously unreported natural phenomenon.",
+        "de": "Die Forscher machten sich daran, ein zuvor nicht berichtetes natürliches Phänomen zu dokumentieren und zu erklären."
+      }
+    ],
+    "opposite": {
+      "en": "abstraction",
+      "de": "Abstraktion / gedankliches Konstrukt / theoretisches Konzept",
+      "example_en": "The theory remained a useful abstraction but struggled to account for real-world phenomena.",
+      "example_de": "Die Theorie blieb eine nützliche Abstraktion, hatte aber Schwierigkeiten, reale Phänomene zu erklären."
+    },
+    "synonyms": [
+      { "word": "occurrence", "de": "Vorkommnis / Ereignis / Erscheinung" },
+      { "word": "event", "de": "Ereignis / Vorfall / Erscheinung" },
+      { "word": "observation", "de": "Beobachtung / Feststellung / Wahrnehmung" }
+    ],
+    "word_family": [
+      { "word": "phenomena", "pos": "noun", "de": "Phänomene / Erscheinungen (Plural)" },
+      { "word": "phenomenal", "pos": "adj", "de": "phänomenal / außergewöhnlich / bemerkenswert" },
+      { "word": "phenomenology", "pos": "noun", "de": "Phänomenologie / Erscheinungslehre" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl12_reinforce_01",
+    "word": "reinforce",
+    "group": "AWL12",
+    "group_label": "Academic Word List – Sublist 12",
+    "pos": "verb",
+    "translations": { "de": "verstärken / bekräftigen / untermauern / stützen" },
+    "examples": [
+      {
+        "en": "The follow-up study reinforced the earlier findings with a much larger and more diverse sample.",
+        "de": "Die Folgestudie bekräftigte die früheren Erkenntnisse mit einer deutlich größeren und vielfältigeren Stichprobe."
+      },
+      {
+        "en": "Media coverage of rare events can reinforce distorted risk perceptions among the public.",
+        "de": "Die Medienberichterstattung über seltene Ereignisse kann verzerrte Risikowahrnehmungen in der Öffentlichkeit verstärken."
+      }
+    ],
+    "opposite": {
+      "en": "contradict",
+      "de": "widersprechen / widerlegen / in Frage stellen",
+      "example_en": "New data appear to contradict the widely held assumption that demand is price-inelastic.",
+      "example_de": "Neue Daten scheinen der weit verbreiteten Annahme zu widersprechen, dass die Nachfrage preisunelastisch ist."
+    },
+    "synonyms": [
+      { "word": "strengthen", "de": "stärken / festigen / verstärken" },
+      { "word": "support", "de": "stützen / unterstützen / untermauern" },
+      { "word": "bolster", "de": "stärken / unterstützen / aufwerten" }
+    ],
+    "word_family": [
+      { "word": "reinforcement", "pos": "noun", "de": "Verstärkung / Bekräftigung / Unterstützung" },
+      { "word": "reinforced", "pos": "adj", "de": "verstärkt / bekräftigt / gestützt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl12_scheme_01",
+    "word": "scheme",
+    "group": "AWL12",
+    "group_label": "Academic Word List – Sublist 12",
+    "pos": "noun",
+    "translations": { "de": "Programm / Plan / Schema / Regelung" },
+    "examples": [
+      {
+        "en": "The government launched a new incentive scheme to encourage investment in renewable energy.",
+        "de": "Die Regierung startete ein neues Anreizprogramm, um Investitionen in erneuerbare Energien zu fördern."
+      },
+      {
+        "en": "Classification schemes must be both internally consistent and practically applicable.",
+        "de": "Klassifikationsschemata müssen sowohl intern konsistent als auch praktisch anwendbar sein."
+      }
+    ],
+    "opposite": {
+      "en": "improvisation",
+      "de": "Improvisation / Stegreifhandeln / spontane Lösung",
+      "example_en": "Improvisation is no substitute for a well-designed scheme in complex policy environments.",
+      "example_de": "Improvisation ist kein Ersatz für ein gut durchdachtes Programm in komplexen politischen Umgebungen."
+    },
+    "synonyms": [
+      { "word": "plan", "de": "Plan / Vorhaben / Konzept" },
+      { "word": "programme", "de": "Programm / Vorhaben / Initiative" },
+      { "word": "system", "de": "System / Regelung / Konzept" }
+    ],
+    "word_family": [
+      { "word": "schematic", "pos": "adj", "de": "schematisch / systematisch / vereinfachend" },
+      { "word": "schematise", "pos": "verb", "de": "schematisieren / in ein Schema bringen / systematisieren" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl12_simulate_01",
+    "word": "simulate",
+    "group": "AWL12",
+    "group_label": "Academic Word List – Sublist 12",
+    "pos": "verb",
+    "translations": { "de": "simulieren / nachbilden / nachahmen / modellieren" },
+    "examples": [
+      {
+        "en": "Researchers used a computer model to simulate the long-term effects of various policy interventions.",
+        "de": "Forscher verwendeten ein Computermodell, um die langfristigen Auswirkungen verschiedener Politikinterventionen zu simulieren."
+      },
+      {
+        "en": "The laboratory conditions were designed to simulate a real-world decision-making environment.",
+        "de": "Die Laborbedingungen wurden so gestaltet, dass sie eine reale Entscheidungsumgebung nachbilden."
+      }
+    ],
+    "opposite": {
+      "en": "observe",
+      "de": "beobachten / messen / erfassen",
+      "example_en": "Rather than simulating behaviour, the team chose to observe it in a naturalistic setting.",
+      "example_de": "Anstatt das Verhalten zu simulieren, entschied sich das Team, es in einer naturalistischen Umgebung zu beobachten."
+    },
+    "synonyms": [
+      { "word": "model", "de": "modellieren / nachbilden / abbilden" },
+      { "word": "replicate", "de": "replizieren / nachahmen / nachbilden" },
+      { "word": "emulate", "de": "nachahmen / imitieren / simulieren" }
+    ],
+    "word_family": [
+      { "word": "simulation", "pos": "noun", "de": "Simulation / Nachbildung / Modellierung" },
+      { "word": "simulated", "pos": "adj", "de": "simuliert / nachgebildet / künstlich" },
+      { "word": "simulator", "pos": "noun", "de": "Simulator / Trainingsanlage / Nachbildungsgerät" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl12_stable_01",
+    "word": "stable",
+    "group": "AWL12",
+    "group_label": "Academic Word List – Sublist 12",
+    "pos": "adj",
+    "translations": { "de": "stabil / konstant / beständig / unveränderlich" },
+    "examples": [
+      {
+        "en": "A stable political environment is a necessary precondition for sustained economic development.",
+        "de": "Ein stabiles politisches Umfeld ist eine notwendige Voraussetzung für eine nachhaltige wirtschaftliche Entwicklung."
+      },
+      {
+        "en": "The measured values remained stable across repeated trials, indicating high instrument reliability.",
+        "de": "Die gemessenen Werte blieben über wiederholte Versuche stabil, was auf eine hohe Gerätezuverlässigkeit hindeutet."
+      }
+    ],
+    "opposite": {
+      "en": "volatile",
+      "de": "volatil / instabil / unbeständig",
+      "example_en": "Commodity markets proved highly volatile in the wake of the geopolitical crisis.",
+      "example_de": "Rohstoffmärkte erwiesen sich im Zuge der geopolitischen Krise als äußerst volatil."
+    },
+    "synonyms": [
+      { "word": "steady", "de": "gleichmäßig / stetig / stabil" },
+      { "word": "consistent", "de": "konsistent / beständig / gleichbleibend" },
+      { "word": "established", "de": "etabliert / bewährt / gefestigt" }
+    ],
+    "word_family": [
+      { "word": "stability", "pos": "noun", "de": "Stabilität / Beständigkeit / Festigkeit" },
+      { "word": "stabilise", "pos": "verb", "de": "stabilisieren / festigen / konstant halten" },
+      { "word": "unstable", "pos": "adj", "de": "instabil / unbeständig / labil" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl12_substitute_01",
+    "word": "substitute",
+    "group": "AWL12",
+    "group_label": "Academic Word List – Sublist 12",
+    "pos": "verb",
+    "translations": { "de": "ersetzen / austauschen / substituieren / vertreten" },
+    "examples": [
+      {
+        "en": "The researchers substituted a validated proxy measure where direct assessment was not feasible.",
+        "de": "Die Forscher ersetzten eine direkte Messung dort durch ein validiertes Proxy-Maß, wo eine direkte Beurteilung nicht möglich war."
+      },
+      {
+        "en": "Digital communication has not entirely substituted face-to-face interaction in professional settings.",
+        "de": "Digitale Kommunikation hat die persönliche Interaktion in professionellen Umgebungen nicht vollständig ersetzt."
+      }
+    ],
+    "opposite": {
+      "en": "retain",
+      "de": "behalten / beibehalten / nicht ersetzen",
+      "example_en": "The committee voted to retain the original indicator rather than adopting the proposed substitute.",
+      "example_de": "Der Ausschuss stimmte dafür, den ursprünglichen Indikator beizubehalten, anstatt den vorgeschlagenen Ersatz anzunehmen."
+    },
+    "synonyms": [
+      { "word": "replace", "de": "ersetzen / auswechseln / ablösen" },
+      { "word": "exchange", "de": "austauschen / tauschen / ersetzen" },
+      { "word": "swap", "de": "tauschen / austauschen / ersetzen" }
+    ],
+    "word_family": [
+      { "word": "substitute", "pos": "noun", "de": "Ersatz / Substitut / Stellvertreter" },
+      { "word": "substitution", "pos": "noun", "de": "Substitution / Ersatz / Austausch" },
+      { "word": "substitutable", "pos": "adj", "de": "ersetzbar / austauschbar / substituierbar" }
+    ],
+    "phrasal_verbs": []
+  }
+]
