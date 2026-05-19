@@ -1,0 +1,696 @@
+[
+  {
+    "id": "awl15_abolish_01",
+    "word": "abolish",
+    "group": "AWL15",
+    "group_label": "Academic Word List – Sublist 15",
+    "pos": "verb",
+    "translations": { "de": "abschaffen / aufheben / beseitigen / abschaffen" },
+    "examples": [
+      {
+        "en": "The government moved to abolish the tax relief scheme following a review of its effectiveness.",
+        "de": "Die Regierung leitete Schritte ein, um das Steuervergünstigungsprogramm nach einer Überprüfung seiner Wirksamkeit abzuschaffen."
+      },
+      {
+        "en": "Calls to abolish mandatory sentencing guidelines have intensified in recent years.",
+        "de": "Die Forderungen nach Abschaffung verbindlicher Strafzumessungsrichtlinien haben sich in den letzten Jahren verstärkt."
+      }
+    ],
+    "opposite": {
+      "en": "establish",
+      "de": "einrichten / gründen / einführen",
+      "example_en": "The treaty established a permanent monitoring body with enforcement powers.",
+      "example_de": "Der Vertrag richtete ein ständiges Überwachungsgremium mit Durchsetzungsbefugnissen ein."
+    },
+    "synonyms": [
+      { "word": "eliminate", "de": "beseitigen / abschaffen / ausschalten" },
+      { "word": "repeal", "de": "aufheben / widerrufen / abschaffen" },
+      { "word": "annul", "de": "für nichtig erklären / aufheben / annullieren" }
+    ],
+    "word_family": [
+      { "word": "abolition", "pos": "noun", "de": "Abschaffung / Aufhebung / Beseitigung" },
+      { "word": "abolitionist", "pos": "noun", "de": "Abolitionist / Befürworter der Abschaffung" },
+      { "word": "abolished", "pos": "adj", "de": "abgeschafft / aufgehoben / beseitigt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl15_approximate_01",
+    "word": "approximate",
+    "group": "AWL15",
+    "group_label": "Academic Word List – Sublist 15",
+    "pos": "adj",
+    "translations": { "de": "annähernd / ungefähr / näherungsweise / approximativ" },
+    "examples": [
+      {
+        "en": "The approximate cost of the intervention was estimated at two million euros per annum.",
+        "de": "Die ungefähren Kosten der Intervention wurden auf zwei Millionen Euro pro Jahr geschätzt."
+      },
+      {
+        "en": "In the absence of precise data, an approximate figure is often sufficient for planning purposes.",
+        "de": "In Ermangelung präziser Daten reicht für Planungszwecke oft ein ungefährer Wert aus."
+      }
+    ],
+    "opposite": {
+      "en": "exact",
+      "de": "genau / exakt / präzise",
+      "example_en": "The exact sample size was determined by a formal power calculation.",
+      "example_de": "Die genaue Stichprobengröße wurde durch eine formale Powerberechnung bestimmt."
+    },
+    "synonyms": [
+      { "word": "rough", "de": "grob / ungefähr / annähernd" },
+      { "word": "estimated", "de": "geschätzt / annähernd / ungefähr" },
+      { "word": "ballpark", "de": "ungefähr / annähernd / in etwa" }
+    ],
+    "word_family": [
+      { "word": "approximately", "pos": "adv", "de": "ungefähr / annähernd / etwa" },
+      { "word": "approximation", "pos": "noun", "de": "Näherung / Annäherungswert / Schätzung" },
+      { "word": "approximate", "pos": "verb", "de": "annähern / schätzen / näherungsweise bestimmen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl15_categorical_01",
+    "word": "categorical",
+    "group": "AWL15",
+    "group_label": "Academic Word List – Sublist 15",
+    "pos": "adj",
+    "translations": { "de": "kategorisch / eindeutig / absolut / kategorial" },
+    "examples": [
+      {
+        "en": "The spokesperson issued a categorical denial of any involvement in the alleged irregularities.",
+        "de": "Der Sprecher gab eine kategorische Verneinung jeglicher Beteiligung an den angeblichen Unregelmäßigkeiten heraus."
+      },
+      {
+        "en": "In categorical data analysis, variables are treated as belonging to distinct groups rather than a continuum.",
+        "de": "Bei der Analyse kategorialer Daten werden Variablen als zu distinkten Gruppen gehörend behandelt, nicht als Kontinuum."
+      }
+    ],
+    "opposite": {
+      "en": "ambiguous",
+      "de": "mehrdeutig / unklar / zweideutig",
+      "example_en": "An ambiguous response leaves room for multiple interpretations and weakens the argument.",
+      "example_de": "Eine mehrdeutige Antwort lässt Raum für verschiedene Interpretationen und schwächt das Argument."
+    },
+    "synonyms": [
+      { "word": "absolute", "de": "absolut / unbedingt / eindeutig" },
+      { "word": "unequivocal", "de": "unmissverständlich / eindeutig / klar" },
+      { "word": "definitive", "de": "definitiv / endgültig / eindeutig" }
+    ],
+    "word_family": [
+      { "word": "categorically", "pos": "adv", "de": "kategorisch / eindeutig / absolut" },
+      { "word": "category", "pos": "noun", "de": "Kategorie / Gruppe / Klasse" },
+      { "word": "categorise", "pos": "verb", "de": "kategorisieren / einordnen / einteilen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl15_circumvent_01",
+    "word": "circumvent",
+    "group": "AWL15",
+    "group_label": "Academic Word List – Sublist 15",
+    "pos": "verb",
+    "translations": { "de": "umgehen / umgehend / aushebeln / überlisten" },
+    "examples": [
+      {
+        "en": "Some firms attempt to circumvent regulations by relocating operations to less-regulated jurisdictions.",
+        "de": "Einige Unternehmen versuchen, Vorschriften zu umgehen, indem sie ihren Betrieb in weniger regulierte Rechtssysteme verlagern."
+      },
+      {
+        "en": "The new protocol was designed to prevent participants from circumventing the randomisation process.",
+        "de": "Das neue Protokoll wurde entwickelt, um zu verhindern, dass Teilnehmer den Randomisierungsprozess umgehen."
+      }
+    ],
+    "opposite": {
+      "en": "comply",
+      "de": "einhalten / befolgen / entsprechen",
+      "example_en": "All parties are expected to comply fully with the terms of the agreement.",
+      "example_de": "Von allen Parteien wird erwartet, dass sie die Bedingungen der Vereinbarung vollständig einhalten."
+    },
+    "synonyms": [
+      { "word": "bypass", "de": "umgehen / überspringen / umfahren" },
+      { "word": "evade", "de": "ausweichen / umgehen / sich entziehen" },
+      { "word": "sidestep", "de": "umgehen / ausweichen / vermeiden" }
+    ],
+    "word_family": [
+      { "word": "circumvention", "pos": "noun", "de": "Umgehung / Aushöhlung / Umgehungsmanöver" },
+      { "word": "circumvented", "pos": "adj", "de": "umgangen / ausgehebelt / überwunden" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl15_critique_01",
+    "word": "critique",
+    "group": "AWL15",
+    "group_label": "Academic Word List – Sublist 15",
+    "pos": "noun",
+    "translations": { "de": "Kritik / Kritische Analyse / Besprechung / Beurteilung" },
+    "examples": [
+      {
+        "en": "The article offers a detailed critique of the methodological assumptions underlying the original study.",
+        "de": "Der Artikel bietet eine detaillierte Kritik der methodologischen Annahmen, die der Originalstudie zugrunde liegen."
+      },
+      {
+        "en": "A constructive critique helps authors identify weaknesses before publication.",
+        "de": "Eine konstruktive Kritik hilft Autoren, Schwächen vor der Veröffentlichung zu erkennen."
+      }
+    ],
+    "opposite": {
+      "en": "endorsement",
+      "de": "Unterstützung / Billigung / Befürwortung",
+      "example_en": "The editorial board's endorsement significantly increased the paper's visibility in the field.",
+      "example_de": "Die Befürwortung durch den Redaktionsausschuss erhöhte die Sichtbarkeit des Artikels im Fachgebiet erheblich."
+    },
+    "synonyms": [
+      { "word": "analysis", "de": "Analyse / Untersuchung / Auswertung" },
+      { "word": "evaluation", "de": "Bewertung / Evaluation / Einschätzung" },
+      { "word": "appraisal", "de": "Beurteilung / Einschätzung / Bewertung" }
+    ],
+    "word_family": [
+      { "word": "critique", "pos": "verb", "de": "kritisieren / beurteilen / analysieren" },
+      { "word": "critical", "pos": "adj", "de": "kritisch / analytisch / entscheidend" },
+      { "word": "critic", "pos": "noun", "de": "Kritiker / Rezensent / Beurteiler" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl15_differentiate_01",
+    "word": "differentiate",
+    "group": "AWL15",
+    "group_label": "Academic Word List – Sublist 15",
+    "pos": "verb",
+    "translations": { "de": "unterscheiden / differenzieren / abgrenzen / kennzeichnen" },
+    "examples": [
+      {
+        "en": "The framework differentiates between short-term and long-term consequences of policy interventions.",
+        "de": "Der Rahmen unterscheidet zwischen kurz- und langfristigen Konsequenzen politischer Interventionen."
+      },
+      {
+        "en": "Diagnostic criteria are used to differentiate between conditions that share overlapping symptoms.",
+        "de": "Diagnosekriterien werden verwendet, um zwischen Zuständen zu unterscheiden, die überlappende Symptome aufweisen."
+      }
+    ],
+    "opposite": {
+      "en": "conflate",
+      "de": "vermischen / gleichsetzen / zusammenwerfen",
+      "example_en": "It is important not to conflate correlation with causation in the interpretation of results.",
+      "example_de": "Es ist wichtig, Korrelation und Kausalität bei der Interpretation von Ergebnissen nicht zu vermischen."
+    },
+    "synonyms": [
+      { "word": "distinguish", "de": "unterscheiden / abgrenzen / auseinanderhalten" },
+      { "word": "discriminate", "de": "unterscheiden / differenzieren / trennen" },
+      { "word": "separate", "de": "trennen / abgrenzen / unterscheiden" }
+    ],
+    "word_family": [
+      { "word": "differentiation", "pos": "noun", "de": "Differenzierung / Unterscheidung / Abgrenzung" },
+      { "word": "differentiated", "pos": "adj", "de": "differenziert / unterschieden / abgegrenzt" },
+      { "word": "differential", "pos": "adj", "de": "unterschiedlich / differenziell / differenziert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl15_distort_01",
+    "word": "distort",
+    "group": "AWL15",
+    "group_label": "Academic Word List – Sublist 15",
+    "pos": "verb",
+    "translations": { "de": "verzerren / verfälschen / entstellen / verdrehen" },
+    "examples": [
+      {
+        "en": "Publication bias can distort the overall evidence base by over-representing positive findings.",
+        "de": "Publikationsbias kann die Gesamtevidenzbasis verzerren, indem positive Ergebnisse überrepräsentiert werden."
+      },
+      {
+        "en": "Selective media coverage may distort public understanding of the actual risks involved.",
+        "de": "Selektive Medienberichterstattung kann das öffentliche Verständnis der tatsächlich bestehenden Risiken verzerren."
+      }
+    ],
+    "opposite": {
+      "en": "represent accurately",
+      "de": "genau darstellen / korrekt wiedergeben / wahrheitsgetreu abbilden",
+      "example_en": "Visual aids should represent data accurately without manipulating the scale or axes.",
+      "example_de": "Visualisierungen sollten Daten genau darstellen, ohne Maßstab oder Achsen zu manipulieren."
+    },
+    "synonyms": [
+      { "word": "misrepresent", "de": "falsch darstellen / verzerren / entstellen" },
+      { "word": "skew", "de": "verzerren / schief darstellen / verfälschen" },
+      { "word": "warp", "de": "verzerren / verfälschen / verbiegen" }
+    ],
+    "word_family": [
+      { "word": "distortion", "pos": "noun", "de": "Verzerrung / Verfälschung / Entstellung" },
+      { "word": "distorted", "pos": "adj", "de": "verzerrt / verfälscht / entstellt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl15_evolve_01",
+    "word": "evolve",
+    "group": "AWL15",
+    "group_label": "Academic Word List – Sublist 15",
+    "pos": "verb",
+    "translations": { "de": "sich entwickeln / weiterentwickeln / entstehen / evolvieren" },
+    "examples": [
+      {
+        "en": "Academic disciplines evolve as new methods, findings, and theoretical perspectives emerge.",
+        "de": "Akademische Disziplinen entwickeln sich weiter, wenn neue Methoden, Erkenntnisse und theoretische Perspektiven entstehen."
+      },
+      {
+        "en": "The regulatory framework has evolved considerably over the past two decades in response to new challenges.",
+        "de": "Der Regulierungsrahmen hat sich in den letzten zwei Jahrzehnten als Reaktion auf neue Herausforderungen erheblich weiterentwickelt."
+      }
+    ],
+    "opposite": {
+      "en": "stagnate",
+      "de": "stagnieren / sich nicht weiterentwickeln / auf der Stelle treten",
+      "example_en": "Institutions that stagnate risk losing relevance in a rapidly changing environment.",
+      "example_de": "Institutionen, die stagnieren, riskieren, in einem sich schnell verändernden Umfeld an Relevanz zu verlieren."
+    },
+    "synonyms": [
+      { "word": "develop", "de": "entwickeln / entfalten / weiterentwickeln" },
+      { "word": "progress", "de": "fortschreiten / sich entwickeln / vorankommen" },
+      { "word": "transform", "de": "umgestalten / transformieren / sich wandeln" }
+    ],
+    "word_family": [
+      { "word": "evolution", "pos": "noun", "de": "Evolution / Entwicklung / Entfaltung" },
+      { "word": "evolutionary", "pos": "adj", "de": "evolutionär / evolutiv / sich entwickelnd" },
+      { "word": "evolved", "pos": "adj", "de": "entwickelt / ausgereift / fortgeschritten" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl15_exemplify_01",
+    "word": "exemplify",
+    "group": "AWL15",
+    "group_label": "Academic Word List – Sublist 15",
+    "pos": "verb",
+    "translations": { "de": "exemplifizieren / veranschaulichen / als Beispiel dienen / verdeutlichen" },
+    "examples": [
+      {
+        "en": "This case study exemplifies the challenges of implementing evidence-based policy in resource-constrained settings.",
+        "de": "Diese Fallstudie veranschaulicht die Herausforderungen der Umsetzung evidenzbasierter Politik in ressourcenarmen Umgebungen."
+      },
+      {
+        "en": "The findings exemplify a broader trend toward convergence across previously distinct research traditions.",
+        "de": "Die Erkenntnisse verdeutlichen einen umfassenderen Trend zur Konvergenz bisher getrennter Forschungstraditionen."
+      }
+    ],
+    "opposite": {
+      "en": "contradict",
+      "de": "widersprechen / widerlegen / im Widerspruch stehen",
+      "example_en": "These results contradict the general pattern and may indicate an anomalous subgroup effect.",
+      "example_de": "Diese Ergebnisse widersprechen dem allgemeinen Muster und können auf einen anomalen Subgruppeneffekt hinweisen."
+    },
+    "synonyms": [
+      { "word": "illustrate", "de": "veranschaulichen / illustrieren / verdeutlichen" },
+      { "word": "demonstrate", "de": "demonstrieren / zeigen / aufzeigen" },
+      { "word": "typify", "de": "typisch sein für / verkörpern / charakterisieren" }
+    ],
+    "word_family": [
+      { "word": "exemplification", "pos": "noun", "de": "Exemplifizierung / Veranschaulichung / Beispiel" },
+      { "word": "example", "pos": "noun", "de": "Beispiel / Muster / Vorlage" },
+      { "word": "exemplary", "pos": "adj", "de": "beispielhaft / vorbildlich / exemplarisch" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl15_exploit_01",
+    "word": "exploit",
+    "group": "AWL15",
+    "group_label": "Academic Word List – Sublist 15",
+    "pos": "verb",
+    "translations": { "de": "ausnutzen / verwerten / nutzen / ausschöpfen" },
+    "examples": [
+      {
+        "en": "The methodology exploits natural variation in exposure across regions to identify causal effects.",
+        "de": "Die Methodik nutzt die natürliche Variation der Exposition zwischen Regionen, um Kausaleffekte zu identifizieren."
+      },
+      {
+        "en": "Critics argue that the policy allows corporations to exploit weaker regulatory standards abroad.",
+        "de": "Kritiker argumentieren, dass die Politik es Unternehmen ermöglicht, schwächere Regulierungsstandards im Ausland auszunutzen."
+      }
+    ],
+    "opposite": {
+      "en": "neglect",
+      "de": "vernachlässigen / nicht nutzen / brachliegen lassen",
+      "example_en": "Failing to exploit available data is a missed opportunity in applied research contexts.",
+      "example_de": "Das Versäumnis, verfügbare Daten zu nutzen, ist in angewandten Forschungskontexten eine verpasste Chance."
+    },
+    "synonyms": [
+      { "word": "leverage", "de": "nutzen / ausschöpfen / hebelwirksam einsetzen" },
+      { "word": "harness", "de": "nutzen / nutzbar machen / einsetzen" },
+      { "word": "capitalise on", "de": "Kapital schlagen aus / nutzen / verwerten" }
+    ],
+    "word_family": [
+      { "word": "exploitation", "pos": "noun", "de": "Ausnutzung / Ausbeutung / Verwertung" },
+      { "word": "exploitative", "pos": "adj", "de": "ausbeuterisch / ausnutzend / ausschöpfend" },
+      { "word": "exploited", "pos": "adj", "de": "ausgenutzt / ausgebeutet / verwertet" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl15_extract_01",
+    "word": "extract",
+    "group": "AWL15",
+    "group_label": "Academic Word List – Sublist 15",
+    "pos": "verb",
+    "translations": { "de": "entnehmen / extrahieren / gewinnen / herausziehen" },
+    "examples": [
+      {
+        "en": "Two reviewers independently extracted data from each eligible study using a standardised form.",
+        "de": "Zwei Gutachter entnahmen unabhängig voneinander Daten aus jeder geeigneten Studie mithilfe eines standardisierten Formulars."
+      },
+      {
+        "en": "The algorithm extracts key terms from large text corpora and ranks them by frequency.",
+        "de": "Der Algorithmus entnimmt Schlüsselbegriffe aus großen Textkorpora und ordnet sie nach Häufigkeit."
+      }
+    ],
+    "opposite": {
+      "en": "insert",
+      "de": "einfügen / einsetzen / eingeben",
+      "example_en": "Errors can arise when incorrect values are inserted into the calculation at an early stage.",
+      "example_de": "Fehler können entstehen, wenn in einem frühen Stadium falsche Werte in die Berechnung eingefügt werden."
+    },
+    "synonyms": [
+      { "word": "retrieve", "de": "abrufen / entnehmen / herausziehen" },
+      { "word": "obtain", "de": "erhalten / gewinnen / entnehmen" },
+      { "word": "derive", "de": "ableiten / entnehmen / gewinnen" }
+    ],
+    "word_family": [
+      { "word": "extraction", "pos": "noun", "de": "Entnahme / Extraktion / Gewinnung" },
+      { "word": "extract", "pos": "noun", "de": "Auszug / Extrakt / Ausschnitt" },
+      { "word": "extractable", "pos": "adj", "de": "entnehmbar / extrahierbar / gewinnbar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl15_imply_01",
+    "word": "imply",
+    "group": "AWL15",
+    "group_label": "Academic Word List – Sublist 15",
+    "pos": "verb",
+    "translations": { "de": "implizieren / nahelegen / andeuten / bedeuten" },
+    "examples": [
+      {
+        "en": "A significant correlation does not necessarily imply a causal relationship between the variables.",
+        "de": "Eine signifikante Korrelation impliziert nicht notwendigerweise eine kausale Beziehung zwischen den Variablen."
+      },
+      {
+        "en": "The authors imply that current policies are inadequate without stating this conclusion explicitly.",
+        "de": "Die Autoren legen nahe, dass die derzeitigen Politiken unzureichend sind, ohne diese Schlussfolgerung explizit zu formulieren."
+      }
+    ],
+    "opposite": {
+      "en": "state explicitly",
+      "de": "ausdrücklich aussagen / direkt formulieren / klar benennen",
+      "example_en": "Rather than implying the limitation, the authors should state it explicitly in the discussion.",
+      "example_de": "Anstatt die Einschränkung nur anzudeuten, sollten die Autoren sie in der Diskussion ausdrücklich benennen."
+    },
+    "synonyms": [
+      { "word": "suggest", "de": "nahelegen / andeuten / hindeuten auf" },
+      { "word": "indicate", "de": "hinweisen auf / anzeigen / implizieren" },
+      { "word": "infer", "de": "schlussfolgern / implizieren / nahelegen" }
+    ],
+    "word_family": [
+      { "word": "implication", "pos": "noun", "de": "Implikation / Andeutung / Schlussfolgerung" },
+      { "word": "implied", "pos": "adj", "de": "impliziert / angedeutet / nahegelegt" },
+      { "word": "implicit", "pos": "adj", "de": "implizit / stillschweigend / unausgesprochen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl15_novel_01",
+    "word": "novel",
+    "group": "AWL15",
+    "group_label": "Academic Word List – Sublist 15",
+    "pos": "adj",
+    "translations": { "de": "neuartig / innovativ / bisher unbekannt / originell" },
+    "examples": [
+      {
+        "en": "The paper introduces a novel framework for classifying policy responses to environmental challenges.",
+        "de": "Das Papier stellt einen neuartigen Rahmen zur Klassifizierung politischer Reaktionen auf Umweltherausforderungen vor."
+      },
+      {
+        "en": "Novel findings that challenge established assumptions require particularly rigorous methodological scrutiny.",
+        "de": "Neuartige Erkenntnisse, die etablierte Annahmen in Frage stellen, erfordern eine besonders strenge methodologische Prüfung."
+      }
+    ],
+    "opposite": {
+      "en": "conventional",
+      "de": "konventionell / herkömmlich / bewährt",
+      "example_en": "The study deliberately avoided conventional designs in favour of a more exploratory approach.",
+      "example_de": "Die Studie vermied bewusst konventionelle Designs zugunsten eines stärker explorativen Ansatzes."
+    },
+    "synonyms": [
+      { "word": "new", "de": "neu / frisch / aktuell" },
+      { "word": "innovative", "de": "innovativ / neuartig / bahnbrechend" },
+      { "word": "original", "de": "ursprünglich / originell / neuartig" }
+    ],
+    "word_family": [
+      { "word": "novelty", "pos": "noun", "de": "Neuheit / Neuartigkeit / Originalität" },
+      { "word": "novel", "pos": "noun", "de": "Roman / längere Erzählung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl15_omit_01",
+    "word": "omit",
+    "group": "AWL15",
+    "group_label": "Academic Word List – Sublist 15",
+    "pos": "verb",
+    "translations": { "de": "weglassen / auslassen / übergehen / aussparen" },
+    "examples": [
+      {
+        "en": "Failing to omit outliers when appropriate may distort the results of parametric tests.",
+        "de": "Das Versäumnis, Ausreißer bei Bedarf wegzulassen, kann die Ergebnisse parametrischer Tests verzerren."
+      },
+      {
+        "en": "The final report omits several findings that appeared in the working paper circulated earlier.",
+        "de": "Der abschließende Bericht lässt mehrere Erkenntnisse aus, die in dem zuvor zirkulierten Arbeitspapier erschienen waren."
+      }
+    ],
+    "opposite": {
+      "en": "include",
+      "de": "einbeziehen / aufnehmen / enthalten",
+      "example_en": "The revised guidelines include all variables identified as relevant in the scoping review.",
+      "example_de": "Die überarbeiteten Leitlinien schließen alle Variablen ein, die im Scoping-Review als relevant identifiziert wurden."
+    },
+    "synonyms": [
+      { "word": "exclude", "de": "ausschließen / auslassen / ausklammern" },
+      { "word": "skip", "de": "überspringen / auslassen / übergehen" },
+      { "word": "leave out", "de": "weglassen / auslassen / übergehen" }
+    ],
+    "word_family": [
+      { "word": "omission", "pos": "noun", "de": "Auslassung / Unterlassung / Fehlen" },
+      { "word": "omitted", "pos": "adj", "de": "ausgelassen / weggelassen / übergangen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl15_postulate_01",
+    "word": "postulate",
+    "group": "AWL15",
+    "group_label": "Academic Word List – Sublist 15",
+    "pos": "verb",
+    "translations": { "de": "postulieren / voraussetzen / annehmen / aufstellen" },
+    "examples": [
+      {
+        "en": "The theory postulates that rational agents will always act to maximise their expected utility.",
+        "de": "Die Theorie postuliert, dass rationale Akteure stets handeln werden, um ihren erwarteten Nutzen zu maximieren."
+      },
+      {
+        "en": "Several researchers have postulated a genetic component to the observed variation in susceptibility.",
+        "de": "Mehrere Forscher haben eine genetische Komponente der beobachteten Varianz in der Anfälligkeit postuliert."
+      }
+    ],
+    "opposite": {
+      "en": "disprove",
+      "de": "widerlegen / als falsch erweisen / entkräften",
+      "example_en": "Subsequent experiments failed to disprove the central postulate, lending it further credibility.",
+      "example_de": "Nachfolgende Experimente konnten das zentrale Postulat nicht widerlegen und verliehen ihm damit weitere Glaubwürdigkeit."
+    },
+    "synonyms": [
+      { "word": "hypothesise", "de": "hypothetisieren / voraussetzen / annehmen" },
+      { "word": "assume", "de": "annehmen / voraussetzen / unterstellen" },
+      { "word": "propose", "de": "vorschlagen / aufstellen / postulieren" }
+    ],
+    "word_family": [
+      { "word": "postulate", "pos": "noun", "de": "Postulat / Grundannahme / Axiom" },
+      { "word": "postulation", "pos": "noun", "de": "Postulierung / Aufstellung / Annahme" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl15_qualify_01",
+    "word": "qualify",
+    "group": "AWL15",
+    "group_label": "Academic Word List – Sublist 15",
+    "pos": "verb",
+    "translations": { "de": "qualifizieren / einschränken / modifizieren / berechtigen" },
+    "examples": [
+      {
+        "en": "The authors qualify their conclusions by noting that the sample was drawn from a single context.",
+        "de": "Die Autoren schränken ihre Schlussfolgerungen ein, indem sie darauf hinweisen, dass die Stichprobe aus einem einzigen Kontext stammt."
+      },
+      {
+        "en": "Participants were required to qualify for the study by meeting a set of strict inclusion criteria.",
+        "de": "Die Teilnehmer mussten sich für die Studie qualifizieren, indem sie eine Reihe strenger Einschlusskriterien erfüllten."
+      }
+    ],
+    "opposite": {
+      "en": "assert unconditionally",
+      "de": "uneingeschränkt behaupten / ohne Vorbehalt aussagen / pauschal formulieren",
+      "example_en": "Asserting findings unconditionally without acknowledging limitations weakens the paper's credibility.",
+      "example_de": "Ergebnisse uneingeschränkt zu behaupten, ohne Einschränkungen anzuerkennen, schwächt die Glaubwürdigkeit des Artikels."
+    },
+    "synonyms": [
+      { "word": "modify", "de": "modifizieren / einschränken / anpassen" },
+      { "word": "limit", "de": "begrenzen / einschränken / relativieren" },
+      { "word": "temper", "de": "abschwächen / mäßigen / einschränken" }
+    ],
+    "word_family": [
+      { "word": "qualification", "pos": "noun", "de": "Einschränkung / Qualifikation / Vorbehalt" },
+      { "word": "qualified", "pos": "adj", "de": "qualifiziert / eingeschränkt / bedingt" },
+      { "word": "qualifier", "pos": "noun", "de": "Einschränkung / Vorbehalt / Qualifikation" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl15_replicate_01",
+    "word": "replicate",
+    "group": "AWL15",
+    "group_label": "Academic Word List – Sublist 15",
+    "pos": "verb",
+    "translations": { "de": "replizieren / wiederholen / kopieren / nachvollziehen" },
+    "examples": [
+      {
+        "en": "Independent research groups were unable to replicate the original findings under comparable conditions.",
+        "de": "Unabhängige Forschungsgruppen konnten die ursprünglichen Erkenntnisse unter vergleichbaren Bedingungen nicht replizieren."
+      },
+      {
+        "en": "The study design was specifically structured to allow future researchers to replicate the analysis.",
+        "de": "Das Studiendesign war speziell so strukturiert, dass zukünftige Forscher die Analyse replizieren können."
+      }
+    ],
+    "opposite": {
+      "en": "fail to reproduce",
+      "de": "nicht reproduzieren können / nicht nachvollziehen / scheitern",
+      "example_en": "Findings that fail to reproduce across settings should be treated with caution.",
+      "example_de": "Erkenntnisse, die sich in verschiedenen Umgebungen nicht reproduzieren lassen, sollten mit Vorsicht behandelt werden."
+    },
+    "synonyms": [
+      { "word": "reproduce", "de": "reproduzieren / wiedergeben / wiederholen" },
+      { "word": "repeat", "de": "wiederholen / replizieren / erneut durchführen" },
+      { "word": "copy", "de": "kopieren / nachahmen / nachvollziehen" }
+    ],
+    "word_family": [
+      { "word": "replication", "pos": "noun", "de": "Replikation / Wiederholung / Reproduktion" },
+      { "word": "replicable", "pos": "adj", "de": "replizierbar / wiederholbar / reproduzierbar" },
+      { "word": "replicability", "pos": "noun", "de": "Replizierbarkeit / Reproduzierbarkeit / Wiederholbarkeit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl15_selective_01",
+    "word": "selective",
+    "group": "AWL15",
+    "group_label": "Academic Word List – Sublist 15",
+    "pos": "adj",
+    "translations": { "de": "selektiv / ausgewählt / gezielt / parteiisch" },
+    "examples": [
+      {
+        "en": "Selective reporting of outcomes undermines the integrity of the published evidence base.",
+        "de": "Selektive Berichterstattung über Ergebnisse untergräbt die Integrität der veröffentlichten Evidenzbasis."
+      },
+      {
+        "en": "A selective review risks presenting a distorted picture of the overall state of knowledge.",
+        "de": "Ein selektives Review riskiert, ein verzerrtes Bild des Gesamtwissensstands zu präsentieren."
+      }
+    ],
+    "opposite": {
+      "en": "comprehensive",
+      "de": "umfassend / vollständig / erschöpfend",
+      "example_en": "A comprehensive search of the literature was conducted to minimise selection bias.",
+      "example_de": "Eine umfassende Literatursuche wurde durchgeführt, um den Selektionsbias zu minimieren."
+    },
+    "synonyms": [
+      { "word": "partial", "de": "partiell / selektiv / parteiisch" },
+      { "word": "biased", "de": "voreingenommen / selektiv / parteiisch" },
+      { "word": "discriminating", "de": "unterscheidend / selektiv / wählerisch" }
+    ],
+    "word_family": [
+      { "word": "selectively", "pos": "adv", "de": "selektiv / gezielt / nach Auswahl" },
+      { "word": "selectivity", "pos": "noun", "de": "Selektivität / Auswahlgenauigkeit / Wählerischkeit" },
+      { "word": "selection", "pos": "noun", "de": "Auswahl / Selektion / Zusammenstellung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl15_supplement_01",
+    "word": "supplement",
+    "group": "AWL15",
+    "group_label": "Academic Word List – Sublist 15",
+    "pos": "verb",
+    "translations": { "de": "ergänzen / hinzufügen / aufstocken / vervollständigen" },
+    "examples": [
+      {
+        "en": "Quantitative survey data were supplemented with in-depth interviews to add contextual depth.",
+        "de": "Quantitative Umfragedaten wurden durch ausführliche Interviews ergänzt, um kontextuellen Tiefgang hinzuzufügen."
+      },
+      {
+        "en": "Several organisations supplement government funding with income from charitable donations.",
+        "de": "Mehrere Organisationen ergänzen staatliche Mittel durch Einnahmen aus Spendengeldern."
+      }
+    ],
+    "opposite": {
+      "en": "reduce",
+      "de": "reduzieren / verringern / kürzen",
+      "example_en": "Austerity measures reduced rather than supplemented the resources available for social services.",
+      "example_de": "Sparmaßnahmen reduzierten die für Sozialdienste verfügbaren Ressourcen, anstatt sie zu ergänzen."
+    },
+    "synonyms": [
+      { "word": "complement", "de": "ergänzen / komplementieren / vervollständigen" },
+      { "word": "augment", "de": "ergänzen / erweitern / aufstocken" },
+      { "word": "enhance", "de": "verbessern / ergänzen / bereichern" }
+    ],
+    "word_family": [
+      { "word": "supplement", "pos": "noun", "de": "Ergänzung / Anhang / Zusatz" },
+      { "word": "supplementary", "pos": "adj", "de": "ergänzend / zusätzlich / supplementär" },
+      { "word": "supplementation", "pos": "noun", "de": "Ergänzung / Aufstockung / Supplementierung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl15_tentative_01",
+    "word": "tentative",
+    "group": "AWL15",
+    "group_label": "Academic Word List – Sublist 15",
+    "pos": "adj",
+    "translations": { "de": "vorläufig / vorsichtig / tastend / unverbindlich" },
+    "examples": [
+      {
+        "en": "The researchers offer a tentative explanation for the observed pattern, pending further investigation.",
+        "de": "Die Forscher bieten eine vorläufige Erklärung für das beobachtete Muster, bis weitere Untersuchungen folgen."
+      },
+      {
+        "en": "Given the small sample size, any conclusions must remain tentative at this stage.",
+        "de": "Angesichts der kleinen Stichprobengröße müssen alle Schlussfolgerungen zu diesem Zeitpunkt vorläufig bleiben."
+      }
+    ],
+    "opposite": {
+      "en": "definitive",
+      "de": "definitiv / abschließend / endgültig",
+      "example_en": "A larger and more diverse replication study would allow more definitive conclusions to be drawn.",
+      "example_de": "Eine größere und vielfältigere Replikationsstudie würde es ermöglichen, endgültigere Schlussfolgerungen zu ziehen."
+    },
+    "synonyms": [
+      { "word": "provisional", "de": "vorläufig / provisorisch / bedingt" },
+      { "word": "exploratory", "de": "explorativ / erkundend / vorläufig" },
+      { "word": "cautious", "de": "vorsichtig / behutsam / zurückhaltend" }
+    ],
+    "word_family": [
+      { "word": "tentatively", "pos": "adv", "de": "vorläufig / vorsichtig / tastend" },
+      { "word": "tentativeness", "pos": "noun", "de": "Vorläufigkeit / Unentschlossenheit / Vorsicht" }
+    ],
+    "phrasal_verbs": []
+  }
+]
