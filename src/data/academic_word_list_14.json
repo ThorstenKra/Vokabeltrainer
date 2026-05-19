@@ -1,0 +1,691 @@
+[
+  {
+    "id": "awl14_ambivalent_01",
+    "word": "ambivalent",
+    "group": "AWL14",
+    "group_label": "Academic Word List – Sublist 14",
+    "pos": "adj",
+    "translations": { "de": "ambivalent / zwiespältig / unentschlossen / gespalten" },
+    "examples": [
+      {
+        "en": "Many participants expressed ambivalent attitudes toward the proposed changes, citing both potential benefits and risks.",
+        "de": "Viele Teilnehmer äußerten ambivalente Einstellungen gegenüber den vorgeschlagenen Änderungen und nannten sowohl potenzielle Vorteile als auch Risiken."
+      },
+      {
+        "en": "The public remains ambivalent about genetic modification, reflecting genuine uncertainty rather than simple opposition.",
+        "de": "Die Öffentlichkeit bleibt gegenüber der Gentechnik ambivalent, was echte Unsicherheit und keine einfache Ablehnung widerspiegelt."
+      }
+    ],
+    "opposite": {
+      "en": "resolute",
+      "de": "entschlossen / eindeutig / konsequent",
+      "example_en": "A resolute commitment to evidence-based policy is required to overcome short-term political pressures.",
+      "example_de": "Ein entschlossenes Bekenntnis zu evidenzbasierter Politik ist erforderlich, um kurzfristigen politischen Druck zu überwinden."
+    },
+    "synonyms": [
+      { "word": "conflicted", "de": "gespalten / widerstreitend / zwiespältig" },
+      { "word": "equivocal", "de": "zweideutig / unentschieden / unklar" },
+      { "word": "uncertain", "de": "ungewiss / unsicher / unentschlossen" }
+    ],
+    "word_family": [
+      { "word": "ambivalence", "pos": "noun", "de": "Ambivalenz / Zwiespältigkeit / Unentschlossenheit" },
+      { "word": "ambivalently", "pos": "adv", "de": "ambivalent / zwiespältig / unentschlossen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl14_collapse_01",
+    "word": "collapse",
+    "group": "AWL14",
+    "group_label": "Academic Word List – Sublist 14",
+    "pos": "verb",
+    "translations": { "de": "zusammenbrechen / einstürzen / scheitern / kollabieren" },
+    "examples": [
+      {
+        "en": "Without sustained institutional support, the reform programme risks collapsing within the first two years.",
+        "de": "Ohne kontinuierliche institutionelle Unterstützung riskiert das Reformprogramm, innerhalb der ersten zwei Jahre zusammenzubrechen."
+      },
+      {
+        "en": "Negotiations collapsed after the two parties failed to agree on a monitoring mechanism.",
+        "de": "Die Verhandlungen scheiterten, nachdem sich die beiden Parteien nicht auf einen Überwachungsmechanismus einigen konnten."
+      }
+    ],
+    "opposite": {
+      "en": "consolidate",
+      "de": "festigen / stärken / konsolidieren",
+      "example_en": "The merger helped consolidate the organisation's position in an increasingly competitive market.",
+      "example_de": "Die Fusion half dabei, die Position der Organisation in einem zunehmend wettbewerbsintensiven Markt zu festigen."
+    },
+    "synonyms": [
+      { "word": "fail", "de": "scheitern / versagen / zusammenbrechen" },
+      { "word": "disintegrate", "de": "auseinanderfallen / zerfallen / sich auflösen" },
+      { "word": "break down", "de": "zusammenbrechen / scheitern / versagen" }
+    ],
+    "word_family": [
+      { "word": "collapse", "pos": "noun", "de": "Zusammenbruch / Einsturz / Kollaps" },
+      { "word": "collapsed", "pos": "adj", "de": "zusammengebrochen / eingestürzt / gescheitert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl14_comply_01",
+    "word": "comply",
+    "group": "AWL14",
+    "group_label": "Academic Word List – Sublist 14",
+    "pos": "verb",
+    "translations": { "de": "einhalten / befolgen / entsprechen / nachkommen" },
+    "examples": [
+      {
+        "en": "All organisations operating in the sector are required to comply with the new reporting standards.",
+        "de": "Alle im Sektor tätigen Organisationen sind verpflichtet, die neuen Berichtsstandards einzuhalten."
+      },
+      {
+        "en": "Participants who did not comply with the protocol were excluded from the final analysis.",
+        "de": "Teilnehmer, die das Protokoll nicht befolgten, wurden von der abschließenden Analyse ausgeschlossen."
+      }
+    ],
+    "opposite": {
+      "en": "violate",
+      "de": "verletzen / verstoßen gegen / missachten",
+      "example_en": "Organisations that violate data protection regulations face substantial financial penalties.",
+      "example_de": "Organisationen, die gegen Datenschutzvorschriften verstoßen, sehen sich erheblichen finanziellen Strafen ausgesetzt."
+    },
+    "synonyms": [
+      { "word": "adhere", "de": "einhalten / befolgen / sich halten an" },
+      { "word": "conform", "de": "entsprechen / einhalten / sich anpassen" },
+      { "word": "observe", "de": "einhalten / befolgen / beachten" }
+    ],
+    "word_family": [
+      { "word": "compliance", "pos": "noun", "de": "Einhaltung / Compliance / Befolgung" },
+      { "word": "compliant", "pos": "adj", "de": "konform / regelkonform / befolgend" },
+      { "word": "non-compliance", "pos": "noun", "de": "Nichteinhaltung / Verstoß / Regelverstoß" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "comply with", "de": "einhalten / befolgen / entsprechen", "example": "All submitted work must comply with the ethical guidelines set out by the review board." }
+    ]
+  },
+  {
+    "id": "awl14_confound_01",
+    "word": "confound",
+    "group": "AWL14",
+    "group_label": "Academic Word List – Sublist 14",
+    "pos": "verb",
+    "translations": { "de": "verfälschen / verwirren / durcheinanderbringen / konfundieren" },
+    "examples": [
+      {
+        "en": "Socioeconomic status may confound the relationship between diet and health outcomes if not controlled.",
+        "de": "Der sozioökonomische Status kann die Beziehung zwischen Ernährung und Gesundheitsergebnissen verfälschen, wenn er nicht kontrolliert wird."
+      },
+      {
+        "en": "The results confounded expectations by showing no significant effect in the primary outcome measure.",
+        "de": "Die Ergebnisse widersprachen den Erwartungen, da sie keinen signifikanten Effekt beim primären Ergebnismaß zeigten."
+      }
+    ],
+    "opposite": {
+      "en": "clarify",
+      "de": "klären / aufklären / verdeutlichen",
+      "example_en": "Stratified analysis can help clarify relationships that appear confounded in aggregate data.",
+      "example_de": "Stratifizierte Analysen können helfen, Beziehungen zu klären, die in aggregierten Daten verzerrt erscheinen."
+    },
+    "synonyms": [
+      { "word": "obscure", "de": "verschleiern / verdecken / verwirren" },
+      { "word": "complicate", "de": "erschweren / verkomplizieren / verfälschen" },
+      { "word": "distort", "de": "verzerren / verfälschen / entstellen" }
+    ],
+    "word_family": [
+      { "word": "confounding", "pos": "adj", "de": "konfundierend / verfälschend / störend" },
+      { "word": "confounder", "pos": "noun", "de": "Störvariable / Confounder / verfälschende Variable" },
+      { "word": "confounded", "pos": "adj", "de": "konfundiert / verfälscht / verzerrt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl14_consolidate_01",
+    "word": "consolidate",
+    "group": "AWL14",
+    "group_label": "Academic Word List – Sublist 14",
+    "pos": "verb",
+    "translations": { "de": "festigen / konsolidieren / zusammenführen / stärken" },
+    "examples": [
+      {
+        "en": "The review consolidates findings from over two hundred studies into a single coherent framework.",
+        "de": "Das Review konsolidiert Erkenntnisse aus über zweihundert Studien zu einem einheitlichen kohärenten Rahmen."
+      },
+      {
+        "en": "Repeated practice consolidates procedural knowledge and reduces the cognitive load associated with a task.",
+        "de": "Wiederholtes Üben festigt prozedurales Wissen und verringert die mit einer Aufgabe verbundene kognitive Belastung."
+      }
+    ],
+    "opposite": {
+      "en": "fragment",
+      "de": "fragmentieren / zersplittern / aufteilen",
+      "example_en": "Competing funding streams can fragment research efforts and reduce overall efficiency.",
+      "example_de": "Konkurrierende Förderströme können Forschungsbemühungen fragmentieren und die Gesamteffizienz verringern."
+    },
+    "synonyms": [
+      { "word": "strengthen", "de": "stärken / festigen / ausbauen" },
+      { "word": "merge", "de": "zusammenführen / fusionieren / vereinen" },
+      { "word": "unify", "de": "vereinen / zusammenführen / vereinheitlichen" }
+    ],
+    "word_family": [
+      { "word": "consolidation", "pos": "noun", "de": "Konsolidierung / Festigung / Zusammenführung" },
+      { "word": "consolidated", "pos": "adj", "de": "konsolidiert / gefestigt / zusammengeführt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl14_cumulative_01",
+    "word": "cumulative",
+    "group": "AWL14",
+    "group_label": "Academic Word List – Sublist 14",
+    "pos": "adj",
+    "translations": { "de": "kumulativ / aufaddierend / sich aufbauend / zunehmend" },
+    "examples": [
+      {
+        "en": "The cumulative effect of small, incremental improvements can be substantial over a ten-year period.",
+        "de": "Der kumulative Effekt kleiner, schrittweiser Verbesserungen kann über einen Zeitraum von zehn Jahren erheblich sein."
+      },
+      {
+        "en": "Cumulative exposure to low-level stressors may be more damaging than a single acute episode.",
+        "de": "Die kumulative Belastung durch niedrigschwellige Stressoren kann schädlicher sein als eine einzelne akute Episode."
+      }
+    ],
+    "opposite": {
+      "en": "one-off",
+      "de": "einmalig / einmalig auftretend / isoliert",
+      "example_en": "A one-off measurement captures a snapshot but misses cumulative trends over time.",
+      "example_de": "Eine einmalige Messung erfasst eine Momentaufnahme, aber keine kumulativen Trends im Zeitverlauf."
+    },
+    "synonyms": [
+      { "word": "progressive", "de": "fortschreitend / zunehmend / kumulativ" },
+      { "word": "accumulative", "de": "akkumulativ / kumulativ / anwachsend" },
+      { "word": "incremental", "de": "inkrementell / schrittweise / sukzessive" }
+    ],
+    "word_family": [
+      { "word": "cumulatively", "pos": "adv", "de": "kumulativ / insgesamt / über die Zeit" },
+      { "word": "accumulate", "pos": "verb", "de": "ansammeln / anreichern / aufbauen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl14_deplete_01",
+    "word": "deplete",
+    "group": "AWL14",
+    "group_label": "Academic Word List – Sublist 14",
+    "pos": "verb",
+    "translations": { "de": "erschöpfen / aufbrauchen / verringern / dezimieren" },
+    "examples": [
+      {
+        "en": "Intensive agriculture can deplete soil nutrients and reduce long-term agricultural productivity.",
+        "de": "Intensive Landwirtschaft kann Bodennährstoffe aufbrauchen und die langfristige landwirtschaftliche Produktivität verringern."
+      },
+      {
+        "en": "Prolonged budget cuts have depleted the capacity of public health services to respond to crises.",
+        "de": "Anhaltende Haushaltskürzungen haben die Kapazität der öffentlichen Gesundheitsdienste zur Bewältigung von Krisen erschöpft."
+      }
+    ],
+    "opposite": {
+      "en": "replenish",
+      "de": "wieder auffüllen / erneuern / ergänzen",
+      "example_en": "Natural systems can replenish certain resources if extraction rates do not exceed renewal rates.",
+      "example_de": "Natürliche Systeme können bestimmte Ressourcen erneuern, wenn die Entnahmerate die Erneuerungsrate nicht überschreitet."
+    },
+    "synonyms": [
+      { "word": "exhaust", "de": "erschöpfen / aufbrauchen / verbrauchen" },
+      { "word": "drain", "de": "aufzehren / leeren / erschöpfen" },
+      { "word": "use up", "de": "aufbrauchen / verbrauchen / erschöpfen" }
+    ],
+    "word_family": [
+      { "word": "depletion", "pos": "noun", "de": "Erschöpfung / Aufbrauch / Verringerung" },
+      { "word": "depleted", "pos": "adj", "de": "erschöpft / aufgebraucht / dezimiert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl14_elaborate_01",
+    "word": "elaborate",
+    "group": "AWL14",
+    "group_label": "Academic Word List – Sublist 14",
+    "pos": "verb",
+    "translations": { "de": "ausführen / ausarbeiten / erläutern / vertiefen" },
+    "examples": [
+      {
+        "en": "The authors elaborate on the theoretical underpinnings of their model in the appendix.",
+        "de": "Die Autoren erläutern die theoretischen Grundlagen ihres Modells im Anhang ausführlich."
+      },
+      {
+        "en": "When asked to elaborate, the participant provided several concrete examples to support the claim.",
+        "de": "Als er gebeten wurde, dies auszuführen, lieferte der Teilnehmer mehrere konkrete Beispiele zur Untermauerung der Aussage."
+      }
+    ],
+    "opposite": {
+      "en": "simplify",
+      "de": "vereinfachen / verkürzen / zusammenfassen",
+      "example_en": "It is sometimes necessary to simplify complex models for communication to a non-specialist audience.",
+      "example_de": "Es ist manchmal notwendig, komplexe Modelle zu vereinfachen, um sie einem nicht-spezialisierten Publikum zu vermitteln."
+    },
+    "synonyms": [
+      { "word": "expand", "de": "ausführen / erweitern / vertiefen" },
+      { "word": "develop", "de": "ausarbeiten / entwickeln / vertiefen" },
+      { "word": "expound", "de": "darlegen / ausführen / erklären" }
+    ],
+    "word_family": [
+      { "word": "elaborate", "pos": "adj", "de": "ausführlich / detailliert / aufwendig" },
+      { "word": "elaboration", "pos": "noun", "de": "Ausarbeitung / Erläuterung / Vertiefung" },
+      { "word": "elaborately", "pos": "adv", "de": "ausführlich / detailliert / aufwendig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl14_embed_01",
+    "word": "embed",
+    "group": "AWL14",
+    "group_label": "Academic Word List – Sublist 14",
+    "pos": "verb",
+    "translations": { "de": "einbetten / verankern / verankern / integrieren" },
+    "examples": [
+      {
+        "en": "Sustainable practices need to be embedded in organisational culture rather than treated as add-ons.",
+        "de": "Nachhaltige Praktiken müssen in der Organisationskultur verankert werden, anstatt als Ergänzungen behandelt zu werden."
+      },
+      {
+        "en": "The evaluation criteria are embedded within the assessment rubric provided to all candidates.",
+        "de": "Die Bewertungskriterien sind in der Bewertungsrubrik eingebettet, die allen Kandidaten zur Verfügung gestellt wird."
+      }
+    ],
+    "opposite": {
+      "en": "detach",
+      "de": "trennen / lösen / herauslösen",
+      "example_en": "It is difficult to detach individual contributions from the collaborative nature of the work.",
+      "example_de": "Es ist schwierig, individuelle Beiträge vom kollaborativen Charakter der Arbeit zu trennen."
+    },
+    "synonyms": [
+      { "word": "integrate", "de": "integrieren / einbinden / einbetten" },
+      { "word": "incorporate", "de": "einbeziehen / aufnehmen / verankern" },
+      { "word": "anchor", "de": "verankern / festmachen / einbetten" }
+    ],
+    "word_family": [
+      { "word": "embedded", "pos": "adj", "de": "eingebettet / verankert / integriert" },
+      { "word": "embedding", "pos": "noun", "de": "Einbettung / Verankerung / Integration" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl14_inevitable_01",
+    "word": "inevitable",
+    "group": "AWL14",
+    "group_label": "Academic Word List – Sublist 14",
+    "pos": "adj",
+    "translations": { "de": "unvermeidlich / unausweichlich / zwangsläufig / zwingend" },
+    "examples": [
+      {
+        "en": "Given the rate of technological change, some degree of labour market disruption appears inevitable.",
+        "de": "Angesichts des Tempos des technologischen Wandels scheinen gewisse Störungen auf dem Arbeitsmarkt unvermeidlich."
+      },
+      {
+        "en": "The authors argue that conflict was not inevitable and could have been prevented by earlier intervention.",
+        "de": "Die Autoren argumentieren, dass der Konflikt nicht unvermeidlich war und durch frühere Intervention hätte verhindert werden können."
+      }
+    ],
+    "opposite": {
+      "en": "avoidable",
+      "de": "vermeidbar / abwendbar / verhütbar",
+      "example_en": "Many of the observed complications were avoidable with proper adherence to guidelines.",
+      "example_de": "Viele der beobachteten Komplikationen wären bei ordnungsgemäßer Einhaltung der Richtlinien vermeidbar gewesen."
+    },
+    "synonyms": [
+      { "word": "unavoidable", "de": "unvermeidlich / unausweichlich / nicht zu umgehen" },
+      { "word": "certain", "de": "sicher / gewiss / unvermeidlich" },
+      { "word": "inescapable", "de": "unausweichlich / unentrinnbar / unvermeidlich" }
+    ],
+    "word_family": [
+      { "word": "inevitably", "pos": "adv", "de": "unvermeidlich / zwangsläufig / notgedrungen" },
+      { "word": "inevitability", "pos": "noun", "de": "Unvermeidlichkeit / Zwangsläufigkeit / Unausweichlichkeit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl14_normative_01",
+    "word": "normative",
+    "group": "AWL14",
+    "group_label": "Academic Word List – Sublist 14",
+    "pos": "adj",
+    "translations": { "de": "normativ / vorschreibend / wertend / maßgeblich" },
+    "examples": [
+      {
+        "en": "The paper distinguishes between positive descriptions of what is and normative claims about what ought to be.",
+        "de": "Das Papier unterscheidet zwischen positiven Beschreibungen dessen, was ist, und normativen Aussagen darüber, was sein sollte."
+      },
+      {
+        "en": "Normative frameworks guide professional conduct by establishing shared ethical standards.",
+        "de": "Normative Rahmen leiten professionelles Verhalten, indem sie gemeinsame ethische Standards etablieren."
+      }
+    ],
+    "opposite": {
+      "en": "descriptive",
+      "de": "beschreibend / deskriptiv / darstellend",
+      "example_en": "A purely descriptive account of the data does not explain the mechanisms driving the observed patterns.",
+      "example_de": "Eine rein beschreibende Darstellung der Daten erklärt nicht die Mechanismen, die die beobachteten Muster antreiben."
+    },
+    "synonyms": [
+      { "word": "prescriptive", "de": "vorschreibend / präskriptiv / regelgebend" },
+      { "word": "evaluative", "de": "bewertend / evaluativ / beurteilend" },
+      { "word": "standard-setting", "de": "standardsetzend / maßstabsbildend / normgebend" }
+    ],
+    "word_family": [
+      { "word": "norm", "pos": "noun", "de": "Norm / Standard / Maßstab" },
+      { "word": "normatively", "pos": "adv", "de": "normativ / nach normativen Maßstäben / wertend" },
+      { "word": "normativity", "pos": "noun", "de": "Normativität / Sollgeltung / Verbindlichkeit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl14_prevalent_01",
+    "word": "prevalent",
+    "group": "AWL14",
+    "group_label": "Academic Word List – Sublist 14",
+    "pos": "adj",
+    "translations": { "de": "verbreitet / weit verbreitet / häufig / vorherrschend" },
+    "examples": [
+      {
+        "en": "Misinformation about the treatment is particularly prevalent in online discussion forums.",
+        "de": "Fehlinformationen über die Behandlung sind in Online-Diskussionsforen besonders weit verbreitet."
+      },
+      {
+        "en": "The condition is most prevalent among adults aged between forty and sixty years.",
+        "de": "Die Erkrankung ist am häufigsten bei Erwachsenen zwischen vierzig und sechzig Jahren."
+      }
+    ],
+    "opposite": {
+      "en": "rare",
+      "de": "selten / ungewöhnlich / vereinzelt",
+      "example_en": "The disorder is rare in the general population but more common among specific risk groups.",
+      "example_de": "Die Erkrankung ist in der Allgemeinbevölkerung selten, aber bei spezifischen Risikogruppen häufiger."
+    },
+    "synonyms": [
+      { "word": "widespread", "de": "weit verbreitet / verbreitet / flächendeckend" },
+      { "word": "common", "de": "häufig / verbreitet / gewöhnlich" },
+      { "word": "pervasive", "de": "durchdringend / allgegenwärtig / weit verbreitet" }
+    ],
+    "word_family": [
+      { "word": "prevalence", "pos": "noun", "de": "Prävalenz / Verbreitung / Häufigkeit" },
+      { "word": "prevalently", "pos": "adv", "de": "verbreitet / häufig / vorherrschend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl14_quantify_01",
+    "word": "quantify",
+    "group": "AWL14",
+    "group_label": "Academic Word List – Sublist 14",
+    "pos": "verb",
+    "translations": { "de": "quantifizieren / zahlenmäßig erfassen / messen / beziffern" },
+    "examples": [
+      {
+        "en": "It is difficult to quantify the economic impact of informal care provided within households.",
+        "de": "Es ist schwierig, die wirtschaftlichen Auswirkungen der informellen Pflege innerhalb von Haushalten zu quantifizieren."
+      },
+      {
+        "en": "The study attempts to quantify the relationship between air quality and respiratory outcomes.",
+        "de": "Die Studie versucht, die Beziehung zwischen Luftqualität und Atemwegsergebnissen zu quantifizieren."
+      }
+    ],
+    "opposite": {
+      "en": "qualify",
+      "de": "qualifizieren / einschränken / beschreiben",
+      "example_en": "Where precise measurement is not possible, researchers must qualify their claims carefully.",
+      "example_de": "Wenn eine präzise Messung nicht möglich ist, müssen Forscher ihre Aussagen sorgfältig qualifizieren."
+    },
+    "synonyms": [
+      { "word": "measure", "de": "messen / erfassen / beziffern" },
+      { "word": "calculate", "de": "berechnen / kalkulieren / ermitteln" },
+      { "word": "assess", "de": "bewerten / einschätzen / erfassen" }
+    ],
+    "word_family": [
+      { "word": "quantification", "pos": "noun", "de": "Quantifizierung / Erfassung / Messung" },
+      { "word": "quantifiable", "pos": "adj", "de": "quantifizierbar / messbar / bezifferbar" },
+      { "word": "quantity", "pos": "noun", "de": "Menge / Quantität / Größe" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl14_scrutinise_01",
+    "word": "scrutinise",
+    "group": "AWL14",
+    "group_label": "Academic Word List – Sublist 14",
+    "pos": "verb",
+    "translations": { "de": "prüfen / genau untersuchen / unter die Lupe nehmen / durchleuchten" },
+    "examples": [
+      {
+        "en": "Parliamentary committees are empowered to scrutinise government spending and hold ministers accountable.",
+        "de": "Parlamentarische Ausschüsse sind befugt, Regierungsausgaben zu prüfen und Minister zur Rechenschaft zu ziehen."
+      },
+      {
+        "en": "Peer reviewers are expected to scrutinise both the methodology and the interpretation of findings.",
+        "de": "Von Gutachtern wird erwartet, dass sie sowohl die Methodik als auch die Interpretation der Ergebnisse genau prüfen."
+      }
+    ],
+    "opposite": {
+      "en": "overlook",
+      "de": "übersehen / außer Acht lassen / ignorieren",
+      "example_en": "Auditors who overlook irregularities may face professional sanctions.",
+      "example_de": "Prüfer, die Unregelmäßigkeiten übersehen, können berufliche Sanktionen riskieren."
+    },
+    "synonyms": [
+      { "word": "examine", "de": "untersuchen / prüfen / analysieren" },
+      { "word": "inspect", "de": "inspizieren / prüfen / kontrollieren" },
+      { "word": "analyse", "de": "analysieren / untersuchen / auswerten" }
+    ],
+    "word_family": [
+      { "word": "scrutiny", "pos": "noun", "de": "Prüfung / Kontrolle / genaue Untersuchung" },
+      { "word": "scrutinised", "pos": "adj", "de": "geprüft / untersucht / durchleuchtet" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl14_synthesise_01",
+    "word": "synthesise",
+    "group": "AWL14",
+    "group_label": "Academic Word List – Sublist 14",
+    "pos": "verb",
+    "translations": { "de": "synthetisieren / zusammenführen / vereinen / integrieren" },
+    "examples": [
+      {
+        "en": "A systematic review synthesises evidence from multiple studies to draw overall conclusions.",
+        "de": "Ein systematisches Review synthetisiert Belege aus mehreren Studien, um allgemeine Schlussfolgerungen zu ziehen."
+      },
+      {
+        "en": "The final chapter synthesises the theoretical and empirical strands of the argument.",
+        "de": "Das abschließende Kapitel vereint die theoretischen und empirischen Stränge des Arguments."
+      }
+    ],
+    "opposite": {
+      "en": "fragment",
+      "de": "fragmentieren / aufteilen / auseinandernehmen",
+      "example_en": "Treating each study in isolation risks fragmenting a body of evidence that is coherent when viewed as a whole.",
+      "example_de": "Die isolierte Betrachtung jeder Studie birgt das Risiko, einen Bestand an Erkenntnissen zu fragmentieren, der als Ganzes kohärent ist."
+    },
+    "synonyms": [
+      { "word": "integrate", "de": "integrieren / vereinen / zusammenführen" },
+      { "word": "combine", "de": "verbinden / kombinieren / zusammenführen" },
+      { "word": "consolidate", "de": "konsolidieren / zusammenführen / vereinen" }
+    ],
+    "word_family": [
+      { "word": "synthesis", "pos": "noun", "de": "Synthese / Zusammenführung / Vereinigung" },
+      { "word": "synthetic", "pos": "adj", "de": "synthetisch / künstlich / zusammengesetzt" },
+      { "word": "synthesised", "pos": "adj", "de": "synthetisiert / zusammengeführt / vereint" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl14_threshold_01",
+    "word": "threshold",
+    "group": "AWL14",
+    "group_label": "Academic Word List – Sublist 14",
+    "pos": "noun",
+    "translations": { "de": "Schwelle / Schwellenwert / Grenze / Mindestmaß" },
+    "examples": [
+      {
+        "en": "Results that fall below the significance threshold are not reported as statistically meaningful.",
+        "de": "Ergebnisse, die unterhalb des Signifikanzschwellenwerts liegen, werden nicht als statistisch bedeutsam gemeldet."
+      },
+      {
+        "en": "Crossing a tipping-point threshold may trigger changes that are difficult to reverse.",
+        "de": "Das Überschreiten eines Kipppunktschwellenwerts kann Veränderungen auslösen, die schwer umzukehren sind."
+      }
+    ],
+    "opposite": {
+      "en": "ceiling",
+      "de": "Obergrenze / Höchstgrenze / Plafond",
+      "example_en": "The policy sets a spending ceiling but does not specify a minimum threshold.",
+      "example_de": "Die Politik legt eine Ausgabenobergrenze fest, gibt aber keinen Mindestschwellenwert an."
+    },
+    "synonyms": [
+      { "word": "limit", "de": "Grenze / Schwelle / Grenzwert" },
+      { "word": "boundary", "de": "Grenze / Schwelle / Trennlinie" },
+      { "word": "cut-off", "de": "Grenzwert / Schwellenwert / Abschneidepunkt" }
+    ],
+    "word_family": [
+      { "word": "sub-threshold", "pos": "adj", "de": "unterschwellig / unterhalb der Schwelle / subliminal" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl14_transparent_01",
+    "word": "transparent",
+    "group": "AWL14",
+    "group_label": "Academic Word List – Sublist 14",
+    "pos": "adj",
+    "translations": { "de": "transparent / nachvollziehbar / offen / durchsichtig" },
+    "examples": [
+      {
+        "en": "Research processes must be transparent so that others can evaluate and replicate the methodology.",
+        "de": "Forschungsprozesse müssen transparent sein, damit andere die Methodik bewerten und replizieren können."
+      },
+      {
+        "en": "A transparent reporting process builds public trust in the integrity of the findings.",
+        "de": "Ein transparenter Berichtsprozess stärkt das öffentliche Vertrauen in die Integrität der Ergebnisse."
+      }
+    ],
+    "opposite": {
+      "en": "opaque",
+      "de": "undurchsichtig / intransparent / unklar",
+      "example_en": "Opaque decision-making processes undermine accountability and democratic oversight.",
+      "example_de": "Undurchsichtige Entscheidungsprozesse untergraben die Rechenschaftspflicht und die demokratische Kontrolle."
+    },
+    "synonyms": [
+      { "word": "open", "de": "offen / transparent / nachvollziehbar" },
+      { "word": "clear", "de": "klar / durchsichtig / eindeutig" },
+      { "word": "accountable", "de": "rechenschaftspflichtig / verantwortlich / nachvollziehbar" }
+    ],
+    "word_family": [
+      { "word": "transparency", "pos": "noun", "de": "Transparenz / Offenheit / Nachvollziehbarkeit" },
+      { "word": "transparently", "pos": "adv", "de": "transparent / offen / klar nachvollziehbar" },
+      { "word": "opacity", "pos": "noun", "de": "Undurchsichtigkeit / Intransparenz / Unklarheit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl14_underpin_01",
+    "word": "underpin",
+    "group": "AWL14",
+    "group_label": "Academic Word List – Sublist 14",
+    "pos": "verb",
+    "translations": { "de": "untermauern / stützen / begründen / tragen" },
+    "examples": [
+      {
+        "en": "The theoretical assumptions that underpin the model must be made explicit before the analysis can proceed.",
+        "de": "Die theoretischen Annahmen, die das Modell untermauern, müssen vor der Analyse explizit gemacht werden."
+      },
+      {
+        "en": "Strong institutional frameworks underpin the effective enforcement of environmental regulation.",
+        "de": "Starke institutionelle Rahmenbedingungen untermauern die wirksame Durchsetzung von Umweltvorschriften."
+      }
+    ],
+    "opposite": {
+      "en": "undermine",
+      "de": "untergraben / schwächen / infrage stellen",
+      "example_en": "Inconsistent data collection practices undermine the validity of comparative analysis.",
+      "example_de": "Inkonsistente Datenerhebungspraktiken untergraben die Gültigkeit vergleichender Analysen."
+    },
+    "synonyms": [
+      { "word": "support", "de": "stützen / tragen / unterstützen" },
+      { "word": "sustain", "de": "tragen / aufrechterhalten / unterstützen" },
+      { "word": "ground", "de": "begründen / fundieren / verankern" }
+    ],
+    "word_family": [
+      { "word": "underpinning", "pos": "noun", "de": "Grundlage / Stütze / Fundament" },
+      { "word": "underpinned", "pos": "adj", "de": "untermauert / gestützt / begründet" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl14_utilise_01",
+    "word": "utilise",
+    "group": "AWL14",
+    "group_label": "Academic Word List – Sublist 14",
+    "pos": "verb",
+    "translations": { "de": "nutzen / verwenden / einsetzen / verwerten" },
+    "examples": [
+      {
+        "en": "The study utilises a mixed-methods approach to capture both quantitative trends and qualitative depth.",
+        "de": "Die Studie nutzt einen gemischten Methodenansatz, um sowohl quantitative Trends als auch qualitative Tiefe zu erfassen."
+      },
+      {
+        "en": "Organisations that fail to utilise available data effectively risk falling behind more data-driven competitors.",
+        "de": "Organisationen, die verfügbare Daten nicht effektiv nutzen, laufen Gefahr, hinter datengetriebenere Wettbewerber zurückzufallen."
+      }
+    ],
+    "opposite": {
+      "en": "waste",
+      "de": "verschwenden / nicht nutzen / ungenutzt lassen",
+      "example_en": "Poorly designed systems waste resources that could otherwise be directed toward core objectives.",
+      "example_de": "Schlecht konzipierte Systeme verschwenden Ressourcen, die andernfalls auf Kernziele gelenkt werden könnten."
+    },
+    "synonyms": [
+      { "word": "use", "de": "benutzen / verwenden / einsetzen" },
+      { "word": "employ", "de": "einsetzen / verwenden / anwenden" },
+      { "word": "apply", "de": "anwenden / einsetzen / nutzen" }
+    ],
+    "word_family": [
+      { "word": "utilisation", "pos": "noun", "de": "Nutzung / Verwendung / Auslastung" },
+      { "word": "utility", "pos": "noun", "de": "Nützlichkeit / Nutzen / Verwendbarkeit" },
+      { "word": "utilised", "pos": "adj", "de": "genutzt / verwendet / eingesetzt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl14_yield_01",
+    "word": "yield",
+    "group": "AWL14",
+    "group_label": "Academic Word List – Sublist 14",
+    "pos": "verb",
+    "translations": { "de": "liefern / erbringen / ergeben / einbringen" },
+    "examples": [
+      {
+        "en": "The experiment yielded results that were consistent with the predictions of the theoretical model.",
+        "de": "Das Experiment lieferte Ergebnisse, die mit den Vorhersagen des theoretischen Modells übereinstimmten."
+      },
+      {
+        "en": "Longitudinal designs yield more reliable estimates of causal effects than cross-sectional studies.",
+        "de": "Längsschnittdesigns liefern zuverlässigere Schätzungen von Kausaleffekten als Querschnittsstudien."
+      }
+    ],
+    "opposite": {
+      "en": "withhold",
+      "de": "zurückhalten / verweigern / nicht liefern",
+      "example_en": "Participants have the right to withhold consent without providing a reason.",
+      "example_de": "Teilnehmer haben das Recht, die Zustimmung zu verweigern, ohne einen Grund angeben zu müssen."
+    },
+    "synonyms": [
+      { "word": "produce", "de": "produzieren / erzeugen / liefern" },
+      { "word": "generate", "de": "erzeugen / generieren / liefern" },
+      { "word": "return", "de": "erbringen / einbringen / liefern" }
+    ],
+    "word_family": [
+      { "word": "yield", "pos": "noun", "de": "Ertrag / Ergebnis / Ausbeute" },
+      { "word": "yielded", "pos": "adj", "de": "geliefert / erbracht / erzielt" }
+    ],
+    "phrasal_verbs": []
+  }
+]
