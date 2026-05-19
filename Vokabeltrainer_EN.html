@@ -144,6 +144,7 @@ h1{font-family:var(--serif);font-size:28px;font-weight:400}h2{font-size:20px;fon
       <div class="xs mu" id="fc-dl">Deutsch</div>
       <div class="fw" id="fc-front"></div>
       <div class="fph" id="fc-ph"></div>
+      <div id="fc-def" style="display:none;border-left:3px solid var(--ac);padding-left:10px;margin:8px 0 4px;font-size:13px;color:var(--mu);font-style:italic;text-align:left;line-height:1.5;width:100%"></div>
       <div class="fhint" id="fc-hint">Antippen zum Aufdecken</div>
       <div class="fback" id="fc-back">
         <div class="xs mu" id="fc-bl">Englisch</div>
@@ -182,6 +183,7 @@ h1{font-family:var(--serif);font-size:28px;font-weight:400}h2{font-size:20px;fon
   <div id="cz-wrap" class="mt12 hidden">
     <div style="background:var(--s2);border-radius:var(--R);padding:14px 16px;margin-bottom:10px">
       <div class="xs mu" style="margin-bottom:8px;font-weight:700;letter-spacing:.06em;text-transform:uppercase">Vervollst&auml;ndige den Satz</div>
+      <div id="cz-def-hint" style="display:none;border-left:3px solid var(--ac);padding-left:8px;margin-bottom:10px;font-size:12px;color:var(--mu);font-style:italic;line-height:1.5"></div>
       <div style="font-size:16px;line-height:1.65;color:var(--tx)" id="cz-sent"></div>
       <div id="cz-de" class="xs mu hidden" style="font-style:italic;margin-top:6px;padding-top:6px;border-top:1px solid var(--bd)"></div>
     </div>
@@ -912,7 +914,7 @@ function rc(){
   el("l-mod").textContent=mn;
   if(_mode==="mc")rmc();else if(_mode==="cloze")rcz();else rfl();
 }
-function rfl(){hui();el("fc-wrap").classList.remove("hidden");el("rrow").classList.add("hidden");var isDE=_dir==="de_to_target";el("fc-dl").textContent=isDE?"Deutsch":"Englisch";el("fc-front").textContent=isDE?_cur.de:_cur.target;el("fc-ph").textContent=(!isDE&&_cur.phonetic)?_cur.phonetic:"";el("fc-hint").style.display="";el("fc-back").classList.remove("on");}
+function rfl(){hui();el("fc-wrap").classList.remove("hidden");el("rrow").classList.add("hidden");var isDE=_dir==="de_to_target";el("fc-dl").textContent=isDE?"Deutsch":"Englisch";el("fc-front").textContent=isDE?_cur.de:_cur.target;el("fc-ph").textContent=(!isDE&&_cur.phonetic)?_cur.phonetic:"";var def=el("fc-def");if(_cur.definition&&_cur.definition.en){def.textContent=_cur.definition.en;def.style.display="";}else{def.style.display="none";}el("fc-hint").style.display="";el("fc-back").classList.remove("on");}
 function czMainWord(t){return t.replace(/^to /,"").split("/")[0].trim().split(" ")[0];}
 function rcz(){
   hui();el("cz-wrap").classList.remove("hidden");
@@ -929,6 +931,8 @@ function rcz(){
     sentEN=(rep2!==et)?rep2:"___ – "+et;sentDE=_cur.example_de||"";fullEN=et;
   }
   _czFull=fullEN;
+  var czDef=el("cz-def-hint");
+  if(_cur.definition&&_cur.definition.de){czDef.textContent=_cur.definition.de;czDef.style.display="";}else{czDef.style.display="none";}
   el("cz-sent").innerHTML=sentEN.replace(/___/,"<span class='czgap' id='czgap'>___</span>");
   el("cz-de").textContent=sentDE;el("cz-de").classList.add("hidden");
   el("cz-fb").classList.add("hidden");el("cz-info").classList.add("hidden");el("cz-next").classList.add("hidden");
@@ -1109,6 +1113,48 @@ console.log("[VT EN] bereit. Vokabeln: "+VA.length);
       toast("Praepositionen geladen ("+prep.length+")","ok");
     })
     .catch(function(e){console.warn("[VT] Praep fetch fehlgeschlagen",e);});
+})();
+
+// Philosophie & Rhetorik laden
+(function(){
+  if(!window.fetch)return;
+  fetch("src/data/philosophy_rhetoric_en.json")
+    .then(function(r){return r.json();})
+    .then(function(data){
+      if(!Array.isArray(data))return;
+      var phil=[],i,j,grpLabels={A:"Philosophie – Fachbegriffe",B:"Argumentationsstruktur",C:"Rhetorische Figuren"};
+      for(i=0;i<data.length;i++){
+        j=data[i];
+        phil.push({
+          id:j.id,
+          de:(j.translations&&j.translations.de)||"",
+          target:j.word||"",
+          lv:"C1",tp:grpLabels[j.group]||(j.group_label||"Philosophie"),
+          ty:j.pos||"noun",mod:"phil",
+          group:j.group||"",
+          definition:j.definition||null,
+          examples:j.examples||[],
+          opposite:j.opposite||null,
+          synonyms:j.synonyms||[],
+          word_family:j.word_family||[],
+          phrasal_verbs:[],
+          example_de:(j.examples&&j.examples[0])?j.examples[0].de:"",
+          example_target:(j.examples&&j.examples[0])?j.examples[0].en:""
+        });
+      }
+      if(!phil.length)return;
+      window.VOCAB_PHIL=phil;
+      var philA=phil.filter(function(v){return v.group==="A";}),
+          philB=phil.filter(function(v){return v.group==="B";}),
+          philC=phil.filter(function(v){return v.group==="C";});
+      MODS.push({id:"phil_a",name:"Philosophie A",sub:grpLabels.A+" ("+philA.length+" W\xf6rter)",lv:"C1"});
+      MODS.push({id:"phil_b",name:"Philosophie B",sub:grpLabels.B+" ("+philB.length+" W\xf6rter)",lv:"C1"});
+      MODS.push({id:"phil_c",name:"Philosophie C",sub:grpLabels.C+" ("+philC.length+" W\xf6rter)",lv:"C1"});
+      MV.phil_a=philA;MV.phil_b=philB;MV.phil_c=philC;
+      for(i=0;i<phil.length;i++)VA.push(phil[i]);
+      toast("Philosophie & Rhetorik geladen ("+phil.length+")","ok");
+    })
+    .catch(function(e){console.warn("[VT] Philosophie fetch fehlgeschlagen",e);});
 })();
 
 } // end init()
