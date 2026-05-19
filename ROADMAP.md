@@ -26,6 +26,9 @@ Detailliertes Konzept: [`docs/Vokabeltrainer_Roadmap.pdf`](docs/Vokabeltrainer_R
 | ✅ | `docs/flashcard_demo.html` | UI-Referenz neue Karteikarten-Felder |
 | ✅ | `src/js/sm2.js` | SM-2 Spaced-Repetition-Algorithmus |
 | ✅ | `src/js/tts.js` | Web Speech API Wrapper |
+| ✅ | `src/data/academic_word_list_1.json` | Academic Word List Sublist 1 – 20 Wörter (B2, erweitertes Format) |
+| ✅ | `src/data/academic_word_list_2.json` | Academic Word List Sublist 2 – 20 Wörter (B2, erweitertes Format) |
+| 📋 | `src/data/academic_word_list_3.json` | Academic Word List Sublist 3 – geplant |
 | 📋 | `src/data/lessons_en.json` | Allgemeinwortschatz EN A1–B1 ausbauen |
 | 🔵 | `src/data/lessons_fr.json` | Französisch-Lektionen |
 | 🔵 | `src/data/lessons_es.json` | Spanisch-Lektionen |

@@ -1,0 +1,726 @@
+[
+  {
+    "id": "awl2_achieve_01",
+    "word": "achieve",
+    "group": "AWL2",
+    "group_label": "Academic Word List – Sublist 2",
+    "pos": "verb",
+    "translations": { "de": "erreichen / erzielen / verwirklichen" },
+    "examples": [
+      {
+        "en": "Students who set clear goals are more likely to achieve academic success.",
+        "de": "Studierende, die klare Ziele setzen, erreichen eher akademischen Erfolg."
+      },
+      {
+        "en": "The research team achieved a breakthrough after years of experimentation.",
+        "de": "Das Forschungsteam erzielte nach jahrelangen Experimenten einen Durchbruch."
+      }
+    ],
+    "opposite": {
+      "en": "fail",
+      "de": "scheitern / versagen",
+      "example_en": "Despite their efforts, the negotiators failed to reach an agreement.",
+      "example_de": "Trotz ihrer Bemühungen scheiterten die Unterhändler daran, eine Einigung zu erzielen."
+    },
+    "synonyms": [
+      { "word": "accomplish", "de": "vollbringen / schaffen" },
+      { "word": "attain", "de": "erlangen / erreichen" },
+      { "word": "realise", "de": "verwirklichen / erzielen" }
+    ],
+    "word_family": [
+      { "word": "achievement", "pos": "noun", "de": "Errungenschaft / Leistung" },
+      { "word": "achievable", "pos": "adj", "de": "erreichbar / machbar" },
+      { "word": "overachieve", "pos": "verb", "de": "mehr als erwartet leisten" },
+      { "word": "underachieve", "pos": "verb", "de": "hinter den Erwartungen zurückbleiben" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl2_acquire_02",
+    "word": "acquire",
+    "group": "AWL2",
+    "group_label": "Academic Word List – Sublist 2",
+    "pos": "verb",
+    "translations": { "de": "erwerben / erlangen / aneignen" },
+    "examples": [
+      {
+        "en": "Children acquire language naturally through exposure and social interaction.",
+        "de": "Kinder erwerben Sprache auf natürliche Weise durch Kontakt und soziale Interaktion."
+      },
+      {
+        "en": "The university acquired a rare manuscript collection from a private donor.",
+        "de": "Die Universität erwarb eine seltene Manuskriptsammlung von einem privaten Spender."
+      }
+    ],
+    "opposite": {
+      "en": "lose",
+      "de": "verlieren / einbüßen",
+      "example_en": "Skills that are not regularly practised are gradually lost over time.",
+      "example_de": "Fähigkeiten, die nicht regelmäßig geübt werden, gehen mit der Zeit nach und nach verloren."
+    },
+    "synonyms": [
+      { "word": "obtain", "de": "erlangen / beschaffen" },
+      { "word": "gain", "de": "gewinnen / erlangen" },
+      { "word": "develop", "de": "entwickeln / erwerben" }
+    ],
+    "word_family": [
+      { "word": "acquisition", "pos": "noun", "de": "Erwerb / Aneignung / Akquisition" },
+      { "word": "acquisitive", "pos": "adj", "de": "auf Erwerb aus / habgierig" },
+      { "word": "acquirer", "pos": "noun", "de": "Erwerber / Käufer" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl2_affect_03",
+    "word": "affect",
+    "group": "AWL2",
+    "group_label": "Academic Word List – Sublist 2",
+    "pos": "verb",
+    "translations": { "de": "beeinflussen / auswirken auf / betreffen" },
+    "examples": [
+      {
+        "en": "Climate change will significantly affect agricultural productivity worldwide.",
+        "de": "Der Klimawandel wird die landwirtschaftliche Produktivität weltweit erheblich beeinflussen."
+      },
+      {
+        "en": "The new policy affected thousands of workers across the manufacturing sector.",
+        "de": "Die neue Politik betraf Tausende von Arbeitnehmern im gesamten Produktionssektor."
+      }
+    ],
+    "opposite": {
+      "en": "shield",
+      "de": "abschirmen / schützen",
+      "example_en": "Sound insulation shields the recording studio from external noise.",
+      "example_de": "Die Schallisolierung schirmt das Aufnahmestudio von äußerem Lärm ab."
+    },
+    "synonyms": [
+      { "word": "influence", "de": "beeinflussen" },
+      { "word": "impact", "de": "sich auswirken auf" },
+      { "word": "alter", "de": "verändern / abändern" }
+    ],
+    "word_family": [
+      { "word": "effect", "pos": "noun", "de": "Wirkung / Auswirkung" },
+      { "word": "affected", "pos": "adj", "de": "betroffen / beeinflusst" },
+      { "word": "affective", "pos": "adj", "de": "affektiv / emotional" },
+      { "word": "unaffected", "pos": "adj", "de": "unberührt / nicht betroffen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl2_appropriate_04",
+    "word": "appropriate",
+    "group": "AWL2",
+    "group_label": "Academic Word List – Sublist 2",
+    "pos": "adj",
+    "translations": { "de": "angemessen / passend / geeignet" },
+    "examples": [
+      {
+        "en": "It is appropriate to acknowledge the limitations of a study in the conclusion.",
+        "de": "Es ist angemessen, die Grenzen einer Studie in der Schlussfolgerung anzuerkennen."
+      },
+      {
+        "en": "The committee selected an appropriate method for data collection.",
+        "de": "Der Ausschuss wählte eine geeignete Methode für die Datenerhebung."
+      }
+    ],
+    "opposite": {
+      "en": "inappropriate",
+      "de": "unangemessen / unpassend",
+      "example_en": "Using informal language in an academic paper is considered inappropriate.",
+      "example_de": "Informelle Sprache in einer wissenschaftlichen Arbeit zu verwenden gilt als unangemessen."
+    },
+    "synonyms": [
+      { "word": "suitable", "de": "geeignet / passend" },
+      { "word": "proper", "de": "korrekt / angemessen" },
+      { "word": "fitting", "de": "passend / treffend" }
+    ],
+    "word_family": [
+      { "word": "appropriately", "pos": "adv", "de": "angemessen / passenderweise" },
+      { "word": "appropriateness", "pos": "noun", "de": "Angemessenheit" },
+      { "word": "inappropriate", "pos": "adj", "de": "unangemessen / unpassend" },
+      { "word": "inappropriately", "pos": "adv", "de": "unangemessen / unpassenderweise" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl2_aspect_05",
+    "word": "aspect",
+    "group": "AWL2",
+    "group_label": "Academic Word List – Sublist 2",
+    "pos": "noun",
+    "translations": { "de": "Aspekt / Gesichtspunkt / Seite" },
+    "examples": [
+      {
+        "en": "The researchers examined every aspect of the problem before proposing a solution.",
+        "de": "Die Forscher untersuchten jeden Aspekt des Problems, bevor sie eine Lösung vorschlugen."
+      },
+      {
+        "en": "One important aspect of effective communication is active listening.",
+        "de": "Ein wichtiger Aspekt effektiver Kommunikation ist aktives Zuhören."
+      }
+    ],
+    "opposite": {
+      "en": "whole",
+      "de": "Gesamtheit / Ganzes",
+      "example_en": "Rather than focusing on one aspect, the report surveys the whole range of issues.",
+      "example_de": "Statt sich auf einen Aspekt zu konzentrieren, untersucht der Bericht die gesamte Bandbreite der Probleme."
+    },
+    "synonyms": [
+      { "word": "dimension", "de": "Dimension / Seite" },
+      { "word": "facet", "de": "Facette / Aspekt" },
+      { "word": "element", "de": "Element / Bestandteil" }
+    ],
+    "word_family": [
+      { "word": "aspects", "pos": "noun", "de": "Aspekte / Gesichtspunkte (Plural)" },
+      { "word": "multi-faceted", "pos": "adj", "de": "vielschichtig / mehrdimensional" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl2_assist_06",
+    "word": "assist",
+    "group": "AWL2",
+    "group_label": "Academic Word List – Sublist 2",
+    "pos": "verb",
+    "translations": { "de": "unterstützen / helfen / beistehen" },
+    "examples": [
+      {
+        "en": "Volunteers assist scientists by collecting field data in remote areas.",
+        "de": "Freiwillige unterstützen Wissenschaftler, indem sie in abgelegenen Gebieten Felddaten sammeln."
+      },
+      {
+        "en": "The software is designed to assist researchers in managing large datasets.",
+        "de": "Die Software wurde entwickelt, um Forscher bei der Verwaltung großer Datensätze zu unterstützen."
+      }
+    ],
+    "opposite": {
+      "en": "hinder",
+      "de": "behindern / hemmen",
+      "example_en": "Bureaucratic obstacles can hinder scientific progress significantly.",
+      "example_de": "Bürokratische Hindernisse können den wissenschaftlichen Fortschritt erheblich behindern."
+    },
+    "synonyms": [
+      { "word": "help", "de": "helfen" },
+      { "word": "support", "de": "unterstützen" },
+      { "word": "aid", "de": "helfen / unterstützen" }
+    ],
+    "word_family": [
+      { "word": "assistance", "pos": "noun", "de": "Unterstützung / Hilfe" },
+      { "word": "assistant", "pos": "noun", "de": "Assistent / Mitarbeiterin" },
+      { "word": "assisted", "pos": "adj", "de": "unterstützt / mit Hilfe" },
+      { "word": "unassisted", "pos": "adj", "de": "ohne Hilfe / allein" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl2_category_07",
+    "word": "category",
+    "group": "AWL2",
+    "group_label": "Academic Word List – Sublist 2",
+    "pos": "noun",
+    "translations": { "de": "Kategorie / Gruppe / Klasse" },
+    "examples": [
+      {
+        "en": "The survey divided participants into three categories based on their age.",
+        "de": "Die Umfrage unterteilte die Teilnehmer anhand ihres Alters in drei Kategorien."
+      },
+      {
+        "en": "This phenomenon does not fit neatly into any existing category.",
+        "de": "Dieses Phänomen lässt sich nicht eindeutig einer bestehenden Kategorie zuordnen."
+      }
+    ],
+    "opposite": {
+      "en": "miscellaneous",
+      "de": "verschiedenartig / bunt gemischt",
+      "example_en": "Items that do not belong to a specific group are labelled miscellaneous.",
+      "example_de": "Elemente, die zu keiner bestimmten Gruppe gehören, werden als 'verschiedenartig' bezeichnet."
+    },
+    "synonyms": [
+      { "word": "class", "de": "Klasse / Gruppe" },
+      { "word": "group", "de": "Gruppe" },
+      { "word": "type", "de": "Typ / Art" }
+    ],
+    "word_family": [
+      { "word": "categorise", "pos": "verb", "de": "kategorisieren / einordnen" },
+      { "word": "categorical", "pos": "adj", "de": "kategorisch / eindeutig" },
+      { "word": "categorically", "pos": "adv", "de": "kategorisch / eindeutig" },
+      { "word": "categorisation", "pos": "noun", "de": "Kategorisierung / Einteilung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl2_complex_08",
+    "word": "complex",
+    "group": "AWL2",
+    "group_label": "Academic Word List – Sublist 2",
+    "pos": "adj",
+    "translations": { "de": "komplex / vielschichtig / kompliziert" },
+    "examples": [
+      {
+        "en": "Climate change is a complex phenomenon that involves numerous interacting factors.",
+        "de": "Der Klimawandel ist ein komplexes Phänomen, das zahlreiche interagierende Faktoren umfasst."
+      },
+      {
+        "en": "The legal framework governing international trade is highly complex.",
+        "de": "Der rechtliche Rahmen für den internationalen Handel ist äußerst komplex."
+      }
+    ],
+    "opposite": {
+      "en": "simple",
+      "de": "einfach / unkompliziert",
+      "example_en": "The researchers chose the simplest possible model to explain the observed data.",
+      "example_de": "Die Forscher wählten das einfachstmögliche Modell, um die beobachteten Daten zu erklären."
+    },
+    "synonyms": [
+      { "word": "complicated", "de": "kompliziert" },
+      { "word": "intricate", "de": "vielschichtig / verwickelt" },
+      { "word": "elaborate", "de": "ausgefeilt / komplex" }
+    ],
+    "word_family": [
+      { "word": "complexity", "pos": "noun", "de": "Komplexität / Vielschichtigkeit" },
+      { "word": "complexities", "pos": "noun", "de": "Komplexitäten (Plural)" },
+      { "word": "oversimplify", "pos": "verb", "de": "zu sehr vereinfachen / verkürzen" },
+      { "word": "complex", "pos": "noun", "de": "Komplex / Gebäudekomplex" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl2_conclude_09",
+    "word": "conclude",
+    "group": "AWL2",
+    "group_label": "Academic Word List – Sublist 2",
+    "pos": "verb",
+    "translations": { "de": "schlussfolgern / abschließen / zu dem Schluss kommen" },
+    "examples": [
+      {
+        "en": "Based on the evidence, the authors conclude that further research is necessary.",
+        "de": "Basierend auf den Erkenntnissen kommen die Autoren zu dem Schluss, dass weitere Forschung erforderlich ist."
+      },
+      {
+        "en": "The study concluded with a series of practical recommendations for policymakers.",
+        "de": "Die Studie schloss mit einer Reihe praktischer Empfehlungen für politische Entscheidungsträger ab."
+      }
+    ],
+    "opposite": {
+      "en": "introduce",
+      "de": "einleiten / beginnen",
+      "example_en": "The report introduces the topic with a broad overview of the global situation.",
+      "example_de": "Der Bericht leitet das Thema mit einem breiten Überblick über die weltweite Lage ein."
+    },
+    "synonyms": [
+      { "word": "deduce", "de": "schlussfolgern / ableiten" },
+      { "word": "infer", "de": "schließen / folgern" },
+      { "word": "finalise", "de": "abschließen / fertigstellen" }
+    ],
+    "word_family": [
+      { "word": "conclusion", "pos": "noun", "de": "Schlussfolgerung / Fazit" },
+      { "word": "conclusive", "pos": "adj", "de": "schlüssig / eindeutig" },
+      { "word": "conclusively", "pos": "adv", "de": "eindeutig / schlüssig" },
+      { "word": "inconclusive", "pos": "adj", "de": "nicht schlüssig / ergebnislos" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl2_conduct_10",
+    "word": "conduct",
+    "group": "AWL2",
+    "group_label": "Academic Word List – Sublist 2",
+    "pos": "verb",
+    "translations": { "de": "durchführen / leiten / sich verhalten" },
+    "examples": [
+      {
+        "en": "The team conducted a series of controlled experiments over three months.",
+        "de": "Das Team führte über drei Monate eine Reihe kontrollierter Experimente durch."
+      },
+      {
+        "en": "Interviews were conducted with twenty participants from diverse backgrounds.",
+        "de": "Mit zwanzig Teilnehmern aus verschiedenen Hintergründen wurden Interviews geführt."
+      }
+    ],
+    "opposite": {
+      "en": "abandon",
+      "de": "aufgeben / abbrechen",
+      "example_en": "Due to funding cuts, the university was forced to abandon several research projects.",
+      "example_de": "Aufgrund von Mittelkürzungen war die Universität gezwungen, mehrere Forschungsprojekte aufzugeben."
+    },
+    "synonyms": [
+      { "word": "carry out", "de": "durchführen" },
+      { "word": "perform", "de": "ausführen / durchführen" },
+      { "word": "execute", "de": "ausführen / umsetzen" }
+    ],
+    "word_family": [
+      { "word": "conduct", "pos": "noun", "de": "Verhalten / Durchführung" },
+      { "word": "conductor", "pos": "noun", "de": "Leiter / Dirigent" },
+      { "word": "misconduct", "pos": "noun", "de": "Fehlverhalten / Vergehen" },
+      { "word": "conducted", "pos": "adj", "de": "durchgeführt / geleitet" }
+    ],
+    "phrasal_verbs": [
+      {
+        "phrase": "conduct oneself",
+        "de": "sich verhalten / aufführen",
+        "example": "Scientists are expected to conduct themselves with integrity at all times."
+      }
+    ]
+  },
+  {
+    "id": "awl2_construct_11",
+    "word": "construct",
+    "group": "AWL2",
+    "group_label": "Academic Word List – Sublist 2",
+    "pos": "verb",
+    "translations": { "de": "konstruieren / aufbauen / entwickeln" },
+    "examples": [
+      {
+        "en": "The theorists construct a model that explains the relationship between variables.",
+        "de": "Die Theoretiker konstruieren ein Modell, das die Beziehung zwischen Variablen erklärt."
+      },
+      {
+        "en": "It took decades to construct a coherent framework for understanding language acquisition.",
+        "de": "Es dauerte Jahrzehnte, einen kohärenten Rahmen für das Verständnis des Spracherwerbs aufzubauen."
+      }
+    ],
+    "opposite": {
+      "en": "deconstruct",
+      "de": "dekonstruieren / auseinandernehmen",
+      "example_en": "Critical theorists seek to deconstruct assumptions embedded in scientific language.",
+      "example_de": "Kritische Theoretiker versuchen, in der wissenschaftlichen Sprache eingebettete Annahmen zu dekonstruieren."
+    },
+    "synonyms": [
+      { "word": "build", "de": "aufbauen / errichten" },
+      { "word": "develop", "de": "entwickeln" },
+      { "word": "establish", "de": "aufstellen / entwickeln" }
+    ],
+    "word_family": [
+      { "word": "construction", "pos": "noun", "de": "Konstruktion / Aufbau" },
+      { "word": "constructive", "pos": "adj", "de": "konstruktiv / aufbauend" },
+      { "word": "constructor", "pos": "noun", "de": "Erbauer / Konstrukteur" },
+      { "word": "deconstruct", "pos": "verb", "de": "dekonstruieren / zerlegen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl2_culture_12",
+    "word": "culture",
+    "group": "AWL2",
+    "group_label": "Academic Word List – Sublist 2",
+    "pos": "noun",
+    "translations": { "de": "Kultur / Gesellschaft / Praxis" },
+    "examples": [
+      {
+        "en": "Academic culture values critical thinking and evidence-based argumentation.",
+        "de": "Die akademische Kultur schätzt kritisches Denken und evidenzbasierte Argumentation."
+      },
+      {
+        "en": "The researcher examined how digital technology is reshaping youth culture globally.",
+        "de": "Der Forscher untersuchte, wie digitale Technologie die Jugendkultur weltweit verändert."
+      }
+    ],
+    "opposite": {
+      "en": "nature",
+      "de": "Natur / Natürlichkeit",
+      "example_en": "The debate between nature and culture continues to shape social science research.",
+      "example_de": "Die Debatte zwischen Natur und Kultur prägt weiterhin die sozialwissenschaftliche Forschung."
+    },
+    "synonyms": [
+      { "word": "society", "de": "Gesellschaft" },
+      { "word": "civilisation", "de": "Zivilisation" },
+      { "word": "tradition", "de": "Tradition" }
+    ],
+    "word_family": [
+      { "word": "cultural", "pos": "adj", "de": "kulturell" },
+      { "word": "culturally", "pos": "adv", "de": "kulturell / auf kulturelle Weise" },
+      { "word": "multicultural", "pos": "adj", "de": "multikulturell" },
+      { "word": "subculture", "pos": "noun", "de": "Subkultur" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl2_design_13",
+    "word": "design",
+    "group": "AWL2",
+    "group_label": "Academic Word List – Sublist 2",
+    "pos": "verb",
+    "translations": { "de": "entwerfen / gestalten / konzipieren" },
+    "examples": [
+      {
+        "en": "The experiment was carefully designed to eliminate potential sources of bias.",
+        "de": "Das Experiment wurde sorgfältig konzipiert, um potenzielle Quellen von Voreingenommenheit zu eliminieren."
+      },
+      {
+        "en": "Engineers design systems that can withstand extreme environmental conditions.",
+        "de": "Ingenieure entwerfen Systeme, die extremen Umweltbedingungen standhalten können."
+      }
+    ],
+    "opposite": {
+      "en": "improvise",
+      "de": "improvisieren / aus dem Stegreif handeln",
+      "example_en": "A scientist who improvises without a clear plan risks producing unreliable results.",
+      "example_de": "Ein Wissenschaftler, der ohne klaren Plan improvisiert, riskiert unzuverlässige Ergebnisse."
+    },
+    "synonyms": [
+      { "word": "plan", "de": "planen" },
+      { "word": "devise", "de": "ausdenken / entwickeln" },
+      { "word": "create", "de": "erstellen / schaffen" }
+    ],
+    "word_family": [
+      { "word": "design", "pos": "noun", "de": "Design / Entwurf / Gestaltung" },
+      { "word": "designer", "pos": "noun", "de": "Designer / Gestalterin" },
+      { "word": "redesign", "pos": "verb", "de": "neu gestalten / überarbeiten" },
+      { "word": "well-designed", "pos": "adj", "de": "gut konzipiert / durchdacht" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl2_element_14",
+    "word": "element",
+    "group": "AWL2",
+    "group_label": "Academic Word List – Sublist 2",
+    "pos": "noun",
+    "translations": { "de": "Element / Bestandteil / Faktor" },
+    "examples": [
+      {
+        "en": "Trust is a fundamental element of any successful research collaboration.",
+        "de": "Vertrauen ist ein grundlegendes Element jeder erfolgreichen Forschungszusammenarbeit."
+      },
+      {
+        "en": "The study identifies three key elements that contribute to effective leadership.",
+        "de": "Die Studie identifiziert drei wesentliche Elemente, die zu effektiver Führung beitragen."
+      }
+    ],
+    "opposite": {
+      "en": "whole",
+      "de": "Gesamtheit / Ganzes",
+      "example_en": "The theoretical framework must account for the whole rather than isolated elements.",
+      "example_de": "Der theoretische Rahmen muss das Ganze berücksichtigen und nicht nur isolierte Elemente."
+    },
+    "synonyms": [
+      { "word": "component", "de": "Komponente / Bestandteil" },
+      { "word": "factor", "de": "Faktor" },
+      { "word": "constituent", "de": "Bestandteil / Konstituente" }
+    ],
+    "word_family": [
+      { "word": "elemental", "pos": "adj", "de": "grundlegend / elementar" },
+      { "word": "elementary", "pos": "adj", "de": "grundlegend / einfach" },
+      { "word": "elements", "pos": "noun", "de": "Elemente / Grundlagen (Plural)" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl2_feature_15",
+    "word": "feature",
+    "group": "AWL2",
+    "group_label": "Academic Word List – Sublist 2",
+    "pos": "noun",
+    "translations": { "de": "Merkmal / Eigenschaft / Besonderheit" },
+    "examples": [
+      {
+        "en": "A notable feature of the study is its longitudinal design spanning ten years.",
+        "de": "Ein bemerkenswertes Merkmal der Studie ist ihr Längsschnittdesign über zehn Jahre."
+      },
+      {
+        "en": "The latest models feature improved algorithms for natural language processing.",
+        "de": "Die neuesten Modelle weisen verbesserte Algorithmen für die Verarbeitung natürlicher Sprache auf."
+      }
+    ],
+    "opposite": {
+      "en": "absence",
+      "de": "Fehlen / Abwesenheit",
+      "example_en": "The absence of a control group is a serious weakness of the study design.",
+      "example_de": "Das Fehlen einer Kontrollgruppe ist eine ernsthafte Schwäche des Studiendesigns."
+    },
+    "synonyms": [
+      { "word": "characteristic", "de": "Merkmal / Eigenschaft" },
+      { "word": "attribute", "de": "Attribut / Merkmal" },
+      { "word": "property", "de": "Eigenschaft / Charakteristikum" }
+    ],
+    "word_family": [
+      { "word": "features", "pos": "noun", "de": "Merkmale / Eigenschaften (Plural)" },
+      { "word": "featured", "pos": "adj", "de": "hervorgehoben / präsentiert" },
+      { "word": "feature-rich", "pos": "adj", "de": "funktionsreich" },
+      { "word": "featureless", "pos": "adj", "de": "eintönig / ohne besondere Merkmale" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl2_focus_16",
+    "word": "focus",
+    "group": "AWL2",
+    "group_label": "Academic Word List – Sublist 2",
+    "pos": "verb",
+    "translations": { "de": "sich konzentrieren auf / fokussieren / den Schwerpunkt legen auf" },
+    "examples": [
+      {
+        "en": "The paper focuses on the relationship between diet and cognitive performance.",
+        "de": "Das Paper konzentriert sich auf die Beziehung zwischen Ernährung und kognitiver Leistung."
+      },
+      {
+        "en": "Shifting the focus from output to process can improve learning outcomes significantly.",
+        "de": "Den Fokus vom Ergebnis auf den Prozess zu verlagern kann Lernergebnisse erheblich verbessern."
+      }
+    ],
+    "opposite": {
+      "en": "neglect",
+      "de": "vernachlässigen / außer Acht lassen",
+      "example_en": "Researchers who neglect methodological rigour risk producing flawed results.",
+      "example_de": "Forscher, die methodische Strenge vernachlässigen, riskieren fehlerhafte Ergebnisse."
+    },
+    "synonyms": [
+      { "word": "concentrate", "de": "sich konzentrieren" },
+      { "word": "emphasise", "de": "betonen / hervorheben" },
+      { "word": "highlight", "de": "hervorheben / betonen" }
+    ],
+    "word_family": [
+      { "word": "focus", "pos": "noun", "de": "Fokus / Schwerpunkt" },
+      { "word": "focused", "pos": "adj", "de": "fokussiert / konzentriert" },
+      { "word": "unfocused", "pos": "adj", "de": "unkonzentriert / diffus" },
+      { "word": "refocus", "pos": "verb", "de": "neu ausrichten / den Fokus verschieben" }
+    ],
+    "phrasal_verbs": [
+      {
+        "phrase": "focus on",
+        "de": "sich konzentrieren auf / den Fokus legen auf",
+        "example": "The new initiative focuses on reducing carbon emissions in urban areas."
+      }
+    ]
+  },
+  {
+    "id": "awl2_impact_17",
+    "word": "impact",
+    "group": "AWL2",
+    "group_label": "Academic Word List – Sublist 2",
+    "pos": "noun",
+    "translations": { "de": "Auswirkung / Einfluss / Wirkung" },
+    "examples": [
+      {
+        "en": "The research assesses the economic impact of renewable energy policies.",
+        "de": "Die Forschung bewertet die wirtschaftlichen Auswirkungen der Politik für erneuerbare Energien."
+      },
+      {
+        "en": "Social media has profoundly impacted the way young people consume news.",
+        "de": "Soziale Medien haben die Art und Weise, wie junge Menschen Nachrichten konsumieren, tiefgreifend beeinflusst."
+      }
+    ],
+    "opposite": {
+      "en": "negligible",
+      "de": "vernachlässigbar / bedeutungslos",
+      "example_en": "The treatment had a negligible effect on patient recovery rates.",
+      "example_de": "Die Behandlung hatte eine vernachlässigbare Auswirkung auf die Genesungsraten der Patienten."
+    },
+    "synonyms": [
+      { "word": "effect", "de": "Auswirkung / Wirkung" },
+      { "word": "influence", "de": "Einfluss" },
+      { "word": "consequence", "de": "Konsequenz / Folge" }
+    ],
+    "word_family": [
+      { "word": "impact", "pos": "verb", "de": "beeinflussen / auswirken auf" },
+      { "word": "impactful", "pos": "adj", "de": "wirkungsvoll / einflussreich" },
+      { "word": "high-impact", "pos": "adj", "de": "hochwirksam / bedeutsam" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl2_outcome_18",
+    "word": "outcome",
+    "group": "AWL2",
+    "group_label": "Academic Word List – Sublist 2",
+    "pos": "noun",
+    "translations": { "de": "Ergebnis / Resultat / Ausgang" },
+    "examples": [
+      {
+        "en": "The primary outcome of the intervention was a significant reduction in error rates.",
+        "de": "Das primäre Ergebnis der Intervention war eine signifikante Reduzierung der Fehlerquoten."
+      },
+      {
+        "en": "Researchers must report all outcomes, including negative results, to prevent publication bias.",
+        "de": "Forscher müssen alle Ergebnisse melden, auch negative Resultate, um einen Publikationsbias zu verhindern."
+      }
+    ],
+    "opposite": {
+      "en": "input",
+      "de": "Eingabe / Ausgangspunkt",
+      "example_en": "The quality of the input data directly determines the reliability of the outcome.",
+      "example_de": "Die Qualität der Eingabedaten bestimmt direkt die Zuverlässigkeit des Ergebnisses."
+    },
+    "synonyms": [
+      { "word": "result", "de": "Ergebnis / Resultat" },
+      { "word": "consequence", "de": "Folge / Konsequenz" },
+      { "word": "finding", "de": "Befund / Ergebnis" }
+    ],
+    "word_family": [
+      { "word": "outcomes", "pos": "noun", "de": "Ergebnisse / Resultate (Plural)" },
+      { "word": "outcome-based", "pos": "adj", "de": "ergebnisorientiert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl2_positive_19",
+    "word": "positive",
+    "group": "AWL2",
+    "group_label": "Academic Word List – Sublist 2",
+    "pos": "adj",
+    "translations": { "de": "positiv / günstig / konstruktiv" },
+    "examples": [
+      {
+        "en": "The trial produced positive results, indicating the treatment's effectiveness.",
+        "de": "Die Studie lieferte positive Ergebnisse, die die Wirksamkeit der Behandlung belegen."
+      },
+      {
+        "en": "A positive attitude towards failure is essential for scientific progress.",
+        "de": "Eine positive Einstellung gegenüber dem Scheitern ist für den wissenschaftlichen Fortschritt unerlässlich."
+      }
+    ],
+    "opposite": {
+      "en": "negative",
+      "de": "negativ / ungünstig",
+      "example_en": "A negative correlation between stress levels and academic performance was observed.",
+      "example_de": "Eine negative Korrelation zwischen Stressniveaus und akademischer Leistung wurde beobachtet."
+    },
+    "synonyms": [
+      { "word": "favourable", "de": "günstig / positiv" },
+      { "word": "constructive", "de": "konstruktiv" },
+      { "word": "beneficial", "de": "vorteilhaft / nützlich" }
+    ],
+    "word_family": [
+      { "word": "positively", "pos": "adv", "de": "positiv / auf positive Weise" },
+      { "word": "positivity", "pos": "noun", "de": "Positivität / positive Einstellung" },
+      { "word": "false positive", "pos": "noun", "de": "falsch positiv (Testergebnis)" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl2_strategy_20",
+    "word": "strategy",
+    "group": "AWL2",
+    "group_label": "Academic Word List – Sublist 2",
+    "pos": "noun",
+    "translations": { "de": "Strategie / Ansatz / Vorgehen" },
+    "examples": [
+      {
+        "en": "The most effective strategy for vocabulary acquisition involves spaced repetition.",
+        "de": "Die effektivste Strategie für den Wortschatzerwerb beinhaltet die verteilte Wiederholung."
+      },
+      {
+        "en": "Companies develop long-term strategies to remain competitive in global markets.",
+        "de": "Unternehmen entwickeln langfristige Strategien, um auf globalen Märkten wettbewerbsfähig zu bleiben."
+      }
+    ],
+    "opposite": {
+      "en": "improvisation",
+      "de": "Improvisation / spontanes Vorgehen",
+      "example_en": "Relying on improvisation rather than strategy often leads to inconsistent outcomes.",
+      "example_de": "Sich auf Improvisation statt auf Strategie zu verlassen führt oft zu inkonsistenten Ergebnissen."
+    },
+    "synonyms": [
+      { "word": "approach", "de": "Ansatz / Vorgehensweise" },
+      { "word": "plan", "de": "Plan" },
+      { "word": "method", "de": "Methode / Verfahren" }
+    ],
+    "word_family": [
+      { "word": "strategic", "pos": "adj", "de": "strategisch" },
+      { "word": "strategically", "pos": "adv", "de": "strategisch / planmäßig" },
+      { "word": "strategist", "pos": "noun", "de": "Stratege / Strategin" },
+      { "word": "strategise", "pos": "verb", "de": "eine Strategie entwickeln / planen" }
+    ],
+    "phrasal_verbs": []
+  }
+]
