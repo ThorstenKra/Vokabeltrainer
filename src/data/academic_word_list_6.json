@@ -1,0 +1,700 @@
+[
+  {
+    "id": "awl6_abstract_01",
+    "word": "abstract",
+    "group": "AWL6",
+    "group_label": "Academic Word List – Sublist 6",
+    "pos": "adj",
+    "translations": { "de": "abstrakt / theoretisch / begrifflich" },
+    "examples": [
+      {
+        "en": "Abstract theories must be grounded in empirical evidence to carry scientific weight.",
+        "de": "Abstrakte Theorien müssen in empirischen Belegen verankert sein, um wissenschaftliches Gewicht zu haben."
+      },
+      {
+        "en": "The concept of social capital remains highly abstract and difficult to operationalise.",
+        "de": "Das Konzept des Sozialkapitals bleibt sehr abstrakt und schwer zu operationalisieren."
+      }
+    ],
+    "opposite": {
+      "en": "concrete",
+      "de": "konkret / greifbar / gegenständlich",
+      "example_en": "Moving from abstract principles to concrete examples helps readers understand complex theories.",
+      "example_de": "Der Übergang von abstrakten Prinzipien zu konkreten Beispielen hilft Lesern, komplexe Theorien zu verstehen."
+    },
+    "synonyms": [
+      { "word": "theoretical", "de": "theoretisch / konzeptionell" },
+      { "word": "conceptual", "de": "konzeptionell / begrifflich" },
+      { "word": "intangible", "de": "immateriell / nicht greifbar" }
+    ],
+    "word_family": [
+      { "word": "abstract", "pos": "noun", "de": "Abstract / Zusammenfassung / Kurzfassung" },
+      { "word": "abstraction", "pos": "noun", "de": "Abstraktion / Verallgemeinerung" },
+      { "word": "abstractly", "pos": "adv", "de": "abstrakt / in abstrakter Weise" },
+      { "word": "abstracted", "pos": "adj", "de": "abstrahiert / verallgemeinert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl6_accurate_02",
+    "word": "accurate",
+    "group": "AWL6",
+    "group_label": "Academic Word List – Sublist 6",
+    "pos": "adj",
+    "translations": { "de": "genau / präzise / korrekt / zutreffend" },
+    "examples": [
+      {
+        "en": "It is essential that self-report measures yield accurate representations of participants' behaviour.",
+        "de": "Es ist unerlässlich, dass Selbstberichtsmaßnahmen genaue Darstellungen des Verhaltens der Teilnehmer liefern."
+      },
+      {
+        "en": "The model provides an accurate prediction of outcomes across a wide range of conditions.",
+        "de": "Das Modell liefert eine genaue Vorhersage der Ergebnisse unter einer Vielzahl von Bedingungen."
+      }
+    ],
+    "opposite": {
+      "en": "inaccurate",
+      "de": "ungenau / falsch / unzutreffend",
+      "example_en": "Inaccurate data collection compromises the reliability and validity of the entire study.",
+      "example_de": "Ungenaue Datenerhebung beeinträchtigt die Zuverlässigkeit und Validität der gesamten Studie."
+    },
+    "synonyms": [
+      { "word": "precise", "de": "präzise / exakt / genau" },
+      { "word": "exact", "de": "exakt / genau / korrekt" },
+      { "word": "correct", "de": "korrekt / richtig / zutreffend" }
+    ],
+    "word_family": [
+      { "word": "accurately", "pos": "adv", "de": "genau / präzise / korrekt" },
+      { "word": "accuracy", "pos": "noun", "de": "Genauigkeit / Präzision / Korrektheit" },
+      { "word": "inaccuracy", "pos": "noun", "de": "Ungenauigkeit / Fehler / Unrichtigkeit" },
+      { "word": "inaccurate", "pos": "adj", "de": "ungenau / falsch / unzutreffend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl6_acknowledge_03",
+    "word": "acknowledge",
+    "group": "AWL6",
+    "group_label": "Academic Word List – Sublist 6",
+    "pos": "verb",
+    "translations": { "de": "anerkennen / einräumen / zugeben / bestätigen" },
+    "examples": [
+      {
+        "en": "The authors acknowledge that the sample may not be representative of the broader population.",
+        "de": "Die Autoren räumen ein, dass die Stichprobe möglicherweise nicht für die breitere Bevölkerung repräsentativ ist."
+      },
+      {
+        "en": "It is important to acknowledge the contributions of all collaborators in academic publications.",
+        "de": "Es ist wichtig, die Beiträge aller Mitarbeiter in akademischen Veröffentlichungen anzuerkennen."
+      }
+    ],
+    "opposite": {
+      "en": "deny",
+      "de": "leugnen / verneinen / bestreiten",
+      "example_en": "To deny the limitations of a study weakens the credibility of its conclusions.",
+      "example_de": "Die Einschränkungen einer Studie zu leugnen schwächt die Glaubwürdigkeit ihrer Schlussfolgerungen."
+    },
+    "synonyms": [
+      { "word": "recognise", "de": "anerkennen / erkennen / würdigen" },
+      { "word": "admit", "de": "zugeben / einräumen / anerkennen" },
+      { "word": "concede", "de": "einräumen / zugestehen / zugeben" }
+    ],
+    "word_family": [
+      { "word": "acknowledgement", "pos": "noun", "de": "Anerkennung / Dankesbekundung / Bestätigung" },
+      { "word": "acknowledged", "pos": "adj", "de": "anerkannt / zugestanden / akzeptiert" },
+      { "word": "unacknowledged", "pos": "adj", "de": "nicht anerkannt / unbeachtet" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl6_assign_04",
+    "word": "assign",
+    "group": "AWL6",
+    "group_label": "Academic Word List – Sublist 6",
+    "pos": "verb",
+    "translations": { "de": "zuweisen / zuordnen / vergeben / einteilen" },
+    "examples": [
+      {
+        "en": "Participants were randomly assigned to either the control or the experimental condition.",
+        "de": "Die Teilnehmer wurden zufällig entweder der Kontroll- oder der Experimentalbedingung zugewiesen."
+      },
+      {
+        "en": "The supervisor assigned each team member a specific role within the research project.",
+        "de": "Der Betreuer wies jedem Teammitglied eine bestimmte Rolle im Forschungsprojekt zu."
+      }
+    ],
+    "opposite": {
+      "en": "withhold",
+      "de": "vorenthalten / zurückhalten / verweigern",
+      "example_en": "Resources should not be withheld from participants who require them to complete the study.",
+      "example_de": "Ressourcen sollten Teilnehmern, die sie für die Durchführung der Studie benötigen, nicht vorenthalten werden."
+    },
+    "synonyms": [
+      { "word": "allocate", "de": "zuteilen / zuweisen / vergeben" },
+      { "word": "designate", "de": "bestimmen / benennen / zuweisen" },
+      { "word": "attribute", "de": "zuschreiben / zuordnen" }
+    ],
+    "word_family": [
+      { "word": "assignment", "pos": "noun", "de": "Aufgabe / Zuweisung / Auftrag" },
+      { "word": "reassign", "pos": "verb", "de": "neu zuweisen / umverteilen" },
+      { "word": "randomly assigned", "pos": "phrase", "de": "zufällig zugeteilt / randomisiert zugewiesen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl6_cite_05",
+    "word": "cite",
+    "group": "AWL6",
+    "group_label": "Academic Word List – Sublist 6",
+    "pos": "verb",
+    "translations": { "de": "zitieren / anführen / belegen / als Beleg heranziehen" },
+    "examples": [
+      {
+        "en": "The authors cite several landmark studies to support their central argument.",
+        "de": "Die Autoren zitieren mehrere wegweisende Studien, um ihr zentrales Argument zu stützen."
+      },
+      {
+        "en": "Failure to cite sources correctly is considered a form of academic misconduct.",
+        "de": "Das fehlerhafte Zitieren von Quellen gilt als eine Form akademischen Fehlverhaltens."
+      }
+    ],
+    "opposite": {
+      "en": "plagiarise",
+      "de": "plagiieren / abschreiben / geistiges Eigentum stehlen",
+      "example_en": "To plagiarise is to use another's ideas without citation, which violates academic integrity.",
+      "example_de": "Plagiieren bedeutet, die Ideen anderer ohne Quellenangabe zu verwenden, was die akademische Integrität verletzt."
+    },
+    "synonyms": [
+      { "word": "quote", "de": "zitieren / anführen" },
+      { "word": "reference", "de": "referenzieren / als Quelle angeben" },
+      { "word": "mention", "de": "erwähnen / anführen / nennen" }
+    ],
+    "word_family": [
+      { "word": "citation", "pos": "noun", "de": "Zitat / Quellenangabe / Zitierung" },
+      { "word": "cited", "pos": "adj", "de": "zitiert / angeführt / referenziert" },
+      { "word": "frequently cited", "pos": "phrase", "de": "häufig zitiert / viel zitiert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl6_cooperate_06",
+    "word": "cooperate",
+    "group": "AWL6",
+    "group_label": "Academic Word List – Sublist 6",
+    "pos": "verb",
+    "translations": { "de": "kooperieren / zusammenarbeiten / mitwirken" },
+    "examples": [
+      {
+        "en": "Research institutions must cooperate internationally to address global challenges effectively.",
+        "de": "Forschungseinrichtungen müssen international kooperieren, um globale Herausforderungen effektiv anzugehen."
+      },
+      {
+        "en": "Participants who cooperated fully with all study procedures received a detailed debriefing.",
+        "de": "Teilnehmer, die vollständig an allen Studienverfahren mitwirkten, erhielten eine ausführliche Nachbesprechung."
+      }
+    ],
+    "opposite": {
+      "en": "compete",
+      "de": "konkurrieren / im Wettbewerb stehen",
+      "example_en": "When institutions compete for funding rather than cooperate, research duplication often results.",
+      "example_de": "Wenn Institutionen um Fördergelder konkurrieren statt zu kooperieren, kommt es häufig zu Forschungsduplizierung."
+    },
+    "synonyms": [
+      { "word": "collaborate", "de": "zusammenarbeiten / kollaborieren" },
+      { "word": "coordinate", "de": "koordinieren / abstimmen" },
+      { "word": "work together", "de": "zusammenarbeiten / gemeinsam vorgehen" }
+    ],
+    "word_family": [
+      { "word": "cooperation", "pos": "noun", "de": "Kooperation / Zusammenarbeit / Mitwirkung" },
+      { "word": "cooperative", "pos": "adj", "de": "kooperativ / zusammenarbeitend / hilfsbereit" },
+      { "word": "cooperatively", "pos": "adv", "de": "kooperativ / gemeinsam / in Zusammenarbeit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl6_discriminate_07",
+    "word": "discriminate",
+    "group": "AWL6",
+    "group_label": "Academic Word List – Sublist 6",
+    "pos": "verb",
+    "translations": { "de": "unterscheiden / diskriminieren / differenzieren" },
+    "examples": [
+      {
+        "en": "A valid instrument must be able to discriminate between high- and low-performing participants.",
+        "de": "Ein valides Messinstrument muss in der Lage sein, zwischen hoch- und niedrigleistenden Teilnehmern zu unterscheiden."
+      },
+      {
+        "en": "The study examines the extent to which employers discriminate on the basis of gender.",
+        "de": "Die Studie untersucht, in welchem Ausmaß Arbeitgeber aufgrund des Geschlechts diskriminieren."
+      }
+    ],
+    "opposite": {
+      "en": "equate",
+      "de": "gleichsetzen / gleichstellen / als gleich behandeln",
+      "example_en": "To equate all forms of feedback ignores important qualitative differences between them.",
+      "example_de": "Alle Formen von Feedback gleichzusetzen ignoriert wichtige qualitative Unterschiede zwischen ihnen."
+    },
+    "synonyms": [
+      { "word": "distinguish", "de": "unterscheiden / differenzieren" },
+      { "word": "differentiate", "de": "differenzieren / unterscheiden" },
+      { "word": "discern", "de": "erkennen / unterscheiden / wahrnehmen" }
+    ],
+    "word_family": [
+      { "word": "discrimination", "pos": "noun", "de": "Diskriminierung / Unterscheidung / Differenzierung" },
+      { "word": "discriminatory", "pos": "adj", "de": "diskriminierend / benachteiligend" },
+      { "word": "indiscriminate", "pos": "adj", "de": "unterschiedslos / wahllos / undifferenziert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl6_diverse_08",
+    "word": "diverse",
+    "group": "AWL6",
+    "group_label": "Academic Word List – Sublist 6",
+    "pos": "adj",
+    "translations": { "de": "vielfältig / unterschiedlich / divers / heterogen" },
+    "examples": [
+      {
+        "en": "A diverse sample increases the generalisability of findings to a wider population.",
+        "de": "Eine vielfältige Stichprobe erhöht die Generalisierbarkeit der Befunde auf eine breitere Bevölkerung."
+      },
+      {
+        "en": "The journal publishes research from a diverse range of disciplines and methodological traditions.",
+        "de": "Die Zeitschrift veröffentlicht Forschung aus einer Vielzahl von Disziplinen und methodologischen Traditionen."
+      }
+    ],
+    "opposite": {
+      "en": "uniform",
+      "de": "einheitlich / gleichförmig / homogen",
+      "example_en": "A uniform sample may lack the variability needed to detect meaningful group differences.",
+      "example_de": "Eine einheitliche Stichprobe kann die nötige Variabilität fehlen lassen, um bedeutsame Gruppenunterschiede aufzudecken."
+    },
+    "synonyms": [
+      { "word": "varied", "de": "unterschiedlich / abwechslungsreich" },
+      { "word": "heterogeneous", "de": "heterogen / verschiedenartig" },
+      { "word": "mixed", "de": "gemischt / unterschiedlich / vielfältig" }
+    ],
+    "word_family": [
+      { "word": "diversity", "pos": "noun", "de": "Vielfalt / Diversität / Heterogenität" },
+      { "word": "diversify", "pos": "verb", "de": "diversifizieren / vielfältiger gestalten" },
+      { "word": "diversification", "pos": "noun", "de": "Diversifizierung / Differenzierung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl6_domain_09",
+    "word": "domain",
+    "group": "AWL6",
+    "group_label": "Academic Word List – Sublist 6",
+    "pos": "noun",
+    "translations": { "de": "Bereich / Domäne / Fachgebiet / Wissensgebiet" },
+    "examples": [
+      {
+        "en": "The study spans multiple academic domains, including linguistics, psychology, and education.",
+        "de": "Die Studie erstreckt sich über mehrere akademische Bereiche, darunter Linguistik, Psychologie und Bildungswissenschaft."
+      },
+      {
+        "en": "Within the domain of public health, preventive measures are generally preferred over treatment.",
+        "de": "Im Bereich der öffentlichen Gesundheit werden präventive Maßnahmen im Allgemeinen der Behandlung vorgezogen."
+      }
+    ],
+    "opposite": {
+      "en": "periphery",
+      "de": "Randbereich / Peripherie / Randgebiet",
+      "example_en": "Ideas that originate at the periphery of a field often generate the most transformative insights.",
+      "example_de": "Ideen, die am Rand eines Fachgebiets entstehen, erzeugen oft die transformativsten Erkenntnisse."
+    },
+    "synonyms": [
+      { "word": "field", "de": "Feld / Fachgebiet / Bereich" },
+      { "word": "area", "de": "Bereich / Gebiet / Sektor" },
+      { "word": "sphere", "de": "Sphäre / Bereich / Gebiet" }
+    ],
+    "word_family": [
+      { "word": "domains", "pos": "noun", "de": "Bereiche / Domänen / Fachgebiete (Plural)" },
+      { "word": "domain-specific", "pos": "adj", "de": "domänenspezifisch / fachgebietsspezifisch" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl6_enhance_10",
+    "word": "enhance",
+    "group": "AWL6",
+    "group_label": "Academic Word List – Sublist 6",
+    "pos": "verb",
+    "translations": { "de": "verbessern / steigern / erhöhen / stärken" },
+    "examples": [
+      {
+        "en": "Mixed-methods designs can enhance the depth and breadth of research findings.",
+        "de": "Gemischte Methoden können die Tiefe und Breite von Forschungsergebnissen verbessern."
+      },
+      {
+        "en": "Providing clear feedback enhances student motivation and academic performance.",
+        "de": "Klares Feedback verbessert die Motivation und die schulische Leistung der Studierenden."
+      }
+    ],
+    "opposite": {
+      "en": "diminish",
+      "de": "verringern / mindern / abschwächen",
+      "example_en": "Poorly designed instruments diminish the quality and comparability of collected data.",
+      "example_de": "Schlecht konzipierte Instrumente verringern die Qualität und Vergleichbarkeit der erhobenen Daten."
+    },
+    "synonyms": [
+      { "word": "improve", "de": "verbessern / steigern" },
+      { "word": "strengthen", "de": "stärken / festigen / verstärken" },
+      { "word": "augment", "de": "vergrößern / ergänzen / steigern" }
+    ],
+    "word_family": [
+      { "word": "enhancement", "pos": "noun", "de": "Verbesserung / Steigerung / Aufwertung" },
+      { "word": "enhanced", "pos": "adj", "de": "verbessert / erhöht / gesteigert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl6_explicit_11",
+    "word": "explicit",
+    "group": "AWL6",
+    "group_label": "Academic Word List – Sublist 6",
+    "pos": "adj",
+    "translations": { "de": "explizit / ausdrücklich / eindeutig / klar formuliert" },
+    "examples": [
+      {
+        "en": "The research questions must be explicit so that readers can evaluate the appropriateness of the methods.",
+        "de": "Die Forschungsfragen müssen explizit formuliert sein, damit Leser die Angemessenheit der Methoden beurteilen können."
+      },
+      {
+        "en": "The paper makes explicit the theoretical assumptions underpinning the analytical framework.",
+        "de": "Das Paper legt die theoretischen Annahmen, die dem analytischen Rahmen zugrunde liegen, explizit dar."
+      }
+    ],
+    "opposite": {
+      "en": "implicit",
+      "de": "implizit / stillschweigend / unausgesprochen",
+      "example_en": "Many assumptions in traditional research designs remain implicit rather than being openly stated.",
+      "example_de": "Viele Annahmen in traditionellen Forschungsdesigns bleiben implizit, anstatt offen ausgesprochen zu werden."
+    },
+    "synonyms": [
+      { "word": "clear", "de": "klar / deutlich / eindeutig" },
+      { "word": "specific", "de": "spezifisch / konkret / bestimmt" },
+      { "word": "unambiguous", "de": "eindeutig / unmissverständlich" }
+    ],
+    "word_family": [
+      { "word": "explicitly", "pos": "adv", "de": "explizit / ausdrücklich / eindeutig" },
+      { "word": "explicitness", "pos": "noun", "de": "Explizitheit / Eindeutigkeit / Klarheit" },
+      { "word": "implicit", "pos": "adj", "de": "implizit / stillschweigend / unausgesprochen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl6_flexible_12",
+    "word": "flexible",
+    "group": "AWL6",
+    "group_label": "Academic Word List – Sublist 6",
+    "pos": "adj",
+    "translations": { "de": "flexibel / anpassungsfähig / variabel / beweglich" },
+    "examples": [
+      {
+        "en": "Qualitative approaches are flexible enough to accommodate emerging themes during data collection.",
+        "de": "Qualitative Ansätze sind flexibel genug, um während der Datenerhebung entstehende Themen aufzunehmen."
+      },
+      {
+        "en": "A flexible research design allows the team to respond to unexpected findings as they arise.",
+        "de": "Ein flexibles Forschungsdesign ermöglicht es dem Team, auf unerwartete Befunde zu reagieren, sobald sie auftreten."
+      }
+    ],
+    "opposite": {
+      "en": "rigid",
+      "de": "starr / unflexibel / unbeweglich",
+      "example_en": "A rigid experimental protocol leaves no room to adapt when real-world conditions change.",
+      "example_de": "Ein starres Versuchsprotokoll lässt keinen Raum für Anpassungen, wenn sich die realen Bedingungen ändern."
+    },
+    "synonyms": [
+      { "word": "adaptable", "de": "anpassungsfähig / wandlungsfähig" },
+      { "word": "versatile", "de": "vielseitig / flexibel / anpassungsfähig" },
+      { "word": "adjustable", "de": "einstellbar / anpassbar / regulierbar" }
+    ],
+    "word_family": [
+      { "word": "flexibility", "pos": "noun", "de": "Flexibilität / Anpassungsfähigkeit / Beweglichkeit" },
+      { "word": "inflexible", "pos": "adj", "de": "unflexibel / starr / unnachgiebig" },
+      { "word": "inflexibility", "pos": "noun", "de": "Unflexibilität / Starrheit / Unnachgiebigkeit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl6_furthermore_13",
+    "word": "furthermore",
+    "group": "AWL6",
+    "group_label": "Academic Word List – Sublist 6",
+    "pos": "adv",
+    "translations": { "de": "darüber hinaus / außerdem / ferner / überdies" },
+    "examples": [
+      {
+        "en": "The findings are statistically significant; furthermore, they are consistent across all subgroups.",
+        "de": "Die Ergebnisse sind statistisch signifikant; darüber hinaus sind sie über alle Untergruppen hinweg konsistent."
+      },
+      {
+        "en": "The intervention reduced costs; furthermore, it improved participant wellbeing considerably.",
+        "de": "Die Intervention senkte die Kosten; außerdem verbesserte sie das Wohlbefinden der Teilnehmer erheblich."
+      }
+    ],
+    "opposite": {
+      "en": "however",
+      "de": "jedoch / dennoch / allerdings",
+      "example_en": "The model performed well in laboratory settings; however, real-world results were less consistent.",
+      "example_de": "Das Modell schnitt in Laborumgebungen gut ab; in der Realität waren die Ergebnisse jedoch weniger konsistent."
+    },
+    "synonyms": [
+      { "word": "moreover", "de": "darüber hinaus / außerdem / überdies" },
+      { "word": "additionally", "de": "zusätzlich / darüber hinaus / auch" },
+      { "word": "in addition", "de": "zusätzlich / außerdem / darüber hinaus" }
+    ],
+    "word_family": [
+      { "word": "further", "pos": "adv", "de": "weiter / ferner / darüber hinaus" },
+      { "word": "further", "pos": "adj", "de": "weiterer / zusätzlicher" },
+      { "word": "furthest", "pos": "adj", "de": "weitest / am weitesten entfernt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl6_integrate_14",
+    "word": "integrate",
+    "group": "AWL6",
+    "group_label": "Academic Word List – Sublist 6",
+    "pos": "verb",
+    "translations": { "de": "integrieren / einbeziehen / vereinen / zusammenführen" },
+    "examples": [
+      {
+        "en": "The review integrates evidence from over one hundred studies conducted across four continents.",
+        "de": "Die Übersichtsarbeit integriert Belege aus über hundert Studien, die auf vier Kontinenten durchgeführt wurden."
+      },
+      {
+        "en": "Researchers increasingly seek to integrate quantitative and qualitative approaches within a single study.",
+        "de": "Forscher versuchen zunehmend, quantitative und qualitative Ansätze in einer einzigen Studie zu integrieren."
+      }
+    ],
+    "opposite": {
+      "en": "separate",
+      "de": "trennen / separieren / auseinanderhalten",
+      "example_en": "The analytical framework deliberately separates social and economic factors to examine each in isolation.",
+      "example_de": "Der analytische Rahmen trennt bewusst soziale und wirtschaftliche Faktoren, um jeden isoliert zu untersuchen."
+    },
+    "synonyms": [
+      { "word": "combine", "de": "kombinieren / verbinden / zusammenführen" },
+      { "word": "incorporate", "de": "einbeziehen / integrieren / aufnehmen" },
+      { "word": "merge", "de": "zusammenführen / verschmelzen / vereinen" }
+    ],
+    "word_family": [
+      { "word": "integration", "pos": "noun", "de": "Integration / Eingliederung / Zusammenführung" },
+      { "word": "integrated", "pos": "adj", "de": "integriert / einbezogen / vereint" },
+      { "word": "integrative", "pos": "adj", "de": "integrativ / zusammenführend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl6_interpret_15",
+    "word": "interpret",
+    "group": "AWL6",
+    "group_label": "Academic Word List – Sublist 6",
+    "pos": "verb",
+    "translations": { "de": "interpretieren / auslegen / deuten / verstehen" },
+    "examples": [
+      {
+        "en": "Results must be interpreted with caution, particularly when the sample size is small.",
+        "de": "Ergebnisse müssen mit Vorsicht interpretiert werden, insbesondere wenn die Stichprobengröße gering ist."
+      },
+      {
+        "en": "Different theoretical perspectives can lead researchers to interpret the same data in contrasting ways.",
+        "de": "Unterschiedliche theoretische Perspektiven können dazu führen, dass Forscher dieselben Daten auf gegensätzliche Weise interpretieren."
+      }
+    ],
+    "opposite": {
+      "en": "misinterpret",
+      "de": "falsch interpretieren / missverstehen / fehldeuten",
+      "example_en": "A common error is to misinterpret correlation as evidence of a causal relationship.",
+      "example_de": "Ein häufiger Fehler besteht darin, Korrelation als Beweis für einen Kausalzusammenhang falsch zu interpretieren."
+    },
+    "synonyms": [
+      { "word": "analyse", "de": "analysieren / auswerten / untersuchen" },
+      { "word": "explain", "de": "erklären / erläutern / darlegen" },
+      { "word": "construe", "de": "auffassen / deuten / auslegen" }
+    ],
+    "word_family": [
+      { "word": "interpretation", "pos": "noun", "de": "Interpretation / Deutung / Auslegung" },
+      { "word": "interpretive", "pos": "adj", "de": "interpretativ / deutend / auslegend" },
+      { "word": "misinterpretation", "pos": "noun", "de": "Fehldeutung / Missverständnis / Fehlinterpretation" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl6_negate_16",
+    "word": "negate",
+    "group": "AWL6",
+    "group_label": "Academic Word List – Sublist 6",
+    "pos": "verb",
+    "translations": { "de": "negieren / aufheben / verneinen / zunichte machen" },
+    "examples": [
+      {
+        "en": "Sampling bias can negate the external validity of otherwise well-designed studies.",
+        "de": "Stichprobenverzerrung kann die externe Validität ansonsten gut konzipierter Studien zunichte machen."
+      },
+      {
+        "en": "The new evidence does not negate the previous findings but adds important nuance to them.",
+        "de": "Die neuen Belege negieren die früheren Erkenntnisse nicht, sondern fügen ihnen wichtige Nuancen hinzu."
+      }
+    ],
+    "opposite": {
+      "en": "confirm",
+      "de": "bestätigen / bekräftigen / untermauern",
+      "example_en": "The replication study confirms rather than negates the original findings.",
+      "example_de": "Die Replikationsstudie bestätigt die ursprünglichen Befunde, anstatt sie zu negieren."
+    },
+    "synonyms": [
+      { "word": "invalidate", "de": "ungültig machen / widerlegen / entwerten" },
+      { "word": "cancel out", "de": "aufheben / ausgleichen / neutralisieren" },
+      { "word": "nullify", "de": "annullieren / aufheben / nichtig machen" }
+    ],
+    "word_family": [
+      { "word": "negation", "pos": "noun", "de": "Negation / Verneinung / Aufhebung" },
+      { "word": "negative", "pos": "adj", "de": "negativ / verneinend / ablehnend" },
+      { "word": "negatively", "pos": "adv", "de": "negativ / ablehnend / nachteilig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl6_overlap_17",
+    "word": "overlap",
+    "group": "AWL6",
+    "group_label": "Academic Word List – Sublist 6",
+    "pos": "verb",
+    "translations": { "de": "überschneiden / überlappen / zusammenfallen / Gemeinsamkeiten haben" },
+    "examples": [
+      {
+        "en": "The findings of the two studies overlap considerably, suggesting a robust underlying pattern.",
+        "de": "Die Befunde der beiden Studien überschneiden sich erheblich, was auf ein robustes zugrunde liegendes Muster hindeutet."
+      },
+      {
+        "en": "The concepts of validity and reliability overlap but address distinct aspects of measurement quality.",
+        "de": "Die Konzepte Validität und Reliabilität überschneiden sich, befassen sich jedoch mit unterschiedlichen Aspekten der Messqualität."
+      }
+    ],
+    "opposite": {
+      "en": "diverge",
+      "de": "auseinandergehen / abweichen / divergieren",
+      "example_en": "The two methodologies diverge at the point of data interpretation rather than collection.",
+      "example_de": "Die beiden Methoden divergieren im Punkt der Dateninterpretation und nicht bei der Erhebung."
+    },
+    "synonyms": [
+      { "word": "coincide", "de": "zusammenfallen / übereinstimmen" },
+      { "word": "intersect", "de": "sich schneiden / überschneiden / kreuzen" },
+      { "word": "converge", "de": "konvergieren / zusammenlaufen / sich annähern" }
+    ],
+    "word_family": [
+      { "word": "overlap", "pos": "noun", "de": "Überschneidung / Überlappung / Gemeinsamkeit" },
+      { "word": "overlapping", "pos": "adj", "de": "sich überschneidend / überlappend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl6_retain_18",
+    "word": "retain",
+    "group": "AWL6",
+    "group_label": "Academic Word List – Sublist 6",
+    "pos": "verb",
+    "translations": { "de": "beibehalten / bewahren / behalten / aufrechterhalten" },
+    "examples": [
+      {
+        "en": "The revised model retains the core assumptions of the original while addressing its limitations.",
+        "de": "Das überarbeitete Modell behält die Kernannahmen des Originals bei und geht gleichzeitig auf seine Einschränkungen ein."
+      },
+      {
+        "en": "It is difficult to retain participants over the full duration of a long-term longitudinal study.",
+        "de": "Es ist schwierig, Teilnehmer über die gesamte Dauer einer langfristigen Längsschnittstudie zu halten."
+      }
+    ],
+    "opposite": {
+      "en": "discard",
+      "de": "verwerfen / aufgeben / wegwerfen",
+      "example_en": "Researchers should not discard data that contradicts the hypothesis without careful justification.",
+      "example_de": "Forscher sollten Daten, die der Hypothese widersprechen, nicht ohne sorgfältige Begründung verwerfen."
+    },
+    "synonyms": [
+      { "word": "keep", "de": "behalten / beibehalten / aufbewahren" },
+      { "word": "maintain", "de": "aufrechterhalten / beibehalten / wahren" },
+      { "word": "preserve", "de": "bewahren / erhalten / sichern" }
+    ],
+    "word_family": [
+      { "word": "retention", "pos": "noun", "de": "Beibehaltung / Bindung / Aufbewahrung" },
+      { "word": "retainable", "pos": "adj", "de": "behaltbar / bewahrbar" },
+      { "word": "participant retention", "pos": "phrase", "de": "Teilnehmerbindung / Aufrechterhaltung der Studienteilnahme" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl6_trigger_19",
+    "word": "trigger",
+    "group": "AWL6",
+    "group_label": "Academic Word List – Sublist 6",
+    "pos": "verb",
+    "translations": { "de": "auslösen / verursachen / anstoßen / triggern" },
+    "examples": [
+      {
+        "en": "Environmental stressors can trigger physiological responses that alter long-term health outcomes.",
+        "de": "Umweltstressoren können physiologische Reaktionen auslösen, die langfristige Gesundheitsergebnisse verändern."
+      },
+      {
+        "en": "The publication of the findings triggered considerable debate within the academic community.",
+        "de": "Die Veröffentlichung der Ergebnisse löste in der wissenschaftlichen Gemeinschaft eine erhebliche Debatte aus."
+      }
+    ],
+    "opposite": {
+      "en": "suppress",
+      "de": "unterdrücken / hemmen / dämpfen",
+      "example_en": "Medication was used to suppress the immune response during the experimental phase.",
+      "example_de": "Medikamente wurden eingesetzt, um die Immunreaktion während der Versuchsphase zu unterdrücken."
+    },
+    "synonyms": [
+      { "word": "cause", "de": "verursachen / bewirken / auslösen" },
+      { "word": "initiate", "de": "einleiten / auslösen / initiieren" },
+      { "word": "prompt", "de": "veranlassen / anregen / anstoßen" }
+    ],
+    "word_family": [
+      { "word": "trigger", "pos": "noun", "de": "Auslöser / Trigger / Ursache" },
+      { "word": "triggered", "pos": "adj", "de": "ausgelöst / verursacht / angestoßen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl6_welfare_20",
+    "word": "welfare",
+    "group": "AWL6",
+    "group_label": "Academic Word List – Sublist 6",
+    "pos": "noun",
+    "translations": { "de": "Wohlfahrt / Wohlbefinden / Wohl / soziale Absicherung" },
+    "examples": [
+      {
+        "en": "Research ethics require that participant welfare is protected throughout the entire study.",
+        "de": "Die Forschungsethik verlangt, dass das Wohlbefinden der Teilnehmer während der gesamten Studie geschützt wird."
+      },
+      {
+        "en": "The study evaluates the impact of housing policy on the long-term welfare of low-income households.",
+        "de": "Die Studie bewertet die Auswirkungen der Wohnungspolitik auf das langfristige Wohlbefinden von Haushalten mit niedrigem Einkommen."
+      }
+    ],
+    "opposite": {
+      "en": "harm",
+      "de": "Schaden / Nachteil / Beeinträchtigung",
+      "example_en": "Any research protocol that risks causing harm to participants must be reviewed by an ethics board.",
+      "example_de": "Jedes Forschungsprotokoll, das Teilnehmer zu schädigen riskiert, muss von einer Ethikkommission geprüft werden."
+    },
+    "synonyms": [
+      { "word": "wellbeing", "de": "Wohlbefinden / Wohlergehen" },
+      { "word": "benefit", "de": "Nutzen / Vorteil / Wohlfahrt" },
+      { "word": "prosperity", "de": "Wohlstand / Gedeihen / Prosperität" }
+    ],
+    "word_family": [
+      { "word": "welfare state", "pos": "phrase", "de": "Wohlfahrtsstaat / Sozialstaat" },
+      { "word": "social welfare", "pos": "phrase", "de": "Sozialfürsorge / soziale Wohlfahrt" },
+      { "word": "animal welfare", "pos": "phrase", "de": "Tierschutz / Tierwohl" }
+    ],
+    "phrasal_verbs": []
+  }
+]
