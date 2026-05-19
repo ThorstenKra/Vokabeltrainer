@@ -106,6 +106,7 @@ h1{font-family:var(--serif);font-size:28px;font-weight:400}h2{font-size:20px;fon
     <button class="btn bp bsm" style="flex:1;min-width:100px" id="btn-mc">Multiple Choice</button>
     <button class="btn bg bsm" style="flex:1;min-width:100px" id="btn-fl">Karteikarten</button>
     <button class="btn bg bsm" style="flex:1;min-width:100px" id="btn-cz">L&uuml;ckentext</button>
+    <button class="btn bg bsm" style="flex:1;min-width:100px" id="btn-ls">&#127911; H&ouml;ren</button>
   </div>
   <div class="sgrid mt12">
     <div class="scard"><div class="sval" id="h-streak">0</div><div class="slbl">Streak</div></div>
@@ -125,10 +126,11 @@ h1{font-family:var(--serif);font-size:28px;font-weight:400}h2{font-size:20px;fon
     <span class="mu xs" id="l-prog">0/0</span>
   </div>
   <div class="bar mt10"><div class="bfill" id="l-bar" style="width:0%"></div></div>
-  <div class="flex gap8 mt10">
-    <button id="m-mc" class="btn bp bsm" style="flex:1">Multiple Choice</button>
-    <button id="m-fl" class="btn bg bsm" style="flex:1">Karteikarten</button>
-    <button id="m-cz" class="btn bg bsm" style="flex:1">L&uuml;ckentext</button>
+  <div class="flex gap8 mt10" style="flex-wrap:wrap">
+    <button id="m-mc" class="btn bp bsm" style="flex:1 1 calc(50% - 4px)">Multiple Choice</button>
+    <button id="m-fl" class="btn bg bsm" style="flex:1 1 calc(50% - 4px)">Karteikarten</button>
+    <button id="m-cz" class="btn bg bsm" style="flex:1 1 calc(50% - 4px)">L&uuml;ckentext</button>
+    <button id="m-ls" class="btn bg bsm" style="flex:1 1 calc(50% - 4px)">&#127911; H&ouml;ren</button>
   </div>
   <div class="flex jb ai mt8">
     <span class="mu xs" id="l-dir">DE &rarr; EN</span>
@@ -178,6 +180,22 @@ h1{font-family:var(--serif);font-size:28px;font-weight:400}h2{font-size:20px;fon
       <button class="btn bg bsm" id="btn-ex-mc">Beispiel</button>
       <span class="mu xs" id="mc-hint" style="flex:1"></span>
       <button class="btn bg bsm" id="btn-known">Bekannt</button>
+    </div>
+  </div>
+  <div id="ls-wrap" class="mt12 hidden">
+    <div style="text-align:center;padding:20px 0 14px">
+      <div style="font-size:64px">&#128266;</div>
+      <div class="xs mu mt8">H&ouml;r das Wort und w&auml;hle die &Uuml;bersetzung</div>
+      <div class="flex ai gap8 mt10" style="justify-content:center">
+        <button class="btn bg bsm" id="btn-ls-again">&#128257; Nochmal</button>
+        <button class="btn bg bsm" id="btn-ls-slow">&#128034; Langsam</button>
+      </div>
+    </div>
+    <div id="ls-word" style="font-family:var(--serif);font-size:28px;color:var(--ac);text-align:center;margin-bottom:12px;display:none"></div>
+    <div class="mcopts" id="ls-opts"></div>
+    <div id="ls-ex" class="hidden" style="background:var(--s2);border-radius:var(--R);padding:12px 14px;margin-top:10px">
+      <div class="xs mu">Beispiel</div>
+      <div style="font-size:14px;margin-top:4px;font-style:italic;color:var(--ac)" id="ls-ex-en"></div>
     </div>
   </div>
   <div id="cz-wrap" class="mt12 hidden">
@@ -867,6 +885,7 @@ function gdist(cur,n){var p=[],i;for(i=0;i<VA.length;i++){if(VA[i].id!==cur.id)p
 
 // TTS
 function speak(txt,spd){try{if(!("speechSynthesis"in window))return;window.speechSynthesis.cancel();var u=new SpeechSynthesisUtterance(txt);u.lang=CFG.ttsLocale;u.rate=spd||0.9;try{var vs=window.speechSynthesis.getVoices();for(var i=0;i<vs.length;i++){if(vs[i].lang===u.lang){u.voice=vs[i];break;}}}catch(e){}window.speechSynthesis.speak(u);}catch(e){}}
+function spkLS(txt,spd){try{if(!("speechSynthesis"in window))return;window.speechSynthesis.cancel();var u=new SpeechSynthesisUtterance(txt);u.lang="en-US";u.rate=spd||0.85;try{var vs=window.speechSynthesis.getVoices(),i,fb=null;for(i=0;i<vs.length;i++){if(vs[i].lang==="en-US"){u.voice=vs[i];fb=null;break;}if(!fb&&vs[i].lang.indexOf("en-")===0)fb=vs[i];}if(!u.voice&&fb)u.voice=fb;}catch(e){}setTimeout(function(){window.speechSynthesis.speak(u);},50);}catch(e){}}
 
 // TOAST
 var _tt=null;
@@ -901,8 +920,8 @@ HK["sc-home"]=rh;
 var _lq=[],_li=0,_lok=0,_mode="mc",_dir="de_to_target",_cur=null,_rev=false,_lkd=false,_czAnswered=false,_czFull="";
 function linit(params){var p=lp(),ls=lls();if(params&&params.mode)_mode=params.mode;_dir=p.dir||"de_to_target";_li=0;_lok=0;if(params&&params.mod&&MV[params.mod]){_lq=MV[params.mod].slice();for(var i=_lq.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=_lq[i];_lq[i]=_lq[j];_lq[j]=t;}}else{_lq=bq(ls,p.goal,p.startLv);}rlh();hui();rc();}
 HK["sc-learn"]=linit;
-function rlh(){el("m-mc").className="btn bsm"+(_mode==="mc"?" bp":" bg");el("m-fl").className="btn bsm"+(_mode==="flash"?" bp":" bg");el("m-cz").className="btn bsm"+(_mode==="cloze"?" bp":" bg");el("l-dir").textContent=_dir==="de_to_target"?"DE > EN":"EN > DE";}
-function hui(){el("fc-wrap").classList.add("hidden");el("mc-wrap").classList.add("hidden");el("cz-wrap").classList.add("hidden");el("done-wrap").classList.add("hidden");}
+function rlh(){el("m-mc").className="btn bsm"+(_mode==="mc"?" bp":" bg");el("m-fl").className="btn bsm"+(_mode==="flash"?" bp":" bg");el("m-cz").className="btn bsm"+(_mode==="cloze"?" bp":" bg");el("m-ls").className="btn bsm"+(_mode==="listen"?" bp":" bg");el("l-dir").textContent=_dir==="de_to_target"?"DE > EN":"EN > DE";}
+function hui(){el("fc-wrap").classList.add("hidden");el("mc-wrap").classList.add("hidden");el("ls-wrap").classList.add("hidden");el("cz-wrap").classList.add("hidden");el("done-wrap").classList.add("hidden");}
 function rc(){
   if(_li>=_lq.length){sdone();return;}
   _cur=_lq[_li];_rev=false;_lkd=false;
@@ -912,7 +931,7 @@ function rc(){
   el("l-tp").textContent=_cur.tp||"";el("l-lv").textContent=_cur.lv||"";
   var mn="",mk;for(mk in MV){var w=MV[mk],j;for(j=0;j<w.length;j++){if(w[j].id===_cur.id){for(var mi=0;mi<MODS.length;mi++){if(MODS[mi].id===mk){mn=MODS[mi].name;break;}}break;}}}
   el("l-mod").textContent=mn;
-  if(_mode==="mc")rmc();else if(_mode==="cloze")rcz();else rfl();
+  if(_mode==="mc")rmc();else if(_mode==="cloze")rcz();else if(_mode==="listen")rls();else rfl();
 }
 function rfl(){hui();el("fc-wrap").classList.remove("hidden");el("rrow").classList.add("hidden");var isDE=_dir==="de_to_target";el("fc-dl").textContent=isDE?"Deutsch":"Englisch";el("fc-front").textContent=isDE?_cur.de:_cur.target;el("fc-ph").textContent=(!isDE&&_cur.phonetic)?_cur.phonetic:"";var def=el("fc-def");if(_cur.definition&&_cur.definition.en){def.textContent=_cur.definition.en;def.style.display="";}else{def.style.display="none";}el("fc-hint").style.display="";el("fc-back").classList.remove("on");}
 function czMainWord(t){return t.replace(/^to /,"").split("/")[0].trim().split(" ")[0];}
@@ -1020,6 +1039,8 @@ function rev(){
 }
 function rmc(){hui();el("mc-wrap").classList.remove("hidden");el("mc-hint").textContent="";var isDE=_dir==="de_to_target";el("mc-q").textContent=isDE?_cur.de:_cur.target;var dist=gdist(_cur,3),opts=[_cur].concat(dist),i;for(i=opts.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=opts[i];opts[i]=opts[j];opts[j]=t;}var c=el("mc-opts");c.innerHTML="";for(i=0;i<opts.length;i++){(function(opt){var b=document.createElement("button");b.className="mcopt";b.textContent=isDE?opt.target:opt.de;b.onclick=function(){hmc(b,opt.id===_cur.id);};c.appendChild(b);})(opts[i]);}}
 function hmc(btn,ok){if(_lkd)return;_lkd=true;var isDE=_dir==="de_to_target";if(ok){btn.classList.add("ok");_lok++;setTimeout(function(){rate(2);},800);}else{btn.classList.add("er");var ct=isDE?_cur.target:_cur.de,btns=document.querySelectorAll(".mcopt"),i;for(i=0;i<btns.length;i++){if(btns[i].textContent===ct)btns[i].classList.add("ok");}setTimeout(function(){rate(0);},1200);}}
+function rls(){hui();el("ls-wrap").classList.remove("hidden");el("ls-word").style.display="none";el("ls-ex").classList.add("hidden");setTimeout(function(){spkLS(_cur.target,0.85);},250);var dist=gdist(_cur,3),opts=[_cur].concat(dist),i;for(i=opts.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=opts[i];opts[i]=opts[j];opts[j]=t;}var c=el("ls-opts");c.innerHTML="";for(i=0;i<opts.length;i++){(function(opt){var b=document.createElement("button");b.className="mcopt";b.textContent=opt.de;b.onclick=function(){hls(b,opt.id===_cur.id);};c.appendChild(b);})(opts[i]);}}
+function hls(btn,ok){if(_lkd)return;_lkd=true;var lsw=el("ls-word");lsw.textContent=_cur.target;lsw.style.display="block";var btns=document.querySelectorAll("#ls-opts .mcopt"),i;for(i=0;i<btns.length;i++){btns[i].disabled=true;}if(ok){btn.classList.add("ok");_lok++;for(i=0;i<btns.length;i++){if(btns[i].textContent===_cur.de&&btns[i]!==btn)btns[i].classList.add("ok");}var ex=_cur.examples&&_cur.examples[0];if(ex&&ex.en){el("ls-ex-en").textContent=ex.en;el("ls-ex").classList.remove("hidden");setTimeout(function(){spkLS(ex.en,0.85);},500);}setTimeout(function(){rate(2);},1600);}else{btn.classList.add("er");for(i=0;i<btns.length;i++){if(btns[i].textContent===_cur.de)btns[i].classList.add("ok");}var ex2=_cur.examples&&_cur.examples[0];if(ex2&&ex2.en){el("ls-ex-en").textContent=ex2.en;el("ls-ex").classList.remove("hidden");setTimeout(function(){spkLS(ex2.en,0.85);},500);}setTimeout(function(){rate(0);},2000);}}
 function rate(q){var ls=lls(),ns=sm2(ls[_cur.id]||null,q);ls[_cur.id]=ns;sls(ls);var p=lp();p=ustrk(p);sp(p);sday(lday()+1);_li++;rc();}
 function mkn(){if(!_cur)return;var d=new Date();d.setDate(d.getDate()+90);var ls=lls();ls[_cur.id]={interval:90,repetitions:5,easeFactor:2.5,nextReview:d.toISOString().slice(0,10)};sls(ls);toast("Bekannt +","ok");setTimeout(function(){_li++;rc();},600);}
 function spk(){var p=lp();if(!p.ttsOn||!_cur)return;speak(_dir==="de_to_target"?_cur.target:_cur.de,p.ttsSpd);}
@@ -1084,6 +1105,7 @@ function bind(){
 el("btn-mc").onclick=mcStart;
   el("btn-fl").onclick=function(){goTo("sc-learn",{mode:"flash"});};
   el("btn-cz").onclick=function(){goTo("sc-learn",{mode:"cloze"});};
+  el("btn-ls").onclick=function(){goTo("sc-learn",{mode:"listen"});};
   el("cz-next").onclick=function(){_li++;rc();};
   el("n-home").onclick=function(){goTo("sc-home");};
   el("n-learn").onclick=function(){goTo("sc-learn",{});};
@@ -1095,6 +1117,9 @@ el("btn-mc").onclick=mcStart;
   el("m-mc").onclick=function(){_mode="mc";_li=0;_lok=0;var p=lp(),ls=lls();_lq=bq(ls,p.goal,p.startLv);rlh();hui();rc();};
   el("m-fl").onclick=function(){_mode="flash";_li=0;_lok=0;var p=lp(),ls=lls();_lq=bq(ls,p.goal,p.startLv);rlh();hui();rc();};
   el("m-cz").onclick=function(){_mode="cloze";_li=0;_lok=0;var p=lp(),ls=lls();_lq=bq(ls,p.goal,p.startLv);rlh();hui();rc();};
+  el("m-ls").onclick=function(){_mode="listen";_li=0;_lok=0;var p=lp(),ls=lls();_lq=bq(ls,p.goal,p.startLv);rlh();hui();rc();};
+  el("btn-ls-again").onclick=function(){if(_cur)spkLS(_cur.target,0.85);};
+  el("btn-ls-slow").onclick=function(){if(_cur)spkLS(_cur.target,0.6);};
   el("btn-dir").onclick=function(){var p=lp();_dir=_dir==="de_to_target"?"target_to_de":"de_to_target";p.dir=_dir;sp(p);rlh();rc();};
   el("fcard").onclick=function(){rev();};
   el("r0").onclick=function(){rate(0);};el("r1").onclick=function(){rate(1);};el("r2").onclick=function(){rate(2);};el("r3").onclick=function(){rate(3);};
