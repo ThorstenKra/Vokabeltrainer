@@ -1,0 +1,704 @@
+[
+  {
+    "id": "awl8_ambiguous_01",
+    "word": "ambiguous",
+    "group": "AWL8",
+    "group_label": "Academic Word List – Sublist 8",
+    "pos": "adj",
+    "translations": { "de": "mehrdeutig / zweideutig / unklar / vieldeutig" },
+    "examples": [
+      {
+        "en": "Survey items that are ambiguous can produce unreliable data that is difficult to interpret.",
+        "de": "Mehrdeutige Umfrageelemente können unzuverlässige Daten erzeugen, die schwer zu interpretieren sind."
+      },
+      {
+        "en": "The ambiguous wording of the policy left researchers uncertain about which methods were permissible.",
+        "de": "Die mehrdeutige Formulierung der Richtlinie ließ Forscher darüber im Unklaren, welche Methoden zulässig waren."
+      }
+    ],
+    "opposite": {
+      "en": "unambiguous",
+      "de": "eindeutig / unmissverständlich / klar",
+      "example_en": "Unambiguous research questions lead to more focused study designs and interpretable results.",
+      "example_de": "Eindeutige Forschungsfragen führen zu fokussierteren Studiendesigns und interpretierbaren Ergebnissen."
+    },
+    "synonyms": [
+      { "word": "unclear", "de": "unklar / undeutlich / vage" },
+      { "word": "vague", "de": "vage / unbestimmt / verschwommen" },
+      { "word": "equivocal", "de": "zweideutig / mehrdeutig / unklar" }
+    ],
+    "word_family": [
+      { "word": "ambiguity", "pos": "noun", "de": "Mehrdeutigkeit / Zweideutigkeit / Unklarheit" },
+      { "word": "ambiguously", "pos": "adv", "de": "mehrdeutig / zweideutig / unklar" },
+      { "word": "unambiguous", "pos": "adj", "de": "eindeutig / unmissverständlich / klar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl8_appreciate_02",
+    "word": "appreciate",
+    "group": "AWL8",
+    "group_label": "Academic Word List – Sublist 8",
+    "pos": "verb",
+    "translations": { "de": "wertschätzen / erkennen / einschätzen / würdigen" },
+    "examples": [
+      {
+        "en": "Researchers must appreciate the cultural context of their participants before designing instruments.",
+        "de": "Forscher müssen den kulturellen Kontext ihrer Teilnehmer erkennen, bevor sie Instrumente entwickeln."
+      },
+      {
+        "en": "It is important to appreciate that correlation does not establish causation.",
+        "de": "Es ist wichtig zu erkennen, dass Korrelation keine Kausalität begründet."
+      }
+    ],
+    "opposite": {
+      "en": "overlook",
+      "de": "übersehen / unterschätzen / ignorieren",
+      "example_en": "Researchers who overlook methodological nuances risk producing superficial and misleading findings.",
+      "example_de": "Forscher, die methodische Nuancen übersehen, riskieren oberflächliche und irreführende Erkenntnisse."
+    },
+    "synonyms": [
+      { "word": "recognise", "de": "erkennen / anerkennen / würdigen" },
+      { "word": "understand", "de": "verstehen / erkennen / begreifen" },
+      { "word": "value", "de": "wertschätzen / schätzen / anerkennen" }
+    ],
+    "word_family": [
+      { "word": "appreciation", "pos": "noun", "de": "Wertschätzung / Verständnis / Würdigung" },
+      { "word": "appreciative", "pos": "adj", "de": "anerkennend / dankbar / wertschätzend" },
+      { "word": "appreciably", "pos": "adv", "de": "merklich / spürbar / deutlich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl8_arbitrary_03",
+    "word": "arbitrary",
+    "group": "AWL8",
+    "group_label": "Academic Word List – Sublist 8",
+    "pos": "adj",
+    "translations": { "de": "willkürlich / beliebig / unsystematisch" },
+    "examples": [
+      {
+        "en": "The choice of cut-off scores must not be arbitrary but grounded in theoretical or empirical reasoning.",
+        "de": "Die Wahl der Grenzwerte darf nicht willkürlich sein, sondern muss auf theoretischen oder empirischen Überlegungen beruhen."
+      },
+      {
+        "en": "An arbitrary sample selection introduces bias that undermines the study's external validity.",
+        "de": "Eine willkürliche Stichprobenauswahl führt zu Verzerrungen, die die externe Validität der Studie untergraben."
+      }
+    ],
+    "opposite": {
+      "en": "principled",
+      "de": "prinzipientreu / begründet / systematisch",
+      "example_en": "A principled approach to data exclusion requires transparent criteria established before analysis begins.",
+      "example_de": "Ein begründeter Ansatz beim Datenausschluss erfordert transparente Kriterien, die vor Beginn der Analyse festgelegt werden."
+    },
+    "synonyms": [
+      { "word": "random", "de": "zufällig / willkürlich" },
+      { "word": "unsystematic", "de": "unsystematisch / ungeordnet" },
+      { "word": "subjective", "de": "subjektiv / willkürlich / persönlich" }
+    ],
+    "word_family": [
+      { "word": "arbitrarily", "pos": "adv", "de": "willkürlich / beliebig / nach Gutdünken" },
+      { "word": "arbitrariness", "pos": "noun", "de": "Willkürlichkeit / Beliebigkeit" },
+      { "word": "non-arbitrary", "pos": "adj", "de": "nicht willkürlich / begründet / systematisch" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl8_bias_04",
+    "word": "bias",
+    "group": "AWL8",
+    "group_label": "Academic Word List – Sublist 8",
+    "pos": "noun",
+    "translations": { "de": "Voreingenommenheit / Verzerrung / Bias / Befangenheit" },
+    "examples": [
+      {
+        "en": "Confirmation bias occurs when researchers unconsciously favour evidence that supports their hypothesis.",
+        "de": "Bestätigungsfehler tritt auf, wenn Forscher unbewusst Belege bevorzugen, die ihre Hypothese stützen."
+      },
+      {
+        "en": "Publication bias towards positive results distorts the cumulative evidence base in many fields.",
+        "de": "Der Publikationsbias zugunsten positiver Ergebnisse verzerrt die kumulative Beweisgrundlage in vielen Bereichen."
+      }
+    ],
+    "opposite": {
+      "en": "objectivity",
+      "de": "Objektivität / Unvoreingenommenheit / Neutralität",
+      "example_en": "Objectivity in data interpretation requires systematic checks to minimise the influence of personal bias.",
+      "example_de": "Objektivität bei der Dateninterpretation erfordert systematische Kontrollen, um den Einfluss persönlicher Voreingenommenheit zu minimieren."
+    },
+    "synonyms": [
+      { "word": "prejudice", "de": "Vorurteil / Befangenheit / Voreingenommenheit" },
+      { "word": "distortion", "de": "Verzerrung / Verfälschung" },
+      { "word": "skew", "de": "Schiefe / Verzerrung / Schieflage" }
+    ],
+    "word_family": [
+      { "word": "bias", "pos": "verb", "de": "verzerren / beeinflussen / voreingenommen machen" },
+      { "word": "biased", "pos": "adj", "de": "voreingenommen / verzerrt / befangen" },
+      { "word": "unbiased", "pos": "adj", "de": "unvoreingenommen / unverzerrt / objektiv" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl8_complement_05",
+    "word": "complement",
+    "group": "AWL8",
+    "group_label": "Academic Word List – Sublist 8",
+    "pos": "verb",
+    "translations": { "de": "ergänzen / vervollständigen / komplementieren" },
+    "examples": [
+      {
+        "en": "Qualitative data can complement quantitative findings by providing contextual depth and nuance.",
+        "de": "Qualitative Daten können quantitative Befunde ergänzen, indem sie kontextuelle Tiefe und Nuancen liefern."
+      },
+      {
+        "en": "The two theoretical models complement each other rather than standing in opposition.",
+        "de": "Die beiden theoretischen Modelle ergänzen sich gegenseitig, anstatt sich gegenüberzustehen."
+      }
+    ],
+    "opposite": {
+      "en": "contradict",
+      "de": "widersprechen / im Widerspruch stehen / konterkarieren",
+      "example_en": "The qualitative interviews contradict rather than complement the survey data in several key areas.",
+      "example_de": "Die qualitativen Interviews widersprechen den Umfragedaten in mehreren Schlüsselbereichen, anstatt sie zu ergänzen."
+    },
+    "synonyms": [
+      { "word": "supplement", "de": "ergänzen / hinzufügen / vervollständigen" },
+      { "word": "enhance", "de": "verbessern / verstärken / ergänzen" },
+      { "word": "complete", "de": "vervollständigen / ergänzen / abschließen" }
+    ],
+    "word_family": [
+      { "word": "complement", "pos": "noun", "de": "Ergänzung / Komplement / Gegenstück" },
+      { "word": "complementary", "pos": "adj", "de": "komplementär / sich ergänzend / wechselseitig" },
+      { "word": "complementarity", "pos": "noun", "de": "Komplementarität / gegenseitige Ergänzung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl8_contemporary_06",
+    "word": "contemporary",
+    "group": "AWL8",
+    "group_label": "Academic Word List – Sublist 8",
+    "pos": "adj",
+    "translations": { "de": "zeitgenössisch / gegenwärtig / heutig / gleichzeitig" },
+    "examples": [
+      {
+        "en": "Contemporary research increasingly adopts interdisciplinary approaches to complex social problems.",
+        "de": "Zeitgenössische Forschung verfolgt zunehmend interdisziplinäre Ansätze bei komplexen sozialen Problemen."
+      },
+      {
+        "en": "The study situates its findings within the broader context of contemporary debates on inequality.",
+        "de": "Die Studie verortet ihre Befunde im breiteren Kontext zeitgenössischer Debatten über Ungleichheit."
+      }
+    ],
+    "opposite": {
+      "en": "historical",
+      "de": "historisch / vergangen / frühzeitlich",
+      "example_en": "Historical studies provide a crucial counterpoint to contemporary research by revealing long-term trends.",
+      "example_de": "Historische Studien liefern einen wichtigen Gegenpunkt zur zeitgenössischen Forschung, indem sie langfristige Trends aufzeigen."
+    },
+    "synonyms": [
+      { "word": "current", "de": "aktuell / derzeitig / gegenwärtig" },
+      { "word": "modern", "de": "modern / zeitgemäß / gegenwärtig" },
+      { "word": "present-day", "de": "heutig / gegenwärtig / zeitgenössisch" }
+    ],
+    "word_family": [
+      { "word": "contemporary", "pos": "noun", "de": "Zeitgenosse / Zeitgenossin" },
+      { "word": "contemporarily", "pos": "adv", "de": "zeitgenössisch / zur gleichen Zeit" },
+      { "word": "contemporaneous", "pos": "adj", "de": "gleichzeitig / zeitgleich / zeitgenössisch" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl8_contradict_07",
+    "word": "contradict",
+    "group": "AWL8",
+    "group_label": "Academic Word List – Sublist 8",
+    "pos": "verb",
+    "translations": { "de": "widersprechen / im Widerspruch stehen / konterkarieren" },
+    "examples": [
+      {
+        "en": "These findings directly contradict the prevailing assumption that early intervention has no lasting effect.",
+        "de": "Diese Befunde widersprechen direkt der vorherrschenden Annahme, dass frühe Intervention keine dauerhafte Wirkung hat."
+      },
+      {
+        "en": "When studies contradict one another, meta-analysis can help identify the source of discrepancy.",
+        "de": "Wenn Studien sich widersprechen, kann eine Metaanalyse helfen, die Ursache der Diskrepanz zu identifizieren."
+      }
+    ],
+    "opposite": {
+      "en": "corroborate",
+      "de": "bestätigen / bekräftigen / untermauern",
+      "example_en": "Independent studies corroborate the original claim, increasing confidence in the findings.",
+      "example_de": "Unabhängige Studien bekräftigen die ursprüngliche Behauptung und stärken das Vertrauen in die Befunde."
+    },
+    "synonyms": [
+      { "word": "conflict with", "de": "im Widerspruch stehen zu / kollidieren mit" },
+      { "word": "refute", "de": "widerlegen / entkräften / zurückweisen" },
+      { "word": "challenge", "de": "infrage stellen / herausfordern / widersprechen" }
+    ],
+    "word_family": [
+      { "word": "contradiction", "pos": "noun", "de": "Widerspruch / Gegensatz / Inkonsistenz" },
+      { "word": "contradictory", "pos": "adj", "de": "widersprüchlich / gegensätzlich / inkonsistent" },
+      { "word": "self-contradictory", "pos": "adj", "de": "in sich widersprüchlich / selbstwidersprüchlich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl8_crucial_08",
+    "word": "crucial",
+    "group": "AWL8",
+    "group_label": "Academic Word List – Sublist 8",
+    "pos": "adj",
+    "translations": { "de": "entscheidend / wesentlich / ausschlaggebend / kritisch" },
+    "examples": [
+      {
+        "en": "Transparency is crucial for ensuring that research findings can be scrutinised and replicated.",
+        "de": "Transparenz ist entscheidend dafür, dass Forschungsergebnisse überprüft und reproduziert werden können."
+      },
+      {
+        "en": "It is crucial to distinguish between statistical significance and practical relevance.",
+        "de": "Es ist entscheidend, zwischen statistischer Signifikanz und praktischer Relevanz zu unterscheiden."
+      }
+    ],
+    "opposite": {
+      "en": "trivial",
+      "de": "trivial / unbedeutend / unwichtig",
+      "example_en": "What appears trivial at the design stage can prove crucial when interpreting the data.",
+      "example_de": "Was in der Designphase trivial erscheint, kann sich bei der Interpretation der Daten als entscheidend erweisen."
+    },
+    "synonyms": [
+      { "word": "critical", "de": "kritisch / entscheidend / ausschlaggebend" },
+      { "word": "essential", "de": "unerlässlich / wesentlich / notwendig" },
+      { "word": "pivotal", "de": "entscheidend / zentral / ausschlaggebend" }
+    ],
+    "word_family": [
+      { "word": "crucially", "pos": "adv", "de": "entscheidend / ausschlaggebend / wesentlich" },
+      { "word": "crucialness", "pos": "noun", "de": "Entscheidendheit / Ausschlaggebendheit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl8_detect_09",
+    "word": "detect",
+    "group": "AWL8",
+    "group_label": "Academic Word List – Sublist 8",
+    "pos": "verb",
+    "translations": { "de": "erkennen / aufdecken / entdecken / nachweisen / feststellen" },
+    "examples": [
+      {
+        "en": "The study lacked sufficient statistical power to detect small but meaningful effect sizes.",
+        "de": "Der Studie fehlte ausreichende statistische Power, um kleine, aber bedeutsame Effektgrößen nachzuweisen."
+      },
+      {
+        "en": "Sensitive measurement instruments can detect subtle changes that cruder tools would miss.",
+        "de": "Empfindliche Messinstrumente können subtile Veränderungen erkennen, die gröbere Instrumente übersehen würden."
+      }
+    ],
+    "opposite": {
+      "en": "miss",
+      "de": "verpassen / übersehen / nicht erkennen",
+      "example_en": "A study with low statistical power may miss genuine effects that actually exist in the population.",
+      "example_de": "Eine Studie mit geringer statistischer Power kann echte Effekte übersehen, die tatsächlich in der Population vorhanden sind."
+    },
+    "synonyms": [
+      { "word": "identify", "de": "identifizieren / erkennen / feststellen" },
+      { "word": "discover", "de": "entdecken / aufdecken / herausfinden" },
+      { "word": "uncover", "de": "aufdecken / enthüllen / entdecken" }
+    ],
+    "word_family": [
+      { "word": "detection", "pos": "noun", "de": "Entdeckung / Nachweis / Erkennung" },
+      { "word": "detectable", "pos": "adj", "de": "nachweisbar / erkennbar / feststellbar" },
+      { "word": "undetected", "pos": "adj", "de": "unentdeckt / unerkannt / unbemerkt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl8_dynamic_10",
+    "word": "dynamic",
+    "group": "AWL8",
+    "group_label": "Academic Word List – Sublist 8",
+    "pos": "adj",
+    "translations": { "de": "dynamisch / veränderlich / lebhaft / aktiv" },
+    "examples": [
+      {
+        "en": "Social phenomena are dynamic and therefore require methodologies that can capture change over time.",
+        "de": "Soziale Phänomene sind dynamisch und erfordern daher Methoden, die Veränderungen über die Zeit erfassen können."
+      },
+      {
+        "en": "The dynamic relationship between theory and evidence is central to the scientific method.",
+        "de": "Die dynamische Wechselbeziehung zwischen Theorie und Belegen steht im Mittelpunkt der wissenschaftlichen Methode."
+      }
+    ],
+    "opposite": {
+      "en": "static",
+      "de": "statisch / unverändert / unveränderlich",
+      "example_en": "A static model cannot capture the dynamic processes that drive behaviour over time.",
+      "example_de": "Ein statisches Modell kann die dynamischen Prozesse nicht erfassen, die das Verhalten im Laufe der Zeit bestimmen."
+    },
+    "synonyms": [
+      { "word": "evolving", "de": "sich entwickelnd / im Wandel befindlich" },
+      { "word": "active", "de": "aktiv / lebendig / tatkräftig" },
+      { "word": "fluid", "de": "fließend / flexibel / veränderlich" }
+    ],
+    "word_family": [
+      { "word": "dynamics", "pos": "noun", "de": "Dynamik / Dynamiken / Kräftespiel" },
+      { "word": "dynamically", "pos": "adv", "de": "dynamisch / auf dynamische Weise" },
+      { "word": "group dynamics", "pos": "phrase", "de": "Gruppendynamik" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl8_eliminate_11",
+    "word": "eliminate",
+    "group": "AWL8",
+    "group_label": "Academic Word List – Sublist 8",
+    "pos": "verb",
+    "translations": { "de": "eliminieren / ausschließen / beseitigen / entfernen" },
+    "examples": [
+      {
+        "en": "Random assignment to conditions helps eliminate the influence of confounding variables.",
+        "de": "Die zufällige Zuweisung zu Bedingungen hilft, den Einfluss von Störvariablen zu eliminieren."
+      },
+      {
+        "en": "The revised protocol eliminated several procedural steps that had previously caused participant dropout.",
+        "de": "Das überarbeitete Protokoll eliminierte mehrere Verfahrensschritte, die zuvor zum Ausscheiden von Teilnehmern geführt hatten."
+      }
+    ],
+    "opposite": {
+      "en": "introduce",
+      "de": "einführen / einbringen / hinzufügen",
+      "example_en": "Changing the setting mid-study can introduce new confounds that are difficult to control for.",
+      "example_de": "Eine Änderung des Settings in der Mitte der Studie kann neue Störgrößen einbringen, die schwer zu kontrollieren sind."
+    },
+    "synonyms": [
+      { "word": "remove", "de": "entfernen / beseitigen / herausnehmen" },
+      { "word": "exclude", "de": "ausschließen / ausklammern" },
+      { "word": "eradicate", "de": "ausrotten / beseitigen / aus der Welt schaffen" }
+    ],
+    "word_family": [
+      { "word": "elimination", "pos": "noun", "de": "Eliminierung / Ausschluss / Beseitigung" },
+      { "word": "eliminable", "pos": "adj", "de": "eliminierbar / beseitigbar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl8_empirical_12",
+    "word": "empirical",
+    "group": "AWL8",
+    "group_label": "Academic Word List – Sublist 8",
+    "pos": "adj",
+    "translations": { "de": "empirisch / auf Erfahrung beruhend / beobachtungsbasiert" },
+    "examples": [
+      {
+        "en": "Empirical evidence gathered through systematic observation forms the foundation of scientific knowledge.",
+        "de": "Empirische Belege, die durch systematische Beobachtung gewonnen werden, bilden die Grundlage des wissenschaftlichen Wissens."
+      },
+      {
+        "en": "The theoretical predictions have not yet been subjected to rigorous empirical testing.",
+        "de": "Die theoretischen Vorhersagen wurden noch keiner strengen empirischen Prüfung unterzogen."
+      }
+    ],
+    "opposite": {
+      "en": "theoretical",
+      "de": "theoretisch / spekulativ / nicht empirisch",
+      "example_en": "The argument remains purely theoretical until it is supported by empirical data from real-world studies.",
+      "example_de": "Das Argument bleibt rein theoretisch, bis es durch empirische Daten aus realen Studien gestützt wird."
+    },
+    "synonyms": [
+      { "word": "observational", "de": "beobachtungsbasiert / deskriptiv" },
+      { "word": "evidence-based", "de": "evidenzbasiert / belegt / auf Nachweisen beruhend" },
+      { "word": "experimental", "de": "experimentell / versuchsbasiert" }
+    ],
+    "word_family": [
+      { "word": "empirically", "pos": "adv", "de": "empirisch / durch Erfahrung / auf Basis von Beobachtungen" },
+      { "word": "empiricism", "pos": "noun", "de": "Empirismus / Erfahrungsphilosophie" },
+      { "word": "empiricist", "pos": "noun", "de": "Empirist / Empiriker" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl8_inherent_13",
+    "word": "inherent",
+    "group": "AWL8",
+    "group_label": "Academic Word List – Sublist 8",
+    "pos": "adj",
+    "translations": { "de": "inhärent / innewohnend / wesentlich / immanent" },
+    "examples": [
+      {
+        "en": "There are inherent limitations in self-report data that researchers must explicitly acknowledge.",
+        "de": "Selbstberichtsdaten haben inhärente Einschränkungen, die Forscher ausdrücklich anerkennen müssen."
+      },
+      {
+        "en": "The inherent complexity of human behaviour makes it resistant to simple causal explanations.",
+        "de": "Die inhärente Komplexität menschlichen Verhaltens macht es resistent gegenüber einfachen Kausalerklärungen."
+      }
+    ],
+    "opposite": {
+      "en": "external",
+      "de": "extern / äußerlich / von außen eingebracht",
+      "example_en": "Some limitations are inherent to the design, while others arise from external constraints such as funding.",
+      "example_de": "Einige Einschränkungen sind dem Design inhärent, während andere aus externen Faktoren wie der Finanzierung entstehen."
+    },
+    "synonyms": [
+      { "word": "intrinsic", "de": "intrinsisch / innewohnend / wesenseigen" },
+      { "word": "built-in", "de": "eingebaut / integriert / systemimmanent" },
+      { "word": "fundamental", "de": "grundlegend / wesentlich / fundamental" }
+    ],
+    "word_family": [
+      { "word": "inherently", "pos": "adv", "de": "inhärent / von Natur aus / wesensmäßig" },
+      { "word": "inherence", "pos": "noun", "de": "Immanenz / Innewohnen / inhärente Eigenschaft" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl8_insight_14",
+    "word": "insight",
+    "group": "AWL8",
+    "group_label": "Academic Word List – Sublist 8",
+    "pos": "noun",
+    "translations": { "de": "Einblick / Erkenntnis / Einsicht / Verständnis" },
+    "examples": [
+      {
+        "en": "In-depth interviews provide valuable insights into participants' lived experiences and perspectives.",
+        "de": "Tiefeninterviews liefern wertvolle Einblicke in die gelebten Erfahrungen und Perspektiven der Teilnehmer."
+      },
+      {
+        "en": "The study offers fresh insights into the mechanisms that drive academic motivation in adolescents.",
+        "de": "Die Studie bietet neue Erkenntnisse über die Mechanismen, die die akademische Motivation bei Jugendlichen antreiben."
+      }
+    ],
+    "opposite": {
+      "en": "ignorance",
+      "de": "Unwissenheit / Unkenntnis / mangelndes Verständnis",
+      "example_en": "Ignorance of the existing literature can lead researchers to repeat mistakes already well-documented.",
+      "example_de": "Unkenntnis der vorhandenen Literatur kann dazu führen, dass Forscher bereits gut dokumentierte Fehler wiederholen."
+    },
+    "synonyms": [
+      { "word": "understanding", "de": "Verständnis / Einsicht / Erkenntnis" },
+      { "word": "perception", "de": "Wahrnehmung / Einsicht / Einschätzung" },
+      { "word": "awareness", "de": "Bewusstsein / Erkenntnis / Kenntnis" }
+    ],
+    "word_family": [
+      { "word": "insightful", "pos": "adj", "de": "aufschlussreich / tiefgründig / erhellend" },
+      { "word": "insights", "pos": "noun", "de": "Erkenntnisse / Einblicke (Plural)" }
+    ],
+    "phrasal_verbs": [
+      {
+        "phrase": "gain insight into",
+        "de": "Einblick gewinnen in / Erkenntnisse gewinnen über",
+        "example": "The case study approach allowed researchers to gain insight into the decision-making process."
+      }
+    ]
+  },
+  {
+    "id": "awl8_intervene_15",
+    "word": "intervene",
+    "group": "AWL8",
+    "group_label": "Academic Word List – Sublist 8",
+    "pos": "verb",
+    "translations": { "de": "eingreifen / intervenieren / dazwischentreten" },
+    "examples": [
+      {
+        "en": "The programme intervenes early to prevent the development of reading difficulties in young children.",
+        "de": "Das Programm greift frühzeitig ein, um der Entstehung von Leseschwierigkeiten bei kleinen Kindern vorzubeugen."
+      },
+      {
+        "en": "When unexpected adverse events occur, researchers have an ethical duty to intervene immediately.",
+        "de": "Wenn unerwartete Nebenwirkungen auftreten, haben Forscher die ethische Pflicht, sofort einzugreifen."
+      }
+    ],
+    "opposite": {
+      "en": "stand back",
+      "de": "sich heraushalten / abwarten / nicht eingreifen",
+      "example_en": "In naturalistic observation, researchers stand back and avoid any action that might alter behaviour.",
+      "example_de": "Bei der naturalistischen Beobachtung halten sich Forscher heraus und vermeiden jede Handlung, die das Verhalten verändern könnte."
+    },
+    "synonyms": [
+      { "word": "intercede", "de": "einschreiten / vermitteln / intervenieren" },
+      { "word": "step in", "de": "eingreifen / einschreiten / vermitteln" },
+      { "word": "mediate", "de": "vermitteln / schlichten / intervenieren" }
+    ],
+    "word_family": [
+      { "word": "intervention", "pos": "noun", "de": "Intervention / Eingriff / Maßnahme" },
+      { "word": "interventionist", "pos": "adj", "de": "interventionistisch / eingreifend" },
+      { "word": "non-intervention", "pos": "noun", "de": "Nichteinmischung / Nichtintervention" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl8_isolate_16",
+    "word": "isolate",
+    "group": "AWL8",
+    "group_label": "Academic Word List – Sublist 8",
+    "pos": "verb",
+    "translations": { "de": "isolieren / abgrenzen / herausarbeiten / vereinzeln" },
+    "examples": [
+      {
+        "en": "Experimental designs isolate the effect of a single variable while holding all others constant.",
+        "de": "Experimentelle Designs isolieren den Effekt einer einzelnen Variablen, während alle anderen konstant gehalten werden."
+      },
+      {
+        "en": "It is rarely possible to isolate social phenomena from the broader contexts in which they arise.",
+        "de": "Es ist selten möglich, soziale Phänomene von dem breiteren Kontext zu isolieren, in dem sie entstehen."
+      }
+    ],
+    "opposite": {
+      "en": "integrate",
+      "de": "integrieren / einbeziehen / vereinen",
+      "example_en": "Rather than isolating variables, some researchers prefer to integrate all factors into a holistic model.",
+      "example_de": "Anstatt Variablen zu isolieren, ziehen es einige Forscher vor, alle Faktoren in ein ganzheitliches Modell zu integrieren."
+    },
+    "synonyms": [
+      { "word": "separate", "de": "trennen / absondern / isolieren" },
+      { "word": "identify", "de": "identifizieren / herausarbeiten / bestimmen" },
+      { "word": "extract", "de": "extrahieren / herauslösen / herausarbeiten" }
+    ],
+    "word_family": [
+      { "word": "isolation", "pos": "noun", "de": "Isolation / Abgrenzung / Vereinzelung" },
+      { "word": "isolated", "pos": "adj", "de": "isoliert / abgegrenzt / vereinzelt" },
+      { "word": "isolating", "pos": "adj", "de": "isolierend / abgrenzend / trennend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl8_marginal_17",
+    "word": "marginal",
+    "group": "AWL8",
+    "group_label": "Academic Word List – Sublist 8",
+    "pos": "adj",
+    "translations": { "de": "marginal / geringfügig / randständig / am Rande" },
+    "examples": [
+      {
+        "en": "The improvement in test scores was statistically significant but of marginal practical importance.",
+        "de": "Die Verbesserung der Testergebnisse war statistisch signifikant, aber von marginaler praktischer Bedeutung."
+      },
+      {
+        "en": "The study focuses on marginal communities whose experiences are often excluded from mainstream research.",
+        "de": "Die Studie konzentriert sich auf marginale Gemeinschaften, deren Erfahrungen häufig aus der Mainstream-Forschung ausgeschlossen sind."
+      }
+    ],
+    "opposite": {
+      "en": "substantial",
+      "de": "erheblich / wesentlich / bedeutend",
+      "example_en": "The intervention produced substantial gains rather than the marginal improvements previously observed.",
+      "example_de": "Die Intervention erzielte erhebliche Fortschritte anstatt der zuvor beobachteten marginalen Verbesserungen."
+    },
+    "synonyms": [
+      { "word": "minor", "de": "gering / geringfügig / klein" },
+      { "word": "negligible", "de": "vernachlässigbar / unbedeutend / minimal" },
+      { "word": "peripheral", "de": "peripher / randständig / nebensächlich" }
+    ],
+    "word_family": [
+      { "word": "marginally", "pos": "adv", "de": "marginal / geringfügig / kaum" },
+      { "word": "marginalise", "pos": "verb", "de": "marginalisieren / an den Rand drängen" },
+      { "word": "marginalisation", "pos": "noun", "de": "Marginalisierung / Randständigkeit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl8_sustain_18",
+    "word": "sustain",
+    "group": "AWL8",
+    "group_label": "Academic Word List – Sublist 8",
+    "pos": "verb",
+    "translations": { "de": "aufrechterhalten / erhalten / stützen / fortführen" },
+    "examples": [
+      {
+        "en": "Long-term follow-up data are needed to determine whether the initial benefits can be sustained.",
+        "de": "Langzeit-Nachuntersuchungsdaten sind erforderlich, um festzustellen, ob die anfänglichen Vorteile aufrechterhalten werden können."
+      },
+      {
+        "en": "It is difficult to sustain participant engagement across studies that extend beyond six months.",
+        "de": "Es ist schwierig, die Beteiligung der Teilnehmer in Studien aufrechtzuerhalten, die sich über sechs Monate hinaus erstrecken."
+      }
+    ],
+    "opposite": {
+      "en": "discontinue",
+      "de": "einstellen / unterbrechen / abbrechen",
+      "example_en": "The trial was discontinued after interim analysis revealed no significant therapeutic benefit.",
+      "example_de": "Der Versuch wurde eingestellt, nachdem eine Zwischenanalyse keinen signifikanten therapeutischen Nutzen ergab."
+    },
+    "synonyms": [
+      { "word": "maintain", "de": "aufrechterhalten / beibehalten / erhalten" },
+      { "word": "uphold", "de": "aufrechterhalten / stützen / verteidigen" },
+      { "word": "preserve", "de": "bewahren / erhalten / sichern" }
+    ],
+    "word_family": [
+      { "word": "sustainability", "pos": "noun", "de": "Nachhaltigkeit / Tragfähigkeit / Beständigkeit" },
+      { "word": "sustainable", "pos": "adj", "de": "nachhaltig / tragfähig / dauerhaft" },
+      { "word": "sustained", "pos": "adj", "de": "anhaltend / aufrechterhalten / dauerhaft" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl8_transform_19",
+    "word": "transform",
+    "group": "AWL8",
+    "group_label": "Academic Word List – Sublist 8",
+    "pos": "verb",
+    "translations": { "de": "transformieren / umwandeln / verändern / umgestalten" },
+    "examples": [
+      {
+        "en": "Digital technologies have transformed the way data are collected, stored, and analysed.",
+        "de": "Digitale Technologien haben die Art und Weise, wie Daten erhoben, gespeichert und analysiert werden, transformiert."
+      },
+      {
+        "en": "The intervention transformed participants' attitudes towards academic reading in measurable ways.",
+        "de": "Die Intervention transformierte die Einstellungen der Teilnehmer zum akademischen Lesen auf messbare Weise."
+      }
+    ],
+    "opposite": {
+      "en": "preserve",
+      "de": "bewahren / erhalten / unverändert lassen",
+      "example_en": "Some scholars argue for preserving traditional methodologies rather than transforming them beyond recognition.",
+      "example_de": "Einige Wissenschaftler plädieren dafür, traditionelle Methoden zu bewahren, anstatt sie bis zur Unkenntlichkeit zu verändern."
+    },
+    "synonyms": [
+      { "word": "convert", "de": "umwandeln / konvertieren / überführen" },
+      { "word": "change", "de": "verändern / wandeln / umgestalten" },
+      { "word": "revolutionise", "de": "revolutionieren / grundlegend verändern" }
+    ],
+    "word_family": [
+      { "word": "transformation", "pos": "noun", "de": "Transformation / Wandel / Umgestaltung" },
+      { "word": "transformative", "pos": "adj", "de": "transformativ / grundlegend verändernd / revolutionär" },
+      { "word": "transformed", "pos": "adj", "de": "transformiert / verändert / umgestaltet" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl8_widespread_20",
+    "word": "widespread",
+    "group": "AWL8",
+    "group_label": "Academic Word List – Sublist 8",
+    "pos": "adj",
+    "translations": { "de": "weit verbreitet / weitreichend / flächendeckend" },
+    "examples": [
+      {
+        "en": "There is widespread agreement among researchers that replication is essential for scientific progress.",
+        "de": "Unter Forschern besteht weitgehende Übereinstimmung, dass Replikation für den wissenschaftlichen Fortschritt unerlässlich ist."
+      },
+      {
+        "en": "The phenomenon is widespread across cultures, suggesting it has a biological rather than social origin.",
+        "de": "Das Phänomen ist kulturübergreifend weit verbreitet, was darauf hindeutet, dass es einen biologischen statt sozialen Ursprung hat."
+      }
+    ],
+    "opposite": {
+      "en": "rare",
+      "de": "selten / ungewöhnlich / vereinzelt",
+      "example_en": "While widespread in urban contexts, the behaviour is rare in rural settings.",
+      "example_de": "Obwohl in städtischen Kontexten weit verbreitet, ist das Verhalten in ländlichen Umgebungen selten."
+    },
+    "synonyms": [
+      { "word": "prevalent", "de": "verbreitet / vorherrschend / weit verbreitet" },
+      { "word": "common", "de": "häufig / verbreitet / üblich" },
+      { "word": "pervasive", "de": "allgegenwärtig / durchdringend / weit verbreitet" }
+    ],
+    "word_family": [
+      { "word": "widely", "pos": "adv", "de": "weit verbreitet / weitgehend / allgemein" },
+      { "word": "widely held", "pos": "phrase", "de": "weit verbreitet / allgemein anerkannt" },
+      { "word": "wide-ranging", "pos": "adj", "de": "weitreichend / umfassend / vielfältig" }
+    ],
+    "phrasal_verbs": []
+  }
+]
