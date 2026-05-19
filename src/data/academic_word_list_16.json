@@ -1,0 +1,693 @@
+[
+  {
+    "id": "awl16_articulate_01",
+    "word": "articulate",
+    "group": "AWL16",
+    "group_label": "Academic Word List – Sublist 16",
+    "pos": "verb",
+    "translations": { "de": "artikulieren / formulieren / ausdrücken / darlegen" },
+    "examples": [
+      {
+        "en": "The framework helps researchers articulate the assumptions embedded in their theoretical models.",
+        "de": "Der Rahmen hilft Forschern, die in ihren theoretischen Modellen eingebetteten Annahmen zu artikulieren."
+      },
+      {
+        "en": "Participants were asked to articulate their reasoning process aloud during the problem-solving task.",
+        "de": "Die Teilnehmer wurden gebeten, ihren Denkprozess während der Problemlösungsaufgabe laut zu artikulieren."
+      }
+    ],
+    "opposite": {
+      "en": "obscure",
+      "de": "verschleiern / unverständlich machen / verdecken",
+      "example_en": "Dense jargon can obscure rather than articulate the central argument.",
+      "example_de": "Dichter Fachjargon kann das zentrale Argument eher verschleiern als artikulieren."
+    },
+    "synonyms": [
+      { "word": "express", "de": "ausdrücken / formulieren / zum Ausdruck bringen" },
+      { "word": "formulate", "de": "formulieren / ausarbeiten / darlegen" },
+      { "word": "verbalise", "de": "verbalisieren / in Worte fassen / ausdrücken" }
+    ],
+    "word_family": [
+      { "word": "articulate", "pos": "adj", "de": "redegewandt / ausdrucksstark / klar formulierend" },
+      { "word": "articulation", "pos": "noun", "de": "Artikulation / Formulierung / Ausdruck" },
+      { "word": "articulately", "pos": "adv", "de": "klar / präzise / ausdrucksstark" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl16_cohort_01",
+    "word": "cohort",
+    "group": "AWL16",
+    "group_label": "Academic Word List – Sublist 16",
+    "pos": "noun",
+    "translations": { "de": "Kohorte / Gruppe / Jahrgang / Probandengruppe" },
+    "examples": [
+      {
+        "en": "A cohort of two thousand participants was followed for a period of ten years.",
+        "de": "Eine Kohorte von zweitausend Teilnehmern wurde über einen Zeitraum von zehn Jahren beobachtet."
+      },
+      {
+        "en": "Differences between cohorts may reflect changes in social norms rather than true ageing effects.",
+        "de": "Unterschiede zwischen Kohorten können Veränderungen in sozialen Normen widerspiegeln und nicht echte Alterungseffekte."
+      }
+    ],
+    "opposite": {
+      "en": "individual",
+      "de": "Einzelperson / Individuum / Einzelfall",
+      "example_en": "Cohort-level trends may not apply uniformly to every individual within the group.",
+      "example_de": "Trends auf Kohortenebene gelten möglicherweise nicht einheitlich für jede Einzelperson innerhalb der Gruppe."
+    },
+    "synonyms": [
+      { "word": "group", "de": "Gruppe / Personenkreis / Kollektiv" },
+      { "word": "sample", "de": "Stichprobe / Probengruppe / Probandengruppe" },
+      { "word": "panel", "de": "Panel / Gruppe / Gremium" }
+    ],
+    "word_family": [
+      { "word": "cohort study", "pos": "noun", "de": "Kohortenstudie / Längsschnittstudie / Verlaufsstudie" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl16_concede_01",
+    "word": "concede",
+    "group": "AWL16",
+    "group_label": "Academic Word List – Sublist 16",
+    "pos": "verb",
+    "translations": { "de": "zugeben / einräumen / zugestehen / anerkennen" },
+    "examples": [
+      {
+        "en": "The authors concede that the absence of a control group limits the causal claims they can make.",
+        "de": "Die Autoren räumen ein, dass das Fehlen einer Kontrollgruppe die kausalen Behauptungen, die sie aufstellen können, einschränkt."
+      },
+      {
+        "en": "Even proponents of the theory concede that certain anomalous findings remain unexplained.",
+        "de": "Selbst Befürworter der Theorie gestehen ein, dass bestimmte anomale Befunde ungeklärt bleiben."
+      }
+    ],
+    "opposite": {
+      "en": "deny",
+      "de": "leugnen / verneinen / bestreiten",
+      "example_en": "It would be dishonest to deny the limitations that critics have identified in the methodology.",
+      "example_de": "Es wäre unehrlich, die von den Kritikern identifizierten Einschränkungen der Methodik zu leugnen."
+    },
+    "synonyms": [
+      { "word": "acknowledge", "de": "anerkennen / zugeben / einräumen" },
+      { "word": "admit", "de": "zugeben / eingestehen / anerkennen" },
+      { "word": "grant", "de": "einräumen / zugeben / zustehen" }
+    ],
+    "word_family": [
+      { "word": "concession", "pos": "noun", "de": "Zugeständnis / Einräumung / Konzession" },
+      { "word": "conceded", "pos": "adj", "de": "zugegeben / eingeräumt / zugestanden" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl16_delineate_01",
+    "word": "delineate",
+    "group": "AWL16",
+    "group_label": "Academic Word List – Sublist 16",
+    "pos": "verb",
+    "translations": { "de": "abgrenzen / skizzieren / umreißen / genau beschreiben" },
+    "examples": [
+      {
+        "en": "The introduction delineates the scope of the study and specifies which questions will not be addressed.",
+        "de": "Die Einleitung umreißt den Umfang der Studie und spezifiziert, welche Fragen nicht behandelt werden."
+      },
+      {
+        "en": "The report delineates four distinct phases in the development of the policy framework.",
+        "de": "Der Bericht beschreibt vier deutlich unterscheidbare Phasen in der Entwicklung des politischen Rahmens."
+      }
+    ],
+    "opposite": {
+      "en": "blur",
+      "de": "verwischen / unscharf machen / vermischen",
+      "example_en": "Excessive hedging can blur the boundaries between findings and speculation.",
+      "example_de": "Übermäßige Einschränkungen können die Grenzen zwischen Erkenntnissen und Spekulationen verwischen."
+    },
+    "synonyms": [
+      { "word": "define", "de": "definieren / abgrenzen / festlegen" },
+      { "word": "outline", "de": "skizzieren / umreißen / darlegen" },
+      { "word": "demarcate", "de": "abgrenzen / abmarkieren / festlegen" }
+    ],
+    "word_family": [
+      { "word": "delineation", "pos": "noun", "de": "Abgrenzung / Beschreibung / Umriss" },
+      { "word": "delineated", "pos": "adj", "de": "abgegrenzt / umrissen / klar beschrieben" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl16_distinct_01",
+    "word": "distinct",
+    "group": "AWL16",
+    "group_label": "Academic Word List – Sublist 16",
+    "pos": "adj",
+    "translations": { "de": "deutlich / klar erkennbar / verschieden / distinkt" },
+    "examples": [
+      {
+        "en": "The analysis identifies three distinct phases in the policy reform process.",
+        "de": "Die Analyse identifiziert drei klar erkennbare Phasen im politischen Reformprozess."
+      },
+      {
+        "en": "Although related, the two concepts are theoretically distinct and should not be conflated.",
+        "de": "Obwohl verwandt, sind die beiden Konzepte theoretisch verschieden und sollten nicht vermischt werden."
+      }
+    ],
+    "opposite": {
+      "en": "indistinct",
+      "de": "undeutlich / verschwommen / nicht klar erkennbar",
+      "example_en": "When boundaries are indistinct, classification decisions become difficult to justify.",
+      "example_de": "Wenn Grenzen undeutlich sind, werden Klassifizierungsentscheidungen schwer zu rechtfertigen."
+    },
+    "synonyms": [
+      { "word": "separate", "de": "getrennt / verschieden / eigenständig" },
+      { "word": "clear", "de": "klar / deutlich / erkennbar" },
+      { "word": "discrete", "de": "diskret / getrennt / eigenständig" }
+    ],
+    "word_family": [
+      { "word": "distinction", "pos": "noun", "de": "Unterschied / Unterscheidung / Auszeichnung" },
+      { "word": "distinctly", "pos": "adv", "de": "deutlich / klar / erkennbar" },
+      { "word": "distinctive", "pos": "adj", "de": "charakteristisch / kennzeichnend / unverwechselbar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl16_generic_01",
+    "word": "generic",
+    "group": "AWL16",
+    "group_label": "Academic Word List – Sublist 16",
+    "pos": "adj",
+    "translations": { "de": "generisch / allgemein / nicht spezifisch / gattungsmäßig" },
+    "examples": [
+      {
+        "en": "A generic model may lack the precision needed to address context-specific policy questions.",
+        "de": "Ein generisches Modell kann die Präzision missen lassen, die für kontextspezifische Politikfragen erforderlich ist."
+      },
+      {
+        "en": "The term is used in a generic sense here to refer to any form of structured assessment.",
+        "de": "Der Begriff wird hier im allgemeinen Sinne verwendet und bezieht sich auf jede Form strukturierter Bewertung."
+      }
+    ],
+    "opposite": {
+      "en": "specific",
+      "de": "spezifisch / konkret / besonders",
+      "example_en": "Specific indicators are more useful than generic measures when evaluating programme outcomes.",
+      "example_de": "Spezifische Indikatoren sind bei der Bewertung von Programmergebnissen nützlicher als allgemeine Maße."
+    },
+    "synonyms": [
+      { "word": "general", "de": "allgemein / generell / unspezifisch" },
+      { "word": "broad", "de": "breit / allgemein / weit gefasst" },
+      { "word": "non-specific", "de": "unspezifisch / nicht spezifisch / allgemein" }
+    ],
+    "word_family": [
+      { "word": "generically", "pos": "adv", "de": "generisch / allgemein / gattungsmäßig" },
+      { "word": "genus", "pos": "noun", "de": "Gattung / Genus / Art" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl16_induce_01",
+    "word": "induce",
+    "group": "AWL16",
+    "group_label": "Academic Word List – Sublist 16",
+    "pos": "verb",
+    "translations": { "de": "herbeiführen / auslösen / bewirken / induzieren" },
+    "examples": [
+      {
+        "en": "Financial incentives were used to induce firms to adopt more energy-efficient practices.",
+        "de": "Finanzielle Anreize wurden eingesetzt, um Unternehmen dazu zu bewegen, energieeffizientere Praktiken zu übernehmen."
+      },
+      {
+        "en": "Prolonged exposure to high temperatures can induce structural changes in the material.",
+        "de": "Längere Exposition gegenüber hohen Temperaturen kann strukturelle Veränderungen im Material herbeiführen."
+      }
+    ],
+    "opposite": {
+      "en": "prevent",
+      "de": "verhindern / vereiteln / abwenden",
+      "example_en": "Protective factors can prevent the onset of symptoms that stress would otherwise induce.",
+      "example_de": "Schutzfaktoren können das Auftreten von Symptomen verhindern, die Stress sonst herbeiführen würde."
+    },
+    "synonyms": [
+      { "word": "cause", "de": "verursachen / herbeiführen / bewirken" },
+      { "word": "trigger", "de": "auslösen / veranlassen / anstoßen" },
+      { "word": "prompt", "de": "veranlassen / anregen / bewirken" }
+    ],
+    "word_family": [
+      { "word": "induction", "pos": "noun", "de": "Induktion / Herbeiführung / Einführung" },
+      { "word": "inductive", "pos": "adj", "de": "induktiv / schlussfolgernden / allgemeinernd" },
+      { "word": "induced", "pos": "adj", "de": "herbeigeführt / ausgelöst / induziert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl16_institutional_01",
+    "word": "institutional",
+    "group": "AWL16",
+    "group_label": "Academic Word List – Sublist 16",
+    "pos": "adj",
+    "translations": { "de": "institutionell / institutionsbezogen / organisatorisch / behördlich" },
+    "examples": [
+      {
+        "en": "Institutional barriers often impede the translation of research findings into clinical practice.",
+        "de": "Institutionelle Barrieren behindern oft die Übertragung von Forschungsergebnissen in die klinische Praxis."
+      },
+      {
+        "en": "Sustained change requires not only individual behaviour shifts but institutional reform.",
+        "de": "Nachhaltiger Wandel erfordert nicht nur individuelle Verhaltensänderungen, sondern auch institutionelle Reformen."
+      }
+    ],
+    "opposite": {
+      "en": "informal",
+      "de": "informell / nicht formell / ungeregelten",
+      "example_en": "Informal networks often facilitate knowledge exchange that institutional channels do not reach.",
+      "example_de": "Informelle Netzwerke erleichtern oft den Wissensaustausch, den institutionelle Kanäle nicht erreichen."
+    },
+    "synonyms": [
+      { "word": "organisational", "de": "organisatorisch / institutionell / strukturell" },
+      { "word": "structural", "de": "strukturell / institutionell / systemisch" },
+      { "word": "systemic", "de": "systemisch / institutionell / durchgehend" }
+    ],
+    "word_family": [
+      { "word": "institution", "pos": "noun", "de": "Institution / Einrichtung / Organisation" },
+      { "word": "institutionalise", "pos": "verb", "de": "institutionalisieren / formalisieren / verankern" },
+      { "word": "institutionally", "pos": "adv", "de": "institutionell / auf institutioneller Ebene" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl16_iterate_01",
+    "word": "iterate",
+    "group": "AWL16",
+    "group_label": "Academic Word List – Sublist 16",
+    "pos": "verb",
+    "translations": { "de": "iterieren / wiederholen / schrittweise verfeinern / durchlaufen" },
+    "examples": [
+      {
+        "en": "Design researchers typically iterate through multiple prototype cycles before finalising a solution.",
+        "de": "Designforscher durchlaufen typischerweise mehrere Prototyp-Zyklen, bevor sie eine Lösung fertigstellen."
+      },
+      {
+        "en": "The algorithm iterates over the dataset until a convergence criterion is met.",
+        "de": "Der Algorithmus iteriert über den Datensatz, bis ein Konvergenzkriterium erfüllt ist."
+      }
+    ],
+    "opposite": {
+      "en": "finalise",
+      "de": "abschließen / fertigstellen / beenden",
+      "example_en": "Once stakeholders approve the design, the team can finalise rather than continuing to iterate.",
+      "example_de": "Sobald die Beteiligten das Design genehmigen, kann das Team es fertigstellen, anstatt weiter zu iterieren."
+    },
+    "synonyms": [
+      { "word": "repeat", "de": "wiederholen / erneut durchführen / iterieren" },
+      { "word": "cycle", "de": "durchlaufen / iterieren / zyklisch wiederholen" },
+      { "word": "refine progressively", "de": "schrittweise verfeinern / sukzessive verbessern" }
+    ],
+    "word_family": [
+      { "word": "iteration", "pos": "noun", "de": "Iteration / Wiederholung / Durchlauf" },
+      { "word": "iterative", "pos": "adj", "de": "iterativ / schrittweise / wiederholend" },
+      { "word": "iteratively", "pos": "adv", "de": "iterativ / schrittweise / in Durchläufen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl16_linear_01",
+    "word": "linear",
+    "group": "AWL16",
+    "group_label": "Academic Word List – Sublist 16",
+    "pos": "adj",
+    "translations": { "de": "linear / geradlinig / direkt / proportional" },
+    "examples": [
+      {
+        "en": "The assumption of a linear relationship between variables may not always be justified.",
+        "de": "Die Annahme einer linearen Beziehung zwischen Variablen ist nicht immer gerechtfertigt."
+      },
+      {
+        "en": "Progress in complex systems is rarely linear; setbacks and reversals are common.",
+        "de": "Fortschritte in komplexen Systemen sind selten linear; Rückschläge und Umkehrungen sind üblich."
+      }
+    ],
+    "opposite": {
+      "en": "nonlinear",
+      "de": "nichtlinear / nicht-proportional / kurvenförmig",
+      "example_en": "The nonlinear nature of the relationship was confirmed by examining residual plots.",
+      "example_de": "Die nichtlineare Natur der Beziehung wurde durch die Untersuchung von Residualdiagrammen bestätigt."
+    },
+    "synonyms": [
+      { "word": "direct", "de": "direkt / geradlinig / proportional" },
+      { "word": "proportional", "de": "proportional / gleichmäßig / linear" },
+      { "word": "sequential", "de": "sequenziell / aufeinanderfolgend / linear" }
+    ],
+    "word_family": [
+      { "word": "linearity", "pos": "noun", "de": "Linearität / Geradlinigkeit / Proportionalität" },
+      { "word": "linearly", "pos": "adv", "de": "linear / geradlinig / proportional" },
+      { "word": "non-linear", "pos": "adj", "de": "nichtlinear / kurvenförmig / nicht-proportional" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl16_manifest_01",
+    "word": "manifest",
+    "group": "AWL16",
+    "group_label": "Academic Word List – Sublist 16",
+    "pos": "verb",
+    "translations": { "de": "manifestieren / zeigen / aufweisen / sich äußern" },
+    "examples": [
+      {
+        "en": "Stress can manifest in a variety of physical symptoms, including fatigue and disrupted sleep.",
+        "de": "Stress kann sich in einer Vielzahl körperlicher Symptome äußern, darunter Müdigkeit und gestörter Schlaf."
+      },
+      {
+        "en": "The structural inequalities in the system manifest most clearly at the level of outcomes.",
+        "de": "Die strukturellen Ungleichheiten im System manifestieren sich am deutlichsten auf der Ebene der Ergebnisse."
+      }
+    ],
+    "opposite": {
+      "en": "conceal",
+      "de": "verbergen / verschleiern / verdecken",
+      "example_en": "Organisations may conceal dysfunction through surface-level compliance with formal standards.",
+      "example_de": "Organisationen können Dysfunktionen durch oberflächliche Einhaltung formaler Standards verbergen."
+    },
+    "synonyms": [
+      { "word": "display", "de": "zeigen / aufweisen / manifestieren" },
+      { "word": "exhibit", "de": "aufzeigen / zeigen / aufweisen" },
+      { "word": "reveal", "de": "offenbaren / zeigen / enthüllen" }
+    ],
+    "word_family": [
+      { "word": "manifest", "pos": "adj", "de": "offenkundig / offensichtlich / augenscheinlich" },
+      { "word": "manifestation", "pos": "noun", "de": "Manifestation / Erscheinung / Ausdruck" },
+      { "word": "manifestly", "pos": "adv", "de": "offensichtlich / offenkundig / augenscheinlich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl16_nuance_01",
+    "word": "nuance",
+    "group": "AWL16",
+    "group_label": "Academic Word List – Sublist 16",
+    "pos": "noun",
+    "translations": { "de": "Nuance / Feinheit / Abstufung / Differenziertheit" },
+    "examples": [
+      {
+        "en": "Qualitative methods are particularly well-suited to capturing the nuances of individual experience.",
+        "de": "Qualitative Methoden eignen sich besonders gut, um die Nuancen individueller Erfahrungen zu erfassen."
+      },
+      {
+        "en": "The summary inevitably loses some of the nuance present in the original text.",
+        "de": "Die Zusammenfassung verliert unweigerlich einen Teil der im Originaltext vorhandenen Nuance."
+      }
+    ],
+    "opposite": {
+      "en": "generalisation",
+      "de": "Verallgemeinerung / Pauschalaussage / Vereinfachung",
+      "example_en": "Broad generalisations across diverse populations may obscure important nuances.",
+      "example_de": "Breite Verallgemeinerungen über verschiedene Bevölkerungsgruppen können wichtige Nuancen verdecken."
+    },
+    "synonyms": [
+      { "word": "subtlety", "de": "Feinheit / Subtilität / Nuanciertheit" },
+      { "word": "distinction", "de": "Unterschied / Unterscheidung / Feinheit" },
+      { "word": "gradation", "de": "Abstufung / Graduierung / Nuance" }
+    ],
+    "word_family": [
+      { "word": "nuanced", "pos": "adj", "de": "nuanciert / fein abgestuft / differenziert" },
+      { "word": "nuance", "pos": "verb", "de": "nuancieren / differenzieren / fein abstimmen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl16_perpetuate_01",
+    "word": "perpetuate",
+    "group": "AWL16",
+    "group_label": "Academic Word List – Sublist 16",
+    "pos": "verb",
+    "translations": { "de": "aufrechterhalten / fortschreiben / perpetuieren / verewigen" },
+    "examples": [
+      {
+        "en": "Poorly designed institutions can perpetuate inequalities that they were ostensibly created to reduce.",
+        "de": "Schlecht konzipierte Institutionen können Ungleichheiten aufrechterhalten, die sie angeblich reduzieren sollten."
+      },
+      {
+        "en": "Biased media representations may perpetuate harmful stereotypes across generations.",
+        "de": "Voreingenommene Mediendarstellungen können schädliche Stereotypen über Generationen hinweg aufrechterhalten."
+      }
+    ],
+    "opposite": {
+      "en": "eliminate",
+      "de": "beseitigen / abschaffen / überwinden",
+      "example_en": "The reform aimed to eliminate the structural conditions that perpetuated inequality.",
+      "example_de": "Die Reform zielte darauf ab, die strukturellen Bedingungen zu beseitigen, die Ungleichheit aufrechterhielten."
+    },
+    "synonyms": [
+      { "word": "sustain", "de": "aufrechterhalten / fortführen / erhalten" },
+      { "word": "maintain", "de": "aufrechterhalten / beibehalten / erhalten" },
+      { "word": "entrench", "de": "verankern / festigen / eingraben" }
+    ],
+    "word_family": [
+      { "word": "perpetuation", "pos": "noun", "de": "Aufrechterhaltung / Fortschreibung / Fortbestand" },
+      { "word": "perpetual", "pos": "adj", "de": "fortwährend / ständig / dauerhaft" },
+      { "word": "perpetually", "pos": "adv", "de": "fortwährend / ständig / dauerhaft" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl16_premise_01",
+    "word": "premise",
+    "group": "AWL16",
+    "group_label": "Academic Word List – Sublist 16",
+    "pos": "noun",
+    "translations": { "de": "Prämisse / Voraussetzung / Grundannahme / Ausgangspunkt" },
+    "examples": [
+      {
+        "en": "The entire argument rests on the premise that rational behaviour is the norm rather than the exception.",
+        "de": "Das gesamte Argument beruht auf der Prämisse, dass rationales Verhalten die Norm und nicht die Ausnahme ist."
+      },
+      {
+        "en": "If the central premise is flawed, all conclusions derived from it must be treated with caution.",
+        "de": "Wenn die zentrale Prämisse fehlerhaft ist, müssen alle daraus abgeleiteten Schlussfolgerungen mit Vorsicht behandelt werden."
+      }
+    ],
+    "opposite": {
+      "en": "conclusion",
+      "de": "Schlussfolgerung / Ergebnis / Fazit",
+      "example_en": "The conclusion does not follow logically from the stated premises.",
+      "example_de": "Die Schlussfolgerung ergibt sich nicht logisch aus den formulierten Prämissen."
+    },
+    "synonyms": [
+      { "word": "assumption", "de": "Annahme / Voraussetzung / Prämisse" },
+      { "word": "postulate", "de": "Postulat / Grundannahme / Axiom" },
+      { "word": "presupposition", "de": "Voraussetzung / Annahme / Voraussetzung" }
+    ],
+    "word_family": [
+      { "word": "premises", "pos": "noun", "de": "Prämissen (Plural) / Grundlagen / Räumlichkeiten" },
+      { "word": "premise", "pos": "verb", "de": "zugrundelegen / voraussetzen / aufbauen auf" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl16_rational_01",
+    "word": "rational",
+    "group": "AWL16",
+    "group_label": "Academic Word List – Sublist 16",
+    "pos": "adj",
+    "translations": { "de": "rational / vernunftbasiert / logisch / vernünftig" },
+    "examples": [
+      {
+        "en": "Classical economics assumes that individuals make rational choices to maximise their utility.",
+        "de": "Die klassische Wirtschaftswissenschaft geht davon aus, dass Einzelpersonen rationale Entscheidungen treffen, um ihren Nutzen zu maximieren."
+      },
+      {
+        "en": "A rational approach to risk management requires systematic evidence rather than intuitive judgment alone.",
+        "de": "Ein rationaler Ansatz zum Risikomanagement erfordert systematische Belege und nicht nur intuitives Urteilsvermögen."
+      }
+    ],
+    "opposite": {
+      "en": "irrational",
+      "de": "irrational / unvernünftig / unlogisch",
+      "example_en": "Behavioural economics documents many ways in which human decision-making is systematically irrational.",
+      "example_de": "Die Verhaltensökonomie dokumentiert viele Wege, auf denen menschliche Entscheidungsfindung systematisch irrational ist."
+    },
+    "synonyms": [
+      { "word": "logical", "de": "logisch / folgerichtig / vernunftgemäß" },
+      { "word": "reasoned", "de": "begründet / durchdacht / rational" },
+      { "word": "sensible", "de": "vernünftig / sinnvoll / verständig" }
+    ],
+    "word_family": [
+      { "word": "rationality", "pos": "noun", "de": "Rationalität / Vernunftmäßigkeit / Logik" },
+      { "word": "rationally", "pos": "adv", "de": "rational / vernünftig / logisch" },
+      { "word": "rationalise", "pos": "verb", "de": "rationalisieren / begründen / rechtfertigen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl16_salient_01",
+    "word": "salient",
+    "group": "AWL16",
+    "group_label": "Academic Word List – Sublist 16",
+    "pos": "adj",
+    "translations": { "de": "hervorstechend / wesentlich / auffällig / salient" },
+    "examples": [
+      {
+        "en": "The most salient finding was a significant reduction in recidivism among programme participants.",
+        "de": "Der hervorstechendste Befund war eine signifikante Verringerung der Rückfallquote bei Programmteilnehmern."
+      },
+      {
+        "en": "Researchers must identify the most salient variables before designing the measurement instrument.",
+        "de": "Forscher müssen die wesentlichsten Variablen identifizieren, bevor sie das Messinstrument entwerfen."
+      }
+    ],
+    "opposite": {
+      "en": "peripheral",
+      "de": "peripher / nebensächlich / randständig",
+      "example_en": "Details that are peripheral to the central argument should be moved to a footnote.",
+      "example_de": "Details, die für das zentrale Argument nebensächlich sind, sollten in eine Fußnote verschoben werden."
+    },
+    "synonyms": [
+      { "word": "prominent", "de": "prominent / hervorstechend / auffällig" },
+      { "word": "significant", "de": "bedeutsam / wesentlich / relevant" },
+      { "word": "notable", "de": "bemerkenswert / nennenswert / hervorstechend" }
+    ],
+    "word_family": [
+      { "word": "salience", "pos": "noun", "de": "Salienz / Hervorstehen / Auffälligkeit" },
+      { "word": "saliently", "pos": "adv", "de": "auffällig / hervorstechend / wesentlich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl16_speculate_01",
+    "word": "speculate",
+    "group": "AWL16",
+    "group_label": "Academic Word List – Sublist 16",
+    "pos": "verb",
+    "translations": { "de": "spekulieren / mutmaßen / theoretisieren / vermuten" },
+    "examples": [
+      {
+        "en": "The authors speculate that the observed effect may be mediated by changes in cortisol levels.",
+        "de": "Die Autoren spekulieren, dass der beobachtete Effekt möglicherweise durch Veränderungen des Cortisolspiegels vermittelt wird."
+      },
+      {
+        "en": "It would be premature to speculate about the long-term implications before more data are available.",
+        "de": "Es wäre verfrüht, über die langfristigen Implikationen zu spekulieren, bevor mehr Daten verfügbar sind."
+      }
+    ],
+    "opposite": {
+      "en": "demonstrate",
+      "de": "demonstrieren / nachweisen / belegen",
+      "example_en": "Rather than speculating, the researchers set out to demonstrate the mechanism directly.",
+      "example_de": "Anstatt zu spekulieren, machten sich die Forscher daran, den Mechanismus direkt nachzuweisen."
+    },
+    "synonyms": [
+      { "word": "conjecture", "de": "mutmaßen / vermuten / hypothetisieren" },
+      { "word": "hypothesise", "de": "hypothetisieren / spekulieren / aufstellen" },
+      { "word": "surmise", "de": "vermuten / spekulieren / annehmen" }
+    ],
+    "word_family": [
+      { "word": "speculation", "pos": "noun", "de": "Spekulation / Mutmaßung / Vermutung" },
+      { "word": "speculative", "pos": "adj", "de": "spekulativ / mutmaßlich / theoretisch" },
+      { "word": "speculatively", "pos": "adv", "de": "spekulativ / mutmaßlich / hypothetisch" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl16_tangible_01",
+    "word": "tangible",
+    "group": "AWL16",
+    "group_label": "Academic Word List – Sublist 16",
+    "pos": "adj",
+    "translations": { "de": "greifbar / konkret / spürbar / materiell" },
+    "examples": [
+      {
+        "en": "The programme produced tangible improvements in reading scores within the first academic year.",
+        "de": "Das Programm erzielte im ersten Schuljahr greifbare Verbesserungen bei den Lesewerten."
+      },
+      {
+        "en": "Researchers should aim to produce tangible outputs that are useful beyond the academic community.",
+        "de": "Forscher sollten darauf abzielen, greifbare Ergebnisse zu erzeugen, die über die akademische Gemeinschaft hinaus nützlich sind."
+      }
+    ],
+    "opposite": {
+      "en": "intangible",
+      "de": "immateriell / nicht greifbar / abstrakt",
+      "example_en": "Intangible benefits such as increased confidence are harder to measure than tangible outcomes.",
+      "example_de": "Immaterielle Vorteile wie gesteigertes Selbstvertrauen sind schwerer zu messen als greifbare Ergebnisse."
+    },
+    "synonyms": [
+      { "word": "concrete", "de": "konkret / greifbar / handfest" },
+      { "word": "measurable", "de": "messbar / quantifizierbar / greifbar" },
+      { "word": "real", "de": "real / tatsächlich / handfest" }
+    ],
+    "word_family": [
+      { "word": "tangibly", "pos": "adv", "de": "greifbar / spürbar / konkret" },
+      { "word": "tangibility", "pos": "noun", "de": "Greifbarkeit / Konkretheit / Spürbarkeit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl16_transition_01",
+    "word": "transition",
+    "group": "AWL16",
+    "group_label": "Academic Word List – Sublist 16",
+    "pos": "noun",
+    "translations": { "de": "Übergang / Wandel / Transition / Wechsel" },
+    "examples": [
+      {
+        "en": "The transition from a centralised to a market-based system involved substantial institutional change.",
+        "de": "Der Übergang von einem zentralisierten zu einem marktbasierten System war mit erheblichen institutionellen Veränderungen verbunden."
+      },
+      {
+        "en": "Managing the transition to renewable energy requires coordinated action across multiple policy domains.",
+        "de": "Die Bewältigung des Übergangs zu erneuerbaren Energien erfordert koordiniertes Handeln über mehrere politische Bereiche hinweg."
+      }
+    ],
+    "opposite": {
+      "en": "continuity",
+      "de": "Kontinuität / Beständigkeit / Fortführung",
+      "example_en": "Policy continuity over time allows stakeholders to plan with greater certainty.",
+      "example_de": "Politische Kontinuität über die Zeit ermöglicht es Beteiligten, mit größerer Sicherheit zu planen."
+    },
+    "synonyms": [
+      { "word": "change", "de": "Veränderung / Wandel / Wechsel" },
+      { "word": "shift", "de": "Verschiebung / Wandel / Umbruch" },
+      { "word": "transformation", "de": "Transformation / Umgestaltung / Wandel" }
+    ],
+    "word_family": [
+      { "word": "transitional", "pos": "adj", "de": "übergangsweise / transitional / vorübergehend" },
+      { "word": "transition", "pos": "verb", "de": "übergehen / wechseln / sich wandeln" },
+      { "word": "transitionally", "pos": "adv", "de": "im Übergang / vorübergehend / transitional" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl16_variance_01",
+    "word": "variance",
+    "group": "AWL16",
+    "group_label": "Academic Word List – Sublist 16",
+    "pos": "noun",
+    "translations": { "de": "Varianz / Unterschied / Abweichung / Streuung" },
+    "examples": [
+      {
+        "en": "A large proportion of the variance in outcomes could be attributed to socioeconomic background.",
+        "de": "Ein großer Teil der Varianz in den Ergebnissen konnte auf den sozioökonomischen Hintergrund zurückgeführt werden."
+      },
+      {
+        "en": "The model explains approximately sixty percent of the variance in the dependent variable.",
+        "de": "Das Modell erklärt ungefähr sechzig Prozent der Varianz in der abhängigen Variable."
+      }
+    ],
+    "opposite": {
+      "en": "uniformity",
+      "de": "Einheitlichkeit / Gleichförmigkeit / Homogenität",
+      "example_en": "Uniformity of responses across all sites would suggest that local context has little influence.",
+      "example_de": "Eine Einheitlichkeit der Reaktionen an allen Standorten würde darauf hindeuten, dass der lokale Kontext wenig Einfluss hat."
+    },
+    "synonyms": [
+      { "word": "variation", "de": "Variation / Abweichung / Unterschied" },
+      { "word": "dispersion", "de": "Streuung / Dispersion / Verteilung" },
+      { "word": "spread", "de": "Streuung / Verteilung / Spannweite" }
+    ],
+    "word_family": [
+      { "word": "vary", "pos": "verb", "de": "variieren / abweichen / unterscheiden" },
+      { "word": "variable", "pos": "noun", "de": "Variable / Veränderliche / Einflussgröße" },
+      { "word": "variation", "pos": "noun", "de": "Variation / Unterschied / Abweichung" }
+    ],
+    "phrasal_verbs": []
+  }
+]
