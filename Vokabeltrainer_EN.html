@@ -1027,7 +1027,48 @@ function sdone(){hui();el("done-wrap").classList.remove("hidden");el("done-sub")
 function lrest(){_li=0;_lok=0;var p=lp(),ls=lls();_lq=bq(ls,p.goal,p.startLv);hui();rc();}
 
 // MODULES
-HK["sc-modules"]=function(){var ls=lls(),ai=amx(ls),c=el("mod-list");c.innerHTML="";for(var i=0;i<MODS.length;i++){(function(idx){var mod=MODS[idx],w=MV[mod.id]||[],mMas=0,j;for(j=0;j<w.length;j++){var s=ls[w[j].id];if(s&&s.repetitions>=5)mMas++;}var isDone=mMas>=w.length&&w.length>0,isActive=idx===ai,pct=w.length?Math.round(mMas/w.length*100):0;var icls=isDone?"mi-d":isActive?"mi-a":"mi-l",itxt=isDone?"v":isActive?">":(idx+1)+"";var d=document.createElement("div");d.className="mod-card";d.style.cursor="pointer";d.innerHTML="<div class='mod-icon "+icls+"'>"+itxt+"</div><div style='flex:1;min-width:0'><div style='font-weight:600;font-size:14px'>"+mod.name+" <span style='font-size:10px;padding:1px 6px;border-radius:6px;background:var(--s3);color:var(--mu)'>"+mod.lv+"</span></div><div style='font-size:12px;color:var(--mu);margin-top:2px'>"+mod.sub+"</div><div class='bar mt8'><div class='bfill' style='width:"+pct+"%;background:"+(isDone?"var(--ok)":"var(--ac)")+"'></div></div><div class='xs mu' style='margin-top:3px'>"+mMas+"/"+w.length+" gemeistert</div></div>";d.onclick=function(){_lq=MV[mod.id].slice();_li=0;_lok=0;_mode="mc";goTo("sc-learn",{mode:"mc",mod:mod.id});};c.appendChild(d);})(i);}};
+HK["sc-modules"]=function(){
+  var ls=lls(),ai=amx(ls),c=el("mod-list");c.innerHTML="";
+  for(var i=0;i<MODS.length;i++){(function(idx){
+    var mod=MODS[idx],w=MV[mod.id]||[],mMas=0,j;
+    for(j=0;j<w.length;j++){var s=ls[w[j].id];if(s&&s.repetitions>=5)mMas++;}
+    var isDone=mMas>=w.length&&w.length>0,isActive=idx===ai,
+        pct=w.length?Math.round(mMas/w.length*100):0;
+    var icls=isDone?"mi-d":isActive?"mi-a":"mi-l",itxt=isDone?"v":isActive?">":(idx+1)+"";
+    var d=document.createElement("div");d.className="mod-card";
+    if(mod.isPhil){
+      d.style.flexDirection="column";d.style.alignItems="stretch";d.style.cursor="default";
+      d.innerHTML="<div style='display:flex;align-items:center;gap:12px'>"
+        +"<div class='mod-icon mi-l' style='flex-shrink:0'>&#9733;</div>"
+        +"<div style='flex:1'><div style='font-weight:600;font-size:14px'>"+mod.name
+        +" <span style='font-size:10px;padding:1px 6px;border-radius:6px;background:var(--s3);color:var(--mu)'>"+mod.lv+"</span></div>"
+        +"<div style='font-size:12px;color:var(--mu);margin-top:2px'>"+mod.sub+"</div></div></div>"
+        +"<div class='bar mt8'><div class='bfill' style='width:"+pct+"%;background:"+(isDone?"var(--ok)":"var(--ac)")+"'></div></div>"
+        +"<div class='xs mu' style='margin-top:3px'>"+mMas+"/"+w.length+" gemeistert</div>";
+      var fr=document.createElement("div");fr.style.cssText="display:flex;gap:6px;margin-top:10px;flex-wrap:wrap";
+      [{label:"Alle",id:"phil"},{label:"A \xb7 Fachbegriffe",id:"phil_a"},{label:"B \xb7 Argumentation",id:"phil_b"},{label:"C \xb7 Rhetorik",id:"phil_c"}].forEach(function(pm){
+        var n=(MV[pm.id]||[]).length,btn=document.createElement("button");
+        btn.className="btn bg bsm";btn.style.flex="1";btn.style.minWidth="80px";
+        btn.innerHTML=pm.label+"<br><span class='xs mu'>"+n+" W.</span>";
+        btn.onclick=function(e){e.stopPropagation();var q=(MV[pm.id]||[]).slice();
+          for(var ii=q.length-1;ii>0;ii--){var jj=Math.floor(Math.random()*(ii+1)),tt=q[ii];q[ii]=q[jj];q[jj]=tt;}
+          _lq=q;_li=0;_lok=0;_mode="mc";goTo("sc-learn",{mode:"mc",mod:pm.id});};
+        fr.appendChild(btn);
+      });
+      d.appendChild(fr);
+    }else{
+      d.style.cursor="pointer";
+      d.innerHTML="<div class='mod-icon "+icls+"'>"+itxt+"</div>"
+        +"<div style='flex:1;min-width:0'><div style='font-weight:600;font-size:14px'>"+mod.name
+        +" <span style='font-size:10px;padding:1px 6px;border-radius:6px;background:var(--s3);color:var(--mu)'>"+mod.lv+"</span></div>"
+        +"<div style='font-size:12px;color:var(--mu);margin-top:2px'>"+mod.sub+"</div>"
+        +"<div class='bar mt8'><div class='bfill' style='width:"+pct+"%;background:"+(isDone?"var(--ok)":"var(--ac)")+"'></div></div>"
+        +"<div class='xs mu' style='margin-top:3px'>"+mMas+"/"+w.length+" gemeistert</div></div>";
+      d.onclick=function(){_lq=MV[mod.id].slice();_li=0;_lok=0;_mode="mc";goTo("sc-learn",{mode:"mc",mod:mod.id});};
+    }
+    c.appendChild(d);
+  })(i);}
+};
 
 // STATS
 HK["sc-stats"]=function(){var ls=lls(),p=lp();el("st-tot").textContent=cseen(ls);el("st-mas").textContent=cmas(ls);el("st-str").textContent=p.streak;var lc=el("st-levels");lc.innerHTML="";for(var li=0;li<CFG.levels.length;li++){var lv=CFG.levels[li],lvW=VA.filter(function(v){return v.lv===lv;}),lvM=lvW.filter(function(v){var s=ls[v.id];return s&&s.repetitions>=5;}).length,pct=lvW.length?Math.round(lvM/lvW.length*100):0,clr=CFG.lvColors[lv]||"var(--ac)";var row=document.createElement("div");row.style.marginBottom="12px";row.innerHTML="<div class='flex jb ai' style='margin-bottom:4px'><span class='sm'>"+lv+"</span><span class='xs mu'>"+lvM+"/"+lvW.length+" ("+pct+"%)</span></div><div class='bar'><div class='bfill' style='width:"+pct+"%;background:"+clr+"'></div></div>";lc.appendChild(row);}var mc=el("st-mods");mc.innerHTML="";for(var mi=0;mi<MODS.length;mi++){var mod=MODS[mi],mW=MV[mod.id]||[],mM=mW.filter(function(v){var s=ls[v.id];return s&&s.repetitions>=5;}).length,mpct=mW.length?Math.round(mM/mW.length*100):0;var mrow=document.createElement("div");mrow.style.marginBottom="10px";mrow.innerHTML="<div class='flex jb ai' style='margin-bottom:3px'><span class='sm'>"+mod.name+"</span><span class='xs mu'>"+mM+"/"+mW.length+"</span></div><div class='bar'><div class='bfill' style='width:"+mpct+"%'></div></div>";mc.appendChild(mrow);}};
@@ -1147,10 +1188,8 @@ console.log("[VT EN] bereit. Vokabeln: "+VA.length);
       var philA=phil.filter(function(v){return v.group==="A";}),
           philB=phil.filter(function(v){return v.group==="B";}),
           philC=phil.filter(function(v){return v.group==="C";});
-      MODS.push({id:"phil_a",name:"Philosophie A",sub:grpLabels.A+" ("+philA.length+" W\xf6rter)",lv:"C1"});
-      MODS.push({id:"phil_b",name:"Philosophie B",sub:grpLabels.B+" ("+philB.length+" W\xf6rter)",lv:"C1"});
-      MODS.push({id:"phil_c",name:"Philosophie C",sub:grpLabels.C+" ("+philC.length+" W\xf6rter)",lv:"C1"});
-      MV.phil_a=philA;MV.phil_b=philB;MV.phil_c=philC;
+      MODS.push({id:"phil",name:"Philosophie & Rhetorik",sub:"A: Fachbegriffe \xb7 B: Argumentation \xb7 C: Rhetorik",lv:"C1",isPhil:true});
+      MV.phil=phil;MV.phil_a=philA;MV.phil_b=philB;MV.phil_c=philC;
       for(i=0;i<phil.length;i++)VA.push(phil[i]);
       toast("Philosophie & Rhetorik geladen ("+phil.length+")","ok");
     })
