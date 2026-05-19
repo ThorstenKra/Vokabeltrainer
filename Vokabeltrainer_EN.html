@@ -102,9 +102,10 @@ h1{font-family:var(--serif);font-size:28px;font-weight:400}h2{font-size:20px;fon
       <span class="sm"><span id="h-done">0</span> / <span id="h-goal">20</span></span></div>
     <div class="bar mt8"><div class="bfill" id="h-bar" style="width:0%"></div></div>
   </div>
-  <div class="flex gap8 mt12">
-    <button class="btn bp" style="flex:1" id="btn-mc">Multiple Choice</button>
-    <button class="btn bg" style="flex:1" id="btn-fl">Karteikarten</button>
+  <div class="flex gap8 mt12" style="flex-wrap:wrap">
+    <button class="btn bp bsm" style="flex:1;min-width:100px" id="btn-mc">Multiple Choice</button>
+    <button class="btn bg bsm" style="flex:1;min-width:100px" id="btn-fl">Karteikarten</button>
+    <button class="btn bg bsm" style="flex:1;min-width:100px" id="btn-cz">L&uuml;ckentext</button>
   </div>
   <div class="sgrid mt12">
     <div class="scard"><div class="sval" id="h-streak">0</div><div class="slbl">Streak</div></div>
@@ -127,6 +128,7 @@ h1{font-family:var(--serif);font-size:28px;font-weight:400}h2{font-size:20px;fon
   <div class="flex gap8 mt10">
     <button id="m-mc" class="btn bp bsm" style="flex:1">Multiple Choice</button>
     <button id="m-fl" class="btn bg bsm" style="flex:1">Karteikarten</button>
+    <button id="m-cz" class="btn bg bsm" style="flex:1">L&uuml;ckentext</button>
   </div>
   <div class="flex jb ai mt8">
     <span class="mu xs" id="l-dir">DE &rarr; EN</span>
@@ -176,6 +178,17 @@ h1{font-family:var(--serif);font-size:28px;font-weight:400}h2{font-size:20px;fon
       <span class="mu xs" id="mc-hint" style="flex:1"></span>
       <button class="btn bg bsm" id="btn-known">Bekannt</button>
     </div>
+  </div>
+  <div id="cz-wrap" class="mt12 hidden">
+    <div style="background:var(--s2);border-radius:var(--R);padding:14px 16px;margin-bottom:10px">
+      <div class="xs mu" style="margin-bottom:8px;font-weight:700;letter-spacing:.06em;text-transform:uppercase">Vervollst&auml;ndige den Satz</div>
+      <div style="font-size:16px;line-height:1.65;color:var(--tx)" id="cz-sent"></div>
+      <div id="cz-de" class="xs mu hidden" style="font-style:italic;margin-top:6px;padding-top:6px;border-top:1px solid var(--bd)"></div>
+    </div>
+    <div class="czopts" id="cz-opts"></div>
+    <div id="cz-fb" class="hidden" style="margin-top:8px;padding:10px 14px;border-radius:var(--R);font-size:13px;font-weight:600"></div>
+    <div id="cz-info" class="hidden" style="background:var(--s2);border-radius:var(--R);padding:10px 14px;margin-top:8px;font-size:12px;line-height:1.8"></div>
+    <button id="cz-next" class="btn bp bw mt10 hidden">Weiter &rarr;</button>
   </div>
   <div id="done-wrap" class="hidden">
     <div style="text-align:center;padding:40px 0">
@@ -883,11 +896,11 @@ function rh(){
 HK["sc-home"]=rh;
 
 // LEARN
-var _lq=[],_li=0,_lok=0,_mode="mc",_dir="de_to_target",_cur=null,_rev=false,_lkd=false;
+var _lq=[],_li=0,_lok=0,_mode="mc",_dir="de_to_target",_cur=null,_rev=false,_lkd=false,_czAnswered=false,_czFull="";
 function linit(params){var p=lp(),ls=lls();if(params&&params.mode)_mode=params.mode;_dir=p.dir||"de_to_target";_li=0;_lok=0;if(params&&params.mod&&MV[params.mod]){_lq=MV[params.mod].slice();for(var i=_lq.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=_lq[i];_lq[i]=_lq[j];_lq[j]=t;}}else{_lq=bq(ls,p.goal,p.startLv);}rlh();hui();rc();}
 HK["sc-learn"]=linit;
-function rlh(){el("m-mc").className="btn bsm"+(_mode==="mc"?" bp":" bg");el("m-fl").className="btn bsm"+(_mode==="flash"?" bp":" bg");el("l-dir").textContent=_dir==="de_to_target"?"DE > EN":"EN > DE";}
-function hui(){el("fc-wrap").classList.add("hidden");el("mc-wrap").classList.add("hidden");el("done-wrap").classList.add("hidden");}
+function rlh(){el("m-mc").className="btn bsm"+(_mode==="mc"?" bp":" bg");el("m-fl").className="btn bsm"+(_mode==="flash"?" bp":" bg");el("m-cz").className="btn bsm"+(_mode==="cloze"?" bp":" bg");el("l-dir").textContent=_dir==="de_to_target"?"DE > EN":"EN > DE";}
+function hui(){el("fc-wrap").classList.add("hidden");el("mc-wrap").classList.add("hidden");el("cz-wrap").classList.add("hidden");el("done-wrap").classList.add("hidden");}
 function rc(){
   if(_li>=_lq.length){sdone();return;}
   _cur=_lq[_li];_rev=false;_lkd=false;
@@ -897,9 +910,58 @@ function rc(){
   el("l-tp").textContent=_cur.tp||"";el("l-lv").textContent=_cur.lv||"";
   var mn="",mk;for(mk in MV){var w=MV[mk],j;for(j=0;j<w.length;j++){if(w[j].id===_cur.id){for(var mi=0;mi<MODS.length;mi++){if(MODS[mi].id===mk){mn=MODS[mi].name;break;}}break;}}}
   el("l-mod").textContent=mn;
-  if(_mode==="mc")rmc();else rfl();
+  if(_mode==="mc")rmc();else if(_mode==="cloze")rcz();else rfl();
 }
 function rfl(){hui();el("fc-wrap").classList.remove("hidden");el("rrow").classList.add("hidden");var isDE=_dir==="de_to_target";el("fc-dl").textContent=isDE?"Deutsch":"Englisch";el("fc-front").textContent=isDE?_cur.de:_cur.target;el("fc-ph").textContent=(!isDE&&_cur.phonetic)?_cur.phonetic:"";el("fc-hint").style.display="";el("fc-back").classList.remove("on");}
+function czMainWord(t){return t.replace(/^to /,"").split("/")[0].trim().split(" ")[0];}
+function rcz(){
+  hui();el("cz-wrap").classList.remove("hidden");
+  _czAnswered=false;
+  var exs=_cur.examples,exIdx=_li%2;
+  var ex=(exs&&exs.length)?exs[Math.min(exIdx,exs.length-1)]:null;
+  var sentEN="",sentDE="",fullEN="";
+  if(ex&&ex.en){
+    sentEN=ex.en;sentDE=ex.de||"";
+    if(sentEN.indexOf("___")<0){var tw=czMainWord(_cur.target);var rep=sentEN.replace(new RegExp("\\b"+tw+"\\b","i"),"___");sentEN=(rep!==sentEN)?rep:sentEN;}
+    fullEN=sentEN.replace(/___/g,_cur.target);
+  }else{
+    var et=_cur.example_target||_cur.target;var tw2=czMainWord(_cur.target);var rep2=et.replace(new RegExp("\\b"+tw2+"\\b","i"),"___");
+    sentEN=(rep2!==et)?rep2:"___ – "+et;sentDE=_cur.example_de||"";fullEN=et;
+  }
+  _czFull=fullEN;
+  el("cz-sent").innerHTML=sentEN.replace(/___/,"<span class='czgap' id='czgap'>___</span>");
+  el("cz-de").textContent=sentDE;el("cz-de").classList.add("hidden");
+  el("cz-fb").classList.add("hidden");el("cz-info").classList.add("hidden");el("cz-next").classList.add("hidden");
+  var dist=gdist(_cur,3),opts=[_cur].concat(dist);
+  for(var i=opts.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=opts[i];opts[i]=opts[j];opts[j]=t;}
+  var grid=el("cz-opts");grid.innerHTML="";
+  for(var k=0;k<opts.length;k++){(function(opt){
+    var b=document.createElement("button");b.className="czopt";
+    var de=opt.de.split("/")[0].trim();if(de.length>18)de=de.substring(0,17)+"…";
+    b.innerHTML=opt.target+"<br><span class='xs mu'>"+de+"</span>";
+    b.dataset.czid=opt.id;
+    b.onclick=function(){hcz(b,opt.id===_cur.id);};
+    grid.appendChild(b);
+  })(opts[k]);}
+}
+function hcz(btn,isCorrect){
+  if(_czAnswered)return;_czAnswered=true;
+  var gap=el("czgap");gap.textContent=_cur.target;gap.className="czgap "+(isCorrect?"ok":"er");
+  el("cz-de").classList.remove("hidden");
+  var btns=document.querySelectorAll(".czopt");
+  for(var i=0;i<btns.length;i++){btns[i].disabled=true;if(btns[i].dataset.czid===_cur.id)btns[i].classList.add("ok");else if(btns[i]===btn&&!isCorrect)btns[i].classList.add("er");}
+  var fb=el("cz-fb");fb.textContent=isCorrect?"✓ Richtig!":"✗ Falsch – Antwort: „"+_cur.target+"“";
+  fb.style.color=isCorrect?"var(--ok)":"var(--er)";fb.style.background=isCorrect?"#162a20":"#3a1820";fb.classList.remove("hidden");
+  var info="",opp=_cur.opposite,syns=_cur.synonyms,wfa=_cur.word_family;
+  if(opp&&opp.en)info+="<span class='xs mu'>Gegenteil: </span><span class='xs'><b>"+opp.en+"</b> · "+opp.de+"</span><br>";
+  if(syns&&syns.length)info+="<span class='xs mu'>Synonyme: </span><span class='xs'>"+syns.map(function(s){return s.word;}).join(", ")+"</span><br>";
+  if(wfa&&wfa.length)info+="<span class='xs mu'>Wortfamilie: </span><span class='xs'>"+wfa.map(function(f){return"<b>"+f.word+"</b> <i>"+f.pos+"</i>";}).join(" · ")+"</span>";
+  if(info){el("cz-info").innerHTML=info;el("cz-info").classList.remove("hidden");}
+  setTimeout(function(){try{if(!("speechSynthesis"in window))return;window.speechSynthesis.cancel();var u=new SpeechSynthesisUtterance(_czFull);u.lang="en-US";u.rate=0.88;window.speechSynthesis.speak(u);}catch(e){}},400);
+  var ls=lls(),ns=sm2(ls[_cur.id]||null,isCorrect?2:0);ls[_cur.id]=ns;sls(ls);var p=lp();p=ustrk(p);sp(p);sday(lday()+1);
+  if(isCorrect)_lok++;
+  el("cz-next").classList.remove("hidden");
+}
 window.spkEx=function(idx){if(!_cur||!_cur.examples||!_cur.examples[idx])return;try{if(!("speechSynthesis"in window))return;window.speechSynthesis.cancel();var u=new SpeechSynthesisUtterance(_cur.examples[idx].en);u.lang='en-US';u.rate=0.92;window.speechSynthesis.speak(u);}catch(e){}};
 function rev(){
   if(_rev||_mode!=="flash")return;
@@ -976,6 +1038,8 @@ function bind(){
   function mcStart(){goTo("sc-learn",{mode:"mc"});}
 el("btn-mc").onclick=mcStart;
   el("btn-fl").onclick=function(){goTo("sc-learn",{mode:"flash"});};
+  el("btn-cz").onclick=function(){goTo("sc-learn",{mode:"cloze"});};
+  el("cz-next").onclick=function(){_li++;rc();};
   el("n-home").onclick=function(){goTo("sc-home");};
   el("n-learn").onclick=function(){goTo("sc-learn",{});};
   el("n-modules").onclick=function(){goTo("sc-modules");};
@@ -985,6 +1049,7 @@ el("btn-mc").onclick=mcStart;
   el("btn-home2").onclick=function(){goTo("sc-home");};
   el("m-mc").onclick=function(){_mode="mc";_li=0;_lok=0;var p=lp(),ls=lls();_lq=bq(ls,p.goal,p.startLv);rlh();hui();rc();};
   el("m-fl").onclick=function(){_mode="flash";_li=0;_lok=0;var p=lp(),ls=lls();_lq=bq(ls,p.goal,p.startLv);rlh();hui();rc();};
+  el("m-cz").onclick=function(){_mode="cloze";_li=0;_lok=0;var p=lp(),ls=lls();_lq=bq(ls,p.goal,p.startLv);rlh();hui();rc();};
   el("btn-dir").onclick=function(){var p=lp();_dir=_dir==="de_to_target"?"target_to_de":"de_to_target";p.dir=_dir;sp(p);rlh();rc();};
   el("fcard").onclick=function(){rev();};
   el("r0").onclick=function(){rate(0);};el("r1").onclick=function(){rate(1);};el("r2").onclick=function(){rate(2);};el("r3").onclick=function(){rate(3);};
