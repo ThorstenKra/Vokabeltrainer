@@ -1,0 +1,692 @@
+[
+  {
+    "id": "awl13_advocate_01",
+    "word": "advocate",
+    "group": "AWL13",
+    "group_label": "Academic Word List – Sublist 13",
+    "pos": "verb",
+    "translations": { "de": "befürworten / eintreten für / vertreten / plädieren für" },
+    "examples": [
+      {
+        "en": "Several prominent researchers advocate a complete overhaul of the current peer review system.",
+        "de": "Mehrere namhafte Forscher befürworten eine vollständige Überarbeitung des derzeitigen Peer-Review-Systems."
+      },
+      {
+        "en": "The report advocates increasing public investment in early childhood education.",
+        "de": "Der Bericht plädiert für eine Erhöhung der öffentlichen Investitionen in die frühkindliche Bildung."
+      }
+    ],
+    "opposite": {
+      "en": "oppose",
+      "de": "ablehnen / sich widersetzen / bekämpfen",
+      "example_en": "A number of stakeholders strongly oppose the proposed regulatory changes.",
+      "example_de": "Eine Reihe von Interessengruppen lehnt die vorgeschlagenen regulatorischen Änderungen vehement ab."
+    },
+    "synonyms": [
+      { "word": "support", "de": "unterstützen / befürworten / eintreten für" },
+      { "word": "promote", "de": "fördern / vorantreiben / vertreten" },
+      { "word": "champion", "de": "eintreten für / vertreten / kämpfen für" }
+    ],
+    "word_family": [
+      { "word": "advocate", "pos": "noun", "de": "Befürworter / Anwalt / Fürsprecher" },
+      { "word": "advocacy", "pos": "noun", "de": "Befürwortung / Interessenvertretung / Einsatz" },
+      { "word": "advocated", "pos": "adj", "de": "befürwortet / empfohlen / vertreten" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl13_bulk_01",
+    "word": "bulk",
+    "group": "AWL13",
+    "group_label": "Academic Word List – Sublist 13",
+    "pos": "noun",
+    "translations": { "de": "Großteil / Masse / Mehrheit / Volumen" },
+    "examples": [
+      {
+        "en": "The bulk of the evidence supports the hypothesis that diet plays a central role.",
+        "de": "Der Großteil der Belege unterstützt die Hypothese, dass die Ernährung eine zentrale Rolle spielt."
+      },
+      {
+        "en": "Bulk purchasing reduces unit costs but requires significant upfront capital investment.",
+        "de": "Masseneinkauf senkt die Stückkosten, erfordert aber erhebliche Vorabinvestitionen."
+      }
+    ],
+    "opposite": {
+      "en": "minority",
+      "de": "Minderheit / kleiner Teil / Bruchteil",
+      "example_en": "Only a minority of cases showed the pattern predicted by the model.",
+      "example_de": "Nur eine Minderheit der Fälle zeigte das vom Modell vorhergesagte Muster."
+    },
+    "synonyms": [
+      { "word": "majority", "de": "Mehrheit / Großteil / Masse" },
+      { "word": "mass", "de": "Masse / Menge / Großteil" },
+      { "word": "preponderance", "de": "Übergewicht / Mehrheit / überwiegender Teil" }
+    ],
+    "word_family": [
+      { "word": "bulky", "pos": "adj", "de": "sperrig / massig / unhandlich" },
+      { "word": "bulk", "pos": "verb", "de": "aufbauschen / vergrößern / anschwellen lassen" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "bulk up", "de": "anschwellen / zunehmen / aufstocken", "example": "The dataset was bulked up by including records from three additional sources." }
+    ]
+  },
+  {
+    "id": "awl13_chronic_01",
+    "word": "chronic",
+    "group": "AWL13",
+    "group_label": "Academic Word List – Sublist 13",
+    "pos": "adj",
+    "translations": { "de": "chronisch / anhaltend / langwierig / dauerhaft" },
+    "examples": [
+      {
+        "en": "Chronic underfunding of public services has led to a gradual deterioration in quality.",
+        "de": "Chronische Unterfinanzierung öffentlicher Dienstleistungen hat zu einer schrittweisen Qualitätsverschlechterung geführt."
+      },
+      {
+        "en": "The study focuses on patients with chronic conditions who require ongoing management.",
+        "de": "Die Studie konzentriert sich auf Patienten mit chronischen Erkrankungen, die einer fortlaufenden Betreuung bedürfen."
+      }
+    ],
+    "opposite": {
+      "en": "acute",
+      "de": "akut / plötzlich auftretend / kurzfristig",
+      "example_en": "Acute symptoms require immediate treatment, whereas chronic conditions call for long-term management.",
+      "example_de": "Akute Symptome erfordern eine sofortige Behandlung, während chronische Erkrankungen eine Langzeitbehandlung erfordern."
+    },
+    "synonyms": [
+      { "word": "persistent", "de": "anhaltend / hartnäckig / dauerhaft" },
+      { "word": "long-term", "de": "langfristig / dauerhaft / langanhaltend" },
+      { "word": "ongoing", "de": "andauernd / fortlaufend / kontinuierlich" }
+    ],
+    "word_family": [
+      { "word": "chronically", "pos": "adv", "de": "chronisch / dauerhaft / anhaltend" },
+      { "word": "chronicity", "pos": "noun", "de": "Chronizität / Dauerhaftigkeit / Langwierigkeit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl13_consecutive_01",
+    "word": "consecutive",
+    "group": "AWL13",
+    "group_label": "Academic Word List – Sublist 13",
+    "pos": "adj",
+    "translations": { "de": "aufeinanderfolgend / konsekutiv / fortlaufend / hintereinander" },
+    "examples": [
+      {
+        "en": "Data were collected at three consecutive time points: baseline, six months, and twelve months.",
+        "de": "Die Daten wurden zu drei aufeinanderfolgenden Zeitpunkten erhoben: Ausgangswert, sechs Monate und zwölf Monate."
+      },
+      {
+        "en": "The region experienced five consecutive years of below-average rainfall.",
+        "de": "Die Region erlebte fünf aufeinanderfolgende Jahre mit unterdurchschnittlichem Niederschlag."
+      }
+    ],
+    "opposite": {
+      "en": "intermittent",
+      "de": "intermittierend / gelegentlich / nicht kontinuierlich",
+      "example_en": "Intermittent exposure to the stimulus produced weaker conditioning than continuous exposure.",
+      "example_de": "Intermittierende Exposition gegenüber dem Reiz führte zu einer schwächeren Konditionierung als kontinuierliche Exposition."
+    },
+    "synonyms": [
+      { "word": "successive", "de": "aufeinanderfolgend / sukzessive / fortlaufend" },
+      { "word": "sequential", "de": "sequenziell / aufeinanderfolgend / der Reihe nach" },
+      { "word": "continuous", "de": "kontinuierlich / fortlaufend / ununterbrochen" }
+    ],
+    "word_family": [
+      { "word": "consecutively", "pos": "adv", "de": "aufeinanderfolgend / konsekutiv / hintereinander" },
+      { "word": "consecutiveness", "pos": "noun", "de": "Aufeinanderfolge / Kontinuität / Konsekutivität" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl13_contingent_01",
+    "word": "contingent",
+    "group": "AWL13",
+    "group_label": "Academic Word List – Sublist 13",
+    "pos": "adj",
+    "translations": { "de": "abhängig / bedingt / kontingent / an Bedingungen geknüpft" },
+    "examples": [
+      {
+        "en": "The success of the intervention is contingent on the availability of trained personnel.",
+        "de": "Der Erfolg der Intervention ist von der Verfügbarkeit ausgebildeten Personals abhängig."
+      },
+      {
+        "en": "Future funding is contingent upon the submission of a satisfactory progress report.",
+        "de": "Die zukünftige Finanzierung ist an die Einreichung eines zufriedenstellenden Fortschrittsberichts geknüpft."
+      }
+    ],
+    "opposite": {
+      "en": "unconditional",
+      "de": "bedingungslos / unbedingt / nicht an Bedingungen geknüpft",
+      "example_en": "Unconditional support from senior leadership accelerated the reform process considerably.",
+      "example_de": "Bedingungslose Unterstützung durch die Führungsebene beschleunigte den Reformprozess erheblich."
+    },
+    "synonyms": [
+      { "word": "dependent", "de": "abhängig / bedingt / von etwas abhängig" },
+      { "word": "conditional", "de": "bedingt / konditional / an Bedingungen geknüpft" },
+      { "word": "subject to", "de": "abhängig von / vorbehaltlich / unter Vorbehalt" }
+    ],
+    "word_family": [
+      { "word": "contingency", "pos": "noun", "de": "Eventualität / Notfall / Bedingung" },
+      { "word": "contingently", "pos": "adv", "de": "bedingt / abhängig / kontingenterweise" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl13_deficit_01",
+    "word": "deficit",
+    "group": "AWL13",
+    "group_label": "Academic Word List – Sublist 13",
+    "pos": "noun",
+    "translations": { "de": "Defizit / Fehlbetrag / Mangel / Lücke" },
+    "examples": [
+      {
+        "en": "A growing skills deficit in the labour market is constraining productivity growth.",
+        "de": "Ein wachsendes Qualifikationsdefizit auf dem Arbeitsmarkt begrenzt das Produktivitätswachstum."
+      },
+      {
+        "en": "The study identifies a significant knowledge deficit regarding long-term environmental impacts.",
+        "de": "Die Studie identifiziert ein erhebliches Wissensdefizit hinsichtlich langfristiger Umweltauswirkungen."
+      }
+    ],
+    "opposite": {
+      "en": "surplus",
+      "de": "Überschuss / Mehrwert / Plus",
+      "example_en": "A budget surplus allows governments to invest in infrastructure without taking on new debt.",
+      "example_de": "Ein Haushaltsüberschuss ermöglicht es Regierungen, in die Infrastruktur zu investieren, ohne neue Schulden aufzunehmen."
+    },
+    "synonyms": [
+      { "word": "shortfall", "de": "Fehlbetrag / Defizit / Lücke" },
+      { "word": "gap", "de": "Lücke / Kluft / Defizit" },
+      { "word": "lack", "de": "Mangel / Fehlen / Defizit" }
+    ],
+    "word_family": [
+      { "word": "deficient", "pos": "adj", "de": "mangelhaft / unzulänglich / defizitär" },
+      { "word": "deficiency", "pos": "noun", "de": "Mangel / Unzulänglichkeit / Defizit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl13_demographic_01",
+    "word": "demographic",
+    "group": "AWL13",
+    "group_label": "Academic Word List – Sublist 13",
+    "pos": "adj",
+    "translations": { "de": "demografisch / bevölkerungsbezogen / bevölkerungsstatistisch" },
+    "examples": [
+      {
+        "en": "Demographic changes, particularly population ageing, will place increasing demands on pension systems.",
+        "de": "Demografische Veränderungen, insbesondere die Bevölkerungsalterung, werden steigende Anforderungen an die Rentensysteme stellen."
+      },
+      {
+        "en": "The sample was stratified to reflect the demographic composition of the national population.",
+        "de": "Die Stichprobe wurde geschichtet, um die demografische Zusammensetzung der nationalen Bevölkerung widerzuspiegeln."
+      }
+    ],
+    "opposite": {
+      "en": "individual",
+      "de": "individuell / persönlich / einzeln",
+      "example_en": "While demographic trends are informative, individual variation remains substantial.",
+      "example_de": "Obwohl demografische Trends aufschlussreich sind, bleibt die individuelle Variation erheblich."
+    },
+    "synonyms": [
+      { "word": "population-based", "de": "bevölkerungsbasiert / populationsbezogen / bevölkerungsbezogen" },
+      { "word": "statistical", "de": "statistisch / zahlenbasiert / bevölkerungsstatistisch" }
+    ],
+    "word_family": [
+      { "word": "demography", "pos": "noun", "de": "Demografie / Bevölkerungswissenschaft / Bevölkerungskunde" },
+      { "word": "demographics", "pos": "noun", "de": "Demografiedaten / Bevölkerungsstatistik / demografische Merkmale" },
+      { "word": "demographically", "pos": "adv", "de": "demografisch / bevölkerungsstatistisch" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl13_deviate_01",
+    "word": "deviate",
+    "group": "AWL13",
+    "group_label": "Academic Word List – Sublist 13",
+    "pos": "verb",
+    "translations": { "de": "abweichen / abgehen von / davon abkommen / divergieren" },
+    "examples": [
+      {
+        "en": "Actual outcomes deviated significantly from the model's predictions in three of the five scenarios.",
+        "de": "Die tatsächlichen Ergebnisse wichen in drei der fünf Szenarien erheblich von den Modellvorhersagen ab."
+      },
+      {
+        "en": "Researchers who deviate from approved protocols must document and justify any changes.",
+        "de": "Forscher, die von genehmigten Protokollen abweichen, müssen alle Änderungen dokumentieren und begründen."
+      }
+    ],
+    "opposite": {
+      "en": "conform",
+      "de": "entsprechen / einhalten / übereinstimmen",
+      "example_en": "All submissions must conform to the formatting guidelines specified in the author instructions.",
+      "example_de": "Alle Einreichungen müssen den in den Autorenhinweisen angegebenen Formatierungsrichtlinien entsprechen."
+    },
+    "synonyms": [
+      { "word": "diverge", "de": "divergieren / abweichen / auseinandergehen" },
+      { "word": "depart", "de": "abgehen / abweichen / verlassen" },
+      { "word": "differ", "de": "abweichen / unterscheiden / differieren" }
+    ],
+    "word_family": [
+      { "word": "deviation", "pos": "noun", "de": "Abweichung / Abkehr / Deviation" },
+      { "word": "deviant", "pos": "adj", "de": "abweichend / unkonventionell / deviant" },
+      { "word": "standard deviation", "pos": "noun", "de": "Standardabweichung / Streuung / Dispersion" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl13_discourse_01",
+    "word": "discourse",
+    "group": "AWL13",
+    "group_label": "Academic Word List – Sublist 13",
+    "pos": "noun",
+    "translations": { "de": "Diskurs / Abhandlung / Rede / Sprachgebrauch" },
+    "examples": [
+      {
+        "en": "The dominant political discourse frames immigration primarily as a security concern.",
+        "de": "Der vorherrschende politische Diskurs stellt Einwanderung hauptsächlich als Sicherheitsbedenken dar."
+      },
+      {
+        "en": "Critical discourse analysis examines how language constructs and reinforces social power relations.",
+        "de": "Kritische Diskursanalyse untersucht, wie Sprache soziale Machtverhältnisse konstruiert und verstärkt."
+      }
+    ],
+    "opposite": {
+      "en": "silence",
+      "de": "Schweigen / Stille / Sprachlosigkeit",
+      "example_en": "The silence surrounding certain topics in public discourse can itself be politically significant.",
+      "example_de": "Das Schweigen zu bestimmten Themen im öffentlichen Diskurs kann selbst politisch bedeutsam sein."
+    },
+    "synonyms": [
+      { "word": "discussion", "de": "Diskussion / Erörterung / Auseinandersetzung" },
+      { "word": "debate", "de": "Debatte / Diskussion / Disput" },
+      { "word": "dialogue", "de": "Dialog / Gespräch / Austausch" }
+    ],
+    "word_family": [
+      { "word": "discursive", "pos": "adj", "de": "diskursiv / weitschweifig / erörternd" },
+      { "word": "discourse analysis", "pos": "noun", "de": "Diskursanalyse / Textanalyse / Sprachanalyse" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl13_disparity_01",
+    "word": "disparity",
+    "group": "AWL13",
+    "group_label": "Academic Word List – Sublist 13",
+    "pos": "noun",
+    "translations": { "de": "Ungleichheit / Disparität / Unterschied / Kluft" },
+    "examples": [
+      {
+        "en": "The research highlights persistent disparities in health outcomes between socioeconomic groups.",
+        "de": "Die Forschung hebt anhaltende Ungleichheiten bei den Gesundheitsergebnissen zwischen sozioökonomischen Gruppen hervor."
+      },
+      {
+        "en": "Reducing regional disparities in educational provision remains a key policy challenge.",
+        "de": "Die Verringerung regionaler Ungleichheiten bei der Bildungsversorgung bleibt eine wichtige politische Herausforderung."
+      }
+    ],
+    "opposite": {
+      "en": "parity",
+      "de": "Parität / Gleichheit / Gleichwertigkeit",
+      "example_en": "Achieving pay parity between comparable roles is a stated organisational objective.",
+      "example_de": "Die Erreichung von Lohnparität zwischen vergleichbaren Stellen ist ein erklärtes Organisationsziel."
+    },
+    "synonyms": [
+      { "word": "inequality", "de": "Ungleichheit / Ungleichmäßigkeit / Disparität" },
+      { "word": "gap", "de": "Kluft / Lücke / Unterschied" },
+      { "word": "imbalance", "de": "Ungleichgewicht / Missverhältnis / Unausgewogenheit" }
+    ],
+    "word_family": [
+      { "word": "disparate", "pos": "adj", "de": "verschieden / ungleich / uneinheitlich" },
+      { "word": "disparately", "pos": "adv", "de": "ungleich / unterschiedlich / disparate" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl13_dominant_01",
+    "word": "dominant",
+    "group": "AWL13",
+    "group_label": "Academic Word List – Sublist 13",
+    "pos": "adj",
+    "translations": { "de": "dominant / vorherrschend / maßgebend / führend" },
+    "examples": [
+      {
+        "en": "The dominant theoretical perspective in the field has been challenged by a growing body of empirical work.",
+        "de": "Die vorherrschende theoretische Perspektive in dem Bereich wird von einer wachsenden Zahl empirischer Arbeiten in Frage gestellt."
+      },
+      {
+        "en": "English has become the dominant language of international academic publishing.",
+        "de": "Englisch ist zur dominanten Sprache des internationalen akademischen Publizierens geworden."
+      }
+    ],
+    "opposite": {
+      "en": "subordinate",
+      "de": "untergeordnet / nachrangig / sekundär",
+      "example_en": "Subordinate goals were deprioritised in favour of the primary research objective.",
+      "example_de": "Untergeordnete Ziele wurden zugunsten des primären Forschungsziels zurückgestellt."
+    },
+    "synonyms": [
+      { "word": "prevailing", "de": "vorherrschend / geltend / überherrschend" },
+      { "word": "primary", "de": "primär / hauptsächlich / vorrangig" },
+      { "word": "leading", "de": "führend / maßgebend / leitend" }
+    ],
+    "word_family": [
+      { "word": "dominate", "pos": "verb", "de": "dominieren / beherrschen / überwiegen" },
+      { "word": "dominance", "pos": "noun", "de": "Dominanz / Vorherrschaft / Überlegenheit" },
+      { "word": "dominantly", "pos": "adv", "de": "dominant / überwiegend / vornehmlich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl13_elicit_01",
+    "word": "elicit",
+    "group": "AWL13",
+    "group_label": "Academic Word List – Sublist 13",
+    "pos": "verb",
+    "translations": { "de": "hervorrufen / auslösen / entlocken / eruieren" },
+    "examples": [
+      {
+        "en": "Open-ended questions were used to elicit richer and more nuanced responses from participants.",
+        "de": "Offene Fragen wurden verwendet, um von den Teilnehmern reichhaltigere und nuanciertere Antworten zu erhalten."
+      },
+      {
+        "en": "The stimulus consistently elicited the same behavioural response across all age groups.",
+        "de": "Der Reiz löste in allen Altersgruppen konsistent dieselbe Verhaltensreaktion aus."
+      }
+    ],
+    "opposite": {
+      "en": "suppress",
+      "de": "unterdrücken / hemmen / zurückhalten",
+      "example_en": "The experimental design sought to suppress any extraneous sources of arousal.",
+      "example_de": "Das Versuchsdesign zielte darauf ab, jegliche fremden Erregungsquellen zu unterdrücken."
+    },
+    "synonyms": [
+      { "word": "evoke", "de": "hervorrufen / wachrufen / auslösen" },
+      { "word": "draw out", "de": "herausholen / entlocken / herausarbeiten" },
+      { "word": "provoke", "de": "auslösen / provozieren / hervorrufen" }
+    ],
+    "word_family": [
+      { "word": "elicitation", "pos": "noun", "de": "Elizitierung / Hervorrufen / Entlocken" },
+      { "word": "elicited", "pos": "adj", "de": "hervorgerufen / ausgelöst / elizitiert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl13_feasible_01",
+    "word": "feasible",
+    "group": "AWL13",
+    "group_label": "Academic Word List – Sublist 13",
+    "pos": "adj",
+    "translations": { "de": "machbar / durchführbar / realisierbar / praktikabel" },
+    "examples": [
+      {
+        "en": "A randomised controlled trial was not feasible given the limited budget and short timeline.",
+        "de": "Eine randomisierte kontrollierte Studie war angesichts des begrenzten Budgets und des kurzen Zeitrahmens nicht durchführbar."
+      },
+      {
+        "en": "The pilot study was designed to assess whether the intervention was technically feasible at scale.",
+        "de": "Die Pilotstudie wurde entwickelt, um zu prüfen, ob die Intervention im großen Maßstab technisch durchführbar ist."
+      }
+    ],
+    "opposite": {
+      "en": "infeasible",
+      "de": "undurchführbar / nicht realisierbar / nicht machbar",
+      "example_en": "It was deemed infeasible to collect data across all relevant jurisdictions within the project timeline.",
+      "example_de": "Es wurde als undurchführbar erachtet, innerhalb des Projektzeitrahmens in allen relevanten Jurisdiktionen Daten zu erheben."
+    },
+    "synonyms": [
+      { "word": "practicable", "de": "durchführbar / praktikabel / umsetzbar" },
+      { "word": "viable", "de": "realisierbar / lebensfähig / umsetzbar" },
+      { "word": "achievable", "de": "erreichbar / realisierbar / umsetzbar" }
+    ],
+    "word_family": [
+      { "word": "feasibility", "pos": "noun", "de": "Machbarkeit / Durchführbarkeit / Realisierbarkeit" },
+      { "word": "feasibly", "pos": "adv", "de": "machbarer Weise / realisierbar / durchführbar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl13_initiate_01",
+    "word": "initiate",
+    "group": "AWL13",
+    "group_label": "Academic Word List – Sublist 13",
+    "pos": "verb",
+    "translations": { "de": "einleiten / initiieren / in Gang setzen / starten" },
+    "examples": [
+      {
+        "en": "The committee voted to initiate a formal inquiry into the alleged misconduct.",
+        "de": "Der Ausschuss stimmte für die Einleitung einer formellen Untersuchung des angeblichen Fehlverhaltens."
+      },
+      {
+        "en": "A new research programme was initiated to address the identified knowledge gaps.",
+        "de": "Ein neues Forschungsprogramm wurde eingeleitet, um die identifizierten Wissenslücken zu schließen."
+      }
+    ],
+    "opposite": {
+      "en": "terminate",
+      "de": "beenden / abschließen / abbrechen",
+      "example_en": "The project was terminated early following an independent review of its feasibility.",
+      "example_de": "Das Projekt wurde nach einer unabhängigen Überprüfung seiner Machbarkeit vorzeitig beendet."
+    },
+    "synonyms": [
+      { "word": "launch", "de": "starten / einleiten / ins Leben rufen" },
+      { "word": "begin", "de": "beginnen / einleiten / starten" },
+      { "word": "instigate", "de": "veranlassen / anstoßen / einleiten" }
+    ],
+    "word_family": [
+      { "word": "initiation", "pos": "noun", "de": "Einleitung / Initiierung / Aufnahme" },
+      { "word": "initiative", "pos": "noun", "de": "Initiative / Maßnahme / Anstoß" },
+      { "word": "initiator", "pos": "noun", "de": "Initiator / Begründer / Auslöser" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl13_legitimate_01",
+    "word": "legitimate",
+    "group": "AWL13",
+    "group_label": "Academic Word List – Sublist 13",
+    "pos": "adj",
+    "translations": { "de": "legitim / rechtmäßig / berechtigt / begründet" },
+    "examples": [
+      {
+        "en": "Raising methodological concerns is a legitimate and necessary part of the scientific process.",
+        "de": "Methodische Bedenken zu äußern ist ein legitimer und notwendiger Teil des wissenschaftlichen Prozesses."
+      },
+      {
+        "en": "The study addresses a legitimate gap in current knowledge about long-term outcomes.",
+        "de": "Die Studie befasst sich mit einer berechtigten Lücke im aktuellen Wissen über Langzeitergebnisse."
+      }
+    ],
+    "opposite": {
+      "en": "illegitimate",
+      "de": "illegitim / unrechtmäßig / unberechtigt",
+      "example_en": "Any attempt to suppress dissenting results would be considered scientifically illegitimate.",
+      "example_de": "Jeder Versuch, abweichende Ergebnisse zu unterdrücken, würde als wissenschaftlich illegitim angesehen."
+    },
+    "synonyms": [
+      { "word": "valid", "de": "gültig / berechtigt / stichhaltig" },
+      { "word": "lawful", "de": "rechtmäßig / gesetzlich / legal" },
+      { "word": "justified", "de": "gerechtfertigt / begründet / berechtigt" }
+    ],
+    "word_family": [
+      { "word": "legitimacy", "pos": "noun", "de": "Legitimität / Rechtmäßigkeit / Berechtigung" },
+      { "word": "legitimise", "pos": "verb", "de": "legitimieren / rechtfertigen / rechtmäßig machen" },
+      { "word": "legitimately", "pos": "adv", "de": "legitimerweise / rechtmäßig / zu Recht" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl13_refine_01",
+    "word": "refine",
+    "group": "AWL13",
+    "group_label": "Academic Word List – Sublist 13",
+    "pos": "verb",
+    "translations": { "de": "verfeinern / präzisieren / verbessern / ausarbeiten" },
+    "examples": [
+      {
+        "en": "Pilot testing allows researchers to refine instruments before deploying them at scale.",
+        "de": "Pilottests ermöglichen es Forschern, Instrumente zu verfeinern, bevor sie in großem Maßstab eingesetzt werden."
+      },
+      {
+        "en": "The theory has been progressively refined through decades of empirical investigation.",
+        "de": "Die Theorie wurde durch Jahrzehnte empirischer Forschung schrittweise verfeinert."
+      }
+    ],
+    "opposite": {
+      "en": "coarsen",
+      "de": "vergröbern / vereinfachen / ungenauer machen",
+      "example_en": "Over-simplification can coarsen distinctions that are analytically important.",
+      "example_de": "Übervereinfachung kann Unterscheidungen vergröbern, die analytisch wichtig sind."
+    },
+    "synonyms": [
+      { "word": "improve", "de": "verbessern / optimieren / weiterentwickeln" },
+      { "word": "hone", "de": "schärfen / verfeinern / perfektionieren" },
+      { "word": "polish", "de": "verfeinern / polieren / ausfeilen" }
+    ],
+    "word_family": [
+      { "word": "refinement", "pos": "noun", "de": "Verfeinerung / Präzisierung / Verbesserung" },
+      { "word": "refined", "pos": "adj", "de": "verfeinert / präzisiert / ausgereift" },
+      { "word": "refinery", "pos": "noun", "de": "Raffinerie / Verarbeitungsanlage / Destillationsanlage" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl13_robust_01",
+    "word": "robust",
+    "group": "AWL13",
+    "group_label": "Academic Word List – Sublist 13",
+    "pos": "adj",
+    "translations": { "de": "robust / belastbar / fundiert / verlässlich" },
+    "examples": [
+      {
+        "en": "The conclusions are supported by robust evidence from multiple independent studies.",
+        "de": "Die Schlussfolgerungen werden durch belastbare Belege aus mehreren unabhängigen Studien gestützt."
+      },
+      {
+        "en": "A robust methodology is essential when drawing policy-relevant conclusions from complex data.",
+        "de": "Eine robuste Methodik ist unerlässlich, wenn aus komplexen Daten politikrelevante Schlussfolgerungen gezogen werden."
+      }
+    ],
+    "opposite": {
+      "en": "fragile",
+      "de": "fragil / anfällig / schwach",
+      "example_en": "The finding proved fragile and did not replicate under slightly different conditions.",
+      "example_de": "Der Befund erwies sich als fragil und ließ sich unter leicht veränderten Bedingungen nicht replizieren."
+    },
+    "synonyms": [
+      { "word": "strong", "de": "stark / solide / belastbar" },
+      { "word": "sound", "de": "fundiert / solide / zuverlässig" },
+      { "word": "resilient", "de": "widerstandsfähig / belastbar / robust" }
+    ],
+    "word_family": [
+      { "word": "robustness", "pos": "noun", "de": "Robustheit / Belastbarkeit / Zuverlässigkeit" },
+      { "word": "robustly", "pos": "adv", "de": "robust / belastbar / fundiert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl13_sphere_01",
+    "word": "sphere",
+    "group": "AWL13",
+    "group_label": "Academic Word List – Sublist 13",
+    "pos": "noun",
+    "translations": { "de": "Bereich / Sphäre / Feld / Gebiet" },
+    "examples": [
+      {
+        "en": "The boundaries between the public and private spheres have become increasingly blurred.",
+        "de": "Die Grenzen zwischen dem öffentlichen und dem privaten Bereich sind zunehmend verschwommen."
+      },
+      {
+        "en": "Digital technology has transformed the sphere of communication in ways that are still unfolding.",
+        "de": "Die digitale Technologie hat den Bereich der Kommunikation auf eine Weise verändert, die sich noch entfaltet."
+      }
+    ],
+    "opposite": {
+      "en": "periphery",
+      "de": "Peripherie / Rand / äußerer Bereich",
+      "example_en": "Issues at the periphery of academic debate often prove central to later developments.",
+      "example_de": "Themen an der Peripherie akademischer Debatten erweisen sich oft als zentral für spätere Entwicklungen."
+    },
+    "synonyms": [
+      { "word": "domain", "de": "Domäne / Bereich / Gebiet" },
+      { "word": "field", "de": "Feld / Bereich / Gebiet" },
+      { "word": "realm", "de": "Reich / Bereich / Sphäre" }
+    ],
+    "word_family": [
+      { "word": "spherical", "pos": "adj", "de": "sphärisch / kugelförmig / rund" },
+      { "word": "hemisphere", "pos": "noun", "de": "Hemisphäre / Halbkugel / Hälfte" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl13_trace_01",
+    "word": "trace",
+    "group": "AWL13",
+    "group_label": "Academic Word List – Sublist 13",
+    "pos": "verb",
+    "translations": { "de": "zurückverfolgen / nachverfolgen / aufspüren / verfolgen" },
+    "examples": [
+      {
+        "en": "The authors trace the origins of the current paradigm to debates that began in the 1970s.",
+        "de": "Die Autoren verfolgen die Ursprünge des aktuellen Paradigmas bis zu Debatten zurück, die in den 1970er Jahren begannen."
+      },
+      {
+        "en": "It is possible to trace the diffusion of the innovation across sectors over a twenty-year period.",
+        "de": "Es ist möglich, die Verbreitung der Innovation über Sektoren hinweg über einen Zeitraum von zwanzig Jahren nachzuverfolgen."
+      }
+    ],
+    "opposite": {
+      "en": "project",
+      "de": "prognostizieren / vorausplanen / in die Zukunft projizieren",
+      "example_en": "While the study traces historical developments, it does not project future trajectories.",
+      "example_de": "Während die Studie historische Entwicklungen nachverfolgt, prognostiziert sie keine zukünftigen Verläufe."
+    },
+    "synonyms": [
+      { "word": "track", "de": "verfolgen / nachverfolgen / aufspüren" },
+      { "word": "follow", "de": "folgen / verfolgen / nachgehen" },
+      { "word": "map", "de": "kartieren / abbilden / verfolgen" }
+    ],
+    "word_family": [
+      { "word": "trace", "pos": "noun", "de": "Spur / Anzeichen / Restmenge" },
+      { "word": "traceable", "pos": "adj", "de": "rückverfolgbar / nachvollziehbar / auffindbar" },
+      { "word": "traceability", "pos": "noun", "de": "Rückverfolgbarkeit / Nachvollziehbarkeit / Transparenz" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl13_unprecedented_01",
+    "word": "unprecedented",
+    "group": "AWL13",
+    "group_label": "Academic Word List – Sublist 13",
+    "pos": "adj",
+    "translations": { "de": "beispiellos / noch nie dagewesen / ohnegleichen / präzedenzlos" },
+    "examples": [
+      {
+        "en": "The pandemic created an unprecedented demand for remote work technologies across all sectors.",
+        "de": "Die Pandemie schuf eine beispiellose Nachfrage nach Remote-Arbeitstechnologien in allen Sektoren."
+      },
+      {
+        "en": "The scale of the data breach was unprecedented in the organisation's history.",
+        "de": "Das Ausmaß des Datenmissbrauchs war in der Geschichte der Organisation beispiellos."
+      }
+    ],
+    "opposite": {
+      "en": "routine",
+      "de": "routinemäßig / üblich / gewöhnlich",
+      "example_en": "Routine monitoring procedures were sufficient to detect the anomaly at an early stage.",
+      "example_de": "Routinemäßige Überwachungsverfahren reichten aus, um die Anomalie in einem frühen Stadium zu erkennen."
+    },
+    "synonyms": [
+      { "word": "unparalleled", "de": "einmalig / unerreicht / ohnegleichen" },
+      { "word": "extraordinary", "de": "außerordentlich / außergewöhnlich / beispiellos" },
+      { "word": "novel", "de": "neuartig / unbekannt / noch nicht dagewesen" }
+    ],
+    "word_family": [
+      { "word": "precedent", "pos": "noun", "de": "Präzedenzfall / Vorlage / Beispiel" },
+      { "word": "precedented", "pos": "adj", "de": "mit Vorlage / nicht neu / mit Präzedenzfall" },
+      { "word": "unprecedentedly", "pos": "adv", "de": "beispiellos / noch nie dagewesen / in nicht gekanntem Ausmaß" }
+    ],
+    "phrasal_verbs": []
+  }
+]
