@@ -1,0 +1,707 @@
+[
+  {
+    "id": "awl7_adapt_01",
+    "word": "adapt",
+    "group": "AWL7",
+    "group_label": "Academic Word List – Sublist 7",
+    "pos": "verb",
+    "translations": { "de": "anpassen / adaptieren / umgestalten" },
+    "examples": [
+      {
+        "en": "The research instrument was adapted for use with younger participants to ensure comprehension.",
+        "de": "Das Forschungsinstrument wurde für die Verwendung mit jüngeren Teilnehmern angepasst, um das Verständnis sicherzustellen."
+      },
+      {
+        "en": "Organisations must adapt their strategies rapidly in response to shifting market conditions.",
+        "de": "Organisationen müssen ihre Strategien als Reaktion auf veränderte Marktbedingungen schnell anpassen."
+      }
+    ],
+    "opposite": {
+      "en": "resist",
+      "de": "widerstehen / sich widersetzen / ablehnen",
+      "example_en": "Some institutions resist change even when evidence clearly supports adapting established practices.",
+      "example_de": "Einige Institutionen widersetzen sich dem Wandel, selbst wenn Belege klar dafür sprechen, etablierte Praktiken anzupassen."
+    },
+    "synonyms": [
+      { "word": "adjust", "de": "anpassen / justieren" },
+      { "word": "modify", "de": "modifizieren / abändern" },
+      { "word": "tailor", "de": "zuschneiden / maßschneidern / anpassen" }
+    ],
+    "word_family": [
+      { "word": "adaptation", "pos": "noun", "de": "Anpassung / Adaptation / Umgestaltung" },
+      { "word": "adaptive", "pos": "adj", "de": "adaptiv / anpassungsfähig / flexibel" },
+      { "word": "adaptable", "pos": "adj", "de": "anpassbar / wandlungsfähig / flexibel" },
+      { "word": "maladaptive", "pos": "adj", "de": "fehlangepasst / dysfunktional" }
+    ],
+    "phrasal_verbs": [
+      {
+        "phrase": "adapt to",
+        "de": "sich anpassen an / sich einstellen auf",
+        "example": "Researchers must be prepared to adapt to unexpected challenges during fieldwork."
+      }
+    ]
+  },
+  {
+    "id": "awl7_clarify_02",
+    "word": "clarify",
+    "group": "AWL7",
+    "group_label": "Academic Word List – Sublist 7",
+    "pos": "verb",
+    "translations": { "de": "klären / klarstellen / verdeutlichen / erläutern" },
+    "examples": [
+      {
+        "en": "The discussion section should clarify how the findings relate to the existing literature.",
+        "de": "Der Diskussionsteil sollte klären, wie die Befunde mit der vorhandenen Literatur zusammenhängen."
+      },
+      {
+        "en": "Follow-up interviews were conducted to clarify ambiguous responses from the initial survey.",
+        "de": "Nachfolgeinterviews wurden durchgeführt, um mehrdeutige Antworten aus der ersten Umfrage zu klären."
+      }
+    ],
+    "opposite": {
+      "en": "obscure",
+      "de": "verschleiern / verunkläen / verdunkeln",
+      "example_en": "Dense academic jargon can obscure rather than clarify the central argument of a paper.",
+      "example_de": "Dichter akademischer Jargon kann das zentrale Argument eines Aufsatzes eher verschleiern als verdeutlichen."
+    },
+    "synonyms": [
+      { "word": "explain", "de": "erklären / erläutern / darlegen" },
+      { "word": "elucidate", "de": "erläutern / verdeutlichen / erhellen" },
+      { "word": "specify", "de": "spezifizieren / präzisieren / genau angeben" }
+    ],
+    "word_family": [
+      { "word": "clarification", "pos": "noun", "de": "Klärung / Klarstellung / Verdeutlichung" },
+      { "word": "clarity", "pos": "noun", "de": "Klarheit / Deutlichkeit / Verständlichkeit" },
+      { "word": "unclear", "pos": "adj", "de": "unklar / undeutlich / vage" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl7_comprise_03",
+    "word": "comprise",
+    "group": "AWL7",
+    "group_label": "Academic Word List – Sublist 7",
+    "pos": "verb",
+    "translations": { "de": "umfassen / bestehen aus / beinhalten / ausmachen" },
+    "examples": [
+      {
+        "en": "The sample comprises 340 undergraduate students drawn from three different universities.",
+        "de": "Die Stichprobe umfasst 340 Studierende im Grundstudium, die von drei verschiedenen Universitäten stammen."
+      },
+      {
+        "en": "The dataset comprises longitudinal records spanning a period of twenty years.",
+        "de": "Der Datensatz umfasst Längsschnittdaten über einen Zeitraum von zwanzig Jahren."
+      }
+    ],
+    "opposite": {
+      "en": "exclude",
+      "de": "ausschließen / auslassen / nicht enthalten",
+      "example_en": "The analysis excludes cases that do not meet the predefined inclusion criteria.",
+      "example_de": "Die Analyse schließt Fälle aus, die die vordefinierten Einschlusskriterien nicht erfüllen."
+    },
+    "synonyms": [
+      { "word": "consist of", "de": "bestehen aus / sich zusammensetzen aus" },
+      { "word": "include", "de": "einschließen / beinhalten / umfassen" },
+      { "word": "encompass", "de": "umfassen / einschließen / einbeziehen" }
+    ],
+    "word_family": [
+      { "word": "composition", "pos": "noun", "de": "Zusammensetzung / Komposition / Aufbau" },
+      { "word": "composite", "pos": "adj", "de": "zusammengesetzt / komplex / Verbund-" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl7_confirm_04",
+    "word": "confirm",
+    "group": "AWL7",
+    "group_label": "Academic Word List – Sublist 7",
+    "pos": "verb",
+    "translations": { "de": "bestätigen / bekräftigen / verifizieren / untermauern" },
+    "examples": [
+      {
+        "en": "The replication study confirms the original findings across a larger and more diverse sample.",
+        "de": "Die Replikationsstudie bestätigt die ursprünglichen Befunde anhand einer größeren und vielfältigeren Stichprobe."
+      },
+      {
+        "en": "Statistical analysis confirmed a significant positive relationship between the two variables.",
+        "de": "Die statistische Analyse bestätigte einen signifikant positiven Zusammenhang zwischen den beiden Variablen."
+      }
+    ],
+    "opposite": {
+      "en": "refute",
+      "de": "widerlegen / entkräften / zurückweisen",
+      "example_en": "Several recent studies refute the hypothesis that was widely accepted for over a decade.",
+      "example_de": "Mehrere neuere Studien widerlegen die Hypothese, die mehr als ein Jahrzehnt lang allgemein akzeptiert war."
+    },
+    "synonyms": [
+      { "word": "verify", "de": "überprüfen / verifizieren / bestätigen" },
+      { "word": "corroborate", "de": "bekräftigen / untermauern / bestätigen" },
+      { "word": "validate", "de": "validieren / bestätigen / für gültig erklären" }
+    ],
+    "word_family": [
+      { "word": "confirmation", "pos": "noun", "de": "Bestätigung / Bekräftigung / Verifikation" },
+      { "word": "confirmed", "pos": "adj", "de": "bestätigt / erwiesen / gesichert" },
+      { "word": "unconfirmed", "pos": "adj", "de": "unbestätigt / nicht verifiziert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl7_contrary_05",
+    "word": "contrary",
+    "group": "AWL7",
+    "group_label": "Academic Word List – Sublist 7",
+    "pos": "adj",
+    "translations": { "de": "gegensätzlich / entgegengesetzt / konträr / widersprechend" },
+    "examples": [
+      {
+        "en": "Contrary to expectations, the control group outperformed the intervention group on all measures.",
+        "de": "Entgegen den Erwartungen übertraf die Kontrollgruppe die Interventionsgruppe bei allen Maßnahmen."
+      },
+      {
+        "en": "The results are contrary to those reported in the seminal study published a decade ago.",
+        "de": "Die Ergebnisse sind gegensätzlich zu jenen, die in der wegweisenden Studie vor einem Jahrzehnt veröffentlicht wurden."
+      }
+    ],
+    "opposite": {
+      "en": "consistent",
+      "de": "konsistent / übereinstimmend / einheitlich",
+      "example_en": "The new data are fully consistent with the predictions of the theoretical model.",
+      "example_de": "Die neuen Daten stimmen vollständig mit den Vorhersagen des theoretischen Modells überein."
+    },
+    "synonyms": [
+      { "word": "opposing", "de": "entgegengesetzt / gegensätzlich / konträr" },
+      { "word": "contradictory", "de": "widersprüchlich / entgegengesetzt" },
+      { "word": "conflicting", "de": "widersprüchlich / gegensätzlich / konfliktiv" }
+    ],
+    "word_family": [
+      { "word": "contrary", "pos": "noun", "de": "Gegenteil / Widerspruch" },
+      { "word": "on the contrary", "pos": "phrase", "de": "im Gegenteil / ganz im Gegenteil" },
+      { "word": "to the contrary", "pos": "phrase", "de": "entgegen / gegenteilig / das Gegenteil besagend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl7_convert_06",
+    "word": "convert",
+    "group": "AWL7",
+    "group_label": "Academic Word List – Sublist 7",
+    "pos": "verb",
+    "translations": { "de": "umwandeln / konvertieren / umrechnen / überführen" },
+    "examples": [
+      {
+        "en": "Raw scores were converted to standardised z-scores to allow meaningful comparisons across groups.",
+        "de": "Rohwerte wurden in standardisierte z-Werte umgerechnet, um sinnvolle Vergleiche zwischen Gruppen zu ermöglichen."
+      },
+      {
+        "en": "Qualitative data can be partially converted into numerical codes for quantitative analysis.",
+        "de": "Qualitative Daten können teilweise in numerische Codes umgewandelt werden für die quantitative Analyse."
+      }
+    ],
+    "opposite": {
+      "en": "retain",
+      "de": "beibehalten / behalten / bewahren",
+      "example_en": "The original units of measurement were retained to maintain comparability with prior studies.",
+      "example_de": "Die ursprünglichen Maßeinheiten wurden beibehalten, um die Vergleichbarkeit mit früheren Studien zu wahren."
+    },
+    "synonyms": [
+      { "word": "transform", "de": "transformieren / umwandeln / umformen" },
+      { "word": "change", "de": "verändern / umwandeln / wechseln" },
+      { "word": "translate", "de": "übertragen / übersetzen / umrechnen" }
+    ],
+    "word_family": [
+      { "word": "conversion", "pos": "noun", "de": "Konvertierung / Umwandlung / Umrechnung" },
+      { "word": "converter", "pos": "noun", "de": "Konverter / Umwandler" },
+      { "word": "convertible", "pos": "adj", "de": "konvertierbar / umwandelbar / austauschbar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl7_convince_07",
+    "word": "convince",
+    "group": "AWL7",
+    "group_label": "Academic Word List – Sublist 7",
+    "pos": "verb",
+    "translations": { "de": "überzeugen / überreden / glaubhaft machen" },
+    "examples": [
+      {
+        "en": "The authors fail to convince the reader that correlation implies causation in this instance.",
+        "de": "Es gelingt den Autoren nicht, den Leser davon zu überzeugen, dass Korrelation in diesem Fall Kausalität impliziert."
+      },
+      {
+        "en": "Strong empirical evidence is required to convince the scientific community to revise established models.",
+        "de": "Starke empirische Belege sind erforderlich, um die Wissenschaftsgemeinschaft davon zu überzeugen, etablierte Modelle zu überarbeiten."
+      }
+    ],
+    "opposite": {
+      "en": "doubt",
+      "de": "bezweifeln / in Frage stellen / zweifeln an",
+      "example_en": "Peer reviewers may doubt the conclusions if the methodology is not sufficiently transparent.",
+      "example_de": "Gutachter könnten die Schlussfolgerungen bezweifeln, wenn die Methodik nicht ausreichend transparent ist."
+    },
+    "synonyms": [
+      { "word": "persuade", "de": "überzeugen / überreden / bewegen" },
+      { "word": "assure", "de": "versichern / zusichern / überzeugen" },
+      { "word": "demonstrate", "de": "nachweisen / belegen / zeigen" }
+    ],
+    "word_family": [
+      { "word": "convincing", "pos": "adj", "de": "überzeugend / schlüssig / glaubhaft" },
+      { "word": "convincingly", "pos": "adv", "de": "überzeugend / schlüssig / einleuchtend" },
+      { "word": "unconvincing", "pos": "adj", "de": "nicht überzeugend / zweifelhaft / unglaubhaft" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl7_evaluate_08",
+    "word": "evaluate",
+    "group": "AWL7",
+    "group_label": "Academic Word List – Sublist 7",
+    "pos": "verb",
+    "translations": { "de": "bewerten / evaluieren / beurteilen / einschätzen" },
+    "examples": [
+      {
+        "en": "The systematic review evaluates the effectiveness of mindfulness-based interventions for anxiety.",
+        "de": "Die systematische Übersichtsarbeit bewertet die Wirksamkeit achtsamkeitsbasierter Interventionen bei Angststörungen."
+      },
+      {
+        "en": "Students were asked to critically evaluate the methodological choices made by the original authors.",
+        "de": "Die Studierenden wurden gebeten, die methodischen Entscheidungen der ursprünglichen Autoren kritisch zu beurteilen."
+      }
+    ],
+    "opposite": {
+      "en": "overlook",
+      "de": "übersehen / ignorieren / außer Acht lassen",
+      "example_en": "To overlook critical flaws in a study's design undermines the credibility of its conclusions.",
+      "example_de": "Kritische Mängel im Design einer Studie zu übersehen untergräbt die Glaubwürdigkeit ihrer Schlussfolgerungen."
+    },
+    "synonyms": [
+      { "word": "assess", "de": "beurteilen / einschätzen / bewerten" },
+      { "word": "appraise", "de": "einschätzen / beurteilen / bewerten" },
+      { "word": "judge", "de": "beurteilen / einschätzen / urteilen" }
+    ],
+    "word_family": [
+      { "word": "evaluation", "pos": "noun", "de": "Bewertung / Evaluation / Beurteilung" },
+      { "word": "evaluative", "pos": "adj", "de": "evaluativ / beurteilend / bewertend" },
+      { "word": "evaluator", "pos": "noun", "de": "Evaluator / Beurteiler / Bewerter" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl7_fluctuate_09",
+    "word": "fluctuate",
+    "group": "AWL7",
+    "group_label": "Academic Word List – Sublist 7",
+    "pos": "verb",
+    "translations": { "de": "schwanken / fluktuieren / variieren / auf und ab gehen" },
+    "examples": [
+      {
+        "en": "Participant motivation tends to fluctuate over the course of a long-term study.",
+        "de": "Die Motivation der Teilnehmer neigt dazu, im Verlauf einer Langzeitstudie zu schwanken."
+      },
+      {
+        "en": "Exchange rates fluctuate continuously, complicating cross-national economic comparisons.",
+        "de": "Wechselkurse schwanken kontinuierlich, was grenzüberschreitende wirtschaftliche Vergleiche erschwert."
+      }
+    ],
+    "opposite": {
+      "en": "stabilise",
+      "de": "stabilisieren / konstant bleiben / sich einpendeln",
+      "example_en": "After an initial period of variation, the values stabilised and remained consistent.",
+      "example_de": "Nach einer anfänglichen Variationsphase stabilisierten sich die Werte und blieben konstant."
+    },
+    "synonyms": [
+      { "word": "vary", "de": "variieren / schwanken / sich verändern" },
+      { "word": "oscillate", "de": "oszillieren / schwingen / schwanken" },
+      { "word": "waver", "de": "schwanken / zögern / unbeständig sein" }
+    ],
+    "word_family": [
+      { "word": "fluctuation", "pos": "noun", "de": "Schwankung / Fluktuation / Variabilität" },
+      { "word": "fluctuating", "pos": "adj", "de": "schwankend / fluktuierend / unbeständig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl7_indicate_10",
+    "word": "indicate",
+    "group": "AWL7",
+    "group_label": "Academic Word List – Sublist 7",
+    "pos": "verb",
+    "translations": { "de": "anzeigen / hinweisen auf / belegen / deuten auf" },
+    "examples": [
+      {
+        "en": "The data indicate a strong positive correlation between educational attainment and health outcomes.",
+        "de": "Die Daten deuten auf eine starke positive Korrelation zwischen Bildungsstand und Gesundheitsergebnissen hin."
+      },
+      {
+        "en": "Preliminary findings indicate that the intervention may be more effective for female participants.",
+        "de": "Vorläufige Ergebnisse deuten darauf hin, dass die Intervention für weibliche Teilnehmer wirksamer sein könnte."
+      }
+    ],
+    "opposite": {
+      "en": "conceal",
+      "de": "verbergen / verschleiern / verdecken",
+      "example_en": "Selective reporting can conceal patterns in the data that would otherwise be clearly indicated.",
+      "example_de": "Selektives Berichten kann Muster in den Daten verbergen, die sonst klar erkennbar wären."
+    },
+    "synonyms": [
+      { "word": "suggest", "de": "nahelegen / darauf hindeuten / andeuten" },
+      { "word": "show", "de": "zeigen / belegen / aufzeigen" },
+      { "word": "signal", "de": "signalisieren / anzeigen / hindeuten auf" }
+    ],
+    "word_family": [
+      { "word": "indication", "pos": "noun", "de": "Hinweis / Anzeichen / Indikation" },
+      { "word": "indicator", "pos": "noun", "de": "Indikator / Kennzahl / Anzeiger" },
+      { "word": "indicative", "pos": "adj", "de": "bezeichnend / kennzeichnend / hinweisend auf" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl7_infer_11",
+    "word": "infer",
+    "group": "AWL7",
+    "group_label": "Academic Word List – Sublist 7",
+    "pos": "verb",
+    "translations": { "de": "folgern / schließen / ableiten / inferieren" },
+    "examples": [
+      {
+        "en": "From the pattern of results, we can infer that the effect is driven by demographic rather than cognitive factors.",
+        "de": "Aus dem Ergebnismuster können wir schließen, dass der Effekt eher durch demografische als durch kognitive Faktoren bedingt ist."
+      },
+      {
+        "en": "It is not possible to infer causality from correlational data alone.",
+        "de": "Es ist nicht möglich, aus korrelativen Daten allein auf Kausalität zu schließen."
+      }
+    ],
+    "opposite": {
+      "en": "assume",
+      "de": "annehmen / voraussetzen / unterstellen",
+      "example_en": "Rather than assuming a causal link, researchers should infer it only from appropriate evidence.",
+      "example_de": "Anstatt einen Kausalzusammenhang vorauszusetzen, sollten Forscher ihn nur aus geeigneten Belegen schließen."
+    },
+    "synonyms": [
+      { "word": "deduce", "de": "deduzieren / schlussfolgern / ableiten" },
+      { "word": "conclude", "de": "schlussfolgern / folgern / zu dem Schluss kommen" },
+      { "word": "derive", "de": "ableiten / herleiten / schließen" }
+    ],
+    "word_family": [
+      { "word": "inference", "pos": "noun", "de": "Schlussfolgerung / Inferenz / Ableitung" },
+      { "word": "inferential", "pos": "adj", "de": "inferenziell / schlussfolgernder Art" },
+      { "word": "inferential statistics", "pos": "phrase", "de": "Inferenzstatistik / schließende Statistik" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl7_innovate_12",
+    "word": "innovate",
+    "group": "AWL7",
+    "group_label": "Academic Word List – Sublist 7",
+    "pos": "verb",
+    "translations": { "de": "innovieren / Neuerungen einführen / neue Wege gehen" },
+    "examples": [
+      {
+        "en": "Academic institutions must innovate continuously to remain competitive in a rapidly evolving landscape.",
+        "de": "Akademische Einrichtungen müssen kontinuierlich innovieren, um in einer sich schnell verändernden Landschaft wettbewerbsfähig zu bleiben."
+      },
+      {
+        "en": "The project challenged researchers to innovate by combining insights from disparate fields.",
+        "de": "Das Projekt forderte Forscher heraus, zu innovieren, indem sie Erkenntnisse aus verschiedenen Fachgebieten kombinierten."
+      }
+    ],
+    "opposite": {
+      "en": "stagnate",
+      "de": "stagnieren / stillstehen / sich nicht weiterentwickeln",
+      "example_en": "Fields that fail to innovate methodologically tend to stagnate and lose relevance over time.",
+      "example_de": "Fachbereiche, die methodisch nicht innovieren, neigen dazu, zu stagnieren und im Laufe der Zeit an Relevanz zu verlieren."
+    },
+    "synonyms": [
+      { "word": "pioneer", "de": "Pionierarbeit leisten / Neuland betreten" },
+      { "word": "create", "de": "erschaffen / neu entwickeln / kreieren" },
+      { "word": "advance", "de": "vorantreiben / weiterentwickeln / fördern" }
+    ],
+    "word_family": [
+      { "word": "innovation", "pos": "noun", "de": "Innovation / Neuerung / Erfindung" },
+      { "word": "innovative", "pos": "adj", "de": "innovativ / neuartig / bahnbrechend" },
+      { "word": "innovator", "pos": "noun", "de": "Innovator / Wegbereiter / Erneuerer" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl7_persist_13",
+    "word": "persist",
+    "group": "AWL7",
+    "group_label": "Academic Word List – Sublist 7",
+    "pos": "verb",
+    "translations": { "de": "fortbestehen / anhalten / beharren / andauern" },
+    "examples": [
+      {
+        "en": "Structural inequalities persist despite decades of policy intervention and social reform.",
+        "de": "Strukturelle Ungleichheiten bestehen fort, trotz jahrzehntelanger politischer Eingriffe und sozialer Reformen."
+      },
+      {
+        "en": "The effect persisted at a six-month follow-up, suggesting it is not merely a short-term phenomenon.",
+        "de": "Der Effekt hielt bei einer Nachuntersuchung nach sechs Monaten an, was darauf hindeutet, dass es sich nicht nur um ein kurzfristiges Phänomen handelt."
+      }
+    ],
+    "opposite": {
+      "en": "cease",
+      "de": "aufhören / enden / nachlassen",
+      "example_en": "The adverse side effects ceased within two weeks of discontinuing the treatment.",
+      "example_de": "Die unerwünschten Nebenwirkungen hörten innerhalb von zwei Wochen nach dem Absetzen der Behandlung auf."
+    },
+    "synonyms": [
+      { "word": "continue", "de": "fortfahren / andauern / weiterbestehen" },
+      { "word": "endure", "de": "andauern / fortbestehen / aushalten" },
+      { "word": "remain", "de": "bleiben / verbleiben / fortbestehen" }
+    ],
+    "word_family": [
+      { "word": "persistence", "pos": "noun", "de": "Beständigkeit / Ausdauer / Persistenz" },
+      { "word": "persistent", "pos": "adj", "de": "beständig / anhaltend / hartnäckig" },
+      { "word": "persistently", "pos": "adv", "de": "beharrlich / anhaltend / hartnäckig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl7_radical_14",
+    "word": "radical",
+    "group": "AWL7",
+    "group_label": "Academic Word List – Sublist 7",
+    "pos": "adj",
+    "translations": { "de": "radikal / grundlegend / tiefgreifend / weitreichend" },
+    "examples": [
+      {
+        "en": "The study calls for a radical rethinking of how educational outcomes are measured and reported.",
+        "de": "Die Studie fordert ein grundlegendes Umdenken darüber, wie Bildungsergebnisse gemessen und berichtet werden."
+      },
+      {
+        "en": "A radical departure from conventional methodology was necessary to address the complexity of the problem.",
+        "de": "Eine radikale Abkehr von der konventionellen Methodik war notwendig, um die Komplexität des Problems anzugehen."
+      }
+    ],
+    "opposite": {
+      "en": "conservative",
+      "de": "konservativ / moderat / zurückhaltend",
+      "example_en": "A more conservative approach would build incrementally on existing theory rather than challenging its foundations.",
+      "example_de": "Ein konservativerer Ansatz würde schrittweise auf bestehender Theorie aufbauen, anstatt ihre Grundlagen infrage zu stellen."
+    },
+    "synonyms": [
+      { "word": "fundamental", "de": "grundlegend / wesentlich / fundamental" },
+      { "word": "sweeping", "de": "weitreichend / tiefgreifend / umfassend" },
+      { "word": "drastic", "de": "drastisch / drastisch einschneidend / radikal" }
+    ],
+    "word_family": [
+      { "word": "radically", "pos": "adv", "de": "radikal / grundlegend / von Grund auf" },
+      { "word": "radicalise", "pos": "verb", "de": "radikalisieren / auf radikale Positionen bringen" },
+      { "word": "radicalism", "pos": "noun", "de": "Radikalismus / Extremismus" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl7_random_15",
+    "word": "random",
+    "group": "AWL7",
+    "group_label": "Academic Word List – Sublist 7",
+    "pos": "adj",
+    "translations": { "de": "zufällig / willkürlich / stochastisch" },
+    "examples": [
+      {
+        "en": "Random sampling ensures that each member of the population has an equal chance of selection.",
+        "de": "Zufallsstichproben stellen sicher, dass jedes Mitglied der Grundgesamtheit die gleiche Auswahlchance hat."
+      },
+      {
+        "en": "The random assignment of participants to conditions is a defining feature of experimental design.",
+        "de": "Die zufällige Zuweisung von Teilnehmern zu Bedingungen ist ein charakteristisches Merkmal des Versuchsdesigns."
+      }
+    ],
+    "opposite": {
+      "en": "systematic",
+      "de": "systematisch / planmäßig / methodisch",
+      "example_en": "Systematic sampling selects participants at regular intervals rather than at random.",
+      "example_de": "Systematische Stichprobenziehung wählt Teilnehmer in regelmäßigen Abständen aus, anstatt zufällig."
+    },
+    "synonyms": [
+      { "word": "arbitrary", "de": "willkürlich / beliebig / zufällig" },
+      { "word": "chance", "de": "zufällig / durch Zufall / unabsichtlich" },
+      { "word": "unsystematic", "de": "unsystematisch / ungeordnet / zufällig" }
+    ],
+    "word_family": [
+      { "word": "randomly", "pos": "adv", "de": "zufällig / auf Zufallsbasis / willkürlich" },
+      { "word": "randomness", "pos": "noun", "de": "Zufälligkeit / Stochastizität" },
+      { "word": "randomise", "pos": "verb", "de": "randomisieren / zufällig zuweisen" },
+      { "word": "randomisation", "pos": "noun", "de": "Randomisierung / Zufallszuweisung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl7_ratio_16",
+    "word": "ratio",
+    "group": "AWL7",
+    "group_label": "Academic Word List – Sublist 7",
+    "pos": "noun",
+    "translations": { "de": "Verhältnis / Quote / Proportion / Relation" },
+    "examples": [
+      {
+        "en": "The ratio of male to female participants was approximately two to one in the study.",
+        "de": "Das Verhältnis von männlichen zu weiblichen Teilnehmern betrug in der Studie ungefähr zwei zu eins."
+      },
+      {
+        "en": "A high signal-to-noise ratio is essential for obtaining reliable measurements in experimental research.",
+        "de": "Ein hohes Signal-Rausch-Verhältnis ist für zuverlässige Messungen in der experimentellen Forschung unerlässlich."
+      }
+    ],
+    "opposite": {
+      "en": "imbalance",
+      "de": "Ungleichgewicht / Missverhältnis / Disproportion",
+      "example_en": "A significant gender imbalance in the sample limits the generalisability of the findings.",
+      "example_de": "Ein erhebliches Geschlechterungleichgewicht in der Stichprobe begrenzt die Verallgemeinerbarkeit der Befunde."
+    },
+    "synonyms": [
+      { "word": "proportion", "de": "Anteil / Proportion / Verhältnis" },
+      { "word": "rate", "de": "Rate / Quote / Verhältnis" },
+      { "word": "fraction", "de": "Bruchteil / Anteil / Fraktion" }
+    ],
+    "word_family": [
+      { "word": "ratios", "pos": "noun", "de": "Verhältnisse / Quoten (Plural)" },
+      { "word": "proportional", "pos": "adj", "de": "proportional / verhältnismäßig" },
+      { "word": "odds ratio", "pos": "phrase", "de": "Odds Ratio / Chancenverhältnis" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl7_resolve_17",
+    "word": "resolve",
+    "group": "AWL7",
+    "group_label": "Academic Word List – Sublist 7",
+    "pos": "verb",
+    "translations": { "de": "lösen / klären / auflösen / beilegen" },
+    "examples": [
+      {
+        "en": "Further empirical research is needed to resolve the apparent contradiction between these findings.",
+        "de": "Weitere empirische Forschung ist erforderlich, um den scheinbaren Widerspruch zwischen diesen Befunden zu lösen."
+      },
+      {
+        "en": "The committee resolved the ethical dispute by establishing a new set of clear guidelines.",
+        "de": "Der Ausschuss löste den ethischen Streit durch die Einführung neuer klarer Leitlinien."
+      }
+    ],
+    "opposite": {
+      "en": "exacerbate",
+      "de": "verschlimmern / verschärfen / verstärken",
+      "example_en": "Poorly designed policies can exacerbate the very problems they are intended to resolve.",
+      "example_de": "Schlecht konzipierte Maßnahmen können genau die Probleme verschärfen, die sie lösen sollen."
+    },
+    "synonyms": [
+      { "word": "settle", "de": "beilegen / klären / regeln" },
+      { "word": "solve", "de": "lösen / beheben / klären" },
+      { "word": "address", "de": "angehen / sich befassen mit / lösen" }
+    ],
+    "word_family": [
+      { "word": "resolution", "pos": "noun", "de": "Lösung / Entschließung / Auflösung" },
+      { "word": "resolved", "pos": "adj", "de": "gelöst / entschlossen / beigelegt" },
+      { "word": "unresolved", "pos": "adj", "de": "ungelöst / offen / ungeklärt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl7_scope_18",
+    "word": "scope",
+    "group": "AWL7",
+    "group_label": "Academic Word List – Sublist 7",
+    "pos": "noun",
+    "translations": { "de": "Umfang / Reichweite / Geltungsbereich / Spielraum" },
+    "examples": [
+      {
+        "en": "The scope of the review was limited to studies published in peer-reviewed journals after 2010.",
+        "de": "Der Umfang der Überprüfung war auf Studien beschränkt, die nach 2010 in begutachteten Zeitschriften veröffentlicht wurden."
+      },
+      {
+        "en": "There is considerable scope for future research to explore the long-term effects of the intervention.",
+        "de": "Es gibt erheblichen Spielraum für künftige Forschung, um die Langzeiteffekte der Intervention zu untersuchen."
+      }
+    ],
+    "opposite": {
+      "en": "limitation",
+      "de": "Einschränkung / Begrenztheit / Beschränkung",
+      "example_en": "The narrow scope of the study is acknowledged as its primary limitation.",
+      "example_de": "Der enge Umfang der Studie wird als ihre primäre Einschränkung anerkannt."
+    },
+    "synonyms": [
+      { "word": "range", "de": "Bereich / Reichweite / Spektrum" },
+      { "word": "extent", "de": "Ausmaß / Umfang / Reichweite" },
+      { "word": "breadth", "de": "Breite / Umfang / Weite" }
+    ],
+    "word_family": [
+      { "word": "in scope", "pos": "phrase", "de": "im Rahmen des Vorhabens / thematisch einschlägig" },
+      { "word": "out of scope", "pos": "phrase", "de": "außerhalb des Rahmens / nicht einschlägig" },
+      { "word": "widen the scope", "pos": "phrase", "de": "den Umfang erweitern / das Spektrum ausweiten" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl7_submit_19",
+    "word": "submit",
+    "group": "AWL7",
+    "group_label": "Academic Word List – Sublist 7",
+    "pos": "verb",
+    "translations": { "de": "einreichen / vorlegen / unterwerfen / abgeben" },
+    "examples": [
+      {
+        "en": "Authors are required to submit their manuscripts through the journal's online submission system.",
+        "de": "Autoren sind verpflichtet, ihre Manuskripte über das Online-Einreichungssystem der Zeitschrift einzureichen."
+      },
+      {
+        "en": "The research proposal must be submitted to the ethics committee before data collection begins.",
+        "de": "Der Forschungsantrag muss vor Beginn der Datenerhebung bei der Ethikkommission eingereicht werden."
+      }
+    ],
+    "opposite": {
+      "en": "withdraw",
+      "de": "zurückziehen / widerrufen / einziehen",
+      "example_en": "The authors chose to withdraw the article after identifying a significant error in the data analysis.",
+      "example_de": "Die Autoren entschieden sich, den Artikel zurückzuziehen, nachdem sie einen erheblichen Fehler in der Datenanalyse festgestellt hatten."
+    },
+    "synonyms": [
+      { "word": "present", "de": "vorlegen / präsentieren / einreichen" },
+      { "word": "hand in", "de": "abgeben / einreichen" },
+      { "word": "put forward", "de": "vorschlagen / einreichen / vortragen" }
+    ],
+    "word_family": [
+      { "word": "submission", "pos": "noun", "de": "Einreichung / Abgabe / Unterbreitung" },
+      { "word": "resubmit", "pos": "verb", "de": "erneut einreichen / nachreichen" },
+      { "word": "submitted", "pos": "adj", "de": "eingereicht / abgegeben / vorgelegt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl7_undermine_20",
+    "word": "undermine",
+    "group": "AWL7",
+    "group_label": "Academic Word List – Sublist 7",
+    "pos": "verb",
+    "translations": { "de": "untergraben / schwächen / unterhöhlen / zunichte machen" },
+    "examples": [
+      {
+        "en": "Publication bias can undermine the integrity of the evidence base in a given research domain.",
+        "de": "Publikationsbias kann die Integrität der Beweisgrundlage in einem bestimmten Forschungsbereich untergraben."
+      },
+      {
+        "en": "Conflicts of interest undermine the independence and perceived objectivity of scientific findings.",
+        "de": "Interessenkonflikte untergraben die Unabhängigkeit und wahrgenommene Objektivität wissenschaftlicher Erkenntnisse."
+      }
+    ],
+    "opposite": {
+      "en": "strengthen",
+      "de": "stärken / festigen / bekräftigen",
+      "example_en": "Replication across diverse contexts strengthens the credibility of the original findings.",
+      "example_de": "Replikation in verschiedenen Kontexten stärkt die Glaubwürdigkeit der ursprünglichen Befunde."
+    },
+    "synonyms": [
+      { "word": "weaken", "de": "schwächen / abschwächen / untergraben" },
+      { "word": "erode", "de": "aushöhlen / erodieren / untergraben" },
+      { "word": "compromise", "de": "beeinträchtigen / gefährden / untergraben" }
+    ],
+    "word_family": [
+      { "word": "undermining", "pos": "adj", "de": "untergrabend / schwächend / zersetzend" },
+      { "word": "undermined", "pos": "adj", "de": "untergraben / geschwächt / erschüttert" }
+    ],
+    "phrasal_verbs": []
+  }
+]
