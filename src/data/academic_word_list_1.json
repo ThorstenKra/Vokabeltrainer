@@ -1,0 +1,706 @@
+[
+  {
+    "id": "awl_analyse_01",
+    "word": "analyse",
+    "group": "AWL1",
+    "group_label": "Academic Word List – Sublist 1",
+    "pos": "verb",
+    "translations": { "de": "analysieren / untersuchen / auswerten" },
+    "examples": [
+      {
+        "en": "Researchers analyse large data sets to identify patterns and draw conclusions.",
+        "de": "Forscher analysieren große Datensätze, um Muster zu erkennen und Schlüsse zu ziehen."
+      },
+      {
+        "en": "The report carefully analyses the causes of the recent economic downturn.",
+        "de": "Der Bericht analysiert sorgfältig die Ursachen des jüngsten Wirtschaftsabschwungs."
+      }
+    ],
+    "opposite": {
+      "en": "overlook",
+      "de": "übersehen / ignorieren",
+      "example_en": "Scientists cannot afford to overlook anomalies in the data.",
+      "example_de": "Wissenschaftler können es sich nicht leisten, Anomalien in den Daten zu übersehen."
+    },
+    "synonyms": [
+      { "word": "examine", "de": "untersuchen" },
+      { "word": "scrutinise", "de": "genau prüfen" },
+      { "word": "investigate", "de": "erforschen / nachgehen" }
+    ],
+    "word_family": [
+      { "word": "analysis", "pos": "noun", "de": "Analyse / Untersuchung" },
+      { "word": "analyst", "pos": "noun", "de": "Analyst / Analytikerin" },
+      { "word": "analytical", "pos": "adj", "de": "analytisch" },
+      { "word": "analytically", "pos": "adv", "de": "auf analytische Weise" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl_assess_02",
+    "word": "assess",
+    "group": "AWL1",
+    "group_label": "Academic Word List – Sublist 1",
+    "pos": "verb",
+    "translations": { "de": "einschätzen / beurteilen / bewerten" },
+    "examples": [
+      {
+        "en": "The committee will assess the risks before approving the proposal.",
+        "de": "Der Ausschuss wird die Risiken einschätzen, bevor er den Vorschlag genehmigt."
+      },
+      {
+        "en": "Teachers assess students' progress through a range of written and oral tasks.",
+        "de": "Lehrkräfte beurteilen den Lernfortschritt der Schüler anhand verschiedener schriftlicher und mündlicher Aufgaben."
+      }
+    ],
+    "opposite": {
+      "en": "disregard",
+      "de": "außer Acht lassen / ignorieren",
+      "example_en": "It would be irresponsible to disregard the potential consequences.",
+      "example_de": "Es wäre unverantwortlich, die potenziellen Folgen außer Acht zu lassen."
+    },
+    "synonyms": [
+      { "word": "evaluate", "de": "auswerten / bewerten" },
+      { "word": "appraise", "de": "beurteilen / schätzen" },
+      { "word": "gauge", "de": "abschätzen / messen" }
+    ],
+    "word_family": [
+      { "word": "assessment", "pos": "noun", "de": "Bewertung / Einschätzung / Beurteilung" },
+      { "word": "assessor", "pos": "noun", "de": "Prüfer / Sachverständige" },
+      { "word": "reassess", "pos": "verb", "de": "neu bewerten / überprüfen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl_assume_03",
+    "word": "assume",
+    "group": "AWL1",
+    "group_label": "Academic Word List – Sublist 1",
+    "pos": "verb",
+    "translations": { "de": "annehmen / voraussetzen / davon ausgehen" },
+    "examples": [
+      {
+        "en": "We cannot simply assume that all participants understood the instructions.",
+        "de": "Wir können nicht einfach davon ausgehen, dass alle Teilnehmer die Anweisungen verstanden haben."
+      },
+      {
+        "en": "The model assumes that economic agents act rationally at all times.",
+        "de": "Das Modell setzt voraus, dass Wirtschaftsakteure stets rational handeln."
+      }
+    ],
+    "opposite": {
+      "en": "verify",
+      "de": "verifizieren / nachprüfen / belegen",
+      "example_en": "It is essential to verify your hypothesis with empirical data.",
+      "example_de": "Es ist unerlässlich, die eigene Hypothese mit empirischen Daten zu belegen."
+    },
+    "synonyms": [
+      { "word": "presuppose", "de": "voraussetzen" },
+      { "word": "presume", "de": "vermuten / annehmen" },
+      { "word": "suppose", "de": "annehmen / denken" }
+    ],
+    "word_family": [
+      { "word": "assumption", "pos": "noun", "de": "Annahme / Voraussetzung" },
+      { "word": "assumed", "pos": "adj", "de": "angenommen / vorausgesetzt" },
+      { "word": "presumably", "pos": "adv", "de": "vermutlich / wahrscheinlich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl_concept_04",
+    "word": "concept",
+    "group": "AWL1",
+    "group_label": "Academic Word List – Sublist 1",
+    "pos": "noun",
+    "translations": { "de": "Begriff / Konzept / Idee" },
+    "examples": [
+      {
+        "en": "The concept of justice has been debated by philosophers for centuries.",
+        "de": "Der Begriff der Gerechtigkeit wird seit Jahrhunderten von Philosophen diskutiert."
+      },
+      {
+        "en": "Students must grasp the core concepts before moving on to advanced topics.",
+        "de": "Die Studierenden müssen die Kernkonzepte verstehen, bevor sie zu fortgeschrittenen Themen übergehen."
+      }
+    ],
+    "opposite": {
+      "en": "misconception",
+      "de": "Irrtum / falsches Verständnis / Fehlvorstellung",
+      "example_en": "A common misconception is that correlation implies causation.",
+      "example_de": "Eine häufige Fehlvorstellung ist, dass Korrelation Kausalität bedeutet."
+    },
+    "synonyms": [
+      { "word": "notion", "de": "Begriff / Vorstellung" },
+      { "word": "idea", "de": "Idee / Gedanke" },
+      { "word": "construct", "de": "Konstrukt / Konzept" }
+    ],
+    "word_family": [
+      { "word": "conceptual", "pos": "adj", "de": "konzeptuell / begrifflich" },
+      { "word": "conceptualise", "pos": "verb", "de": "konzeptualisieren / erfassen" },
+      { "word": "conceptually", "pos": "adv", "de": "konzeptuell / begrifflich gesehen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl_context_05",
+    "word": "context",
+    "group": "AWL1",
+    "group_label": "Academic Word List – Sublist 1",
+    "pos": "noun",
+    "translations": { "de": "Kontext / Zusammenhang / Umfeld" },
+    "examples": [
+      {
+        "en": "The meaning of a word can only be understood in context.",
+        "de": "Die Bedeutung eines Wortes lässt sich nur im Kontext verstehen."
+      },
+      {
+        "en": "We need to consider these findings within the broader social context.",
+        "de": "Wir müssen diese Ergebnisse im breiteren gesellschaftlichen Zusammenhang betrachten."
+      }
+    ],
+    "opposite": {
+      "en": "isolation",
+      "de": "Isolation / Einzelbetrachtung",
+      "example_en": "Studying words in isolation makes it harder to remember them.",
+      "example_de": "Wörter isoliert zu lernen macht es schwieriger, sie zu behalten."
+    },
+    "synonyms": [
+      { "word": "setting", "de": "Umfeld / Rahmen" },
+      { "word": "framework", "de": "Rahmen / Bezugssystem" },
+      { "word": "background", "de": "Hintergrund / Umstand" }
+    ],
+    "word_family": [
+      { "word": "contextual", "pos": "adj", "de": "kontextuell / vom Kontext abhängig" },
+      { "word": "contextualise", "pos": "verb", "de": "in einen Kontext setzen / einbetten" },
+      { "word": "contextually", "pos": "adv", "de": "kontextuell / je nach Zusammenhang" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl_define_06",
+    "word": "define",
+    "group": "AWL1",
+    "group_label": "Academic Word List – Sublist 1",
+    "pos": "verb",
+    "translations": { "de": "definieren / festlegen / bestimmen" },
+    "examples": [
+      {
+        "en": "Before we proceed, we need to carefully define the key terms.",
+        "de": "Bevor wir fortfahren, müssen wir die Schlüsselbegriffe sorgfältig definieren."
+      },
+      {
+        "en": "The researchers defined success as a measurable improvement in test scores.",
+        "de": "Die Forscher definierten Erfolg als eine messbare Verbesserung der Testergebnisse."
+      }
+    ],
+    "opposite": {
+      "en": "obscure",
+      "de": "verschleiern / unklar lassen / verdunkeln",
+      "example_en": "Vague language tends to obscure rather than clarify an argument.",
+      "example_de": "Vage Sprache neigt dazu, ein Argument eher zu verschleiern als zu klären."
+    },
+    "synonyms": [
+      { "word": "specify", "de": "spezifizieren / genau angeben" },
+      { "word": "determine", "de": "festlegen / bestimmen" },
+      { "word": "delineate", "de": "abgrenzen / klar umreißen" }
+    ],
+    "word_family": [
+      { "word": "definition", "pos": "noun", "de": "Definition / Begriffsbestimmung" },
+      { "word": "defined", "pos": "adj", "de": "klar umrissen / definiert" },
+      { "word": "redefine", "pos": "verb", "de": "neu definieren / neu bestimmen" },
+      { "word": "undefined", "pos": "adj", "de": "undefiniert / unbestimmt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl_derive_07",
+    "word": "derive",
+    "group": "AWL1",
+    "group_label": "Academic Word List – Sublist 1",
+    "pos": "verb",
+    "translations": { "de": "ableiten / herleiten / entstammen" },
+    "examples": [
+      {
+        "en": "Many English words derive from Latin or Greek roots.",
+        "de": "Viele englische Wörter stammen von lateinischen oder griechischen Wurzeln ab."
+      },
+      {
+        "en": "The formula can be derived from the basic principles of thermodynamics.",
+        "de": "Die Formel lässt sich aus den Grundprinzipien der Thermodynamik herleiten."
+      }
+    ],
+    "opposite": {
+      "en": "originate independently",
+      "de": "unabhängig entstehen / eigenständig entwickeln",
+      "example_en": "Some linguistic features originate independently in unrelated languages.",
+      "example_de": "Manche sprachlichen Merkmale entstehen unabhängig voneinander in nicht verwandten Sprachen."
+    },
+    "synonyms": [
+      { "word": "obtain", "de": "gewinnen / erhalten" },
+      { "word": "deduce", "de": "ableiten / folgern" },
+      { "word": "stem from", "de": "herrühren von / stammen aus" }
+    ],
+    "word_family": [
+      { "word": "derivation", "pos": "noun", "de": "Ableitung / Herleitung / Herkunft" },
+      { "word": "derivative", "pos": "noun/adj", "de": "Ableitung / abgeleitet" },
+      { "word": "derived", "pos": "adj", "de": "abgeleitet / hergeleitet" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl_establish_08",
+    "word": "establish",
+    "group": "AWL1",
+    "group_label": "Academic Word List – Sublist 1",
+    "pos": "verb",
+    "translations": { "de": "etablieren / begründen / nachweisen / einrichten" },
+    "examples": [
+      {
+        "en": "The study aims to establish a clear link between diet and cognitive performance.",
+        "de": "Die Studie soll einen klaren Zusammenhang zwischen Ernährung und kognitiver Leistung nachweisen."
+      },
+      {
+        "en": "Darwin established the theory of evolution through decades of careful observation.",
+        "de": "Darwin begründete die Evolutionstheorie durch jahrzehntelange sorgfältige Beobachtungen."
+      }
+    ],
+    "opposite": {
+      "en": "refute",
+      "de": "widerlegen / entkräften",
+      "example_en": "Subsequent research refuted the initial findings.",
+      "example_de": "Spätere Forschungen widerlegten die anfänglichen Befunde."
+    },
+    "synonyms": [
+      { "word": "found", "de": "gründen / ins Leben rufen" },
+      { "word": "demonstrate", "de": "nachweisen / belegen" },
+      { "word": "confirm", "de": "bestätigen / bekräftigen" }
+    ],
+    "word_family": [
+      { "word": "establishment", "pos": "noun", "de": "Einrichtung / Etablissement / Gründung" },
+      { "word": "established", "pos": "adj", "de": "etabliert / anerkannt / bewährt" },
+      { "word": "well-established", "pos": "adj", "de": "gut etabliert / allgemein anerkannt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl_evaluate_09",
+    "word": "evaluate",
+    "group": "AWL1",
+    "group_label": "Academic Word List – Sublist 1",
+    "pos": "verb",
+    "translations": { "de": "auswerten / bewerten / evaluieren" },
+    "examples": [
+      {
+        "en": "The team was asked to evaluate the effectiveness of the new training programme.",
+        "de": "Das Team wurde gebeten, die Wirksamkeit des neuen Schulungsprogramms zu evaluieren."
+      },
+      {
+        "en": "Critical thinking requires us to evaluate sources before accepting their claims.",
+        "de": "Kritisches Denken erfordert, dass wir Quellen bewerten, bevor wir ihre Aussagen akzeptieren."
+      }
+    ],
+    "opposite": {
+      "en": "accept uncritically",
+      "de": "unkritisch akzeptieren / hinnehmen",
+      "example_en": "Students should not accept sources uncritically.",
+      "example_de": "Studierende sollten Quellen nicht unkritisch akzeptieren."
+    },
+    "synonyms": [
+      { "word": "assess", "de": "bewerten / einschätzen" },
+      { "word": "appraise", "de": "beurteilen / einschätzen" },
+      { "word": "review", "de": "überprüfen / begutachten" }
+    ],
+    "word_family": [
+      { "word": "evaluation", "pos": "noun", "de": "Auswertung / Bewertung / Evaluation" },
+      { "word": "evaluative", "pos": "adj", "de": "wertend / bewertend" },
+      { "word": "re-evaluate", "pos": "verb", "de": "neu bewerten / überdenken" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl_evidence_10",
+    "word": "evidence",
+    "group": "AWL1",
+    "group_label": "Academic Word List – Sublist 1",
+    "pos": "noun",
+    "translations": { "de": "Beleg / Beweis / Hinweis / Belege (pl.)" },
+    "examples": [
+      {
+        "en": "There is strong evidence to suggest that sleep deprivation impairs memory.",
+        "de": "Es gibt starke Belege dafür, dass Schlafmangel das Gedächtnis beeinträchtigt."
+      },
+      {
+        "en": "The prosecution presented new evidence that changed the course of the trial.",
+        "de": "Die Staatsanwaltschaft legte neue Beweise vor, die den Verlauf des Prozesses veränderten."
+      }
+    ],
+    "opposite": {
+      "en": "conjecture",
+      "de": "Vermutung / Spekulation / bloße Annahme",
+      "example_en": "The claim remains conjecture without supporting data.",
+      "example_de": "Die Behauptung bleibt bloße Spekulation ohne stützende Daten."
+    },
+    "synonyms": [
+      { "word": "proof", "de": "Beweis / Nachweis" },
+      { "word": "data", "de": "Daten / Befunde" },
+      { "word": "indication", "de": "Hinweis / Anzeichen" }
+    ],
+    "word_family": [
+      { "word": "evident", "pos": "adj", "de": "offensichtlich / eindeutig / augenscheinlich" },
+      { "word": "evidently", "pos": "adv", "de": "offensichtlich / ersichtlich" },
+      { "word": "evidential", "pos": "adj", "de": "als Beweis dienend / Beweis-" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl_indicate_11",
+    "word": "indicate",
+    "group": "AWL1",
+    "group_label": "Academic Word List – Sublist 1",
+    "pos": "verb",
+    "translations": { "de": "hinweisen auf / anzeigen / darauf hindeuten" },
+    "examples": [
+      {
+        "en": "The data indicates a significant rise in global temperatures over the past decade.",
+        "de": "Die Daten weisen auf einen signifikanten Anstieg der globalen Temperaturen im letzten Jahrzehnt hin."
+      },
+      {
+        "en": "Survey results indicate that most respondents support the proposed changes.",
+        "de": "Die Umfrageergebnisse deuten darauf hin, dass die meisten Befragten die vorgeschlagenen Änderungen befürworten."
+      }
+    ],
+    "opposite": {
+      "en": "contradict",
+      "de": "widersprechen / im Widerspruch stehen zu",
+      "example_en": "The new findings contradict the earlier hypothesis.",
+      "example_de": "Die neuen Befunde widersprechen der früheren Hypothese."
+    },
+    "synonyms": [
+      { "word": "suggest", "de": "nahelegen / andeuten" },
+      { "word": "show", "de": "zeigen / belegen" },
+      { "word": "signal", "de": "signalisieren / anzeigen" }
+    ],
+    "word_family": [
+      { "word": "indication", "pos": "noun", "de": "Hinweis / Anzeichen / Signal" },
+      { "word": "indicator", "pos": "noun", "de": "Indikator / Kennzahl / Anzeiger" },
+      { "word": "indicative", "pos": "adj", "de": "kennzeichnend / hinweisend / bezeichnend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl_interpret_12",
+    "word": "interpret",
+    "group": "AWL1",
+    "group_label": "Academic Word List – Sublist 1",
+    "pos": "verb",
+    "translations": { "de": "interpretieren / auslegen / deuten" },
+    "examples": [
+      {
+        "en": "Different scholars interpret this historical event in quite different ways.",
+        "de": "Verschiedene Wissenschaftler interpretieren dieses historische Ereignis auf sehr unterschiedliche Weise."
+      },
+      {
+        "en": "The results must be interpreted with caution given the small sample size.",
+        "de": "Die Ergebnisse müssen angesichts der kleinen Stichprobengröße mit Vorsicht interpretiert werden."
+      }
+    ],
+    "opposite": {
+      "en": "misinterpret",
+      "de": "falsch interpretieren / missverstehen",
+      "example_en": "It is easy to misinterpret statistical correlations as causal relationships.",
+      "example_de": "Es ist leicht, statistische Korrelationen als kausale Zusammenhänge misszuverstehen."
+    },
+    "synonyms": [
+      { "word": "construe", "de": "auslegen / auffassen" },
+      { "word": "read", "de": "deuten / verstehen" },
+      { "word": "explain", "de": "erklären / darlegen" }
+    ],
+    "word_family": [
+      { "word": "interpretation", "pos": "noun", "de": "Interpretation / Auslegung / Deutung" },
+      { "word": "interpreter", "pos": "noun", "de": "Dolmetscher / Interpret" },
+      { "word": "interpretive", "pos": "adj", "de": "interpretativ / auslegend / deutend" },
+      { "word": "reinterpret", "pos": "verb", "de": "neu interpretieren / neu deuten" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl_involve_13",
+    "word": "involve",
+    "group": "AWL1",
+    "group_label": "Academic Word List – Sublist 1",
+    "pos": "verb",
+    "translations": { "de": "beinhalten / umfassen / einschließen / betreffen" },
+    "examples": [
+      {
+        "en": "The experiment involved over five hundred participants from different backgrounds.",
+        "de": "Das Experiment umfasste über fünfhundert Teilnehmer aus verschiedenen Hintergründen."
+      },
+      {
+        "en": "Mastering a language involves consistent practice over a long period of time.",
+        "de": "Eine Sprache zu meistern beinhaltet konsequente Übung über einen langen Zeitraum."
+      }
+    ],
+    "opposite": {
+      "en": "exclude",
+      "de": "ausschließen / ausklammern",
+      "example_en": "The study excluded participants under the age of eighteen.",
+      "example_de": "Die Studie schloss Teilnehmer unter achtzehn Jahren aus."
+    },
+    "synonyms": [
+      { "word": "entail", "de": "mit sich bringen / erfordern" },
+      { "word": "include", "de": "einschließen / umfassen" },
+      { "word": "encompass", "de": "umfassen / einschließen" }
+    ],
+    "word_family": [
+      { "word": "involvement", "pos": "noun", "de": "Beteiligung / Einbeziehung / Mitwirkung" },
+      { "word": "involved", "pos": "adj", "de": "beteiligt / verwickelt / komplex" },
+      { "word": "uninvolved", "pos": "adj", "de": "unbeteiligt / nicht involviert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl_method_14",
+    "word": "method",
+    "group": "AWL1",
+    "group_label": "Academic Word List – Sublist 1",
+    "pos": "noun",
+    "translations": { "de": "Methode / Verfahren / Vorgehensweise" },
+    "examples": [
+      {
+        "en": "The research team chose a qualitative method to explore participants' experiences.",
+        "de": "Das Forschungsteam wählte eine qualitative Methode, um die Erfahrungen der Teilnehmer zu erkunden."
+      },
+      {
+        "en": "No single method is suitable for every type of research question.",
+        "de": "Keine einzelne Methode ist für jede Art von Forschungsfrage geeignet."
+      }
+    ],
+    "opposite": {
+      "en": "improvisation",
+      "de": "Improvisation / planloses Vorgehen",
+      "example_en": "Pure improvisation is rarely sufficient in scientific inquiry.",
+      "example_de": "Reine Improvisation reicht in der wissenschaftlichen Untersuchung selten aus."
+    },
+    "synonyms": [
+      { "word": "approach", "de": "Ansatz / Vorgehensweise" },
+      { "word": "procedure", "de": "Verfahren / Prozedur" },
+      { "word": "technique", "de": "Technik / Methode" }
+    ],
+    "word_family": [
+      { "word": "methodology", "pos": "noun", "de": "Methodologie / Methodenlehre" },
+      { "word": "methodical", "pos": "adj", "de": "methodisch / systematisch / planmäßig" },
+      { "word": "methodically", "pos": "adv", "de": "methodisch / systematisch" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl_occur_15",
+    "word": "occur",
+    "group": "AWL1",
+    "group_label": "Academic Word List – Sublist 1",
+    "pos": "verb",
+    "translations": { "de": "auftreten / vorkommen / geschehen / sich ereignen" },
+    "examples": [
+      {
+        "en": "Significant changes in climate patterns have occurred over the past century.",
+        "de": "Im vergangenen Jahrhundert sind bedeutende Veränderungen in den Klimamustern aufgetreten."
+      },
+      {
+        "en": "Errors are most likely to occur when people are tired or under stress.",
+        "de": "Fehler treten am häufigsten auf, wenn Menschen müde oder gestresst sind."
+      }
+    ],
+    "opposite": {
+      "en": "cease",
+      "de": "aufhören / eingestellt werden / enden",
+      "example_en": "The symptoms cease once the underlying cause is treated.",
+      "example_de": "Die Symptome hören auf, sobald die zugrunde liegende Ursache behandelt wird."
+    },
+    "synonyms": [
+      { "word": "happen", "de": "geschehen / passieren" },
+      { "word": "arise", "de": "entstehen / auftreten / sich ergeben" },
+      { "word": "take place", "de": "stattfinden / sich ereignen" }
+    ],
+    "word_family": [
+      { "word": "occurrence", "pos": "noun", "de": "Auftreten / Vorkommnis / Ereignis" },
+      { "word": "recurring", "pos": "adj", "de": "wiederkehrend / sich wiederholend" },
+      { "word": "recur", "pos": "verb", "de": "wiederkehren / sich wiederholen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl_perceive_16",
+    "word": "perceive",
+    "group": "AWL1",
+    "group_label": "Academic Word List – Sublist 1",
+    "pos": "verb",
+    "translations": { "de": "wahrnehmen / auffassen / als … betrachten" },
+    "examples": [
+      {
+        "en": "People perceive risk differently depending on their cultural background.",
+        "de": "Menschen nehmen Risiken unterschiedlich wahr, je nach ihrem kulturellen Hintergrund."
+      },
+      {
+        "en": "The policy was perceived as unfair by a large section of the population.",
+        "de": "Die Politik wurde von einem großen Teil der Bevölkerung als ungerecht wahrgenommen."
+      }
+    ],
+    "opposite": {
+      "en": "overlook",
+      "de": "übersehen / nicht wahrnehmen",
+      "example_en": "We often overlook subtle cues in everyday communication.",
+      "example_de": "Wir übersehen oft subtile Hinweise in der alltäglichen Kommunikation."
+    },
+    "synonyms": [
+      { "word": "notice", "de": "bemerken / wahrnehmen" },
+      { "word": "regard", "de": "betrachten / ansehen" },
+      { "word": "conceive of", "de": "sich vorstellen / auffassen als" }
+    ],
+    "word_family": [
+      { "word": "perception", "pos": "noun", "de": "Wahrnehmung / Auffassung / Eindruck" },
+      { "word": "perceptive", "pos": "adj", "de": "scharfsinnig / einfühlsam / aufmerksam" },
+      { "word": "perceptually", "pos": "adv", "de": "wahrnehmungsmäßig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl_principle_17",
+    "word": "principle",
+    "group": "AWL1",
+    "group_label": "Academic Word List – Sublist 1",
+    "pos": "noun",
+    "translations": { "de": "Prinzip / Grundsatz / Grundprinzip" },
+    "examples": [
+      {
+        "en": "The experiment is based on the principle that light travels in straight lines.",
+        "de": "Das Experiment basiert auf dem Prinzip, dass Licht sich in geraden Linien ausbreitet."
+      },
+      {
+        "en": "Informed consent is a fundamental principle in medical research ethics.",
+        "de": "Informierte Einwilligung ist ein grundlegendes Prinzip der medizinischen Forschungsethik."
+      }
+    ],
+    "opposite": {
+      "en": "exception",
+      "de": "Ausnahme / Sonderfall",
+      "example_en": "Every rule has its exception, even in scientific theory.",
+      "example_de": "Jede Regel hat ihre Ausnahme, sogar in der Wissenschaftstheorie."
+    },
+    "synonyms": [
+      { "word": "rule", "de": "Regel / Grundsatz" },
+      { "word": "tenet", "de": "Glaubenssatz / Grundprinzip" },
+      { "word": "axiom", "de": "Axiom / Grundwahrheit" }
+    ],
+    "word_family": [
+      { "word": "principled", "pos": "adj", "de": "prinzipientreu / integer / auf Grundsätzen beruhend" },
+      { "word": "unprincipled", "pos": "adj", "de": "prinzipienlos / skrupellos" },
+      { "word": "in principle", "pos": "phrase", "de": "im Prinzip / grundsätzlich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl_require_18",
+    "word": "require",
+    "group": "AWL1",
+    "group_label": "Academic Word List – Sublist 1",
+    "pos": "verb",
+    "translations": { "de": "erfordern / benötigen / verlangen / vorschreiben" },
+    "examples": [
+      {
+        "en": "Academic writing requires precision, clarity, and a strong command of evidence.",
+        "de": "Wissenschaftliches Schreiben erfordert Präzision, Klarheit und einen sicheren Umgang mit Belegen."
+      },
+      {
+        "en": "The regulations require all participants to sign an informed consent form.",
+        "de": "Die Vorschriften verlangen, dass alle Teilnehmer ein Formular zur informierten Einwilligung unterzeichnen."
+      }
+    ],
+    "opposite": {
+      "en": "permit",
+      "de": "erlauben / gestatten / zulassen",
+      "example_en": "The protocol permits minor deviations under certain conditions.",
+      "example_de": "Das Protokoll erlaubt unter bestimmten Bedingungen geringfügige Abweichungen."
+    },
+    "synonyms": [
+      { "word": "demand", "de": "verlangen / fordern" },
+      { "word": "necessitate", "de": "notwendig machen / erfordern" },
+      { "word": "call for", "de": "erfordern / verlangen" }
+    ],
+    "word_family": [
+      { "word": "requirement", "pos": "noun", "de": "Anforderung / Voraussetzung / Bedingung" },
+      { "word": "required", "pos": "adj", "de": "erforderlich / vorgeschrieben / notwendig" },
+      { "word": "prerequisite", "pos": "noun", "de": "Voraussetzung / Grundbedingung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl_significant_19",
+    "word": "significant",
+    "group": "AWL1",
+    "group_label": "Academic Word List – Sublist 1",
+    "pos": "adj",
+    "translations": { "de": "bedeutsam / erheblich / signifikant / nennenswert" },
+    "examples": [
+      {
+        "en": "The study found a significant difference in outcomes between the two groups.",
+        "de": "Die Studie stellte einen signifikanten Unterschied in den Ergebnissen zwischen den beiden Gruppen fest."
+      },
+      {
+        "en": "Climate change poses a significant challenge for future generations.",
+        "de": "Der Klimawandel stellt für künftige Generationen eine erhebliche Herausforderung dar."
+      }
+    ],
+    "opposite": {
+      "en": "negligible",
+      "de": "vernachlässigbar / geringfügig / unbedeutend",
+      "example_en": "The difference between the two samples was negligible.",
+      "example_de": "Der Unterschied zwischen den beiden Stichproben war vernachlässigbar."
+    },
+    "synonyms": [
+      { "word": "considerable", "de": "beträchtlich / erheblich" },
+      { "word": "substantial", "de": "wesentlich / beträchtlich" },
+      { "word": "notable", "de": "bemerkenswert / nennenswert" }
+    ],
+    "word_family": [
+      { "word": "significance", "pos": "noun", "de": "Bedeutung / Signifikanz / Tragweite" },
+      { "word": "significantly", "pos": "adv", "de": "erheblich / bedeutsam / signifikant" },
+      { "word": "insignificant", "pos": "adj", "de": "unbedeutend / geringfügig / nicht signifikant" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl_theory_20",
+    "word": "theory",
+    "group": "AWL1",
+    "group_label": "Academic Word List – Sublist 1",
+    "pos": "noun",
+    "translations": { "de": "Theorie / wissenschaftliche Erklärung / Lehre" },
+    "examples": [
+      {
+        "en": "Darwin's theory of evolution revolutionised the biological sciences.",
+        "de": "Darwins Evolutionstheorie revolutionierte die biologischen Wissenschaften."
+      },
+      {
+        "en": "In theory, the approach should work – but practical constraints complicate matters.",
+        "de": "In der Theorie sollte der Ansatz funktionieren – aber praktische Einschränkungen erschweren die Sache."
+      }
+    ],
+    "opposite": {
+      "en": "practice",
+      "de": "Praxis / Anwendung / Wirklichkeit",
+      "example_en": "There is often a gap between theory and practice in education.",
+      "example_de": "Im Bildungsbereich klafft oft eine Lücke zwischen Theorie und Praxis."
+    },
+    "synonyms": [
+      { "word": "hypothesis", "de": "Hypothese / Annahme" },
+      { "word": "model", "de": "Modell / Erklärungsrahmen" },
+      { "word": "framework", "de": "Theorierahmen / Bezugssystem" }
+    ],
+    "word_family": [
+      { "word": "theoretical", "pos": "adj", "de": "theoretisch / auf Theorie beruhend" },
+      { "word": "theorist", "pos": "noun", "de": "Theoretiker / Theoretikerin" },
+      { "word": "theorise", "pos": "verb", "de": "theoretisieren / eine Theorie aufstellen" },
+      { "word": "theoretically", "pos": "adv", "de": "theoretisch / in der Theorie" }
+    ],
+    "phrasal_verbs": []
+  }
+]
