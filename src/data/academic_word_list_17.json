@@ -1,0 +1,694 @@
+[
+  {
+    "id": "awl17_benchmark_01",
+    "word": "benchmark",
+    "group": "AWL17",
+    "group_label": "Academic Word List – Sublist 17",
+    "pos": "noun",
+    "translations": { "de": "Benchmark / Referenzwert / Maßstab / Vergleichswert" },
+    "examples": [
+      {
+        "en": "International test scores serve as a benchmark for comparing educational attainment across countries.",
+        "de": "Internationale Testergebnisse dienen als Maßstab für den Vergleich des Bildungsniveaus zwischen Ländern."
+      },
+      {
+        "en": "The researchers established a pre-intervention baseline as the benchmark against which progress was measured.",
+        "de": "Die Forscher legten einen Ausgangswert vor der Intervention als Referenzwert fest, anhand dessen der Fortschritt gemessen wurde."
+      }
+    ],
+    "opposite": {
+      "en": "anomaly",
+      "de": "Anomalie / Ausreißer / Abweichung",
+      "example_en": "Results that deviate substantially from the benchmark may indicate an anomaly requiring investigation.",
+      "example_de": "Ergebnisse, die erheblich vom Referenzwert abweichen, können auf eine Anomalie hinweisen, die untersucht werden muss."
+    },
+    "synonyms": [
+      { "word": "standard", "de": "Standard / Maßstab / Norm" },
+      { "word": "reference point", "de": "Referenzpunkt / Bezugswert / Ausgangspunkt" },
+      { "word": "yardstick", "de": "Maßstab / Gradmesser / Referenzgröße" }
+    ],
+    "word_family": [
+      { "word": "benchmark", "pos": "verb", "de": "als Maßstab heranziehen / vergleichen / benchmarken" },
+      { "word": "benchmarking", "pos": "noun", "de": "Benchmarking / Vergleichsanalyse / Leistungsvergleich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl17_coerce_01",
+    "word": "coerce",
+    "group": "AWL17",
+    "group_label": "Academic Word List – Sublist 17",
+    "pos": "verb",
+    "translations": { "de": "zwingen / nötigen / unter Druck setzen / erzwingen" },
+    "examples": [
+      {
+        "en": "Ethical guidelines prohibit researchers from coercing participants into taking part in a study.",
+        "de": "Ethische Richtlinien verbieten Forschern, Teilnehmer zur Studienteilnahme zu zwingen."
+      },
+      {
+        "en": "The policy was criticised for coercing compliance rather than fostering genuine commitment.",
+        "de": "Die Politik wurde kritisiert, weil sie Konformität erzwingt, anstatt echtes Engagement zu fördern."
+      }
+    ],
+    "opposite": {
+      "en": "persuade",
+      "de": "überzeugen / überreden / überzeugend wirken",
+      "example_en": "Effective communication can persuade stakeholders without resorting to coercion.",
+      "example_de": "Effektive Kommunikation kann Interessengruppen überzeugen, ohne auf Zwang zurückgreifen zu müssen."
+    },
+    "synonyms": [
+      { "word": "compel", "de": "zwingen / nötigen / veranlassen" },
+      { "word": "force", "de": "zwingen / erzwingen / nötigen" },
+      { "word": "pressure", "de": "unter Druck setzen / drängen / nötigen" }
+    ],
+    "word_family": [
+      { "word": "coercion", "pos": "noun", "de": "Zwang / Nötigung / Erpressung" },
+      { "word": "coercive", "pos": "adj", "de": "zwanghaft / erzwingend / nötigend" },
+      { "word": "coercively", "pos": "adv", "de": "zwanghaft / unter Zwang / mit Gewalt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl17_conform_01",
+    "word": "conform",
+    "group": "AWL17",
+    "group_label": "Academic Word List – Sublist 17",
+    "pos": "verb",
+    "translations": { "de": "entsprechen / einhalten / sich anpassen / konformieren" },
+    "examples": [
+      {
+        "en": "All submissions must conform to the formatting standards set out in the author guidelines.",
+        "de": "Alle Einreichungen müssen den in den Autorenrichtlinien festgelegten Formatierungsstandards entsprechen."
+      },
+      {
+        "en": "The experimental results conform closely to the predictions of the theoretical model.",
+        "de": "Die experimentellen Ergebnisse entsprechen eng den Vorhersagen des theoretischen Modells."
+      }
+    ],
+    "opposite": {
+      "en": "deviate",
+      "de": "abweichen / davon abgehen / divergieren",
+      "example_en": "Protocols that deviate from agreed standards require explicit justification.",
+      "example_de": "Protokolle, die von vereinbarten Standards abweichen, erfordern eine ausdrückliche Begründung."
+    },
+    "synonyms": [
+      { "word": "comply", "de": "einhalten / befolgen / entsprechen" },
+      { "word": "adhere", "de": "einhalten / sich halten an / befolgen" },
+      { "word": "align", "de": "übereinstimmen / angleichen / ausrichten" }
+    ],
+    "word_family": [
+      { "word": "conformity", "pos": "noun", "de": "Konformität / Übereinstimmung / Anpassung" },
+      { "word": "conforming", "pos": "adj", "de": "konform / entsprechend / übereinstimmend" },
+      { "word": "non-conformity", "pos": "noun", "de": "Nichtkonformität / Abweichung / Regelverstoß" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "conform to", "de": "entsprechen / einhalten / sich halten an", "example": "The design must conform to all relevant safety regulations." }
+    ]
+  },
+  {
+    "id": "awl17_discrepancy_01",
+    "word": "discrepancy",
+    "group": "AWL17",
+    "group_label": "Academic Word List – Sublist 17",
+    "pos": "noun",
+    "translations": { "de": "Diskrepanz / Unstimmigkeit / Widerspruch / Abweichung" },
+    "examples": [
+      {
+        "en": "A discrepancy between self-reported and observed behaviour is a common finding in social research.",
+        "de": "Eine Diskrepanz zwischen selbst berichtetem und beobachtetem Verhalten ist ein häufiger Befund in der Sozialforschung."
+      },
+      {
+        "en": "The auditors identified a significant discrepancy between the two sets of financial records.",
+        "de": "Die Prüfer stellten eine erhebliche Diskrepanz zwischen den beiden Sätzen von Finanzunterlagen fest."
+      }
+    ],
+    "opposite": {
+      "en": "consistency",
+      "de": "Konsistenz / Übereinstimmung / Einheitlichkeit",
+      "example_en": "Consistency across measurement points strengthens confidence in the reliability of the findings.",
+      "example_de": "Konsistenz über Messpunkte hinweg stärkt das Vertrauen in die Zuverlässigkeit der Ergebnisse."
+    },
+    "synonyms": [
+      { "word": "inconsistency", "de": "Inkonsistenz / Unstimmigkeit / Widerspruch" },
+      { "word": "gap", "de": "Lücke / Kluft / Abweichung" },
+      { "word": "divergence", "de": "Divergenz / Abweichung / Auseinandergehen" }
+    ],
+    "word_family": [
+      { "word": "discrepant", "pos": "adj", "de": "diskrepant / widersprüchlich / abweichend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl17_discrete_01",
+    "word": "discrete",
+    "group": "AWL17",
+    "group_label": "Academic Word List – Sublist 17",
+    "pos": "adj",
+    "translations": { "de": "diskret / getrennt / eigenständig / nicht-kontinuierlich" },
+    "examples": [
+      {
+        "en": "The model treats income as a discrete variable divided into five ordered categories.",
+        "de": "Das Modell behandelt Einkommen als diskrete Variable, die in fünf geordnete Kategorien unterteilt ist."
+      },
+      {
+        "en": "The intervention was delivered in three discrete modules over a six-week period.",
+        "de": "Die Intervention wurde in drei eigenständigen Modulen über einen Zeitraum von sechs Wochen durchgeführt."
+      }
+    ],
+    "opposite": {
+      "en": "continuous",
+      "de": "kontinuierlich / stetig / ununterbrochen",
+      "example_en": "Age is typically treated as a continuous rather than a discrete variable in regression analyses.",
+      "example_de": "Das Alter wird in Regressionsanalysen typischerweise als kontinuierliche und nicht als diskrete Variable behandelt."
+    },
+    "synonyms": [
+      { "word": "separate", "de": "getrennt / eigenständig / gesondert" },
+      { "word": "distinct", "de": "distinct / abgegrenzt / eigenständig" },
+      { "word": "individual", "de": "einzeln / individuell / eigenständig" }
+    ],
+    "word_family": [
+      { "word": "discretely", "pos": "adv", "de": "diskret / getrennt / eigenständig" },
+      { "word": "discreteness", "pos": "noun", "de": "Diskretheit / Getrenntheit / Eigenständigkeit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl17_enumerate_01",
+    "word": "enumerate",
+    "group": "AWL17",
+    "group_label": "Academic Word List – Sublist 17",
+    "pos": "verb",
+    "translations": { "de": "aufzählen / aufführen / nennen / enumieren" },
+    "examples": [
+      {
+        "en": "The report enumerates the key risks associated with the proposed course of action.",
+        "de": "Der Bericht zählt die wichtigsten Risiken auf, die mit der vorgeschlagenen Vorgehensweise verbunden sind."
+      },
+      {
+        "en": "Section three enumerates the criteria used to assess each candidate intervention.",
+        "de": "Abschnitt drei führt die Kriterien auf, die zur Bewertung jeder Kandidatenintervention herangezogen wurden."
+      }
+    ],
+    "opposite": {
+      "en": "summarise",
+      "de": "zusammenfassen / verallgemeinern / resümieren",
+      "example_en": "Rather than enumerating every variable, the abstract summarises the most critical factors.",
+      "example_de": "Anstatt jede Variable aufzuzählen, fasst das Abstract die wichtigsten Faktoren zusammen."
+    },
+    "synonyms": [
+      { "word": "list", "de": "auflisten / aufzählen / nennen" },
+      { "word": "specify", "de": "spezifizieren / angeben / aufführen" },
+      { "word": "itemise", "de": "einzeln aufführen / aufgliedern / spezifizieren" }
+    ],
+    "word_family": [
+      { "word": "enumeration", "pos": "noun", "de": "Aufzählung / Auflistung / Enumeration" },
+      { "word": "enumerated", "pos": "adj", "de": "aufgezählt / aufgeführt / benannt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl17_forecast_01",
+    "word": "forecast",
+    "group": "AWL17",
+    "group_label": "Academic Word List – Sublist 17",
+    "pos": "verb",
+    "translations": { "de": "prognostizieren / vorhersagen / voraussagen / projizieren" },
+    "examples": [
+      {
+        "en": "Economic models forecast a contraction in output of approximately three percent over the next year.",
+        "de": "Wirtschaftliche Modelle prognostizieren einen Produktionsrückgang von ungefähr drei Prozent im nächsten Jahr."
+      },
+      {
+        "en": "It is difficult to forecast long-term societal trends with any precision.",
+        "de": "Es ist schwierig, langfristige gesellschaftliche Trends mit einiger Genauigkeit vorherzusagen."
+      }
+    ],
+    "opposite": {
+      "en": "report retrospectively",
+      "de": "rückblickend berichten / retrospektiv analysieren / im Nachhinein dokumentieren",
+      "example_en": "The study reports retrospectively on outcomes rather than forecasting future trajectories.",
+      "example_de": "Die Studie berichtet rückblickend über Ergebnisse, anstatt zukünftige Entwicklungen vorherzusagen."
+    },
+    "synonyms": [
+      { "word": "predict", "de": "vorhersagen / prognostizieren / prophezeien" },
+      { "word": "project", "de": "projizieren / hochrechnen / voraussagen" },
+      { "word": "anticipate", "de": "erwarten / voraussehen / vorhersagen" }
+    ],
+    "word_family": [
+      { "word": "forecast", "pos": "noun", "de": "Prognose / Vorhersage / Voraussage" },
+      { "word": "forecasting", "pos": "noun", "de": "Prognose / Vorhersage / Prognostizierung" },
+      { "word": "forecaster", "pos": "noun", "de": "Prognostiker / Analyst / Vorhersager" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl17_imminent_01",
+    "word": "imminent",
+    "group": "AWL17",
+    "group_label": "Academic Word List – Sublist 17",
+    "pos": "adj",
+    "translations": { "de": "unmittelbar bevorstehend / drohend / nahe / imminente" },
+    "examples": [
+      {
+        "en": "With regulatory changes imminent, organisations began preparing new compliance procedures.",
+        "de": "Da regulatorische Änderungen unmittelbar bevorstanden, begannen Organisationen, neue Compliance-Verfahren vorzubereiten."
+      },
+      {
+        "en": "Several indicators suggest that a tipping point is imminent if current trends continue.",
+        "de": "Mehrere Indikatoren deuten darauf hin, dass ein Kipppunkt unmittelbar bevorsteht, wenn die aktuellen Trends anhalten."
+      }
+    ],
+    "opposite": {
+      "en": "remote",
+      "de": "fern / weit entfernt / unwahrscheinlich",
+      "example_en": "The possibility of a reversal appears remote given the trajectory of the data.",
+      "example_de": "Die Möglichkeit einer Umkehr erscheint angesichts der Datentendenz weit entfernt."
+    },
+    "synonyms": [
+      { "word": "impending", "de": "bevorstehend / drohend / nahend" },
+      { "word": "forthcoming", "de": "bevorstehend / kommend / demnächst" },
+      { "word": "approaching", "de": "herannahend / sich nähernd / bevorstehend" }
+    ],
+    "word_family": [
+      { "word": "imminently", "pos": "adv", "de": "unmittelbar / in Kürze / bald" },
+      { "word": "imminence", "pos": "noun", "de": "unmittelbares Bevorstehen / Nähe / Imminenz" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl17_instrumental_01",
+    "word": "instrumental",
+    "group": "AWL17",
+    "group_label": "Academic Word List – Sublist 17",
+    "pos": "adj",
+    "translations": { "de": "maßgeblich / entscheidend / instrumentell / wesentlich beitragend" },
+    "examples": [
+      {
+        "en": "Early stakeholder engagement proved instrumental in securing the necessary political support.",
+        "de": "Die frühzeitige Einbindung von Interessengruppen erwies sich als maßgeblich für die Sicherung der notwendigen politischen Unterstützung."
+      },
+      {
+        "en": "The new data sharing agreement was instrumental in enabling large-scale comparative research.",
+        "de": "Das neue Datenaustauschprotokoll war maßgeblich für die Ermöglichung großangelegter vergleichender Forschung."
+      }
+    ],
+    "opposite": {
+      "en": "incidental",
+      "de": "nebensächlich / zufällig / unwesentlich",
+      "example_en": "The finding was incidental rather than instrumental to the main research question.",
+      "example_de": "Der Befund war nebensächlich und nicht maßgeblich für die Hauptforschungsfrage."
+    },
+    "synonyms": [
+      { "word": "pivotal", "de": "entscheidend / zentral / wesentlich" },
+      { "word": "crucial", "de": "entscheidend / ausschlaggebend / wesentlich" },
+      { "word": "key", "de": "entscheidend / wichtig / ausschlaggebend" }
+    ],
+    "word_family": [
+      { "word": "instrument", "pos": "noun", "de": "Instrument / Werkzeug / Messinstrument" },
+      { "word": "instrumentally", "pos": "adv", "de": "maßgeblich / als Instrument / entscheidend" },
+      { "word": "instrumentality", "pos": "noun", "de": "Instrumentalität / Zweckhaftigkeit / Mittelcharakter" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl17_invoke_01",
+    "word": "invoke",
+    "group": "AWL17",
+    "group_label": "Academic Word List – Sublist 17",
+    "pos": "verb",
+    "translations": { "de": "anrufen / sich berufen auf / heranziehen / geltend machen" },
+    "examples": [
+      {
+        "en": "The authors invoke social capital theory to explain the observed community-level effects.",
+        "de": "Die Autoren berufen sich auf die Sozialkapitaltheorie, um die beobachteten Effekte auf Gemeinschaftsebene zu erklären."
+      },
+      {
+        "en": "Courts may invoke the principle of proportionality when reviewing administrative decisions.",
+        "de": "Gerichte können den Grundsatz der Verhältnismäßigkeit geltend machen, wenn sie Verwaltungsentscheidungen überprüfen."
+      }
+    ],
+    "opposite": {
+      "en": "dismiss",
+      "de": "verwerfen / ablehnen / zurückweisen",
+      "example_en": "The reviewer dismissed the theoretical framework the authors had invoked as outdated.",
+      "example_de": "Der Gutachter verwarf den theoretischen Rahmen, den die Autoren herangezogen hatten, als veraltet."
+    },
+    "synonyms": [
+      { "word": "cite", "de": "zitieren / anführen / heranziehen" },
+      { "word": "appeal to", "de": "sich berufen auf / appellieren an / heranziehen" },
+      { "word": "employ", "de": "einsetzen / verwenden / heranziehen" }
+    ],
+    "word_family": [
+      { "word": "invocation", "pos": "noun", "de": "Berufung / Anrufung / Heranziehung" },
+      { "word": "invoked", "pos": "adj", "de": "herangezogen / angerufen / geltend gemacht" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl17_mediate_01",
+    "word": "mediate",
+    "group": "AWL17",
+    "group_label": "Academic Word List – Sublist 17",
+    "pos": "verb",
+    "translations": { "de": "vermitteln / mediieren / als Mittler wirken / übertragen" },
+    "examples": [
+      {
+        "en": "The effect of income on health outcomes may be mediated by access to nutritious food.",
+        "de": "Der Effekt des Einkommens auf Gesundheitsergebnisse kann durch den Zugang zu nahrhafter Nahrung mediiert werden."
+      },
+      {
+        "en": "An independent body was appointed to mediate between the two conflicting parties.",
+        "de": "Ein unabhängiges Gremium wurde ernannt, um zwischen den beiden konfliktierenden Parteien zu vermitteln."
+      }
+    ],
+    "opposite": {
+      "en": "confront directly",
+      "de": "direkt konfrontieren / unmittelbar einwirken / unvermittelt wirken",
+      "example_en": "When relationships are direct rather than mediated, different analytical approaches are required.",
+      "example_de": "Wenn Beziehungen direkt und nicht mediiert sind, sind andere analytische Ansätze erforderlich."
+    },
+    "synonyms": [
+      { "word": "transmit", "de": "übertragen / weitergeben / vermitteln" },
+      { "word": "arbitrate", "de": "vermitteln / schlichten / schiedsrichten" },
+      { "word": "channel", "de": "kanalisieren / leiten / übertragen" }
+    ],
+    "word_family": [
+      { "word": "mediation", "pos": "noun", "de": "Mediation / Vermittlung / Schlichtung" },
+      { "word": "mediator", "pos": "noun", "de": "Mediator / Vermittler / Mittler" },
+      { "word": "mediating", "pos": "adj", "de": "vermittelnd / mediierend / übertragend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl17_neutral_01",
+    "word": "neutral",
+    "group": "AWL17",
+    "group_label": "Academic Word List – Sublist 17",
+    "pos": "adj",
+    "translations": { "de": "neutral / unparteiisch / unvoreingenommen / wertfrei" },
+    "examples": [
+      {
+        "en": "The framing of survey questions should be as neutral as possible to avoid leading responses.",
+        "de": "Die Formulierung von Umfragefragen sollte so neutral wie möglich sein, um suggestive Antworten zu vermeiden."
+      },
+      {
+        "en": "A neutral third party was brought in to facilitate the negotiation process.",
+        "de": "Eine neutrale Drittpartei wurde hinzugezogen, um den Verhandlungsprozess zu erleichtern."
+      }
+    ],
+    "opposite": {
+      "en": "biased",
+      "de": "voreingenommen / parteiisch / verzerrt",
+      "example_en": "Biased framing of research questions can systematically distort the conclusions reached.",
+      "example_de": "Voreingenommene Formulierung von Forschungsfragen kann die erzielten Schlussfolgerungen systematisch verzerren."
+    },
+    "synonyms": [
+      { "word": "impartial", "de": "unparteiisch / unvoreingenommen / neutral" },
+      { "word": "objective", "de": "objektiv / sachlich / unparteiisch" },
+      { "word": "unbiased", "de": "unvoreingenommen / unparteiisch / neutral" }
+    ],
+    "word_family": [
+      { "word": "neutrality", "pos": "noun", "de": "Neutralität / Unparteilichkeit / Objektivität" },
+      { "word": "neutralise", "pos": "verb", "de": "neutralisieren / aufheben / ausgleichen" },
+      { "word": "neutrally", "pos": "adv", "de": "neutral / unparteiisch / wertfrei" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl17_output_01",
+    "word": "output",
+    "group": "AWL17",
+    "group_label": "Academic Word List – Sublist 17",
+    "pos": "noun",
+    "translations": { "de": "Ergebnis / Output / Leistung / Produktion" },
+    "examples": [
+      {
+        "en": "The primary outputs of the project included a report, a dataset, and a series of policy recommendations.",
+        "de": "Die wichtigsten Projektergebnisse umfassten einen Bericht, einen Datensatz und eine Reihe von Politikempfehlungen."
+      },
+      {
+        "en": "Measuring research output purely by publication count fails to capture quality or impact.",
+        "de": "Die Messung des Forschungs-Outputs allein anhand der Publikationszahl erfasst weder Qualität noch Wirkung."
+      }
+    ],
+    "opposite": {
+      "en": "input",
+      "de": "Eingabe / Input / Aufwand",
+      "example_en": "The relationship between input resources and measurable output varies across contexts.",
+      "example_de": "Das Verhältnis zwischen eingesetzten Ressourcen und messbarem Output variiert je nach Kontext."
+    },
+    "synonyms": [
+      { "word": "result", "de": "Ergebnis / Resultat / Ausgang" },
+      { "word": "product", "de": "Produkt / Ergebnis / Erzeugnis" },
+      { "word": "yield", "de": "Ertrag / Ausbeute / Ergebnis" }
+    ],
+    "word_family": [
+      { "word": "output", "pos": "verb", "de": "ausgeben / erzeugen / liefern" },
+      { "word": "throughput", "pos": "noun", "de": "Durchsatz / Verarbeitungskapazität / Durchfluss" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl17_presuppose_01",
+    "word": "presuppose",
+    "group": "AWL17",
+    "group_label": "Academic Word List – Sublist 17",
+    "pos": "verb",
+    "translations": { "de": "voraussetzen / als selbstverständlich annehmen / implizit annehmen / präsupponieren" },
+    "examples": [
+      {
+        "en": "The argument presupposes a shared understanding of key terms that may not exist across disciplines.",
+        "de": "Das Argument setzt ein gemeinsames Verständnis von Schlüsselbegriffen voraus, das in verschiedenen Disziplinen möglicherweise nicht vorhanden ist."
+      },
+      {
+        "en": "Many policy models presuppose rational behaviour, a condition that does not always hold in practice.",
+        "de": "Viele Politikmodelle setzen rationales Verhalten voraus, eine Bedingung, die in der Praxis nicht immer erfüllt ist."
+      }
+    ],
+    "opposite": {
+      "en": "question",
+      "de": "hinterfragen / in Frage stellen / bezweifeln",
+      "example_en": "Critical scholarship questions assumptions that applied research often presupposes.",
+      "example_de": "Kritische Wissenschaft hinterfragt Annahmen, die angewandte Forschung oft als selbstverständlich voraussetzt."
+    },
+    "synonyms": [
+      { "word": "assume", "de": "annehmen / voraussetzen / unterstellen" },
+      { "word": "take for granted", "de": "als selbstverständlich annehmen / voraussetzen / für gegeben halten" },
+      { "word": "presume", "de": "annehmen / voraussetzen / vermuten" }
+    ],
+    "word_family": [
+      { "word": "presupposition", "pos": "noun", "de": "Voraussetzung / Grundannahme / Präsupposition" },
+      { "word": "presupposed", "pos": "adj", "de": "vorausgesetzt / implizit angenommen / als gegeben betrachtet" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl17_prohibit_01",
+    "word": "prohibit",
+    "group": "AWL17",
+    "group_label": "Academic Word List – Sublist 17",
+    "pos": "verb",
+    "translations": { "de": "verbieten / untersagen / verwehren / prohibieren" },
+    "examples": [
+      {
+        "en": "The ethical framework prohibits the use of deception unless alternatives are not feasible.",
+        "de": "Der ethische Rahmen verbietet den Einsatz von Täuschung, sofern keine Alternativen möglich sind."
+      },
+      {
+        "en": "Current legislation prohibits companies from sharing personal data without explicit user consent.",
+        "de": "Die aktuelle Gesetzgebung verbietet Unternehmen, personenbezogene Daten ohne ausdrückliche Nutzereinwilligung weiterzugeben."
+      }
+    ],
+    "opposite": {
+      "en": "permit",
+      "de": "erlauben / gestatten / zulassen",
+      "example_en": "The revised guidelines permit greater flexibility in the choice of measurement instruments.",
+      "example_de": "Die überarbeiteten Richtlinien erlauben eine größere Flexibilität bei der Wahl der Messinstrumente."
+    },
+    "synonyms": [
+      { "word": "forbid", "de": "verbieten / untersagen / verwehren" },
+      { "word": "ban", "de": "verbieten / sperren / ausschließen" },
+      { "word": "disallow", "de": "nicht zulassen / verbieten / ablehnen" }
+    ],
+    "word_family": [
+      { "word": "prohibition", "pos": "noun", "de": "Verbot / Untersagung / Prohibition" },
+      { "word": "prohibited", "pos": "adj", "de": "verboten / untersagt / unzulässig" },
+      { "word": "prohibitive", "pos": "adj", "de": "prohibitiv / abschreckend / unerschwinglich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl17_propose_01",
+    "word": "propose",
+    "group": "AWL17",
+    "group_label": "Academic Word List – Sublist 17",
+    "pos": "verb",
+    "translations": { "de": "vorschlagen / vorschlagen / unterbreiten / darlegen" },
+    "examples": [
+      {
+        "en": "The paper proposes a revised taxonomy that better reflects the complexity of observed phenomena.",
+        "de": "Das Papier schlägt eine überarbeitete Taxonomie vor, die die Komplexität der beobachteten Phänomene besser widerspiegelt."
+      },
+      {
+        "en": "Several mechanisms have been proposed to account for the unexpected direction of the effect.",
+        "de": "Mehrere Mechanismen wurden vorgeschlagen, um die unerwartete Richtung des Effekts zu erklären."
+      }
+    ],
+    "opposite": {
+      "en": "reject",
+      "de": "ablehnen / verwerfen / zurückweisen",
+      "example_en": "The committee rejected all proposed amendments to the original text.",
+      "example_de": "Der Ausschuss lehnte alle vorgeschlagenen Änderungen am Originaltext ab."
+    },
+    "synonyms": [
+      { "word": "suggest", "de": "vorschlagen / nahelegen / empfehlen" },
+      { "word": "put forward", "de": "vorbringen / vorschlagen / unterbreiten" },
+      { "word": "advance", "de": "vorbringen / vorantreiben / vorschlagen" }
+    ],
+    "word_family": [
+      { "word": "proposal", "pos": "noun", "de": "Vorschlag / Antrag / Konzept" },
+      { "word": "proposition", "pos": "noun", "de": "Aussage / These / Behauptung" },
+      { "word": "proposed", "pos": "adj", "de": "vorgeschlagen / beantragt / vorgesehen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl17_rectify_01",
+    "word": "rectify",
+    "group": "AWL17",
+    "group_label": "Academic Word List – Sublist 17",
+    "pos": "verb",
+    "translations": { "de": "korrigieren / beheben / berichtigen / richtigstellen" },
+    "examples": [
+      {
+        "en": "The authors published a corrigendum to rectify an error in the original calculations.",
+        "de": "Die Autoren veröffentlichten eine Berichtigung, um einen Fehler in den ursprünglichen Berechnungen zu korrigieren."
+      },
+      {
+        "en": "Policy interventions alone may be insufficient to rectify deep-rooted structural inequalities.",
+        "de": "Politische Interventionen allein können möglicherweise nicht ausreichen, um tief verwurzelte strukturelle Ungleichheiten zu beheben."
+      }
+    ],
+    "opposite": {
+      "en": "exacerbate",
+      "de": "verschlimmern / verschärfen / verstärken",
+      "example_en": "Poorly designed policies risk exacerbating the problems they were intended to rectify.",
+      "example_de": "Schlecht konzipierte Politiken riskieren, die Probleme zu verschlimmern, die sie beheben sollten."
+    },
+    "synonyms": [
+      { "word": "correct", "de": "korrigieren / richtigstellen / berichtigen" },
+      { "word": "remedy", "de": "beheben / abhelfen / korrigieren" },
+      { "word": "redress", "de": "bereinigen / wiedergutmachen / beheben" }
+    ],
+    "word_family": [
+      { "word": "rectification", "pos": "noun", "de": "Korrektur / Berichtigung / Richtigstellung" },
+      { "word": "rectified", "pos": "adj", "de": "korrigiert / behoben / bereinigt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl17_residual_01",
+    "word": "residual",
+    "group": "AWL17",
+    "group_label": "Academic Word List – Sublist 17",
+    "pos": "adj",
+    "translations": { "de": "residual / verbleibend / Restgröße / übrig geblieben" },
+    "examples": [
+      {
+        "en": "Residual confounding is a persistent concern in observational studies even after careful adjustment.",
+        "de": "Residuales Confounding ist ein anhaltend problematischer Aspekt in Beobachtungsstudien, selbst nach sorgfältiger Adjustierung."
+      },
+      {
+        "en": "After accounting for the main predictors, a residual effect of unknown origin remained.",
+        "de": "Nach Berücksichtigung der Hauptprädiktoren blieb ein residualer Effekt unbekannter Herkunft."
+      }
+    ],
+    "opposite": {
+      "en": "primary",
+      "de": "primär / hauptsächlich / wesentlich",
+      "example_en": "The primary effect was large, while residual influences were small and inconsistent.",
+      "example_de": "Der primäre Effekt war groß, während residuale Einflüsse klein und inkonsistent waren."
+    },
+    "synonyms": [
+      { "word": "remaining", "de": "verbleibend / übrig / restlich" },
+      { "word": "leftover", "de": "übrig geblieben / verbleibend / Restgröße" },
+      { "word": "unexplained", "de": "unerklärlich / nicht erklärt / residual" }
+    ],
+    "word_family": [
+      { "word": "residual", "pos": "noun", "de": "Residuum / Restgröße / Rest" },
+      { "word": "residually", "pos": "adv", "de": "residual / als Restgröße / verbleibend" },
+      { "word": "residue", "pos": "noun", "de": "Rückstand / Rest / Residuum" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl17_survey_01",
+    "word": "survey",
+    "group": "AWL17",
+    "group_label": "Academic Word List – Sublist 17",
+    "pos": "verb",
+    "translations": { "de": "befragen / erheben / untersuchen / überblicken" },
+    "examples": [
+      {
+        "en": "Over three hundred professionals were surveyed about their attitudes toward continuing education.",
+        "de": "Über dreihundert Fachleute wurden zu ihrer Einstellung gegenüber der Weiterbildung befragt."
+      },
+      {
+        "en": "The review surveys existing approaches and identifies gaps in the current evidence base.",
+        "de": "Das Review untersucht bestehende Ansätze und identifiziert Lücken in der aktuellen Evidenzbasis."
+      }
+    ],
+    "opposite": {
+      "en": "focus narrowly",
+      "de": "sich eng fokussieren / gezielt untersuchen / punktuell analysieren",
+      "example_en": "Rather than surveying all possibilities, the study focuses narrowly on a single mechanism.",
+      "example_de": "Anstatt alle Möglichkeiten zu untersuchen, konzentriert sich die Studie eng auf einen einzigen Mechanismus."
+    },
+    "synonyms": [
+      { "word": "examine", "de": "untersuchen / analysieren / prüfen" },
+      { "word": "review", "de": "überprüfen / überblicken / untersuchen" },
+      { "word": "assess", "de": "einschätzen / bewerten / erheben" }
+    ],
+    "word_family": [
+      { "word": "survey", "pos": "noun", "de": "Umfrage / Erhebung / Überblick" },
+      { "word": "surveyed", "pos": "adj", "de": "befragt / erhoben / untersucht" },
+      { "word": "surveyor", "pos": "noun", "de": "Gutachter / Vermesser / Untersucher" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl17_viable_01",
+    "word": "viable",
+    "group": "AWL17",
+    "group_label": "Academic Word List – Sublist 17",
+    "pos": "adj",
+    "translations": { "de": "realisierbar / lebensfähig / umsetzbar / tragfähig" },
+    "examples": [
+      {
+        "en": "The research team identified three viable alternatives to the original experimental design.",
+        "de": "Das Forschungsteam identifizierte drei realisierbare Alternativen zum ursprünglichen Versuchsdesign."
+      },
+      {
+        "en": "For a policy to be viable, it must be both technically sound and politically acceptable.",
+        "de": "Damit eine Politik realisierbar ist, muss sie sowohl technisch solide als auch politisch akzeptabel sein."
+      }
+    ],
+    "opposite": {
+      "en": "unworkable",
+      "de": "undurchführbar / nicht umsetzbar / nicht realisierbar",
+      "example_en": "The proposal was deemed unworkable because it relied on data that are not routinely collected.",
+      "example_de": "Der Vorschlag wurde als undurchführbar eingestuft, da er auf Daten angewiesen war, die nicht routinemäßig erhoben werden."
+    },
+    "synonyms": [
+      { "word": "feasible", "de": "machbar / durchführbar / realisierbar" },
+      { "word": "practicable", "de": "praktikabel / durchführbar / umsetzbar" },
+      { "word": "workable", "de": "umsetzbar / praktikabel / durchführbar" }
+    ],
+    "word_family": [
+      { "word": "viability", "pos": "noun", "de": "Realisierbarkeit / Lebensfähigkeit / Tragfähigkeit" },
+      { "word": "viably", "pos": "adv", "de": "realisierbar / umsetzbar / tragfähig" },
+      { "word": "non-viable", "pos": "adj", "de": "nicht realisierbar / nicht lebensfähig / untragbar" }
+    ],
+    "phrasal_verbs": []
+  }
+]
