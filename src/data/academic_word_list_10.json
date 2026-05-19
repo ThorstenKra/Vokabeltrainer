@@ -1,0 +1,698 @@
+[
+  {
+    "id": "awl10_amend_01",
+    "word": "amend",
+    "group": "AWL10",
+    "group_label": "Academic Word List – Sublist 10",
+    "pos": "verb",
+    "translations": { "de": "ändern / ergänzen / abändern / novellieren" },
+    "examples": [
+      {
+        "en": "Parliament voted to amend the legislation to close an existing loophole.",
+        "de": "Das Parlament stimmte dafür, die Gesetzgebung zu ändern, um eine bestehende Gesetzeslücke zu schließen."
+      },
+      {
+        "en": "Researchers are encouraged to amend their protocols if new evidence emerges during the study.",
+        "de": "Forscher werden ermutigt, ihre Protokolle zu ändern, wenn während der Studie neue Erkenntnisse auftauchen."
+      }
+    ],
+    "opposite": {
+      "en": "retain",
+      "de": "beibehalten / aufrechterhalten / behalten",
+      "example_en": "The committee decided to retain the original wording of the clause.",
+      "example_de": "Der Ausschuss beschloss, den ursprünglichen Wortlaut der Klausel beizubehalten."
+    },
+    "synonyms": [
+      { "word": "revise", "de": "überarbeiten / revidieren / ändern" },
+      { "word": "modify", "de": "abändern / modifizieren / anpassen" },
+      { "word": "alter", "de": "verändern / abändern / umgestalten" }
+    ],
+    "word_family": [
+      { "word": "amendment", "pos": "noun", "de": "Änderung / Ergänzung / Zusatz / Novelle" },
+      { "word": "amended", "pos": "adj", "de": "geändert / abgeändert / novelliert" },
+      { "word": "unamended", "pos": "adj", "de": "unverändert / nicht abgeändert / unmodifiziert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl10_analogy_01",
+    "word": "analogy",
+    "group": "AWL10",
+    "group_label": "Academic Word List – Sublist 10",
+    "pos": "noun",
+    "translations": { "de": "Analogie / Vergleich / Entsprechung / Ähnlichkeit" },
+    "examples": [
+      {
+        "en": "The author draws an analogy between the immune system and a nation's border security.",
+        "de": "Der Autor zieht eine Analogie zwischen dem Immunsystem und der Grenzsicherheit eines Landes."
+      },
+      {
+        "en": "Analogies can be powerful teaching tools when used to connect unfamiliar concepts to known ones.",
+        "de": "Analogien können wirksame Lehrmittel sein, wenn sie dazu verwendet werden, unbekannte Konzepte mit bekannten zu verknüpfen."
+      }
+    ],
+    "opposite": {
+      "en": "contrast",
+      "de": "Kontrast / Gegensatz / Unterschied",
+      "example_en": "In contrast to the previous model, the new approach assumes perfect information.",
+      "example_de": "Im Gegensatz zum vorherigen Modell setzt der neue Ansatz vollständige Informationen voraus."
+    },
+    "synonyms": [
+      { "word": "comparison", "de": "Vergleich / Gegenüberstellung / Parallele" },
+      { "word": "parallel", "de": "Parallele / Analogie / Entsprechung" },
+      { "word": "similarity", "de": "Ähnlichkeit / Gemeinsamkeit / Entsprechung" }
+    ],
+    "word_family": [
+      { "word": "analogous", "pos": "adj", "de": "analog / entsprechend / vergleichbar" },
+      { "word": "analogously", "pos": "adv", "de": "analog / entsprechend / in ähnlicher Weise" },
+      { "word": "analogize", "pos": "verb", "de": "eine Analogie ziehen / vergleichen / analogisieren" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl10_attribute_01",
+    "word": "attribute",
+    "group": "AWL10",
+    "group_label": "Academic Word List – Sublist 10",
+    "pos": "verb",
+    "translations": { "de": "zuschreiben / zurückführen / attribuieren / zurechnen" },
+    "examples": [
+      {
+        "en": "The researchers attribute the improvement in outcomes to the early intervention programme.",
+        "de": "Die Forscher führen die Verbesserung der Ergebnisse auf das Frühinterventionsprogramm zurück."
+      },
+      {
+        "en": "It is difficult to attribute observed changes to a single cause when multiple variables are present.",
+        "de": "Es ist schwierig, beobachtete Veränderungen einer einzigen Ursache zuzuschreiben, wenn mehrere Variablen vorhanden sind."
+      }
+    ],
+    "opposite": {
+      "en": "dissociate",
+      "de": "trennen / loslösen / dissoziieren",
+      "example_en": "The study aims to dissociate the effects of diet from those of physical activity.",
+      "example_de": "Die Studie zielt darauf ab, die Auswirkungen der Ernährung von denen der körperlichen Aktivität zu trennen."
+    },
+    "synonyms": [
+      { "word": "ascribe", "de": "zuschreiben / zurückführen / zurechnen" },
+      { "word": "assign", "de": "zuweisen / zuordnen / zuschreiben" },
+      { "word": "credit", "de": "gutschreiben / zuschreiben / zuordnen" }
+    ],
+    "word_family": [
+      { "word": "attribution", "pos": "noun", "de": "Zuschreibung / Attribuierung / Zurückführung" },
+      { "word": "attributable", "pos": "adj", "de": "zuzuschreiben / zurückzuführen / zurechenbar" },
+      { "word": "attribute", "pos": "noun", "de": "Eigenschaft / Merkmal / Attribut" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl10_channel_01",
+    "word": "channel",
+    "group": "AWL10",
+    "group_label": "Academic Word List – Sublist 10",
+    "pos": "verb",
+    "translations": { "de": "lenken / kanalisieren / leiten / bündeln" },
+    "examples": [
+      {
+        "en": "Policymakers sought to channel investment toward underdeveloped rural regions.",
+        "de": "Politische Entscheidungsträger versuchten, Investitionen in unterentwickelte ländliche Regionen zu lenken."
+      },
+      {
+        "en": "The organisation channels resources directly to communities most affected by the crisis.",
+        "de": "Die Organisation leitet Ressourcen direkt an die von der Krise am stärksten betroffenen Gemeinschaften."
+      }
+    ],
+    "opposite": {
+      "en": "disperse",
+      "de": "verteilen / zerstreuen / aufteilen",
+      "example_en": "Rather than dispersing funds across many projects, the agency focused on a few key initiatives.",
+      "example_de": "Anstatt Mittel auf viele Projekte zu verteilen, konzentrierte sich die Behörde auf wenige Schlüsselinitiativen."
+    },
+    "synonyms": [
+      { "word": "direct", "de": "lenken / richten / leiten" },
+      { "word": "funnel", "de": "kanalisieren / bündeln / zusammenführen" },
+      { "word": "route", "de": "leiten / weiterleiten / dirigieren" }
+    ],
+    "word_family": [
+      { "word": "channel", "pos": "noun", "de": "Kanal / Weg / Medium / Leitung" },
+      { "word": "channelling", "pos": "noun", "de": "Kanalisierung / Lenkung / Weiterleitung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl10_controversy_01",
+    "word": "controversy",
+    "group": "AWL10",
+    "group_label": "Academic Word List – Sublist 10",
+    "pos": "noun",
+    "translations": { "de": "Kontroverse / Streit / Debatte / Meinungsstreit" },
+    "examples": [
+      {
+        "en": "The publication sparked considerable controversy among researchers in the field.",
+        "de": "Die Veröffentlichung löste erhebliche Kontroversen unter den Forschern auf diesem Gebiet aus."
+      },
+      {
+        "en": "Ethical controversy surrounding the use of animal models continues to shape research policy.",
+        "de": "Der ethische Streit über die Verwendung von Tiermodellen prägt weiterhin die Forschungspolitik."
+      }
+    ],
+    "opposite": {
+      "en": "consensus",
+      "de": "Konsens / Übereinstimmung / Einigkeit",
+      "example_en": "There is broad scientific consensus that human activity is driving climate change.",
+      "example_de": "Es besteht ein breiter wissenschaftlicher Konsens darüber, dass menschliche Aktivitäten den Klimawandel vorantreiben."
+    },
+    "synonyms": [
+      { "word": "debate", "de": "Debatte / Diskussion / Auseinandersetzung" },
+      { "word": "dispute", "de": "Streit / Disput / Auseinandersetzung" },
+      { "word": "contention", "de": "Streitpunkt / Meinungsverschiedenheit / Auseinandersetzung" }
+    ],
+    "word_family": [
+      { "word": "controversial", "pos": "adj", "de": "kontrovers / umstritten / strittig" },
+      { "word": "controversially", "pos": "adv", "de": "kontrovers / umstritten / strittigerweise" },
+      { "word": "uncontroversial", "pos": "adj", "de": "unumstritten / unstreitig / allgemein anerkannt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl10_criterion_01",
+    "word": "criterion",
+    "group": "AWL10",
+    "group_label": "Academic Word List – Sublist 10",
+    "pos": "noun",
+    "translations": { "de": "Kriterium / Maßstab / Bedingung / Merkmal" },
+    "examples": [
+      {
+        "en": "The most important criterion for inclusion in the study was a confirmed diagnosis.",
+        "de": "Das wichtigste Aufnahmekriterium für die Studie war eine bestätigte Diagnose."
+      },
+      {
+        "en": "Each proposal was assessed against a set of pre-defined criteria agreed by the committee.",
+        "de": "Jeder Vorschlag wurde anhand einer Reihe vordefinierter Kriterien bewertet, auf die sich der Ausschuss geeinigt hatte."
+      }
+    ],
+    "opposite": {
+      "en": "exception",
+      "de": "Ausnahme / Abweichung / Sonderfall",
+      "example_en": "The board approved the project as an exception to the usual funding rules.",
+      "example_de": "Der Vorstand genehmigte das Projekt als Ausnahme von den üblichen Finanzierungsregeln."
+    },
+    "synonyms": [
+      { "word": "standard", "de": "Standard / Maßstab / Norm" },
+      { "word": "measure", "de": "Maßstab / Maß / Kennzahl" },
+      { "word": "benchmark", "de": "Benchmark / Referenzwert / Maßstab" }
+    ],
+    "word_family": [
+      { "word": "criteria", "pos": "noun", "de": "Kriterien / Maßstäbe / Bedingungen (Plural)" },
+      { "word": "criterial", "pos": "adj", "de": "kriterienbasiert / kriterial / maßgebend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl10_dispose_01",
+    "word": "dispose",
+    "group": "AWL10",
+    "group_label": "Academic Word List – Sublist 10",
+    "pos": "verb",
+    "translations": { "de": "entsorgen / beseitigen / verfügen über / anordnen" },
+    "examples": [
+      {
+        "en": "Industries must comply with regulations governing how they dispose of hazardous waste.",
+        "de": "Industrien müssen Vorschriften einhalten, die regeln, wie sie gefährliche Abfälle entsorgen."
+      },
+      {
+        "en": "The organisation disposed of its assets before formally dissolving.",
+        "de": "Die Organisation veräußerte ihr Vermögen, bevor sie sich formell auflöste."
+      }
+    ],
+    "opposite": {
+      "en": "retain",
+      "de": "behalten / aufbewahren / beibehalten",
+      "example_en": "The archive retains copies of all submitted manuscripts for ten years.",
+      "example_de": "Das Archiv bewahrt zehn Jahre lang Kopien aller eingereichten Manuskripte auf."
+    },
+    "synonyms": [
+      { "word": "discard", "de": "entsorgen / wegwerfen / aufgeben" },
+      { "word": "eliminate", "de": "beseitigen / ausscheiden / eliminieren" },
+      { "word": "remove", "de": "entfernen / beseitigen / ablegen" }
+    ],
+    "word_family": [
+      { "word": "disposal", "pos": "noun", "de": "Entsorgung / Beseitigung / Verfügung" },
+      { "word": "disposition", "pos": "noun", "de": "Veranlagung / Neigung / Anordnung" },
+      { "word": "disposable", "pos": "adj", "de": "verfügbar / einmalig verwendbar / Einweg-" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "dispose of", "de": "entsorgen / beseitigen / sich entledigen von", "example": "Hospitals must dispose of medical waste according to strict protocols." }
+    ]
+  },
+  {
+    "id": "awl10_equivalent_01",
+    "word": "equivalent",
+    "group": "AWL10",
+    "group_label": "Academic Word List – Sublist 10",
+    "pos": "adj",
+    "translations": { "de": "gleichwertig / äquivalent / entsprechend / vergleichbar" },
+    "examples": [
+      {
+        "en": "The two methods produced equivalent results under controlled laboratory conditions.",
+        "de": "Die beiden Methoden lieferten unter kontrollierten Laborbedingungen gleichwertige Ergebnisse."
+      },
+      {
+        "en": "A formal qualification is not always considered equivalent to practical experience in hiring decisions.",
+        "de": "Ein formaler Abschluss wird bei Einstellungsentscheidungen nicht immer als gleichwertig mit praktischer Erfahrung angesehen."
+      }
+    ],
+    "opposite": {
+      "en": "unequal",
+      "de": "ungleich / unterschiedlich / nicht gleichwertig",
+      "example_en": "The groups were unequal in size, which limited the statistical power of the comparison.",
+      "example_de": "Die Gruppen waren ungleich groß, was die statistische Aussagekraft des Vergleichs einschränkte."
+    },
+    "synonyms": [
+      { "word": "comparable", "de": "vergleichbar / ähnlich / gleichartig" },
+      { "word": "equal", "de": "gleich / ebenbürtig / gleichwertig" },
+      { "word": "corresponding", "de": "entsprechend / korrespondierend / gleichwertig" }
+    ],
+    "word_family": [
+      { "word": "equivalence", "pos": "noun", "de": "Äquivalenz / Gleichwertigkeit / Entsprechung" },
+      { "word": "equivalently", "pos": "adv", "de": "gleichwertig / äquivalent / entsprechend" },
+      { "word": "inequivalent", "pos": "adj", "de": "nicht äquivalent / ungleichwertig / verschieden" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl10_exhibit_01",
+    "word": "exhibit",
+    "group": "AWL10",
+    "group_label": "Academic Word List – Sublist 10",
+    "pos": "verb",
+    "translations": { "de": "aufweisen / zeigen / ausstellen / unter Beweis stellen" },
+    "examples": [
+      {
+        "en": "Patients in the treatment group exhibited significantly fewer symptoms after eight weeks.",
+        "de": "Patienten in der Behandlungsgruppe wiesen nach acht Wochen deutlich weniger Symptome auf."
+      },
+      {
+        "en": "The material exhibits remarkable resistance to both heat and chemical corrosion.",
+        "de": "Das Material weist eine bemerkenswerte Beständigkeit gegenüber Hitze und chemischer Korrosion auf."
+      }
+    ],
+    "opposite": {
+      "en": "conceal",
+      "de": "verbergen / verschleiern / verdecken",
+      "example_en": "Firms that conceal financial irregularities face severe regulatory penalties.",
+      "example_de": "Unternehmen, die finanzielle Unregelmäßigkeiten verbergen, sehen sich schwerwiegenden Regulierungsstrafen ausgesetzt."
+    },
+    "synonyms": [
+      { "word": "display", "de": "zeigen / vorführen / darstellen" },
+      { "word": "demonstrate", "de": "demonstrieren / zeigen / aufzeigen" },
+      { "word": "manifest", "de": "manifestieren / zeigen / zum Ausdruck bringen" }
+    ],
+    "word_family": [
+      { "word": "exhibition", "pos": "noun", "de": "Ausstellung / Darbietung / Vorführung" },
+      { "word": "exhibit", "pos": "noun", "de": "Ausstellungsstück / Beweisstück / Exponat" },
+      { "word": "exhibitor", "pos": "noun", "de": "Aussteller / Vorführer / Präsentierender" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl10_foundation_01",
+    "word": "foundation",
+    "group": "AWL10",
+    "group_label": "Academic Word List – Sublist 10",
+    "pos": "noun",
+    "translations": { "de": "Grundlage / Fundament / Basis / Stiftung" },
+    "examples": [
+      {
+        "en": "The study provides an empirical foundation for the development of more targeted interventions.",
+        "de": "Die Studie liefert eine empirische Grundlage für die Entwicklung gezielter Interventionen."
+      },
+      {
+        "en": "Early literacy skills form the foundation upon which all subsequent academic learning is built.",
+        "de": "Frühe Lesefähigkeiten bilden das Fundament, auf dem alle späteren akademischen Lernprozesse aufgebaut sind."
+      }
+    ],
+    "opposite": {
+      "en": "superstructure",
+      "de": "Überbau / Aufbau / Oberkonstruktion",
+      "example_en": "Ideology can be seen as the superstructure built upon economic foundations.",
+      "example_de": "Ideologie kann als Überbau betrachtet werden, der auf wirtschaftlichen Grundlagen aufgebaut ist."
+    },
+    "synonyms": [
+      { "word": "basis", "de": "Grundlage / Basis / Ausgangspunkt" },
+      { "word": "groundwork", "de": "Grundlagenarbeit / Vorarbeit / Fundament" },
+      { "word": "underpinning", "de": "Stütze / Grundlage / Fundament" }
+    ],
+    "word_family": [
+      { "word": "found", "pos": "verb", "de": "gründen / stiften / begründen" },
+      { "word": "foundational", "pos": "adj", "de": "grundlegend / fundamental / wesentlich" },
+      { "word": "unfounded", "pos": "adj", "de": "unbegründet / haltlos / grundlos" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl10_identical_01",
+    "word": "identical",
+    "group": "AWL10",
+    "group_label": "Academic Word List – Sublist 10",
+    "pos": "adj",
+    "translations": { "de": "identisch / gleich / übereinstimmend / gleichartig" },
+    "examples": [
+      {
+        "en": "The two samples produced identical results, confirming the reliability of the procedure.",
+        "de": "Die beiden Proben lieferten identische Ergebnisse und bestätigten damit die Zuverlässigkeit des Verfahrens."
+      },
+      {
+        "en": "Identical twins share the same DNA but may differ significantly in their phenotypic traits.",
+        "de": "Eineiige Zwillinge teilen dieselbe DNA, können sich aber in ihren phänotypischen Merkmalen erheblich unterscheiden."
+      }
+    ],
+    "opposite": {
+      "en": "distinct",
+      "de": "verschieden / klar unterscheidbar / einzigartig",
+      "example_en": "The two groups showed distinct patterns of response to the experimental stimuli.",
+      "example_de": "Die beiden Gruppen zeigten unterschiedliche Reaktionsmuster auf die experimentellen Reize."
+    },
+    "synonyms": [
+      { "word": "same", "de": "gleich / identisch / übereinstimmend" },
+      { "word": "uniform", "de": "einheitlich / gleichförmig / gleichartig" },
+      { "word": "indistinguishable", "de": "ununterscheidbar / identisch / nicht zu unterscheiden" }
+    ],
+    "word_family": [
+      { "word": "identity", "pos": "noun", "de": "Identität / Gleichheit / Übereinstimmung" },
+      { "word": "identically", "pos": "adv", "de": "identisch / auf gleiche Weise / gleichartig" },
+      { "word": "identify", "pos": "verb", "de": "identifizieren / erkennen / feststellen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl10_impose_01",
+    "word": "impose",
+    "group": "AWL10",
+    "group_label": "Academic Word List – Sublist 10",
+    "pos": "verb",
+    "translations": { "de": "auferlegen / einführen / verhängen / aufzwingen" },
+    "examples": [
+      {
+        "en": "The regulatory body imposed strict limits on emissions from industrial facilities.",
+        "de": "Die Regulierungsbehörde erlegte Industrieanlagen strenge Emissionsgrenzen auf."
+      },
+      {
+        "en": "Researchers should be cautious about imposing their own cultural assumptions onto their data.",
+        "de": "Forscher sollten vorsichtig sein, wenn es darum geht, ihre eigenen kulturellen Annahmen auf ihre Daten zu übertragen."
+      }
+    ],
+    "opposite": {
+      "en": "lift",
+      "de": "aufheben / abschaffen / zurückziehen",
+      "example_en": "The government agreed to lift the restrictions following sustained economic pressure.",
+      "example_de": "Die Regierung stimmte zu, die Beschränkungen nach anhaltendem wirtschaftlichem Druck aufzuheben."
+    },
+    "synonyms": [
+      { "word": "enforce", "de": "durchsetzen / erzwingen / einführen" },
+      { "word": "levy", "de": "erheben / auferlegen / einfordern" },
+      { "word": "inflict", "de": "auferlegen / zufügen / verhängen" }
+    ],
+    "word_family": [
+      { "word": "imposition", "pos": "noun", "de": "Auferlegung / Verhängung / Einschränkung" },
+      { "word": "imposing", "pos": "adj", "de": "eindrucksvoll / beeindruckend / imposant" },
+      { "word": "imposed", "pos": "adj", "de": "auferlegt / erzwungen / verhängt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl10_minimize_01",
+    "word": "minimize",
+    "group": "AWL10",
+    "group_label": "Academic Word List – Sublist 10",
+    "pos": "verb",
+    "translations": { "de": "minimieren / auf ein Minimum reduzieren / verringern / kleinreden" },
+    "examples": [
+      {
+        "en": "Researchers should take all reasonable steps to minimize potential harm to participants.",
+        "de": "Forscher sollten alle zumutbaren Schritte unternehmen, um potenzielle Schäden für die Teilnehmer zu minimieren."
+      },
+      {
+        "en": "Careful study design helps minimize the influence of confounding variables on the results.",
+        "de": "Ein sorgfältiges Studiendesign hilft, den Einfluss von Störvariablen auf die Ergebnisse zu minimieren."
+      }
+    ],
+    "opposite": {
+      "en": "maximize",
+      "de": "maximieren / ausschöpfen / auf ein Maximum bringen",
+      "example_en": "The strategy aims to maximize the return on investment within a five-year timeframe.",
+      "example_de": "Die Strategie zielt darauf ab, die Kapitalrendite innerhalb eines Fünfjahreszeitraums zu maximieren."
+    },
+    "synonyms": [
+      { "word": "reduce", "de": "verringern / reduzieren / abbauen" },
+      { "word": "limit", "de": "begrenzen / einschränken / limitieren" },
+      { "word": "curtail", "de": "einschränken / kürzen / begrenzen" }
+    ],
+    "word_family": [
+      { "word": "minimum", "pos": "noun", "de": "Minimum / Mindestmaß / unterste Grenze" },
+      { "word": "minimal", "pos": "adj", "de": "minimal / gering / geringfügig" },
+      { "word": "minimization", "pos": "noun", "de": "Minimierung / Reduzierung / Verringerung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl10_mutual_01",
+    "word": "mutual",
+    "group": "AWL10",
+    "group_label": "Academic Word List – Sublist 10",
+    "pos": "adj",
+    "translations": { "de": "gegenseitig / wechselseitig / beidseitig / gemeinsam" },
+    "examples": [
+      {
+        "en": "International cooperation requires mutual trust and a shared commitment to agreed norms.",
+        "de": "Internationale Zusammenarbeit erfordert gegenseitiges Vertrauen und ein gemeinsames Bekenntnis zu vereinbarten Normen."
+      },
+      {
+        "en": "The two institutions have a mutual interest in promoting excellence in postgraduate research.",
+        "de": "Die beiden Institutionen haben ein gemeinsames Interesse daran, die Exzellenz in der Postgraduiertenforschung zu fördern."
+      }
+    ],
+    "opposite": {
+      "en": "unilateral",
+      "de": "einseitig / unilateral / ohne Gegenseitigkeit",
+      "example_en": "A unilateral decision was made without consulting the other parties involved.",
+      "example_de": "Eine einseitige Entscheidung wurde getroffen, ohne die anderen beteiligten Parteien zu konsultieren."
+    },
+    "synonyms": [
+      { "word": "reciprocal", "de": "wechselseitig / gegenseitig / reziprok" },
+      { "word": "shared", "de": "gemeinsam / geteilt / wechselseitig" },
+      { "word": "joint", "de": "gemeinsam / gemeinschaftlich / zusammen" }
+    ],
+    "word_family": [
+      { "word": "mutually", "pos": "adv", "de": "gegenseitig / wechselseitig / beidseitig" },
+      { "word": "mutuality", "pos": "noun", "de": "Gegenseitigkeit / Wechselseitigkeit / Reziprozität" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl10_predominant_01",
+    "word": "predominant",
+    "group": "AWL10",
+    "group_label": "Academic Word List – Sublist 10",
+    "pos": "adj",
+    "translations": { "de": "vorherrschend / überwiegend / dominant / maßgeblich" },
+    "examples": [
+      {
+        "en": "The predominant view in the literature is that early intervention produces the best outcomes.",
+        "de": "Die vorherrschende Meinung in der Literatur ist, dass frühe Interventionen die besten Ergebnisse erzielen."
+      },
+      {
+        "en": "Agriculture remains the predominant source of income in many low-income countries.",
+        "de": "Die Landwirtschaft bleibt in vielen einkommensschwachen Ländern die vorherrschende Einkommensquelle."
+      }
+    ],
+    "opposite": {
+      "en": "marginal",
+      "de": "marginal / geringfügig / untergeordnet",
+      "example_en": "The effect of the variable was marginal and did not reach statistical significance.",
+      "example_de": "Der Effekt der Variable war marginal und erreichte keine statistische Signifikanz."
+    },
+    "synonyms": [
+      { "word": "dominant", "de": "dominant / vorherrschend / maßgebend" },
+      { "word": "prevailing", "de": "vorherrschend / geltend / üblich" },
+      { "word": "primary", "de": "primär / hauptsächlich / vorrangig" }
+    ],
+    "word_family": [
+      { "word": "predominance", "pos": "noun", "de": "Vorherrschaft / Überlegenheit / Dominanz" },
+      { "word": "predominantly", "pos": "adv", "de": "vorwiegend / überwiegend / hauptsächlich" },
+      { "word": "predominate", "pos": "verb", "de": "überwiegen / dominieren / vorherrschen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl10_regime_01",
+    "word": "regime",
+    "group": "AWL10",
+    "group_label": "Academic Word List – Sublist 10",
+    "pos": "noun",
+    "translations": { "de": "Regime / System / Regelwerk / Ordnung" },
+    "examples": [
+      {
+        "en": "The regulatory regime governing pharmaceutical trials has been significantly strengthened.",
+        "de": "Das Regulierungsregime für pharmazeutische Studien wurde erheblich gestärkt."
+      },
+      {
+        "en": "A strict dietary regime was maintained throughout the twelve-week intervention period.",
+        "de": "Während des zwölfwöchigen Interventionszeitraums wurde ein striktes Ernährungsregime eingehalten."
+      }
+    ],
+    "opposite": {
+      "en": "disorder",
+      "de": "Unordnung / Chaos / Regellosigkeit",
+      "example_en": "Political disorder makes it difficult to implement consistent long-term policies.",
+      "example_de": "Politische Unordnung macht es schwierig, konsistente langfristige Politiken umzusetzen."
+    },
+    "synonyms": [
+      { "word": "system", "de": "System / Ordnung / Regelwerk" },
+      { "word": "framework", "de": "Rahmen / Regelwerk / Gerüst" },
+      { "word": "order", "de": "Ordnung / System / Regelung" }
+    ],
+    "word_family": [
+      { "word": "regimen", "pos": "noun", "de": "Regime / Behandlungsplan / Diätplan" },
+      { "word": "regulate", "pos": "verb", "de": "regulieren / reglementieren / regeln" },
+      { "word": "regulation", "pos": "noun", "de": "Regulierung / Regelung / Vorschrift" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl10_revise_01",
+    "word": "revise",
+    "group": "AWL10",
+    "group_label": "Academic Word List – Sublist 10",
+    "pos": "verb",
+    "translations": { "de": "überarbeiten / revidieren / korrigieren / anpassen" },
+    "examples": [
+      {
+        "en": "Authors are expected to revise their manuscripts in response to peer reviewer comments.",
+        "de": "Von Autoren wird erwartet, dass sie ihre Manuskripte als Reaktion auf Gutachterkommentare überarbeiten."
+      },
+      {
+        "en": "The committee revised its projections downward following a detailed analysis of new data.",
+        "de": "Der Ausschuss revidierte seine Prognosen nach einer detaillierten Analyse neuer Daten nach unten."
+      }
+    ],
+    "opposite": {
+      "en": "finalise",
+      "de": "abschließen / fertigstellen / endgültig festlegen",
+      "example_en": "Once the board finalises the strategy, no further amendments will be accepted.",
+      "example_de": "Sobald der Vorstand die Strategie abgeschlossen hat, werden keine weiteren Änderungen akzeptiert."
+    },
+    "synonyms": [
+      { "word": "amend", "de": "ändern / abändern / ergänzen" },
+      { "word": "update", "de": "aktualisieren / überarbeiten / auf den neuesten Stand bringen" },
+      { "word": "reconsider", "de": "überdenken / erneut prüfen / revidieren" }
+    ],
+    "word_family": [
+      { "word": "revision", "pos": "noun", "de": "Überarbeitung / Revision / Änderung" },
+      { "word": "revised", "pos": "adj", "de": "überarbeitet / revidiert / aktualisiert" },
+      { "word": "revisionary", "pos": "adj", "de": "revisionistisch / überarbeitend / korrigierend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl10_straightforward_01",
+    "word": "straightforward",
+    "group": "AWL10",
+    "group_label": "Academic Word List – Sublist 10",
+    "pos": "adj",
+    "translations": { "de": "unkompliziert / einfach / direkt / geradlinig" },
+    "examples": [
+      {
+        "en": "The methodology is straightforward and can be replicated with minimal resources.",
+        "de": "Die Methodik ist unkompliziert und kann mit minimalen Ressourcen repliziert werden."
+      },
+      {
+        "en": "While the concept appears straightforward, its practical application presents several challenges.",
+        "de": "Obwohl das Konzept einfach erscheint, birgt seine praktische Anwendung mehrere Herausforderungen."
+      }
+    ],
+    "opposite": {
+      "en": "complex",
+      "de": "komplex / vielschichtig / kompliziert",
+      "example_en": "The interaction between the variables proved more complex than initially assumed.",
+      "example_de": "Die Wechselwirkung zwischen den Variablen erwies sich als komplexer als ursprünglich angenommen."
+    },
+    "synonyms": [
+      { "word": "simple", "de": "einfach / schlicht / unkompliziert" },
+      { "word": "clear", "de": "klar / eindeutig / verständlich" },
+      { "word": "uncomplicated", "de": "unkompliziert / problemlos / einfach" }
+    ],
+    "word_family": [
+      { "word": "straightforwardly", "pos": "adv", "de": "unkompliziert / direkt / einfach" },
+      { "word": "straightforwardness", "pos": "noun", "de": "Direktheit / Unkompliziertheit / Geradlinigkeit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl10_undergo_01",
+    "word": "undergo",
+    "group": "AWL10",
+    "group_label": "Academic Word List – Sublist 10",
+    "pos": "verb",
+    "translations": { "de": "durchlaufen / durchmachen / sich unterziehen / erfahren" },
+    "examples": [
+      {
+        "en": "All participants underwent a comprehensive medical assessment prior to enrolment.",
+        "de": "Alle Teilnehmer unterzogen sich vor der Einschreibung einer umfassenden medizinischen Bewertung."
+      },
+      {
+        "en": "The sector has undergone rapid transformation driven by advances in digital technology.",
+        "de": "Der Sektor hat eine rasche Transformation durchlaufen, die durch Fortschritte in der digitalen Technologie vorangetrieben wurde."
+      }
+    ],
+    "opposite": {
+      "en": "avoid",
+      "de": "vermeiden / umgehen / ausweichen",
+      "example_en": "Participants who wished to avoid invasive procedures were assigned to the control group.",
+      "example_de": "Teilnehmer, die invasive Eingriffe vermeiden wollten, wurden der Kontrollgruppe zugewiesen."
+    },
+    "synonyms": [
+      { "word": "experience", "de": "erleben / erfahren / durchmachen" },
+      { "word": "sustain", "de": "erleiden / aufrechterhalten / erfahren" },
+      { "word": "endure", "de": "ertragen / durchstehen / erleiden" }
+    ],
+    "word_family": [
+      { "word": "undergoing", "pos": "verb", "de": "durchlaufend / sich unterzieht / durchmachend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl10_voluntary_01",
+    "word": "voluntary",
+    "group": "AWL10",
+    "group_label": "Academic Word List – Sublist 10",
+    "pos": "adj",
+    "translations": { "de": "freiwillig / ehrenamtlich / unentgeltlich / fakultativ" },
+    "examples": [
+      {
+        "en": "Participation in the study is entirely voluntary and may be withdrawn at any time.",
+        "de": "Die Teilnahme an der Studie ist vollkommen freiwillig und kann jederzeit zurückgezogen werden."
+      },
+      {
+        "en": "The scheme relies on voluntary compliance rather than legal enforcement.",
+        "de": "Das Programm basiert auf freiwilliger Einhaltung anstatt auf gesetzlicher Durchsetzung."
+      }
+    ],
+    "opposite": {
+      "en": "compulsory",
+      "de": "obligatorisch / verpflichtend / Pflicht-",
+      "example_en": "Attendance at the induction session is compulsory for all new staff members.",
+      "example_de": "Die Teilnahme an der Einführungsveranstaltung ist für alle neuen Mitarbeiter obligatorisch."
+    },
+    "synonyms": [
+      { "word": "optional", "de": "optional / freiwillig / wahlfrei" },
+      { "word": "elective", "de": "wahlfrei / fakultativ / elektiv" },
+      { "word": "discretionary", "de": "nach eigenem Ermessen / freiwillig / freigestellt" }
+    ],
+    "word_family": [
+      { "word": "volunteer", "pos": "noun", "de": "Freiwilliger / Ehrenamtlicher / Proband" },
+      { "word": "voluntarily", "pos": "adv", "de": "freiwillig / aus eigenem Antrieb / unentgeltlich" },
+      { "word": "involuntary", "pos": "adj", "de": "unfreiwillig / unwillkürlich / zwangsweise" }
+    ],
+    "phrasal_verbs": []
+  }
+]
