@@ -1,0 +1,737 @@
+[
+  {
+    "id": "awl4_access_01",
+    "word": "access",
+    "group": "AWL4",
+    "group_label": "Academic Word List – Sublist 4",
+    "pos": "noun",
+    "translations": { "de": "Zugang / Zugriff / Zutritt" },
+    "examples": [
+      {
+        "en": "Open-access publishing allows researchers worldwide to read studies free of charge.",
+        "de": "Open-Access-Publikationen ermöglichen es Forschern weltweit, Studien kostenlos zu lesen."
+      },
+      {
+        "en": "Limited access to quality education remains a major driver of social inequality.",
+        "de": "Der begrenzte Zugang zu qualitativ hochwertiger Bildung bleibt ein wesentlicher Treiber sozialer Ungleichheit."
+      }
+    ],
+    "opposite": {
+      "en": "restriction",
+      "de": "Einschränkung / Zugangsbeschränkung",
+      "example_en": "The restriction of access to certain databases creates a divide between well-funded and under-resourced institutions.",
+      "example_de": "Die Einschränkung des Zugangs zu bestimmten Datenbanken schafft eine Kluft zwischen gut finanzierten und unterversorgten Institutionen."
+    },
+    "synonyms": [
+      { "word": "entry", "de": "Zugang / Eingang / Eintritt" },
+      { "word": "availability", "de": "Verfügbarkeit / Zugänglichkeit" },
+      { "word": "admittance", "de": "Zulassung / Zugang / Zutritt" }
+    ],
+    "word_family": [
+      { "word": "access", "pos": "verb", "de": "zugreifen auf / aufrufen / erschließen" },
+      { "word": "accessible", "pos": "adj", "de": "zugänglich / erreichbar / verständlich" },
+      { "word": "inaccessible", "pos": "adj", "de": "unzugänglich / nicht erreichbar" },
+      { "word": "accessibility", "pos": "noun", "de": "Zugänglichkeit / Barrierefreiheit" }
+    ],
+    "phrasal_verbs": [
+      {
+        "phrase": "gain access to",
+        "de": "Zugang erhalten zu / Zugriff erlangen auf",
+        "example": "Participants must gain access to the online platform before the study begins."
+      }
+    ]
+  },
+  {
+    "id": "awl4_adequate_02",
+    "word": "adequate",
+    "group": "AWL4",
+    "group_label": "Academic Word List – Sublist 4",
+    "pos": "adj",
+    "translations": { "de": "angemessen / ausreichend / hinlänglich" },
+    "examples": [
+      {
+        "en": "The sample size must be adequate to detect statistically significant differences.",
+        "de": "Die Stichprobengröße muss ausreichend sein, um statistisch signifikante Unterschiede nachzuweisen."
+      },
+      {
+        "en": "Without adequate funding, the long-term sustainability of the project is uncertain.",
+        "de": "Ohne ausreichende Finanzierung ist die langfristige Nachhaltigkeit des Projekts ungewiss."
+      }
+    ],
+    "opposite": {
+      "en": "inadequate",
+      "de": "unzureichend / ungenügend / mangelhaft",
+      "example_en": "Inadequate preparation for the study led to significant methodological flaws.",
+      "example_de": "Eine unzureichende Vorbereitung der Studie führte zu erheblichen methodischen Mängeln."
+    },
+    "synonyms": [
+      { "word": "sufficient", "de": "ausreichend / genügend" },
+      { "word": "appropriate", "de": "angemessen / geeignet" },
+      { "word": "satisfactory", "de": "zufriedenstellend / befriedigend" }
+    ],
+    "word_family": [
+      { "word": "adequately", "pos": "adv", "de": "angemessen / ausreichend / hinlänglich" },
+      { "word": "adequacy", "pos": "noun", "de": "Angemessenheit / Ausreichendheit" },
+      { "word": "inadequate", "pos": "adj", "de": "unzureichend / ungenügend" },
+      { "word": "inadequacy", "pos": "noun", "de": "Unzulänglichkeit / Mangel" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl4_apparent_03",
+    "word": "apparent",
+    "group": "AWL4",
+    "group_label": "Academic Word List – Sublist 4",
+    "pos": "adj",
+    "translations": { "de": "offensichtlich / scheinbar / augenscheinlich" },
+    "examples": [
+      {
+        "en": "It is apparent from the data that the intervention had a measurable effect on outcomes.",
+        "de": "Aus den Daten ist offensichtlich, dass die Intervention eine messbare Auswirkung auf die Ergebnisse hatte."
+      },
+      {
+        "en": "The apparent contradiction between the two findings was resolved in the discussion section.",
+        "de": "Der scheinbare Widerspruch zwischen den beiden Befunden wurde im Diskussionsteil aufgelöst."
+      }
+    ],
+    "opposite": {
+      "en": "hidden",
+      "de": "verborgen / versteckt / latent",
+      "example_en": "Hidden biases in the data can undermine findings that appear reliable on the surface.",
+      "example_de": "Verborgene Verzerrungen in den Daten können Befunde untergraben, die oberflächlich betrachtet zuverlässig erscheinen."
+    },
+    "synonyms": [
+      { "word": "evident", "de": "offensichtlich / eindeutig" },
+      { "word": "obvious", "de": "offensichtlich / klar" },
+      { "word": "clear", "de": "klar / deutlich / ersichtlich" }
+    ],
+    "word_family": [
+      { "word": "apparently", "pos": "adv", "de": "offensichtlich / anscheinend / scheinbar" },
+      { "word": "appear", "pos": "verb", "de": "erscheinen / auftreten / scheinen" },
+      { "word": "appearance", "pos": "noun", "de": "Erscheinung / Aussehen / Auftreten" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl4_attitude_04",
+    "word": "attitude",
+    "group": "AWL4",
+    "group_label": "Academic Word List – Sublist 4",
+    "pos": "noun",
+    "translations": { "de": "Einstellung / Haltung / Einstellung" },
+    "examples": [
+      {
+        "en": "The study measured participants' attitudes towards climate change before and after the intervention.",
+        "de": "Die Studie maß die Einstellungen der Teilnehmer zum Klimawandel vor und nach der Intervention."
+      },
+      {
+        "en": "A positive attitude towards feedback is essential for academic development.",
+        "de": "Eine positive Einstellung gegenüber Feedback ist für die akademische Entwicklung unerlässlich."
+      }
+    ],
+    "opposite": {
+      "en": "indifference",
+      "de": "Gleichgültigkeit / Desinteresse",
+      "example_en": "Indifference towards ethical standards in research can have serious long-term consequences.",
+      "example_de": "Gleichgültigkeit gegenüber ethischen Standards in der Forschung kann ernsthafte langfristige Konsequenzen haben."
+    },
+    "synonyms": [
+      { "word": "stance", "de": "Standpunkt / Haltung / Position" },
+      { "word": "perspective", "de": "Perspektive / Sichtweise" },
+      { "word": "disposition", "de": "Neigung / Haltung / Einstellung" }
+    ],
+    "word_family": [
+      { "word": "attitudinal", "pos": "adj", "de": "einstellungsbezogen / haltungsbezogen" },
+      { "word": "attitudes", "pos": "noun", "de": "Einstellungen / Haltungen (Plural)" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl4_communicate_05",
+    "word": "communicate",
+    "group": "AWL4",
+    "group_label": "Academic Word List – Sublist 4",
+    "pos": "verb",
+    "translations": { "de": "kommunizieren / mitteilen / vermitteln" },
+    "examples": [
+      {
+        "en": "Researchers must communicate their findings clearly to both specialist and general audiences.",
+        "de": "Forscher müssen ihre Erkenntnisse sowohl Fachpublikum als auch der Allgemeinheit klar kommunizieren."
+      },
+      {
+        "en": "Effective academic writing communicates complex ideas in a precise and accessible manner.",
+        "de": "Effektives wissenschaftliches Schreiben vermittelt komplexe Ideen auf präzise und zugängliche Weise."
+      }
+    ],
+    "opposite": {
+      "en": "withhold",
+      "de": "zurückhalten / verschweigen / vorenthalten",
+      "example_en": "Researchers who withhold data undermine the transparency and reproducibility of science.",
+      "example_de": "Forscher, die Daten zurückhalten, untergraben die Transparenz und Reproduzierbarkeit der Wissenschaft."
+    },
+    "synonyms": [
+      { "word": "convey", "de": "übermitteln / vermitteln / transportieren" },
+      { "word": "transmit", "de": "übertragen / weitergeben / mitteilen" },
+      { "word": "express", "de": "ausdrücken / mitteilen / darlegen" }
+    ],
+    "word_family": [
+      { "word": "communication", "pos": "noun", "de": "Kommunikation / Mitteilung / Verständigung" },
+      { "word": "communicative", "pos": "adj", "de": "kommunikativ / mitteilsam" },
+      { "word": "miscommunication", "pos": "noun", "de": "Missverständnis / Fehlkommunikation" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl4_contrast_06",
+    "word": "contrast",
+    "group": "AWL4",
+    "group_label": "Academic Word List – Sublist 4",
+    "pos": "noun",
+    "translations": { "de": "Kontrast / Gegensatz / Unterschied" },
+    "examples": [
+      {
+        "en": "In contrast to earlier studies, the current research found no significant correlation.",
+        "de": "Im Gegensatz zu früheren Studien fand die aktuelle Forschung keine signifikante Korrelation."
+      },
+      {
+        "en": "The contrast between the two groups was particularly striking in the long-term outcomes.",
+        "de": "Der Unterschied zwischen den beiden Gruppen war bei den Langzeitergebnissen besonders auffällig."
+      }
+    ],
+    "opposite": {
+      "en": "similarity",
+      "de": "Ähnlichkeit / Gemeinsamkeit / Übereinstimmung",
+      "example_en": "Despite their apparent differences, the similarity between the two models is striking.",
+      "example_de": "Trotz ihrer scheinbaren Unterschiede ist die Ähnlichkeit zwischen den beiden Modellen auffällig."
+    },
+    "synonyms": [
+      { "word": "difference", "de": "Unterschied / Differenz" },
+      { "word": "distinction", "de": "Unterscheidung / Differenzierung" },
+      { "word": "divergence", "de": "Divergenz / Abweichung" }
+    ],
+    "word_family": [
+      { "word": "contrast", "pos": "verb", "de": "kontrastieren / gegenüberstellen / vergleichen" },
+      { "word": "contrasting", "pos": "adj", "de": "kontrastierend / gegensätzlich" },
+      { "word": "contrastive", "pos": "adj", "de": "kontrastiv / vergleichend" }
+    ],
+    "phrasal_verbs": [
+      {
+        "phrase": "in contrast to",
+        "de": "im Gegensatz zu / im Vergleich zu",
+        "example": "In contrast to the control group, the experimental group showed significant improvement."
+      }
+    ]
+  },
+  {
+    "id": "awl4_emerge_07",
+    "word": "emerge",
+    "group": "AWL4",
+    "group_label": "Academic Word List – Sublist 4",
+    "pos": "verb",
+    "translations": { "de": "entstehen / hervorgehen / auftauchen / sich herausstellen" },
+    "examples": [
+      {
+        "en": "Several unexpected patterns emerged from the qualitative analysis of the interview data.",
+        "de": "Aus der qualitativen Analyse der Interviewdaten ergaben sich mehrere unerwartete Muster."
+      },
+      {
+        "en": "A new theoretical framework has emerged that challenges conventional assumptions in the field.",
+        "de": "Es ist ein neuer theoretischer Rahmen entstanden, der konventionelle Annahmen auf dem Gebiet herausfordert."
+      }
+    ],
+    "opposite": {
+      "en": "disappear",
+      "de": "verschwinden / wegfallen / sich auflösen",
+      "example_en": "Once a dominant theory, it began to disappear from the literature as contradictory evidence accumulated.",
+      "example_de": "Einst eine dominante Theorie, begann sie aus der Literatur zu verschwinden, als sich widersprüchliche Belege häuften."
+    },
+    "synonyms": [
+      { "word": "arise", "de": "entstehen / auftreten / sich ergeben" },
+      { "word": "surface", "de": "auftauchen / sichtbar werden" },
+      { "word": "develop", "de": "sich entwickeln / entstehen" }
+    ],
+    "word_family": [
+      { "word": "emergence", "pos": "noun", "de": "Entstehung / Aufkommen / Hervortreten" },
+      { "word": "emerging", "pos": "adj", "de": "aufkommend / entstehend / neu entstehend" },
+      { "word": "emergent", "pos": "adj", "de": "emergent / neu entstehend / auftauchend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl4_hypothesis_08",
+    "word": "hypothesis",
+    "group": "AWL4",
+    "group_label": "Academic Word List – Sublist 4",
+    "pos": "noun",
+    "translations": { "de": "Hypothese / Annahme / These" },
+    "examples": [
+      {
+        "en": "The researchers formulated a hypothesis based on gaps identified in the existing literature.",
+        "de": "Die Forscher formulierten eine Hypothese auf der Grundlage von Lücken, die in der vorhandenen Literatur identifiziert wurden."
+      },
+      {
+        "en": "The null hypothesis states that there is no significant difference between the two groups.",
+        "de": "Die Nullhypothese besagt, dass kein signifikanter Unterschied zwischen den beiden Gruppen besteht."
+      }
+    ],
+    "opposite": {
+      "en": "conclusion",
+      "de": "Schlussfolgerung / Ergebnis / Fazit",
+      "example_en": "The hypothesis was confirmed by the data, leading to a firm conclusion about the causal relationship.",
+      "example_de": "Die Hypothese wurde durch die Daten bestätigt, was zu einer eindeutigen Schlussfolgerung über den Kausalzusammenhang führte."
+    },
+    "synonyms": [
+      { "word": "assumption", "de": "Annahme / Voraussetzung" },
+      { "word": "proposition", "de": "These / Proposition / Behauptung" },
+      { "word": "conjecture", "de": "Vermutung / Annahme / Mutmaßung" }
+    ],
+    "word_family": [
+      { "word": "hypotheses", "pos": "noun", "de": "Hypothesen (Plural)" },
+      { "word": "hypothesise", "pos": "verb", "de": "eine Hypothese aufstellen / hypothetisieren" },
+      { "word": "hypothetical", "pos": "adj", "de": "hypothetisch / angenommen / theoretisch" },
+      { "word": "hypothetically", "pos": "adv", "de": "hypothetisch / theoretisch gesehen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl4_implement_09",
+    "word": "implement",
+    "group": "AWL4",
+    "group_label": "Academic Word List – Sublist 4",
+    "pos": "verb",
+    "translations": { "de": "umsetzen / implementieren / einführen / durchführen" },
+    "examples": [
+      {
+        "en": "The government implemented a new policy to reduce carbon emissions from the transport sector.",
+        "de": "Die Regierung setzte eine neue Politik um, um Kohlenstoffemissionen aus dem Transportsektor zu reduzieren."
+      },
+      {
+        "en": "It is essential to implement the research protocol consistently across all study sites.",
+        "de": "Es ist unerlässlich, das Forschungsprotokoll an allen Studienstandorten einheitlich umzusetzen."
+      }
+    ],
+    "opposite": {
+      "en": "abandon",
+      "de": "aufgeben / abbrechen / verwerfen",
+      "example_en": "The board decided to abandon the proposed reform due to significant practical obstacles.",
+      "example_de": "Der Vorstand beschloss, die vorgeschlagene Reform aufgrund erheblicher praktischer Hindernisse aufzugeben."
+    },
+    "synonyms": [
+      { "word": "execute", "de": "ausführen / umsetzen" },
+      { "word": "apply", "de": "anwenden / umsetzen" },
+      { "word": "carry out", "de": "durchführen / umsetzen" }
+    ],
+    "word_family": [
+      { "word": "implementation", "pos": "noun", "de": "Umsetzung / Implementierung / Einführung" },
+      { "word": "implementable", "pos": "adj", "de": "umsetzbar / durchführbar" },
+      { "word": "implementer", "pos": "noun", "de": "Umsetzer / Durchführender" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl4_investigate_10",
+    "word": "investigate",
+    "group": "AWL4",
+    "group_label": "Academic Word List – Sublist 4",
+    "pos": "verb",
+    "translations": { "de": "untersuchen / erforschen / nachgehen / ermitteln" },
+    "examples": [
+      {
+        "en": "The study investigates the relationship between sleep deprivation and academic performance.",
+        "de": "Die Studie untersucht den Zusammenhang zwischen Schlafentzug und akademischer Leistung."
+      },
+      {
+        "en": "Future research should investigate whether these findings can be replicated in other cultures.",
+        "de": "Künftige Forschung sollte untersuchen, ob diese Befunde in anderen Kulturen repliziert werden können."
+      }
+    ],
+    "opposite": {
+      "en": "overlook",
+      "de": "übersehen / außer Acht lassen / ignorieren",
+      "example_en": "Researchers risk producing incomplete findings if they overlook relevant variables.",
+      "example_de": "Forscher riskieren unvollständige Ergebnisse, wenn sie relevante Variablen außer Acht lassen."
+    },
+    "synonyms": [
+      { "word": "examine", "de": "untersuchen / prüfen / analysieren" },
+      { "word": "explore", "de": "erforschen / erkunden / untersuchen" },
+      { "word": "analyse", "de": "analysieren / auswerten" }
+    ],
+    "word_family": [
+      { "word": "investigation", "pos": "noun", "de": "Untersuchung / Ermittlung / Erforschung" },
+      { "word": "investigative", "pos": "adj", "de": "untersuchend / ermittelnd / recherchierend" },
+      { "word": "investigator", "pos": "noun", "de": "Ermittler / Forscher / Untersuchungsbeauftragter" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl4_mechanism_11",
+    "word": "mechanism",
+    "group": "AWL4",
+    "group_label": "Academic Word List – Sublist 4",
+    "pos": "noun",
+    "translations": { "de": "Mechanismus / Verfahren / Prozess / Vorgang" },
+    "examples": [
+      {
+        "en": "The study aims to identify the neurological mechanisms underlying anxiety disorders.",
+        "de": "Die Studie zielt darauf ab, die neurologischen Mechanismen zu identifizieren, die Angststörungen zugrunde liegen."
+      },
+      {
+        "en": "Peer review serves as a key mechanism for maintaining quality in academic publishing.",
+        "de": "Die Begutachtung durch Fachkollegen dient als ein wesentlicher Mechanismus zur Aufrechterhaltung der Qualität in akademischen Publikationen."
+      }
+    ],
+    "opposite": {
+      "en": "randomness",
+      "de": "Zufälligkeit / Willkür",
+      "example_en": "Without a clear mechanism, the observed effect may be the result of randomness rather than causation.",
+      "example_de": "Ohne einen klaren Mechanismus kann der beobachtete Effekt eher das Ergebnis von Zufälligkeit als von Kausalität sein."
+    },
+    "synonyms": [
+      { "word": "process", "de": "Prozess / Vorgang / Verfahren" },
+      { "word": "system", "de": "System / Apparat / Mechanismus" },
+      { "word": "procedure", "de": "Verfahren / Prozedur / Vorgehen" }
+    ],
+    "word_family": [
+      { "word": "mechanisms", "pos": "noun", "de": "Mechanismen (Plural)" },
+      { "word": "mechanistic", "pos": "adj", "de": "mechanistisch / verfahrensorientiert" },
+      { "word": "mechanistically", "pos": "adv", "de": "mechanistisch / auf mechanistische Weise" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl4_obvious_12",
+    "word": "obvious",
+    "group": "AWL4",
+    "group_label": "Academic Word List – Sublist 4",
+    "pos": "adj",
+    "translations": { "de": "offensichtlich / klar / augenscheinlich / evident" },
+    "examples": [
+      {
+        "en": "It is obvious from the graph that the experimental group outperformed the control group.",
+        "de": "Aus dem Diagramm ist offensichtlich, dass die Experimentalgruppe besser abschnitt als die Kontrollgruppe."
+      },
+      {
+        "en": "The obvious limitation of the study is its relatively small sample size.",
+        "de": "Die offensichtliche Einschränkung der Studie ist ihre relativ geringe Stichprobengröße."
+      }
+    ],
+    "opposite": {
+      "en": "subtle",
+      "de": "subtil / fein / kaum wahrnehmbar",
+      "example_en": "The most significant biases in research are often the most subtle and hardest to detect.",
+      "example_de": "Die bedeutendsten Verzerrungen in der Forschung sind oft die subtilsten und am schwersten zu erkennenden."
+    },
+    "synonyms": [
+      { "word": "evident", "de": "offensichtlich / eindeutig" },
+      { "word": "apparent", "de": "offensichtlich / scheinbar" },
+      { "word": "clear", "de": "klar / deutlich" }
+    ],
+    "word_family": [
+      { "word": "obviously", "pos": "adv", "de": "offensichtlich / natürlich / selbstverständlich" },
+      { "word": "obviousness", "pos": "noun", "de": "Offensichtlichkeit / Klarheit" },
+      { "word": "non-obvious", "pos": "adj", "de": "nicht offensichtlich / unerwartet" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl4_option_13",
+    "word": "option",
+    "group": "AWL4",
+    "group_label": "Academic Word List – Sublist 4",
+    "pos": "noun",
+    "translations": { "de": "Option / Möglichkeit / Wahl / Alternative" },
+    "examples": [
+      {
+        "en": "Researchers have several options for addressing missing data, each with distinct trade-offs.",
+        "de": "Forscher haben mehrere Möglichkeiten, mit fehlenden Daten umzugehen, jede mit eigenen Kompromissen."
+      },
+      {
+        "en": "The most viable option is to replicate the study with a larger and more diverse sample.",
+        "de": "Die praktikabelste Option ist es, die Studie mit einer größeren und vielfältigeren Stichprobe zu wiederholen."
+      }
+    ],
+    "opposite": {
+      "en": "obligation",
+      "de": "Verpflichtung / Pflicht / Zwang",
+      "example_en": "Ethical guidelines are not merely an option but a professional obligation for all researchers.",
+      "example_de": "Ethische Richtlinien sind keine bloße Option, sondern eine professionelle Verpflichtung für alle Forscher."
+    },
+    "synonyms": [
+      { "word": "alternative", "de": "Alternative / Möglichkeit" },
+      { "word": "choice", "de": "Wahl / Entscheidung" },
+      { "word": "possibility", "de": "Möglichkeit / Option" }
+    ],
+    "word_family": [
+      { "word": "optional", "pos": "adj", "de": "optional / freiwillig / wahlweise" },
+      { "word": "opt", "pos": "verb", "de": "sich entscheiden / wählen / optieren" },
+      { "word": "opt for", "pos": "phrase", "de": "sich entscheiden für / wählen" }
+    ],
+    "phrasal_verbs": [
+      {
+        "phrase": "opt out of",
+        "de": "austreten aus / sich entziehen / nicht teilnehmen an",
+        "example": "Participants were informed of their right to opt out of the study at any time."
+      }
+    ]
+  },
+  {
+    "id": "awl4_phase_14",
+    "word": "phase",
+    "group": "AWL4",
+    "group_label": "Academic Word List – Sublist 4",
+    "pos": "noun",
+    "translations": { "de": "Phase / Abschnitt / Stadium / Etappe" },
+    "examples": [
+      {
+        "en": "The data collection phase of the study lasted six months and involved 200 participants.",
+        "de": "Die Datenerhebungsphase der Studie dauerte sechs Monate und umfasste 200 Teilnehmer."
+      },
+      {
+        "en": "In the final phase of the project, the team focused on disseminating their findings.",
+        "de": "In der letzten Phase des Projekts konzentrierte sich das Team auf die Verbreitung ihrer Erkenntnisse."
+      }
+    ],
+    "opposite": {
+      "en": "entirety",
+      "de": "Gesamtheit / Gesamtdauer",
+      "example_en": "Viewing the research as an entirety rather than in isolated phases allows for better coherence.",
+      "example_de": "Die Forschung als Gesamtheit statt in isolierten Phasen zu betrachten ermöglicht eine bessere Kohärenz."
+    },
+    "synonyms": [
+      { "word": "stage", "de": "Stadium / Stufe / Phase" },
+      { "word": "period", "de": "Zeitraum / Periode" },
+      { "word": "step", "de": "Schritt / Stufe" }
+    ],
+    "word_family": [
+      { "word": "phase", "pos": "verb", "de": "phasenweise einführen / staffeln" },
+      { "word": "phased", "pos": "adj", "de": "phasenweise / stufenweise" },
+      { "word": "phase out", "pos": "verb", "de": "schrittweise abschaffen / auslaufen lassen" }
+    ],
+    "phrasal_verbs": [
+      {
+        "phrase": "phase out",
+        "de": "schrittweise abschaffen / auslaufen lassen",
+        "example": "The university plans to phase out paper-based assessments over the next three years."
+      }
+    ]
+  },
+  {
+    "id": "awl4_predict_15",
+    "word": "predict",
+    "group": "AWL4",
+    "group_label": "Academic Word List – Sublist 4",
+    "pos": "verb",
+    "translations": { "de": "vorhersagen / prognostizieren / voraussagen" },
+    "examples": [
+      {
+        "en": "The model accurately predicts changes in population growth over a fifty-year period.",
+        "de": "Das Modell sagt Veränderungen im Bevölkerungswachstum über einen Zeitraum von fünfzig Jahren präzise voraus."
+      },
+      {
+        "en": "Early intervention programmes can predict and prevent academic difficulties in at-risk students.",
+        "de": "Frühinterventionsprogramme können akademische Schwierigkeiten bei gefährdeten Schülerinnen und Schülern vorhersagen und verhindern."
+      }
+    ],
+    "opposite": {
+      "en": "reflect",
+      "de": "reflektieren / widerspiegeln / zurückblicken",
+      "example_en": "While models predict future trends, they also help us reflect on past patterns and their causes.",
+      "example_de": "Während Modelle künftige Trends vorhersagen, helfen sie uns auch, vergangene Muster und ihre Ursachen zu reflektieren."
+    },
+    "synonyms": [
+      { "word": "forecast", "de": "vorhersagen / prognostizieren" },
+      { "word": "anticipate", "de": "vorwegnehmen / erwarten / ahnen" },
+      { "word": "project", "de": "projizieren / hochrechnen / voraussagen" }
+    ],
+    "word_family": [
+      { "word": "prediction", "pos": "noun", "de": "Vorhersage / Prognose / Prophezeiung" },
+      { "word": "predictive", "pos": "adj", "de": "prädiktiv / voraussagend / vorhersagend" },
+      { "word": "predictable", "pos": "adj", "de": "vorhersagbar / vorhersehbar / erwartbar" },
+      { "word": "unpredictable", "pos": "adj", "de": "unvorhersehbar / unberechenbar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl4_prior_16",
+    "word": "prior",
+    "group": "AWL4",
+    "group_label": "Academic Word List – Sublist 4",
+    "pos": "adj",
+    "translations": { "de": "vorherig / früher / vorausgehend / vorrangig" },
+    "examples": [
+      {
+        "en": "Participants with prior knowledge of the topic were excluded to minimise bias.",
+        "de": "Teilnehmer mit Vorkenntnissen zum Thema wurden ausgeschlossen, um Verzerrungen zu minimieren."
+      },
+      {
+        "en": "A thorough review of prior research is essential before designing a new study.",
+        "de": "Eine gründliche Analyse vorheriger Forschung ist unerlässlich, bevor eine neue Studie konzipiert wird."
+      }
+    ],
+    "opposite": {
+      "en": "subsequent",
+      "de": "nachfolgend / darauf folgend / späterhin",
+      "example_en": "The initial findings were challenged by subsequent studies that used larger sample sizes.",
+      "example_de": "Die anfänglichen Befunde wurden durch nachfolgende Studien in Frage gestellt, die größere Stichprobengrößen verwendeten."
+    },
+    "synonyms": [
+      { "word": "previous", "de": "vorherig / früher" },
+      { "word": "earlier", "de": "früher / zuvor" },
+      { "word": "preceding", "de": "vorausgehend / vorherig" }
+    ],
+    "word_family": [
+      { "word": "prior to", "pos": "phrase", "de": "vor / im Vorfeld von / bevor" },
+      { "word": "priority", "pos": "noun", "de": "Priorität / Vorrang / Dringlichkeit" },
+      { "word": "prioritise", "pos": "verb", "de": "priorisieren / Vorrang geben" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl4_promote_17",
+    "word": "promote",
+    "group": "AWL4",
+    "group_label": "Academic Word List – Sublist 4",
+    "pos": "verb",
+    "translations": { "de": "fördern / vorantreiben / bewerben / unterstützen" },
+    "examples": [
+      {
+        "en": "The initiative aims to promote greater diversity and inclusion in academic research.",
+        "de": "Die Initiative zielt darauf ab, mehr Vielfalt und Inklusion in der akademischen Forschung zu fördern."
+      },
+      {
+        "en": "Open data policies promote transparency and enable independent verification of findings.",
+        "de": "Open-Data-Richtlinien fördern Transparenz und ermöglichen die unabhängige Überprüfung von Erkenntnissen."
+      }
+    ],
+    "opposite": {
+      "en": "hinder",
+      "de": "behindern / hemmen / bremsen",
+      "example_en": "Bureaucratic obstacles can hinder the adoption of innovative research practices.",
+      "example_de": "Bürokratische Hindernisse können die Übernahme innovativer Forschungspraktiken behindern."
+    },
+    "synonyms": [
+      { "word": "advance", "de": "vorantreiben / fördern / voranbringen" },
+      { "word": "encourage", "de": "ermutigen / fördern / anregen" },
+      { "word": "support", "de": "unterstützen / fördern" }
+    ],
+    "word_family": [
+      { "word": "promotion", "pos": "noun", "de": "Förderung / Beförderung / Werbung" },
+      { "word": "promotional", "pos": "adj", "de": "werbend / fördernd" },
+      { "word": "promoter", "pos": "noun", "de": "Förderer / Befürworter / Promoter" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl4_sufficient_18",
+    "word": "sufficient",
+    "group": "AWL4",
+    "group_label": "Academic Word List – Sublist 4",
+    "pos": "adj",
+    "translations": { "de": "ausreichend / genügend / hinreichend" },
+    "examples": [
+      {
+        "en": "The study did not have a sufficient number of participants to draw statistically reliable conclusions.",
+        "de": "Die Studie hatte nicht genügend Teilnehmer, um statistisch zuverlässige Schlussfolgerungen zu ziehen."
+      },
+      {
+        "en": "A single data source is rarely sufficient to provide a complete picture of a complex phenomenon.",
+        "de": "Eine einzige Datenquelle reicht selten aus, um ein vollständiges Bild eines komplexen Phänomens zu liefern."
+      }
+    ],
+    "opposite": {
+      "en": "insufficient",
+      "de": "unzureichend / ungenügend / mangelhaft",
+      "example_en": "Insufficient evidence was available to support the hypothesis at the time of publication.",
+      "example_de": "Zum Zeitpunkt der Veröffentlichung lagen unzureichende Belege vor, um die Hypothese zu stützen."
+    },
+    "synonyms": [
+      { "word": "adequate", "de": "angemessen / ausreichend" },
+      { "word": "enough", "de": "genug / ausreichend" },
+      { "word": "ample", "de": "reichlich / mehr als genug" }
+    ],
+    "word_family": [
+      { "word": "sufficiently", "pos": "adv", "de": "ausreichend / hinreichend / genug" },
+      { "word": "sufficiency", "pos": "noun", "de": "Ausreichendheit / Hinlänglichkeit" },
+      { "word": "insufficient", "pos": "adj", "de": "unzureichend / ungenügend" },
+      { "word": "insufficiently", "pos": "adv", "de": "unzureichend / ungenügend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl4_valid_19",
+    "word": "valid",
+    "group": "AWL4",
+    "group_label": "Academic Word List – Sublist 4",
+    "pos": "adj",
+    "translations": { "de": "gültig / valide / stichhaltig / berechtigt" },
+    "examples": [
+      {
+        "en": "For a study to be valid, its methods must actually measure what they are intended to measure.",
+        "de": "Damit eine Studie valide ist, müssen ihre Methoden tatsächlich das messen, was sie messen sollen."
+      },
+      {
+        "en": "The researcher raised a valid concern about the representativeness of the sample.",
+        "de": "Der Forscher äußerte einen berechtigten Einwand zur Repräsentativität der Stichprobe."
+      }
+    ],
+    "opposite": {
+      "en": "invalid",
+      "de": "ungültig / nicht valide / hinfällig",
+      "example_en": "The conclusion was declared invalid after the raw data were found to contain systematic errors.",
+      "example_de": "Die Schlussfolgerung wurde für ungültig erklärt, nachdem in den Rohdaten systematische Fehler gefunden wurden."
+    },
+    "synonyms": [
+      { "word": "sound", "de": "solide / stichhaltig / fundiert" },
+      { "word": "legitimate", "de": "legitim / berechtigt / stichhaltig" },
+      { "word": "reliable", "de": "zuverlässig / verlässlich" }
+    ],
+    "word_family": [
+      { "word": "validity", "pos": "noun", "de": "Validität / Gültigkeit / Stichhaltigkeit" },
+      { "word": "validate", "pos": "verb", "de": "validieren / bestätigen / für gültig erklären" },
+      { "word": "invalidate", "pos": "verb", "de": "ungültig machen / widerlegen / entwerten" },
+      { "word": "validation", "pos": "noun", "de": "Validierung / Bestätigung / Anerkennung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl4_shift_20",
+    "word": "shift",
+    "group": "AWL4",
+    "group_label": "Academic Word List – Sublist 4",
+    "pos": "noun",
+    "translations": { "de": "Wandel / Verschiebung / Verlagerung / Veränderung" },
+    "examples": [
+      {
+        "en": "There has been a significant shift towards mixed-methods approaches in social science research.",
+        "de": "Es hat eine bedeutende Verlagerung hin zu gemischten Methoden in der sozialwissenschaftlichen Forschung stattgefunden."
+      },
+      {
+        "en": "The findings signal a shift in how scholars understand the relationship between language and identity.",
+        "de": "Die Befunde signalisieren einen Wandel in der Art und Weise, wie Wissenschaftler das Verhältnis zwischen Sprache und Identität verstehen."
+      }
+    ],
+    "opposite": {
+      "en": "continuity",
+      "de": "Kontinuität / Beständigkeit / Fortbestand",
+      "example_en": "Some scholars emphasise continuity in scientific paradigms rather than radical shifts.",
+      "example_de": "Einige Wissenschaftler betonen die Kontinuität in wissenschaftlichen Paradigmen statt radikaler Verschiebungen."
+    },
+    "synonyms": [
+      { "word": "change", "de": "Veränderung / Wandel" },
+      { "word": "transition", "de": "Übergang / Wandel" },
+      { "word": "move", "de": "Bewegung / Verlagerung" }
+    ],
+    "word_family": [
+      { "word": "shift", "pos": "verb", "de": "verschieben / verlagern / wechseln" },
+      { "word": "shifting", "pos": "adj", "de": "sich verschiebend / wandelnd / sich verändernd" },
+      { "word": "paradigm shift", "pos": "phrase", "de": "Paradigmenwechsel" }
+    ],
+    "phrasal_verbs": [
+      {
+        "phrase": "shift from … to …",
+        "de": "wechseln von … zu … / sich verlagern von … auf …",
+        "example": "The field has shifted from a focus on individual behaviour to broader systemic analysis."
+      }
+    ]
+  }
+]
