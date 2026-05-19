@@ -1,0 +1,695 @@
+[
+  {
+    "id": "awl18_allude_01",
+    "word": "allude",
+    "group": "AWL18",
+    "group_label": "Academic Word List – Sublist 18",
+    "pos": "verb",
+    "translations": { "de": "anspielen auf / hinweisen auf / andeuten / sich beziehen auf" },
+    "examples": [
+      {
+        "en": "The conclusion alludes to broader implications without examining them in detail.",
+        "de": "Das Fazit spielt auf umfassendere Implikationen an, ohne sie im Detail zu untersuchen."
+      },
+      {
+        "en": "Several participants alluded to negative experiences that they were unwilling to discuss openly.",
+        "de": "Mehrere Teilnehmer spielten auf negative Erfahrungen an, über die sie nicht offen sprechen wollten."
+      }
+    ],
+    "opposite": {
+      "en": "state explicitly",
+      "de": "ausdrücklich sagen / klar darlegen / direkt benennen",
+      "example_en": "Where a limitation is significant, it should be stated explicitly rather than merely alluded to.",
+      "example_de": "Wenn eine Einschränkung bedeutsam ist, sollte sie ausdrücklich genannt und nicht nur angedeutet werden."
+    },
+    "synonyms": [
+      { "word": "hint at", "de": "andeuten / anspielen auf / hinweisen auf" },
+      { "word": "suggest", "de": "nahelegen / andeuten / implizieren" },
+      { "word": "refer to indirectly", "de": "indirekt ansprechen / andeuten / auf etwas anspielen" }
+    ],
+    "word_family": [
+      { "word": "allusion", "pos": "noun", "de": "Anspielung / Andeutung / indirekter Verweis" },
+      { "word": "allusive", "pos": "adj", "de": "anspielend / andeutend / indirekt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl18_assess_01",
+    "word": "assess",
+    "group": "AWL18",
+    "group_label": "Academic Word List – Sublist 18",
+    "pos": "verb",
+    "translations": { "de": "bewerten / einschätzen / beurteilen / evaluieren" },
+    "examples": [
+      {
+        "en": "An independent panel was appointed to assess the quality and relevance of the submitted evidence.",
+        "de": "Ein unabhängiges Gremium wurde ernannt, um die Qualität und Relevanz der eingereichten Belege zu bewerten."
+      },
+      {
+        "en": "The study assessed the long-term impact of early intervention on academic achievement.",
+        "de": "Die Studie bewertete die langfristige Wirkung von Frühinterventionen auf schulische Leistungen."
+      }
+    ],
+    "opposite": {
+      "en": "ignore",
+      "de": "ignorieren / außer Acht lassen / vernachlässigen",
+      "example_en": "Failing to assess risks at the design stage can lead to costly problems during implementation.",
+      "example_de": "Das Versäumnis, Risiken in der Planungsphase zu bewerten, kann zu kostspieligen Problemen bei der Umsetzung führen."
+    },
+    "synonyms": [
+      { "word": "evaluate", "de": "evaluieren / bewerten / einschätzen" },
+      { "word": "appraise", "de": "beurteilen / einschätzen / bewerten" },
+      { "word": "measure", "de": "messen / erfassen / bewerten" }
+    ],
+    "word_family": [
+      { "word": "assessment", "pos": "noun", "de": "Bewertung / Einschätzung / Beurteilung" },
+      { "word": "assessor", "pos": "noun", "de": "Bewerter / Gutachter / Beurteiler" },
+      { "word": "reassess", "pos": "verb", "de": "neu bewerten / überprüfen / revidieren" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl18_autonomous_01",
+    "word": "autonomous",
+    "group": "AWL18",
+    "group_label": "Academic Word List – Sublist 18",
+    "pos": "adj",
+    "translations": { "de": "autonom / selbstständig / unabhängig / eigenverantwortlich" },
+    "examples": [
+      {
+        "en": "Giving participants greater autonomous control over their learning increased both motivation and outcomes.",
+        "de": "Die Einräumung größerer autonomer Kontrolle über das eigene Lernen steigerte sowohl die Motivation als auch die Ergebnisse."
+      },
+      {
+        "en": "Each regional office operates as an autonomous unit with its own budget and governance structure.",
+        "de": "Jede Regionaldienststelle arbeitet als autonome Einheit mit eigenem Budget und eigener Governance-Struktur."
+      }
+    ],
+    "opposite": {
+      "en": "dependent",
+      "de": "abhängig / unselbstständig / fremdgesteuert",
+      "example_en": "Dependent units lack the authority to respond flexibly to local conditions.",
+      "example_de": "Abhängige Einheiten haben nicht die Befugnis, flexibel auf lokale Bedingungen zu reagieren."
+    },
+    "synonyms": [
+      { "word": "independent", "de": "unabhängig / eigenständig / autonom" },
+      { "word": "self-governing", "de": "selbstverwaltend / autonom / eigenständig" },
+      { "word": "sovereign", "de": "souverän / unabhängig / eigenverantwortlich" }
+    ],
+    "word_family": [
+      { "word": "autonomy", "pos": "noun", "de": "Autonomie / Selbstständigkeit / Unabhängigkeit" },
+      { "word": "autonomously", "pos": "adv", "de": "autonom / selbstständig / unabhängig" },
+      { "word": "semi-autonomous", "pos": "adj", "de": "halbautonoom / teilweise selbstständig / bedingt unabhängig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl18_causation_01",
+    "word": "causation",
+    "group": "AWL18",
+    "group_label": "Academic Word List – Sublist 18",
+    "pos": "noun",
+    "translations": { "de": "Kausalität / Ursache-Wirkungs-Beziehung / Verursachung / Kausalnexus" },
+    "examples": [
+      {
+        "en": "Establishing causation rather than mere correlation is one of the central challenges of observational research.",
+        "de": "Kausalität anstelle bloßer Korrelation nachzuweisen ist eine der zentralen Herausforderungen der Beobachtungsforschung."
+      },
+      {
+        "en": "The direction of causation between the two variables remains a matter of ongoing debate.",
+        "de": "Die Richtung der Kausalität zwischen den beiden Variablen ist nach wie vor Gegenstand laufender Debatten."
+      }
+    ],
+    "opposite": {
+      "en": "correlation",
+      "de": "Korrelation / Zusammenhang / Wechselbeziehung",
+      "example_en": "Correlation between two variables does not in itself imply causation.",
+      "example_de": "Eine Korrelation zwischen zwei Variablen impliziert nicht per se Kausalität."
+    },
+    "synonyms": [
+      { "word": "cause and effect", "de": "Ursache und Wirkung / Kausalzusammenhang" },
+      { "word": "causal relationship", "de": "Kausalbeziehung / Ursache-Wirkungs-Beziehung" },
+      { "word": "determinism", "de": "Determinismus / Kausalismus / Ursächlichkeit" }
+    ],
+    "word_family": [
+      { "word": "cause", "pos": "noun", "de": "Ursache / Grund / Anlass" },
+      { "word": "causal", "pos": "adj", "de": "kausal / ursächlich / verursachend" },
+      { "word": "causality", "pos": "noun", "de": "Kausalität / Ursächlichkeit / Kausalzusammenhang" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl18_continuum_01",
+    "word": "continuum",
+    "group": "AWL18",
+    "group_label": "Academic Word List – Sublist 18",
+    "pos": "noun",
+    "translations": { "de": "Kontinuum / Spektrum / Skala / fließender Übergang" },
+    "examples": [
+      {
+        "en": "Rather than treating responses as binary, the scale positions them along a continuum.",
+        "de": "Anstatt Antworten als binär zu behandeln, ordnet die Skala sie entlang eines Kontinuums ein."
+      },
+      {
+        "en": "Severity of the condition exists on a continuum from mild impairment to complete functional loss.",
+        "de": "Der Schweregrad der Erkrankung liegt auf einem Kontinuum, das von leichter Beeinträchtigung bis zum vollständigen Funktionsverlust reicht."
+      }
+    ],
+    "opposite": {
+      "en": "dichotomy",
+      "de": "Dichotomie / Zweiteilung / binäre Unterscheidung",
+      "example_en": "The traditional dichotomy between quantitative and qualitative methods obscures a richer methodological continuum.",
+      "example_de": "Die traditionelle Dichotomie zwischen quantitativen und qualitativen Methoden verdeckt ein reichhaltigeres methodologisches Kontinuum."
+    },
+    "synonyms": [
+      { "word": "spectrum", "de": "Spektrum / Skala / Bandbreite" },
+      { "word": "range", "de": "Bereich / Bandbreite / Spektrum" },
+      { "word": "scale", "de": "Skala / Maßstab / Kontinuum" }
+    ],
+    "word_family": [
+      { "word": "continuous", "pos": "adj", "de": "kontinuierlich / fortlaufend / stetig" },
+      { "word": "continuously", "pos": "adv", "de": "kontinuierlich / ununterbrochen / stetig" },
+      { "word": "continuity", "pos": "noun", "de": "Kontinuität / Stetigkeit / Fortbestand" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl18_converge_01",
+    "word": "converge",
+    "group": "AWL18",
+    "group_label": "Academic Word List – Sublist 18",
+    "pos": "verb",
+    "translations": { "de": "konvergieren / zusammenlaufen / übereinstimmen / sich annähern" },
+    "examples": [
+      {
+        "en": "Findings from the qualitative and quantitative strands of the study converge on the same conclusion.",
+        "de": "Erkenntnisse aus den qualitativen und quantitativen Strängen der Studie konvergieren zu derselben Schlussfolgerung."
+      },
+      {
+        "en": "Policy agendas across different countries are converging as governments respond to shared global pressures.",
+        "de": "Die politischen Agenden verschiedener Länder konvergieren, während Regierungen auf gemeinsame globale Herausforderungen reagieren."
+      }
+    ],
+    "opposite": {
+      "en": "diverge",
+      "de": "divergieren / auseinandergehen / abweichen",
+      "example_en": "Interpretations began to diverge sharply once analysts examined the data at the regional level.",
+      "example_de": "Die Interpretationen begannen stark auseinanderzugehen, sobald Analysten die Daten auf regionaler Ebene untersuchten."
+    },
+    "synonyms": [
+      { "word": "coincide", "de": "übereinstimmen / zusammenfallen / konvergieren" },
+      { "word": "align", "de": "ausrichten / übereinstimmen / konvergieren" },
+      { "word": "meet", "de": "treffen / zusammenlaufen / übereinstimmen" }
+    ],
+    "word_family": [
+      { "word": "convergence", "pos": "noun", "de": "Konvergenz / Annäherung / Zusammenlaufen" },
+      { "word": "convergent", "pos": "adj", "de": "konvergent / zusammenlaufend / übereinstimmend" },
+      { "word": "convergently", "pos": "adv", "de": "konvergent / in Übereinstimmung / zusammenlaufend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl18_designate_01",
+    "word": "designate",
+    "group": "AWL18",
+    "group_label": "Academic Word List – Sublist 18",
+    "pos": "verb",
+    "translations": { "de": "benennen / bestimmen / ausweisen / bezeichnen" },
+    "examples": [
+      {
+        "en": "Participants were randomly designated to receive either the active treatment or a placebo.",
+        "de": "Teilnehmer wurden zufällig bestimmt, entweder die aktive Behandlung oder ein Placebo zu erhalten."
+      },
+      {
+        "en": "Three regions were designated as priority areas for the initial phase of implementation.",
+        "de": "Drei Regionen wurden als vorrangige Gebiete für die erste Umsetzungsphase ausgewiesen."
+      }
+    ],
+    "opposite": {
+      "en": "exclude",
+      "de": "ausschließen / ausklammern / nicht berücksichtigen",
+      "example_en": "Sites that did not meet the criteria were excluded rather than designated for follow-up.",
+      "example_de": "Standorte, die die Kriterien nicht erfüllten, wurden ausgeschlossen und nicht für eine Nachverfolgung ausgewiesen."
+    },
+    "synonyms": [
+      { "word": "appoint", "de": "ernennen / bestimmen / einsetzen" },
+      { "word": "assign", "de": "zuweisen / zuordnen / bestimmen" },
+      { "word": "label", "de": "bezeichnen / kennzeichnen / benennen" }
+    ],
+    "word_family": [
+      { "word": "designation", "pos": "noun", "de": "Bezeichnung / Bestimmung / Ausweisung" },
+      { "word": "designated", "pos": "adj", "de": "bestimmt / ausgewiesen / benannt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl18_disclose_01",
+    "word": "disclose",
+    "group": "AWL18",
+    "group_label": "Academic Word List – Sublist 18",
+    "pos": "verb",
+    "translations": { "de": "offenlegen / bekannt geben / enthüllen / veröffentlichen" },
+    "examples": [
+      {
+        "en": "Authors are required to disclose any potential conflicts of interest at the point of submission.",
+        "de": "Autoren sind verpflichtet, bei der Einreichung etwaige Interessenkonflikte offenzulegen."
+      },
+      {
+        "en": "The organisation disclosed the data breach after an internal investigation confirmed its scope.",
+        "de": "Die Organisation legte den Datenschutzverstoß offen, nachdem eine interne Untersuchung seinen Umfang bestätigt hatte."
+      }
+    ],
+    "opposite": {
+      "en": "conceal",
+      "de": "verbergen / verschweigen / verdecken",
+      "example_en": "Failing to disclose limitations is equivalent to concealing information from the reader.",
+      "example_de": "Das Versäumnis, Einschränkungen offenzulegen, ist gleichbedeutend damit, dem Leser Informationen zu verschweigen."
+    },
+    "synonyms": [
+      { "word": "reveal", "de": "enthüllen / offenbaren / bekannt geben" },
+      { "word": "divulge", "de": "preisgeben / enthüllen / bekannt machen" },
+      { "word": "report", "de": "berichten / melden / offenlegen" }
+    ],
+    "word_family": [
+      { "word": "disclosure", "pos": "noun", "de": "Offenlegung / Bekanntgabe / Enthüllung" },
+      { "word": "non-disclosure", "pos": "noun", "de": "Nichtoffenlegung / Geheimhaltung / Verschweigen" },
+      { "word": "disclosed", "pos": "adj", "de": "offengelegt / bekannt gegeben / enthüllt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl18_endorse_01",
+    "word": "endorse",
+    "group": "AWL18",
+    "group_label": "Academic Word List – Sublist 18",
+    "pos": "verb",
+    "translations": { "de": "unterstützen / befürworten / billigen / gutheißen" },
+    "examples": [
+      {
+        "en": "The panel endorsed the proposed guidelines after reviewing the supporting evidence.",
+        "de": "Das Gremium befürwortete die vorgeschlagenen Leitlinien, nachdem es die unterstützenden Belege geprüft hatte."
+      },
+      {
+        "en": "Not all team members endorsed the interpretation offered by the lead author.",
+        "de": "Nicht alle Teammitglieder befürworteten die vom Erstautor angebotene Interpretation."
+      }
+    ],
+    "opposite": {
+      "en": "reject",
+      "de": "ablehnen / zurückweisen / verwerfen",
+      "example_en": "The committee rejected the proposal on the grounds that it lacked sufficient empirical support.",
+      "example_de": "Der Ausschuss lehnte den Vorschlag mit der Begründung ab, dass er nicht über ausreichende empirische Unterstützung verfügte."
+    },
+    "synonyms": [
+      { "word": "support", "de": "unterstützen / befürworten / stützen" },
+      { "word": "approve", "de": "gutheißen / genehmigen / befürworten" },
+      { "word": "sanction", "de": "billigen / genehmigen / befürworten" }
+    ],
+    "word_family": [
+      { "word": "endorsement", "pos": "noun", "de": "Befürwortung / Zustimmung / Billigung" },
+      { "word": "endorsed", "pos": "adj", "de": "befürwortet / gebilligt / unterstützt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl18_global_01",
+    "word": "global",
+    "group": "AWL18",
+    "group_label": "Academic Word List – Sublist 18",
+    "pos": "adj",
+    "translations": { "de": "global / weltweit / umfassend / allgemein" },
+    "examples": [
+      {
+        "en": "Global supply chains have become increasingly vulnerable to localised disruptions.",
+        "de": "Globale Lieferketten sind zunehmend anfällig für lokale Störungen geworden."
+      },
+      {
+        "en": "A global assessment of the evidence suggests that the effect is consistent across different settings.",
+        "de": "Eine umfassende Bewertung der Beweise legt nahe, dass der Effekt in verschiedenen Umgebungen konsistent ist."
+      }
+    ],
+    "opposite": {
+      "en": "local",
+      "de": "lokal / örtlich / begrenzt",
+      "example_en": "Global trends do not always manifest at the local level in the same form.",
+      "example_de": "Globale Trends manifestieren sich auf lokaler Ebene nicht immer in der gleichen Form."
+    },
+    "synonyms": [
+      { "word": "worldwide", "de": "weltweit / global / international" },
+      { "word": "universal", "de": "universell / allgemein / umfassend" },
+      { "word": "overarching", "de": "übergreifend / allumfassend / global" }
+    ],
+    "word_family": [
+      { "word": "globally", "pos": "adv", "de": "global / weltweit / insgesamt" },
+      { "word": "globalisation", "pos": "noun", "de": "Globalisierung / Internationalisierung / Vernetzung" },
+      { "word": "globalise", "pos": "verb", "de": "globalisieren / weltweit ausbreiten / internationalisieren" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl18_impact_01",
+    "word": "impact",
+    "group": "AWL18",
+    "group_label": "Academic Word List – Sublist 18",
+    "pos": "noun",
+    "translations": { "de": "Wirkung / Auswirkung / Einfluss / Effekt" },
+    "examples": [
+      {
+        "en": "The study examines the impact of early childhood intervention on long-term educational outcomes.",
+        "de": "Die Studie untersucht die Wirkung frühkindlicher Intervention auf langfristige Bildungsergebnisse."
+      },
+      {
+        "en": "Assessing the full impact of the policy requires data collected over at least a decade.",
+        "de": "Die Beurteilung der vollen Auswirkung der Politik erfordert Daten, die über mindestens ein Jahrzehnt erhoben wurden."
+      }
+    ],
+    "opposite": {
+      "en": "negligible effect",
+      "de": "vernachlässigbare Wirkung / minimaler Effekt / kaum merkliche Auswirkung",
+      "example_en": "The intervention had a negligible effect on the primary outcome measure.",
+      "example_de": "Die Intervention hatte eine vernachlässigbare Wirkung auf das primäre Ergebnismaß."
+    },
+    "synonyms": [
+      { "word": "effect", "de": "Effekt / Wirkung / Einfluss" },
+      { "word": "influence", "de": "Einfluss / Wirkung / Auswirkung" },
+      { "word": "consequence", "de": "Konsequenz / Folge / Auswirkung" }
+    ],
+    "word_family": [
+      { "word": "impact", "pos": "verb", "de": "beeinflussen / einwirken auf / Auswirkungen haben auf" },
+      { "word": "impactful", "pos": "adj", "de": "wirkungsvoll / einflussreich / bedeutsam" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl18_mitigate_01",
+    "word": "mitigate",
+    "group": "AWL18",
+    "group_label": "Academic Word List – Sublist 18",
+    "pos": "verb",
+    "translations": { "de": "mildern / abschwächen / mindern / entgegenwirken" },
+    "examples": [
+      {
+        "en": "Randomisation helps mitigate the risk of systematic differences between comparison groups.",
+        "de": "Randomisierung hilft, das Risiko systematischer Unterschiede zwischen Vergleichsgruppen zu mildern."
+      },
+      {
+        "en": "Diversifying supply sources is one strategy used to mitigate the effects of external shocks.",
+        "de": "Die Diversifizierung von Versorgungsquellen ist eine Strategie, um die Auswirkungen externer Schocks zu mindern."
+      }
+    ],
+    "opposite": {
+      "en": "exacerbate",
+      "de": "verschlimmern / verschärfen / verstärken",
+      "example_en": "Poorly timed interventions can exacerbate rather than mitigate the problem.",
+      "example_de": "Schlecht abgestimmte Interventionen können das Problem eher verschlimmern als mildern."
+    },
+    "synonyms": [
+      { "word": "reduce", "de": "verringern / reduzieren / mindern" },
+      { "word": "alleviate", "de": "lindern / abschwächen / mildern" },
+      { "word": "lessen", "de": "verringern / abschwächen / mindern" }
+    ],
+    "word_family": [
+      { "word": "mitigation", "pos": "noun", "de": "Milderung / Abschwächung / Minderung" },
+      { "word": "mitigating", "pos": "adj", "de": "mildernd / abschwächend / mindernd" },
+      { "word": "mitigated", "pos": "adj", "de": "gemildert / abgeschwächt / verringert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl18_plausible_01",
+    "word": "plausible",
+    "group": "AWL18",
+    "group_label": "Academic Word List – Sublist 18",
+    "pos": "adj",
+    "translations": { "de": "plausibel / glaubwürdig / überzeugend / wahrscheinlich" },
+    "examples": [
+      {
+        "en": "The authors offer a plausible explanation for the discrepancy, although it remains to be tested.",
+        "de": "Die Autoren bieten eine plausible Erklärung für die Diskrepanz, auch wenn diese noch getestet werden muss."
+      },
+      {
+        "en": "A plausible causal mechanism must be proposed before the association can be interpreted confidently.",
+        "de": "Ein plausibler Kausalzusammenhang muss vorgeschlagen werden, bevor die Assoziation sicher interpretiert werden kann."
+      }
+    ],
+    "opposite": {
+      "en": "implausible",
+      "de": "unplausibel / unglaubwürdig / unwahrscheinlich",
+      "example_en": "Critics argued that the proposed mechanism was implausible given current biological knowledge.",
+      "example_de": "Kritiker argumentierten, dass der vorgeschlagene Mechanismus angesichts des aktuellen biologischen Wissens unplausibel sei."
+    },
+    "synonyms": [
+      { "word": "credible", "de": "glaubwürdig / überzeugend / plausibel" },
+      { "word": "reasonable", "de": "vernünftig / plausibel / nachvollziehbar" },
+      { "word": "convincing", "de": "überzeugend / glaubhaft / plausibel" }
+    ],
+    "word_family": [
+      { "word": "plausibility", "pos": "noun", "de": "Plausibilität / Glaubwürdigkeit / Überzeugungskraft" },
+      { "word": "plausibly", "pos": "adv", "de": "plausibel / glaubwürdig / überzeugend" },
+      { "word": "implausible", "pos": "adj", "de": "unplausibel / unglaubwürdig / unwahrscheinlich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl18_reconcile_01",
+    "word": "reconcile",
+    "group": "AWL18",
+    "group_label": "Academic Word List – Sublist 18",
+    "pos": "verb",
+    "translations": { "de": "in Einklang bringen / vereinbaren / abstimmen / versöhnen" },
+    "examples": [
+      {
+        "en": "It is difficult to reconcile the findings of the two studies given their differing methodological approaches.",
+        "de": "Es ist schwierig, die Ergebnisse der beiden Studien angesichts ihrer unterschiedlichen methodologischen Ansätze in Einklang zu bringen."
+      },
+      {
+        "en": "The challenge lies in reconciling the need for rigour with the practical constraints of the research setting.",
+        "de": "Die Herausforderung besteht darin, die Notwendigkeit der Strenge mit den praktischen Einschränkungen des Forschungsumfelds zu vereinbaren."
+      }
+    ],
+    "opposite": {
+      "en": "contradict",
+      "de": "widersprechen / in Widerspruch stehen / nicht vereinbar sein",
+      "example_en": "The new results contradict the established model in ways that are not easy to reconcile.",
+      "example_de": "Die neuen Ergebnisse widersprechen dem etablierten Modell auf eine Weise, die sich nicht leicht in Einklang bringen lässt."
+    },
+    "synonyms": [
+      { "word": "harmonise", "de": "harmonisieren / in Einklang bringen / vereinen" },
+      { "word": "align", "de": "ausrichten / angleichen / in Übereinstimmung bringen" },
+      { "word": "resolve", "de": "lösen / auflösen / klären" }
+    ],
+    "word_family": [
+      { "word": "reconciliation", "pos": "noun", "de": "Versöhnung / Ausgleich / Abstimmung" },
+      { "word": "irreconcilable", "pos": "adj", "de": "unvereinbar / unversöhnlich / nicht in Einklang zu bringen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl18_render_01",
+    "word": "render",
+    "group": "AWL18",
+    "group_label": "Academic Word List – Sublist 18",
+    "pos": "verb",
+    "translations": { "de": "machen / erbringen / darstellen / bewirken" },
+    "examples": [
+      {
+        "en": "Missing data can render the results of an otherwise well-designed study uninterpretable.",
+        "de": "Fehlende Daten können die Ergebnisse einer ansonsten gut konzipierten Studie uninterpretierbar machen."
+      },
+      {
+        "en": "The committee rendered a formal opinion on the proposed amendment to the protocol.",
+        "de": "Der Ausschuss gab eine formelle Stellungnahme zum vorgeschlagenen Protokolländerung ab."
+      }
+    ],
+    "opposite": {
+      "en": "leave unchanged",
+      "de": "unverändert lassen / nicht beeinflussen / unberührt lassen",
+      "example_en": "Minor wording adjustments leave the core argument unchanged.",
+      "example_de": "Kleinere Formulierungsanpassungen lassen das Kernargument unverändert."
+    },
+    "synonyms": [
+      { "word": "make", "de": "machen / werden lassen / bewirken" },
+      { "word": "cause to become", "de": "etwas werden lassen / bewirken / veranlassen" },
+      { "word": "produce", "de": "erzeugen / liefern / erbringen" }
+    ],
+    "word_family": [
+      { "word": "rendering", "pos": "noun", "de": "Darstellung / Wiedergabe / Leistung" },
+      { "word": "rendered", "pos": "adj", "de": "bewirkt / gemacht / dargestellt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl18_standardise_01",
+    "word": "standardise",
+    "group": "AWL18",
+    "group_label": "Academic Word List – Sublist 18",
+    "pos": "verb",
+    "translations": { "de": "standardisieren / vereinheitlichen / normieren / angleichen" },
+    "examples": [
+      {
+        "en": "The consortium standardised data collection procedures across all participating centres.",
+        "de": "Das Konsortium standardisierte die Datenerhebungsverfahren in allen teilnehmenden Zentren."
+      },
+      {
+        "en": "Standardising outcome measures is essential for comparing results across different trials.",
+        "de": "Die Standardisierung von Ergebnismaßen ist unerlässlich, um Ergebnisse aus verschiedenen Studien zu vergleichen."
+      }
+    ],
+    "opposite": {
+      "en": "vary",
+      "de": "variieren / unterschiedlich gestalten / differenzieren",
+      "example_en": "Allowing protocols to vary across sites introduces heterogeneity that complicates meta-analysis.",
+      "example_de": "Das Zulassen von Protokollvariationen zwischen Standorten führt zu Heterogenität, die die Meta-Analyse erschwert."
+    },
+    "synonyms": [
+      { "word": "normalise", "de": "normieren / standardisieren / angleichen" },
+      { "word": "unify", "de": "vereinheitlichen / zusammenführen / harmonisieren" },
+      { "word": "regularise", "de": "vereinheitlichen / normieren / regeln" }
+    ],
+    "word_family": [
+      { "word": "standardisation", "pos": "noun", "de": "Standardisierung / Vereinheitlichung / Normierung" },
+      { "word": "standardised", "pos": "adj", "de": "standardisiert / vereinheitlicht / normiert" },
+      { "word": "standard", "pos": "noun", "de": "Standard / Norm / Maßstab" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl18_stratify_01",
+    "word": "stratify",
+    "group": "AWL18",
+    "group_label": "Academic Word List – Sublist 18",
+    "pos": "verb",
+    "translations": { "de": "stratifizieren / schichten / aufteilen / nach Schichten gliedern" },
+    "examples": [
+      {
+        "en": "The sample was stratified by age and sex to ensure representativeness across key demographic groups.",
+        "de": "Die Stichprobe wurde nach Alter und Geschlecht stratifiziert, um die Repräsentativität der wichtigsten demografischen Gruppen sicherzustellen."
+      },
+      {
+        "en": "Stratifying the analysis by income level revealed substantial variation masked in the aggregate results.",
+        "de": "Die Stratifizierung der Analyse nach Einkommensniveau enthüllte erhebliche Variation, die in den aggregierten Ergebnissen verdeckt war."
+      }
+    ],
+    "opposite": {
+      "en": "pool",
+      "de": "zusammenführen / bündeln / kombinieren",
+      "example_en": "Pooling all participants together without stratification obscures subgroup differences.",
+      "example_de": "Das Zusammenführen aller Teilnehmer ohne Stratifizierung verschleiert Unterschiede zwischen Untergruppen."
+    },
+    "synonyms": [
+      { "word": "layer", "de": "schichten / in Schichten anordnen / unterteilen" },
+      { "word": "subdivide", "de": "unterteilen / aufgliedern / aufteilen" },
+      { "word": "categorise", "de": "kategorisieren / einordnen / einteilen" }
+    ],
+    "word_family": [
+      { "word": "stratification", "pos": "noun", "de": "Stratifizierung / Schichtung / Gliederung" },
+      { "word": "stratified", "pos": "adj", "de": "stratifiziert / geschichtet / aufgeteilt" },
+      { "word": "stratum", "pos": "noun", "de": "Schicht / Stratum / Untergruppe" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl18_subordinate_01",
+    "word": "subordinate",
+    "group": "AWL18",
+    "group_label": "Academic Word List – Sublist 18",
+    "pos": "adj",
+    "translations": { "de": "untergeordnet / nachrangig / sekundär / untergestellet" },
+    "examples": [
+      {
+        "en": "Secondary research questions are treated as subordinate to the primary aim of the study.",
+        "de": "Sekundäre Forschungsfragen werden als dem primären Studienziel untergeordnet betrachtet."
+      },
+      {
+        "en": "In this model, local authorities operate in a subordinate role to the central coordinating body.",
+        "de": "In diesem Modell agieren lokale Behörden in einer dem zentralen Koordinierungsgremium untergeordneten Rolle."
+      }
+    ],
+    "opposite": {
+      "en": "primary",
+      "de": "primär / übergeordnet / vorrangig",
+      "example_en": "The primary objective takes precedence over all subordinate research aims.",
+      "example_de": "Das primäre Ziel hat Vorrang vor allen untergeordneten Forschungszielen."
+    },
+    "synonyms": [
+      { "word": "secondary", "de": "sekundär / nachrangig / zweitrangig" },
+      { "word": "minor", "de": "untergeordnet / geringfügig / nebensächlich" },
+      { "word": "ancillary", "de": "ergänzend / untergeordnet / sekundär" }
+    ],
+    "word_family": [
+      { "word": "subordinate", "pos": "verb", "de": "unterordnen / nachrangig stellen / zurückstellen" },
+      { "word": "subordination", "pos": "noun", "de": "Unterordnung / Nachrangigkeit / Subordination" },
+      { "word": "subordinately", "pos": "adv", "de": "untergeordnet / nachrangig / sekundär" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl18_temporal_01",
+    "word": "temporal",
+    "group": "AWL18",
+    "group_label": "Academic Word List – Sublist 18",
+    "pos": "adj",
+    "translations": { "de": "zeitlich / temporal / zeitbezogen / vorübergehend" },
+    "examples": [
+      {
+        "en": "A temporal gap between exposure and outcome is characteristic of many chronic disease studies.",
+        "de": "Eine zeitliche Lücke zwischen Exposition und Ergebnis ist charakteristisch für viele Studien zu chronischen Krankheiten."
+      },
+      {
+        "en": "The temporal ordering of events is crucial when inferring causal direction from observational data.",
+        "de": "Die zeitliche Abfolge von Ereignissen ist entscheidend, wenn die Kausalrichtung aus Beobachtungsdaten geschlossen wird."
+      }
+    ],
+    "opposite": {
+      "en": "permanent",
+      "de": "dauerhaft / bleibend / unveränderlich",
+      "example_en": "What appear to be permanent changes sometimes turn out to be temporal fluctuations.",
+      "example_de": "Was wie dauerhafte Veränderungen erscheint, entpuppt sich manchmal als zeitliche Schwankungen."
+    },
+    "synonyms": [
+      { "word": "time-related", "de": "zeitbezogen / temporär / zeitlich" },
+      { "word": "chronological", "de": "chronologisch / zeitlich / in zeitlicher Abfolge" },
+      { "word": "transient", "de": "vorübergehend / kurzfristig / zeitlich begrenzt" }
+    ],
+    "word_family": [
+      { "word": "temporally", "pos": "adv", "de": "zeitlich / temporal / in zeitlicher Hinsicht" },
+      { "word": "temporality", "pos": "noun", "de": "Zeitlichkeit / Temporalität / zeitlicher Charakter" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl18_validate_01",
+    "word": "validate",
+    "group": "AWL18",
+    "group_label": "Academic Word List – Sublist 18",
+    "pos": "verb",
+    "translations": { "de": "validieren / bestätigen / nachweisen / anerkennen" },
+    "examples": [
+      {
+        "en": "The instrument was validated against a gold-standard measure in a large independent sample.",
+        "de": "Das Instrument wurde an einem Goldstandard-Maß in einer großen unabhängigen Stichprobe validiert."
+      },
+      {
+        "en": "Qualitative findings can help validate or challenge the conclusions drawn from quantitative data.",
+        "de": "Qualitative Erkenntnisse können helfen, die aus quantitativen Daten gezogenen Schlussfolgerungen zu validieren oder in Frage zu stellen."
+      }
+    ],
+    "opposite": {
+      "en": "invalidate",
+      "de": "invalidieren / entkräften / für ungültig erklären",
+      "example_en": "A systematic error at the data collection stage could invalidate all subsequent analyses.",
+      "example_de": "Ein systematischer Fehler bei der Datenerhebung könnte alle nachfolgenden Analysen invalidieren."
+    },
+    "synonyms": [
+      { "word": "confirm", "de": "bestätigen / bekräftigen / nachweisen" },
+      { "word": "verify", "de": "überprüfen / verifizieren / bestätigen" },
+      { "word": "corroborate", "de": "bestätigen / unterstützen / bekräftigen" }
+    ],
+    "word_family": [
+      { "word": "validation", "pos": "noun", "de": "Validierung / Bestätigung / Überprüfung" },
+      { "word": "valid", "pos": "adj", "de": "valide / gültig / stichhaltig" },
+      { "word": "validity", "pos": "noun", "de": "Validität / Gültigkeit / Stichhaltigkeit" }
+    ],
+    "phrasal_verbs": []
+  }
+]
