@@ -1,0 +1,697 @@
+[
+  {
+    "id": "awl11_accompany_01",
+    "word": "accompany",
+    "group": "AWL11",
+    "group_label": "Academic Word List – Sublist 11",
+    "pos": "verb",
+    "translations": { "de": "begleiten / einhergehen mit / beigelegt sein / dazugehören" },
+    "examples": [
+      {
+        "en": "A sharp rise in inflation was accompanied by a significant drop in consumer confidence.",
+        "de": "Ein starker Anstieg der Inflation ging mit einem deutlichen Rückgang des Verbrauchervertrauens einher."
+      },
+      {
+        "en": "Each report must be accompanied by a signed declaration of originality.",
+        "de": "Jedem Bericht muss eine unterzeichnete Erklärung zur Originalität beigefügt sein."
+      }
+    ],
+    "opposite": {
+      "en": "exclude",
+      "de": "ausschließen / nicht begleiten / ausklammern",
+      "example_en": "The analysis excludes cases where no secondary data were available.",
+      "example_de": "Die Analyse schließt Fälle aus, in denen keine Sekundärdaten vorlagen."
+    },
+    "synonyms": [
+      { "word": "coincide with", "de": "einhergehen mit / zusammenfallen mit / begleitet werden von" },
+      { "word": "go together with", "de": "einhergehen mit / verbunden sein mit / gekoppelt sein" },
+      { "word": "be associated with", "de": "verknüpft sein mit / verbunden sein mit / einhergehen mit" }
+    ],
+    "word_family": [
+      { "word": "accompaniment", "pos": "noun", "de": "Begleitung / Beiwerk / Ergänzung" },
+      { "word": "accompanying", "pos": "adj", "de": "begleitend / beiliegend / dazugehörig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl11_aggregate_01",
+    "word": "aggregate",
+    "group": "AWL11",
+    "group_label": "Academic Word List – Sublist 11",
+    "pos": "noun",
+    "translations": { "de": "Gesamtheit / Aggregat / Gesamtwert / Summe" },
+    "examples": [
+      {
+        "en": "The aggregate of all individual responses formed the basis for the national policy review.",
+        "de": "Die Gesamtheit aller Einzelreaktionen bildete die Grundlage für die nationale Politiküberprüfung."
+      },
+      {
+        "en": "At the aggregate level, the data suggest a modest but consistent improvement over time.",
+        "de": "Auf der aggregierten Ebene deuten die Daten auf eine bescheidene, aber kontinuierliche Verbesserung im Laufe der Zeit hin."
+      }
+    ],
+    "opposite": {
+      "en": "individual",
+      "de": "Einzelwert / Individuum / Einzelfall",
+      "example_en": "At the individual level, responses varied considerably from the group average.",
+      "example_de": "Auf individueller Ebene wichen die Antworten erheblich vom Gruppendurchschnitt ab."
+    },
+    "synonyms": [
+      { "word": "total", "de": "Gesamtsumme / Gesamtbetrag / Summe" },
+      { "word": "sum", "de": "Summe / Gesamtzahl / Betrag" },
+      { "word": "whole", "de": "Ganzes / Gesamtheit / Gesamtheit" }
+    ],
+    "word_family": [
+      { "word": "aggregate", "pos": "verb", "de": "aggregieren / zusammenfassen / aufsummieren" },
+      { "word": "aggregate", "pos": "adj", "de": "aggregiert / gesamt / zusammengefasst" },
+      { "word": "aggregation", "pos": "noun", "de": "Aggregation / Zusammenfassung / Bündelung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl11_compile_01",
+    "word": "compile",
+    "group": "AWL11",
+    "group_label": "Academic Word List – Sublist 11",
+    "pos": "verb",
+    "translations": { "de": "zusammenstellen / kompilieren / erarbeiten / sammeln" },
+    "examples": [
+      {
+        "en": "The team compiled an extensive bibliography of relevant sources spanning five decades.",
+        "de": "Das Team stellte eine umfangreiche Bibliografie relevanter Quellen zusammen, die fünf Jahrzehnte umfasst."
+      },
+      {
+        "en": "Statistics are compiled annually from returns submitted by local authorities.",
+        "de": "Statistiken werden jährlich aus den von lokalen Behörden eingereichten Berichten zusammengestellt."
+      }
+    ],
+    "opposite": {
+      "en": "scatter",
+      "de": "zerstreuen / verteilen / auseinanderwerfen",
+      "example_en": "Without a central database, information tends to scatter across multiple incompatible systems.",
+      "example_de": "Ohne eine zentrale Datenbank neigen Informationen dazu, sich auf mehrere inkompatible Systeme zu verteilen."
+    },
+    "synonyms": [
+      { "word": "assemble", "de": "zusammenstellen / zusammensetzen / versammeln" },
+      { "word": "collect", "de": "sammeln / zusammentragen / erfassen" },
+      { "word": "collate", "de": "zusammenstellen / abgleichen / sortieren" }
+    ],
+    "word_family": [
+      { "word": "compilation", "pos": "noun", "de": "Zusammenstellung / Kompilation / Sammlung" },
+      { "word": "compiler", "pos": "noun", "de": "Verfasser / Zusammensteller / Kompilator" },
+      { "word": "compiled", "pos": "adj", "de": "zusammengestellt / kompiliert / erarbeitet" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl11_conceive_01",
+    "word": "conceive",
+    "group": "AWL11",
+    "group_label": "Academic Word List – Sublist 11",
+    "pos": "verb",
+    "translations": { "de": "konzipieren / sich vorstellen / ausdenken / begreifen" },
+    "examples": [
+      {
+        "en": "The original theory was conceived as a unified framework for understanding social behaviour.",
+        "de": "Die ursprüngliche Theorie wurde als einheitlicher Rahmen zum Verständnis sozialen Verhaltens konzipiert."
+      },
+      {
+        "en": "It is difficult to conceive of a method that would eliminate all sources of bias.",
+        "de": "Es ist schwer vorstellbar, eine Methode zu konzipieren, die alle Quellen von Verzerrungen ausschließt."
+      }
+    ],
+    "opposite": {
+      "en": "dismiss",
+      "de": "verwerfen / zurückweisen / abtun",
+      "example_en": "Early reviewers dismissed the hypothesis as implausible before later evidence supported it.",
+      "example_de": "Frühe Gutachter wiesen die Hypothese als unplausibel zurück, bevor spätere Belege sie stützten."
+    },
+    "synonyms": [
+      { "word": "devise", "de": "ausdenken / entwickeln / ersinnen" },
+      { "word": "formulate", "de": "formulieren / ausarbeiten / entwickeln" },
+      { "word": "envision", "de": "sich vorstellen / konzipieren / sich ausmalen" }
+    ],
+    "word_family": [
+      { "word": "concept", "pos": "noun", "de": "Konzept / Begriff / Vorstellung" },
+      { "word": "conception", "pos": "noun", "de": "Konzeption / Auffassung / Vorstellung" },
+      { "word": "conceivable", "pos": "adj", "de": "vorstellbar / denkbar / möglich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl11_constrain_01",
+    "word": "constrain",
+    "group": "AWL11",
+    "group_label": "Academic Word List – Sublist 11",
+    "pos": "verb",
+    "translations": { "de": "einschränken / begrenzen / zwingen / hemmen" },
+    "examples": [
+      {
+        "en": "Budget limitations constrained the scope of the investigation to a single region.",
+        "de": "Budgetbeschränkungen begrenzten den Umfang der Untersuchung auf eine einzige Region."
+      },
+      {
+        "en": "Researchers are constrained by ethical guidelines when designing studies involving human subjects.",
+        "de": "Forscher sind bei der Gestaltung von Studien mit menschlichen Probanden durch ethische Richtlinien eingeschränkt."
+      }
+    ],
+    "opposite": {
+      "en": "liberate",
+      "de": "befreien / freigeben / ermöglichen",
+      "example_en": "Removing the regulatory barrier would liberate smaller firms to compete more effectively.",
+      "example_de": "Die Beseitigung der regulatorischen Schranke würde kleinere Unternehmen befreien, um effektiver zu konkurrieren."
+    },
+    "synonyms": [
+      { "word": "restrict", "de": "einschränken / begrenzen / beschränken" },
+      { "word": "limit", "de": "begrenzen / einschränken / limitieren" },
+      { "word": "confine", "de": "eingrenzen / beschränken / begrenzen" }
+    ],
+    "word_family": [
+      { "word": "constraint", "pos": "noun", "de": "Einschränkung / Beschränkung / Zwang" },
+      { "word": "constrained", "pos": "adj", "de": "eingeschränkt / begrenzt / gehemmt" },
+      { "word": "unconstrained", "pos": "adj", "de": "uneingeschränkt / unbegrenzt / frei" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl11_convey_01",
+    "word": "convey",
+    "group": "AWL11",
+    "group_label": "Academic Word List – Sublist 11",
+    "pos": "verb",
+    "translations": { "de": "vermitteln / übermitteln / ausdrücken / transportieren" },
+    "examples": [
+      {
+        "en": "Charts and graphs are often used to convey complex data in an accessible format.",
+        "de": "Diagramme und Grafiken werden häufig verwendet, um komplexe Daten in einem zugänglichen Format zu vermitteln."
+      },
+      {
+        "en": "The abstract should convey the key findings without requiring the reader to consult the full text.",
+        "de": "Die Zusammenfassung sollte die wichtigsten Erkenntnisse vermitteln, ohne dass der Leser den vollständigen Text konsultieren muss."
+      }
+    ],
+    "opposite": {
+      "en": "conceal",
+      "de": "verbergen / verschweigen / verdecken",
+      "example_en": "Selective reporting can conceal null results and distort the overall evidence base.",
+      "example_de": "Selektive Berichterstattung kann Null-Ergebnisse verbergen und die gesamte Evidenzbasis verzerren."
+    },
+    "synonyms": [
+      { "word": "communicate", "de": "kommunizieren / mitteilen / vermitteln" },
+      { "word": "transmit", "de": "übermitteln / weitergeben / übertragen" },
+      { "word": "express", "de": "ausdrücken / zum Ausdruck bringen / vermitteln" }
+    ],
+    "word_family": [
+      { "word": "conveyance", "pos": "noun", "de": "Übermittlung / Transport / Beförderung" },
+      { "word": "conveyed", "pos": "adj", "de": "vermittelt / übermittelt / ausgedrückt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl11_correlate_01",
+    "word": "correlate",
+    "group": "AWL11",
+    "group_label": "Academic Word List – Sublist 11",
+    "pos": "verb",
+    "translations": { "de": "korrelieren / in Beziehung stehen / zusammenhängen / abgleichen" },
+    "examples": [
+      {
+        "en": "Income levels correlate strongly with educational attainment in most developed economies.",
+        "de": "Das Einkommensniveau korreliert in den meisten Industrieländern stark mit dem Bildungsniveau."
+      },
+      {
+        "en": "The researchers attempted to correlate behavioural data with neuroimaging findings.",
+        "de": "Die Forscher versuchten, Verhaltensdaten mit Neuroimaging-Befunden in Beziehung zu setzen."
+      }
+    ],
+    "opposite": {
+      "en": "diverge",
+      "de": "auseinandergehen / abweichen / divergieren",
+      "example_en": "The two measures began to diverge significantly after the policy change.",
+      "example_de": "Die beiden Kennzahlen begannen nach der Politikänderung erheblich auseinanderzugehen."
+    },
+    "synonyms": [
+      { "word": "correspond", "de": "entsprechen / übereinstimmen / korrespondieren" },
+      { "word": "relate", "de": "in Beziehung stehen / zusammenhängen / verbunden sein" },
+      { "word": "associate", "de": "verbinden / assoziieren / in Verbindung bringen" }
+    ],
+    "word_family": [
+      { "word": "correlation", "pos": "noun", "de": "Korrelation / Zusammenhang / Wechselbeziehung" },
+      { "word": "correlated", "pos": "adj", "de": "korreliert / zusammenhängend / verbunden" },
+      { "word": "correlational", "pos": "adj", "de": "korrelativ / auf Korrelation basierend / zusammenhangsbezogen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl11_depict_01",
+    "word": "depict",
+    "group": "AWL11",
+    "group_label": "Academic Word List – Sublist 11",
+    "pos": "verb",
+    "translations": { "de": "darstellen / abbilden / schildern / beschreiben" },
+    "examples": [
+      {
+        "en": "Figure 3 depicts the relationship between temperature and reaction rate across all conditions.",
+        "de": "Abbildung 3 stellt die Beziehung zwischen Temperatur und Reaktionsgeschwindigkeit unter allen Bedingungen dar."
+      },
+      {
+        "en": "The model depicts a simplified version of the decision-making process.",
+        "de": "Das Modell stellt eine vereinfachte Version des Entscheidungsprozesses dar."
+      }
+    ],
+    "opposite": {
+      "en": "omit",
+      "de": "weglassen / auslassen / übergehen",
+      "example_en": "The diagram omits several intermediate steps for the sake of clarity.",
+      "example_de": "Das Diagramm lässt der Übersichtlichkeit halber mehrere Zwischenschritte aus."
+    },
+    "synonyms": [
+      { "word": "illustrate", "de": "veranschaulichen / darstellen / illustrieren" },
+      { "word": "portray", "de": "darstellen / schildern / zeigen" },
+      { "word": "represent", "de": "darstellen / repräsentieren / abbilden" }
+    ],
+    "word_family": [
+      { "word": "depiction", "pos": "noun", "de": "Darstellung / Abbildung / Schilderung" },
+      { "word": "depicted", "pos": "adj", "de": "dargestellt / abgebildet / geschildert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl11_derive_01",
+    "word": "derive",
+    "group": "AWL11",
+    "group_label": "Academic Word List – Sublist 11",
+    "pos": "verb",
+    "translations": { "de": "ableiten / herleiten / gewinnen / schöpfen" },
+    "examples": [
+      {
+        "en": "The researchers derived their conclusions from an extensive review of longitudinal studies.",
+        "de": "Die Forscher leiteten ihre Schlussfolgerungen aus einer umfassenden Überprüfung von Längsschnittstudien ab."
+      },
+      {
+        "en": "Many technical terms used in medicine are derived from Latin and Greek roots.",
+        "de": "Viele in der Medizin verwendete Fachbegriffe sind aus lateinischen und griechischen Wurzeln abgeleitet."
+      }
+    ],
+    "opposite": {
+      "en": "originate",
+      "de": "entstehen / ihren Ursprung haben / ausgehen von",
+      "example_en": "The concept originates in classical economic theory and has since been widely adapted.",
+      "example_de": "Das Konzept entstammt der klassischen Wirtschaftstheorie und wurde seitdem weit verbreitet angepasst."
+    },
+    "synonyms": [
+      { "word": "obtain", "de": "erhalten / gewinnen / beziehen" },
+      { "word": "extract", "de": "entnehmen / extrahieren / herausziehen" },
+      { "word": "deduce", "de": "ableiten / schlussfolgern / herleiten" }
+    ],
+    "word_family": [
+      { "word": "derivation", "pos": "noun", "de": "Ableitung / Herleitung / Herkunft" },
+      { "word": "derivative", "pos": "noun", "de": "Ableitung / Derivat / abgeleitetes Produkt" },
+      { "word": "derived", "pos": "adj", "de": "abgeleitet / hergeleitet / gewonnen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl11_finite_01",
+    "word": "finite",
+    "group": "AWL11",
+    "group_label": "Academic Word List – Sublist 11",
+    "pos": "adj",
+    "translations": { "de": "begrenzt / endlich / beschränkt / finite" },
+    "examples": [
+      {
+        "en": "Natural resources are finite, which makes sustainable management practices essential.",
+        "de": "Natürliche Ressourcen sind begrenzt, was nachhaltige Bewirtschaftungspraktiken unerlässlich macht."
+      },
+      {
+        "en": "A finite sample can only ever provide an estimate of the true population parameter.",
+        "de": "Eine endliche Stichprobe kann immer nur eine Schätzung des wahren Populationsparameters liefern."
+      }
+    ],
+    "opposite": {
+      "en": "infinite",
+      "de": "unendlich / unbegrenzt / grenzenlos",
+      "example_en": "The assumption of infinite divisibility does not hold in practice.",
+      "example_de": "Die Annahme der unendlichen Teilbarkeit gilt in der Praxis nicht."
+    },
+    "synonyms": [
+      { "word": "limited", "de": "begrenzt / beschränkt / eingeschränkt" },
+      { "word": "bounded", "de": "begrenzt / beschränkt / umgrenzt" },
+      { "word": "restricted", "de": "eingeschränkt / begrenzt / beschränkt" }
+    ],
+    "word_family": [
+      { "word": "finitely", "pos": "adv", "de": "endlich / begrenzt / in begrenztem Maße" },
+      { "word": "infinity", "pos": "noun", "de": "Unendlichkeit / Endlosigkeit / Unendliche" },
+      { "word": "infinite", "pos": "adj", "de": "unendlich / grenzenlos / unbegrenzt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl11_hierarchy_01",
+    "word": "hierarchy",
+    "group": "AWL11",
+    "group_label": "Academic Word List – Sublist 11",
+    "pos": "noun",
+    "translations": { "de": "Hierarchie / Rangordnung / Stufensystem / Rangfolge" },
+    "examples": [
+      {
+        "en": "Within the organisational hierarchy, decision-making authority rested with the senior management team.",
+        "de": "Innerhalb der Organisationshierarchie lag die Entscheidungsbefugnis beim Senior-Management-Team."
+      },
+      {
+        "en": "Maslow's hierarchy of needs remains one of the most widely cited models in motivational psychology.",
+        "de": "Maslows Bedürfnishierarchie bleibt eines der am häufigsten zitierten Modelle in der Motivationspsychologie."
+      }
+    ],
+    "opposite": {
+      "en": "equality",
+      "de": "Gleichheit / Gleichrangigkeit / Gleichstellung",
+      "example_en": "The principle of equality underpins the design of the new pay structure.",
+      "example_de": "Das Gleichheitsprinzip liegt dem Design der neuen Gehaltsstruktur zugrunde."
+    },
+    "synonyms": [
+      { "word": "ranking", "de": "Rangordnung / Rangfolge / Einstufung" },
+      { "word": "order", "de": "Ordnung / Rangfolge / Stufenordnung" },
+      { "word": "structure", "de": "Struktur / Aufbau / Gliederung" }
+    ],
+    "word_family": [
+      { "word": "hierarchical", "pos": "adj", "de": "hierarchisch / nach Rang geordnet / stufenförmig" },
+      { "word": "hierarchically", "pos": "adv", "de": "hierarchisch / in einer Rangordnung / stufenweise" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl11_incorporate_01",
+    "word": "incorporate",
+    "group": "AWL11",
+    "group_label": "Academic Word List – Sublist 11",
+    "pos": "verb",
+    "translations": { "de": "einbeziehen / integrieren / aufnehmen / einfließen lassen" },
+    "examples": [
+      {
+        "en": "The revised model incorporates feedback from both practitioners and academic reviewers.",
+        "de": "Das überarbeitete Modell bezieht Rückmeldungen sowohl von Praktikern als auch von akademischen Gutachtern ein."
+      },
+      {
+        "en": "Future studies should incorporate a wider range of demographic variables.",
+        "de": "Zukünftige Studien sollten eine breitere Palette demografischer Variablen einbeziehen."
+      }
+    ],
+    "opposite": {
+      "en": "exclude",
+      "de": "ausschließen / auslassen / ausklammern",
+      "example_en": "The analysis excludes outliers that fall more than three standard deviations from the mean.",
+      "example_de": "Die Analyse schließt Ausreißer aus, die mehr als drei Standardabweichungen vom Mittelwert entfernt sind."
+    },
+    "synonyms": [
+      { "word": "include", "de": "einbeziehen / einschließen / umfassen" },
+      { "word": "integrate", "de": "integrieren / eingliedern / zusammenführen" },
+      { "word": "embed", "de": "einbetten / verankern / einfügen" }
+    ],
+    "word_family": [
+      { "word": "incorporation", "pos": "noun", "de": "Eingliederung / Einbeziehung / Aufnahme" },
+      { "word": "incorporated", "pos": "adj", "de": "einbezogen / integriert / aufgenommen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl11_justify_01",
+    "word": "justify",
+    "group": "AWL11",
+    "group_label": "Academic Word List – Sublist 11",
+    "pos": "verb",
+    "translations": { "de": "rechtfertigen / begründen / legitimieren / belegen" },
+    "examples": [
+      {
+        "en": "The authors justify their choice of methodology with reference to established best practice.",
+        "de": "Die Autoren rechtfertigen ihre Methodenwahl mit Verweis auf etablierte Best Practices."
+      },
+      {
+        "en": "A single case study cannot justify broad generalisations about the wider population.",
+        "de": "Eine einzige Fallstudie kann keine weitreichenden Verallgemeinerungen über die breitere Bevölkerung rechtfertigen."
+      }
+    ],
+    "opposite": {
+      "en": "undermine",
+      "de": "untergraben / schwächen / infrage stellen",
+      "example_en": "New evidence may undermine the theoretical foundations of the existing model.",
+      "example_de": "Neue Erkenntnisse könnten die theoretischen Grundlagen des bestehenden Modells untergraben."
+    },
+    "synonyms": [
+      { "word": "validate", "de": "bestätigen / validieren / rechtfertigen" },
+      { "word": "support", "de": "stützen / belegen / unterstützen" },
+      { "word": "warrant", "de": "rechtfertigen / berechtigen / begründen" }
+    ],
+    "word_family": [
+      { "word": "justification", "pos": "noun", "de": "Rechtfertigung / Begründung / Legitimierung" },
+      { "word": "justified", "pos": "adj", "de": "gerechtfertigt / begründet / berechtigt" },
+      { "word": "unjustified", "pos": "adj", "de": "ungerechtfertigt / unbegründet / nicht legitimiert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl11_neglect_01",
+    "word": "neglect",
+    "group": "AWL11",
+    "group_label": "Academic Word List – Sublist 11",
+    "pos": "verb",
+    "translations": { "de": "vernachlässigen / außer Acht lassen / übergehen / missachten" },
+    "examples": [
+      {
+        "en": "Previous studies have tended to neglect the role of socioeconomic factors in health outcomes.",
+        "de": "Frühere Studien haben die Rolle sozioökonomischer Faktoren bei gesundheitlichen Ergebnissen vernachlässigt."
+      },
+      {
+        "en": "It would be a mistake to neglect the long-term implications of short-term policy decisions.",
+        "de": "Es wäre ein Fehler, die langfristigen Auswirkungen kurzfristiger politischer Entscheidungen zu vernachlässigen."
+      }
+    ],
+    "opposite": {
+      "en": "prioritise",
+      "de": "priorisieren / vorrangig behandeln / in den Vordergrund stellen",
+      "example_en": "Future research should prioritise longitudinal designs over cross-sectional approaches.",
+      "example_de": "Zukünftige Forschung sollte Längsschnittdesigns gegenüber Querschnittsansätzen priorisieren."
+    },
+    "synonyms": [
+      { "word": "overlook", "de": "übersehen / außer Acht lassen / ignorieren" },
+      { "word": "disregard", "de": "missachten / ignorieren / außer Acht lassen" },
+      { "word": "ignore", "de": "ignorieren / übergehen / nicht beachten" }
+    ],
+    "word_family": [
+      { "word": "neglect", "pos": "noun", "de": "Vernachlässigung / Missachtung / Unterlassung" },
+      { "word": "neglected", "pos": "adj", "de": "vernachlässigt / übergangen / außer Acht gelassen" },
+      { "word": "negligence", "pos": "noun", "de": "Fahrlässigkeit / Nachlässigkeit / Versäumnis" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl11_passive_01",
+    "word": "passive",
+    "group": "AWL11",
+    "group_label": "Academic Word List – Sublist 11",
+    "pos": "adj",
+    "translations": { "de": "passiv / untätig / leidend / reaktionslos" },
+    "examples": [
+      {
+        "en": "Passive observation of natural behaviour is less intrusive than experimental manipulation.",
+        "de": "Passives Beobachten natürlichen Verhaltens ist weniger aufdringlich als experimentelle Manipulation."
+      },
+      {
+        "en": "Participants in the passive condition received no intervention but completed all assessments.",
+        "de": "Teilnehmer in der passiven Bedingung erhielten keine Intervention, absolvierten aber alle Bewertungen."
+      }
+    ],
+    "opposite": {
+      "en": "active",
+      "de": "aktiv / tätig / handelnd",
+      "example_en": "Active participation in the task produced significantly better retention of the material.",
+      "example_de": "Aktive Beteiligung an der Aufgabe führte zu einer deutlich besseren Merkfähigkeit des Materials."
+    },
+    "synonyms": [
+      { "word": "inactive", "de": "inaktiv / untätig / passiv" },
+      { "word": "receptive", "de": "empfänglich / aufnehmend / rezeptiv" },
+      { "word": "submissive", "de": "unterwürfig / fügsam / passiv" }
+    ],
+    "word_family": [
+      { "word": "passivity", "pos": "noun", "de": "Passivität / Untätigkeit / Inaktivität" },
+      { "word": "passively", "pos": "adv", "de": "passiv / untätig / ohne aktives Zutun" },
+      { "word": "passive voice", "pos": "noun", "de": "Passiv / Passivform / Leideform" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl11_precise_01",
+    "word": "precise",
+    "group": "AWL11",
+    "group_label": "Academic Word List – Sublist 11",
+    "pos": "adj",
+    "translations": { "de": "präzise / genau / exakt / klar definiert" },
+    "examples": [
+      {
+        "en": "The measurement instrument must be capable of producing precise and repeatable readings.",
+        "de": "Das Messinstrument muss in der Lage sein, präzise und wiederholbare Messwerte zu liefern."
+      },
+      {
+        "en": "A precise definition of the key terms is essential before any meaningful comparison can be made.",
+        "de": "Eine präzise Definition der Schlüsselbegriffe ist unerlässlich, bevor ein sinnvoller Vergleich angestellt werden kann."
+      }
+    ],
+    "opposite": {
+      "en": "vague",
+      "de": "vage / ungenau / unbestimmt",
+      "example_en": "Vague outcome measures make it difficult to assess the true effectiveness of the intervention.",
+      "example_de": "Vage Ergebnismaßnahmen erschweren es, die tatsächliche Wirksamkeit der Intervention zu bewerten."
+    },
+    "synonyms": [
+      { "word": "exact", "de": "exakt / genau / präzise" },
+      { "word": "accurate", "de": "akkurat / genau / korrekt" },
+      { "word": "specific", "de": "spezifisch / konkret / klar definiert" }
+    ],
+    "word_family": [
+      { "word": "precision", "pos": "noun", "de": "Präzision / Genauigkeit / Exaktheit" },
+      { "word": "precisely", "pos": "adv", "de": "präzise / genau / exakt" },
+      { "word": "imprecise", "pos": "adj", "de": "unpräzise / ungenau / unexakt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl11_reproduce_01",
+    "word": "reproduce",
+    "group": "AWL11",
+    "group_label": "Academic Word List – Sublist 11",
+    "pos": "verb",
+    "translations": { "de": "reproduzieren / wiedergeben / replizieren / vervielfältigen" },
+    "examples": [
+      {
+        "en": "Independent laboratories were unable to reproduce the original findings under identical conditions.",
+        "de": "Unabhängige Labore konnten die ursprünglichen Erkenntnisse unter identischen Bedingungen nicht reproduzieren."
+      },
+      {
+        "en": "The figure is reproduced here with the kind permission of the original publishers.",
+        "de": "Die Abbildung wird hier mit freundlicher Genehmigung der Originalverlage reproduziert."
+      }
+    ],
+    "opposite": {
+      "en": "originate",
+      "de": "entstehen / hervorbringen / schaffen",
+      "example_en": "Creative research aims to originate ideas rather than merely reproduce existing findings.",
+      "example_de": "Kreative Forschung zielt darauf ab, Ideen zu entwickeln, anstatt lediglich vorhandene Erkenntnisse zu reproduzieren."
+    },
+    "synonyms": [
+      { "word": "replicate", "de": "replizieren / wiederholen / kopieren" },
+      { "word": "duplicate", "de": "duplizieren / vervielfältigen / kopieren" },
+      { "word": "copy", "de": "kopieren / reproduzieren / abbilden" }
+    ],
+    "word_family": [
+      { "word": "reproduction", "pos": "noun", "de": "Reproduktion / Vervielfältigung / Kopie" },
+      { "word": "reproducible", "pos": "adj", "de": "reproduzierbar / wiederholbar / replizierbar" },
+      { "word": "reproducibility", "pos": "noun", "de": "Reproduzierbarkeit / Wiederholbarkeit / Replizierbarkeit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl11_sequence_01",
+    "word": "sequence",
+    "group": "AWL11",
+    "group_label": "Academic Word List – Sublist 11",
+    "pos": "noun",
+    "translations": { "de": "Abfolge / Reihenfolge / Sequenz / Folge" },
+    "examples": [
+      {
+        "en": "The sequence of events leading to the crisis has been carefully reconstructed from archival records.",
+        "de": "Die Abfolge der Ereignisse, die zur Krise führten, wurde sorgfältig aus Archivunterlagen rekonstruiert."
+      },
+      {
+        "en": "Participants completed a fixed sequence of tasks under both high and low cognitive load conditions.",
+        "de": "Die Teilnehmer absolvierten eine feste Abfolge von Aufgaben sowohl unter hoher als auch unter niedriger kognitiver Belastung."
+      }
+    ],
+    "opposite": {
+      "en": "disorder",
+      "de": "Unordnung / Durcheinander / Chaos",
+      "example_en": "Without a clear protocol, the procedure fell into disorder and had to be restarted.",
+      "example_de": "Ohne ein klares Protokoll geriet der Prozess in Unordnung und musste neu gestartet werden."
+    },
+    "synonyms": [
+      { "word": "series", "de": "Reihe / Serie / Folge" },
+      { "word": "order", "de": "Reihenfolge / Ordnung / Abfolge" },
+      { "word": "progression", "de": "Abfolge / Verlauf / Progression" }
+    ],
+    "word_family": [
+      { "word": "sequential", "pos": "adj", "de": "sequenziell / aufeinanderfolgend / reihenweise" },
+      { "word": "sequentially", "pos": "adv", "de": "sequenziell / der Reihe nach / schrittweise" },
+      { "word": "sequence", "pos": "verb", "de": "sequenzieren / in eine Reihenfolge bringen / anordnen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl11_uniform_01",
+    "word": "uniform",
+    "group": "AWL11",
+    "group_label": "Academic Word List – Sublist 11",
+    "pos": "adj",
+    "translations": { "de": "einheitlich / gleichförmig / gleichmäßig / homogen" },
+    "examples": [
+      {
+        "en": "A uniform approach to data collection ensures that results are comparable across sites.",
+        "de": "Ein einheitlicher Ansatz bei der Datenerhebung stellt sicher, dass die Ergebnisse standortübergreifend vergleichbar sind."
+      },
+      {
+        "en": "The distribution of responses was not uniform; younger participants scored significantly higher.",
+        "de": "Die Verteilung der Antworten war nicht gleichmäßig; jüngere Teilnehmer schnitten deutlich besser ab."
+      }
+    ],
+    "opposite": {
+      "en": "variable",
+      "de": "variabel / wechselnd / uneinheitlich",
+      "example_en": "The quality of implementation was highly variable across different settings.",
+      "example_de": "Die Umsetzungsqualität war in verschiedenen Umgebungen sehr unterschiedlich."
+    },
+    "synonyms": [
+      { "word": "consistent", "de": "konsistent / gleichbleibend / einheitlich" },
+      { "word": "homogeneous", "de": "homogen / gleichartig / einheitlich" },
+      { "word": "standardised", "de": "standardisiert / vereinheitlicht / normiert" }
+    ],
+    "word_family": [
+      { "word": "uniformity", "pos": "noun", "de": "Einheitlichkeit / Gleichförmigkeit / Homogenität" },
+      { "word": "uniformly", "pos": "adv", "de": "einheitlich / gleichmäßig / durchgehend" },
+      { "word": "non-uniform", "pos": "adj", "de": "uneinheitlich / ungleichmäßig / heterogen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl11_verify_01",
+    "word": "verify",
+    "group": "AWL11",
+    "group_label": "Academic Word List – Sublist 11",
+    "pos": "verb",
+    "translations": { "de": "überprüfen / verifizieren / bestätigen / nachweisen" },
+    "examples": [
+      {
+        "en": "An independent audit was conducted to verify the accuracy of the reported data.",
+        "de": "Es wurde eine unabhängige Prüfung durchgeführt, um die Richtigkeit der gemeldeten Daten zu überprüfen."
+      },
+      {
+        "en": "Replication studies are essential for verifying claims made in original research.",
+        "de": "Replikationsstudien sind unerlässlich, um Behauptungen aus Originalforschung zu verifizieren."
+      }
+    ],
+    "opposite": {
+      "en": "refute",
+      "de": "widerlegen / entkräften / zurückweisen",
+      "example_en": "Subsequent experiments sought to refute the original hypothesis rather than confirm it.",
+      "example_de": "Nachfolgende Experimente versuchten, die ursprüngliche Hypothese zu widerlegen, anstatt sie zu bestätigen."
+    },
+    "synonyms": [
+      { "word": "confirm", "de": "bestätigen / bekräftigen / verifizieren" },
+      { "word": "validate", "de": "validieren / bestätigen / nachweisen" },
+      { "word": "corroborate", "de": "bestätigen / unterstützen / bekräftigen" }
+    ],
+    "word_family": [
+      { "word": "verification", "pos": "noun", "de": "Überprüfung / Verifizierung / Bestätigung" },
+      { "word": "verifiable", "pos": "adj", "de": "überprüfbar / verifizierbar / nachweisbar" },
+      { "word": "unverified", "pos": "adj", "de": "ungeprüft / nicht verifiziert / unbestätigt" }
+    ],
+    "phrasal_verbs": []
+  }
+]
