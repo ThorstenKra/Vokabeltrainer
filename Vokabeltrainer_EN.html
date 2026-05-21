@@ -86,6 +86,17 @@ html,body{height:100%;background:var(--bg);color:var(--tx);font-family:var(--fon
 .gap8{gap:8px}.mt8{margin-top:8px}.mt10{margin-top:10px}.mt12{margin-top:12px}.mt16{margin-top:16px}
 .mu{color:var(--mu)}.xs{font-size:11px}.sm{font-size:13px}
 h1{font-family:var(--serif);font-size:28px;font-weight:400}h2{font-size:20px;font-weight:600}h3{font-size:15px;font-weight:600}
+/* Wort des Tages */
+.wotd-card{background:#FDF6E3;border:1px solid #e8d585;border-radius:var(--R);padding:14px 16px;margin-top:12px}
+.wotd-label{font-size:10px;font-weight:700;letter-spacing:.8px;color:#8B6914;text-transform:uppercase}
+.wotd-word{font-family:var(--serif);font-size:28px;font-weight:400;color:#1a1200;margin-top:6px;line-height:1.2}
+.wotd-de{font-size:14px;color:#5a4000;margin-top:3px}
+.wotd-ex{font-size:12px;color:#7a6020;margin-top:8px;line-height:1.5;font-style:italic}
+.wotd-btns{display:flex;gap:8px;margin-top:12px}
+.wotd-learn{flex:1;padding:9px 0;border-radius:var(--R);border:none;background:#e8c84a;color:#3a2800;font-weight:600;font-size:13px;cursor:pointer;font-family:var(--font)}
+.wotd-learn:active{background:#d4b530}
+.wotd-tts{padding:9px 12px;border-radius:var(--R);border:1px solid #c8a830;background:#fdf0c0;color:#8B6914;font-size:15px;cursor:pointer;line-height:1}
+.wotd-skip{padding:9px 12px;border-radius:var(--R);border:1px solid #c8a830;background:transparent;color:#8B6914;font-size:12px;cursor:pointer;font-family:var(--font)}
 /* PDF-Import */
 .pdf-drop{border:2px dashed var(--bd);border-radius:var(--R);padding:32px 20px;text-align:center;cursor:pointer;transition:border-color .2s,background .2s;user-select:none}
 .pdf-drop.over{border-color:var(--ac);background:rgba(124,106,247,.08)}
@@ -130,6 +141,20 @@ h1{font-family:var(--serif);font-size:28px;font-weight:400}h2{font-size:20px;fon
     <span style="font-family:var(--serif);font-size:24px" id="h-due">-</span>
   </div>
   <div class="card mt8" id="h-mod-info"></div>
+  <div class="wotd-card" id="wotd-card" style="display:none">
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <span class="wotd-label">Wort des Tages</span>
+      <span style="font-size:11px;color:#a07820" id="wotd-date"></span>
+    </div>
+    <div class="wotd-word" id="wotd-word"></div>
+    <div class="wotd-de" id="wotd-de"></div>
+    <div class="wotd-ex" id="wotd-ex"></div>
+    <div class="wotd-btns">
+      <button class="wotd-learn" id="wotd-learn">Jetzt lernen</button>
+      <button class="wotd-tts" id="wotd-tts">&#128266;</button>
+      <button class="wotd-skip" id="wotd-skip">&#10006; &Uuml;berspringen</button>
+    </div>
+  </div>
 </div>
 
 <div id="sc-learn" class="screen">
@@ -975,6 +1000,44 @@ function el(id){return document.getElementById(id);}
 // ACTIVE MODULE
 function amx(ls){var i,j,mod,w,m;for(i=0;i<MODS.length;i++){mod=MODS[i];w=MV[mod.id]||[];if(w.length===0)continue;m=0;for(j=0;j<w.length;j++){var s=ls[w[j].id];if(s&&s.repetitions>=5)m++;}if(m<w.length)return i;}return 0;}
 
+// WORT DES TAGES
+function wotd_pick(){
+  if(!VA.length)return null;
+  var today=td(),saved=sg("wotd");
+  if(saved&&saved.date===today){
+    if(saved.wordId==="__skip__")return null;
+    for(var k=0;k<VA.length;k++){if(VA[k].id===saved.wordId)return VA[k];}
+  }
+  var ls=lls(),candidates=VA.slice();
+  candidates.sort(function(a,b){
+    var sa=ls[a.id],sb=ls[b.id];
+    var da=sa?sa.nextReview:"0000-00-00",db=sb?sb.nextReview:"0000-00-00";
+    return da<db?-1:da>db?1:0;
+  });
+  var oldest=(ls[candidates[0].id]?ls[candidates[0].id].nextReview:"0000-00-00");
+  var tied=candidates.filter(function(c){var s=ls[c.id];return(s?s.nextReview:"0000-00-00")===oldest;});
+  var seed=parseInt(today.replace(/-/g,""),10);
+  var w=tied[seed%tied.length];
+  ss("wotd",{date:today,wordId:w.id});
+  return w;
+}
+function wotd_render(){
+  var w=wotd_pick();
+  var card=el("wotd-card");
+  if(!w){card.style.display="none";return;}
+  card.style.display="";
+  var tp=td().split("-");
+  var d=new Date(parseInt(tp[0]),parseInt(tp[1])-1,parseInt(tp[2]));
+  el("wotd-date").textContent=d.toLocaleDateString("de-DE",{day:"numeric",month:"long",year:"numeric"});
+  el("wotd-word").textContent=w.target;
+  el("wotd-de").textContent=w.de;
+  var exTxt=(w.examples&&w.examples[0])?w.examples[0].en:(w.example_target||"");
+  el("wotd-ex").textContent=exTxt;
+  el("wotd-learn").onclick=function(){goTo("sc-learn",{mode:"fl",words:[w]});};
+  el("wotd-tts").onclick=function(){var p=lp();speak(w.target,p.ttsSpd);};
+  el("wotd-skip").onclick=function(){ss("wotd",{date:td(),wordId:"__skip__"});card.style.display="none";};
+}
+
 // HOME
 function rh(){
   try{
@@ -988,12 +1051,13 @@ function rh(){
     var pct=w.length?Math.round(mMas/w.length*100):0;
     el("h-mod-info").innerHTML="<div class='flex jb ai'><span class='sm'>Aktives Modul</span><span style='font-size:11px;padding:2px 8px;border-radius:8px;background:var(--acd);color:var(--ac)'>"+mod.lv+"</span></div><div style='font-weight:600;margin-top:6px'>"+mod.name+"</div><div class='xs mu mt8'>"+mod.sub+"</div><div class='bar mt8'><div class='bfill' style='width:"+pct+"%'></div></div><div class='xs mu' style='margin-top:4px'>"+mMas+"/"+w.length+" gemeistert ("+pct+"%)</div>";
   }catch(e){console.error("[rh]",e);}
+  wotd_render();
 }
 HK["sc-home"]=rh;
 
 // LEARN
 var _lq=[],_li=0,_lok=0,_mode="mc",_dir="de_to_target",_cur=null,_rev=false,_lkd=false,_czAnswered=false,_czFull="";
-function linit(params){var p=lp(),ls=lls();if(params&&params.mode)_mode=params.mode;_dir=p.dir||"de_to_target";_li=0;_lok=0;if(params&&params.mod&&MV[params.mod]){_lq=MV[params.mod].slice();for(var i=_lq.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=_lq[i];_lq[i]=_lq[j];_lq[j]=t;}}else{_lq=bq(ls,p.goal,p.startLv);}rlh();hui();rc();}
+function linit(params){var p=lp(),ls=lls();if(params&&params.mode)_mode=params.mode;_dir=p.dir||"de_to_target";_li=0;_lok=0;if(params&&params.words&&params.words.length){_lq=params.words.slice();}else if(params&&params.mod&&MV[params.mod]){_lq=MV[params.mod].slice();for(var i=_lq.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=_lq[i];_lq[i]=_lq[j];_lq[j]=t;}}else{_lq=bq(ls,p.goal,p.startLv);}rlh();hui();rc();}
 HK["sc-learn"]=linit;
 function rlh(){el("m-mc").className="btn bsm"+(_mode==="mc"?" bp":" bg");el("m-fl").className="btn bsm"+(_mode==="flash"?" bp":" bg");el("m-cz").className="btn bsm"+(_mode==="cloze"?" bp":" bg");el("m-ls").className="btn bsm"+(_mode==="listen"?" bp":" bg");el("l-dir").textContent=_dir==="de_to_target"?"DE > EN":"EN > DE";}
 function hui(){el("fc-wrap").classList.add("hidden");el("mc-wrap").classList.add("hidden");el("ls-wrap").classList.add("hidden");el("cz-wrap").classList.add("hidden");el("done-wrap").classList.add("hidden");}
