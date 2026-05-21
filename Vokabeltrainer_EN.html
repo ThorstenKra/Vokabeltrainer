@@ -86,6 +86,18 @@ html,body{height:100%;background:var(--bg);color:var(--tx);font-family:var(--fon
 .gap8{gap:8px}.mt8{margin-top:8px}.mt10{margin-top:10px}.mt12{margin-top:12px}.mt16{margin-top:16px}
 .mu{color:var(--mu)}.xs{font-size:11px}.sm{font-size:13px}
 h1{font-family:var(--serif);font-size:28px;font-weight:400}h2{font-size:20px;font-weight:600}h3{font-size:15px;font-weight:600}
+/* PDF-Import */
+.pdf-drop{border:2px dashed var(--bd);border-radius:var(--R);padding:32px 20px;text-align:center;cursor:pointer;transition:border-color .2s,background .2s;user-select:none}
+.pdf-drop.over{border-color:var(--ac);background:rgba(124,106,247,.08)}
+.pdf-drop-icon{font-size:40px;margin-bottom:8px}
+.pdf-wlist{max-height:340px;overflow-y:auto;margin-top:8px}
+.pdf-wrow{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--bd)}
+.pdf-wrow:last-child{border-bottom:none}
+.pdf-cb{width:20px;height:20px;flex-shrink:0;accent-color:var(--ac);cursor:pointer}
+.pdf-wlbl{flex:1;font-size:15px;cursor:pointer}
+.pdf-wde{font-size:11px;color:var(--ok);margin-left:4px}
+.pdf-search{width:100%;padding:10px 12px;border-radius:var(--R);border:1px solid var(--bd);background:var(--s2);color:var(--tx);font-family:var(--font);font-size:14px;margin-top:10px;-webkit-appearance:none}
+.pdf-search:focus{outline:none;border-color:var(--ac)}
 </style>
 </head>
 <body>
@@ -249,9 +261,70 @@ h1{font-family:var(--serif);font-size:28px;font-weight:400}h2{font-size:20px;fon
     <div class="flex jb ai mt8"><span class="sm">Auto nach Aufdecken</span><button class="btn bg bsm" id="tts-auto">Nein</button></div>
     <div class="mt10"><span class="xs mu">Geschwindigkeit</span><div class="flex gap8 mt8" id="spd-btns"></div></div>
   </div>
+  <div class="card mt12">
+    <h3>Claude API-Key</h3>
+    <p class="xs mu mt8">Fuer PDF-Anreicherung. Wird nur lokal gespeichert.</p>
+    <input type="password" id="api-key-in" class="pdf-search" placeholder="sk-ant-..." autocomplete="off" spellcheck="false">
+    <button class="btn bg bw mt8" id="btn-save-apikey">Speichern</button>
+    <div id="apikey-status" class="xs mu mt8"></div>
+  </div>
   <div class="card mt12"><h3>Daten</h3>
     <button class="btn bg bw mt10" id="btn-exp">Exportieren JSON</button>
     <button class="btn ber bw mt8" id="btn-reset">Fortschritt zuruecksetzen</button>
+  </div>
+</div>
+
+<div id="sc-pdf" class="screen">
+  <h1 class="mt8">&#128196; PDF importieren</h1>
+
+  <div id="pdf-s1">
+    <div id="pdf-drop" class="pdf-drop mt12">
+      <div class="pdf-drop-icon">&#128196;</div>
+      <div style="font-size:15px;font-weight:600;margin-bottom:6px">PDF hier ablegen</div>
+      <div class="sm mu">oder</div>
+      <button class="btn bp bsm mt10" id="pdf-pick">Datei auswaehlen</button>
+      <input type="file" id="pdf-file" accept=".pdf" style="display:none">
+    </div>
+    <div id="pdf-err" class="hidden mt10" style="background:#3a1820;border-radius:var(--R);padding:12px 14px;font-size:13px;color:var(--er)"></div>
+  </div>
+
+  <div id="pdf-s2" class="hidden">
+    <div class="card mt12">
+      <div class="sm" id="pdf-s2-msg">Text wird extrahiert...</div>
+      <div class="bar mt10"><div class="bfill" id="pdf-xprog" style="width:0%"></div></div>
+    </div>
+  </div>
+
+  <div id="pdf-s3" class="hidden">
+    <div class="card mt12">
+      <div class="flex jb ai">
+        <span class="sm mu" id="pdf-count">0 neue Woerter</span>
+        <div class="flex gap8">
+          <button class="btn bg bsm" id="pdf-all">Alle</button>
+          <button class="btn bg bsm" id="pdf-none">Keine</button>
+        </div>
+      </div>
+      <input type="search" id="pdf-search" class="pdf-search" placeholder="Woerter filtern...">
+      <div id="pdf-list" class="pdf-wlist"></div>
+    </div>
+
+    <div class="card mt12">
+      <h3>Mit Claude anreichern</h3>
+      <p class="xs mu mt8">Fuegt Uebersetzung, Wortart, Beispiele, Synonyme und mehr hinzu.</p>
+      <button class="btn bp bw mt10" id="btn-enrich">Mit Claude anreichern</button>
+      <div id="enrich-prog" class="hidden mt10">
+        <div class="bar"><div class="bfill" id="enrich-bar" style="width:0%"></div></div>
+        <div class="xs mu mt8" id="enrich-status"></div>
+      </div>
+    </div>
+
+    <div class="card mt12">
+      <h3>Als Lektion speichern</h3>
+      <input type="text" id="pdf-lname" class="pdf-search" placeholder="Lektionsname (z.B. Wirtschaft PDF)">
+      <button class="btn bp bw mt10" id="btn-save-pdf">Lektion speichern</button>
+    </div>
+
+    <button class="btn bg bw mt12" id="btn-pdf-reset">Neues PDF laden</button>
   </div>
 </div>
 
@@ -266,6 +339,8 @@ h1{font-family:var(--serif);font-size:28px;font-weight:400}h2{font-size:20px;fon
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>Statistik</button>
   <button class="nb" id="n-set">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06-.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>Einstellungen</button>
+  <button class="nb" id="n-pdf">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>PDF</button>
 </nav>
 <div id="toast" class="toast"></div>
 </div>
@@ -892,7 +967,7 @@ var _tt=null;
 function toast(msg,tp){var e=document.getElementById("toast");if(!e)return;if(_tt)clearTimeout(_tt);e.className="toast"+(tp==="ok"?" tok":tp==="er"?" ter":"");e.textContent=msg;e.classList.add("on");_tt=setTimeout(function(){e.classList.remove("on");},2500);}
 
 // ROUTER
-var NAV={"sc-home":"n-home","sc-learn":"n-learn","sc-modules":"n-modules","sc-stats":"n-stats","sc-set":"n-set"};
+var NAV={"sc-home":"n-home","sc-learn":"n-learn","sc-modules":"n-modules","sc-stats":"n-stats","sc-set":"n-set","sc-pdf":"n-pdf"};
 var HK={};
 function goTo(id,params){var ss=document.querySelectorAll(".screen"),i;for(i=0;i<ss.length;i++)ss[i].classList.remove("on");var t=document.getElementById(id);if(t)t.classList.add("on");var nb=document.querySelectorAll(".nb");for(i=0;i<nb.length;i++)nb[i].classList.remove("on");var n=document.getElementById(NAV[id]);if(n)n.classList.add("on");if(HK[id])HK[id](params||{});}
 function el(id){return document.getElementById(id);}
@@ -1097,7 +1172,138 @@ HK["sc-stats"]=function(){var ls=lls(),p=lp();el("st-tot").textContent=cseen(ls)
 // SETTINGS
 function bbtns(cid,vals,onSel,lbls){var c=el(cid);if(!c||c.children.length)return;for(var i=0;i<vals.length;i++){(function(v,l){var b=document.createElement("button");b.className="btn bg bsm";b.textContent=l||v;b.dataset.v=v;b.onclick=function(){var p=lp();onSel(p,v);sp(p);syncS();};c.appendChild(b);})(vals[i],lbls?lbls[i]:null);}}
 function syncS(){var p=lp();el("tts-on").textContent=p.ttsOn?"Ein":"Aus";el("tts-auto").textContent=p.ttsAuto?"Ja":"Nein";var grps=[{id:"goal-btns",cur:p.goal,cast:function(v){return parseInt(v);}},{id:"lvl-btns",cur:p.startLv,cast:function(v){return v;}},{id:"spd-btns",cur:p.ttsSpd,cast:function(v){return parseFloat(v);}}],g,i,btns;for(g=0;g<grps.length;g++){btns=document.querySelectorAll("#"+grps[g].id+" .btn");for(i=0;i<btns.length;i++){btns[i].className="btn bsm "+(grps[g].cast(btns[i].dataset.v)===grps[g].cur?"bp":"bg");}}}
-HK["sc-set"]=function(){bbtns("goal-btns",[10,20,30,50],function(p,v){p.goal=parseInt(v);toast("Tagesziel: "+v,"ok");});bbtns("lvl-btns",CFG.levels,function(p,v){p.startLv=v;toast("Start-Level: "+v,"ok");});bbtns("spd-btns",[0.7,0.9,1.2],function(p,v){p.ttsSpd=parseFloat(v);},["Langsam","Normal","Schnell"]);syncS();};
+HK["sc-set"]=function(){bbtns("goal-btns",[10,20,30,50],function(p,v){p.goal=parseInt(v);toast("Tagesziel: "+v,"ok");});bbtns("lvl-btns",CFG.levels,function(p,v){p.startLv=v;toast("Start-Level: "+v,"ok");});bbtns("spd-btns",[0.7,0.9,1.2],function(p,v){p.ttsSpd=parseFloat(v);},["Langsam","Normal","Schnell"]);syncS();var k=sg("apikey");el("api-key-in").value=k||"";el("apikey-status").textContent=k?"API-Key gespeichert.":"Kein API-Key.";};
+
+// PDF IMPORT
+var _pdfWords=[];
+var STOPW=new Set(["a","an","the","and","or","but","if","in","on","at","to","for","of","by","with","from","as","is","it","its","was","are","were","be","been","being","have","has","had","do","does","did","will","would","could","should","may","might","shall","that","this","these","those","he","she","we","they","you","i","me","him","her","us","them","my","your","his","our","their","what","which","who","how","when","where","why","not","no","so","up","out","about","than","then","there","here","all","also","just","more","can","get","one","two","any","some","such","own","same","other","into","over","after","before","between","through","during","without","within","against","each","both","few","most","much","many","only","even","still","new","first","last","long","great","little","good","high","small","large","next","old","right","big","while","very","well","back","down","way","see","come","make","know","take","year","day","time","now","like","think","go","look","use","find","give","tell","work","call","try","ask","need","feel","become","leave","put","mean","keep","let","begin","seem","show","hear","play","run","move","live","believe","hold","bring","happen","write","provide","sit","stand","lose","pay","meet","include","continue","set","learn","change","lead","understand","watch","follow","stop","create","speak","read","spend","grow","open","walk","win","offer","remember","love","consider","appear","buy","wait","serve","die","send","expect","build","stay","fall","cut","reach","remain","suggest","raise","pass","sell","require","report","decide","pull","though","although","however","therefore","thus","hence","whereas","whether","either","neither","nor","yet","already","soon","often","always","never","once","again","too","quite","rather","perhaps","maybe","really","actually","simply","ever","else","instead","around","off","upon","along","across","behind","above","below","under","among","near","far","another","every","almost","least","less","per","eg","ie","etc","vs","said","used","based","including","following","given","known","related","using","since","must","might","shall","often","within","without","among","across","around","along","behind","against","during","through","between","near","far","every","another","almost","least","less","being","having","doing","going","coming","making","taking","getting","putting","letting","setting","seen","done","made","taken","been","gone","come","said","given","shown","found","left","held","stood","felt","known","told","brought","thought","kept","became","turned","seemed","called","asked","showed","tried","opened","worked","played","moved","lived","believed","heard","started","needed","looked","wanted","loved","helped","considered","remembered","appeared","reached","decided","followed","created","waited","spent","spoke","learned","changed","understood","built","expected","sent","stopped","read","walked","ran","grew","bought","fell","cut","paid","wrote","provided","met","included","continued","led","watched","offered","served","died","stayed","fell","suggested","raised","passed","sold","required","reported","pulled","broke",
+"der","die","das","ein","eine","einen","einem","einer","und","oder","aber","wenn","in","an","auf","zu","fur","von","mit","aus","bei","nach","uber","um","vor","durch","wahrend","ohne","zwischen","gegen","bis","seit","trotz","als","wie","ob","dass","weil","da","also","noch","schon","nur","auch","sehr","mehr","so","hier","dort","nun","ja","nein","nicht","kein","keine","ist","sind","war","waren","sein","haben","hat","hatte","werden","wird","wurde","man","er","sie","es","wir","ihr","ich","du","mir","mich","ihm","ihn","uns","euch","ihnen","mein","dein","unser","euer","dieser","diese","dieses","alle","alles","viele","wenig","am","im","ins","des","dem","den","zur","zum","beim","ans","vom","ums","sich","doch","mal","dann","kann","muss","soll","will","darf","mag","konnte","sollte","wollte","durfte","bitte","danke","gut","alt","neu","gross","klein","lang","kurz","hoch","tief","weit","nah","frueh","spat","schnell","langsam","laut","leise","voll","leer","offen","klar","einfach","schwer","hart","weich","beim","jetzt"]);
+
+function _pdfLoadLib(cb){
+  if(window.pdfjsLib){cb();return;}
+  var s=document.createElement("script");
+  s.src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js";
+  s.onload=function(){
+    if(window.pdfjsLib)pdfjsLib.GlobalWorkerOptions.workerSrc="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+    cb();
+  };
+  s.onerror=function(){toast("pdf.js Ladefehler","er");};
+  document.head.appendChild(s);
+}
+
+function _pdfTokenize(text){
+  var words=text.toLowerCase().replace(/[^a-zäöüßà-ɏ\s]/g," ").split(/\s+/);
+  var seen={},result=[];
+  for(var i=0;i<words.length;i++){
+    var w=words[i].replace(/^[^a-z]+|[^a-z]+$/g,"");
+    if(w.length<3||STOPW.has(w)||seen[w])continue;
+    seen[w]=1;result.push(w);
+  }
+  return result;
+}
+
+function _pdfKnown(){
+  var known=new Set();
+  for(var i=0;i<VA.length;i++){var t=VA[i].target;if(t)known.add(t.toLowerCase().split(/\s+/)[0].replace(/[^a-z]/g,""));}
+  try{var cust=sg("cust")||[];for(var j=0;j<cust.length;j++){var ws=cust[j].words||[];for(var k=0;k<ws.length;k++){var tw=ws[k].target;if(tw)known.add(tw.toLowerCase().split(/\s+/)[0].replace(/[^a-z]/g,""));}}}catch(e){}
+  return known;
+}
+
+function _pdfRenderList(filter){
+  var list=el("pdf-list"),f=(filter||"").toLowerCase(),shown=0;
+  list.innerHTML="";
+  for(var i=0;i<_pdfWords.length;i++){
+    var w=_pdfWords[i];
+    if(f&&w.word.indexOf(f)===-1)continue;
+    var row=document.createElement("div");row.className="pdf-wrow";
+    var cb=document.createElement("input");cb.type="checkbox";cb.className="pdf-cb";
+    cb.checked=w.selected;cb.dataset.idx=i;
+    (function(idx){cb.onchange=function(){_pdfWords[idx].selected=this.checked;};})(i);
+    var lbl=document.createElement("label");lbl.className="pdf-wlbl";lbl.textContent=w.word;
+    if(w.enriched&&w.enriched.de){var badge=document.createElement("span");badge.className="pdf-wde";badge.textContent=" ✔ "+w.enriched.de;lbl.appendChild(badge);}
+    row.appendChild(cb);row.appendChild(lbl);list.appendChild(row);shown++;
+  }
+  el("pdf-count").textContent=shown+" neue Wörter";
+}
+
+function _pdfShowStep(n){
+  el("pdf-s1").classList.toggle("hidden",n!==1);
+  el("pdf-s2").classList.toggle("hidden",n!==2);
+  el("pdf-s3").classList.toggle("hidden",n!==3);
+}
+
+async function _pdfEnrich(words,apiKey){
+  var batchSize=8,bar=el("enrich-bar"),status=el("enrich-status"),results={};
+  for(var i=0;i<words.length;i+=batchSize){
+    var batch=words.slice(i,Math.min(i+batchSize,words.length));
+    var pct=Math.round(i/words.length*100);
+    bar.style.width=pct+"%";
+    status.textContent=(i+1)+"–"+Math.min(i+batchSize,words.length)+" von "+words.length;
+    var prompt="For each English word below, return a JSON array where each item has:\n"+
+      "\"word\": the word, \"de\": German translation, \"pos\": noun/verb/adj/adv,\n"+
+      "\"examples\": [{\"en\":\"...\",\"de\":\"...\"}] (2 items),\n"+
+      "\"opposite\": {\"en\":\"...\",\"de\":\"...\",\"example_en\":\"...\",\"example_de\":\"...\"} or null,\n"+
+      "\"synonyms\": [{\"word\":\"...\",\"de\":\"...\"}] (1-2 items),\n"+
+      "\"word_family\": [{\"word\":\"...\",\"pos\":\"...\",\"de\":\"...\"}] (2-3 items).\n"+
+      "Words: "+batch.join(", ")+"\nRespond with a JSON array only.";
+    try{
+      var resp=await fetch("https://api.anthropic.com/v1/messages",{
+        method:"POST",
+        headers:{"Content-Type":"application/json","x-api-key":apiKey,"anthropic-version":"2023-06-01","anthropic-dangerous-direct-browser-access":"true"},
+        body:JSON.stringify({model:"claude-sonnet-4-20250514",max_tokens:3000,messages:[{role:"user",content:prompt}]})
+      });
+      if(resp.status===429){toast("Rate Limit – kurze Pause...","wa");await new Promise(function(r){setTimeout(r,20000);});i-=batchSize;continue;}
+      if(!resp.ok){var et=await resp.text();throw new Error("API "+resp.status+": "+et.slice(0,80));}
+      var data=await resp.json();
+      var txt=(data.content&&data.content[0]&&data.content[0].text)||"";
+      txt=txt.replace(/^```json\s*|```\s*$/g,"").trim();
+      var parsed=JSON.parse(txt);
+      for(var j=0;j<parsed.length;j++){results[parsed[j].word]=parsed[j];}
+    }catch(err){console.warn("[VT] Enrich error",err);toast("Fehler: "+err.message.slice(0,40),"er");}
+    await new Promise(function(r){setTimeout(r,800);});
+  }
+  bar.style.width="100%";status.textContent="Fertig!";
+  return results;
+}
+
+function _pdfSaveLesson(name,words){
+  var lessonId="cust_"+Date.now();
+  var lessonWords=[];
+  for(var i=0;i<words.length;i++){
+    var w=words[i];if(!w.selected)continue;
+    var e=w.enriched||{};
+    var entry={
+      id:lessonId+"_"+i,
+      de:e.de||w.word,
+      target:w.word,
+      lv:"B2",tp:name,ty:e.pos||"noun",mod:lessonId,
+      group:"Custom",
+      examples:e.examples||[],
+      opposite:e.opposite||null,
+      synonyms:e.synonyms||[],
+      word_family:e.word_family||[],
+      phrasal_verbs:[],
+      example_de:(e.examples&&e.examples[0])?e.examples[0].de:"",
+      example_target:(e.examples&&e.examples[0])?e.examples[0].en:""
+    };
+    lessonWords.push(entry);
+  }
+  if(!lessonWords.length){toast("Keine Wörter ausgewählt","er");return;}
+  var cust=sg("cust")||[];
+  cust.push({id:lessonId,name:name,words:lessonWords});
+  ss("cust",cust);
+  MODS.push({id:lessonId,name:name,sub:lessonWords.length+" Wörter · PDF-Import",lv:"B2"});
+  MV[lessonId]=lessonWords;
+  for(var k=0;k<lessonWords.length;k++)VA.push(lessonWords[k]);
+  toast(name+" gespeichert ("+lessonWords.length+" Wörter)","ok");
+  return lessonId;
+}
+
+HK["sc-pdf"]=function(){
+  _pdfShowStep(1);
+  el("pdf-err").classList.add("hidden");
+  el("pdf-search").value="";
+};
 
 // EVENTS
 function bind(){
@@ -1139,9 +1345,121 @@ el("btn-mc").onclick=mcStart;
   el("tts-auto").onclick=function(){var p=lp();p.ttsAuto=!p.ttsAuto;sp(p);syncS();};
   el("btn-exp").onclick=function(){try{var blob=new Blob([JSON.stringify({date:td(),lang:CFG.id,p:lp(),ls:lls()},null,2)],{type:"application/json"});var a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="vt_en_"+td()+".json";a.click();URL.revokeObjectURL(a.href);toast("Export gestartet","ok");}catch(e){toast("Export fehlgeschlagen","er");}};
   el("btn-reset").onclick=function(){if(!confirm("Fortschritt wirklich zuruecksetzen?"))return;try{var keys=Object.keys(localStorage);for(var i=0;i<keys.length;i++){if(keys[i].indexOf(CFG.storeKey)===0)localStorage.removeItem(keys[i]);}}catch(e){}toast("Zurueckgesetzt","ok");goTo("sc-home");};
+  el("n-pdf").onclick=function(){goTo("sc-pdf");};
+
+  // API-Key speichern
+  el("btn-save-apikey").onclick=function(){
+    var k=el("api-key-in").value.trim();
+    if(!k){toast("Bitte API-Key eingeben","er");return;}
+    ss("apikey",k);
+    el("apikey-status").textContent="API-Key gespeichert.";
+    toast("API-Key gespeichert","ok");
+  };
+
+  // PDF Drop-Zone
+  var drop=el("pdf-drop"),fileIn=el("pdf-file");
+  function _pdfErr(msg){el("pdf-err").textContent=msg;el("pdf-err").classList.remove("hidden");_pdfShowStep(1);}
+  function _pdfProcess(file){
+    if(!file||file.type!=="application/pdf"){_pdfErr("Bitte eine gültige PDF-Datei auswählen.");return;}
+    el("pdf-err").classList.add("hidden");
+    _pdfShowStep(2);
+    el("pdf-s2-msg").textContent="pdf.js wird geladen...";
+    el("pdf-xprog").style.width="5%";
+    _pdfLoadLib(function(){
+      el("pdf-s2-msg").textContent="Text wird extrahiert...";
+      var reader=new FileReader();
+      reader.onload=function(ev){
+        pdfjsLib.getDocument({data:new Uint8Array(ev.target.result)}).promise.then(function(pdf){
+          var total=pdf.numPages,pages=[],p=0;
+          function nextPage(n){
+            if(n>total){
+              var fullText=pages.join(" ");
+              var tokens=_pdfTokenize(fullText);
+              var known=_pdfKnown();
+              _pdfWords=[];
+              for(var i=0;i<tokens.length;i++){
+                if(!known.has(tokens[i]))_pdfWords.push({word:tokens[i],selected:true,enriched:null});
+              }
+              if(!_pdfWords.length){_pdfErr("Keine neuen Wörter gefunden.");return;}
+              _pdfShowStep(3);
+              _pdfRenderList("");
+              return;
+            }
+            pdf.getPage(n).then(function(page){
+              return page.getTextContent();
+            }).then(function(tc){
+              pages.push(tc.items.map(function(it){return it.str;}).join(" "));
+              p++;
+              el("pdf-xprog").style.width=Math.round(p/total*100)+"%";
+              nextPage(n+1);
+            }).catch(function(e){_pdfErr("Seite konnte nicht gelesen werden: "+e.message);});
+          }
+          nextPage(1);
+        }).catch(function(e){_pdfErr("PDF konnte nicht geladen werden: "+e.message);});
+      };
+      reader.onerror=function(){_pdfErr("Datei konnte nicht gelesen werden.");};
+      reader.readAsArrayBuffer(file);
+    });
+  }
+  drop.addEventListener("dragover",function(e){e.preventDefault();drop.classList.add("over");});
+  drop.addEventListener("dragleave",function(){drop.classList.remove("over");});
+  drop.addEventListener("drop",function(e){e.preventDefault();drop.classList.remove("over");_pdfProcess(e.dataTransfer.files[0]);});
+  el("pdf-pick").onclick=function(e){e.stopPropagation();fileIn.click();};
+  drop.onclick=function(){fileIn.click();};
+  fileIn.onchange=function(){_pdfProcess(this.files[0]);this.value="";};
+
+  // Alle / Keine
+  el("pdf-all").onclick=function(){for(var i=0;i<_pdfWords.length;i++)_pdfWords[i].selected=true;_pdfRenderList(el("pdf-search").value);};
+  el("pdf-none").onclick=function(){for(var i=0;i<_pdfWords.length;i++)_pdfWords[i].selected=false;_pdfRenderList(el("pdf-search").value);};
+  el("pdf-search").oninput=function(){_pdfRenderList(this.value);};
+
+  // Claude anreichern
+  el("btn-enrich").onclick=async function(){
+    var apiKey=sg("apikey");
+    if(!apiKey){toast("Kein API-Key – bitte in Einstellungen speichern","er");return;}
+    var sel=_pdfWords.filter(function(w){return w.selected;});
+    if(!sel.length){toast("Keine Wörter ausgewählt","er");return;}
+    el("btn-enrich").disabled=true;
+    el("enrich-prog").classList.remove("hidden");
+    try{
+      var results=await _pdfEnrich(sel.map(function(w){return w.word;}),apiKey);
+      for(var i=0;i<_pdfWords.length;i++){
+        if(results[_pdfWords[i].word])_pdfWords[i].enriched=results[_pdfWords[i].word];
+      }
+      _pdfRenderList(el("pdf-search").value);
+      toast("Anreicherung abgeschlossen","ok");
+    }catch(e){toast("Anreicherung fehlgeschlagen","er");console.error(e);}
+    el("btn-enrich").disabled=false;
+  };
+
+  // Lektion speichern
+  el("btn-save-pdf").onclick=function(){
+    var name=(el("pdf-lname").value||"").trim();
+    if(!name){toast("Bitte Lektionsname eingeben","er");return;}
+    var id=_pdfSaveLesson(name,_pdfWords);
+    if(id){el("pdf-lname").value="";_pdfShowStep(1);goTo("sc-modules");}
+  };
+
+  // Reset
+  el("btn-pdf-reset").onclick=function(){_pdfWords=[];_pdfShowStep(1);el("pdf-err").classList.add("hidden");el("pdf-lname").value="";el("pdf-search").value="";el("enrich-prog").classList.add("hidden");el("enrich-bar").style.width="0%";el("btn-enrich").disabled=false;};
 }
 
 bind();
+
+// Gespeicherte PDF-Lektionen laden
+(function(){
+  try{
+    var cust=sg("cust")||[];
+    for(var i=0;i<cust.length;i++){
+      var lesson=cust[i];
+      if(!lesson.id||!lesson.words||MV[lesson.id])continue;
+      MODS.push({id:lesson.id,name:lesson.name,sub:lesson.words.length+" Wörter · PDF-Import",lv:"B2"});
+      MV[lesson.id]=lesson.words;
+      for(var j=0;j<lesson.words.length;j++)VA.push(lesson.words[j]);
+    }
+  }catch(e){console.warn("[VT] Benutzerdefinierte Lektionen konnten nicht geladen werden",e);}
+})();
+
 try{if("speechSynthesis"in window)window.speechSynthesis.getVoices();}catch(e){}
 try{var _ip=lp();_ip=ustrk(_ip);sp(_ip);}catch(e){}
 goTo("sc-home");
