@@ -1033,7 +1033,7 @@ function wotd_render(){
   el("wotd-de").textContent=w.de;
   var exTxt=(w.examples&&w.examples[0])?w.examples[0].en:(w.example_target||"");
   el("wotd-ex").textContent=exTxt;
-  el("wotd-learn").onclick=function(){goTo("sc-learn",{mode:"fl",words:[w]});};
+  el("wotd-learn").onclick=function(){goTo("sc-learn",{mode:"flash",words:[w]});};
   el("wotd-tts").onclick=function(){var p=lp();speak(w.target,p.ttsSpd);};
   el("wotd-skip").onclick=function(){ss("wotd",{date:td(),wordId:"__skip__"});card.style.display="none";};
 }
