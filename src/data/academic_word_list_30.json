@@ -1,0 +1,525 @@
+[
+  {
+    "id": "awl30_001",
+    "word": "administration",
+    "group": "AWL30",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Verwaltung, Administration, Verabreichung" },
+    "examples": [
+      {
+        "en": "Effective administration is essential for the successful implementation of public health programmes.",
+        "de": "Eine effektive Verwaltung ist entscheidend für die erfolgreiche Umsetzung von Programmen im Bereich der öffentlichen Gesundheit."
+      },
+      {
+        "en": "The administration of large-scale surveys requires careful logistical planning.",
+        "de": "Die Durchführung großangelegter Umfragen erfordert sorgfältige logistische Planung."
+      }
+    ],
+    "opposite": { "word": "disorganisation", "de": "Desorganisation, Chaos" },
+    "synonyms": ["management", "governance", "organisation", "oversight"],
+    "word_family": [
+      { "word": "administer", "pos": "verb", "de": "verwalten, verabreichen" },
+      { "word": "administrative", "pos": "adjective", "de": "administrativ, Verwaltungs-" },
+      { "word": "administrator", "pos": "noun", "de": "Verwalter/in, Administrator/in" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl30_002",
+    "word": "affect",
+    "group": "AWL30",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "beeinflussen, betreffen, auswirken auf" },
+    "examples": [
+      {
+        "en": "Chronic stress negatively affects cognitive performance and long-term health outcomes.",
+        "de": "Chronischer Stress beeinflusst die kognitive Leistungsfähigkeit und die langfristigen Gesundheitsergebnisse negativ."
+      },
+      {
+        "en": "The policy change affected over two million households in the country.",
+        "de": "Die Politikänderung betraf über zwei Millionen Haushalte im Land."
+      }
+    ],
+    "opposite": { "word": "leave unchanged", "de": "unverändert lassen" },
+    "synonyms": ["influence", "impact", "alter", "shape"],
+    "word_family": [
+      { "word": "effect", "pos": "noun", "de": "Auswirkung, Effekt" },
+      { "word": "affected", "pos": "adjective", "de": "betroffen, beeinflusst" },
+      { "word": "affective", "pos": "adjective", "de": "affektiv, emotional" },
+      { "word": "unaffected", "pos": "adjective", "de": "nicht betroffen, unberührt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl30_003",
+    "word": "agency",
+    "group": "AWL30",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Handlungsfähigkeit, Agentur, Behörde" },
+    "examples": [
+      {
+        "en": "In sociological theory, agency refers to the capacity of individuals to act independently.",
+        "de": "In der soziologischen Theorie bezeichnet Handlungsfähigkeit die Fähigkeit von Individuen, unabhängig zu handeln."
+      },
+      {
+        "en": "Regulatory agencies play a key role in monitoring compliance with environmental standards.",
+        "de": "Regulierungsbehörden spielen eine wichtige Rolle bei der Überwachung der Einhaltung von Umweltstandards."
+      }
+    ],
+    "opposite": { "word": "passivity", "de": "Passivität, Untätigkeit" },
+    "synonyms": ["authority", "body", "institution", "autonomy"],
+    "word_family": [
+      { "word": "agent", "pos": "noun", "de": "Akteur/in, Agent/in, Wirkstoff" },
+      { "word": "agentic", "pos": "adjective", "de": "mit Handlungsfähigkeit ausgestattet" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl30_004",
+    "word": "application",
+    "group": "AWL30",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Anwendung, Bewerbung, Antrag" },
+    "examples": [
+      {
+        "en": "The practical application of theoretical models often reveals unforeseen complications.",
+        "de": "Die praktische Anwendung theoretischer Modelle enthüllt oft unvorhergesehene Komplikationen."
+      },
+      {
+        "en": "The application of machine learning to medical diagnosis is a rapidly growing field.",
+        "de": "Die Anwendung von maschinellem Lernen auf die medizinische Diagnose ist ein schnell wachsendes Feld."
+      }
+    ],
+    "opposite": { "word": "theory", "de": "Theorie, abstrakte Überlegung" },
+    "synonyms": ["use", "employment", "implementation", "practice"],
+    "word_family": [
+      { "word": "apply", "pos": "verb", "de": "anwenden, bewerben" },
+      { "word": "applicable", "pos": "adjective", "de": "anwendbar, zutreffend" },
+      { "word": "applicant", "pos": "noun", "de": "Bewerber/in, Antragsteller/in" },
+      { "word": "inapplicable", "pos": "adjective", "de": "nicht anwendbar" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "apply to", "de": "anwenden auf; sich bewerben bei", "example": "These findings do not necessarily apply to non-Western populations." }
+    ]
+  },
+  {
+    "id": "awl30_005",
+    "word": "civil",
+    "group": "AWL30",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "zivil, bürgerlich, höflich" },
+    "examples": [
+      {
+        "en": "Civil society organisations play a vital role in holding governments accountable.",
+        "de": "Organisationen der Zivilgesellschaft spielen eine wichtige Rolle dabei, Regierungen zur Rechenschaft zu ziehen."
+      },
+      {
+        "en": "The protection of civil liberties is a cornerstone of democratic governance.",
+        "de": "Der Schutz bürgerlicher Freiheiten ist ein Eckpfeiler demokratischer Regierungsführung."
+      }
+    ],
+    "opposite": { "word": "military", "de": "militärisch" },
+    "synonyms": ["civic", "public", "citizen", "non-military"],
+    "word_family": [
+      { "word": "civilian", "pos": "noun/adjective", "de": "Zivilist/in; zivil" },
+      { "word": "civility", "pos": "noun", "de": "Höflichkeit, Zivilisiertheit" },
+      { "word": "civilisation", "pos": "noun", "de": "Zivilisation" },
+      { "word": "civil rights", "pos": "phrase", "de": "Bürgerrechte" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl30_006",
+    "word": "constant",
+    "group": "AWL30",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "konstant, beständig, gleichbleibend; Konstante" },
+    "examples": [
+      {
+        "en": "The model assumes a constant rate of change across the observed time period.",
+        "de": "Das Modell nimmt eine konstante Änderungsrate über den beobachteten Zeitraum an."
+      },
+      {
+        "en": "Constant revision of one's assumptions is a hallmark of rigorous scientific thinking.",
+        "de": "Das ständige Überprüfen der eigenen Annahmen ist ein Kennzeichen strengen wissenschaftlichen Denkens."
+      }
+    ],
+    "opposite": { "word": "variable", "de": "variabel, veränderlich" },
+    "synonyms": ["stable", "fixed", "consistent", "unvarying"],
+    "word_family": [
+      { "word": "constantly", "pos": "adverb", "de": "ständig, konstant" },
+      { "word": "constancy", "pos": "noun", "de": "Beständigkeit, Konstanz" },
+      { "word": "inconstant", "pos": "adjective", "de": "unbeständig, wechselhaft" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl30_007",
+    "word": "critical",
+    "group": "AWL30",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "kritisch, entscheidend, ausschlaggebend" },
+    "examples": [
+      {
+        "en": "Critical thinking involves questioning assumptions and evaluating arguments on their merits.",
+        "de": "Kritisches Denken beinhaltet das Hinterfragen von Annahmen und die Bewertung von Argumenten nach ihren Vorzügen."
+      },
+      {
+        "en": "Access to clean water is critical for sustainable development in low-income regions.",
+        "de": "Der Zugang zu sauberem Wasser ist entscheidend für eine nachhaltige Entwicklung in einkommensschwachen Regionen."
+      }
+    ],
+    "opposite": { "word": "uncritical", "de": "unkritisch, unreflektiert" },
+    "synonyms": ["crucial", "essential", "analytical", "decisive"],
+    "word_family": [
+      { "word": "criticism", "pos": "noun", "de": "Kritik, Tadel" },
+      { "word": "critic", "pos": "noun", "de": "Kritiker/in" },
+      { "word": "critically", "pos": "adverb", "de": "kritisch, entscheidend" },
+      { "word": "critique", "pos": "noun/verb", "de": "Kritik / kritisieren, analysieren" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl30_008",
+    "word": "currency",
+    "group": "AWL30",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Währung; Aktualität, Gültigkeit" },
+    "examples": [
+      {
+        "en": "Exchange rate fluctuations can significantly affect the competitiveness of export-driven economies.",
+        "de": "Wechselkursschwankungen können die Wettbewerbsfähigkeit exportorientierter Volkswirtschaften erheblich beeinflussen."
+      },
+      {
+        "en": "The currency of a concept depends on how well it continues to explain new phenomena.",
+        "de": "Die Aktualität eines Konzepts hängt davon ab, wie gut es weiterhin neue Phänomene erklären kann."
+      }
+    ],
+    "opposite": { "word": "obsolescence", "de": "Veralterung, Obsoleszenz" },
+    "synonyms": ["money", "tender", "relevance", "validity"],
+    "word_family": [
+      { "word": "current", "pos": "adjective", "de": "aktuell, gegenwärtig" },
+      { "word": "currently", "pos": "adverb", "de": "derzeit, gegenwärtig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl30_009",
+    "word": "cycle",
+    "group": "AWL30",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Zyklus, Kreislauf, Periode" },
+    "examples": [
+      {
+        "en": "The business cycle alternates between periods of expansion and contraction.",
+        "de": "Der Konjunkturzyklus wechselt zwischen Expansions- und Kontraktionsphasen ab."
+      },
+      {
+        "en": "Breaking the cycle of poverty requires targeted investment in education and healthcare.",
+        "de": "Die Unterbrechung des Kreislaufs der Armut erfordert gezielte Investitionen in Bildung und Gesundheitsversorgung."
+      }
+    ],
+    "opposite": { "word": "linearity", "de": "Linearität" },
+    "synonyms": ["rotation", "sequence", "pattern", "circuit"],
+    "word_family": [
+      { "word": "cyclical", "pos": "adjective", "de": "zyklisch, wiederkehrend" },
+      { "word": "recycle", "pos": "verb", "de": "recyceln, wiederverwenden" },
+      { "word": "lifecycle", "pos": "noun", "de": "Lebenszyklus" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl30_010",
+    "word": "demand",
+    "group": "AWL30",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Nachfrage, Bedarf; fordern, verlangen" },
+    "examples": [
+      {
+        "en": "Rising demand for renewable energy is driving investment in solar and wind infrastructure.",
+        "de": "Die steigende Nachfrage nach erneuerbaren Energien treibt Investitionen in Solar- und Windinfrastruktur an."
+      },
+      {
+        "en": "The law of demand states that price and quantity demanded are inversely related.",
+        "de": "Das Nachfragegesetz besagt, dass Preis und nachgefragte Menge umgekehrt proportional sind."
+      }
+    ],
+    "opposite": { "word": "supply", "de": "Angebot, Versorgung" },
+    "synonyms": ["requirement", "need", "claim", "request"],
+    "word_family": [
+      { "word": "demanding", "pos": "adjective", "de": "anspruchsvoll, fordernd" },
+      { "word": "in demand", "pos": "phrase", "de": "gefragt, begehrt" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "demand for", "de": "Nachfrage nach; fordern", "example": "There is growing demand for transparency in financial reporting." }
+    ]
+  },
+  {
+    "id": "awl30_011",
+    "word": "distribute",
+    "group": "AWL30",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "verteilen, ausgeben, vertreiben" },
+    "examples": [
+      {
+        "en": "Resources are not evenly distributed across regions, which contributes to inequality.",
+        "de": "Ressourcen sind nicht gleichmäßig auf die Regionen verteilt, was zur Ungleichheit beiträgt."
+      },
+      {
+        "en": "The questionnaire was distributed to a random sample of 800 adult respondents.",
+        "de": "Der Fragebogen wurde an eine Zufallsstichprobe von 800 erwachsenen Befragten verteilt."
+      }
+    ],
+    "opposite": { "word": "concentrate", "de": "konzentrieren, bündeln" },
+    "synonyms": ["allocate", "dispense", "spread", "circulate"],
+    "word_family": [
+      { "word": "distribution", "pos": "noun", "de": "Verteilung, Verbreitung" },
+      { "word": "distributor", "pos": "noun", "de": "Verteiler/in, Händler/in" },
+      { "word": "redistributive", "pos": "adjective", "de": "umverteilend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl30_012",
+    "word": "domestic",
+    "group": "AWL30",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "inländisch, häuslich, national" },
+    "examples": [
+      {
+        "en": "Domestic policy decisions can have significant spillover effects on neighbouring economies.",
+        "de": "Innenpolitische Entscheidungen können erhebliche Ausstrahlungseffekte auf benachbarte Volkswirtschaften haben."
+      },
+      {
+        "en": "The study examines domestic violence as a public health concern requiring systemic responses.",
+        "de": "Die Studie untersucht häusliche Gewalt als ein Problem der öffentlichen Gesundheit, das systemische Reaktionen erfordert."
+      }
+    ],
+    "opposite": { "word": "international", "de": "international, ausländisch" },
+    "synonyms": ["national", "internal", "household", "home"],
+    "word_family": [
+      { "word": "domestically", "pos": "adverb", "de": "im Inland, innenpolitisch" },
+      { "word": "domesticate", "pos": "verb", "de": "domestizieren, zähmen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl30_013",
+    "word": "economy",
+    "group": "AWL30",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Wirtschaft, Volkswirtschaft; Sparsamkeit" },
+    "examples": [
+      {
+        "en": "The global economy has undergone profound structural changes over the past three decades.",
+        "de": "Die Weltwirtschaft hat in den letzten drei Jahrzehnten tiefgreifende strukturelle Veränderungen erfahren."
+      },
+      {
+        "en": "Knowledge economies depend on human capital and innovation rather than natural resources.",
+        "de": "Wissensgesellschaften sind auf Humankapital und Innovation angewiesen, nicht auf natürliche Ressourcen."
+      }
+    ],
+    "opposite": { "word": "waste", "de": "Verschwendung" },
+    "synonyms": ["market", "system", "finances", "commerce"],
+    "word_family": [
+      { "word": "economic", "pos": "adjective", "de": "wirtschaftlich, ökonomisch" },
+      { "word": "economics", "pos": "noun", "de": "Wirtschaftswissenschaft, Ökonomie" },
+      { "word": "economist", "pos": "noun", "de": "Ökonom/in, Wirtschaftswissenschaftler/in" },
+      { "word": "economise", "pos": "verb", "de": "sparen, haushalten" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl30_014",
+    "word": "estimate",
+    "group": "AWL30",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "schätzen, abschätzen; Schätzung" },
+    "examples": [
+      {
+        "en": "It is estimated that over one billion people currently lack access to safe drinking water.",
+        "de": "Es wird geschätzt, dass über eine Milliarde Menschen derzeit keinen Zugang zu sauberem Trinkwasser haben."
+      },
+      {
+        "en": "The researchers estimated the effect size using a Bayesian statistical framework.",
+        "de": "Die Forscher schätzten die Effektgröße mithilfe eines Bayes'schen statistischen Rahmens."
+      }
+    ],
+    "opposite": { "word": "measure exactly", "de": "exakt messen" },
+    "synonyms": ["approximate", "calculate", "gauge", "project"],
+    "word_family": [
+      { "word": "estimation", "pos": "noun", "de": "Schätzung, Einschätzung" },
+      { "word": "estimated", "pos": "adjective", "de": "geschätzt" },
+      { "word": "overestimate", "pos": "verb", "de": "überschätzen" },
+      { "word": "underestimate", "pos": "verb", "de": "unterschätzen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl30_015",
+    "word": "exceed",
+    "group": "AWL30",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "überschreiten, übertreffen, übersteigen" },
+    "examples": [
+      {
+        "en": "Carbon emissions in several countries continue to exceed internationally agreed targets.",
+        "de": "Die Kohlenstoffemissionen in mehreren Ländern überschreiten weiterhin die international vereinbarten Ziele."
+      },
+      {
+        "en": "The actual costs of the project exceeded initial estimates by thirty percent.",
+        "de": "Die tatsächlichen Kosten des Projekts übertrafen die ursprünglichen Schätzungen um dreißig Prozent."
+      }
+    ],
+    "opposite": { "word": "fall short of", "de": "nicht erreichen, verfehlen" },
+    "synonyms": ["surpass", "outstrip", "go beyond", "top"],
+    "word_family": [
+      { "word": "excess", "pos": "noun", "de": "Überschuss, Exzess" },
+      { "word": "excessive", "pos": "adjective", "de": "übermäßig, exzessiv" },
+      { "word": "excessively", "pos": "adverb", "de": "übermäßig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl30_016",
+    "word": "finance",
+    "group": "AWL30",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Finanzen, Finanzierung; finanzieren" },
+    "examples": [
+      {
+        "en": "Access to finance is one of the most significant barriers faced by small businesses.",
+        "de": "Der Zugang zu Finanzmitteln ist eines der bedeutendsten Hindernisse, mit denen Kleinunternehmen konfrontiert sind."
+      },
+      {
+        "en": "The research was financed through a combination of public grants and private investment.",
+        "de": "Die Forschung wurde durch eine Kombination aus öffentlichen Fördermitteln und privaten Investitionen finanziert."
+      }
+    ],
+    "opposite": { "word": "debt", "de": "Schulden, Verschuldung" },
+    "synonyms": ["funding", "capital", "investment", "economics"],
+    "word_family": [
+      { "word": "financial", "pos": "adjective", "de": "finanziell" },
+      { "word": "financially", "pos": "adverb", "de": "finanziell" },
+      { "word": "financier", "pos": "noun", "de": "Finanzier, Geldgeber/in" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl30_017",
+    "word": "income",
+    "group": "AWL30",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Einkommen, Einnahmen" },
+    "examples": [
+      {
+        "en": "Household income is strongly correlated with educational attainment across generations.",
+        "de": "Das Haushaltseinkommen korreliert stark mit dem Bildungsniveau über Generationen hinweg."
+      },
+      {
+        "en": "Rising income inequality is a defining challenge for policymakers in developed nations.",
+        "de": "Wachsende Einkommensungleichheit ist eine zentrale Herausforderung für politische Entscheidungsträger in entwickelten Nationen."
+      }
+    ],
+    "opposite": { "word": "expenditure", "de": "Ausgaben, Aufwendungen" },
+    "synonyms": ["earnings", "revenue", "salary", "wages"],
+    "word_family": [
+      { "word": "low-income", "pos": "adjective", "de": "einkommensschwach" },
+      { "word": "high-income", "pos": "adjective", "de": "einkommensstark" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl30_018",
+    "word": "index",
+    "group": "AWL30",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Index, Indikator, Verzeichnis" },
+    "examples": [
+      {
+        "en": "The Human Development Index measures countries' achievements in health, education, and living standards.",
+        "de": "Der Index für menschliche Entwicklung misst die Errungenschaften von Ländern in den Bereichen Gesundheit, Bildung und Lebensstandard."
+      },
+      {
+        "en": "Price indices are used to track inflation and compare purchasing power over time.",
+        "de": "Preisindizes werden verwendet, um Inflation zu verfolgen und Kaufkraft im Zeitverlauf zu vergleichen."
+      }
+    ],
+    "opposite": { "word": "raw data", "de": "Rohdaten" },
+    "synonyms": ["indicator", "measure", "scale", "register"],
+    "word_family": [
+      { "word": "indexed", "pos": "adjective", "de": "indexiert" },
+      { "word": "indexation", "pos": "noun", "de": "Indexierung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl30_019",
+    "word": "individual",
+    "group": "AWL30",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Individuum, Einzelperson; individuell" },
+    "examples": [
+      {
+        "en": "Social structures shape the choices available to individuals within a given society.",
+        "de": "Soziale Strukturen prägen die Wahlmöglichkeiten, die Individuen in einer bestimmten Gesellschaft zur Verfügung stehen."
+      },
+      {
+        "en": "Individual differences in learning style must be considered when designing educational programmes.",
+        "de": "Individuelle Unterschiede im Lernstil müssen bei der Gestaltung von Bildungsprogrammen berücksichtigt werden."
+      }
+    ],
+    "opposite": { "word": "collective", "de": "Kollektiv, Gemeinschaft" },
+    "synonyms": ["person", "subject", "entity", "agent"],
+    "word_family": [
+      { "word": "individuality", "pos": "noun", "de": "Individualität" },
+      { "word": "individualise", "pos": "verb", "de": "individualisieren" },
+      { "word": "individually", "pos": "adverb", "de": "individuell, einzeln" },
+      { "word": "individualism", "pos": "noun", "de": "Individualismus" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl30_020",
+    "word": "infrastructure",
+    "group": "AWL30",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Infrastruktur" },
+    "examples": [
+      {
+        "en": "Inadequate infrastructure remains a major obstacle to economic development in many regions.",
+        "de": "Unzureichende Infrastruktur bleibt ein wesentliches Hindernis für die wirtschaftliche Entwicklung in vielen Regionen."
+      },
+      {
+        "en": "Digital infrastructure, including broadband access, is increasingly vital for social participation.",
+        "de": "Digitale Infrastruktur, einschließlich Breitbandzugang, ist zunehmend entscheidend für gesellschaftliche Teilhabe."
+      }
+    ],
+    "opposite": { "word": "superstructure", "de": "Überbau" },
+    "synonyms": ["framework", "foundation", "network", "system"],
+    "word_family": [
+      { "word": "infrastructural", "pos": "adjective", "de": "infrastrukturell" }
+    ],
+    "phrasal_verbs": []
+  }
+]
