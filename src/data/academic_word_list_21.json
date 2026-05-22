@@ -1,0 +1,697 @@
+[
+  {
+    "id": "awl21_alternative_01",
+    "word": "alternative",
+    "group": "AWL21",
+    "group_label": "Academic Word List – Sublist 21",
+    "pos": "noun",
+    "translations": { "de": "Alternative / andere Möglichkeit / Ersatz" },
+    "examples": [
+      {
+        "en": "Renewable energy is increasingly seen as a viable alternative to fossil fuels.",
+        "de": "Erneuerbare Energien werden zunehmend als realistische Alternative zu fossilen Brennstoffen angesehen."
+      },
+      {
+        "en": "The committee considered several alternatives before settling on the current approach.",
+        "de": "Der Ausschuss prüfte mehrere Alternativen, bevor er sich auf den aktuellen Ansatz einigte."
+      }
+    ],
+    "opposite": {
+      "en": "only option",
+      "de": "einzige Möglichkeit / alternativlos",
+      "example_en": "When no alternative exists, decision-makers must accept difficult trade-offs.",
+      "example_de": "Wenn es keine Alternative gibt, müssen Entscheidungsträger schwierige Kompromisse akzeptieren."
+    },
+    "synonyms": [
+      { "word": "option", "de": "Option / Möglichkeit" },
+      { "word": "substitute", "de": "Ersatz / Substitut" },
+      { "word": "choice", "de": "Wahl / Möglichkeit" }
+    ],
+    "word_family": [
+      { "word": "alternative", "pos": "adj", "de": "alternativ / anders" },
+      { "word": "alternatively", "pos": "adv", "de": "alternativ / andernfalls" },
+      { "word": "alternate", "pos": "verb/adj", "de": "abwechseln / abwechselnd" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl21_ambiguous_02",
+    "word": "ambiguous",
+    "group": "AWL21",
+    "group_label": "Academic Word List – Sublist 21",
+    "pos": "adjective",
+    "translations": { "de": "mehrdeutig / zweideutig / unklar" },
+    "examples": [
+      {
+        "en": "The wording of the clause is ambiguous and could be interpreted in two different ways.",
+        "de": "Der Wortlaut der Klausel ist mehrdeutig und kann auf zwei verschiedene Arten interpretiert werden."
+      },
+      {
+        "en": "Researchers noted that the survey responses were often ambiguous and difficult to categorise.",
+        "de": "Forscher stellten fest, dass die Umfrageantworten häufig mehrdeutig und schwer zu kategorisieren waren."
+      }
+    ],
+    "opposite": {
+      "en": "unambiguous",
+      "de": "eindeutig / unmissverständlich",
+      "example_en": "The instructions must be unambiguous to avoid errors during implementation.",
+      "example_de": "Die Anweisungen müssen eindeutig sein, um Fehler bei der Umsetzung zu vermeiden."
+    },
+    "synonyms": [
+      { "word": "unclear", "de": "unklar / unbestimmt" },
+      { "word": "equivocal", "de": "zweideutig / ausweichend" },
+      { "word": "vague", "de": "vage / unscharf" }
+    ],
+    "word_family": [
+      { "word": "ambiguity", "pos": "noun", "de": "Mehrdeutigkeit / Unklarheit" },
+      { "word": "ambiguously", "pos": "adv", "de": "mehrdeutig / zweideutig" },
+      { "word": "disambiguate", "pos": "verb", "de": "disambiguieren / eindeutig machen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl21_capacity_03",
+    "word": "capacity",
+    "group": "AWL21",
+    "group_label": "Academic Word List – Sublist 21",
+    "pos": "noun",
+    "translations": { "de": "Kapazität / Fähigkeit / Aufnahmevermögen" },
+    "examples": [
+      {
+        "en": "The hospital has exceeded its capacity and can no longer admit new patients.",
+        "de": "Das Krankenhaus hat seine Kapazität überschritten und kann keine neuen Patienten mehr aufnehmen."
+      },
+      {
+        "en": "The programme aims to build the capacity of local communities to manage natural resources.",
+        "de": "Das Programm zielt darauf ab, die Fähigkeit lokaler Gemeinschaften zum Umgang mit natürlichen Ressourcen zu stärken."
+      }
+    ],
+    "opposite": {
+      "en": "incapacity",
+      "de": "Unfähigkeit / Unvermögen",
+      "example_en": "Institutional incapacity is often cited as a barrier to effective governance.",
+      "example_de": "Institutionelles Unvermögen wird häufig als Hindernis für effektive Regierungsführung genannt."
+    },
+    "synonyms": [
+      { "word": "ability", "de": "Fähigkeit / Können" },
+      { "word": "capability", "de": "Leistungsvermögen / Kompetenz" },
+      { "word": "volume", "de": "Volumen / Fassungsvermögen" }
+    ],
+    "word_family": [
+      { "word": "capable", "pos": "adj", "de": "fähig / kompetent" },
+      { "word": "incapacity", "pos": "noun", "de": "Unfähigkeit / Arbeitsunfähigkeit" },
+      { "word": "capacitate", "pos": "verb", "de": "befähigen / in die Lage versetzen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl21_comprehensive_04",
+    "word": "comprehensive",
+    "group": "AWL21",
+    "group_label": "Academic Word List – Sublist 21",
+    "pos": "adjective",
+    "translations": { "de": "umfassend / vollständig / erschöpfend" },
+    "examples": [
+      {
+        "en": "The committee published a comprehensive review of existing literature on the topic.",
+        "de": "Der Ausschuss veröffentlichte eine umfassende Übersicht der bestehenden Literatur zu diesem Thema."
+      },
+      {
+        "en": "A comprehensive understanding of the problem requires input from multiple disciplines.",
+        "de": "Ein umfassendes Verständnis des Problems erfordert Beiträge aus mehreren Disziplinen."
+      }
+    ],
+    "opposite": {
+      "en": "partial",
+      "de": "teilweise / unvollständig / partiell",
+      "example_en": "A partial analysis risks drawing misleading conclusions from incomplete data.",
+      "example_de": "Eine partielle Analyse birgt das Risiko, aus unvollständigen Daten irreführende Schlüsse zu ziehen."
+    },
+    "synonyms": [
+      { "word": "thorough", "de": "gründlich / sorgfältig" },
+      { "word": "exhaustive", "de": "erschöpfend / vollständig" },
+      { "word": "complete", "de": "vollständig / komplett" }
+    ],
+    "word_family": [
+      { "word": "comprehensively", "pos": "adv", "de": "umfassend / vollständig" },
+      { "word": "comprehensiveness", "pos": "noun", "de": "Vollständigkeit / Umfang" },
+      { "word": "comprehend", "pos": "verb", "de": "begreifen / verstehen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl21_constraint_05",
+    "word": "constraint",
+    "group": "AWL21",
+    "group_label": "Academic Word List – Sublist 21",
+    "pos": "noun",
+    "translations": { "de": "Einschränkung / Randbedingung / Zwang" },
+    "examples": [
+      {
+        "en": "Budget constraints forced the team to scale back the original research plan.",
+        "de": "Budgetbeschränkungen zwangen das Team, den ursprünglichen Forschungsplan einzuschränken."
+      },
+      {
+        "en": "Working within time constraints requires careful prioritisation of tasks.",
+        "de": "Unter Zeitbeschränkungen zu arbeiten erfordert eine sorgfältige Priorisierung von Aufgaben."
+      }
+    ],
+    "opposite": {
+      "en": "freedom",
+      "de": "Freiheit / Spielraum / Handlungsfreiheit",
+      "example_en": "Greater freedom in resource allocation leads to more creative solutions.",
+      "example_de": "Mehr Freiheit bei der Ressourcenzuteilung führt zu kreativeren Lösungen."
+    },
+    "synonyms": [
+      { "word": "restriction", "de": "Einschränkung / Beschränkung" },
+      { "word": "limitation", "de": "Begrenzung / Einschränkung" },
+      { "word": "condition", "de": "Bedingung / Auflage" }
+    ],
+    "word_family": [
+      { "word": "constrain", "pos": "verb", "de": "einschränken / zwingen" },
+      { "word": "constrained", "pos": "adj", "de": "eingeschränkt / begrenzt" },
+      { "word": "unconstrained", "pos": "adj", "de": "uneingeschränkt / frei" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl21_emerge_06",
+    "word": "emerge",
+    "group": "AWL21",
+    "group_label": "Academic Word List – Sublist 21",
+    "pos": "verb",
+    "translations": { "de": "entstehen / auftauchen / sich herausbilden" },
+    "examples": [
+      {
+        "en": "A clear pattern began to emerge from the analysis of thousands of case records.",
+        "de": "Aus der Analyse von Tausenden von Fallakten begann sich ein klares Muster herauszubilden."
+      },
+      {
+        "en": "New technologies emerge constantly, challenging existing regulatory frameworks.",
+        "de": "Neue Technologien entstehen ständig und stellen bestehende Regulierungsrahmen vor Herausforderungen."
+      }
+    ],
+    "opposite": {
+      "en": "disappear",
+      "de": "verschwinden / sich auflösen",
+      "example_en": "Once dominant species can disappear within decades if their habitat is destroyed.",
+      "example_de": "Einst dominante Arten können innerhalb von Jahrzehnten verschwinden, wenn ihr Lebensraum zerstört wird."
+    },
+    "synonyms": [
+      { "word": "arise", "de": "entstehen / aufkommen" },
+      { "word": "surface", "de": "auftauchen / zum Vorschein kommen" },
+      { "word": "develop", "de": "sich entwickeln / entstehen" }
+    ],
+    "word_family": [
+      { "word": "emergence", "pos": "noun", "de": "Entstehung / Auftauchen / Emergenz" },
+      { "word": "emerging", "pos": "adj", "de": "aufkommend / entstehend" },
+      { "word": "emergent", "pos": "adj", "de": "emergent / neu entstehend" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "emerge from", "de": "hervorgehen aus / sich herausbilden aus", "example": "The theory emerged from decades of fieldwork in remote communities." }
+    ]
+  },
+  {
+    "id": "awl21_enforce_07",
+    "word": "enforce",
+    "group": "AWL21",
+    "group_label": "Academic Word List – Sublist 21",
+    "pos": "verb",
+    "translations": { "de": "durchsetzen / erzwingen / vollstrecken" },
+    "examples": [
+      {
+        "en": "Governments must have the authority and capacity to enforce environmental regulations.",
+        "de": "Regierungen müssen die Befugnis und Kapazität haben, Umweltvorschriften durchzusetzen."
+      },
+      {
+        "en": "The policy was poorly designed and proved difficult to enforce in practice.",
+        "de": "Die Richtlinie war schlecht gestaltet und erwies sich in der Praxis als schwer durchsetzbar."
+      }
+    ],
+    "opposite": {
+      "en": "ignore",
+      "de": "ignorieren / außer Acht lassen",
+      "example_en": "Authorities that ignore violations undermine the credibility of the law.",
+      "example_de": "Behörden, die Verstöße ignorieren, untergraben die Glaubwürdigkeit des Gesetzes."
+    },
+    "synonyms": [
+      { "word": "implement", "de": "umsetzen / durchführen" },
+      { "word": "impose", "de": "auferlegen / verhängen" },
+      { "word": "apply", "de": "anwenden / durchsetzen" }
+    ],
+    "word_family": [
+      { "word": "enforcement", "pos": "noun", "de": "Durchsetzung / Vollstreckung" },
+      { "word": "enforceable", "pos": "adj", "de": "durchsetzbar / vollstreckbar" },
+      { "word": "law enforcement", "pos": "noun", "de": "Strafverfolgung / Vollzugsbehörde" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl21_framework_08",
+    "word": "framework",
+    "group": "AWL21",
+    "group_label": "Academic Word List – Sublist 21",
+    "pos": "noun",
+    "translations": { "de": "Rahmen / Konzept / Rahmenwerk / Gerüst" },
+    "examples": [
+      {
+        "en": "The study adopts a theoretical framework drawn from cognitive linguistics.",
+        "de": "Die Studie übernimmt ein theoretisches Konzept aus der kognitiven Linguistik."
+      },
+      {
+        "en": "International agreements provide a legal framework for addressing cross-border pollution.",
+        "de": "Internationale Vereinbarungen bieten einen rechtlichen Rahmen zur Bekämpfung grenzüberschreitender Umweltverschmutzung."
+      }
+    ],
+    "opposite": {
+      "en": "chaos",
+      "de": "Chaos / Unstrukturiertheit",
+      "example_en": "Without a clear framework, projects often descend into organisational chaos.",
+      "example_de": "Ohne einen klaren Rahmen verfallen Projekte oft in organisatorisches Chaos."
+    },
+    "synonyms": [
+      { "word": "structure", "de": "Struktur / Aufbau" },
+      { "word": "system", "de": "System / Ordnung" },
+      { "word": "model", "de": "Modell / Rahmen" }
+    ],
+    "word_family": [],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl21_highlight_09",
+    "word": "highlight",
+    "group": "AWL21",
+    "group_label": "Academic Word List – Sublist 21",
+    "pos": "verb",
+    "translations": { "de": "hervorheben / betonen / aufzeigen" },
+    "examples": [
+      {
+        "en": "The report highlights the urgent need for investment in clean energy infrastructure.",
+        "de": "Der Bericht hebt den dringenden Bedarf an Investitionen in saubere Energieinfrastruktur hervor."
+      },
+      {
+        "en": "The case study highlights how cultural factors can influence consumer decision-making.",
+        "de": "Die Fallstudie zeigt auf, wie kulturelle Faktoren die Kaufentscheidungen von Verbrauchern beeinflussen können."
+      }
+    ],
+    "opposite": {
+      "en": "downplay",
+      "de": "herunterspielen / bagatellisieren",
+      "example_en": "Politicians sometimes downplay risks to avoid public alarm.",
+      "example_de": "Politiker spielen Risiken manchmal herunter, um öffentliche Unruhe zu vermeiden."
+    },
+    "synonyms": [
+      { "word": "emphasise", "de": "betonen / hervorheben" },
+      { "word": "underline", "de": "unterstreichen / betonen" },
+      { "word": "draw attention to", "de": "aufmerksam machen auf" }
+    ],
+    "word_family": [
+      { "word": "highlight", "pos": "noun", "de": "Höhepunkt / Highlight" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl21_impact_10",
+    "word": "impact",
+    "group": "AWL21",
+    "group_label": "Academic Word List – Sublist 21",
+    "pos": "noun",
+    "translations": { "de": "Auswirkung / Einfluss / Wirkung" },
+    "examples": [
+      {
+        "en": "The impact of social media on political discourse has been widely debated.",
+        "de": "Die Auswirkungen sozialer Medien auf den politischen Diskurs sind breit diskutiert worden."
+      },
+      {
+        "en": "Researchers measured the long-term impact of early childhood education on academic achievement.",
+        "de": "Forscher maßen die langfristigen Auswirkungen frühkindlicher Bildung auf den schulischen Erfolg."
+      }
+    ],
+    "opposite": {
+      "en": "irrelevance",
+      "de": "Bedeutungslosigkeit / Wirkungslosigkeit",
+      "example_en": "A policy with no measurable impact on outcomes should be revised or abandoned.",
+      "example_de": "Eine Politik ohne messbare Auswirkung auf Ergebnisse sollte überarbeitet oder aufgegeben werden."
+    },
+    "synonyms": [
+      { "word": "effect", "de": "Wirkung / Effekt" },
+      { "word": "influence", "de": "Einfluss / Wirkung" },
+      { "word": "consequence", "de": "Folge / Auswirkung" }
+    ],
+    "word_family": [
+      { "word": "impact", "pos": "verb", "de": "beeinflussen / sich auswirken auf" },
+      { "word": "impactful", "pos": "adj", "de": "wirkungsvoll / einflussreich" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "have an impact on", "de": "Auswirkungen haben auf / beeinflussen", "example": "Rising temperatures have a direct impact on agricultural yields." }
+    ]
+  },
+  {
+    "id": "awl21_indicate_11",
+    "word": "indicate",
+    "group": "AWL21",
+    "group_label": "Academic Word List – Sublist 21",
+    "pos": "verb",
+    "translations": { "de": "hinweisen / anzeigen / hindeuten / darauf hindeuten, dass" },
+    "examples": [
+      {
+        "en": "The data indicate a strong positive correlation between income and life expectancy.",
+        "de": "Die Daten weisen auf eine starke positive Korrelation zwischen Einkommen und Lebenserwartung hin."
+      },
+      {
+        "en": "Early results indicate that the vaccine is both safe and effective.",
+        "de": "Erste Ergebnisse deuten darauf hin, dass der Impfstoff sowohl sicher als auch wirksam ist."
+      }
+    ],
+    "opposite": {
+      "en": "conceal",
+      "de": "verbergen / verschleiern",
+      "example_en": "Selective reporting can conceal trends that the data would otherwise indicate.",
+      "example_de": "Selektive Berichterstattung kann Trends verbergen, auf die die Daten andernfalls hinweisen würden."
+    },
+    "synonyms": [
+      { "word": "suggest", "de": "nahelegen / andeuten" },
+      { "word": "show", "de": "zeigen / belegen" },
+      { "word": "demonstrate", "de": "belegen / demonstrieren" }
+    ],
+    "word_family": [
+      { "word": "indication", "pos": "noun", "de": "Hinweis / Anzeichen" },
+      { "word": "indicator", "pos": "noun", "de": "Indikator / Anzeiger" },
+      { "word": "indicative", "pos": "adj", "de": "bezeichnend / hinweisend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl21_inherent_12",
+    "word": "inherent",
+    "group": "AWL21",
+    "group_label": "Academic Word List – Sublist 21",
+    "pos": "adjective",
+    "translations": { "de": "inhärent / innewohnend / wesensmäßig" },
+    "examples": [
+      {
+        "en": "There are inherent risks in any medical procedure that cannot be entirely eliminated.",
+        "de": "Bei jedem medizinischen Eingriff gibt es inhärente Risiken, die nicht vollständig beseitigt werden können."
+      },
+      {
+        "en": "The researchers acknowledged the inherent limitations of a self-reported survey.",
+        "de": "Die Forscher erkannten die inhärenten Grenzen einer Umfrage auf Selbstauskunftsbasis an."
+      }
+    ],
+    "opposite": {
+      "en": "extrinsic",
+      "de": "extrinsisch / von außen kommend / äußerlich",
+      "example_en": "Extrinsic factors such as market conditions can override inherent product strengths.",
+      "example_de": "Extrinsische Faktoren wie Marktbedingungen können inhärente Produktstärken außer Kraft setzen."
+    },
+    "synonyms": [
+      { "word": "intrinsic", "de": "intrinsisch / innewohnend" },
+      { "word": "innate", "de": "angeboren / natürlich" },
+      { "word": "built-in", "de": "eingebaut / strukturell" }
+    ],
+    "word_family": [
+      { "word": "inherently", "pos": "adv", "de": "von Natur aus / inhärent" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl21_insight_13",
+    "word": "insight",
+    "group": "AWL21",
+    "group_label": "Academic Word List – Sublist 21",
+    "pos": "noun",
+    "translations": { "de": "Einblick / Erkenntnis / tiefes Verständnis" },
+    "examples": [
+      {
+        "en": "The interviews provided valuable insights into how employees experience organisational change.",
+        "de": "Die Interviews lieferten wertvolle Einblicke darin, wie Mitarbeiter den organisatorischen Wandel erleben."
+      },
+      {
+        "en": "Darwin's insight into natural selection transformed our understanding of life on Earth.",
+        "de": "Darwins Erkenntnis über die natürliche Selektion hat unser Verständnis des Lebens auf der Erde grundlegend verändert."
+      }
+    ],
+    "opposite": {
+      "en": "ignorance",
+      "de": "Unwissenheit / Unkenntnis",
+      "example_en": "Ignorance of cultural norms can undermine what the data reveal as actionable insights.",
+      "example_de": "Unkenntnis kultureller Normen kann untergraben, was die Daten als umsetzbare Erkenntnisse aufzeigen."
+    },
+    "synonyms": [
+      { "word": "understanding", "de": "Verständnis / Einsicht" },
+      { "word": "perception", "de": "Wahrnehmung / Erkenntnis" },
+      { "word": "awareness", "de": "Bewusstsein / Kenntnis" }
+    ],
+    "word_family": [
+      { "word": "insightful", "pos": "adj", "de": "aufschlussreich / erkenntnisreich" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "gain insight into", "de": "Einblick gewinnen in", "example": "The study aims to gain insight into the decision-making process of adolescents." }
+    ]
+  },
+  {
+    "id": "awl21_mechanism_14",
+    "word": "mechanism",
+    "group": "AWL21",
+    "group_label": "Academic Word List – Sublist 21",
+    "pos": "noun",
+    "translations": { "de": "Mechanismus / Verfahren / Wirkmechanismus" },
+    "examples": [
+      {
+        "en": "The study examines the biological mechanisms by which stress affects the immune system.",
+        "de": "Die Studie untersucht die biologischen Mechanismen, durch die Stress das Immunsystem beeinflusst."
+      },
+      {
+        "en": "A transparent grievance mechanism allows employees to raise concerns without fear.",
+        "de": "Ein transparenter Beschwerdemechanismus ermöglicht es Mitarbeitern, Bedenken ohne Angst zu äußern."
+      }
+    ],
+    "opposite": {
+      "en": "disorder",
+      "de": "Unordnung / Chaos / Fehlfunktion",
+      "example_en": "When the regulatory mechanism breaks down, disorder in the market quickly follows.",
+      "example_de": "Wenn der Regulierungsmechanismus versagt, folgt schnell Unordnung auf dem Markt."
+    },
+    "synonyms": [
+      { "word": "process", "de": "Prozess / Verfahren" },
+      { "word": "procedure", "de": "Vorgehensweise / Prozedur" },
+      { "word": "system", "de": "System / Apparat" }
+    ],
+    "word_family": [
+      { "word": "mechanical", "pos": "adj", "de": "mechanisch / maschinell" },
+      { "word": "mechanistic", "pos": "adj", "de": "mechanistisch" },
+      { "word": "mechanically", "pos": "adv", "de": "mechanisch / maschinell" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl21_notion_15",
+    "word": "notion",
+    "group": "AWL21",
+    "group_label": "Academic Word List – Sublist 21",
+    "pos": "noun",
+    "translations": { "de": "Vorstellung / Begriff / Idee / Auffassung" },
+    "examples": [
+      {
+        "en": "The notion that humans are purely rational actors has been widely challenged in behavioural economics.",
+        "de": "Die Vorstellung, dass Menschen rein rationale Akteure sind, ist in der Verhaltensökonomik weit verbreitet angezweifelt worden."
+      },
+      {
+        "en": "The paper questions the traditional notion of sovereignty in an era of globalisation.",
+        "de": "Der Aufsatz hinterfragt den traditionellen Begriff der Souveränität im Zeitalter der Globalisierung."
+      }
+    ],
+    "opposite": {
+      "en": "certainty",
+      "de": "Gewissheit / gesichertes Wissen",
+      "example_en": "What begins as a vague notion can eventually become scientific certainty through research.",
+      "example_de": "Was als vage Vorstellung beginnt, kann durch Forschung schließlich zur wissenschaftlichen Gewissheit werden."
+    },
+    "synonyms": [
+      { "word": "concept", "de": "Konzept / Begriff" },
+      { "word": "idea", "de": "Idee / Vorstellung" },
+      { "word": "belief", "de": "Überzeugung / Ansicht" }
+    ],
+    "word_family": [
+      { "word": "notional", "pos": "adj", "de": "notionell / gedanklich / nominell" },
+      { "word": "notionally", "pos": "adv", "de": "gedanklich / nominell" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl21_paradigm_16",
+    "word": "paradigm",
+    "group": "AWL21",
+    "group_label": "Academic Word List – Sublist 21",
+    "pos": "noun",
+    "translations": { "de": "Paradigma / Denkmodell / Grundmuster" },
+    "examples": [
+      {
+        "en": "Einstein's theory of relativity triggered a paradigm shift in modern physics.",
+        "de": "Einsteins Relativitätstheorie löste einen Paradigmenwechsel in der modernen Physik aus."
+      },
+      {
+        "en": "The dominant paradigm in economics assumes that individuals always seek to maximise utility.",
+        "de": "Das vorherrschende Paradigma in der Wirtschaftswissenschaft geht davon aus, dass Individuen stets ihren Nutzen maximieren wollen."
+      }
+    ],
+    "opposite": {
+      "en": "exception",
+      "de": "Ausnahme / Sonderfall",
+      "example_en": "Anomalies that resist explanation often signal the need to move beyond the current paradigm.",
+      "example_de": "Anomalien, die sich der Erklärung entziehen, signalisieren oft die Notwendigkeit, das aktuelle Paradigma zu überwinden."
+    },
+    "synonyms": [
+      { "word": "model", "de": "Modell / Muster" },
+      { "word": "framework", "de": "Rahmen / Konzept" },
+      { "word": "template", "de": "Vorlage / Muster" }
+    ],
+    "word_family": [
+      { "word": "paradigmatic", "pos": "adj", "de": "paradigmatisch / musterhaft" },
+      { "word": "paradigm shift", "pos": "noun", "de": "Paradigmenwechsel" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl21_substantial_17",
+    "word": "substantial",
+    "group": "AWL21",
+    "group_label": "Academic Word List – Sublist 21",
+    "pos": "adjective",
+    "translations": { "de": "erheblich / beträchtlich / wesentlich" },
+    "examples": [
+      {
+        "en": "The intervention produced a substantial reduction in patient readmission rates.",
+        "de": "Die Maßnahme bewirkte eine erhebliche Verringerung der Wiederaufnahmequote von Patienten."
+      },
+      {
+        "en": "There is substantial evidence linking air pollution to respiratory disease.",
+        "de": "Es gibt erhebliche Belege für den Zusammenhang zwischen Luftverschmutzung und Atemwegserkrankungen."
+      }
+    ],
+    "opposite": {
+      "en": "negligible",
+      "de": "vernachlässigbar / geringfügig",
+      "example_en": "The difference between the two groups was statistically negligible.",
+      "example_de": "Der Unterschied zwischen den beiden Gruppen war statistisch gesehen vernachlässigbar."
+    },
+    "synonyms": [
+      { "word": "considerable", "de": "beträchtlich / erheblich" },
+      { "word": "significant", "de": "bedeutsam / erheblich" },
+      { "word": "sizeable", "de": "beachtlich / beträchtlich" }
+    ],
+    "word_family": [
+      { "word": "substantially", "pos": "adv", "de": "erheblich / wesentlich" },
+      { "word": "substance", "pos": "noun", "de": "Substanz / Gehalt / Stoff" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl21_sufficient_18",
+    "word": "sufficient",
+    "group": "AWL21",
+    "group_label": "Academic Word List – Sublist 21",
+    "pos": "adjective",
+    "translations": { "de": "ausreichend / genügend / hinreichend" },
+    "examples": [
+      {
+        "en": "The sample size was not sufficient to draw statistically reliable conclusions.",
+        "de": "Die Stichprobengröße war nicht ausreichend, um statistisch zuverlässige Schlussfolgerungen zu ziehen."
+      },
+      {
+        "en": "A basic understanding of statistics is sufficient for interpreting most survey results.",
+        "de": "Ein grundlegendes Verständnis der Statistik ist ausreichend, um die meisten Umfrageergebnisse zu interpretieren."
+      }
+    ],
+    "opposite": {
+      "en": "insufficient",
+      "de": "unzureichend / ungenügend",
+      "example_en": "Insufficient funding forced the project to be suspended after only six months.",
+      "example_de": "Unzureichende Finanzierung zwang dazu, das Projekt nach nur sechs Monaten auszusetzen."
+    },
+    "synonyms": [
+      { "word": "adequate", "de": "angemessen / ausreichend" },
+      { "word": "enough", "de": "genug / ausreichend" },
+      { "word": "satisfactory", "de": "zufriedenstellend / ausreichend" }
+    ],
+    "word_family": [
+      { "word": "sufficiently", "pos": "adv", "de": "ausreichend / hinreichend" },
+      { "word": "sufficiency", "pos": "noun", "de": "Ausreichendheit / Genügsamkeit" },
+      { "word": "self-sufficient", "pos": "adj", "de": "selbstversorgend / autark" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl21_transition_19",
+    "word": "transition",
+    "group": "AWL21",
+    "group_label": "Academic Word List – Sublist 21",
+    "pos": "noun",
+    "translations": { "de": "Übergang / Wandel / Transition" },
+    "examples": [
+      {
+        "en": "The transition from fossil fuels to renewable energy requires massive infrastructure investment.",
+        "de": "Der Übergang von fossilen Brennstoffen zu erneuerbaren Energien erfordert massive Infrastrukturinvestitionen."
+      },
+      {
+        "en": "Young people often find the transition from school to university challenging.",
+        "de": "Junge Menschen empfinden den Übergang von der Schule zur Universität oft als herausfordernd."
+      }
+    ],
+    "opposite": {
+      "en": "stagnation",
+      "de": "Stagnation / Stillstand",
+      "example_en": "Economic stagnation is the opposite of the dynamic transition policymakers are seeking.",
+      "example_de": "Wirtschaftliche Stagnation ist das Gegenteil des dynamischen Wandels, den Politiker anstreben."
+    },
+    "synonyms": [
+      { "word": "shift", "de": "Verschiebung / Wandel" },
+      { "word": "change", "de": "Veränderung / Wechsel" },
+      { "word": "transformation", "de": "Transformation / Verwandlung" }
+    ],
+    "word_family": [
+      { "word": "transition", "pos": "verb", "de": "übergehen / wechseln" },
+      { "word": "transitional", "pos": "adj", "de": "übergangs- / transitional" },
+      { "word": "transitionally", "pos": "adv", "de": "übergangsweise" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "transition to", "de": "übergehen zu / wechseln zu", "example": "Many economies are transitioning to low-carbon energy systems." }
+    ]
+  },
+  {
+    "id": "awl21_variable_20",
+    "word": "variable",
+    "group": "AWL21",
+    "group_label": "Academic Word List – Sublist 21",
+    "pos": "noun",
+    "translations": { "de": "Variable / Einflussgröße / veränderliche Größe" },
+    "examples": [
+      {
+        "en": "The experiment controlled for multiple variables to isolate the effect of temperature.",
+        "de": "Das Experiment kontrollierte mehrere Variablen, um den Effekt der Temperatur zu isolieren."
+      },
+      {
+        "en": "Income is one of the key variables used to predict consumer behaviour in this model.",
+        "de": "Das Einkommen ist eine der zentralen Variablen, die in diesem Modell zur Vorhersage des Verbraucherverhaltens verwendet werden."
+      }
+    ],
+    "opposite": {
+      "en": "constant",
+      "de": "Konstante / unveränderliche Größe",
+      "example_en": "Unlike a variable, a constant retains its value throughout the entire experiment.",
+      "example_de": "Im Gegensatz zu einer Variablen behält eine Konstante ihren Wert während des gesamten Experiments bei."
+    },
+    "synonyms": [
+      { "word": "factor", "de": "Faktor / Einflussgröße" },
+      { "word": "parameter", "de": "Parameter / Kenngröße" },
+      { "word": "quantity", "de": "Größe / Menge" }
+    ],
+    "word_family": [
+      { "word": "variable", "pos": "adj", "de": "variabel / veränderlich / schwankend" },
+      { "word": "vary", "pos": "verb", "de": "variieren / sich ändern" },
+      { "word": "variation", "pos": "noun", "de": "Variation / Schwankung" },
+      { "word": "invariable", "pos": "adj", "de": "unveränderlich / konstant" }
+    ],
+    "phrasal_verbs": []
+  }
+]
