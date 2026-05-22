@@ -1,0 +1,529 @@
+[
+  {
+    "id": "awl31_001",
+    "word": "labour",
+    "group": "AWL31",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Arbeit, Arbeitskraft, Mühe; arbeiten" },
+    "examples": [
+      {
+        "en": "The division of labour has been a central concept in economic theory since Adam Smith.",
+        "de": "Die Arbeitsteilung ist seit Adam Smith ein zentrales Konzept in der Wirtschaftstheorie."
+      },
+      {
+        "en": "Globalisation has shifted labour-intensive manufacturing to lower-wage economies.",
+        "de": "Die Globalisierung hat die arbeitsintensive Fertigung in Niedriglohnländer verlagert."
+      }
+    ],
+    "opposite": { "word": "capital", "de": "Kapital" },
+    "synonyms": ["work", "workforce", "toil", "effort"],
+    "word_family": [
+      { "word": "labourer", "pos": "noun", "de": "Arbeiter/in, Lohnarbeiter/in" },
+      { "word": "laborious", "pos": "adjective", "de": "mühsam, arbeitsreich" },
+      { "word": "labour market", "pos": "phrase", "de": "Arbeitsmarkt" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "labour under", "de": "leiden unter, kämpfen mit", "example": "Many researchers labour under the pressure of constant funding uncertainty." }
+    ]
+  },
+  {
+    "id": "awl31_002",
+    "word": "legal",
+    "group": "AWL31",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "rechtlich, gesetzlich, legal" },
+    "examples": [
+      {
+        "en": "The legal framework governing data protection has evolved rapidly in response to digital technologies.",
+        "de": "Der Rechtsrahmen für den Datenschutz hat sich als Reaktion auf digitale Technologien schnell weiterentwickelt."
+      },
+      {
+        "en": "Researchers must ensure their data collection methods comply with all relevant legal requirements.",
+        "de": "Forscher müssen sicherstellen, dass ihre Datenerhebungsmethoden allen relevanten gesetzlichen Anforderungen entsprechen."
+      }
+    ],
+    "opposite": { "word": "illegal", "de": "illegal, rechtswidrig" },
+    "synonyms": ["lawful", "legitimate", "statutory", "juridical"],
+    "word_family": [
+      { "word": "legally", "pos": "adverb", "de": "rechtlich, legal" },
+      { "word": "legality", "pos": "noun", "de": "Legalität, Rechtmäßigkeit" },
+      { "word": "legalise", "pos": "verb", "de": "legalisieren" },
+      { "word": "illegal", "pos": "adjective", "de": "illegal, rechtswidrig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl31_003",
+    "word": "link",
+    "group": "AWL31",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Verbindung, Zusammenhang; verknüpfen" },
+    "examples": [
+      {
+        "en": "There is a well-established link between social deprivation and poor educational outcomes.",
+        "de": "Es gibt einen gut belegten Zusammenhang zwischen sozialer Benachteiligung und schlechten Bildungsergebnissen."
+      },
+      {
+        "en": "The study links early childhood experiences to adult mental health trajectories.",
+        "de": "Die Studie verbindet frühkindliche Erfahrungen mit den Verläufen der psychischen Gesundheit im Erwachsenenalter."
+      }
+    ],
+    "opposite": { "word": "separation", "de": "Trennung, Abkopplung" },
+    "synonyms": ["connection", "association", "relationship", "bond"],
+    "word_family": [
+      { "word": "linkage", "pos": "noun", "de": "Verknüpfung, Verbindung" },
+      { "word": "interlinked", "pos": "adjective", "de": "miteinander verknüpft" },
+      { "word": "unlinked", "pos": "adjective", "de": "nicht verknüpft, unverbunden" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "link to / with", "de": "verknüpfen mit, in Verbindung bringen", "example": "Poverty has been consistently linked to higher rates of chronic illness." }
+    ]
+  },
+  {
+    "id": "awl31_004",
+    "word": "maintain",
+    "group": "AWL31",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "aufrechterhalten, beibehalten, warten; behaupten" },
+    "examples": [
+      {
+        "en": "It is challenging to maintain scientific objectivity when researchers have a personal stake in the outcome.",
+        "de": "Es ist schwierig, wissenschaftliche Objektivität aufrechtzuerhalten, wenn Forscher ein persönliches Interesse am Ergebnis haben."
+      },
+      {
+        "en": "Some scholars maintain that cultural factors are more influential than economic ones.",
+        "de": "Einige Wissenschaftler behaupten, dass kulturelle Faktoren einflussreicher sind als wirtschaftliche."
+      }
+    ],
+    "opposite": { "word": "abandon", "de": "aufgeben, verlassen" },
+    "synonyms": ["uphold", "preserve", "sustain", "assert"],
+    "word_family": [
+      { "word": "maintenance", "pos": "noun", "de": "Aufrechterhaltung, Wartung" },
+      { "word": "maintainable", "pos": "adjective", "de": "aufrechtzuerhalten, wartbar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl31_005",
+    "word": "method",
+    "group": "AWL31",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Methode, Verfahren, Vorgehensweise" },
+    "examples": [
+      {
+        "en": "The choice of research method should be guided by the nature of the research question.",
+        "de": "Die Wahl der Forschungsmethode sollte durch die Art der Forschungsfrage geleitet werden."
+      },
+      {
+        "en": "Mixed methods combine qualitative and quantitative approaches to provide richer insights.",
+        "de": "Gemischte Methoden kombinieren qualitative und quantitative Ansätze, um reichhaltigere Erkenntnisse zu gewinnen."
+      }
+    ],
+    "opposite": { "word": "randomness", "de": "Zufälligkeit, Willkür" },
+    "synonyms": ["approach", "technique", "procedure", "strategy"],
+    "word_family": [
+      { "word": "methodical", "pos": "adjective", "de": "methodisch, systematisch" },
+      { "word": "methodically", "pos": "adverb", "de": "methodisch, systematisch" },
+      { "word": "methodology", "pos": "noun", "de": "Methodologie" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl31_006",
+    "word": "model",
+    "group": "AWL31",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Modell, Vorbild; modellieren" },
+    "examples": [
+      {
+        "en": "The theoretical model predicts a positive relationship between education and civic participation.",
+        "de": "Das theoretische Modell sagt einen positiven Zusammenhang zwischen Bildung und zivilem Engagement voraus."
+      },
+      {
+        "en": "Computational models allow researchers to simulate complex systems under controlled conditions.",
+        "de": "Computermodelle ermöglichen es Forschern, komplexe Systeme unter kontrollierten Bedingungen zu simulieren."
+      }
+    ],
+    "opposite": { "word": "reality", "de": "Realität, Wirklichkeit" },
+    "synonyms": ["framework", "representation", "paradigm", "template"],
+    "word_family": [
+      { "word": "modelling", "pos": "noun", "de": "Modellierung" },
+      { "word": "model-based", "pos": "adjective", "de": "modellbasiert" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "model on / after", "de": "nach einem Vorbild gestalten", "example": "The intervention was modelled on a successful programme from Scandinavia." }
+    ]
+  },
+  {
+    "id": "awl31_007",
+    "word": "network",
+    "group": "AWL31",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Netzwerk, Netz; vernetzen" },
+    "examples": [
+      {
+        "en": "Social networks influence the spread of information, ideas, and behaviours within communities.",
+        "de": "Soziale Netzwerke beeinflussen die Verbreitung von Informationen, Ideen und Verhaltensweisen in Gemeinschaften."
+      },
+      {
+        "en": "The research network enables collaboration between universities across twelve countries.",
+        "de": "Das Forschungsnetzwerk ermöglicht die Zusammenarbeit zwischen Universitäten in zwölf Ländern."
+      }
+    ],
+    "opposite": { "word": "isolation", "de": "Isolation, Abkopplung" },
+    "synonyms": ["system", "web", "grid", "community"],
+    "word_family": [
+      { "word": "networking", "pos": "noun", "de": "Vernetzung, Netzwerkpflege" },
+      { "word": "networked", "pos": "adjective", "de": "vernetzt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl31_008",
+    "word": "norm",
+    "group": "AWL31",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Norm, Standard, Regel" },
+    "examples": [
+      {
+        "en": "Social norms govern behaviour in ways that formal laws cannot always reach.",
+        "de": "Soziale Normen regeln Verhalten auf eine Weise, die formale Gesetze nicht immer erreichen können."
+      },
+      {
+        "en": "Deviating from professional norms can damage a researcher's credibility and career.",
+        "de": "Das Abweichen von professionellen Normen kann die Glaubwürdigkeit und Karriere eines Forschers beschädigen."
+      }
+    ],
+    "opposite": { "word": "deviance", "de": "Abweichung, Normverstoß" },
+    "synonyms": ["standard", "convention", "rule", "expectation"],
+    "word_family": [
+      { "word": "normal", "pos": "adjective", "de": "normal, üblich" },
+      { "word": "normalise", "pos": "verb", "de": "normalisieren" },
+      { "word": "normative", "pos": "adjective", "de": "normativ" },
+      { "word": "abnormal", "pos": "adjective", "de": "abnormal, ungewöhnlich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl31_009",
+    "word": "occur",
+    "group": "AWL31",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "auftreten, vorkommen, geschehen" },
+    "examples": [
+      {
+        "en": "Significant changes in species distribution occur when habitats are altered by climate shifts.",
+        "de": "Erhebliche Veränderungen in der Artenverteilung treten auf, wenn Lebensräume durch klimatische Verschiebungen verändert werden."
+      },
+      {
+        "en": "The phenomenon occurs more frequently in populations with limited access to preventive care.",
+        "de": "Das Phänomen tritt häufiger in Bevölkerungsgruppen auf, die nur begrenzten Zugang zu Vorsorgeversorgung haben."
+      }
+    ],
+    "opposite": { "word": "cease", "de": "aufhören, zum Erliegen kommen" },
+    "synonyms": ["happen", "arise", "take place", "emerge"],
+    "word_family": [
+      { "word": "occurrence", "pos": "noun", "de": "Auftreten, Vorkommen, Ereignis" },
+      { "word": "recur", "pos": "verb", "de": "wiederkehren, erneut auftreten" },
+      { "word": "recurrence", "pos": "noun", "de": "Wiederauftreten, Rückfall" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl31_010",
+    "word": "operate",
+    "group": "AWL31",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "betreiben, funktionieren, operieren, wirken" },
+    "examples": [
+      {
+        "en": "Markets do not always operate efficiently in the presence of information asymmetries.",
+        "de": "Märkte funktionieren bei Vorhandensein von Informationsasymmetrien nicht immer effizient."
+      },
+      {
+        "en": "Non-governmental organisations often operate in regions where state institutions are absent.",
+        "de": "Nichtregierungsorganisationen sind oft in Regionen tätig, in denen staatliche Institutionen fehlen."
+      }
+    ],
+    "opposite": { "word": "shut down", "de": "abschalten, stilllegen" },
+    "synonyms": ["function", "work", "run", "act"],
+    "word_family": [
+      { "word": "operation", "pos": "noun", "de": "Betrieb, Operation, Einsatz" },
+      { "word": "operational", "pos": "adjective", "de": "operationell, betrieblich" },
+      { "word": "operator", "pos": "noun", "de": "Betreiber/in, Operator/in" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "operate within", "de": "agieren innerhalb, tätig sein in", "example": "Researchers must operate within the ethical boundaries set by their institution." }
+    ]
+  },
+  {
+    "id": "awl31_011",
+    "word": "output",
+    "group": "AWL31",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Ausgabe, Ertrag, Produktion, Leistung" },
+    "examples": [
+      {
+        "en": "Research output is increasingly measured not only by volume but by societal impact.",
+        "de": "Der Forschungsoutput wird zunehmend nicht nur nach Volumen, sondern nach gesellschaftlicher Wirkung gemessen."
+      },
+      {
+        "en": "The economic output of the region declined sharply following the factory closures.",
+        "de": "Die wirtschaftliche Leistung der Region ging nach den Fabrikschließungen stark zurück."
+      }
+    ],
+    "opposite": { "word": "input", "de": "Eingabe, Einsatz, Input" },
+    "synonyms": ["production", "yield", "result", "product"],
+    "word_family": [
+      { "word": "throughput", "pos": "noun", "de": "Durchsatz, Verarbeitungskapazität" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl31_012",
+    "word": "period",
+    "group": "AWL31",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Zeitraum, Periode, Epoche" },
+    "examples": [
+      {
+        "en": "The study covers a period of twenty years, from 2000 to 2020.",
+        "de": "Die Studie umfasst einen Zeitraum von zwanzig Jahren, von 2000 bis 2020."
+      },
+      {
+        "en": "During the post-war period, welfare states expanded significantly across Western Europe.",
+        "de": "In der Nachkriegszeit wurden die Wohlfahrtsstaaten in Westeuropa erheblich ausgebaut."
+      }
+    ],
+    "opposite": { "word": "moment", "de": "Moment, Augenblick" },
+    "synonyms": ["timeframe", "era", "interval", "phase"],
+    "word_family": [
+      { "word": "periodic", "pos": "adjective", "de": "periodisch, regelmäßig" },
+      { "word": "periodically", "pos": "adverb", "de": "periodisch, in regelmäßigen Abständen" },
+      { "word": "periodicity", "pos": "noun", "de": "Periodizität" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl31_013",
+    "word": "policy",
+    "group": "AWL31",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Politik, Richtlinie, Grundsatz" },
+    "examples": [
+      {
+        "en": "Evidence-based policy relies on rigorous research to guide governmental decision-making.",
+        "de": "Evidenzbasierte Politik stützt sich auf strenge Forschung, um staatliche Entscheidungsfindung zu leiten."
+      },
+      {
+        "en": "The journal's editorial policy requires all submissions to follow standardised citation formats.",
+        "de": "Die Redaktionspolitik der Zeitschrift verlangt von allen Einreichungen die Einhaltung standardisierter Zitatformate."
+      }
+    ],
+    "opposite": { "word": "improvisation", "de": "Improvisation, Spontanhandeln" },
+    "synonyms": ["strategy", "guideline", "regulation", "programme"],
+    "word_family": [
+      { "word": "policymaker", "pos": "noun", "de": "Politikgestalter/in, Entscheidungsträger/in" },
+      { "word": "policy-driven", "pos": "adjective", "de": "politikgeleitet" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl31_014",
+    "word": "process",
+    "group": "AWL31",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Prozess, Verfahren, Vorgang; verarbeiten" },
+    "examples": [
+      {
+        "en": "Peer review is a fundamental process for ensuring the quality of scientific publications.",
+        "de": "Peer Review ist ein grundlegender Prozess zur Sicherung der Qualität wissenschaftlicher Veröffentlichungen."
+      },
+      {
+        "en": "The process of institutional change is typically slow and incremental rather than revolutionary.",
+        "de": "Der Prozess des institutionellen Wandels ist typischerweise langsam und inkrementell statt revolutionär."
+      }
+    ],
+    "opposite": { "word": "stasis", "de": "Stillstand, Stagnation" },
+    "synonyms": ["procedure", "mechanism", "operation", "course"],
+    "word_family": [
+      { "word": "processing", "pos": "noun", "de": "Verarbeitung" },
+      { "word": "processor", "pos": "noun", "de": "Prozessor, Verarbeiter/in" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl31_015",
+    "word": "project",
+    "group": "AWL31",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Projekt, Vorhaben; projizieren, voraussagen" },
+    "examples": [
+      {
+        "en": "The research project is funded by the European Research Council for a period of three years.",
+        "de": "Das Forschungsprojekt wird vom Europäischen Forschungsrat für einen Zeitraum von drei Jahren finanziert."
+      },
+      {
+        "en": "Analysts project that global temperatures will rise by two degrees by the end of the century.",
+        "de": "Analysten prognostizieren, dass die globalen Temperaturen bis Ende des Jahrhunderts um zwei Grad steigen werden."
+      }
+    ],
+    "opposite": { "word": "retrospective", "de": "Rückblick, rückblickend" },
+    "synonyms": ["initiative", "programme", "scheme", "venture"],
+    "word_family": [
+      { "word": "projection", "pos": "noun", "de": "Projektion, Prognose" },
+      { "word": "projected", "pos": "adjective", "de": "prognostiziert, vorausgesagt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl31_016",
+    "word": "publish",
+    "group": "AWL31",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "veröffentlichen, publizieren, herausgeben" },
+    "examples": [
+      {
+        "en": "Researchers are under increasing pressure to publish frequently in high-impact journals.",
+        "de": "Forscher stehen unter zunehmendem Druck, häufig in hochrangigen Fachzeitschriften zu veröffentlichen."
+      },
+      {
+        "en": "The results were published in a peer-reviewed journal after extensive revision.",
+        "de": "Die Ergebnisse wurden nach ausführlicher Überarbeitung in einer begutachteten Fachzeitschrift veröffentlicht."
+      }
+    ],
+    "opposite": { "word": "withhold", "de": "zurückhalten, nicht veröffentlichen" },
+    "synonyms": ["release", "disseminate", "issue", "circulate"],
+    "word_family": [
+      { "word": "publication", "pos": "noun", "de": "Veröffentlichung, Publikation" },
+      { "word": "publisher", "pos": "noun", "de": "Verlag, Verleger/in" },
+      { "word": "unpublished", "pos": "adjective", "de": "unveröffentlicht" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl31_017",
+    "word": "purpose",
+    "group": "AWL31",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Zweck, Ziel, Absicht" },
+    "examples": [
+      {
+        "en": "The purpose of this study is to examine the relationship between housing quality and health.",
+        "de": "Zweck dieser Studie ist es, den Zusammenhang zwischen Wohnqualität und Gesundheit zu untersuchen."
+      },
+      {
+        "en": "Data collected for one purpose should not be repurposed without ethical review.",
+        "de": "Daten, die für einen bestimmten Zweck erhoben wurden, sollten ohne ethische Prüfung nicht zweckentfremdet werden."
+      }
+    ],
+    "opposite": { "word": "aimlessness", "de": "Ziellosigkeit" },
+    "synonyms": ["aim", "objective", "intention", "goal"],
+    "word_family": [
+      { "word": "purposeful", "pos": "adjective", "de": "zielgerichtet, zweckvoll" },
+      { "word": "purposely", "pos": "adverb", "de": "absichtlich, bewusst" },
+      { "word": "repurpose", "pos": "verb", "de": "zweckentfremden, neu verwenden" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "on purpose", "de": "absichtlich, mit Absicht", "example": "The ambiguity in the wording was introduced on purpose to test participant interpretation." }
+    ]
+  },
+  {
+    "id": "awl31_018",
+    "word": "rate",
+    "group": "AWL31",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Rate, Tempo, Anteil; bewerten, einschätzen" },
+    "examples": [
+      {
+        "en": "The unemployment rate is a key indicator used to assess the health of an economy.",
+        "de": "Die Arbeitslosenquote ist ein wichtiger Indikator zur Beurteilung der wirtschaftlichen Lage."
+      },
+      {
+        "en": "The rate at which technology is advancing makes long-term planning increasingly difficult.",
+        "de": "Das Tempo, mit dem sich die Technologie entwickelt, macht eine langfristige Planung zunehmend schwieriger."
+      }
+    ],
+    "opposite": { "word": "stagnation", "de": "Stagnation, Stillstand" },
+    "synonyms": ["pace", "level", "proportion", "frequency"],
+    "word_family": [
+      { "word": "rating", "pos": "noun", "de": "Bewertung, Einstufung" },
+      { "word": "overrate", "pos": "verb", "de": "überschätzen" },
+      { "word": "underrate", "pos": "verb", "de": "unterschätzen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl31_019",
+    "word": "reform",
+    "group": "AWL31",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Reform, Reformen; reformieren" },
+    "examples": [
+      {
+        "en": "Educational reform requires sustained political will and adequate financial investment.",
+        "de": "Bildungsreformen erfordern nachhaltigen politischen Willen und angemessene finanzielle Investitionen."
+      },
+      {
+        "en": "The IMF recommended sweeping fiscal reforms to stabilise the country's economy.",
+        "de": "Der IWF empfahl weitreichende Fiskalreformen zur Stabilisierung der Volkswirtschaft des Landes."
+      }
+    ],
+    "opposite": { "word": "stagnation", "de": "Stagnation, Reformstau" },
+    "synonyms": ["improvement", "overhaul", "restructuring", "transformation"],
+    "word_family": [
+      { "word": "reformer", "pos": "noun", "de": "Reformer/in" },
+      { "word": "reformist", "pos": "adjective", "de": "reformistisch" },
+      { "word": "unreformed", "pos": "adjective", "de": "unreformiert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl31_020",
+    "word": "relation",
+    "group": "AWL31",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Beziehung, Verhältnis, Zusammenhang" },
+    "examples": [
+      {
+        "en": "The relation between income inequality and social mobility has been extensively studied.",
+        "de": "Die Beziehung zwischen Einkommensungleichheit und sozialer Mobilität wurde ausgiebig untersucht."
+      },
+      {
+        "en": "Industrial relations refer to the dynamics between employers, employees, and trade unions.",
+        "de": "Arbeitsbeziehungen bezeichnen die Dynamik zwischen Arbeitgebern, Arbeitnehmern und Gewerkschaften."
+      }
+    ],
+    "opposite": { "word": "independence", "de": "Unabhängigkeit, Eigenständigkeit" },
+    "synonyms": ["relationship", "connection", "association", "correlation"],
+    "word_family": [
+      { "word": "relate", "pos": "verb", "de": "in Beziehung setzen, betreffen" },
+      { "word": "relative", "pos": "adjective", "de": "relativ, verhältnismäßig" },
+      { "word": "relatively", "pos": "adverb", "de": "relativ, verhältnismäßig" },
+      { "word": "relational", "pos": "adjective", "de": "relational, Beziehungs-" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "in relation to", "de": "in Bezug auf, im Verhältnis zu", "example": "Wages have stagnated in relation to productivity gains over the past two decades." }
+    ]
+  }
+]
