@@ -1,0 +1,527 @@
+[
+  {
+    "id": "awl32_001",
+    "word": "region",
+    "group": "AWL32",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Region, Gebiet, Bereich" },
+    "examples": [
+      {
+        "en": "Economic disparities between regions remain a persistent challenge for policymakers.",
+        "de": "Wirtschaftliche Unterschiede zwischen Regionen bleiben eine anhaltende Herausforderung für politische Entscheidungsträger."
+      },
+      {
+        "en": "The study compares health outcomes across twelve regions with different levels of urbanisation.",
+        "de": "Die Studie vergleicht Gesundheitsergebnisse in zwölf Regionen mit unterschiedlichen Urbanisierungsgraden."
+      }
+    ],
+    "opposite": { "word": "centre", "de": "Zentrum, Mittelpunkt" },
+    "synonyms": ["area", "zone", "territory", "district"],
+    "word_family": [
+      { "word": "regional", "pos": "adjective", "de": "regional" },
+      { "word": "regionally", "pos": "adverb", "de": "regional" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl32_002",
+    "word": "report",
+    "group": "AWL32",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Bericht, Meldung; berichten, melden" },
+    "examples": [
+      {
+        "en": "The annual report documents trends in inequality across OECD member states.",
+        "de": "Der Jahresbericht dokumentiert Trends bei der Ungleichheit in den OECD-Mitgliedsstaaten."
+      },
+      {
+        "en": "Participants reported higher levels of satisfaction after completing the intervention programme.",
+        "de": "Die Teilnehmer berichteten nach Abschluss des Interventionsprogramms von höheren Zufriedenheitswerten."
+      }
+    ],
+    "opposite": { "word": "suppress", "de": "unterdrücken, zurückhalten" },
+    "synonyms": ["account", "findings", "document", "record"],
+    "word_family": [
+      { "word": "reporter", "pos": "noun", "de": "Berichterstatter/in" },
+      { "word": "reporting", "pos": "noun", "de": "Berichterstattung" },
+      { "word": "self-reported", "pos": "adjective", "de": "selbstberichtet" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "report on", "de": "berichten über", "example": "The committee reports on progress every six months." }
+    ]
+  },
+  {
+    "id": "awl32_003",
+    "word": "role",
+    "group": "AWL32",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Rolle, Funktion, Aufgabe" },
+    "examples": [
+      {
+        "en": "The role of institutions in shaping economic outcomes has been extensively debated.",
+        "de": "Die Rolle der Institutionen bei der Gestaltung wirtschaftlicher Ergebnisse wurde ausgiebig diskutiert."
+      },
+      {
+        "en": "Gender roles vary considerably across different cultural and historical contexts.",
+        "de": "Geschlechterrollen variieren erheblich je nach kulturellem und historischem Kontext."
+      }
+    ],
+    "opposite": { "word": "irrelevance", "de": "Irrelevanz, Bedeutungslosigkeit" },
+    "synonyms": ["function", "part", "position", "contribution"],
+    "word_family": [
+      { "word": "role model", "pos": "phrase", "de": "Vorbild, Rollenmodell" },
+      { "word": "role-play", "pos": "noun/verb", "de": "Rollenspiel" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl32_004",
+    "word": "sector",
+    "group": "AWL32",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Sektor, Bereich, Branche" },
+    "examples": [
+      {
+        "en": "The public sector and private sector often have contrasting incentive structures.",
+        "de": "Der öffentliche Sektor und der private Sektor haben oft gegensätzliche Anreizstrukturen."
+      },
+      {
+        "en": "Investment in the renewable energy sector has grown dramatically over the past decade.",
+        "de": "Investitionen im Bereich erneuerbare Energien sind im letzten Jahrzehnt dramatisch gestiegen."
+      }
+    ],
+    "opposite": { "word": "whole", "de": "Ganzes, Gesamtheit" },
+    "synonyms": ["industry", "field", "area", "domain"],
+    "word_family": [
+      { "word": "sectoral", "pos": "adjective", "de": "sektoral, branchenspezifisch" },
+      { "word": "cross-sector", "pos": "adjective", "de": "sektorübergreifend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl32_005",
+    "word": "select",
+    "group": "AWL32",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "auswählen, selektieren, aussuchen" },
+    "examples": [
+      {
+        "en": "Participants were randomly selected from a population register to ensure representativeness.",
+        "de": "Die Teilnehmer wurden zufällig aus einem Bevölkerungsregister ausgewählt, um Repräsentativität zu gewährleisten."
+      },
+      {
+        "en": "The criteria used to select case studies must be transparent and consistently applied.",
+        "de": "Die Kriterien für die Auswahl von Fallstudien müssen transparent und einheitlich angewendet werden."
+      }
+    ],
+    "opposite": { "word": "exclude", "de": "ausschließen" },
+    "synonyms": ["choose", "pick", "designate", "identify"],
+    "word_family": [
+      { "word": "selection", "pos": "noun", "de": "Auswahl, Selektion" },
+      { "word": "selective", "pos": "adjective", "de": "selektiv, ausgewählt" },
+      { "word": "selectively", "pos": "adverb", "de": "selektiv, gezielt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl32_006",
+    "word": "shift",
+    "group": "AWL32",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Verschiebung, Wandel; verschieben, wechseln" },
+    "examples": [
+      {
+        "en": "There has been a notable shift in public opinion towards greater support for environmental regulation.",
+        "de": "Es hat eine deutliche Verschiebung der öffentlichen Meinung hin zu mehr Unterstützung für Umweltregulierung gegeben."
+      },
+      {
+        "en": "Paradigm shifts in science often require a generation of researchers to fully accept new frameworks.",
+        "de": "Paradigmenwechsel in der Wissenschaft erfordern oft eine Forschergeneration, um neue Rahmenwerke vollständig zu akzeptieren."
+      }
+    ],
+    "opposite": { "word": "stasis", "de": "Stillstand, Unveränderlichkeit" },
+    "synonyms": ["change", "transformation", "transition", "movement"],
+    "word_family": [
+      { "word": "shifting", "pos": "adjective", "de": "sich verschiebend, wechselnd" },
+      { "word": "paradigm shift", "pos": "phrase", "de": "Paradigmenwechsel" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "shift from / to", "de": "wechseln von / zu", "example": "The focus has shifted from quantity to quality of research output." }
+    ]
+  },
+  {
+    "id": "awl32_007",
+    "word": "similar",
+    "group": "AWL32",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "ähnlich, vergleichbar, gleichartig" },
+    "examples": [
+      {
+        "en": "Similar patterns of inequality have been observed across several post-industrial societies.",
+        "de": "Ähnliche Ungleichheitsmuster wurden in mehreren postindustriellen Gesellschaften beobachtet."
+      },
+      {
+        "en": "The findings are broadly similar to those reported in earlier longitudinal studies.",
+        "de": "Die Ergebnisse sind weitgehend ähnlich wie die in früheren Längsschnittstudien berichteten."
+      }
+    ],
+    "opposite": { "word": "different", "de": "unterschiedlich, verschieden" },
+    "synonyms": ["comparable", "alike", "analogous", "equivalent"],
+    "word_family": [
+      { "word": "similarity", "pos": "noun", "de": "Ähnlichkeit, Gemeinsamkeit" },
+      { "word": "similarly", "pos": "adverb", "de": "ähnlich, entsprechend, ebenfalls" },
+      { "word": "dissimilar", "pos": "adjective", "de": "unähnlich, verschieden" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl32_008",
+    "word": "source",
+    "group": "AWL32",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Quelle, Ursprung; beziehen, beschaffen" },
+    "examples": [
+      {
+        "en": "Primary sources provide first-hand accounts and are essential for historical research.",
+        "de": "Primärquellen liefern Berichte aus erster Hand und sind für die historische Forschung unerlässlich."
+      },
+      {
+        "en": "Triangulating data from multiple sources strengthens the validity of qualitative findings.",
+        "de": "Die Triangulation von Daten aus mehreren Quellen stärkt die Validität qualitativer Erkenntnisse."
+      }
+    ],
+    "opposite": { "word": "destination", "de": "Ziel, Bestimmungsort" },
+    "synonyms": ["origin", "reference", "basis", "supply"],
+    "word_family": [
+      { "word": "sourcing", "pos": "noun", "de": "Beschaffung, Quellenangabe" },
+      { "word": "open-source", "pos": "adjective", "de": "quelloffen" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "source from", "de": "beziehen von, beschaffen aus", "example": "The data was sourced from national census records." }
+    ]
+  },
+  {
+    "id": "awl32_009",
+    "word": "stable",
+    "group": "AWL32",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "stabil, beständig, gleichbleibend" },
+    "examples": [
+      {
+        "en": "A stable political environment is considered a prerequisite for sustained economic growth.",
+        "de": "Ein stabiles politisches Umfeld gilt als Voraussetzung für nachhaltiges Wirtschaftswachstum."
+      },
+      {
+        "en": "The results remained stable across repeated measurements, indicating high reliability.",
+        "de": "Die Ergebnisse blieben bei wiederholten Messungen stabil, was auf eine hohe Zuverlässigkeit hinweist."
+      }
+    ],
+    "opposite": { "word": "unstable", "de": "instabil, unbeständig" },
+    "synonyms": ["steady", "consistent", "reliable", "fixed"],
+    "word_family": [
+      { "word": "stability", "pos": "noun", "de": "Stabilität, Beständigkeit" },
+      { "word": "stabilise", "pos": "verb", "de": "stabilisieren" },
+      { "word": "instability", "pos": "noun", "de": "Instabilität" },
+      { "word": "unstable", "pos": "adjective", "de": "instabil" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl32_010",
+    "word": "status",
+    "group": "AWL32",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Status, Stellung, Zustand" },
+    "examples": [
+      {
+        "en": "Socioeconomic status remains one of the strongest predictors of educational achievement.",
+        "de": "Der sozioökonomische Status bleibt einer der stärksten Prädiktoren für schulischen Erfolg."
+      },
+      {
+        "en": "The legal status of undocumented migrants varies widely between jurisdictions.",
+        "de": "Der rechtliche Status undokumentierter Migranten variiert stark zwischen verschiedenen Rechtssystemen."
+      }
+    ],
+    "opposite": { "word": "anonymity", "de": "Anonymität" },
+    "synonyms": ["standing", "position", "rank", "condition"],
+    "word_family": [
+      { "word": "status quo", "pos": "phrase", "de": "Status quo, bestehende Lage" },
+      { "word": "high-status", "pos": "adjective", "de": "hochrangig, angesehen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl32_011",
+    "word": "strategy",
+    "group": "AWL32",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Strategie, Vorgehensweise, Plan" },
+    "examples": [
+      {
+        "en": "A coherent strategy for reducing carbon emissions must involve multiple sectors simultaneously.",
+        "de": "Eine kohärente Strategie zur Reduzierung von Kohlenstoffemissionen muss mehrere Sektoren gleichzeitig einbeziehen."
+      },
+      {
+        "en": "Students who use active reading strategies tend to retain information more effectively.",
+        "de": "Studierende, die aktive Lesestrategien anwenden, behalten Informationen tendenziell effektiver."
+      }
+    ],
+    "opposite": { "word": "improvisation", "de": "Improvisation" },
+    "synonyms": ["plan", "approach", "tactic", "method"],
+    "word_family": [
+      { "word": "strategic", "pos": "adjective", "de": "strategisch" },
+      { "word": "strategically", "pos": "adverb", "de": "strategisch" },
+      { "word": "strategist", "pos": "noun", "de": "Stratege/Strategin" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl32_012",
+    "word": "support",
+    "group": "AWL32",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "unterstützen, stützen, belegen; Unterstützung" },
+    "examples": [
+      {
+        "en": "The findings support the hypothesis that early intervention significantly improves long-term outcomes.",
+        "de": "Die Ergebnisse stützen die Hypothese, dass frühzeitige Interventionen die langfristigen Ergebnisse erheblich verbessern."
+      },
+      {
+        "en": "International organisations provide financial and technical support to developing countries.",
+        "de": "Internationale Organisationen leisten finanzielle und technische Unterstützung für Entwicklungsländer."
+      }
+    ],
+    "opposite": { "word": "undermine", "de": "untergraben, schwächen" },
+    "synonyms": ["back", "endorse", "sustain", "corroborate"],
+    "word_family": [
+      { "word": "supporter", "pos": "noun", "de": "Unterstützer/in, Befürworter/in" },
+      { "word": "supportive", "pos": "adjective", "de": "unterstützend, fördernd" },
+      { "word": "unsupported", "pos": "adjective", "de": "nicht gestützt, unbegründet" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "support for", "de": "Unterstützung für", "example": "There is growing support for universal basic income among economists." }
+    ]
+  },
+  {
+    "id": "awl32_013",
+    "word": "target",
+    "group": "AWL32",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Ziel, Zielvorgabe; anvisieren, abzielen auf" },
+    "examples": [
+      {
+        "en": "The government set ambitious targets for renewable energy production by 2035.",
+        "de": "Die Regierung setzte ehrgeizige Ziele für die Produktion erneuerbarer Energien bis 2035."
+      },
+      {
+        "en": "The intervention was specifically targeted at students from disadvantaged backgrounds.",
+        "de": "Die Intervention richtete sich gezielt an Schüler aus benachteiligten Verhältnissen."
+      }
+    ],
+    "opposite": { "word": "miss", "de": "verfehlen" },
+    "synonyms": ["goal", "objective", "aim", "benchmark"],
+    "word_family": [
+      { "word": "targeted", "pos": "adjective", "de": "gezielt, spezifisch" },
+      { "word": "on target", "pos": "phrase", "de": "im Plan, auf Kurs" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "target at / towards", "de": "ausrichten auf, abzielen auf", "example": "The campaign was targeted at young adults aged 18 to 25." }
+    ]
+  },
+  {
+    "id": "awl32_014",
+    "word": "task",
+    "group": "AWL32",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Aufgabe, Tätigkeit, Auftrag" },
+    "examples": [
+      {
+        "en": "Participants completed a series of cognitive tasks designed to measure working memory capacity.",
+        "de": "Die Teilnehmer erledigten eine Reihe kognitiver Aufgaben, die zur Messung der Arbeitsgedächtniskapazität entwickelt worden waren."
+      },
+      {
+        "en": "Delegating tasks effectively is a key competency in organisational management.",
+        "de": "Das effektive Delegieren von Aufgaben ist eine Schlüsselkompetenz im Organisationsmanagement."
+      }
+    ],
+    "opposite": { "word": "leisure", "de": "Freizeit, Muße" },
+    "synonyms": ["assignment", "duty", "activity", "function"],
+    "word_family": [
+      { "word": "multitask", "pos": "verb", "de": "Multitasking betreiben, mehrere Aufgaben gleichzeitig erledigen" },
+      { "word": "task-based", "pos": "adjective", "de": "aufgabenbasiert" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "task with", "de": "beauftragen mit, betrauen mit", "example": "The committee was tasked with reviewing the ethical guidelines." }
+    ]
+  },
+  {
+    "id": "awl32_015",
+    "word": "text",
+    "group": "AWL32",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Text, Schrift; verfassen" },
+    "examples": [
+      {
+        "en": "Critical discourse analysis examines how power relations are encoded in texts.",
+        "de": "Kritische Diskursanalyse untersucht, wie Machtverhältnisse in Texten kodiert sind."
+      },
+      {
+        "en": "The researchers used computational methods to analyse a large corpus of historical texts.",
+        "de": "Die Forscher verwendeten computergestützte Methoden, um ein umfangreiches Korpus historischer Texte zu analysieren."
+      }
+    ],
+    "opposite": { "word": "image", "de": "Bild, Abbildung" },
+    "synonyms": ["document", "passage", "written work", "corpus"],
+    "word_family": [
+      { "word": "textual", "pos": "adjective", "de": "textuell, Text-" },
+      { "word": "textbook", "pos": "noun", "de": "Lehrbuch" },
+      { "word": "intertextual", "pos": "adjective", "de": "intertextuell" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl32_016",
+    "word": "transfer",
+    "group": "AWL32",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "übertragen, transferieren, verlagern; Transfer" },
+    "examples": [
+      {
+        "en": "Knowledge transfer between research institutions and industry is vital for innovation.",
+        "de": "Wissenstransfer zwischen Forschungseinrichtungen und der Industrie ist für Innovation unerlässlich."
+      },
+      {
+        "en": "Skills acquired in one domain do not always transfer automatically to new contexts.",
+        "de": "In einem Bereich erworbene Fähigkeiten übertragen sich nicht immer automatisch auf neue Kontexte."
+      }
+    ],
+    "opposite": { "word": "retain", "de": "behalten, beibehalten" },
+    "synonyms": ["convey", "transmit", "relocate", "shift"],
+    "word_family": [
+      { "word": "transferable", "pos": "adjective", "de": "übertragbar" },
+      { "word": "transference", "pos": "noun", "de": "Übertragung" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "transfer to", "de": "übertragen auf, wechseln zu", "example": "The technology was transferred to a commercial partner for large-scale production." }
+    ]
+  },
+  {
+    "id": "awl32_017",
+    "word": "transform",
+    "group": "AWL32",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "verwandeln, transformieren, verändern" },
+    "examples": [
+      {
+        "en": "Digital technologies have transformed the way knowledge is produced, shared, and consumed.",
+        "de": "Digitale Technologien haben die Art und Weise, wie Wissen produziert, geteilt und konsumiert wird, grundlegend verändert."
+      },
+      {
+        "en": "Education has the potential to transform life chances for individuals from all backgrounds.",
+        "de": "Bildung hat das Potenzial, die Lebenschancen von Menschen aus allen sozialen Hintergründen zu transformieren."
+      }
+    ],
+    "opposite": { "word": "preserve", "de": "erhalten, bewahren" },
+    "synonyms": ["change", "reshape", "revolutionise", "convert"],
+    "word_family": [
+      { "word": "transformation", "pos": "noun", "de": "Transformation, Wandel" },
+      { "word": "transformative", "pos": "adjective", "de": "transformativ, grundlegend verändernd" },
+      { "word": "transformer", "pos": "noun", "de": "Transformator" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl32_018",
+    "word": "trend",
+    "group": "AWL32",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Trend, Tendenz, Entwicklung" },
+    "examples": [
+      {
+        "en": "Long-term trends in fertility rates have significant implications for pension systems.",
+        "de": "Langfristige Trends bei den Geburtenraten haben erhebliche Auswirkungen auf die Rentensysteme."
+      },
+      {
+        "en": "The paper identifies an upward trend in cross-border research collaboration since 2010.",
+        "de": "Die Studie identifiziert einen aufwärtsgerichteten Trend bei der grenzüberschreitenden Forschungszusammenarbeit seit 2010."
+      }
+    ],
+    "opposite": { "word": "reversal", "de": "Umkehrung, Trendwende" },
+    "synonyms": ["tendency", "pattern", "direction", "development"],
+    "word_family": [
+      { "word": "trending", "pos": "adjective", "de": "aktuell populär, im Trend" },
+      { "word": "downward trend", "pos": "phrase", "de": "Abwärtstrend" },
+      { "word": "upward trend", "pos": "phrase", "de": "Aufwärtstrend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl32_019",
+    "word": "urban",
+    "group": "AWL32",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "urban, städtisch" },
+    "examples": [
+      {
+        "en": "Urban areas tend to offer greater economic opportunities but also higher living costs.",
+        "de": "Städtische Gebiete bieten tendenziell größere wirtschaftliche Möglichkeiten, aber auch höhere Lebenshaltungskosten."
+      },
+      {
+        "en": "Urban planning must balance housing needs with environmental sustainability and social equity.",
+        "de": "Stadtplanung muss Wohnungsbedarf mit ökologischer Nachhaltigkeit und sozialer Gerechtigkeit in Einklang bringen."
+      }
+    ],
+    "opposite": { "word": "rural", "de": "ländlich" },
+    "synonyms": ["metropolitan", "city-based", "municipal", "civic"],
+    "word_family": [
+      { "word": "urbanisation", "pos": "noun", "de": "Urbanisierung, Verstädterung" },
+      { "word": "urbanise", "pos": "verb", "de": "urbanisieren, verstädtern" },
+      { "word": "suburban", "pos": "adjective", "de": "vorstädtisch, suburban" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl32_020",
+    "word": "welfare",
+    "group": "AWL32",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Wohlfahrt, Wohlbefinden, Fürsorge" },
+    "examples": [
+      {
+        "en": "The welfare state emerged as a response to the social inequalities exposed by industrialisation.",
+        "de": "Der Wohlfahrtsstaat entstand als Reaktion auf die durch die Industrialisierung aufgedeckten sozialen Ungleichheiten."
+      },
+      {
+        "en": "Child welfare policies aim to ensure safe and nurturing environments for all children.",
+        "de": "Kinder-Wohlfahrtspolitik zielt darauf ab, sichere und fördernde Umgebungen für alle Kinder zu gewährleisten."
+      }
+    ],
+    "opposite": { "word": "deprivation", "de": "Entbehrung, Benachteiligung" },
+    "synonyms": ["well-being", "benefit", "prosperity", "social security"],
+    "word_family": [
+      { "word": "welfare state", "pos": "phrase", "de": "Wohlfahrtsstaat" },
+      { "word": "social welfare", "pos": "phrase", "de": "Sozialwohlfahrt" }
+    ],
+    "phrasal_verbs": []
+  }
+]

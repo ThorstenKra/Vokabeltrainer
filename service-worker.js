@@ -1,4 +1,4 @@
-const CACHE = "vt-en-v16";
+const CACHE = "vt-en-v17";
 const PRECACHE = [
   "./Vokabeltrainer_EN.html",
   "./manifest.json",
@@ -34,7 +34,8 @@ const PRECACHE = [
   "./src/data/academic_word_list_28.json",
   "./src/data/academic_word_list_29.json",
   "./src/data/academic_word_list_30.json",
-  "./src/data/academic_word_list_31.json"
+  "./src/data/academic_word_list_31.json",
+  "./src/data/academic_word_list_32.json"
 ];
 
 self.addEventListener("install", e => {
