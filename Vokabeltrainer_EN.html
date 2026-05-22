@@ -2468,6 +2468,42 @@ console.log("[VT EN] bereit. Vokabeln: "+VA.length);
     .catch(function(e){console.warn("[VT] AWL24 fetch fehlgeschlagen",e);});
 })();
 
+// Academic Word List – Sublist 25 laden
+(function(){
+  if(!window.fetch)return;
+  fetch("src/data/academic_word_list_25.json")
+    .then(function(r){return r.json();})
+    .then(function(data){
+      if(!Array.isArray(data))return;
+      var awl=[],i,j;
+      for(i=0;i<data.length;i++){
+        j=data[i];
+        awl.push({
+          id:j.id,
+          de:(j.translations&&j.translations.de)||"",
+          target:j.word||"",
+          lv:"B2",tp:j.group_label||"Academic Word List",
+          ty:j.pos||"noun",mod:"awl25",
+          group:j.group||"AWL25",
+          examples:j.examples||[],
+          opposite:j.opposite||null,
+          synonyms:j.synonyms||[],
+          word_family:j.word_family||[],
+          phrasal_verbs:j.phrasal_verbs||[],
+          example_de:(j.examples&&j.examples[0])?j.examples[0].de:"",
+          example_target:(j.examples&&j.examples[0])?j.examples[0].en:""
+        });
+      }
+      if(!awl.length)return;
+      window.VOCAB_AWL25=awl;
+      MODS.push({id:"awl25",name:"Academic Word List 25",sub:"20 akademische Kernvokabeln \xb7 Sublist 25",lv:"B2"});
+      MV.awl25=awl;
+      for(i=0;i<awl.length;i++)VA.push(awl[i]);
+      toast("Academic Word List 25 geladen ("+awl.length+")","ok");
+    })
+    .catch(function(e){console.warn("[VT] AWL25 fetch fehlgeschlagen",e);});
+})();
+
 } // end init()
 
 init();

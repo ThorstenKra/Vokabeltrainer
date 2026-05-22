@@ -1,0 +1,705 @@
+[
+  {
+    "id": "awl25_advocate_01",
+    "word": "advocate",
+    "group": "AWL25",
+    "group_label": "Academic Word List – Sublist 25",
+    "pos": "verb",
+    "translations": { "de": "befürworten / eintreten für / vertreten" },
+    "examples": [
+      {
+        "en": "The report advocates a shift towards renewable energy as the most effective long-term strategy.",
+        "de": "Der Bericht befürwortet einen Wechsel zu erneuerbaren Energien als die effektivste langfristige Strategie."
+      },
+      {
+        "en": "Several researchers advocate abandoning the traditional experimental model in favour of mixed methods.",
+        "de": "Mehrere Forscher treten dafür ein, das traditionelle Experimentalmodell zugunsten gemischter Methoden aufzugeben."
+      }
+    ],
+    "opposite": {
+      "en": "oppose",
+      "de": "ablehnen / sich widersetzen",
+      "example_en": "Critics oppose the policy on the grounds that it will increase inequality.",
+      "example_de": "Kritiker lehnen die Politik mit der Begründung ab, dass sie die Ungleichheit verschärfen wird."
+    },
+    "synonyms": [
+      { "word": "support", "de": "unterstützen / befürworten" },
+      { "word": "promote", "de": "fördern / eintreten für" },
+      { "word": "recommend", "de": "empfehlen / nahelegen" }
+    ],
+    "word_family": [
+      { "word": "advocate", "pos": "noun", "de": "Befürworter / Anwalt / Fürsprecher" },
+      { "word": "advocacy", "pos": "noun", "de": "Fürspreche / Interessenvertretung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl25_challenge_02",
+    "word": "challenge",
+    "group": "AWL25",
+    "group_label": "Academic Word List – Sublist 25",
+    "pos": "verb",
+    "translations": { "de": "herausfordern / in Frage stellen / anfechten" },
+    "examples": [
+      {
+        "en": "The new findings challenge the assumptions that have underpinned the field for decades.",
+        "de": "Die neuen Erkenntnisse stellen die Annahmen in Frage, auf denen das Fachgebiet seit Jahrzehnten aufgebaut hat."
+      },
+      {
+        "en": "Students are encouraged to challenge received wisdom rather than accept it uncritically.",
+        "de": "Studierende werden ermutigt, überliefertes Wissen zu hinterfragen, anstatt es unkritisch zu akzeptieren."
+      }
+    ],
+    "opposite": {
+      "en": "affirm",
+      "de": "bestätigen / bekräftigen",
+      "example_en": "The replication study did not challenge but rather affirm the original conclusions.",
+      "example_de": "Die Replikationsstudie stellte die ursprünglichen Schlussfolgerungen nicht in Frage, sondern bestätigte sie vielmehr."
+    },
+    "synonyms": [
+      { "word": "question", "de": "hinterfragen / in Frage stellen" },
+      { "word": "contest", "de": "anfechten / bestreiten" },
+      { "word": "dispute", "de": "bestreiten / anfechten" }
+    ],
+    "word_family": [
+      { "word": "challenge", "pos": "noun", "de": "Herausforderung / Problem" },
+      { "word": "challenging", "pos": "adj", "de": "herausfordernd / anspruchsvoll" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl25_compensate_03",
+    "word": "compensate",
+    "group": "AWL25",
+    "group_label": "Academic Word List – Sublist 25",
+    "pos": "verb",
+    "translations": { "de": "kompensieren / ausgleichen / entschädigen" },
+    "examples": [
+      {
+        "en": "Increasing teacher pay alone cannot compensate for poor working conditions or lack of resources.",
+        "de": "Höhere Lehrergehälter allein können schlechte Arbeitsbedingungen oder fehlende Ressourcen nicht kompensieren."
+      },
+      {
+        "en": "Some researchers compensate for small sample sizes by using more sensitive statistical tests.",
+        "de": "Einige Forscher kompensieren kleine Stichprobengrößen durch den Einsatz empfindlicherer statistischer Tests."
+      }
+    ],
+    "opposite": {
+      "en": "aggravate",
+      "de": "verschlimmern / verschärfen",
+      "example_en": "Poor policy design can aggravate the very inequalities it was meant to compensate for.",
+      "example_de": "Schlechtes Politikdesign kann genau die Ungleichheiten verschärfen, die es kompensieren sollte."
+    },
+    "synonyms": [
+      { "word": "offset", "de": "ausgleichen / kompensieren" },
+      { "word": "counterbalance", "de": "ausgleichen / aufwiegen" },
+      { "word": "make up for", "de": "ausgleichen / wettmachen" }
+    ],
+    "word_family": [
+      { "word": "compensation", "pos": "noun", "de": "Kompensation / Entschädigung / Ausgleich" },
+      { "word": "compensatory", "pos": "adj", "de": "kompensatorisch / ausgleichend" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "compensate for", "de": "kompensieren für / ausgleichen", "example": "The strength of the methodology compensates for the relatively small sample size." }
+    ]
+  },
+  {
+    "id": "awl25_concentrate_04",
+    "word": "concentrate",
+    "group": "AWL25",
+    "group_label": "Academic Word List – Sublist 25",
+    "pos": "verb",
+    "translations": { "de": "konzentrieren / sich konzentrieren auf / verdichten" },
+    "examples": [
+      {
+        "en": "Wealth has become increasingly concentrated in the hands of a small global elite.",
+        "de": "Reichtum hat sich zunehmend in den Händen einer kleinen globalen Elite konzentriert."
+      },
+      {
+        "en": "The study concentrates on the period between 1945 and 1990.",
+        "de": "Die Studie konzentriert sich auf den Zeitraum zwischen 1945 und 1990."
+      }
+    ],
+    "opposite": {
+      "en": "disperse",
+      "de": "verteilen / zerstreuen / streuen",
+      "example_en": "Policies that disperse resources more evenly tend to reduce the inequalities that concentrated wealth creates.",
+      "example_de": "Politiken, die Ressourcen gleichmäßiger verteilen, neigen dazu, die Ungleichheiten zu verringern, die konzentrierter Reichtum erzeugt."
+    },
+    "synonyms": [
+      { "word": "focus", "de": "sich konzentrieren auf / fokussieren" },
+      { "word": "centre on", "de": "sich konzentrieren auf / ausrichten auf" },
+      { "word": "cluster", "de": "häufen / bündeln" }
+    ],
+    "word_family": [
+      { "word": "concentration", "pos": "noun", "de": "Konzentration / Verdichtung / Fokus" },
+      { "word": "concentrated", "pos": "adj", "de": "konzentriert / gebündelt" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "concentrate on", "de": "sich konzentrieren auf", "example": "The second chapter concentrates on methodological challenges specific to cross-cultural research." }
+    ]
+  },
+  {
+    "id": "awl25_demonstrate_05",
+    "word": "demonstrate",
+    "group": "AWL25",
+    "group_label": "Academic Word List – Sublist 25",
+    "pos": "verb",
+    "translations": { "de": "demonstrieren / belegen / nachweisen" },
+    "examples": [
+      {
+        "en": "The experiment demonstrates clearly that the treatment has a measurable effect on outcomes.",
+        "de": "Das Experiment belegt klar, dass die Behandlung einen messbaren Einfluss auf die Ergebnisse hat."
+      },
+      {
+        "en": "This case study demonstrates how community engagement can improve project outcomes.",
+        "de": "Diese Fallstudie zeigt, wie die Einbindung der Gemeinschaft Projektergebnisse verbessern kann."
+      }
+    ],
+    "opposite": {
+      "en": "refute",
+      "de": "widerlegen / entkräften",
+      "example_en": "Subsequent experiments did not demonstrate but in fact refute the original claim.",
+      "example_de": "Folgeexperimente belegten die ursprüngliche Behauptung nicht, sondern widerlegten sie tatsächlich."
+    },
+    "synonyms": [
+      { "word": "show", "de": "zeigen / belegen" },
+      { "word": "prove", "de": "beweisen / belegen" },
+      { "word": "illustrate", "de": "veranschaulichen / belegen" }
+    ],
+    "word_family": [
+      { "word": "demonstration", "pos": "noun", "de": "Demonstration / Nachweis / Beweis" },
+      { "word": "demonstrable", "pos": "adj", "de": "nachweisbar / belegbar" },
+      { "word": "demonstrably", "pos": "adv", "de": "nachweislich / belegbar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl25_distinguish_06",
+    "word": "distinguish",
+    "group": "AWL25",
+    "group_label": "Academic Word List – Sublist 25",
+    "pos": "verb",
+    "translations": { "de": "unterscheiden / differenzieren / auseinanderhalten" },
+    "examples": [
+      {
+        "en": "It is important to distinguish between correlation and causation in statistical analysis.",
+        "de": "Es ist wichtig, in der statistischen Analyse zwischen Korrelation und Kausalität zu unterscheiden."
+      },
+      {
+        "en": "The study distinguishes three distinct phases in the development of the institution.",
+        "de": "Die Studie unterscheidet drei klar voneinander getrennte Phasen in der Entwicklung der Institution."
+      }
+    ],
+    "opposite": {
+      "en": "conflate",
+      "de": "vermischen / gleichsetzen / vermengen",
+      "example_en": "It is a common error to conflate two concepts that careful analysis should distinguish.",
+      "example_de": "Es ist ein verbreiteter Fehler, zwei Konzepte zu vermischen, die eine sorgfältige Analyse unterscheiden sollte."
+    },
+    "synonyms": [
+      { "word": "differentiate", "de": "differenzieren / unterscheiden" },
+      { "word": "discriminate", "de": "unterscheiden / differenzieren" },
+      { "word": "separate", "de": "trennen / unterscheiden" }
+    ],
+    "word_family": [
+      { "word": "distinction", "pos": "noun", "de": "Unterschied / Unterscheidung" },
+      { "word": "distinctive", "pos": "adj", "de": "charakteristisch / unverwechselbar" },
+      { "word": "distinguishable", "pos": "adj", "de": "unterscheidbar / erkennbar" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "distinguish between", "de": "unterscheiden zwischen", "example": "Researchers must distinguish between primary and secondary sources of evidence." }
+    ]
+  },
+  {
+    "id": "awl25_enable_07",
+    "word": "enable",
+    "group": "AWL25",
+    "group_label": "Academic Word List – Sublist 25",
+    "pos": "verb",
+    "translations": { "de": "ermöglichen / befähigen / in die Lage versetzen" },
+    "examples": [
+      {
+        "en": "Digital technology has enabled researchers to collect and analyse data at unprecedented scale.",
+        "de": "Digitale Technologie hat es Forschern ermöglicht, Daten in einem bisher beispiellosen Ausmaß zu sammeln und zu analysieren."
+      },
+      {
+        "en": "Access to education enables individuals to participate more fully in economic and civic life.",
+        "de": "Zugang zu Bildung befähigt Einzelpersonen, vollständiger am wirtschaftlichen und bürgerschaftlichen Leben teilzunehmen."
+      }
+    ],
+    "opposite": {
+      "en": "prevent",
+      "de": "verhindern / unterbinden",
+      "example_en": "Structural barriers can prevent individuals from accessing the opportunities that education enables.",
+      "example_de": "Strukturelle Barrieren können Einzelpersonen daran hindern, die Chancen zu nutzen, die Bildung ermöglicht."
+    },
+    "synonyms": [
+      { "word": "allow", "de": "erlauben / ermöglichen" },
+      { "word": "empower", "de": "befähigen / ermächtigen" },
+      { "word": "facilitate", "de": "erleichtern / ermöglichen" }
+    ],
+    "word_family": [
+      { "word": "enabler", "pos": "noun", "de": "Ermöglicher / Befähiger" },
+      { "word": "enabling", "pos": "adj", "de": "ermöglichend / förderlich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl25_global_08",
+    "word": "global",
+    "group": "AWL25",
+    "group_label": "Academic Word List – Sublist 25",
+    "pos": "adjective",
+    "translations": { "de": "global / weltweit / übergreifend" },
+    "examples": [
+      {
+        "en": "Climate change is a global challenge that requires coordinated international responses.",
+        "de": "Der Klimawandel ist eine globale Herausforderung, die koordinierte internationale Antworten erfordert."
+      },
+      {
+        "en": "The global spread of digital communication has transformed how knowledge is produced and shared.",
+        "de": "Die weltweite Verbreitung digitaler Kommunikation hat verändert, wie Wissen produziert und geteilt wird."
+      }
+    ],
+    "opposite": {
+      "en": "local",
+      "de": "lokal / örtlich / regional",
+      "example_en": "Global trends must always be interpreted in relation to local conditions and histories.",
+      "example_de": "Globale Trends müssen stets in Bezug auf lokale Bedingungen und Geschichten interpretiert werden."
+    },
+    "synonyms": [
+      { "word": "worldwide", "de": "weltweit / global" },
+      { "word": "international", "de": "international / länderübergreifend" },
+      { "word": "universal", "de": "universell / allgemein" }
+    ],
+    "word_family": [
+      { "word": "globalisation", "pos": "noun", "de": "Globalisierung" },
+      { "word": "globally", "pos": "adv", "de": "global / weltweit" },
+      { "word": "globalise", "pos": "verb", "de": "globalisieren" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl25_identify_09",
+    "word": "identify",
+    "group": "AWL25",
+    "group_label": "Academic Word List – Sublist 25",
+    "pos": "verb",
+    "translations": { "de": "identifizieren / erkennen / feststellen" },
+    "examples": [
+      {
+        "en": "The review identifies three key gaps in the existing literature.",
+        "de": "Die Übersicht identifiziert drei wesentliche Lücken in der bestehenden Literatur."
+      },
+      {
+        "en": "Participants were asked to identify the factors they considered most important for job satisfaction.",
+        "de": "Die Teilnehmer wurden gebeten, die Faktoren zu identifizieren, die sie als am wichtigsten für die Arbeitszufriedenheit betrachteten."
+      }
+    ],
+    "opposite": {
+      "en": "overlook",
+      "de": "übersehen / nicht erkennen",
+      "example_en": "Research teams that rush their literature review risk overlooking key factors the study should identify.",
+      "example_de": "Forschungsteams, die ihre Literaturrecherche übereilen, riskieren, wichtige Faktoren zu übersehen, die die Studie identifizieren sollte."
+    },
+    "synonyms": [
+      { "word": "detect", "de": "erkennen / feststellen" },
+      { "word": "pinpoint", "de": "genau bestimmen / identifizieren" },
+      { "word": "recognise", "de": "erkennen / feststellen" }
+    ],
+    "word_family": [
+      { "word": "identification", "pos": "noun", "de": "Identifizierung / Erkennung" },
+      { "word": "identity", "pos": "noun", "de": "Identität" },
+      { "word": "identifiable", "pos": "adj", "de": "identifizierbar / erkennbar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl25_impose_10",
+    "word": "impose",
+    "group": "AWL25",
+    "group_label": "Academic Word List – Sublist 25",
+    "pos": "verb",
+    "translations": { "de": "auferlegen / verhängen / aufzwingen" },
+    "examples": [
+      {
+        "en": "The new legislation imposes strict limits on carbon emissions from the industrial sector.",
+        "de": "Die neue Gesetzgebung erlegt dem Industriesektor strenge Grenzen für CO₂-Emissionen auf."
+      },
+      {
+        "en": "Researchers must be careful not to impose their own cultural assumptions on the communities they study.",
+        "de": "Forscher müssen darauf achten, den untersuchten Gemeinschaften nicht ihre eigenen kulturellen Annahmen aufzuzwingen."
+      }
+    ],
+    "opposite": {
+      "en": "lift",
+      "de": "aufheben / beseitigen",
+      "example_en": "After negotiations, the government agreed to lift the restrictions it had previously imposed.",
+      "example_de": "Nach Verhandlungen stimmte die Regierung zu, die zuvor auferlegten Einschränkungen aufzuheben."
+    },
+    "synonyms": [
+      { "word": "enforce", "de": "durchsetzen / auferlegen" },
+      { "word": "inflict", "de": "aufzwingen / zufügen" },
+      { "word": "prescribe", "de": "vorschreiben / auferlegen" }
+    ],
+    "word_family": [
+      { "word": "imposition", "pos": "noun", "de": "Auferlegen / Auflage / Zumutung" },
+      { "word": "imposed", "pos": "adj", "de": "auferlegt / aufgezwungen" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "impose on", "de": "auferlegen / aufzwingen", "example": "It is problematic to impose a single analytical framework on diverse cultural contexts." }
+    ]
+  },
+  {
+    "id": "awl25_investigate_11",
+    "word": "investigate",
+    "group": "AWL25",
+    "group_label": "Academic Word List – Sublist 25",
+    "pos": "verb",
+    "translations": { "de": "untersuchen / erforschen / ermitteln" },
+    "examples": [
+      {
+        "en": "The study investigates the link between urban green space and mental health outcomes.",
+        "de": "Die Studie untersucht den Zusammenhang zwischen städtischen Grünflächen und psychischen Gesundheitsergebnissen."
+      },
+      {
+        "en": "A team of auditors was appointed to investigate the irregularities in the financial records.",
+        "de": "Ein Team von Prüfern wurde ernannt, um die Unregelmäßigkeiten in den Finanzunterlagen zu untersuchen."
+      }
+    ],
+    "opposite": {
+      "en": "ignore",
+      "de": "ignorieren / außer Acht lassen",
+      "example_en": "To ignore anomalous results rather than investigate them is a failure of scientific integrity.",
+      "example_de": "Anomale Ergebnisse zu ignorieren statt sie zu untersuchen, ist ein Versagen wissenschaftlicher Integrität."
+    },
+    "synonyms": [
+      { "word": "examine", "de": "untersuchen / prüfen" },
+      { "word": "explore", "de": "erforschen / untersuchen" },
+      { "word": "probe", "de": "sondieren / untersuchen" }
+    ],
+    "word_family": [
+      { "word": "investigation", "pos": "noun", "de": "Untersuchung / Ermittlung / Erforschung" },
+      { "word": "investigator", "pos": "noun", "de": "Ermittler / Forscher" },
+      { "word": "investigative", "pos": "adj", "de": "investigativ / untersuchend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl25_obtain_12",
+    "word": "obtain",
+    "group": "AWL25",
+    "group_label": "Academic Word List – Sublist 25",
+    "pos": "verb",
+    "translations": { "de": "erhalten / erlangen / gewinnen" },
+    "examples": [
+      {
+        "en": "Informed consent must be obtained from all participants before data collection begins.",
+        "de": "Von allen Teilnehmern muss eine informierte Einwilligung eingeholt werden, bevor die Datenerhebung beginnt."
+      },
+      {
+        "en": "The researchers obtained access to historical archives that had previously been restricted.",
+        "de": "Die Forscher erhielten Zugang zu historischen Archiven, die zuvor gesperrt gewesen waren."
+      }
+    ],
+    "opposite": {
+      "en": "forfeit",
+      "de": "verlieren / einbüßen / verwirken",
+      "example_en": "Institutions that breach ethical protocols may forfeit access they previously obtained.",
+      "example_de": "Institutionen, die ethische Protokolle verletzen, können den zuvor erlangten Zugang verwirken."
+    },
+    "synonyms": [
+      { "word": "acquire", "de": "erwerben / erlangen" },
+      { "word": "gain", "de": "gewinnen / erlangen" },
+      { "word": "secure", "de": "sichern / erlangen" }
+    ],
+    "word_family": [
+      { "word": "obtainable", "pos": "adj", "de": "erhältlich / zu erlangen" },
+      { "word": "unattainable", "pos": "adj", "de": "nicht erlangbar / unerreichbar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl25_propose_13",
+    "word": "propose",
+    "group": "AWL25",
+    "group_label": "Academic Word List – Sublist 25",
+    "pos": "verb",
+    "translations": { "de": "vorschlagen / behaupten / darlegen" },
+    "examples": [
+      {
+        "en": "The paper proposes a revised theoretical framework that addresses the limitations of existing models.",
+        "de": "Der Aufsatz schlägt ein überarbeitetes theoretisches Rahmenwerk vor, das die Grenzen bestehender Modelle behebt."
+      },
+      {
+        "en": "Darwin proposed that all species share common ancestors and diverge through natural selection.",
+        "de": "Darwin behauptete, dass alle Arten gemeinsame Vorfahren haben und sich durch natürliche Selektion auseinander entwickeln."
+      }
+    ],
+    "opposite": {
+      "en": "reject",
+      "de": "ablehnen / verwerfen",
+      "example_en": "The editorial board rejected the theory the author had originally proposed.",
+      "example_de": "Das Redaktionsgremium lehnte die Theorie ab, die der Autor ursprünglich vorgeschlagen hatte."
+    },
+    "synonyms": [
+      { "word": "suggest", "de": "vorschlagen / nahelegen" },
+      { "word": "put forward", "de": "vorschlagen / vortragen" },
+      { "word": "advance", "de": "vorantreiben / vortragen" }
+    ],
+    "word_family": [
+      { "word": "proposal", "pos": "noun", "de": "Vorschlag / Antrag" },
+      { "word": "proposition", "pos": "noun", "de": "Aussage / These / Vorschlag" },
+      { "word": "proposed", "pos": "adj", "de": "vorgeschlagen / vorgesehen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl25_rely_14",
+    "word": "rely",
+    "group": "AWL25",
+    "group_label": "Academic Word List – Sublist 25",
+    "pos": "verb",
+    "translations": { "de": "sich verlassen auf / abhängen von / angewiesen sein auf" },
+    "examples": [
+      {
+        "en": "The study relies on self-reported data, which introduces the possibility of recall bias.",
+        "de": "Die Studie stützt sich auf selbstberichtete Daten, was die Möglichkeit eines Erinnerungsfehlers einführt."
+      },
+      {
+        "en": "Many low-income countries rely heavily on foreign aid to fund public health programmes.",
+        "de": "Viele Länder mit niedrigem Einkommen sind stark auf Auslandshilfe angewiesen, um Programme im öffentlichen Gesundheitswesen zu finanzieren."
+      }
+    ],
+    "opposite": {
+      "en": "be independent of",
+      "de": "unabhängig sein von / nicht angewiesen sein auf",
+      "example_en": "The goal was to develop a method that does not rely on, but is independent of, external funding.",
+      "example_de": "Das Ziel war es, eine Methode zu entwickeln, die nicht auf externe Finanzierung angewiesen, sondern davon unabhängig ist."
+    },
+    "synonyms": [
+      { "word": "depend on", "de": "abhängen von / angewiesen sein auf" },
+      { "word": "count on", "de": "zählen auf / sich verlassen auf" },
+      { "word": "draw on", "de": "zurückgreifen auf / nutzen" }
+    ],
+    "word_family": [
+      { "word": "reliance", "pos": "noun", "de": "Abhängigkeit / Vertrauen / Stütze" },
+      { "word": "reliable", "pos": "adj", "de": "zuverlässig / verlässlich" },
+      { "word": "reliability", "pos": "noun", "de": "Zuverlässigkeit / Verlässlichkeit" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "rely on", "de": "sich verlassen auf / angewiesen sein auf", "example": "The entire argument relies on a single data source, which weakens its credibility." }
+    ]
+  },
+  {
+    "id": "awl25_revise_15",
+    "word": "revise",
+    "group": "AWL25",
+    "group_label": "Academic Word List – Sublist 25",
+    "pos": "verb",
+    "translations": { "de": "überarbeiten / revidieren / anpassen" },
+    "examples": [
+      {
+        "en": "Following peer review, the authors were asked to substantially revise their methodology section.",
+        "de": "Nach dem Peer-Review wurden die Autoren gebeten, ihren Methodikteil grundlegend zu überarbeiten."
+      },
+      {
+        "en": "As new evidence accumulates, scientific models must be revised to remain accurate.",
+        "de": "Wenn sich neue Erkenntnisse ansammeln, müssen wissenschaftliche Modelle überarbeitet werden, um präzise zu bleiben."
+      }
+    ],
+    "opposite": {
+      "en": "maintain",
+      "de": "beibehalten / unverändert lassen",
+      "example_en": "Some researchers choose to maintain their original position rather than revise it in light of new data.",
+      "example_de": "Einige Forscher entscheiden sich, ihre ursprüngliche Position beizubehalten, anstatt sie angesichts neuer Daten zu revidieren."
+    },
+    "synonyms": [
+      { "word": "update", "de": "aktualisieren / anpassen" },
+      { "word": "amend", "de": "ändern / abändern" },
+      { "word": "reconsider", "de": "überdenken / neu bewerten" }
+    ],
+    "word_family": [
+      { "word": "revision", "pos": "noun", "de": "Überarbeitung / Revision / Änderung" },
+      { "word": "revised", "pos": "adj", "de": "überarbeitet / revidiert" },
+      { "word": "revisionary", "pos": "adj", "de": "revisionistisch / überarbeitend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl25_significant_16",
+    "word": "significant",
+    "group": "AWL25",
+    "group_label": "Academic Word List – Sublist 25",
+    "pos": "adjective",
+    "translations": { "de": "bedeutsam / erheblich / signifikant" },
+    "examples": [
+      {
+        "en": "The study found a statistically significant correlation between sleep duration and cognitive performance.",
+        "de": "Die Studie fand eine statistisch signifikante Korrelation zwischen Schlafdauer und kognitiver Leistungsfähigkeit."
+      },
+      {
+        "en": "This paper makes a significant contribution to understanding how institutions adapt under pressure.",
+        "de": "Dieser Aufsatz leistet einen bedeutsamen Beitrag zum Verständnis, wie Institutionen sich unter Druck anpassen."
+      }
+    ],
+    "opposite": {
+      "en": "negligible",
+      "de": "vernachlässigbar / bedeutungslos",
+      "example_en": "The difference between the groups was statistically negligible and not significant.",
+      "example_de": "Der Unterschied zwischen den Gruppen war statistisch vernachlässigbar und nicht signifikant."
+    },
+    "synonyms": [
+      { "word": "meaningful", "de": "bedeutsam / sinnvoll" },
+      { "word": "notable", "de": "bemerkenswert / nennenswert" },
+      { "word": "considerable", "de": "beträchtlich / erheblich" }
+    ],
+    "word_family": [
+      { "word": "significance", "pos": "noun", "de": "Bedeutung / Signifikanz" },
+      { "word": "significantly", "pos": "adv", "de": "deutlich / signifikant / erheblich" },
+      { "word": "insignificant", "pos": "adj", "de": "unbedeutend / insignifikant" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl25_structure_17",
+    "word": "structure",
+    "group": "AWL25",
+    "group_label": "Academic Word List – Sublist 25",
+    "pos": "verb",
+    "translations": { "de": "strukturieren / gliedern / aufbauen" },
+    "examples": [
+      {
+        "en": "A well-structured argument guides the reader logically from premise to conclusion.",
+        "de": "Ein gut strukturiertes Argument führt den Leser logisch von der Prämisse zur Schlussfolgerung."
+      },
+      {
+        "en": "The curriculum was restructured to better reflect current professional practice.",
+        "de": "Der Lehrplan wurde neu strukturiert, um die aktuelle Berufspraxis besser widerzuspiegeln."
+      }
+    ],
+    "opposite": {
+      "en": "disorganise",
+      "de": "desorganisieren / in Unordnung bringen",
+      "example_en": "Rapid expansion can disorganise systems that were previously well structured.",
+      "example_de": "Rasche Expansion kann Systeme desorganisieren, die zuvor gut strukturiert waren."
+    },
+    "synonyms": [
+      { "word": "organise", "de": "organisieren / gliedern" },
+      { "word": "arrange", "de": "anordnen / strukturieren" },
+      { "word": "order", "de": "ordnen / gliedern" }
+    ],
+    "word_family": [
+      { "word": "structure", "pos": "noun", "de": "Struktur / Aufbau / Gliederung" },
+      { "word": "structural", "pos": "adj", "de": "strukturell / grundlegend" },
+      { "word": "restructure", "pos": "verb", "de": "umstrukturieren / neu gliedern" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl25_suggest_18",
+    "word": "suggest",
+    "group": "AWL25",
+    "group_label": "Academic Word List – Sublist 25",
+    "pos": "verb",
+    "translations": { "de": "nahelegen / vorschlagen / andeuten" },
+    "examples": [
+      {
+        "en": "The preliminary data suggest a link between screen time and attention difficulties in children.",
+        "de": "Die vorläufigen Daten legen einen Zusammenhang zwischen Bildschirmzeit und Aufmerksamkeitsschwierigkeiten bei Kindern nahe."
+      },
+      {
+        "en": "The author suggests that the current framework needs to be fundamentally rethought.",
+        "de": "Der Autor schlägt vor, dass das aktuelle Rahmenwerk grundlegend neu überdacht werden muss."
+      }
+    ],
+    "opposite": {
+      "en": "contradict",
+      "de": "widersprechen / entgegenstehen",
+      "example_en": "Far from supporting the hypothesis, the new data actually contradict what earlier results had suggested.",
+      "example_de": "Weit davon entfernt, die Hypothese zu stützen, widersprechen die neuen Daten tatsächlich dem, was frühere Ergebnisse nahegelegt hatten."
+    },
+    "synonyms": [
+      { "word": "indicate", "de": "hinweisen / anzeigen" },
+      { "word": "imply", "de": "implizieren / andeuten" },
+      { "word": "propose", "de": "vorschlagen / darlegen" }
+    ],
+    "word_family": [
+      { "word": "suggestion", "pos": "noun", "de": "Vorschlag / Anregung / Andeutung" },
+      { "word": "suggestive", "pos": "adj", "de": "andeutend / suggestiv" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl25_sustain_19",
+    "word": "sustain",
+    "group": "AWL25",
+    "group_label": "Academic Word List – Sublist 25",
+    "pos": "verb",
+    "translations": { "de": "aufrechterhalten / stützen / tragen" },
+    "examples": [
+      {
+        "en": "It is unclear whether the current rate of economic growth can be sustained over the next decade.",
+        "de": "Es ist unklar, ob das aktuelle Wirtschaftswachstumstempo in den nächsten zehn Jahren aufrechterhalten werden kann."
+      },
+      {
+        "en": "The evidence is insufficient to sustain such a broad conclusion.",
+        "de": "Die Belege reichen nicht aus, um eine so breite Schlussfolgerung zu stützen."
+      }
+    ],
+    "opposite": {
+      "en": "undermine",
+      "de": "untergraben / schwächen",
+      "example_en": "Repeated methodological errors undermine rather than sustain the overall argument.",
+      "example_de": "Wiederholte methodische Fehler untergraben das Gesamtargument, anstatt es zu stützen."
+    },
+    "synonyms": [
+      { "word": "maintain", "de": "aufrechterhalten / beibehalten" },
+      { "word": "support", "de": "stützen / unterstützen" },
+      { "word": "uphold", "de": "aufrechterhalten / verteidigen" }
+    ],
+    "word_family": [
+      { "word": "sustainability", "pos": "noun", "de": "Nachhaltigkeit / Tragfähigkeit" },
+      { "word": "sustainable", "pos": "adj", "de": "nachhaltig / tragfähig" },
+      { "word": "unsustainable", "pos": "adj", "de": "nicht nachhaltig / nicht tragfähig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl25_theory_20",
+    "word": "theory",
+    "group": "AWL25",
+    "group_label": "Academic Word List – Sublist 25",
+    "pos": "noun",
+    "translations": { "de": "Theorie / Lehrgebäude / Ansatz" },
+    "examples": [
+      {
+        "en": "A scientific theory is not merely a guess; it is a well-substantiated explanation supported by evidence.",
+        "de": "Eine wissenschaftliche Theorie ist nicht nur eine Vermutung; sie ist eine gut begründete Erklärung, die durch Belege gestützt wird."
+      },
+      {
+        "en": "The theory of planned behaviour has been applied widely in health promotion research.",
+        "de": "Die Theorie des geplanten Verhaltens wurde in der Gesundheitsförderungsforschung weit verbreitet angewendet."
+      }
+    ],
+    "opposite": {
+      "en": "observation",
+      "de": "Beobachtung / Empirie",
+      "example_en": "Theory without observation remains speculative; observation without theory remains meaningless.",
+      "example_de": "Theorie ohne Beobachtung bleibt spekulativ; Beobachtung ohne Theorie bleibt bedeutungslos."
+    },
+    "synonyms": [
+      { "word": "framework", "de": "Rahmen / Konzept" },
+      { "word": "model", "de": "Modell / Ansatz" },
+      { "word": "hypothesis", "de": "Hypothese / Annahme" }
+    ],
+    "word_family": [
+      { "word": "theorise", "pos": "verb", "de": "theoretisieren / eine Theorie aufstellen" },
+      { "word": "theoretical", "pos": "adj", "de": "theoretisch / abstrakt" },
+      { "word": "theoretically", "pos": "adv", "de": "theoretisch gesehen" },
+      { "word": "theorist", "pos": "noun", "de": "Theoretiker / Theoretikerin" }
+    ],
+    "phrasal_verbs": []
+  }
+]
