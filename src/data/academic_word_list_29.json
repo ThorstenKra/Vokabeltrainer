@@ -1,0 +1,523 @@
+[
+  {
+    "id": "awl29_001",
+    "word": "academic",
+    "group": "AWL29",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "akademisch, wissenschaftlich; Akademiker/in" },
+    "examples": [
+      {
+        "en": "Academic writing requires precise language and well-supported argumentation.",
+        "de": "Akademisches Schreiben erfordert präzise Sprache und gut belegte Argumentation."
+      },
+      {
+        "en": "The student's academic performance improved significantly after receiving targeted support.",
+        "de": "Die akademische Leistung des Studierenden verbesserte sich nach gezielter Unterstützung deutlich."
+      }
+    ],
+    "opposite": { "word": "vocational", "de": "berufsbildend, praxisorientiert" },
+    "synonyms": ["scholarly", "intellectual", "educational", "theoretical"],
+    "word_family": [
+      { "word": "academy", "pos": "noun", "de": "Akademie" },
+      { "word": "academically", "pos": "adverb", "de": "akademisch, wissenschaftlich" },
+      { "word": "academician", "pos": "noun", "de": "Akademiemitglied" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl29_002",
+    "word": "available",
+    "group": "AWL29",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "verfügbar, erhältlich, vorhanden" },
+    "examples": [
+      {
+        "en": "The available data does not yet provide sufficient evidence for a definitive conclusion.",
+        "de": "Die verfügbaren Daten liefern noch keine ausreichenden Belege für eine endgültige Schlussfolgerung."
+      },
+      {
+        "en": "Researchers should make their datasets publicly available to facilitate replication.",
+        "de": "Forscher sollten ihre Datensätze öffentlich zugänglich machen, um die Reproduzierbarkeit zu erleichtern."
+      }
+    ],
+    "opposite": { "word": "unavailable", "de": "nicht verfügbar, unzugänglich" },
+    "synonyms": ["accessible", "obtainable", "at hand", "present"],
+    "word_family": [
+      { "word": "availability", "pos": "noun", "de": "Verfügbarkeit, Zugänglichkeit" },
+      { "word": "unavailable", "pos": "adjective", "de": "nicht verfügbar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl29_003",
+    "word": "aware",
+    "group": "AWL29",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "bewusst, sich bewusst sein, aufmerksam" },
+    "examples": [
+      {
+        "en": "Researchers must be aware of potential biases that could affect their findings.",
+        "de": "Forscher müssen sich potenzieller Verzerrungen bewusst sein, die ihre Ergebnisse beeinflussen könnten."
+      },
+      {
+        "en": "Citizens are increasingly aware of the environmental impact of their consumption choices.",
+        "de": "Bürger werden sich zunehmend der Umweltauswirkungen ihrer Konsumentscheidungen bewusst."
+      }
+    ],
+    "opposite": { "word": "unaware", "de": "sich nicht bewusst, unwissend" },
+    "synonyms": ["conscious", "cognisant", "informed", "mindful"],
+    "word_family": [
+      { "word": "awareness", "pos": "noun", "de": "Bewusstsein, Bewusstheit" },
+      { "word": "unaware", "pos": "adjective", "de": "nicht bewusst, ahnungslos" },
+      { "word": "self-aware", "pos": "adjective", "de": "selbstbewusst, reflektiert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl29_004",
+    "word": "behaviour",
+    "group": "AWL29",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Verhalten, Benehmen" },
+    "examples": [
+      {
+        "en": "Consumer behaviour is influenced by a complex mix of cognitive, social, and emotional factors.",
+        "de": "Das Verbraucherverhalten wird durch eine komplexe Mischung aus kognitiven, sozialen und emotionalen Faktoren beeinflusst."
+      },
+      {
+        "en": "The study observed behavioural changes in participants over a twelve-month period.",
+        "de": "Die Studie beobachtete Verhaltensänderungen bei Teilnehmern über einen Zeitraum von zwölf Monaten."
+      }
+    ],
+    "opposite": { "word": "inaction", "de": "Untätigkeit, Passivität" },
+    "synonyms": ["conduct", "actions", "response", "pattern"],
+    "word_family": [
+      { "word": "behave", "pos": "verb", "de": "sich verhalten, sich benehmen" },
+      { "word": "behavioural", "pos": "adjective", "de": "verhaltens-, Verhaltens-" },
+      { "word": "misbehaviour", "pos": "noun", "de": "Fehlverhalten" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl29_005",
+    "word": "capability",
+    "group": "AWL29",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Fähigkeit, Leistungsfähigkeit, Kompetenz" },
+    "examples": [
+      {
+        "en": "The capability approach in development economics focuses on what individuals are able to do and be.",
+        "de": "Der Fähigkeitsansatz in der Entwicklungsökonomie konzentriert sich darauf, was Individuen tun und sein können."
+      },
+      {
+        "en": "Organisations must continuously update their technical capabilities to remain competitive.",
+        "de": "Organisationen müssen ihre technischen Fähigkeiten kontinuierlich aktualisieren, um wettbewerbsfähig zu bleiben."
+      }
+    ],
+    "opposite": { "word": "incapability", "de": "Unfähigkeit, Unvermögen" },
+    "synonyms": ["ability", "capacity", "competence", "aptitude"],
+    "word_family": [
+      { "word": "capable", "pos": "adjective", "de": "fähig, kompetent" },
+      { "word": "incapable", "pos": "adjective", "de": "unfähig" },
+      { "word": "capably", "pos": "adverb", "de": "kompetent, geschickt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl29_006",
+    "word": "comment",
+    "group": "AWL29",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Kommentar, Anmerkung; kommentieren" },
+    "examples": [
+      {
+        "en": "The reviewer's comments highlighted methodological weaknesses in the original study.",
+        "de": "Die Kommentare des Gutachters hoben methodische Schwächen in der ursprünglichen Studie hervor."
+      },
+      {
+        "en": "Several scholars have commented on the limitations of this theoretical framework.",
+        "de": "Mehrere Wissenschaftler haben die Grenzen dieses theoretischen Rahmens kommentiert."
+      }
+    ],
+    "opposite": { "word": "silence", "de": "Schweigen, Stille" },
+    "synonyms": ["remark", "observation", "note", "annotation"],
+    "word_family": [
+      { "word": "commentary", "pos": "noun", "de": "Kommentar, Erläuterung" },
+      { "word": "commentator", "pos": "noun", "de": "Kommentator/in" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "comment on", "de": "kommentieren, sich äußern zu", "example": "The author comments on the broader societal implications of the findings." }
+    ]
+  },
+  {
+    "id": "awl29_007",
+    "word": "community",
+    "group": "AWL29",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Gemeinschaft, Gesellschaft, Gemeinwesen" },
+    "examples": [
+      {
+        "en": "The scientific community has reached broad consensus on the causes of climate change.",
+        "de": "Die wissenschaftliche Gemeinschaft hat breiten Konsens über die Ursachen des Klimawandels erzielt."
+      },
+      {
+        "en": "Community-based interventions are often more effective than top-down policy approaches.",
+        "de": "Gemeinschaftsbasierte Maßnahmen sind oft wirksamer als von oben herab gesteuerte politische Ansätze."
+      }
+    ],
+    "opposite": { "word": "individual", "de": "Einzelperson, individuell" },
+    "synonyms": ["society", "group", "population", "collective"],
+    "word_family": [
+      { "word": "communal", "pos": "adjective", "de": "gemeinschaftlich, kollektiv" },
+      { "word": "commune", "pos": "noun/verb", "de": "Gemeinde / sich verständigen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl29_008",
+    "word": "concept",
+    "group": "AWL29",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Konzept, Begriff, Vorstellung" },
+    "examples": [
+      {
+        "en": "The concept of social capital was popularised by Pierre Bourdieu and Robert Putnam.",
+        "de": "Das Konzept des Sozialkapitals wurde von Pierre Bourdieu und Robert Putnam popularisiert."
+      },
+      {
+        "en": "Students often struggle with abstract concepts before encountering concrete examples.",
+        "de": "Studierende haben oft Schwierigkeiten mit abstrakten Konzepten, bevor sie auf konkrete Beispiele treffen."
+      }
+    ],
+    "opposite": { "word": "reality", "de": "Realität, Wirklichkeit" },
+    "synonyms": ["idea", "notion", "principle", "construct"],
+    "word_family": [
+      { "word": "conception", "pos": "noun", "de": "Auffassung, Konzeption" },
+      { "word": "conceptual", "pos": "adjective", "de": "konzeptuell, begrifflich" },
+      { "word": "conceptualise", "pos": "verb", "de": "konzeptualisieren" },
+      { "word": "misconception", "pos": "noun", "de": "Missverständnis, Fehlvorstellung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl29_009",
+    "word": "conduct",
+    "group": "AWL29",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "durchführen, leiten; Verhalten, Führung" },
+    "examples": [
+      {
+        "en": "The university ethics board must approve all research conducted with human participants.",
+        "de": "Der Ethikausschuss der Universität muss alle mit menschlichen Teilnehmern durchgeführten Forschungen genehmigen."
+      },
+      {
+        "en": "A series of interviews was conducted to gather qualitative data on user experiences.",
+        "de": "Eine Reihe von Interviews wurde durchgeführt, um qualitative Daten über Nutzererfahrungen zu sammeln."
+      }
+    ],
+    "opposite": { "word": "neglect", "de": "vernachlässigen, unterlassen" },
+    "synonyms": ["carry out", "perform", "undertake", "execute"],
+    "word_family": [
+      { "word": "misconduct", "pos": "noun", "de": "Fehlverhalten, Vergehen" },
+      { "word": "conductor", "pos": "noun", "de": "Dirigent/in; Leiter/in" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "conduct into", "de": "einleiten, überführen", "example": "The investigation was conducted into allegations of financial misconduct." }
+    ]
+  },
+  {
+    "id": "awl29_010",
+    "word": "core",
+    "group": "AWL29",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Kern, Mittelpunkt, wesentlich" },
+    "examples": [
+      {
+        "en": "The core argument of the paper rests on three empirically supported propositions.",
+        "de": "Das Kernargument des Aufsatzes stützt sich auf drei empirisch belegte Thesen."
+      },
+      {
+        "en": "Critical thinking is a core competency expected of all university graduates.",
+        "de": "Kritisches Denken ist eine Kernkompetenz, die von allen Hochschulabsolventen erwartet wird."
+      }
+    ],
+    "opposite": { "word": "periphery", "de": "Peripherie, Rand" },
+    "synonyms": ["centre", "essence", "heart", "foundation"],
+    "word_family": [
+      { "word": "core curriculum", "pos": "phrase", "de": "Kernlehrplan" },
+      { "word": "hardcore", "pos": "adjective", "de": "hartgesotten, kompromisslos" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl29_011",
+    "word": "data",
+    "group": "AWL29",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Daten, Datenmaterial" },
+    "examples": [
+      {
+        "en": "The data collected over ten years reveals a steady increase in urban migration rates.",
+        "de": "Die über zehn Jahre gesammelten Daten zeigen einen stetigen Anstieg der Urbanisierungsraten."
+      },
+      {
+        "en": "Qualitative and quantitative data complement each other in mixed-methods research.",
+        "de": "Qualitative und quantitative Daten ergänzen sich in der Mixed-Methods-Forschung."
+      }
+    ],
+    "opposite": { "word": "conjecture", "de": "Vermutung, Spekulation" },
+    "synonyms": ["information", "figures", "statistics", "findings"],
+    "word_family": [
+      { "word": "database", "pos": "noun", "de": "Datenbank" },
+      { "word": "dataset", "pos": "noun", "de": "Datensatz" },
+      { "word": "data-driven", "pos": "adjective", "de": "datengetrieben" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl29_012",
+    "word": "determine",
+    "group": "AWL29",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "bestimmen, ermitteln, festlegen" },
+    "examples": [
+      {
+        "en": "The aim of the study is to determine the causal relationship between two variables.",
+        "de": "Ziel der Studie ist es, den kausalen Zusammenhang zwischen zwei Variablen zu bestimmen."
+      },
+      {
+        "en": "Several factors determine whether a new technology will be adopted by the market.",
+        "de": "Mehrere Faktoren bestimmen, ob eine neue Technologie vom Markt angenommen wird."
+      }
+    ],
+    "opposite": { "word": "leave undecided", "de": "offen lassen, unentschieden lassen" },
+    "synonyms": ["establish", "ascertain", "identify", "decide"],
+    "word_family": [
+      { "word": "determination", "pos": "noun", "de": "Bestimmung; Entschlossenheit" },
+      { "word": "determined", "pos": "adjective", "de": "entschlossen; bestimmt" },
+      { "word": "determinant", "pos": "noun", "de": "Bestimmungsfaktor" },
+      { "word": "indeterminate", "pos": "adjective", "de": "unbestimmt, unklar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl29_013",
+    "word": "environment",
+    "group": "AWL29",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Umwelt, Umgebung, Milieu" },
+    "examples": [
+      {
+        "en": "A supportive learning environment encourages students to take intellectual risks.",
+        "de": "Eine unterstützende Lernumgebung ermutigt Studierende, intellektuelle Risiken einzugehen."
+      },
+      {
+        "en": "Businesses must adapt to a rapidly changing economic environment.",
+        "de": "Unternehmen müssen sich an ein sich schnell veränderndes wirtschaftliches Umfeld anpassen."
+      }
+    ],
+    "opposite": { "word": "isolation", "de": "Isolation, Abgeschlossenheit" },
+    "synonyms": ["setting", "context", "surroundings", "conditions"],
+    "word_family": [
+      { "word": "environmental", "pos": "adjective", "de": "ökologisch, umweltbezogen" },
+      { "word": "environmentally", "pos": "adverb", "de": "ökologisch" },
+      { "word": "environmentalist", "pos": "noun", "de": "Umweltschützer/in" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl29_014",
+    "word": "expert",
+    "group": "AWL29",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Experte/Expertin, Fachmann/-frau; Fach-, sachverständig" },
+    "examples": [
+      {
+        "en": "Domain experts were consulted to validate the coding scheme used in the analysis.",
+        "de": "Fachexperten wurden konsultiert, um das in der Analyse verwendete Kodierschema zu validieren."
+      },
+      {
+        "en": "Expert opinion should supplement, not replace, empirical evidence in policy decisions.",
+        "de": "Expertenmeinungen sollten empirische Belege in politischen Entscheidungen ergänzen, nicht ersetzen."
+      }
+    ],
+    "opposite": { "word": "novice", "de": "Anfänger/in, Neuling" },
+    "synonyms": ["specialist", "authority", "professional", "connoisseur"],
+    "word_family": [
+      { "word": "expertise", "pos": "noun", "de": "Fachwissen, Expertise" },
+      { "word": "expertly", "pos": "adverb", "de": "fachmännisch, gekonnt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl29_015",
+    "word": "initiative",
+    "group": "AWL29",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Initiative, Vorhaben, Eigeninitiative" },
+    "examples": [
+      {
+        "en": "The government launched an initiative to reduce carbon emissions by 40 percent by 2030.",
+        "de": "Die Regierung startete eine Initiative zur Reduzierung der Kohlenstoffemissionen um 40 Prozent bis 2030."
+      },
+      {
+        "en": "Employees who take initiative are often more likely to advance within an organisation.",
+        "de": "Mitarbeiter, die Initiative ergreifen, haben oft bessere Aufstiegschancen innerhalb einer Organisation."
+      }
+    ],
+    "opposite": { "word": "passivity", "de": "Passivität, Untätigkeit" },
+    "synonyms": ["scheme", "programme", "drive", "enterprise"],
+    "word_family": [
+      { "word": "initiate", "pos": "verb", "de": "einleiten, initiieren" },
+      { "word": "initiation", "pos": "noun", "de": "Einleitung, Initiierung" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "take the initiative", "de": "die Initiative ergreifen", "example": "The research team took the initiative to publish their data openly." }
+    ]
+  },
+  {
+    "id": "awl29_016",
+    "word": "knowledge",
+    "group": "AWL29",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Wissen, Kenntnisse, Erkenntnis" },
+    "examples": [
+      {
+        "en": "Prior knowledge of statistics is assumed for students enrolling in this research methods course.",
+        "de": "Vorkenntnisse in Statistik werden für Studierende vorausgesetzt, die sich für diesen Forschungsmethodenkurs einschreiben."
+      },
+      {
+        "en": "The accumulation of scientific knowledge depends on open access to published findings.",
+        "de": "Die Anhäufung wissenschaftlichen Wissens hängt vom offenen Zugang zu veröffentlichten Erkenntnissen ab."
+      }
+    ],
+    "opposite": { "word": "ignorance", "de": "Unwissenheit, Unkenntnis" },
+    "synonyms": ["understanding", "awareness", "expertise", "information"],
+    "word_family": [
+      { "word": "know", "pos": "verb", "de": "wissen, kennen" },
+      { "word": "knowledgeable", "pos": "adjective", "de": "kenntnisreich, sachkundig" },
+      { "word": "unknown", "pos": "adjective", "de": "unbekannt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl29_017",
+    "word": "literature",
+    "group": "AWL29",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Literatur; Fachliteratur, Forschungsstand" },
+    "examples": [
+      {
+        "en": "A thorough review of the existing literature reveals several gaps in current understanding.",
+        "de": "Eine gründliche Überprüfung der bestehenden Literatur zeigt mehrere Lücken im aktuellen Verständnis auf."
+      },
+      {
+        "en": "The growing literature on cognitive biases has influenced both psychology and economics.",
+        "de": "Die wachsende Literatur zu kognitiven Verzerrungen hat sowohl die Psychologie als auch die Wirtschaftswissenschaften beeinflusst."
+      }
+    ],
+    "opposite": { "word": "oral tradition", "de": "mündliche Überlieferung" },
+    "synonyms": ["publications", "research", "scholarship", "body of work"],
+    "word_family": [
+      { "word": "literary", "pos": "adjective", "de": "literarisch" },
+      { "word": "literate", "pos": "adjective", "de": "gebildet, lese- und schreibkundig" },
+      { "word": "literacy", "pos": "noun", "de": "Lese- und Schreibfähigkeit; Kompetenz" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl29_018",
+    "word": "major",
+    "group": "AWL29",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "bedeutend, wesentlich, groß; Hauptfach" },
+    "examples": [
+      {
+        "en": "Globalisation is a major driver of both economic growth and cultural change.",
+        "de": "Globalisierung ist ein wichtiger Treiber sowohl des wirtschaftlichen Wachstums als auch des kulturellen Wandels."
+      },
+      {
+        "en": "The study identifies three major obstacles to the implementation of sustainable policies.",
+        "de": "Die Studie identifiziert drei wesentliche Hindernisse bei der Umsetzung nachhaltiger Politiken."
+      }
+    ],
+    "opposite": { "word": "minor", "de": "geringfügig, nebensächlich" },
+    "synonyms": ["significant", "principal", "primary", "key"],
+    "word_family": [
+      { "word": "majority", "pos": "noun", "de": "Mehrheit" },
+      { "word": "majorly", "pos": "adverb", "de": "hauptsächlich, erheblich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl29_019",
+    "word": "participant",
+    "group": "AWL29",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Teilnehmer/in, Proband/in" },
+    "examples": [
+      {
+        "en": "All participants gave written informed consent before the experiment began.",
+        "de": "Alle Teilnehmer gaben vor Beginn des Experiments eine schriftliche Einverständniserklärung ab."
+      },
+      {
+        "en": "The study recruited participants through online platforms and university noticeboards.",
+        "de": "Die Studie rekrutierte Teilnehmer über Online-Plattformen und Aushänge an der Universität."
+      }
+    ],
+    "opposite": { "word": "observer", "de": "Beobachter/in, Zuschauer/in" },
+    "synonyms": ["subject", "respondent", "contributor", "member"],
+    "word_family": [
+      { "word": "participate", "pos": "verb", "de": "teilnehmen, mitmachen" },
+      { "word": "participation", "pos": "noun", "de": "Teilnahme, Beteiligung" },
+      { "word": "participatory", "pos": "adjective", "de": "partizipativ, beteiligend" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "participate in", "de": "teilnehmen an", "example": "Over 500 individuals participated in the longitudinal study." }
+    ]
+  },
+  {
+    "id": "awl29_020",
+    "word": "potential",
+    "group": "AWL29",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Potenzial, Möglichkeit; potenziell, möglich" },
+    "examples": [
+      {
+        "en": "The research explores the potential of artificial intelligence to transform healthcare delivery.",
+        "de": "Die Forschung untersucht das Potenzial der künstlichen Intelligenz, die Gesundheitsversorgung zu transformieren."
+      },
+      {
+        "en": "Potential risks must be carefully assessed before a new drug enters clinical trials.",
+        "de": "Potenzielle Risiken müssen sorgfältig bewertet werden, bevor ein neues Medikament in klinische Studien eintritt."
+      }
+    ],
+    "opposite": { "word": "limitation", "de": "Einschränkung, Begrenzung" },
+    "synonyms": ["capability", "promise", "prospect", "capacity"],
+    "word_family": [
+      { "word": "potentially", "pos": "adverb", "de": "potenziell, möglicherweise" },
+      { "word": "potentiality", "pos": "noun", "de": "Potenzialität" }
+    ],
+    "phrasal_verbs": []
+  }
+]
