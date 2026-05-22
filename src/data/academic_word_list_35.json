@@ -1,0 +1,523 @@
+[
+  {
+    "id": "awl35_001",
+    "word": "legitimate",
+    "group": "AWL35",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "legitim, rechtmäßig, berechtigt" },
+    "examples": [
+      {
+        "en": "A legitimate government derives its authority from the consent of the governed.",
+        "de": "Eine legitime Regierung leitet ihre Autorität aus der Zustimmung der Regierten ab."
+      },
+      {
+        "en": "Researchers must acknowledge legitimate criticism from peer reviewers rather than dismissing it.",
+        "de": "Forscher müssen legitime Kritik von Gutachtern anerkennen, anstatt sie abzuweisen."
+      }
+    ],
+    "opposite": { "word": "illegitimate", "de": "illegitim, unrechtmäßig" },
+    "synonyms": ["lawful", "valid", "justified", "recognised"],
+    "word_family": [
+      { "word": "legitimacy", "pos": "noun", "de": "Legitimität, Rechtmäßigkeit" },
+      { "word": "legitimise", "pos": "verb", "de": "legitimieren, rechtfertigen" },
+      { "word": "illegitimate", "pos": "adjective", "de": "illegitim, unrechtmäßig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl35_002",
+    "word": "logical",
+    "group": "AWL35",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "logisch, schlüssig, folgerichtig" },
+    "examples": [
+      {
+        "en": "A logical argument proceeds from clearly stated premises to a well-supported conclusion.",
+        "de": "Ein logisches Argument geht von klar formulierten Prämissen zu einer gut belegten Schlussfolgerung über."
+      },
+      {
+        "en": "It is logical to expect that increasing educational investment will improve long-term outcomes.",
+        "de": "Es ist logisch zu erwarten, dass steigende Bildungsinvestitionen die langfristigen Ergebnisse verbessern werden."
+      }
+    ],
+    "opposite": { "word": "illogical", "de": "unlogisch, widersprüchlich" },
+    "synonyms": ["rational", "coherent", "sound", "reasoned"],
+    "word_family": [
+      { "word": "logic", "pos": "noun", "de": "Logik" },
+      { "word": "logically", "pos": "adverb", "de": "logisch, folgerichtig" },
+      { "word": "illogical", "pos": "adjective", "de": "unlogisch" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl35_003",
+    "word": "minimise",
+    "group": "AWL35",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "minimieren, verringern, abschwächen" },
+    "examples": [
+      {
+        "en": "Researchers must take all reasonable steps to minimise risks to participants.",
+        "de": "Forscher müssen alle zumutbaren Schritte unternehmen, um Risiken für Teilnehmer zu minimieren."
+      },
+      {
+        "en": "Good experimental design minimises the influence of confounding variables on the outcome.",
+        "de": "Gutes Versuchsdesign minimiert den Einfluss störender Variablen auf das Ergebnis."
+      }
+    ],
+    "opposite": { "word": "maximise", "de": "maximieren, ausschöpfen" },
+    "synonyms": ["reduce", "limit", "curtail", "lessen"],
+    "word_family": [
+      { "word": "minimum", "pos": "noun/adjective", "de": "Minimum, Mindestmaß; minimal" },
+      { "word": "minimal", "pos": "adjective", "de": "minimal, geringfügig" },
+      { "word": "minimisation", "pos": "noun", "de": "Minimierung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl35_004",
+    "word": "negotiate",
+    "group": "AWL35",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "verhandeln, aushandeln, überwinden" },
+    "examples": [
+      {
+        "en": "International organisations negotiate frameworks for cooperation on global health emergencies.",
+        "de": "Internationale Organisationen verhandeln Rahmenwerke für die Zusammenarbeit bei globalen Gesundheitsnotfällen."
+      },
+      {
+        "en": "Qualitative researchers must constantly negotiate their role as observers within the communities they study.",
+        "de": "Qualitative Forscher müssen ihre Rolle als Beobachter in den von ihnen untersuchten Gemeinschaften ständig aushandeln."
+      }
+    ],
+    "opposite": { "word": "impose", "de": "aufzwingen, diktieren" },
+    "synonyms": ["bargain", "mediate", "broker", "navigate"],
+    "word_family": [
+      { "word": "negotiation", "pos": "noun", "de": "Verhandlung, Aushandlung" },
+      { "word": "negotiator", "pos": "noun", "de": "Verhandlungsführer/in" },
+      { "word": "negotiable", "pos": "adjective", "de": "verhandelbar" },
+      { "word": "non-negotiable", "pos": "adjective", "de": "nicht verhandelbar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl35_005",
+    "word": "ongoing",
+    "group": "AWL35",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "laufend, andauernd, fortlaufend" },
+    "examples": [
+      {
+        "en": "The ongoing debate about open access reflects deeper tensions in academic publishing.",
+        "de": "Die anhaltende Debatte über Open Access spiegelt tiefere Spannungen im wissenschaftlichen Publizieren wider."
+      },
+      {
+        "en": "Participants will be monitored as part of ongoing surveillance over a five-year period.",
+        "de": "Teilnehmer werden im Rahmen einer laufenden Überwachung über einen Zeitraum von fünf Jahren beobachtet."
+      }
+    ],
+    "opposite": { "word": "concluded", "de": "abgeschlossen, beendet" },
+    "synonyms": ["continuing", "current", "persistent", "sustained"],
+    "word_family": []
+  },
+  {
+    "id": "awl35_006",
+    "word": "organise",
+    "group": "AWL35",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "organisieren, strukturieren, einrichten" },
+    "examples": [
+      {
+        "en": "The data were organised thematically using an inductive coding approach.",
+        "de": "Die Daten wurden thematisch mithilfe eines induktiven Kodierungsansatzes organisiert."
+      },
+      {
+        "en": "Civil society groups organise collectively to advocate for policy change.",
+        "de": "Zivilgesellschaftliche Gruppen organisieren sich gemeinsam, um für politischen Wandel einzutreten."
+      }
+    ],
+    "opposite": { "word": "disorganise", "de": "desorganisieren, durcheinanderbringen" },
+    "synonyms": ["arrange", "structure", "coordinate", "systematise"],
+    "word_family": [
+      { "word": "organisation", "pos": "noun", "de": "Organisation, Einrichtung" },
+      { "word": "organisational", "pos": "adjective", "de": "organisatorisch" },
+      { "word": "disorganised", "pos": "adjective", "de": "desorganisiert, unstrukturiert" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "organise around", "de": "organisieren um, ausrichten auf", "example": "The curriculum is organised around three core learning outcomes." }
+    ]
+  },
+  {
+    "id": "awl35_007",
+    "word": "phenomenon",
+    "group": "AWL35",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Phänomen, Erscheinung" },
+    "examples": [
+      {
+        "en": "Globalisation is a multidimensional phenomenon with economic, cultural, and political dimensions.",
+        "de": "Globalisierung ist ein mehrdimensionales Phänomen mit wirtschaftlichen, kulturellen und politischen Dimensionen."
+      },
+      {
+        "en": "The phenomenon of confirmation bias has been extensively documented in cognitive psychology.",
+        "de": "Das Phänomen des Bestätigungsfehlers wurde in der Kognitionspsychologie ausgiebig dokumentiert."
+      }
+    ],
+    "opposite": { "word": "abstraction", "de": "Abstraktion, gedankliches Konzept" },
+    "synonyms": ["occurrence", "event", "effect", "development"],
+    "word_family": [
+      { "word": "phenomena", "pos": "noun (plural)", "de": "Phänomene (Plural)" },
+      { "word": "phenomenal", "pos": "adjective", "de": "phänomenal, außergewöhnlich" },
+      { "word": "phenomenology", "pos": "noun", "de": "Phänomenologie" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl35_008",
+    "word": "predict",
+    "group": "AWL35",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "vorhersagen, prognostizieren, voraussagen" },
+    "examples": [
+      {
+        "en": "Early academic performance strongly predicts later educational attainment and labour market outcomes.",
+        "de": "Frühe schulische Leistungen sagen spätere Bildungsabschlüsse und Arbeitsmarktergebnisse stark voraus."
+      },
+      {
+        "en": "The model was able to predict outcomes with a high degree of accuracy.",
+        "de": "Das Modell war in der Lage, Ergebnisse mit einem hohen Grad an Genauigkeit vorherzusagen."
+      }
+    ],
+    "opposite": { "word": "react to", "de": "reagieren auf" },
+    "synonyms": ["forecast", "project", "anticipate", "foresee"],
+    "word_family": [
+      { "word": "prediction", "pos": "noun", "de": "Vorhersage, Prognose" },
+      { "word": "predictive", "pos": "adjective", "de": "prädiktiv, vorhersagend" },
+      { "word": "predictability", "pos": "noun", "de": "Vorhersagbarkeit" },
+      { "word": "unpredictable", "pos": "adjective", "de": "unvorhersehbar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl35_009",
+    "word": "problematic",
+    "group": "AWL35",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "problematisch, schwierig, fraglich" },
+    "examples": [
+      {
+        "en": "The use of self-reported data is potentially problematic due to social desirability bias.",
+        "de": "Die Verwendung selbstberichteter Daten ist aufgrund von Verzerrungen durch soziale Erwünschtheit potenziell problematisch."
+      },
+      {
+        "en": "Applying Western theoretical frameworks to non-Western contexts can be deeply problematic.",
+        "de": "Die Anwendung westlicher theoretischer Rahmenwerke auf nicht-westliche Kontexte kann zutiefst problematisch sein."
+      }
+    ],
+    "opposite": { "word": "straightforward", "de": "unkompliziert, eindeutig" },
+    "synonyms": ["contentious", "challenging", "questionable", "difficult"],
+    "word_family": [
+      { "word": "problem", "pos": "noun", "de": "Problem, Aufgabe" },
+      { "word": "problematise", "pos": "verb", "de": "problematisieren, in Frage stellen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl35_010",
+    "word": "productive",
+    "group": "AWL35",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "produktiv, ertragreich, fruchtbar" },
+    "examples": [
+      {
+        "en": "A productive collaboration requires clearly defined roles, shared goals, and mutual trust.",
+        "de": "Eine produktive Zusammenarbeit erfordert klar definierte Rollen, gemeinsame Ziele und gegenseitiges Vertrauen."
+      },
+      {
+        "en": "Failure can be productive in research when it leads to revised hypotheses and new insights.",
+        "de": "Scheitern kann in der Forschung produktiv sein, wenn es zu überarbeiteten Hypothesen und neuen Erkenntnissen führt."
+      }
+    ],
+    "opposite": { "word": "unproductive", "de": "unproduktiv, unfruchtbar" },
+    "synonyms": ["fruitful", "effective", "constructive", "efficient"],
+    "word_family": [
+      { "word": "productivity", "pos": "noun", "de": "Produktivität" },
+      { "word": "unproductive", "pos": "adjective", "de": "unproduktiv" },
+      { "word": "productively", "pos": "adverb", "de": "produktiv" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl35_011",
+    "word": "promote",
+    "group": "AWL35",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "fördern, bewerben, unterstützen, vorantreiben" },
+    "examples": [
+      {
+        "en": "Public health campaigns promote healthy behaviours through education and environmental design.",
+        "de": "Kampagnen der öffentlichen Gesundheit fördern gesundes Verhalten durch Bildung und Umweltgestaltung."
+      },
+      {
+        "en": "The initiative aims to promote interdisciplinary collaboration across the university.",
+        "de": "Die Initiative zielt darauf ab, interdisziplinäre Zusammenarbeit an der gesamten Universität zu fördern."
+      }
+    ],
+    "opposite": { "word": "hinder", "de": "behindern, hemmen" },
+    "synonyms": ["advance", "foster", "encourage", "advocate"],
+    "word_family": [
+      { "word": "promotion", "pos": "noun", "de": "Förderung, Beförderung, Werbung" },
+      { "word": "promotional", "pos": "adjective", "de": "Werbe-, Förder-" },
+      { "word": "promoter", "pos": "noun", "de": "Förderer/in, Promotor/in" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl35_012",
+    "word": "qualitative",
+    "group": "AWL35",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "qualitativ" },
+    "examples": [
+      {
+        "en": "Qualitative methods such as interviews and ethnography explore meanings rather than quantities.",
+        "de": "Qualitative Methoden wie Interviews und Ethnographie untersuchen Bedeutungen statt Mengen."
+      },
+      {
+        "en": "A qualitative analysis of policy documents revealed recurring themes of accountability and efficiency.",
+        "de": "Eine qualitative Analyse von Politikdokumenten enthüllte wiederkehrende Themen von Rechenschaftspflicht und Effizienz."
+      }
+    ],
+    "opposite": { "word": "quantitative", "de": "quantitativ" },
+    "synonyms": ["descriptive", "interpretive", "non-numerical", "exploratory"],
+    "word_family": [
+      { "word": "quality", "pos": "noun", "de": "Qualität, Eigenschaft" },
+      { "word": "qualitatively", "pos": "adverb", "de": "qualitativ" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl35_013",
+    "word": "quantitative",
+    "group": "AWL35",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "quantitativ, zahlenmäßig" },
+    "examples": [
+      {
+        "en": "Quantitative research relies on numerical data and statistical analysis to test hypotheses.",
+        "de": "Quantitative Forschung stützt sich auf numerische Daten und statistische Analysen, um Hypothesen zu testen."
+      },
+      {
+        "en": "A large-scale quantitative survey was administered to over 5,000 respondents across three countries.",
+        "de": "Eine großangelegte quantitative Umfrage wurde bei über 5.000 Befragten in drei Ländern durchgeführt."
+      }
+    ],
+    "opposite": { "word": "qualitative", "de": "qualitativ" },
+    "synonyms": ["numerical", "statistical", "measurable", "empirical"],
+    "word_family": [
+      { "word": "quantity", "pos": "noun", "de": "Menge, Quantität" },
+      { "word": "quantitatively", "pos": "adverb", "de": "quantitativ" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl35_014",
+    "word": "random",
+    "group": "AWL35",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "zufällig, beliebig, stichprobenartig" },
+    "examples": [
+      {
+        "en": "Random assignment of participants to conditions is the gold standard in experimental research.",
+        "de": "Die zufällige Zuweisung von Teilnehmern zu Bedingungen ist der Goldstandard in der Experimentalforschung."
+      },
+      {
+        "en": "A random sample ensures that every member of the population has an equal chance of selection.",
+        "de": "Eine Zufallsstichprobe stellt sicher, dass jedes Mitglied der Grundgesamtheit eine gleiche Auswahlchance hat."
+      }
+    ],
+    "opposite": { "word": "systematic", "de": "systematisch, gezielt" },
+    "synonyms": ["chance", "arbitrary", "unsystematic", "stochastic"],
+    "word_family": [
+      { "word": "randomise", "pos": "verb", "de": "randomisieren, zufällig zuweisen" },
+      { "word": "randomisation", "pos": "noun", "de": "Randomisierung" },
+      { "word": "randomly", "pos": "adverb", "de": "zufällig, willkürlich" },
+      { "word": "randomised controlled trial", "pos": "phrase", "de": "randomisierte kontrollierte Studie" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl35_015",
+    "word": "recover",
+    "group": "AWL35",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "erholen, wiederherstellen, zurückgewinnen" },
+    "examples": [
+      {
+        "en": "Economies typically take several years to recover from the effects of a major financial crisis.",
+        "de": "Volkswirtschaften brauchen in der Regel mehrere Jahre, um sich von den Auswirkungen einer schweren Finanzkrise zu erholen."
+      },
+      {
+        "en": "Researchers sought to recover the voices of marginalised communities from historical archives.",
+        "de": "Forscher versuchten, die Stimmen marginalisierter Gemeinschaften aus historischen Archiven zurückzugewinnen."
+      }
+    ],
+    "opposite": { "word": "deteriorate", "de": "sich verschlechtern, verfallen" },
+    "synonyms": ["restore", "regain", "rebound", "rehabilitate"],
+    "word_family": [
+      { "word": "recovery", "pos": "noun", "de": "Erholung, Wiederherstellung" },
+      { "word": "recoverable", "pos": "adjective", "de": "wiederherstellbar, rückgewinnbar" },
+      { "word": "irrecoverable", "pos": "adjective", "de": "unwiederbringlich, unwiederherstellbar" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "recover from", "de": "sich erholen von", "example": "The sector has not yet fully recovered from the disruptions caused by the pandemic." }
+    ]
+  },
+  {
+    "id": "awl35_016",
+    "word": "reinforce",
+    "group": "AWL35",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "verstärken, bekräftigen, vertiefen" },
+    "examples": [
+      {
+        "en": "Stereotypes are reinforced when media representations consistently depict groups in limited ways.",
+        "de": "Stereotype werden verstärkt, wenn Medienrepräsentationen Gruppen konsistent auf begrenzte Weise darstellen."
+      },
+      {
+        "en": "The findings reinforce earlier research suggesting that sleep deprivation impairs learning.",
+        "de": "Die Ergebnisse bekräftigen frühere Forschungen, die darauf hindeuten, dass Schlafentzug das Lernen beeinträchtigt."
+      }
+    ],
+    "opposite": { "word": "weaken", "de": "schwächen, abschwächen" },
+    "synonyms": ["strengthen", "confirm", "support", "consolidate"],
+    "word_family": [
+      { "word": "reinforcement", "pos": "noun", "de": "Verstärkung, Bekräftigung" },
+      { "word": "reinforced", "pos": "adjective", "de": "verstärkt, bekräftigt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl35_017",
+    "word": "resolve",
+    "group": "AWL35",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "lösen, klären, auflösen; Entschlossenheit" },
+    "examples": [
+      {
+        "en": "Future research is needed to resolve the apparent contradictions between these two datasets.",
+        "de": "Weitere Forschung ist notwendig, um die offensichtlichen Widersprüche zwischen diesen beiden Datensätzen aufzulösen."
+      },
+      {
+        "en": "Diplomatic negotiations failed to resolve the territorial dispute between the two states.",
+        "de": "Diplomatische Verhandlungen konnten den Gebietsstreit zwischen den beiden Staaten nicht lösen."
+      }
+    ],
+    "opposite": { "word": "perpetuate", "de": "aufrechterhalten, fortsetzen" },
+    "synonyms": ["settle", "address", "solve", "clarify"],
+    "word_family": [
+      { "word": "resolution", "pos": "noun", "de": "Lösung, Auflösung, Beschluss" },
+      { "word": "resolved", "pos": "adjective", "de": "gelöst, entschlossen" },
+      { "word": "unresolved", "pos": "adjective", "de": "ungelöst, offen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl35_018",
+    "word": "restrict",
+    "group": "AWL35",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "einschränken, begrenzen, beschränken" },
+    "examples": [
+      {
+        "en": "The study is restricted to participants aged between 18 and 65 to ensure comparability.",
+        "de": "Die Studie beschränkt sich auf Teilnehmer im Alter zwischen 18 und 65 Jahren, um Vergleichbarkeit zu gewährleisten."
+      },
+      {
+        "en": "Governments often restrict access to information on grounds of national security.",
+        "de": "Regierungen beschränken häufig den Zugang zu Informationen aus Gründen der nationalen Sicherheit."
+      }
+    ],
+    "opposite": { "word": "expand", "de": "ausweiten, erweitern" },
+    "synonyms": ["limit", "constrain", "confine", "curtail"],
+    "word_family": [
+      { "word": "restriction", "pos": "noun", "de": "Einschränkung, Beschränkung" },
+      { "word": "restrictive", "pos": "adjective", "de": "restriktiv, einschränkend" },
+      { "word": "unrestricted", "pos": "adjective", "de": "uneingeschränkt" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "restrict to", "de": "beschränken auf", "example": "The analysis is restricted to high-income countries to control for confounding factors." }
+    ]
+  },
+  {
+    "id": "awl35_019",
+    "word": "sample",
+    "group": "AWL35",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Stichprobe, Probe; beproben, stichprobenartig prüfen" },
+    "examples": [
+      {
+        "en": "The representativeness of the sample is crucial for generalising findings to the broader population.",
+        "de": "Die Repräsentativität der Stichprobe ist entscheidend für die Verallgemeinerung von Ergebnissen auf die breitere Bevölkerung."
+      },
+      {
+        "en": "A stratified sample was drawn to ensure adequate representation across socioeconomic groups.",
+        "de": "Eine geschichtete Stichprobe wurde gezogen, um eine angemessene Repräsentation über sozioökonomische Gruppen hinweg zu gewährleisten."
+      }
+    ],
+    "opposite": { "word": "population", "de": "Grundgesamtheit, Bevölkerung" },
+    "synonyms": ["specimen", "subset", "group", "cohort"],
+    "word_family": [
+      { "word": "sampling", "pos": "noun", "de": "Stichprobenziehung, Sampling" },
+      { "word": "oversample", "pos": "verb", "de": "überproportional beproben" },
+      { "word": "sample size", "pos": "phrase", "de": "Stichprobengröße" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl35_020",
+    "word": "symbolic",
+    "group": "AWL35",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "symbolisch, sinnbildlich" },
+    "examples": [
+      {
+        "en": "The act of signing the treaty had both practical and symbolic significance for both nations.",
+        "de": "Die Unterzeichnung des Vertrags hatte sowohl praktische als auch symbolische Bedeutung für beide Nationen."
+      },
+      {
+        "en": "Language carries symbolic power, shaping how social groups are perceived and valued.",
+        "de": "Sprache trägt symbolische Macht und prägt, wie soziale Gruppen wahrgenommen und bewertet werden."
+      }
+    ],
+    "opposite": { "word": "literal", "de": "wörtlich, buchstäblich" },
+    "synonyms": ["representative", "metaphorical", "emblematic", "figurative"],
+    "word_family": [
+      { "word": "symbol", "pos": "noun", "de": "Symbol, Zeichen" },
+      { "word": "symbolise", "pos": "verb", "de": "symbolisieren, verkörpern" },
+      { "word": "symbolically", "pos": "adverb", "de": "symbolisch" },
+      { "word": "symbolism", "pos": "noun", "de": "Symbolismus, Symbolgehalt" }
+    ],
+    "phrasal_verbs": []
+  }
+]
