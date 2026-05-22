@@ -1,0 +1,699 @@
+[
+  {
+    "id": "awl26_approximate_01",
+    "word": "approximate",
+    "group": "AWL26",
+    "group_label": "Academic Word List – Sublist 26",
+    "pos": "adjective",
+    "translations": { "de": "annähernd / ungefähr / approximativ" },
+    "examples": [
+      {
+        "en": "The approximate cost of the intervention is estimated at two million euros per year.",
+        "de": "Die ungefähren Kosten der Maßnahme werden auf zwei Millionen Euro pro Jahr geschätzt."
+      },
+      {
+        "en": "Without precise data, researchers must work with approximate values and acknowledge the margin of error.",
+        "de": "Ohne genaue Daten müssen Forscher mit annähernden Werten arbeiten und die Fehlertoleranz anerkennen."
+      }
+    ],
+    "opposite": {
+      "en": "exact",
+      "de": "exakt / genau / präzise",
+      "example_en": "Exact measurements are preferable to approximate estimates wherever precision is critical.",
+      "example_de": "Exakte Messungen sind ungefähren Schätzungen vorzuziehen, wo immer Präzision entscheidend ist."
+    },
+    "synonyms": [
+      { "word": "rough", "de": "grob / ungefähr" },
+      { "word": "estimated", "de": "geschätzt / annähernd" },
+      { "word": "ballpark", "de": "ungefähr / grob geschätzt" }
+    ],
+    "word_family": [
+      { "word": "approximately", "pos": "adv", "de": "annähernd / ungefähr / circa" },
+      { "word": "approximation", "pos": "noun", "de": "Annäherung / Näherungswert" },
+      { "word": "approximate", "pos": "verb", "de": "annähern / approximieren" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl26_cite_02",
+    "word": "cite",
+    "group": "AWL26",
+    "group_label": "Academic Word List – Sublist 26",
+    "pos": "verb",
+    "translations": { "de": "zitieren / anführen / sich berufen auf" },
+    "examples": [
+      {
+        "en": "The paper cites over eighty sources, drawing on literature from sociology, economics, and law.",
+        "de": "Der Aufsatz zitiert über achtzig Quellen aus Literatur der Soziologie, Wirtschaftswissenschaften und Rechtswissenschaft."
+      },
+      {
+        "en": "Participants frequently cited lack of time as the primary barrier to exercise.",
+        "de": "Teilnehmer nannten häufig Zeitmangel als das größte Hindernis für körperliche Betätigung."
+      }
+    ],
+    "opposite": {
+      "en": "omit",
+      "de": "weglassen / übergehen",
+      "example_en": "Choosing to omit a key source while selectively citing others introduces bias into the literature review.",
+      "example_de": "Eine wichtige Quelle wegzulassen, während man selektiv andere zitiert, bringt Verzerrung in die Literaturübersicht."
+    },
+    "synonyms": [
+      { "word": "quote", "de": "zitieren / anführen" },
+      { "word": "reference", "de": "verweisen auf / zitieren" },
+      { "word": "invoke", "de": "anführen / sich berufen auf" }
+    ],
+    "word_family": [
+      { "word": "citation", "pos": "noun", "de": "Zitation / Zitat / Quellenangabe" },
+      { "word": "cited", "pos": "adj", "de": "zitiert / angeführt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl26_contradict_03",
+    "word": "contradict",
+    "group": "AWL26",
+    "group_label": "Academic Word List – Sublist 26",
+    "pos": "verb",
+    "translations": { "de": "widersprechen / widerlegen / im Widerspruch stehen zu" },
+    "examples": [
+      {
+        "en": "The new findings directly contradict the conclusions drawn by earlier researchers.",
+        "de": "Die neuen Erkenntnisse widersprechen direkt den Schlussfolgerungen, die frühere Forscher gezogen haben."
+      },
+      {
+        "en": "These two datasets appear to contradict each other, which requires careful methodological explanation.",
+        "de": "Diese beiden Datensätze scheinen einander zu widersprechen, was eine sorgfältige methodische Erklärung erfordert."
+      }
+    ],
+    "opposite": {
+      "en": "corroborate",
+      "de": "bestätigen / untermauern",
+      "example_en": "Rather than contradict, the second study serves to corroborate the original findings.",
+      "example_de": "Anstatt zu widersprechen, dient die zweite Studie dazu, die ursprünglichen Erkenntnisse zu bestätigen."
+    },
+    "synonyms": [
+      { "word": "refute", "de": "widerlegen / entkräften" },
+      { "word": "conflict with", "de": "im Widerspruch stehen zu" },
+      { "word": "negate", "de": "negieren / aufheben" }
+    ],
+    "word_family": [
+      { "word": "contradiction", "pos": "noun", "de": "Widerspruch / Gegensatz" },
+      { "word": "contradictory", "pos": "adj", "de": "widersprüchlich / gegensätzlich" },
+      { "word": "self-contradictory", "pos": "adj", "de": "selbstwidersprüchlich / inkonsistent" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl26_convert_04",
+    "word": "convert",
+    "group": "AWL26",
+    "group_label": "Academic Word List – Sublist 26",
+    "pos": "verb",
+    "translations": { "de": "umwandeln / konvertieren / umrechnen" },
+    "examples": [
+      {
+        "en": "The raw scores were converted into standardised units to allow comparison across groups.",
+        "de": "Die Rohwerte wurden in standardisierte Einheiten umgewandelt, um einen gruppenübergreifenden Vergleich zu ermöglichen."
+      },
+      {
+        "en": "Many countries are converting coal-fired power plants into gas or renewable energy facilities.",
+        "de": "Viele Länder wandeln kohlebefeuerte Kraftwerke in Gas- oder Erneuerbare-Energien-Anlagen um."
+      }
+    ],
+    "opposite": {
+      "en": "preserve",
+      "de": "erhalten / bewahren / beibehalten",
+      "example_en": "Some historians argue that we should preserve rather than convert historic industrial sites.",
+      "example_de": "Einige Historiker argumentieren, wir sollten historische Industriestätten eher erhalten als umwandeln."
+    },
+    "synonyms": [
+      { "word": "transform", "de": "umwandeln / verwandeln" },
+      { "word": "change", "de": "ändern / umwandeln" },
+      { "word": "adapt", "de": "anpassen / umwandeln" }
+    ],
+    "word_family": [
+      { "word": "conversion", "pos": "noun", "de": "Umwandlung / Konvertierung / Umrechnung" },
+      { "word": "convertible", "pos": "adj", "de": "umwandelbar / konvertierbar" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "convert into", "de": "umwandeln in / konvertieren zu", "example": "Qualitative responses were converted into numerical codes for statistical analysis." }
+    ]
+  },
+  {
+    "id": "awl26_cope_05",
+    "word": "cope",
+    "group": "AWL26",
+    "group_label": "Academic Word List – Sublist 26",
+    "pos": "verb",
+    "translations": { "de": "bewältigen / umgehen mit / zurechtkommen" },
+    "examples": [
+      {
+        "en": "The study examines how individuals cope with chronic stress in high-pressure work environments.",
+        "de": "Die Studie untersucht, wie Einzelpersonen chronischen Stress in Hochdruckarbeitsumgebungen bewältigen."
+      },
+      {
+        "en": "Existing infrastructure cannot cope with the demands placed on it by rapid urbanisation.",
+        "de": "Die bestehende Infrastruktur kann den Anforderungen, die die rasche Urbanisierung an sie stellt, nicht standhalten."
+      }
+    ],
+    "opposite": {
+      "en": "succumb",
+      "de": "erliegen / nachgeben / scheitern an",
+      "example_en": "Individuals who lack social support are more likely to succumb to stress rather than cope with it.",
+      "example_de": "Personen ohne soziale Unterstützung neigen eher dazu, Stress zu erliegen, als ihn zu bewältigen."
+    },
+    "synonyms": [
+      { "word": "manage", "de": "bewältigen / handhaben" },
+      { "word": "handle", "de": "umgehen mit / handhaben" },
+      { "word": "deal with", "de": "umgehen mit / bewältigen" }
+    ],
+    "word_family": [
+      { "word": "coping", "pos": "noun/adj", "de": "Bewältigung / Coping / bewältigend" },
+      { "word": "coping strategy", "pos": "noun", "de": "Bewältigungsstrategie" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "cope with", "de": "umgehen mit / bewältigen", "example": "Societies must develop strategies to cope with the consequences of an ageing population." }
+    ]
+  },
+  {
+    "id": "awl26_diversity_06",
+    "word": "diversity",
+    "group": "AWL26",
+    "group_label": "Academic Word List – Sublist 26",
+    "pos": "noun",
+    "translations": { "de": "Vielfalt / Diversität / Verschiedenheit" },
+    "examples": [
+      {
+        "en": "Biodiversity loss poses a serious threat to the stability of ecosystems worldwide.",
+        "de": "Der Verlust der biologischen Vielfalt stellt eine ernsthafte Bedrohung für die Stabilität von Ökosystemen weltweit dar."
+      },
+      {
+        "en": "Research teams with greater diversity in background and expertise tend to produce more innovative solutions.",
+        "de": "Forschungsteams mit größerer Vielfalt in Hintergrund und Expertise neigen dazu, innovativere Lösungen zu erarbeiten."
+      }
+    ],
+    "opposite": {
+      "en": "uniformity",
+      "de": "Gleichförmigkeit / Einheitlichkeit",
+      "example_en": "A high degree of uniformity in the sample limits how far findings can be generalised.",
+      "example_de": "Ein hoher Grad an Einheitlichkeit in der Stichprobe begrenzt, wie weit die Erkenntnisse verallgemeinert werden können."
+    },
+    "synonyms": [
+      { "word": "variety", "de": "Vielfalt / Abwechslung" },
+      { "word": "heterogeneity", "de": "Heterogenität / Verschiedenartigkeit" },
+      { "word": "plurality", "de": "Pluralität / Vielheit" }
+    ],
+    "word_family": [
+      { "word": "diverse", "pos": "adj", "de": "vielfältig / verschieden" },
+      { "word": "diversify", "pos": "verb", "de": "diversifizieren / vielfältiger gestalten" },
+      { "word": "diversification", "pos": "noun", "de": "Diversifizierung / Ausweitung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl26_dynamic_07",
+    "word": "dynamic",
+    "group": "AWL26",
+    "group_label": "Academic Word List – Sublist 26",
+    "pos": "adjective",
+    "translations": { "de": "dynamisch / sich verändernd / lebendig" },
+    "examples": [
+      {
+        "en": "Language is a dynamic system that evolves continuously in response to social change.",
+        "de": "Sprache ist ein dynamisches System, das sich kontinuierlich als Reaktion auf sozialen Wandel entwickelt."
+      },
+      {
+        "en": "The relationship between technology and employment is complex and highly dynamic.",
+        "de": "Die Beziehung zwischen Technologie und Beschäftigung ist komplex und hochdynamisch."
+      }
+    ],
+    "opposite": {
+      "en": "static",
+      "de": "statisch / unveränderlich / stagnierend",
+      "example_en": "A static model cannot adequately capture the dynamic nature of market behaviour.",
+      "example_de": "Ein statisches Modell kann die dynamische Natur des Marktverhaltens nicht angemessen erfassen."
+    },
+    "synonyms": [
+      { "word": "evolving", "de": "sich entwickelnd / wandelnd" },
+      { "word": "fluid", "de": "fließend / veränderlich" },
+      { "word": "active", "de": "aktiv / lebendig" }
+    ],
+    "word_family": [
+      { "word": "dynamics", "pos": "noun (pl)", "de": "Dynamik / Kräfteverhältnisse" },
+      { "word": "dynamically", "pos": "adv", "de": "dynamisch / lebendig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl26_feature_08",
+    "word": "feature",
+    "group": "AWL26",
+    "group_label": "Academic Word List – Sublist 26",
+    "pos": "noun",
+    "translations": { "de": "Merkmal / Eigenschaft / Besonderheit" },
+    "examples": [
+      {
+        "en": "A distinctive feature of the approach is its emphasis on longitudinal rather than cross-sectional data.",
+        "de": "Ein besonderes Merkmal des Ansatzes ist die Betonung von Längsschnitt- statt Querschnittsdaten."
+      },
+      {
+        "en": "Transparency is considered a key feature of good governance.",
+        "de": "Transparenz gilt als ein zentrales Merkmal guter Regierungsführung."
+      }
+    ],
+    "opposite": {
+      "en": "deficiency",
+      "de": "Mangel / Schwäche / Defizit",
+      "example_en": "What one analyst describes as a key feature, another may see as a fundamental deficiency.",
+      "example_de": "Was ein Analyst als ein zentrales Merkmal beschreibt, kann ein anderer als grundlegenden Mangel betrachten."
+    },
+    "synonyms": [
+      { "word": "characteristic", "de": "Charakteristikum / Merkmal" },
+      { "word": "attribute", "de": "Attribut / Eigenschaft" },
+      { "word": "property", "de": "Eigenschaft / Merkmal" }
+    ],
+    "word_family": [
+      { "word": "feature", "pos": "verb", "de": "hervorheben / präsentieren / vorkommen" },
+      { "word": "featured", "pos": "adj", "de": "hervorgehoben / aufgegriffen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl26_gap_09",
+    "word": "gap",
+    "group": "AWL26",
+    "group_label": "Academic Word List – Sublist 26",
+    "pos": "noun",
+    "translations": { "de": "Lücke / Kluft / Fehlstelle" },
+    "examples": [
+      {
+        "en": "The paper identifies a significant gap in the literature on long-term outcomes for this population.",
+        "de": "Der Aufsatz identifiziert eine bedeutende Lücke in der Literatur zu langfristigen Ergebnissen für diese Bevölkerungsgruppe."
+      },
+      {
+        "en": "The growing gap between rich and poor has attracted considerable attention from policymakers.",
+        "de": "Die wachsende Kluft zwischen Reich und Arm hat erhebliche Aufmerksamkeit von Politikern auf sich gezogen."
+      }
+    ],
+    "opposite": {
+      "en": "continuity",
+      "de": "Kontinuität / Lückenlosigkeit",
+      "example_en": "Where others see a gap, proponents of the theory argue for conceptual continuity.",
+      "example_de": "Wo andere eine Lücke sehen, argumentieren Befürworter der Theorie für konzeptionelle Kontinuität."
+    },
+    "synonyms": [
+      { "word": "void", "de": "Lücke / Leerstelle" },
+      { "word": "shortfall", "de": "Fehlbetrag / Defizit" },
+      { "word": "deficit", "de": "Defizit / Manko" }
+    ],
+    "word_family": [],
+    "phrasal_verbs": [
+      { "phrase": "bridge a gap", "de": "eine Lücke schließen / überbrücken", "example": "This research aims to bridge the gap between theoretical models and clinical practice." },
+      { "phrase": "fill a gap", "de": "eine Lücke füllen / schließen", "example": "The study fills an important gap in our knowledge of adolescent risk behaviour." }
+    ]
+  },
+  {
+    "id": "awl26_implement_10",
+    "word": "implement",
+    "group": "AWL26",
+    "group_label": "Academic Word List – Sublist 26",
+    "pos": "verb",
+    "translations": { "de": "umsetzen / implementieren / durchführen" },
+    "examples": [
+      {
+        "en": "Governments often struggle to implement policies effectively at the local level.",
+        "de": "Regierungen haben oft Schwierigkeiten, Politiken auf lokaler Ebene effektiv umzusetzen."
+      },
+      {
+        "en": "The recommendations were implemented within six months of the report's publication.",
+        "de": "Die Empfehlungen wurden innerhalb von sechs Monaten nach Veröffentlichung des Berichts umgesetzt."
+      }
+    ],
+    "opposite": {
+      "en": "abandon",
+      "de": "aufgeben / verwerfen / fallen lassen",
+      "example_en": "Faced with public resistance, the committee decided to abandon rather than implement the proposed reforms.",
+      "example_de": "Angesichts öffentlichen Widerstands entschied das Komitee, die vorgeschlagenen Reformen aufzugeben statt umzusetzen."
+    },
+    "synonyms": [
+      { "word": "execute", "de": "ausführen / umsetzen" },
+      { "word": "apply", "de": "anwenden / umsetzen" },
+      { "word": "carry out", "de": "durchführen / umsetzen" }
+    ],
+    "word_family": [
+      { "word": "implementation", "pos": "noun", "de": "Umsetzung / Implementierung / Durchführung" },
+      { "word": "implementable", "pos": "adj", "de": "umsetzbar / durchführbar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl26_incentive_11",
+    "word": "incentive",
+    "group": "AWL26",
+    "group_label": "Academic Word List – Sublist 26",
+    "pos": "noun",
+    "translations": { "de": "Anreiz / Motivation / Ansporn" },
+    "examples": [
+      {
+        "en": "Tax incentives have been used to encourage businesses to invest in energy efficiency.",
+        "de": "Steuerliche Anreize wurden eingesetzt, um Unternehmen zu ermutigen, in Energieeffizienz zu investieren."
+      },
+      {
+        "en": "Without a clear incentive to participate, response rates in voluntary surveys tend to be low.",
+        "de": "Ohne einen klaren Anreiz zur Teilnahme sind die Rücklaufquoten bei freiwilligen Umfragen tendenziell niedrig."
+      }
+    ],
+    "opposite": {
+      "en": "deterrent",
+      "de": "Abschreckung / Hemmnis / Hindernis",
+      "example_en": "High transaction costs can act as a deterrent rather than an incentive for investment.",
+      "example_de": "Hohe Transaktionskosten können eher als Abschreckung denn als Anreiz für Investitionen wirken."
+    },
+    "synonyms": [
+      { "word": "motivation", "de": "Motivation / Antrieb" },
+      { "word": "inducement", "de": "Anreiz / Ansporn" },
+      { "word": "stimulus", "de": "Anreiz / Stimulus" }
+    ],
+    "word_family": [
+      { "word": "incentivise", "pos": "verb", "de": "Anreize schaffen / motivieren" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl26_influence_12",
+    "word": "influence",
+    "group": "AWL26",
+    "group_label": "Academic Word List – Sublist 26",
+    "pos": "verb",
+    "translations": { "de": "beeinflussen / Einfluss ausüben auf / prägen" },
+    "examples": [
+      {
+        "en": "Socioeconomic background continues to influence educational attainment in most societies.",
+        "de": "Der sozioökonomische Hintergrund beeinflusst die Bildungsleistung in den meisten Gesellschaften nach wie vor."
+      },
+      {
+        "en": "The results were influenced by a range of confounding variables that could not be fully controlled.",
+        "de": "Die Ergebnisse wurden durch eine Reihe von Störvariablen beeinflusst, die nicht vollständig kontrolliert werden konnten."
+      }
+    ],
+    "opposite": {
+      "en": "leave unaffected",
+      "de": "unberührt lassen / keinen Einfluss haben auf",
+      "example_en": "No social actor operates in a vacuum; all are influenced by the structures around them.",
+      "example_de": "Kein sozialer Akteur handelt im Vakuum; alle werden von den Strukturen um sie herum beeinflusst."
+    },
+    "synonyms": [
+      { "word": "affect", "de": "beeinflussen / auswirken auf" },
+      { "word": "shape", "de": "prägen / formen" },
+      { "word": "determine", "de": "bestimmen / beeinflussen" }
+    ],
+    "word_family": [
+      { "word": "influence", "pos": "noun", "de": "Einfluss / Wirkung" },
+      { "word": "influential", "pos": "adj", "de": "einflussreich / bedeutsam" },
+      { "word": "uninfluenced", "pos": "adj", "de": "unbeeinflusst / unabhängig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl26_innovative_13",
+    "word": "innovative",
+    "group": "AWL26",
+    "group_label": "Academic Word List – Sublist 26",
+    "pos": "adjective",
+    "translations": { "de": "innovativ / neuartig / wegweisend" },
+    "examples": [
+      {
+        "en": "The study employs an innovative methodological approach that combines ethnography with computational analysis.",
+        "de": "Die Studie verwendet einen innovativen methodischen Ansatz, der Ethnographie mit computergestützter Analyse verbindet."
+      },
+      {
+        "en": "Innovative technologies are transforming the delivery of healthcare in remote regions.",
+        "de": "Innovative Technologien transformieren die Gesundheitsversorgung in abgelegenen Regionen."
+      }
+    ],
+    "opposite": {
+      "en": "conventional",
+      "de": "konventionell / herkömmlich / traditionell",
+      "example_en": "The conventional approach, while reliable, may not be suitable for rapidly changing contexts.",
+      "example_de": "Der konventionelle Ansatz ist zwar zuverlässig, kann aber für sich schnell verändernde Kontexte ungeeignet sein."
+    },
+    "synonyms": [
+      { "word": "novel", "de": "neuartig / originell" },
+      { "word": "pioneering", "de": "bahnbrechend / wegweisend" },
+      { "word": "creative", "de": "kreativ / erfinderisch" }
+    ],
+    "word_family": [
+      { "word": "innovate", "pos": "verb", "de": "innovieren / Neues einführen" },
+      { "word": "innovation", "pos": "noun", "de": "Innovation / Neuerung" },
+      { "word": "innovatively", "pos": "adv", "de": "innovativ / auf neuartige Weise" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl26_modify_14",
+    "word": "modify",
+    "group": "AWL26",
+    "group_label": "Academic Word List – Sublist 26",
+    "pos": "verb",
+    "translations": { "de": "modifizieren / anpassen / abändern" },
+    "examples": [
+      {
+        "en": "The original protocol was modified to reduce participant burden without compromising data quality.",
+        "de": "Das ursprüngliche Protokoll wurde modifiziert, um die Belastung der Teilnehmer zu verringern, ohne die Datenqualität zu beeinträchtigen."
+      },
+      {
+        "en": "Existing models must be modified when they fail to account for newly observed phenomena.",
+        "de": "Bestehende Modelle müssen modifiziert werden, wenn sie neu beobachtete Phänomene nicht erfassen können."
+      }
+    ],
+    "opposite": {
+      "en": "preserve unchanged",
+      "de": "unverändert lassen / beibehalten",
+      "example_en": "Some researchers advocate preserving the original instrument unchanged to maintain comparability across studies.",
+      "example_de": "Einige Forscher befürworten es, das ursprüngliche Instrument unverändert zu lassen, um die Vergleichbarkeit über Studien hinweg zu wahren."
+    },
+    "synonyms": [
+      { "word": "adjust", "de": "anpassen / justieren" },
+      { "word": "alter", "de": "ändern / abändern" },
+      { "word": "adapt", "de": "anpassen / modifizieren" }
+    ],
+    "word_family": [
+      { "word": "modification", "pos": "noun", "de": "Modifikation / Anpassung / Änderung" },
+      { "word": "modified", "pos": "adj", "de": "modifiziert / angepasst" },
+      { "word": "modifier", "pos": "noun", "de": "Modifikator / Änderungsgröße" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl26_phase_15",
+    "word": "phase",
+    "group": "AWL26",
+    "group_label": "Academic Word List – Sublist 26",
+    "pos": "noun",
+    "translations": { "de": "Phase / Abschnitt / Stadium" },
+    "examples": [
+      {
+        "en": "The research was conducted in three phases, each addressing a distinct aspect of the problem.",
+        "de": "Die Forschung wurde in drei Phasen durchgeführt, von denen jede einen unterschiedlichen Aspekt des Problems ansprach."
+      },
+      {
+        "en": "We are currently in a transitional phase during which new norms are still being established.",
+        "de": "Wir befinden uns derzeit in einer Übergangsphase, in der neue Normen noch festgelegt werden."
+      }
+    ],
+    "opposite": {
+      "en": "continuum",
+      "de": "Kontinuum / unteilbarer Verlauf",
+      "example_en": "Some theorists resist dividing development into phases, arguing it is better described as a continuum.",
+      "example_de": "Einige Theoretiker lehnen es ab, Entwicklung in Phasen einzuteilen, und argumentieren, sie sei besser als Kontinuum zu beschreiben."
+    },
+    "synonyms": [
+      { "word": "stage", "de": "Stadium / Phase / Stufe" },
+      { "word": "period", "de": "Periode / Zeitabschnitt" },
+      { "word": "step", "de": "Schritt / Stufe" }
+    ],
+    "word_family": [
+      { "word": "phase", "pos": "verb", "de": "stufenweise einführen / phasenweise durchführen" },
+      { "word": "phased", "pos": "adj", "de": "stufenweise / schrittweise" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "phase in", "de": "schrittweise einführen", "example": "The new regulations will be phased in gradually over a three-year period." },
+      { "phrase": "phase out", "de": "schrittweise abschaffen / auslaufen lassen", "example": "The government plans to phase out coal subsidies by 2030." }
+    ]
+  },
+  {
+    "id": "awl26_regulate_16",
+    "word": "regulate",
+    "group": "AWL26",
+    "group_label": "Academic Word List – Sublist 26",
+    "pos": "verb",
+    "translations": { "de": "regulieren / regeln / kontrollieren" },
+    "examples": [
+      {
+        "en": "Governments regulate financial markets to prevent systemic risk and protect consumers.",
+        "de": "Regierungen regulieren Finanzmärkte, um systemische Risiken zu verhindern und Verbraucher zu schützen."
+      },
+      {
+        "en": "The body regulates its temperature through a complex set of physiological mechanisms.",
+        "de": "Der Körper reguliert seine Temperatur durch ein komplexes System physiologischer Mechanismen."
+      }
+    ],
+    "opposite": {
+      "en": "deregulate",
+      "de": "deregulieren / Kontrolle aufheben",
+      "example_en": "Critics warned that moves to deregulate the sector could expose consumers to greater risk.",
+      "example_de": "Kritiker warnten, dass Schritte zur Deregulierung des Sektors Verbraucher größeren Risiken aussetzen könnten."
+    },
+    "synonyms": [
+      { "word": "control", "de": "kontrollieren / steuern" },
+      { "word": "govern", "de": "regeln / steuern" },
+      { "word": "manage", "de": "verwalten / steuern" }
+    ],
+    "word_family": [
+      { "word": "regulation", "pos": "noun", "de": "Regulierung / Vorschrift / Regelung" },
+      { "word": "regulatory", "pos": "adj", "de": "regulatorisch / Regulierungs-" },
+      { "word": "regulator", "pos": "noun", "de": "Regulierungsbehörde / Regler" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl26_reject_17",
+    "word": "reject",
+    "group": "AWL26",
+    "group_label": "Academic Word List – Sublist 26",
+    "pos": "verb",
+    "translations": { "de": "ablehnen / verwerfen / zurückweisen" },
+    "examples": [
+      {
+        "en": "The peer reviewers rejected the manuscript on the grounds that the methodology was flawed.",
+        "de": "Die Gutachter lehnten das Manuskript mit der Begründung ab, dass die Methodik fehlerhaft war."
+      },
+      {
+        "en": "The null hypothesis was rejected at the 0.05 significance level.",
+        "de": "Die Nullhypothese wurde auf dem Signifikanzniveau von 0,05 abgelehnt."
+      }
+    ],
+    "opposite": {
+      "en": "accept",
+      "de": "akzeptieren / annehmen / anerkennen",
+      "example_en": "The committee decided to accept the revised proposal after initially rejecting the original.",
+      "example_de": "Der Ausschuss entschied sich, den überarbeiteten Vorschlag anzunehmen, nachdem er das Original zunächst abgelehnt hatte."
+    },
+    "synonyms": [
+      { "word": "dismiss", "de": "zurückweisen / ablehnen" },
+      { "word": "discard", "de": "verwerfen / aufgeben" },
+      { "word": "refuse", "de": "ablehnen / verweigern" }
+    ],
+    "word_family": [
+      { "word": "rejection", "pos": "noun", "de": "Ablehnung / Zurückweisung" },
+      { "word": "rejected", "pos": "adj", "de": "abgelehnt / verworfen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl26_require_18",
+    "word": "require",
+    "group": "AWL26",
+    "group_label": "Academic Word List – Sublist 26",
+    "pos": "verb",
+    "translations": { "de": "erfordern / verlangen / benötigen" },
+    "examples": [
+      {
+        "en": "Conducting longitudinal research requires substantial funding and long-term institutional commitment.",
+        "de": "Die Durchführung von Längsschnittforschung erfordert erhebliche Finanzierung und langfristiges institutionelles Engagement."
+      },
+      {
+        "en": "All participants were required to provide written consent before the study began.",
+        "de": "Von allen Teilnehmern wurde verlangt, vor Studienbeginn eine schriftliche Einwilligung zu erteilen."
+      }
+    ],
+    "opposite": {
+      "en": "dispense with",
+      "de": "verzichten auf / nicht benötigen",
+      "example_en": "Simplified procedures dispense with several steps that standard protocols require.",
+      "example_de": "Vereinfachte Verfahren verzichten auf mehrere Schritte, die Standardprotokolle erfordern."
+    },
+    "synonyms": [
+      { "word": "demand", "de": "verlangen / fordern" },
+      { "word": "necessitate", "de": "erfordern / notwendig machen" },
+      { "word": "entail", "de": "erfordern / mit sich bringen" }
+    ],
+    "word_family": [
+      { "word": "requirement", "pos": "noun", "de": "Anforderung / Voraussetzung / Bedarf" },
+      { "word": "required", "pos": "adj", "de": "erforderlich / vorgeschrieben" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl26_resource_19",
+    "word": "resource",
+    "group": "AWL26",
+    "group_label": "Academic Word List – Sublist 26",
+    "pos": "noun",
+    "translations": { "de": "Ressource / Mittel / Hilfsmittel" },
+    "examples": [
+      {
+        "en": "Limited financial resources constrained the scope of the study.",
+        "de": "Begrenzte finanzielle Ressourcen schränkten den Umfang der Studie ein."
+      },
+      {
+        "en": "The equitable distribution of natural resources remains a central challenge in development economics.",
+        "de": "Die gerechte Verteilung natürlicher Ressourcen bleibt eine zentrale Herausforderung in der Entwicklungsökonomie."
+      }
+    ],
+    "opposite": {
+      "en": "scarcity",
+      "de": "Knappheit / Mangel",
+      "example_en": "Scarcity of resources forces decision-makers to prioritise some objectives over others.",
+      "example_de": "Ressourcenknappheit zwingt Entscheidungsträger, einige Ziele gegenüber anderen zu priorisieren."
+    },
+    "synonyms": [
+      { "word": "asset", "de": "Vermögenswert / Ressource" },
+      { "word": "means", "de": "Mittel / Möglichkeiten" },
+      { "word": "capacity", "de": "Kapazität / Potenzial" }
+    ],
+    "word_family": [
+      { "word": "resource", "pos": "verb", "de": "ausstatten / mit Mitteln versorgen" },
+      { "word": "resourceful", "pos": "adj", "de": "einfallsreich / findig" },
+      { "word": "under-resourced", "pos": "adj", "de": "unterfinanziert / mit zu wenig Mitteln ausgestattet" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl26_respond_20",
+    "word": "respond",
+    "group": "AWL26",
+    "group_label": "Academic Word List – Sublist 26",
+    "pos": "verb",
+    "translations": { "de": "reagieren / antworten / ansprechen auf" },
+    "examples": [
+      {
+        "en": "Policymakers must respond more quickly to emerging evidence about the risks of new technologies.",
+        "de": "Politische Entscheidungsträger müssen schneller auf neue Belege über Risiken neuer Technologien reagieren."
+      },
+      {
+        "en": "The majority of patients responded positively to the treatment within the first two weeks.",
+        "de": "Die Mehrheit der Patienten sprach innerhalb der ersten zwei Wochen positiv auf die Behandlung an."
+      }
+    ],
+    "opposite": {
+      "en": "ignore",
+      "de": "ignorieren / nicht reagieren auf",
+      "example_en": "Institutions that consistently ignore public concerns lose legitimacy over time.",
+      "example_de": "Institutionen, die öffentliche Bedenken konsequent ignorieren, verlieren im Laufe der Zeit an Legitimität."
+    },
+    "synonyms": [
+      { "word": "react", "de": "reagieren / antworten" },
+      { "word": "answer", "de": "antworten / reagieren auf" },
+      { "word": "address", "de": "ansprechen / eingehen auf" }
+    ],
+    "word_family": [
+      { "word": "response", "pos": "noun", "de": "Reaktion / Antwort / Ansprechen" },
+      { "word": "responsive", "pos": "adj", "de": "reaktionsfähig / ansprechend" },
+      { "word": "respondent", "pos": "noun", "de": "Befragter / Teilnehmer" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "respond to", "de": "reagieren auf / antworten auf", "example": "The government was slow to respond to the growing evidence of systemic failures." }
+    ]
+  }
+]
