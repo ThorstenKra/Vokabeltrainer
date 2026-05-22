@@ -1,0 +1,555 @@
+[
+  {
+    "id": "awl28_001",
+    "word": "analyse",
+    "group": "AWL28",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "analysieren, untersuchen" },
+    "examples": [
+      {
+        "en": "Researchers analyse large datasets to identify patterns and draw conclusions.",
+        "de": "Forscher analysieren große Datensätze, um Muster zu erkennen und Schlussfolgerungen zu ziehen."
+      },
+      {
+        "en": "The study carefully analysed the relationship between diet and cognitive performance.",
+        "de": "Die Studie analysierte sorgfältig den Zusammenhang zwischen Ernährung und kognitiver Leistung."
+      }
+    ],
+    "opposite": { "word": "overlook", "de": "übersehen" },
+    "synonyms": ["examine", "investigate", "scrutinise", "dissect"],
+    "word_family": [
+      { "word": "analysis", "pos": "noun", "de": "Analyse" },
+      { "word": "analyst", "pos": "noun", "de": "Analyst/in" },
+      { "word": "analytical", "pos": "adjective", "de": "analytisch" },
+      { "word": "analytically", "pos": "adverb", "de": "analytisch" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "analyse into", "de": "aufschlüsseln in", "example": "We can analyse this problem into three distinct components." }
+    ]
+  },
+  {
+    "id": "awl28_002",
+    "word": "approach",
+    "group": "AWL28",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Ansatz, Herangehensweise; sich annähern" },
+    "examples": [
+      {
+        "en": "A multidisciplinary approach is often necessary to address complex social problems.",
+        "de": "Ein multidisziplinärer Ansatz ist oft notwendig, um komplexe gesellschaftliche Probleme anzugehen."
+      },
+      {
+        "en": "The team adopted a new approach after the initial strategy failed.",
+        "de": "Das Team verfolgte nach dem Scheitern der anfänglichen Strategie einen neuen Ansatz."
+      }
+    ],
+    "opposite": { "word": "avoidance", "de": "Vermeidung" },
+    "synonyms": ["method", "strategy", "technique", "perspective"],
+    "word_family": [
+      { "word": "approachable", "pos": "adjective", "de": "zugänglich, ansprechbar" },
+      { "word": "unapproachable", "pos": "adjective", "de": "unnahbar" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "approach to", "de": "Ansatz zu / bei", "example": "Their approach to conflict resolution proved highly effective." }
+    ]
+  },
+  {
+    "id": "awl28_003",
+    "word": "assess",
+    "group": "AWL28",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "bewerten, einschätzen, beurteilen" },
+    "examples": [
+      {
+        "en": "Teachers assess student progress through a combination of tests and coursework.",
+        "de": "Lehrkräfte bewerten den Lernfortschritt der Schülerinnen durch eine Kombination aus Tests und Kursarbeiten."
+      },
+      {
+        "en": "It is important to accurately assess the risks before proceeding with the project.",
+        "de": "Es ist wichtig, die Risiken genau einzuschätzen, bevor das Projekt fortgesetzt wird."
+      }
+    ],
+    "opposite": { "word": "ignore", "de": "ignorieren" },
+    "synonyms": ["evaluate", "appraise", "gauge", "measure"],
+    "word_family": [
+      { "word": "assessment", "pos": "noun", "de": "Bewertung, Beurteilung" },
+      { "word": "assessor", "pos": "noun", "de": "Bewerter/in, Gutachter/in" },
+      { "word": "reassess", "pos": "verb", "de": "neu bewerten" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "assess against", "de": "anhand von bewerten", "example": "Applications are assessed against a set of defined criteria." }
+    ]
+  },
+  {
+    "id": "awl28_004",
+    "word": "communicate",
+    "group": "AWL28",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "kommunizieren, mitteilen, übermitteln" },
+    "examples": [
+      {
+        "en": "Scientists must communicate their findings clearly to both specialists and the general public.",
+        "de": "Wissenschaftler müssen ihre Erkenntnisse sowohl für Fachleute als auch für die breite Öffentlichkeit klar kommunizieren."
+      },
+      {
+        "en": "The organisation communicated its policy changes through an internal newsletter.",
+        "de": "Die Organisation kommunizierte ihre Richtlinienänderungen über einen internen Newsletter."
+      }
+    ],
+    "opposite": { "word": "withhold", "de": "zurückhalten, verschweigen" },
+    "synonyms": ["convey", "transmit", "relay", "articulate"],
+    "word_family": [
+      { "word": "communication", "pos": "noun", "de": "Kommunikation, Mitteilung" },
+      { "word": "communicative", "pos": "adjective", "de": "kommunikativ, mitteilsam" },
+      { "word": "communicator", "pos": "noun", "de": "Kommunikator/in" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "communicate with", "de": "kommunizieren mit", "example": "The two departments rarely communicated with each other." }
+    ]
+  },
+  {
+    "id": "awl28_005",
+    "word": "compare",
+    "group": "AWL28",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "vergleichen, gegenüberstellen" },
+    "examples": [
+      {
+        "en": "The report compares economic growth rates across fifteen countries over a decade.",
+        "de": "Der Bericht vergleicht die Wirtschaftswachstumsraten von fünfzehn Ländern über ein Jahrzehnt."
+      },
+      {
+        "en": "When we compare the two models, significant differences in efficiency become apparent.",
+        "de": "Wenn wir die beiden Modelle vergleichen, werden deutliche Unterschiede in der Effizienz sichtbar."
+      }
+    ],
+    "opposite": { "word": "differentiate", "de": "unterscheiden" },
+    "synonyms": ["contrast", "juxtapose", "equate", "liken"],
+    "word_family": [
+      { "word": "comparison", "pos": "noun", "de": "Vergleich" },
+      { "word": "comparative", "pos": "adjective", "de": "vergleichend, komparativ" },
+      { "word": "comparatively", "pos": "adverb", "de": "verhältnismäßig, vergleichsweise" },
+      { "word": "comparable", "pos": "adjective", "de": "vergleichbar" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "compare with / to", "de": "vergleichen mit", "example": "The results compare favourably with those of previous studies." }
+    ]
+  },
+  {
+    "id": "awl28_006",
+    "word": "conclude",
+    "group": "AWL28",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "schlussfolgern, abschließen, folgern" },
+    "examples": [
+      {
+        "en": "The authors conclude that further research is needed to confirm these preliminary findings.",
+        "de": "Die Autoren schlussfolgern, dass weitere Forschung nötig ist, um diese vorläufigen Ergebnisse zu bestätigen."
+      },
+      {
+        "en": "From the available data, we can reasonably conclude that the intervention was effective.",
+        "de": "Aus den verfügbaren Daten können wir vernünftigerweise schlussfolgern, dass die Intervention wirksam war."
+      }
+    ],
+    "opposite": { "word": "begin", "de": "beginnen, anfangen" },
+    "synonyms": ["deduce", "infer", "determine", "establish"],
+    "word_family": [
+      { "word": "conclusion", "pos": "noun", "de": "Schlussfolgerung, Fazit" },
+      { "word": "conclusive", "pos": "adjective", "de": "schlüssig, abschließend" },
+      { "word": "conclusively", "pos": "adverb", "de": "schlüssig, abschließend" },
+      { "word": "inconclusive", "pos": "adjective", "de": "nicht schlüssig, ergebnislos" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "conclude from", "de": "schlussfolgern aus", "example": "What can we conclude from these results?" }
+    ]
+  },
+  {
+    "id": "awl28_007",
+    "word": "confirm",
+    "group": "AWL28",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "bestätigen, bekräftigen" },
+    "examples": [
+      {
+        "en": "The experiment confirmed the hypothesis that temperature affects enzyme activity.",
+        "de": "Das Experiment bestätigte die Hypothese, dass die Temperatur die Enzymaktivität beeinflusst."
+      },
+      {
+        "en": "Further studies are needed to confirm whether these results hold across different populations.",
+        "de": "Weitere Studien sind erforderlich, um zu bestätigen, ob diese Ergebnisse für verschiedene Populationen gelten."
+      }
+    ],
+    "opposite": { "word": "refute", "de": "widerlegen" },
+    "synonyms": ["verify", "validate", "corroborate", "substantiate"],
+    "word_family": [
+      { "word": "confirmation", "pos": "noun", "de": "Bestätigung, Bekräftigung" },
+      { "word": "confirmed", "pos": "adjective", "de": "bestätigt, erwiesen" },
+      { "word": "unconfirmed", "pos": "adjective", "de": "unbestätigt" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "confirm in", "de": "in etwas bestärken", "example": "The findings confirmed the researchers in their view." }
+    ]
+  },
+  {
+    "id": "awl28_008",
+    "word": "consider",
+    "group": "AWL28",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "berücksichtigen, überlegen, in Betracht ziehen" },
+    "examples": [
+      {
+        "en": "Policy makers must consider the long-term consequences of any proposed legislation.",
+        "de": "Politische Entscheidungsträger müssen die langfristigen Folgen jedes vorgeschlagenen Gesetzes berücksichtigen."
+      },
+      {
+        "en": "The committee considered several alternatives before settling on the current approach.",
+        "de": "Der Ausschuss erwog mehrere Alternativen, bevor er sich für den aktuellen Ansatz entschied."
+      }
+    ],
+    "opposite": { "word": "disregard", "de": "außer Acht lassen" },
+    "synonyms": ["contemplate", "deliberate", "weigh", "reflect on"],
+    "word_family": [
+      { "word": "consideration", "pos": "noun", "de": "Überlegung, Berücksichtigung" },
+      { "word": "considerable", "pos": "adjective", "de": "beträchtlich, erheblich" },
+      { "word": "considerably", "pos": "adverb", "de": "beträchtlich, erheblich" },
+      { "word": "considerate", "pos": "adjective", "de": "rücksichtsvoll" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "consider for", "de": "in Betracht ziehen für", "example": "The application was considered for the innovation grant." }
+    ]
+  },
+  {
+    "id": "awl28_009",
+    "word": "culture",
+    "group": "AWL28",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Kultur, Gesellschaft; Kultivierung" },
+    "examples": [
+      {
+        "en": "Organisational culture plays a decisive role in shaping employee behaviour and motivation.",
+        "de": "Die Organisationskultur spielt eine entscheidende Rolle bei der Gestaltung des Verhaltens und der Motivation von Mitarbeitern."
+      },
+      {
+        "en": "Cross-cultural research examines how psychological phenomena differ across societies.",
+        "de": "Kulturübergreifende Forschung untersucht, wie sich psychologische Phänomene zwischen Gesellschaften unterscheiden."
+      }
+    ],
+    "opposite": { "word": "nature", "de": "Natur" },
+    "synonyms": ["society", "civilisation", "tradition", "heritage"],
+    "word_family": [
+      { "word": "cultural", "pos": "adjective", "de": "kulturell" },
+      { "word": "culturally", "pos": "adverb", "de": "kulturell" },
+      { "word": "multicultural", "pos": "adjective", "de": "multikulturell" },
+      { "word": "subculture", "pos": "noun", "de": "Subkultur" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl28_010",
+    "word": "debate",
+    "group": "AWL28",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Debatte, Diskussion; debattieren" },
+    "examples": [
+      {
+        "en": "There is ongoing debate among scholars about the causes of the financial crisis.",
+        "de": "Unter Wissenschaftlern wird weiterhin debattiert, was die Ursachen der Finanzkrise waren."
+      },
+      {
+        "en": "The paper contributes to the broader debate on privacy versus security in digital societies.",
+        "de": "Der Artikel trägt zur breiteren Debatte über Privatsphäre versus Sicherheit in digitalen Gesellschaften bei."
+      }
+    ],
+    "opposite": { "word": "consensus", "de": "Konsens, Einigkeit" },
+    "synonyms": ["discussion", "controversy", "dispute", "discourse"],
+    "word_family": [
+      { "word": "debatable", "pos": "adjective", "de": "diskutierbar, strittig" },
+      { "word": "debater", "pos": "noun", "de": "Debattierende/r" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "debate over / about", "de": "debattieren über", "example": "Economists continue to debate over the best way to stimulate growth." }
+    ]
+  },
+  {
+    "id": "awl28_011",
+    "word": "design",
+    "group": "AWL28",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Entwurf, Design, Konzeption; entwerfen" },
+    "examples": [
+      {
+        "en": "The research design must ensure that variables are properly controlled and measured.",
+        "de": "Das Forschungsdesign muss sicherstellen, dass Variablen ordnungsgemäß kontrolliert und gemessen werden."
+      },
+      {
+        "en": "A well-designed experiment minimises confounding factors and increases reliability.",
+        "de": "Ein gut konzipiertes Experiment minimiert Störvariablen und erhöht die Zuverlässigkeit."
+      }
+    ],
+    "opposite": { "word": "chaos", "de": "Chaos, Unordnung" },
+    "synonyms": ["plan", "blueprint", "framework", "scheme"],
+    "word_family": [
+      { "word": "designer", "pos": "noun", "de": "Designer/in, Gestalter/in" },
+      { "word": "redesign", "pos": "verb", "de": "neu gestalten, überarbeiten" },
+      { "word": "by design", "pos": "phrase", "de": "absichtlich, planmäßig" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "design for", "de": "konzipieren für", "example": "The programme was designed for students with advanced proficiency." }
+    ]
+  },
+  {
+    "id": "awl28_012",
+    "word": "develop",
+    "group": "AWL28",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "entwickeln, ausbauen, entfalten" },
+    "examples": [
+      {
+        "en": "The researchers developed a new model to predict consumer behaviour more accurately.",
+        "de": "Die Forscher entwickelten ein neues Modell, um das Verbraucherverhalten genauer vorherzusagen."
+      },
+      {
+        "en": "Over time, the field has developed sophisticated tools for measuring social inequality.",
+        "de": "Im Laufe der Zeit hat das Fachgebiet ausgefeilte Werkzeuge zur Messung sozialer Ungleichheit entwickelt."
+      }
+    ],
+    "opposite": { "word": "stagnate", "de": "stagnieren" },
+    "synonyms": ["advance", "cultivate", "evolve", "build"],
+    "word_family": [
+      { "word": "development", "pos": "noun", "de": "Entwicklung, Entfaltung" },
+      { "word": "developer", "pos": "noun", "de": "Entwickler/in" },
+      { "word": "developmental", "pos": "adjective", "de": "entwicklungsbezogen" },
+      { "word": "underdeveloped", "pos": "adjective", "de": "unterentwickelt" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "develop into", "de": "sich entwickeln zu", "example": "The pilot project developed into a nationwide initiative." }
+    ]
+  },
+  {
+    "id": "awl28_013",
+    "word": "diverse",
+    "group": "AWL28",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "vielfältig, unterschiedlich, divers" },
+    "examples": [
+      {
+        "en": "The sample included a diverse range of participants from different socioeconomic backgrounds.",
+        "de": "Die Stichprobe umfasste eine vielfältige Gruppe von Teilnehmern aus unterschiedlichen sozioökonomischen Verhältnissen."
+      },
+      {
+        "en": "Modern cities are culturally diverse, which brings both opportunities and challenges.",
+        "de": "Moderne Städte sind kulturell vielfältig, was sowohl Chancen als auch Herausforderungen mit sich bringt."
+      }
+    ],
+    "opposite": { "word": "homogeneous", "de": "homogen, einheitlich" },
+    "synonyms": ["varied", "heterogeneous", "multifaceted", "assorted"],
+    "word_family": [
+      { "word": "diversity", "pos": "noun", "de": "Vielfalt, Diversität" },
+      { "word": "diversify", "pos": "verb", "de": "diversifizieren, vielfältiger machen" },
+      { "word": "diversification", "pos": "noun", "de": "Diversifizierung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl28_014",
+    "word": "element",
+    "group": "AWL28",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Element, Bestandteil, Komponente" },
+    "examples": [
+      {
+        "en": "Trust is a key element in any successful long-term relationship between institutions.",
+        "de": "Vertrauen ist ein zentrales Element jeder erfolgreichen langfristigen Beziehung zwischen Institutionen."
+      },
+      {
+        "en": "The curriculum contains elements of both theoretical instruction and practical application.",
+        "de": "Der Lehrplan enthält sowohl Elemente theoretischer Vermittlung als auch praktischer Anwendung."
+      }
+    ],
+    "opposite": { "word": "whole", "de": "Ganzes" },
+    "synonyms": ["component", "constituent", "ingredient", "aspect"],
+    "word_family": [
+      { "word": "elemental", "pos": "adjective", "de": "elementar, grundlegend" },
+      { "word": "elementary", "pos": "adjective", "de": "grundlegend, elementar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl28_015",
+    "word": "emphasise",
+    "group": "AWL28",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "betonen, hervorheben, unterstreichen" },
+    "examples": [
+      {
+        "en": "The author emphasises that correlation does not imply causation in observational studies.",
+        "de": "Der Autor betont, dass Korrelation in Beobachtungsstudien keine Kausalität impliziert."
+      },
+      {
+        "en": "The report emphasises the need for urgent policy reform in the housing sector.",
+        "de": "Der Bericht betont die Notwendigkeit dringender Politikreform im Wohnungssektor."
+      }
+    ],
+    "opposite": { "word": "downplay", "de": "herunterspielen, bagatellisieren" },
+    "synonyms": ["stress", "highlight", "accentuate", "underline"],
+    "word_family": [
+      { "word": "emphasis", "pos": "noun", "de": "Betonung, Schwerpunkt" },
+      { "word": "emphatic", "pos": "adjective", "de": "nachdrücklich, betont" },
+      { "word": "emphatically", "pos": "adverb", "de": "nachdrücklich, mit Nachdruck" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl28_016",
+    "word": "establish",
+    "group": "AWL28",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "etablieren, begründen, nachweisen, festsetzen" },
+    "examples": [
+      {
+        "en": "Early research established a clear link between smoking and lung cancer.",
+        "de": "Frühe Forschungen stellten einen klaren Zusammenhang zwischen Rauchen und Lungenkrebs fest."
+      },
+      {
+        "en": "The study aims to establish whether the training programme improves academic outcomes.",
+        "de": "Die Studie zielt darauf ab, festzustellen, ob das Schulungsprogramm akademische Ergebnisse verbessert."
+      }
+    ],
+    "opposite": { "word": "dismantle", "de": "abbauen, auflösen" },
+    "synonyms": ["found", "create", "institute", "demonstrate"],
+    "word_family": [
+      { "word": "establishment", "pos": "noun", "de": "Gründung, Einrichtung; Establishment" },
+      { "word": "established", "pos": "adjective", "de": "etabliert, anerkannt" },
+      { "word": "well-established", "pos": "adjective", "de": "gut etabliert, anerkannt" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "establish as", "de": "etablieren als", "example": "The method has been established as the gold standard in the field." }
+    ]
+  },
+  {
+    "id": "awl28_017",
+    "word": "evidence",
+    "group": "AWL28",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Beweis, Beleg, Evidenz, Nachweis" },
+    "examples": [
+      {
+        "en": "There is growing evidence that early childhood education has lasting cognitive benefits.",
+        "de": "Es gibt zunehmend Belege dafür, dass frühkindliche Bildung dauerhafte kognitive Vorteile hat."
+      },
+      {
+        "en": "The court required empirical evidence before accepting the expert's testimony.",
+        "de": "Das Gericht verlangte empirische Belege, bevor es das Gutachten des Sachverständigen akzeptierte."
+      }
+    ],
+    "opposite": { "word": "conjecture", "de": "Vermutung, Spekulation" },
+    "synonyms": ["proof", "data", "indication", "substantiation"],
+    "word_family": [
+      { "word": "evident", "pos": "adjective", "de": "offensichtlich, ersichtlich" },
+      { "word": "evidently", "pos": "adverb", "de": "offensichtlich, augenscheinlich" },
+      { "word": "evidential", "pos": "adjective", "de": "Beweis-, beweiskräftig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl28_018",
+    "word": "factor",
+    "group": "AWL28",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Faktor, Einflussgröße, Ursache" },
+    "examples": [
+      {
+        "en": "Several factors contribute to academic success, including motivation, environment, and resources.",
+        "de": "Mehrere Faktoren tragen zum akademischen Erfolg bei, darunter Motivation, Umfeld und Ressourcen."
+      },
+      {
+        "en": "Economic inequality is a key factor in determining health outcomes across populations.",
+        "de": "Wirtschaftliche Ungleichheit ist ein wesentlicher Faktor bei der Bestimmung gesundheitlicher Ergebnisse in Bevölkerungsgruppen."
+      }
+    ],
+    "opposite": { "word": "consequence", "de": "Konsequenz, Folge" },
+    "synonyms": ["variable", "determinant", "component", "contributor"],
+    "word_family": [
+      { "word": "factorial", "pos": "adjective", "de": "faktoriell" },
+      { "word": "risk factor", "pos": "phrase", "de": "Risikofaktor" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "factor in / into", "de": "einberechnen, berücksichtigen", "example": "The model factors in seasonal variation when predicting demand." }
+    ]
+  },
+  {
+    "id": "awl28_019",
+    "word": "focus",
+    "group": "AWL28",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Fokus, Schwerpunkt; sich konzentrieren auf" },
+    "examples": [
+      {
+        "en": "The research focus has shifted from individual behaviour to systemic factors in recent years.",
+        "de": "Der Forschungsschwerpunkt hat sich in den letzten Jahren von individuellem Verhalten hin zu systemischen Faktoren verschoben."
+      },
+      {
+        "en": "Policy discussions increasingly focus on the intersection of technology and human rights.",
+        "de": "Politische Diskussionen konzentrieren sich zunehmend auf die Schnittstelle von Technologie und Menschenrechten."
+      }
+    ],
+    "opposite": { "word": "distraction", "de": "Ablenkung, Zerstreuung" },
+    "synonyms": ["emphasis", "concentration", "centre", "priority"],
+    "word_family": [
+      { "word": "focused", "pos": "adjective", "de": "fokussiert, konzentriert" },
+      { "word": "refocus", "pos": "verb", "de": "neu ausrichten, umfokussieren" },
+      { "word": "out of focus", "pos": "phrase", "de": "unscharf, nicht im Fokus" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "focus on", "de": "sich konzentrieren auf", "example": "The chapter focuses on the methodological limitations of qualitative research." }
+    ]
+  },
+  {
+    "id": "awl28_020",
+    "word": "govern",
+    "group": "AWL28",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "regieren, leiten, steuern, regulieren" },
+    "examples": [
+      {
+        "en": "International treaties govern how states interact with each other in matters of trade.",
+        "de": "Internationale Verträge regeln, wie Staaten in Handelsfragen miteinander umgehen."
+      },
+      {
+        "en": "The principles that govern scientific inquiry include objectivity, reproducibility, and transparency.",
+        "de": "Die Grundsätze, die die wissenschaftliche Forschung leiten, umfassen Objektivität, Reproduzierbarkeit und Transparenz."
+      }
+    ],
+    "opposite": { "word": "submit", "de": "sich unterwerfen, unterordnen" },
+    "synonyms": ["rule", "control", "regulate", "administer"],
+    "word_family": [
+      { "word": "government", "pos": "noun", "de": "Regierung, Verwaltung" },
+      { "word": "governance", "pos": "noun", "de": "Governance, Steuerung, Regierungsführung" },
+      { "word": "governor", "pos": "noun", "de": "Gouverneur/in, Leiter/in" },
+      { "word": "governing", "pos": "adjective", "de": "regierend, leitend" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "govern by", "de": "geregelt / geleitet werden durch", "example": "Corporate behaviour is largely governed by regulatory frameworks." }
+    ]
+  }
+]
