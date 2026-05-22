@@ -1,0 +1,517 @@
+[
+  {
+    "id": "awl36_001",
+    "word": "accommodate",
+    "group": "AWL36",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "berücksichtigen, aufnehmen, anpassen, unterbringen" },
+    "examples": [
+      {
+        "en": "Researchers must accommodate diverse participant needs when designing inclusive studies.",
+        "de": "Forscher müssen bei der Gestaltung inklusiver Studien unterschiedliche Teilnehmerbedürfnisse berücksichtigen."
+      },
+      {
+        "en": "The theoretical model was revised to accommodate findings that did not fit the original framework.",
+        "de": "Das theoretische Modell wurde überarbeitet, um Ergebnisse aufzunehmen, die nicht zum ursprünglichen Rahmen passten."
+      }
+    ],
+    "opposite": { "word": "exclude", "de": "ausschließen" },
+    "synonyms": ["adapt to", "incorporate", "adjust for", "allow for"],
+    "word_family": [
+      { "word": "accommodation", "pos": "noun", "de": "Unterbringung; Anpassung, Berücksichtigung" },
+      { "word": "accommodating", "pos": "adjective", "de": "entgegenkommend, flexibel" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl36_002",
+    "word": "adequate",
+    "group": "AWL36",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "angemessen, ausreichend, hinlänglich" },
+    "examples": [
+      {
+        "en": "An adequate sample size is necessary to ensure the statistical power of a study.",
+        "de": "Eine angemessene Stichprobengröße ist notwendig, um die statistische Power einer Studie zu gewährleisten."
+      },
+      {
+        "en": "Many low-income countries lack adequate healthcare infrastructure to meet population needs.",
+        "de": "Viele einkommensschwache Länder verfügen nicht über eine angemessene Gesundheitsinfrastruktur, um den Bevölkerungsbedarf zu decken."
+      }
+    ],
+    "opposite": { "word": "inadequate", "de": "unzureichend, mangelhaft" },
+    "synonyms": ["sufficient", "satisfactory", "appropriate", "acceptable"],
+    "word_family": [
+      { "word": "adequately", "pos": "adverb", "de": "angemessen, ausreichend" },
+      { "word": "adequacy", "pos": "noun", "de": "Angemessenheit, Eignung" },
+      { "word": "inadequate", "pos": "adjective", "de": "unzureichend, ungeeignet" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl36_003",
+    "word": "adhere",
+    "group": "AWL36",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "einhalten, befolgen, festhalten an; haften" },
+    "examples": [
+      {
+        "en": "All researchers involved in the project must adhere to the ethical guidelines established by the institution.",
+        "de": "Alle am Projekt beteiligten Forscher müssen die von der Institution festgelegten ethischen Richtlinien einhalten."
+      },
+      {
+        "en": "Participants were asked to adhere to the prescribed treatment protocol for twelve weeks.",
+        "de": "Die Teilnehmer wurden gebeten, das vorgeschriebene Behandlungsprotokoll zwölf Wochen lang einzuhalten."
+      }
+    ],
+    "opposite": { "word": "violate", "de": "verletzen, verstoßen gegen" },
+    "synonyms": ["comply with", "follow", "observe", "abide by"],
+    "word_family": [
+      { "word": "adherence", "pos": "noun", "de": "Einhaltung, Befolgung; Adhärenz" },
+      { "word": "adherent", "pos": "noun/adjective", "de": "Anhänger/in; festhaltend an" },
+      { "word": "non-adherence", "pos": "noun", "de": "Nicht-Einhaltung" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "adhere to", "de": "festhalten an, einhalten", "example": "The study adhered strictly to the pre-registered analysis plan." }
+    ]
+  },
+  {
+    "id": "awl36_004",
+    "word": "apparent",
+    "group": "AWL36",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "offensichtlich, scheinbar, augenscheinlich" },
+    "examples": [
+      {
+        "en": "The apparent contradiction between the two studies may be explained by differences in methodology.",
+        "de": "Der offensichtliche Widerspruch zwischen den beiden Studien könnte durch methodologische Unterschiede erklärt werden."
+      },
+      {
+        "en": "It is apparent from the data that literacy rates have improved significantly over the past decade.",
+        "de": "Aus den Daten ist offensichtlich, dass die Alphabetisierungsquoten im letzten Jahrzehnt erheblich gestiegen sind."
+      }
+    ],
+    "opposite": { "word": "hidden", "de": "verborgen, versteckt" },
+    "synonyms": ["obvious", "evident", "visible", "seeming"],
+    "word_family": [
+      { "word": "apparently", "pos": "adverb", "de": "offensichtlich, anscheinend" },
+      { "word": "appearance", "pos": "noun", "de": "Erscheinung, Aussehen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl36_005",
+    "word": "classify",
+    "group": "AWL36",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "klassifizieren, einordnen, einstufen" },
+    "examples": [
+      {
+        "en": "Respondents were classified into five income groups based on their reported annual earnings.",
+        "de": "Befragte wurden anhand ihrer angegebenen Jahreseinkommen in fünf Einkommensgruppen klassifiziert."
+      },
+      {
+        "en": "It is often difficult to classify phenomena that do not fit neatly into existing categories.",
+        "de": "Es ist oft schwierig, Phänomene zu klassifizieren, die sich nicht sauber in bestehende Kategorien einordnen lassen."
+      }
+    ],
+    "opposite": { "word": "conflate", "de": "zusammenwerfen, undifferenziert behandeln" },
+    "synonyms": ["categorise", "sort", "group", "label"],
+    "word_family": [
+      { "word": "classification", "pos": "noun", "de": "Klassifikation, Einstufung" },
+      { "word": "classifier", "pos": "noun", "de": "Klassifikator" },
+      { "word": "reclassify", "pos": "verb", "de": "neu klassifizieren" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl36_006",
+    "word": "concurrent",
+    "group": "AWL36",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "gleichzeitig, parallel, simultan" },
+    "examples": [
+      {
+        "en": "Concurrent validity is established when a new measure correlates strongly with an existing one.",
+        "de": "Gleichzeitige Validität wird festgestellt, wenn eine neue Messung stark mit einer bestehenden korreliert."
+      },
+      {
+        "en": "The study ran three concurrent trials to compare different intervention formats side by side.",
+        "de": "Die Studie führte drei gleichzeitige Versuche durch, um verschiedene Interventionsformate nebeneinander zu vergleichen."
+      }
+    ],
+    "opposite": { "word": "sequential", "de": "aufeinanderfolgend, sequenziell" },
+    "synonyms": ["simultaneous", "parallel", "contemporaneous", "coinciding"],
+    "word_family": [
+      { "word": "concurrently", "pos": "adverb", "de": "gleichzeitig, parallel" },
+      { "word": "concurrence", "pos": "noun", "de": "Gleichzeitigkeit; Übereinstimmung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl36_007",
+    "word": "denote",
+    "group": "AWL36",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "bezeichnen, bedeuten, anzeigen, ausdrücken" },
+    "examples": [
+      {
+        "en": "In this study, the variable X denotes the total number of years of formal schooling completed.",
+        "de": "In dieser Studie bezeichnet die Variable X die Gesamtzahl der abgeschlossenen Schuljahre."
+      },
+      {
+        "en": "Asterisks in the table denote statistically significant differences between groups.",
+        "de": "Sternchen in der Tabelle bezeichnen statistisch signifikante Unterschiede zwischen den Gruppen."
+      }
+    ],
+    "opposite": { "word": "obscure", "de": "verdecken, verdunkeln" },
+    "synonyms": ["indicate", "signify", "represent", "stand for"],
+    "word_family": [
+      { "word": "denotation", "pos": "noun", "de": "Denotation, wörtliche Bedeutung" },
+      { "word": "denotative", "pos": "adjective", "de": "denotativ, sachlich bezeichnend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl36_008",
+    "word": "depict",
+    "group": "AWL36",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "darstellen, schildern, abbilden" },
+    "examples": [
+      {
+        "en": "Figure 3 depicts the relationship between socioeconomic status and educational attainment.",
+        "de": "Abbildung 3 stellt die Beziehung zwischen sozioökonomischem Status und Bildungsniveau dar."
+      },
+      {
+        "en": "Media representations often depict minority groups in stereotypical or unflattering ways.",
+        "de": "Medienrepräsentationen stellen Minderheitengruppen oft auf stereotypische oder unvorteilhafte Weise dar."
+      }
+    ],
+    "opposite": { "word": "omit", "de": "weglassen, auslassen" },
+    "synonyms": ["portray", "illustrate", "represent", "show"],
+    "word_family": [
+      { "word": "depiction", "pos": "noun", "de": "Darstellung, Schilderung" },
+      { "word": "depicted", "pos": "adjective", "de": "dargestellt, abgebildet" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl36_009",
+    "word": "diagnose",
+    "group": "AWL36",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "diagnostizieren, erkennen, bestimmen" },
+    "examples": [
+      {
+        "en": "The study examined disparities in how mental health conditions are diagnosed across ethnic groups.",
+        "de": "Die Studie untersuchte Unterschiede darin, wie psychische Erkrankungen bei verschiedenen ethnischen Gruppen diagnostiziert werden."
+      },
+      {
+        "en": "Early diagnosis of chronic conditions is associated with significantly better long-term outcomes.",
+        "de": "Eine frühzeitige Diagnose chronischer Erkrankungen ist mit deutlich besseren langfristigen Ergebnissen verbunden."
+      }
+    ],
+    "opposite": { "word": "misdiagnose", "de": "falsch diagnostizieren" },
+    "synonyms": ["identify", "detect", "determine", "assess"],
+    "word_family": [
+      { "word": "diagnosis", "pos": "noun", "de": "Diagnose" },
+      { "word": "diagnostic", "pos": "adjective", "de": "diagnostisch" },
+      { "word": "misdiagnosis", "pos": "noun", "de": "Fehldiagnose" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl36_010",
+    "word": "discourse",
+    "group": "AWL36",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Diskurs, Rede, Abhandlung" },
+    "examples": [
+      {
+        "en": "Public discourse on immigration often simplifies complex realities into binary narratives.",
+        "de": "Der öffentliche Diskurs über Einwanderung vereinfacht komplexe Realitäten oft zu binären Narrativen."
+      },
+      {
+        "en": "Critical discourse analysis investigates how language constructs and perpetuates power relations.",
+        "de": "Kritische Diskursanalyse untersucht, wie Sprache Machtbeziehungen konstruiert und aufrechterhalten."
+      }
+    ],
+    "opposite": { "word": "silence", "de": "Schweigen, Sprachlosigkeit" },
+    "synonyms": ["discussion", "dialogue", "debate", "rhetoric"],
+    "word_family": [
+      { "word": "discursive", "pos": "adjective", "de": "diskursiv, weitschweifig" },
+      { "word": "meta-discourse", "pos": "noun", "de": "Metadiskurs" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl36_011",
+    "word": "embed",
+    "group": "AWL36",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "einbetten, verankern, eingliedern" },
+    "examples": [
+      {
+        "en": "Sustainable practices must be embedded in organisational culture to have lasting impact.",
+        "de": "Nachhaltige Praktiken müssen in der Organisationskultur verankert sein, um dauerhaften Einfluss zu haben."
+      },
+      {
+        "en": "The intervention was embedded within existing school timetables to minimise disruption.",
+        "de": "Die Intervention wurde in bestehende Schulstundenpläne eingebettet, um Unterbrechungen zu minimieren."
+      }
+    ],
+    "opposite": { "word": "extract", "de": "herauslösen, extrahieren" },
+    "synonyms": ["integrate", "incorporate", "anchor", "root"],
+    "word_family": [
+      { "word": "embedded", "pos": "adjective", "de": "eingebettet, verankert" },
+      { "word": "embeddedness", "pos": "noun", "de": "Eingebettetheit, Verankerung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl36_012",
+    "word": "equate",
+    "group": "AWL36",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "gleichsetzen, gleichstellen, angleichen" },
+    "examples": [
+      {
+        "en": "It would be an oversimplification to equate economic growth with genuine human development.",
+        "de": "Es wäre eine Vereinfachung, Wirtschaftswachstum mit echter menschlicher Entwicklung gleichzusetzen."
+      },
+      {
+        "en": "The model equates rational behaviour with utility maximisation, which critics find reductive.",
+        "de": "Das Modell setzt rationales Verhalten mit Nutzenmaximierung gleich, was Kritiker als zu vereinfachend erachten."
+      }
+    ],
+    "opposite": { "word": "differentiate", "de": "unterscheiden, differenzieren" },
+    "synonyms": ["identify with", "liken", "match", "compare"],
+    "word_family": [
+      { "word": "equation", "pos": "noun", "de": "Gleichung; Gleichsetzung" },
+      { "word": "equitable", "pos": "adjective", "de": "fair, gerecht, ausgewogen" },
+      { "word": "equivalence", "pos": "noun", "de": "Äquivalenz, Gleichwertigkeit" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "equate with", "de": "gleichsetzen mit", "example": "Researchers should not equate correlation with causation." }
+    ]
+  },
+  {
+    "id": "awl36_013",
+    "word": "formulate",
+    "group": "AWL36",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "formulieren, ausarbeiten, entwickeln" },
+    "examples": [
+      {
+        "en": "A well-formulated research question guides the entire design and execution of a study.",
+        "de": "Eine gut formulierte Forschungsfrage leitet das gesamte Design und die Durchführung einer Studie."
+      },
+      {
+        "en": "Policymakers must formulate responses that are evidence-based and politically feasible.",
+        "de": "Politische Entscheidungsträger müssen Maßnahmen formulieren, die evidenzbasiert und politisch umsetzbar sind."
+      }
+    ],
+    "opposite": { "word": "improvise", "de": "improvisieren" },
+    "synonyms": ["develop", "devise", "construct", "articulate"],
+    "word_family": [
+      { "word": "formulation", "pos": "noun", "de": "Formulierung, Ausarbeitung" },
+      { "word": "reformulate", "pos": "verb", "de": "neu formulieren, umformulieren" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl36_014",
+    "word": "illustrate",
+    "group": "AWL36",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "veranschaulichen, illustrieren, verdeutlichen" },
+    "examples": [
+      {
+        "en": "The case study illustrates how systemic barriers prevent disadvantaged students from accessing higher education.",
+        "de": "Die Fallstudie veranschaulicht, wie systemische Barrieren benachteiligte Schüler daran hindern, auf Hochschulbildung zuzugreifen."
+      },
+      {
+        "en": "The graph illustrates a clear upward trend in renewable energy consumption since 2010.",
+        "de": "Das Diagramm veranschaulicht einen deutlichen Aufwärtstrend beim Verbrauch erneuerbarer Energie seit 2010."
+      }
+    ],
+    "opposite": { "word": "obscure", "de": "verschleiern, verdecken" },
+    "synonyms": ["demonstrate", "show", "exemplify", "depict"],
+    "word_family": [
+      { "word": "illustration", "pos": "noun", "de": "Illustration, Beispiel, Veranschaulichung" },
+      { "word": "illustrative", "pos": "adjective", "de": "illustrativ, verdeutlichend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl36_015",
+    "word": "incorporate",
+    "group": "AWL36",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "einbeziehen, aufnehmen, integrieren, eingliedern" },
+    "examples": [
+      {
+        "en": "The revised framework incorporates feedback from practitioners and end users.",
+        "de": "Das überarbeitete Rahmenwerk bezieht Rückmeldungen von Praktikern und Endnutzern ein."
+      },
+      {
+        "en": "Future models should incorporate cultural variables to improve their predictive accuracy.",
+        "de": "Zukünftige Modelle sollten kulturelle Variablen einbeziehen, um ihre Vorhersagegenauigkeit zu verbessern."
+      }
+    ],
+    "opposite": { "word": "exclude", "de": "ausschließen, herauslassen" },
+    "synonyms": ["include", "integrate", "embed", "absorb"],
+    "word_family": [
+      { "word": "incorporation", "pos": "noun", "de": "Einbeziehung, Eingliederung" },
+      { "word": "incorporated", "pos": "adjective", "de": "einbezogen; eingetragen (Unternehmen)" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl36_016",
+    "word": "inevitable",
+    "group": "AWL36",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "unvermeidlich, unausweichlich, zwangsläufig" },
+    "examples": [
+      {
+        "en": "Technological unemployment is not inevitable; its effects depend largely on policy responses.",
+        "de": "Technologische Arbeitslosigkeit ist nicht unvermeidlich; ihre Auswirkungen hängen weitgehend von politischen Maßnahmen ab."
+      },
+      {
+        "en": "Structural change in ageing societies is inevitable and demands proactive planning.",
+        "de": "Struktureller Wandel in alternden Gesellschaften ist unvermeidlich und erfordert proaktive Planung."
+      }
+    ],
+    "opposite": { "word": "avoidable", "de": "vermeidbar" },
+    "synonyms": ["unavoidable", "inescapable", "certain", "necessary"],
+    "word_family": [
+      { "word": "inevitably", "pos": "adverb", "de": "unvermeidlich, zwangsläufig" },
+      { "word": "inevitability", "pos": "noun", "de": "Unvermeidlichkeit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl36_017",
+    "word": "intervene",
+    "group": "AWL36",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "eingreifen, intervenieren, einschreiten" },
+    "examples": [
+      {
+        "en": "States have a duty to intervene when fundamental human rights are systematically violated.",
+        "de": "Staaten haben die Pflicht einzugreifen, wenn grundlegende Menschenrechte systematisch verletzt werden."
+      },
+      {
+        "en": "The programme was designed to intervene early in the developmental pathways of at-risk children.",
+        "de": "Das Programm wurde entwickelt, um frühzeitig in die Entwicklungsverläufe gefährdeter Kinder einzugreifen."
+      }
+    ],
+    "opposite": { "word": "abstain", "de": "sich enthalten, passiv bleiben" },
+    "synonyms": ["intercede", "step in", "act", "mediate"],
+    "word_family": [
+      { "word": "intervention", "pos": "noun", "de": "Intervention, Eingriff, Maßnahme" },
+      { "word": "interventionist", "pos": "adjective", "de": "interventionistisch" },
+      { "word": "non-intervention", "pos": "noun", "de": "Nicht-Einmischung" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "intervene in", "de": "eingreifen in", "example": "The government chose not to intervene in the market." }
+    ]
+  },
+  {
+    "id": "awl36_018",
+    "word": "isolate",
+    "group": "AWL36",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "isolieren, herauslösen, aussondern" },
+    "examples": [
+      {
+        "en": "A controlled experiment seeks to isolate the effect of a single variable on the outcome.",
+        "de": "Ein kontrolliertes Experiment versucht, den Effekt einer einzelnen Variable auf das Ergebnis zu isolieren."
+      },
+      {
+        "en": "It is difficult to isolate genetic factors from environmental influences in observational studies.",
+        "de": "Es ist schwierig, in Beobachtungsstudien genetische Faktoren von Umwelteinflüssen zu trennen."
+      }
+    ],
+    "opposite": { "word": "combine", "de": "kombinieren, verbinden" },
+    "synonyms": ["separate", "extract", "identify", "single out"],
+    "word_family": [
+      { "word": "isolation", "pos": "noun", "de": "Isolation, Abgeschlossenheit" },
+      { "word": "isolated", "pos": "adjective", "de": "isoliert, abgelegen" },
+      { "word": "isolationism", "pos": "noun", "de": "Isolationismus" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl36_019",
+    "word": "maximise",
+    "group": "AWL36",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "maximieren, ausschöpfen, optimieren" },
+    "examples": [
+      {
+        "en": "Researchers aim to maximise internal validity by controlling for potential confounding variables.",
+        "de": "Forscher versuchen, die interne Validität zu maximieren, indem sie potenzielle störende Variablen kontrollieren."
+      },
+      {
+        "en": "Organisations seek to maximise efficiency without compromising quality or staff well-being.",
+        "de": "Organisationen versuchen, die Effizienz zu maximieren, ohne die Qualität oder das Wohlbefinden der Mitarbeiter zu beeinträchtigen."
+      }
+    ],
+    "opposite": { "word": "minimise", "de": "minimieren, reduzieren" },
+    "synonyms": ["optimise", "increase", "enhance", "amplify"],
+    "word_family": [
+      { "word": "maximum", "pos": "noun/adjective", "de": "Maximum, Höchstmaß; maximal" },
+      { "word": "maximal", "pos": "adjective", "de": "maximal, höchstmöglich" },
+      { "word": "maximisation", "pos": "noun", "de": "Maximierung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl36_020",
+    "word": "negate",
+    "group": "AWL36",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "negieren, aufheben, widerlegen, zunichte machen" },
+    "examples": [
+      {
+        "en": "Methodological flaws can negate the validity of even well-intentioned research.",
+        "de": "Methodologische Mängel können die Validität selbst gut gemeinter Forschung zunichte machen."
+      },
+      {
+        "en": "The intervention effectively negated the negative effects of the economic downturn on vulnerable households.",
+        "de": "Die Intervention negierte effektiv die negativen Auswirkungen des wirtschaftlichen Abschwungs auf gefährdete Haushalte."
+      }
+    ],
+    "opposite": { "word": "affirm", "de": "bestätigen, bekräftigen" },
+    "synonyms": ["nullify", "invalidate", "cancel out", "refute"],
+    "word_family": [
+      { "word": "negation", "pos": "noun", "de": "Negation, Verneinung, Aufhebung" },
+      { "word": "negative", "pos": "adjective", "de": "negativ, verneinend" },
+      { "word": "negatively", "pos": "adverb", "de": "negativ" }
+    ],
+    "phrasal_verbs": []
+  }
+]
