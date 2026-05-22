@@ -1,0 +1,703 @@
+[
+  {
+    "id": "awl20_abstract_01",
+    "word": "abstract",
+    "group": "AWL20",
+    "group_label": "Academic Word List – Sublist 20",
+    "pos": "adjective",
+    "translations": { "de": "abstrakt / theoretisch / begrifflich" },
+    "examples": [
+      {
+        "en": "Philosophy often deals with abstract concepts that are difficult to define precisely.",
+        "de": "Die Philosophie befasst sich oft mit abstrakten Begriffen, die schwer präzise zu definieren sind."
+      },
+      {
+        "en": "Students sometimes struggle to apply abstract theories to real-world problems.",
+        "de": "Studierende haben manchmal Schwierigkeiten, abstrakte Theorien auf reale Probleme anzuwenden."
+      }
+    ],
+    "opposite": {
+      "en": "concrete",
+      "de": "konkret / greifbar / gegenständlich",
+      "example_en": "The report needs concrete recommendations, not just abstract observations.",
+      "example_de": "Der Bericht braucht konkrete Empfehlungen, nicht nur abstrakte Beobachtungen."
+    },
+    "synonyms": [
+      { "word": "theoretical", "de": "theoretisch / abstrakt" },
+      { "word": "conceptual", "de": "konzeptuell / begrifflich" },
+      { "word": "intangible", "de": "immateriell / nicht greifbar" }
+    ],
+    "word_family": [
+      { "word": "abstraction", "pos": "noun", "de": "Abstraktion / Verallgemeinerung" },
+      { "word": "abstractly", "pos": "adv", "de": "auf abstrakte Weise" },
+      { "word": "abstract", "pos": "noun", "de": "Zusammenfassung / Abstract" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl20_aggregate_02",
+    "word": "aggregate",
+    "group": "AWL20",
+    "group_label": "Academic Word List – Sublist 20",
+    "pos": "verb",
+    "translations": { "de": "aggregieren / zusammenfassen / aufsummieren" },
+    "examples": [
+      {
+        "en": "The data from all participating hospitals were aggregated to produce national statistics.",
+        "de": "Die Daten aller beteiligten Krankenhäuser wurden aggregiert, um nationale Statistiken zu erstellen."
+      },
+      {
+        "en": "Individual survey responses are aggregated to reveal broader trends.",
+        "de": "Einzelne Umfrageantworten werden aggregiert, um übergeordnete Trends aufzuzeigen."
+      }
+    ],
+    "opposite": {
+      "en": "disaggregate",
+      "de": "aufschlüsseln / aufgliedern",
+      "example_en": "It is important to disaggregate the data by age group and gender.",
+      "example_de": "Es ist wichtig, die Daten nach Altersgruppe und Geschlecht aufzuschlüsseln."
+    },
+    "synonyms": [
+      { "word": "combine", "de": "verbinden / zusammenfassen" },
+      { "word": "accumulate", "de": "ansammeln / anhäufen" },
+      { "word": "total", "de": "summieren / addieren" }
+    ],
+    "word_family": [
+      { "word": "aggregate", "pos": "noun/adj", "de": "Gesamtheit / Aggregat / gesamt" },
+      { "word": "aggregation", "pos": "noun", "de": "Aggregation / Zusammenfassung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl20_bias_03",
+    "word": "bias",
+    "group": "AWL20",
+    "group_label": "Academic Word List – Sublist 20",
+    "pos": "noun",
+    "translations": { "de": "Voreingenommenheit / Verzerrung / Bias" },
+    "examples": [
+      {
+        "en": "Researchers must design studies carefully to avoid confirmation bias.",
+        "de": "Forscher müssen Studien sorgfältig gestalten, um einen Bestätigungsfehler zu vermeiden."
+      },
+      {
+        "en": "The selection bias in the sample undermined the validity of the findings.",
+        "de": "Der Auswahlbias in der Stichprobe untergrub die Gültigkeit der Ergebnisse."
+      }
+    ],
+    "opposite": {
+      "en": "objectivity",
+      "de": "Objektivität / Unparteilichkeit",
+      "example_en": "Scientific peer review aims to ensure objectivity in evaluating research claims.",
+      "example_de": "Das wissenschaftliche Peer-Review zielt darauf ab, Objektivität bei der Bewertung von Forschungsbehauptungen sicherzustellen."
+    },
+    "synonyms": [
+      { "word": "prejudice", "de": "Vorurteil / Voreingenommenheit" },
+      { "word": "distortion", "de": "Verzerrung / Verfälschung" },
+      { "word": "skew", "de": "Schieflage / Verzerrung" }
+    ],
+    "word_family": [
+      { "word": "bias", "pos": "verb", "de": "verzerren / beeinflussen" },
+      { "word": "biased", "pos": "adj", "de": "voreingenommen / verzerrt" },
+      { "word": "unbiased", "pos": "adj", "de": "unvoreingenommen / objektiv" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl20_coherent_04",
+    "word": "coherent",
+    "group": "AWL20",
+    "group_label": "Academic Word List – Sublist 20",
+    "pos": "adjective",
+    "translations": { "de": "kohärent / schlüssig / zusammenhängend" },
+    "examples": [
+      {
+        "en": "A coherent argument requires clear premises and logical connections between ideas.",
+        "de": "Ein schlüssiges Argument erfordert klare Prämissen und logische Verbindungen zwischen den Ideen."
+      },
+      {
+        "en": "The government has yet to present a coherent strategy for addressing climate change.",
+        "de": "Die Regierung hat noch keine kohärente Strategie zur Bewältigung des Klimawandels vorgelegt."
+      }
+    ],
+    "opposite": {
+      "en": "incoherent",
+      "de": "inkohärent / zusammenhanglos / unverständlich",
+      "example_en": "The incoherent structure of the essay made it difficult to follow the author's reasoning.",
+      "example_de": "Die inkohärente Struktur des Aufsatzes machte es schwer, dem Gedankengang des Autors zu folgen."
+    },
+    "synonyms": [
+      { "word": "consistent", "de": "konsistent / beständig" },
+      { "word": "logical", "de": "logisch / folgerichtig" },
+      { "word": "unified", "de": "einheitlich / geschlossen" }
+    ],
+    "word_family": [
+      { "word": "coherence", "pos": "noun", "de": "Kohärenz / Schlüssigkeit" },
+      { "word": "coherently", "pos": "adv", "de": "kohärent / schlüssig" },
+      { "word": "incoherence", "pos": "noun", "de": "Inkohärenz / Zusammenhangslosigkeit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl20_correlate_05",
+    "word": "correlate",
+    "group": "AWL20",
+    "group_label": "Academic Word List – Sublist 20",
+    "pos": "verb",
+    "translations": { "de": "korrelieren / zusammenhängen / in Beziehung stehen" },
+    "examples": [
+      {
+        "en": "Higher levels of education tend to correlate with better health outcomes.",
+        "de": "Ein höheres Bildungsniveau korreliert tendenziell mit besseren Gesundheitsergebnissen."
+      },
+      {
+        "en": "The study correlates economic growth rates with changes in carbon emissions.",
+        "de": "Die Studie setzt Wirtschaftswachstumsraten in Beziehung zu Veränderungen beim CO₂-Ausstoß."
+      }
+    ],
+    "opposite": {
+      "en": "diverge",
+      "de": "divergieren / auseinandergehen",
+      "example_en": "The two variables begin to diverge significantly beyond a certain threshold.",
+      "example_de": "Die beiden Variablen beginnen jenseits eines bestimmten Schwellenwerts erheblich zu divergieren."
+    },
+    "synonyms": [
+      { "word": "correspond", "de": "entsprechen / übereinstimmen" },
+      { "word": "associate", "de": "verknüpfen / in Verbindung bringen" },
+      { "word": "relate", "de": "in Beziehung stehen / zusammenhängen" }
+    ],
+    "word_family": [
+      { "word": "correlation", "pos": "noun", "de": "Korrelation / Zusammenhang" },
+      { "word": "correlated", "pos": "adj", "de": "korreliert / zusammenhängend" },
+      { "word": "correlative", "pos": "adj", "de": "korrelativ / wechselseitig" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "correlate with", "de": "korrelieren mit / zusammenhängen mit", "example": "Stress levels correlate strongly with sleep quality." }
+    ]
+  },
+  {
+    "id": "awl20_criterion_06",
+    "word": "criterion",
+    "group": "AWL20",
+    "group_label": "Academic Word List – Sublist 20",
+    "pos": "noun",
+    "translations": { "de": "Kriterium / Maßstab / Merkmal (Pl. criteria)" },
+    "examples": [
+      {
+        "en": "Price alone is not a sufficient criterion for choosing a supplier.",
+        "de": "Der Preis allein ist kein ausreichendes Kriterium für die Wahl eines Lieferanten."
+      },
+      {
+        "en": "Applicants must meet several criteria before being considered for the position.",
+        "de": "Bewerber müssen mehrere Kriterien erfüllen, bevor sie für die Stelle in Betracht gezogen werden."
+      }
+    ],
+    "opposite": {
+      "en": "irrelevance",
+      "de": "Irrelevanz / Bedeutungslosigkeit",
+      "example_en": "When criteria are poorly defined, irrelevance creeps into the selection process.",
+      "example_de": "Wenn Kriterien schlecht definiert sind, schleicht sich Irrelevanz in den Auswahlprozess ein."
+    },
+    "synonyms": [
+      { "word": "standard", "de": "Maßstab / Norm" },
+      { "word": "benchmark", "de": "Benchmark / Richtwert" },
+      { "word": "measure", "de": "Maßstab / Kennzahl" }
+    ],
+    "word_family": [
+      { "word": "criteria", "pos": "noun (plural)", "de": "Kriterien (Mehrzahl)" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl20_empirical_07",
+    "word": "empirical",
+    "group": "AWL20",
+    "group_label": "Academic Word List – Sublist 20",
+    "pos": "adjective",
+    "translations": { "de": "empirisch / erfahrungsbasiert / auf Beobachtung beruhend" },
+    "examples": [
+      {
+        "en": "The claim needs to be supported by empirical evidence before it can be accepted.",
+        "de": "Die Behauptung muss durch empirische Belege gestützt werden, bevor sie akzeptiert werden kann."
+      },
+      {
+        "en": "Empirical research involves collecting and analysing real-world data.",
+        "de": "Empirische Forschung beinhaltet das Sammeln und Auswerten von Daten aus der realen Welt."
+      }
+    ],
+    "opposite": {
+      "en": "theoretical",
+      "de": "theoretisch / spekulativ",
+      "example_en": "The model is purely theoretical and has not yet been tested empirically.",
+      "example_de": "Das Modell ist rein theoretisch und wurde noch nicht empirisch getestet."
+    },
+    "synonyms": [
+      { "word": "observational", "de": "beobachtungsbasiert" },
+      { "word": "experimental", "de": "experimentell" },
+      { "word": "evidence-based", "de": "evidenzbasiert" }
+    ],
+    "word_family": [
+      { "word": "empiricism", "pos": "noun", "de": "Empirismus" },
+      { "word": "empirically", "pos": "adv", "de": "empirisch / durch Erfahrung" },
+      { "word": "empiricist", "pos": "noun", "de": "Empiriker / Empiristin" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl20_explicit_08",
+    "word": "explicit",
+    "group": "AWL20",
+    "group_label": "Academic Word List – Sublist 20",
+    "pos": "adjective",
+    "translations": { "de": "explizit / ausdrücklich / eindeutig" },
+    "examples": [
+      {
+        "en": "The agreement contains explicit provisions regarding data privacy and storage.",
+        "de": "Die Vereinbarung enthält explizite Bestimmungen zu Datenschutz und -speicherung."
+      },
+      {
+        "en": "The professor gave explicit instructions on how to structure the research paper.",
+        "de": "Die Professorin gab klare Anweisungen, wie die Forschungsarbeit zu gliedern sei."
+      }
+    ],
+    "opposite": {
+      "en": "implicit",
+      "de": "implizit / stillschweigend / unausgesprochen",
+      "example_en": "Many cultural norms are implicit rather than written into law.",
+      "example_de": "Viele kulturelle Normen sind implizit und nicht gesetzlich verankert."
+    },
+    "synonyms": [
+      { "word": "clear", "de": "klar / deutlich" },
+      { "word": "unambiguous", "de": "eindeutig / unmissverständlich" },
+      { "word": "precise", "de": "präzise / genau" }
+    ],
+    "word_family": [
+      { "word": "explicitly", "pos": "adv", "de": "explizit / ausdrücklich" },
+      { "word": "explicitness", "pos": "noun", "de": "Ausdrücklichkeit / Eindeutigkeit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl20_hierarchy_09",
+    "word": "hierarchy",
+    "group": "AWL20",
+    "group_label": "Academic Word List – Sublist 20",
+    "pos": "noun",
+    "translations": { "de": "Hierarchie / Rangordnung / Stufensystem" },
+    "examples": [
+      {
+        "en": "Maslow's hierarchy of needs arranges human motivations from basic survival to self-actualisation.",
+        "de": "Maslows Bedürfnishierarchie ordnet menschliche Motivationen vom Grundüberleben bis zur Selbstverwirklichung."
+      },
+      {
+        "en": "Flat organisational structures reduce the number of hierarchy levels between staff and management.",
+        "de": "Flache Organisationsstrukturen reduzieren die Anzahl der Hierarchieebenen zwischen Mitarbeitern und Management."
+      }
+    ],
+    "opposite": {
+      "en": "equality",
+      "de": "Gleichheit / Gleichstellung",
+      "example_en": "Some cooperative models aim to replace hierarchy with equality of decision-making power.",
+      "example_de": "Einige Genossenschaftsmodelle zielen darauf ab, Hierarchie durch Gleichheit der Entscheidungsmacht zu ersetzen."
+    },
+    "synonyms": [
+      { "word": "ranking", "de": "Rangfolge / Einstufung" },
+      { "word": "order", "de": "Ordnung / Reihenfolge" },
+      { "word": "structure", "de": "Struktur / Aufbau" }
+    ],
+    "word_family": [
+      { "word": "hierarchical", "pos": "adj", "de": "hierarchisch / rangmäßig" },
+      { "word": "hierarchically", "pos": "adv", "de": "hierarchisch / nach Rang" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl20_infer_10",
+    "word": "infer",
+    "group": "AWL20",
+    "group_label": "Academic Word List – Sublist 20",
+    "pos": "verb",
+    "translations": { "de": "schlussfolgern / folgern / ableiten" },
+    "examples": [
+      {
+        "en": "From the available data, we can infer that temperatures have risen steadily since 1950.",
+        "de": "Aus den verfügbaren Daten lässt sich schlussfolgern, dass die Temperaturen seit 1950 stetig gestiegen sind."
+      },
+      {
+        "en": "Readers infer meaning not only from what is stated but also from what is left unsaid.",
+        "de": "Leser schließen Bedeutung nicht nur aus dem Gesagten, sondern auch aus dem Ungesagten."
+      }
+    ],
+    "opposite": {
+      "en": "state",
+      "de": "aussagen / ausdrücklich erwähnen",
+      "example_en": "Rather than leaving the reader to infer, the author states the conclusion directly.",
+      "example_de": "Anstatt den Leser folgern zu lassen, gibt der Autor die Schlussfolgerung direkt an."
+    },
+    "synonyms": [
+      { "word": "deduce", "de": "deduzieren / ableiten" },
+      { "word": "conclude", "de": "schlussfolgern / folgern" },
+      { "word": "reason", "de": "schlussfolgern / urteilen" }
+    ],
+    "word_family": [
+      { "word": "inference", "pos": "noun", "de": "Schlussfolgerung / Inferenz" },
+      { "word": "inferential", "pos": "adj", "de": "inferenziell / schlussfolgernd" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "infer from", "de": "schlussfolgern aus / ableiten aus", "example": "What can we infer from these results?" }
+    ]
+  },
+  {
+    "id": "awl20_justify_11",
+    "word": "justify",
+    "group": "AWL20",
+    "group_label": "Academic Word List – Sublist 20",
+    "pos": "verb",
+    "translations": { "de": "rechtfertigen / begründen / belegen" },
+    "examples": [
+      {
+        "en": "The researchers justify their methodology by citing its widespread use in similar studies.",
+        "de": "Die Forscher begründen ihre Methodik mit ihrer weit verbreiteten Anwendung in ähnlichen Studien."
+      },
+      {
+        "en": "It is difficult to justify such high costs without clear evidence of benefit.",
+        "de": "Es ist schwer, so hohe Kosten ohne klare Belege für einen Nutzen zu rechtfertigen."
+      }
+    ],
+    "opposite": {
+      "en": "undermine",
+      "de": "untergraben / schwächen",
+      "example_en": "New evidence could undermine rather than justify the original decision.",
+      "example_de": "Neue Erkenntnisse könnten die ursprüngliche Entscheidung eher untergraben als rechtfertigen."
+    },
+    "synonyms": [
+      { "word": "defend", "de": "verteidigen / begründen" },
+      { "word": "substantiate", "de": "belegen / untermauern" },
+      { "word": "validate", "de": "validieren / bestätigen" }
+    ],
+    "word_family": [
+      { "word": "justification", "pos": "noun", "de": "Rechtfertigung / Begründung" },
+      { "word": "justified", "pos": "adj", "de": "gerechtfertigt / begründet" },
+      { "word": "unjustified", "pos": "adj", "de": "ungerechtfertigt / unbegründet" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl20_methodology_12",
+    "word": "methodology",
+    "group": "AWL20",
+    "group_label": "Academic Word List – Sublist 20",
+    "pos": "noun",
+    "translations": { "de": "Methodik / Methodologie / Vorgehensweise" },
+    "examples": [
+      {
+        "en": "The paper's methodology section explains how participants were selected and data collected.",
+        "de": "Der Methodikteil des Aufsatzes erläutert, wie Teilnehmer ausgewählt und Daten gesammelt wurden."
+      },
+      {
+        "en": "A mixed-methods methodology combines quantitative surveys with qualitative interviews.",
+        "de": "Eine Mixed-Methods-Methodik kombiniert quantitative Umfragen mit qualitativen Interviews."
+      }
+    ],
+    "opposite": {
+      "en": "improvisation",
+      "de": "Improvisation / planloser Ansatz",
+      "example_en": "Rigorous science cannot be built on improvisation — a clear methodology is essential.",
+      "example_de": "Strenge Wissenschaft kann nicht auf Improvisation aufgebaut werden – eine klare Methodik ist unerlässlich."
+    },
+    "synonyms": [
+      { "word": "approach", "de": "Ansatz / Herangehensweise" },
+      { "word": "method", "de": "Methode / Verfahren" },
+      { "word": "framework", "de": "Rahmenwerk / Konzept" }
+    ],
+    "word_family": [
+      { "word": "methodological", "pos": "adj", "de": "methodologisch / methodisch" },
+      { "word": "methodologically", "pos": "adv", "de": "methodologisch gesehen" },
+      { "word": "methodologist", "pos": "noun", "de": "Methodologe / Methodologin" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl20_objective_13",
+    "word": "objective",
+    "group": "AWL20",
+    "group_label": "Academic Word List – Sublist 20",
+    "pos": "adjective",
+    "translations": { "de": "objektiv / sachlich / unparteiisch" },
+    "examples": [
+      {
+        "en": "A good referee must remain objective and resist pressure from either side.",
+        "de": "Ein guter Schiedsrichter muss objektiv bleiben und dem Druck beider Seiten widerstehen."
+      },
+      {
+        "en": "Objective assessment of one's own work is notoriously difficult.",
+        "de": "Eine objektive Bewertung der eigenen Arbeit ist notorisch schwierig."
+      }
+    ],
+    "opposite": {
+      "en": "subjective",
+      "de": "subjektiv / persönlich geprägt",
+      "example_en": "Artistic judgements are inherently subjective and resist standardised evaluation.",
+      "example_de": "Künstlerische Urteile sind von Natur aus subjektiv und lassen sich einer standardisierten Bewertung entziehen."
+    },
+    "synonyms": [
+      { "word": "impartial", "de": "unparteiisch / neutral" },
+      { "word": "unbiased", "de": "unvoreingenommen / sachlich" },
+      { "word": "neutral", "de": "neutral / ausgeglichen" }
+    ],
+    "word_family": [
+      { "word": "objective", "pos": "noun", "de": "Ziel / Zielsetzung" },
+      { "word": "objectively", "pos": "adv", "de": "objektiv / sachlich" },
+      { "word": "objectivity", "pos": "noun", "de": "Objektivität / Sachlichkeit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl20_persist_14",
+    "word": "persist",
+    "group": "AWL20",
+    "group_label": "Academic Word List – Sublist 20",
+    "pos": "verb",
+    "translations": { "de": "anhalten / fortbestehen / beharren" },
+    "examples": [
+      {
+        "en": "Inequalities in education persist despite decades of policy interventions.",
+        "de": "Ungleichheiten im Bildungswesen bestehen trotz jahrzehntelanger politischer Maßnahmen fort."
+      },
+      {
+        "en": "The researchers persisted with the experiment even after several failed attempts.",
+        "de": "Die Forscher beharrten auf dem Experiment, auch nach mehreren gescheiterten Versuchen."
+      }
+    ],
+    "opposite": {
+      "en": "cease",
+      "de": "aufhören / enden / einstellen",
+      "example_en": "The symptoms should cease once the underlying infection has been treated.",
+      "example_de": "Die Symptome sollten aufhören, sobald die zugrunde liegende Infektion behandelt wurde."
+    },
+    "synonyms": [
+      { "word": "continue", "de": "fortsetzen / andauern" },
+      { "word": "endure", "de": "andauern / aushalten" },
+      { "word": "prevail", "de": "vorherrschen / sich durchsetzen" }
+    ],
+    "word_family": [
+      { "word": "persistence", "pos": "noun", "de": "Ausdauer / Beharrlichkeit / Fortbestehen" },
+      { "word": "persistent", "pos": "adj", "de": "anhaltend / beharrlich" },
+      { "word": "persistently", "pos": "adv", "de": "beharrlich / anhaltend" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "persist in", "de": "beharren auf / festhalten an", "example": "She persisted in challenging the committee's conclusions." }
+    ]
+  },
+  {
+    "id": "awl20_precedent_15",
+    "word": "precedent",
+    "group": "AWL20",
+    "group_label": "Academic Word List – Sublist 20",
+    "pos": "noun",
+    "translations": { "de": "Präzedenzfall / Vorbild / Vorlage" },
+    "examples": [
+      {
+        "en": "The court ruling set a precedent that has influenced employment law ever since.",
+        "de": "Das Gerichtsurteil schuf einen Präzedenzfall, der das Arbeitsrecht seitdem beeinflusst hat."
+      },
+      {
+        "en": "There is no historical precedent for such a rapid rise in global temperatures.",
+        "de": "Es gibt keinen historischen Präzedenzfall für einen so schnellen Anstieg der globalen Temperaturen."
+      }
+    ],
+    "opposite": {
+      "en": "novelty",
+      "de": "Neuheit / Einmaligkeit",
+      "example_en": "The approach was celebrated for its novelty — no precedent existed in the literature.",
+      "example_de": "Der Ansatz wurde für seine Neuartigkeit gefeiert – in der Literatur gab es keinen Präzedenzfall."
+    },
+    "synonyms": [
+      { "word": "example", "de": "Beispiel / Vorbild" },
+      { "word": "model", "de": "Vorbild / Muster" },
+      { "word": "antecedent", "de": "Vorläufer / Vorgänger" }
+    ],
+    "word_family": [
+      { "word": "unprecedented", "pos": "adj", "de": "beispiellos / noch nie dagewesen" },
+      { "word": "precedented", "pos": "adj", "de": "durch Präzedenzfälle gestützt" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "set a precedent", "de": "einen Präzedenzfall schaffen", "example": "This decision could set a precedent for future cases." }
+    ]
+  },
+  {
+    "id": "awl20_quantify_16",
+    "word": "quantify",
+    "group": "AWL20",
+    "group_label": "Academic Word List – Sublist 20",
+    "pos": "verb",
+    "translations": { "de": "quantifizieren / messen / beziffern" },
+    "examples": [
+      {
+        "en": "It is difficult to quantify the economic impact of social media on consumer behaviour.",
+        "de": "Es ist schwierig, den wirtschaftlichen Einfluss sozialer Medien auf das Verbraucherverhalten zu quantifizieren."
+      },
+      {
+        "en": "The survey attempts to quantify levels of public trust in government institutions.",
+        "de": "Die Umfrage versucht, das Vertrauen der Bevölkerung in staatliche Institutionen zu messen."
+      }
+    ],
+    "opposite": {
+      "en": "qualify",
+      "de": "qualitativ beschreiben / einschränken",
+      "example_en": "Where it is impossible to quantify results, researchers must qualify them descriptively.",
+      "example_de": "Wo Ergebnisse nicht quantifiziert werden können, müssen Forscher sie deskriptiv qualifizieren."
+    },
+    "synonyms": [
+      { "word": "measure", "de": "messen / erfassen" },
+      { "word": "calculate", "de": "berechnen / kalkulieren" },
+      { "word": "assess numerically", "de": "numerisch bewerten" }
+    ],
+    "word_family": [
+      { "word": "quantification", "pos": "noun", "de": "Quantifizierung / Messung" },
+      { "word": "quantifiable", "pos": "adj", "de": "quantifizierbar / messbar" },
+      { "word": "quantitative", "pos": "adj", "de": "quantitativ / zahlenmäßig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl20_refine_17",
+    "word": "refine",
+    "group": "AWL20",
+    "group_label": "Academic Word List – Sublist 20",
+    "pos": "verb",
+    "translations": { "de": "verfeinern / verbessern / präzisieren" },
+    "examples": [
+      {
+        "en": "Scientists refine their models as new data become available.",
+        "de": "Wissenschaftler verfeinern ihre Modelle, wenn neue Daten verfügbar werden."
+      },
+      {
+        "en": "The design team spent weeks refining the prototype before the final launch.",
+        "de": "Das Designteam verbrachte Wochen damit, den Prototyp vor der endgültigen Markteinführung zu verfeinern."
+      }
+    ],
+    "opposite": {
+      "en": "coarsen",
+      "de": "vergröbern / verrohen",
+      "example_en": "Cutting corners tends to coarsen rather than refine the final product.",
+      "example_de": "Das Abschneiden von Ecken und Kanten neigt dazu, das Endprodukt zu vergröbern anstatt zu verfeinern."
+    },
+    "synonyms": [
+      { "word": "improve", "de": "verbessern / optimieren" },
+      { "word": "hone", "de": "schärfen / verfeinern" },
+      { "word": "polish", "de": "verfeinern / ausfeilen" }
+    ],
+    "word_family": [
+      { "word": "refinement", "pos": "noun", "de": "Verfeinerung / Verbesserung" },
+      { "word": "refined", "pos": "adj", "de": "verfeinert / kultiviert" },
+      { "word": "refinement", "pos": "noun", "de": "Raffinesse / Schliff" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl20_scope_18",
+    "word": "scope",
+    "group": "AWL20",
+    "group_label": "Academic Word List – Sublist 20",
+    "pos": "noun",
+    "translations": { "de": "Umfang / Reichweite / Geltungsbereich" },
+    "examples": [
+      {
+        "en": "The scope of the investigation was limited to events occurring after 2010.",
+        "de": "Der Umfang der Untersuchung war auf Ereignisse nach 2010 beschränkt."
+      },
+      {
+        "en": "There is considerable scope for improvement in how the data are currently presented.",
+        "de": "Es gibt erheblichen Spielraum zur Verbesserung bei der derzeitigen Darstellung der Daten."
+      }
+    ],
+    "opposite": {
+      "en": "limitation",
+      "de": "Einschränkung / Begrenzung",
+      "example_en": "Every study has limitations that define the boundaries of its scope.",
+      "example_de": "Jede Studie hat Einschränkungen, die den Rahmen ihres Umfangs bestimmen."
+    },
+    "synonyms": [
+      { "word": "range", "de": "Bandbreite / Bereich" },
+      { "word": "extent", "de": "Ausmaß / Umfang" },
+      { "word": "breadth", "de": "Breite / Tiefe" }
+    ],
+    "word_family": [
+      { "word": "scope", "pos": "verb", "de": "sondieren / den Umfang abstecken" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "scope out", "de": "erkunden / abchecken", "example": "The team scoped out potential research sites before committing to one." }
+    ]
+  },
+  {
+    "id": "awl20_subsequent_19",
+    "word": "subsequent",
+    "group": "AWL20",
+    "group_label": "Academic Word List – Sublist 20",
+    "pos": "adjective",
+    "translations": { "de": "nachfolgend / anschließend / darauf folgend" },
+    "examples": [
+      {
+        "en": "Subsequent research confirmed the findings of the original study.",
+        "de": "Nachfolgende Forschungen bestätigten die Ergebnisse der ursprünglichen Studie."
+      },
+      {
+        "en": "The initial failure and subsequent redesign led to a much stronger product.",
+        "de": "Das anfängliche Scheitern und die anschließende Neugestaltung führten zu einem wesentlich besseren Produkt."
+      }
+    ],
+    "opposite": {
+      "en": "preceding",
+      "de": "vorhergehend / vorangehend",
+      "example_en": "The preceding chapter laid the theoretical groundwork for the subsequent analysis.",
+      "example_de": "Das vorhergehende Kapitel legte den theoretischen Grundstein für die nachfolgende Analyse."
+    },
+    "synonyms": [
+      { "word": "following", "de": "nachfolgend / folgend" },
+      { "word": "later", "de": "spätere / nachfolgende" },
+      { "word": "successive", "de": "aufeinanderfolgend / sukzessiv" }
+    ],
+    "word_family": [
+      { "word": "subsequently", "pos": "adv", "de": "anschließend / danach" },
+      { "word": "subsequence", "pos": "noun", "de": "Nachfolge / Abfolge" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl20_validity_20",
+    "word": "validity",
+    "group": "AWL20",
+    "group_label": "Academic Word List – Sublist 20",
+    "pos": "noun",
+    "translations": { "de": "Gültigkeit / Validität / Stichhaltigkeit" },
+    "examples": [
+      {
+        "en": "The validity of the experiment depends on whether the test measures what it claims to measure.",
+        "de": "Die Validität des Experiments hängt davon ab, ob der Test misst, was er zu messen behauptet."
+      },
+      {
+        "en": "Scholars have questioned the validity of the historical sources used in the argument.",
+        "de": "Wissenschaftler haben die Gültigkeit der im Argument verwendeten historischen Quellen infrage gestellt."
+      }
+    ],
+    "opposite": {
+      "en": "invalidity",
+      "de": "Ungültigkeit / mangelnde Validität",
+      "example_en": "The invalidity of one key source was enough to undermine the entire argument.",
+      "example_de": "Die Ungültigkeit einer einzigen Schlüsselquelle reichte aus, um das gesamte Argument zu untergraben."
+    },
+    "synonyms": [
+      { "word": "soundness", "de": "Stichhaltigkeit / Belastbarkeit" },
+      { "word": "credibility", "de": "Glaubwürdigkeit / Verlässlichkeit" },
+      { "word": "legitimacy", "de": "Legitimität / Berechtigung" }
+    ],
+    "word_family": [
+      { "word": "valid", "pos": "adj", "de": "gültig / valide / stichhaltig" },
+      { "word": "validate", "pos": "verb", "de": "validieren / bestätigen" },
+      { "word": "invalid", "pos": "adj", "de": "ungültig / nicht valide" },
+      { "word": "invalidate", "pos": "verb", "de": "ungültig machen / entkräften" }
+    ],
+    "phrasal_verbs": []
+  }
+]
