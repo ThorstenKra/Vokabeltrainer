@@ -1,0 +1,523 @@
+[
+  {
+    "id": "awl34_001",
+    "word": "acquire",
+    "group": "AWL34",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "erwerben, erlangen, aneignen" },
+    "examples": [
+      {
+        "en": "Children acquire language most rapidly during the first five years of life.",
+        "de": "Kinder erwerben Sprache am schnellsten in den ersten fünf Lebensjahren."
+      },
+      {
+        "en": "Organisations must continuously acquire new competencies to adapt to changing market conditions.",
+        "de": "Organisationen müssen kontinuierlich neue Kompetenzen erwerben, um sich an veränderte Marktbedingungen anzupassen."
+      }
+    ],
+    "opposite": { "word": "lose", "de": "verlieren" },
+    "synonyms": ["obtain", "gain", "develop", "attain"],
+    "word_family": [
+      { "word": "acquisition", "pos": "noun", "de": "Erwerb, Aneignung, Akquisition" },
+      { "word": "acquired", "pos": "adjective", "de": "erworben, angeeignet" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl34_002",
+    "word": "aid",
+    "group": "AWL34",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Hilfe, Unterstützung, Beihilfe; helfen, unterstützen" },
+    "examples": [
+      {
+        "en": "Foreign aid can play a vital role in post-conflict reconstruction when properly targeted.",
+        "de": "Auslandshilfe kann bei der Nachkriegswiederherstellung eine wichtige Rolle spielen, wenn sie gezielt eingesetzt wird."
+      },
+      {
+        "en": "Visual aids such as diagrams and charts aid comprehension in complex academic texts.",
+        "de": "Visuelle Hilfsmittel wie Diagramme und Grafiken fördern das Verständnis komplexer wissenschaftlicher Texte."
+      }
+    ],
+    "opposite": { "word": "hinder", "de": "behindern, erschweren" },
+    "synonyms": ["assistance", "support", "help", "relief"],
+    "word_family": [
+      { "word": "aided", "pos": "adjective", "de": "unterstützt, gefördert" },
+      { "word": "unaided", "pos": "adjective", "de": "ohne Hilfe, ungestützt" },
+      { "word": "aide", "pos": "noun", "de": "Assistent/in, Helfer/in" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "aid in", "de": "helfen bei, unterstützen bei", "example": "Technology can aid in the early detection of rare diseases." }
+    ]
+  },
+  {
+    "id": "awl34_003",
+    "word": "amplify",
+    "group": "AWL34",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "verstärken, ausweiten, vertiefen" },
+    "examples": [
+      {
+        "en": "Social media tends to amplify extreme viewpoints while marginalising moderate voices.",
+        "de": "Soziale Medien neigen dazu, extreme Standpunkte zu verstärken und moderate Stimmen zu marginalisieren."
+      },
+      {
+        "en": "The economic crisis amplified pre-existing inequalities in access to healthcare.",
+        "de": "Die Wirtschaftskrise verstärkte bereits bestehende Ungleichheiten beim Zugang zur Gesundheitsversorgung."
+      }
+    ],
+    "opposite": { "word": "diminish", "de": "verringern, abschwächen" },
+    "synonyms": ["intensify", "magnify", "enhance", "boost"],
+    "word_family": [
+      { "word": "amplification", "pos": "noun", "de": "Verstärkung, Erweiterung" },
+      { "word": "amplifier", "pos": "noun", "de": "Verstärker" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl34_004",
+    "word": "anticipate",
+    "group": "AWL34",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "antizipieren, voraussehen, erwarten" },
+    "examples": [
+      {
+        "en": "Researchers should anticipate and address potential ethical objections before submitting their proposals.",
+        "de": "Forscher sollten potenzielle ethische Einwände vorhersehen und ansprechen, bevor sie ihre Anträge einreichen."
+      },
+      {
+        "en": "The model failed to anticipate the magnitude of the economic shock that followed.",
+        "de": "Das Modell war nicht in der Lage, das Ausmaß des wirtschaftlichen Schocks vorherzusagen, der daraufhin eintrat."
+      }
+    ],
+    "opposite": { "word": "react to", "de": "reagieren auf" },
+    "synonyms": ["foresee", "predict", "expect", "forecast"],
+    "word_family": [
+      { "word": "anticipation", "pos": "noun", "de": "Erwartung, Antizipation" },
+      { "word": "anticipated", "pos": "adjective", "de": "erwartet, vorhergesehen" },
+      { "word": "unanticipated", "pos": "adjective", "de": "unerwartet, unvorhergesehen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl34_005",
+    "word": "archive",
+    "group": "AWL34",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Archiv; archivieren" },
+    "examples": [
+      {
+        "en": "Historical archives provide invaluable primary sources for researchers in the humanities.",
+        "de": "Historische Archive bieten unschätzbare Primärquellen für Forscher in den Geisteswissenschaften."
+      },
+      {
+        "en": "Open-access archives have transformed the speed at which scientific findings circulate globally.",
+        "de": "Open-Access-Archive haben die Geschwindigkeit verändert, mit der wissenschaftliche Erkenntnisse weltweit verbreitet werden."
+      }
+    ],
+    "opposite": { "word": "discard", "de": "verwerfen, entsorgen" },
+    "synonyms": ["repository", "database", "collection", "record"],
+    "word_family": [
+      { "word": "archival", "pos": "adjective", "de": "archivalisch, Archiv-" },
+      { "word": "archivist", "pos": "noun", "de": "Archivar/in" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl34_006",
+    "word": "calculate",
+    "group": "AWL34",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "berechnen, kalkulieren, ermitteln" },
+    "examples": [
+      {
+        "en": "Effect sizes were calculated using standardised mean differences between experimental and control groups.",
+        "de": "Effektgrößen wurden anhand standardisierter Mittelwertdifferenzen zwischen Experimental- und Kontrollgruppen berechnet."
+      },
+      {
+        "en": "It is difficult to calculate the full social costs of long-term unemployment.",
+        "de": "Es ist schwierig, die vollen sozialen Kosten der Langzeitarbeitslosigkeit zu berechnen."
+      }
+    ],
+    "opposite": { "word": "guess", "de": "raten, schätzen" },
+    "synonyms": ["compute", "determine", "quantify", "estimate"],
+    "word_family": [
+      { "word": "calculation", "pos": "noun", "de": "Berechnung, Kalkulation" },
+      { "word": "calculator", "pos": "noun", "de": "Taschenrechner; Rechner/in" },
+      { "word": "miscalculate", "pos": "verb", "de": "falsch berechnen, sich verkalkulieren" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl34_007",
+    "word": "cohesion",
+    "group": "AWL34",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Kohäsion, Zusammenhalt, Geschlossenheit" },
+    "examples": [
+      {
+        "en": "Social cohesion within communities is often eroded by high levels of economic inequality.",
+        "de": "Der gesellschaftliche Zusammenhalt in Gemeinschaften wird oft durch hohe wirtschaftliche Ungleichheit geschwächt."
+      },
+      {
+        "en": "Textual cohesion is achieved through the consistent use of referential and lexical devices.",
+        "de": "Textliche Kohäsion wird durch den konsistenten Einsatz referenzieller und lexikalischer Mittel erreicht."
+      }
+    ],
+    "opposite": { "word": "fragmentation", "de": "Fragmentierung, Zersplitterung" },
+    "synonyms": ["unity", "solidarity", "integration", "coherence"],
+    "word_family": [
+      { "word": "cohesive", "pos": "adjective", "de": "kohäsiv, zusammenhängend" },
+      { "word": "cohesively", "pos": "adverb", "de": "kohäsiv, geschlossen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl34_008",
+    "word": "commodity",
+    "group": "AWL34",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Ware, Rohstoff, Gut; Handelsgut" },
+    "examples": [
+      {
+        "en": "Some critics argue that education has been reduced to a commodity in a marketised system.",
+        "de": "Einige Kritiker argumentieren, dass Bildung in einem vermarktlichten System auf eine Ware reduziert wurde."
+      },
+      {
+        "en": "Fluctuations in global commodity prices can destabilise economies that depend on exports.",
+        "de": "Schwankungen der globalen Rohstoffpreise können Volkswirtschaften destabilisieren, die auf Exporte angewiesen sind."
+      }
+    ],
+    "opposite": { "word": "public good", "de": "öffentliches Gut" },
+    "synonyms": ["product", "good", "resource", "item"],
+    "word_family": [
+      { "word": "commodify", "pos": "verb", "de": "zur Ware machen, kommerzialisieren" },
+      { "word": "commodification", "pos": "noun", "de": "Kommodifizierung, Vermarktlichung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl34_009",
+    "word": "conflict",
+    "group": "AWL34",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Konflikt, Widerspruch; in Konflikt stehen" },
+    "examples": [
+      {
+        "en": "Role conflict arises when an individual faces incompatible demands from different social roles.",
+        "de": "Rollenkonflikt entsteht, wenn eine Person unvereinbaren Anforderungen aus verschiedenen sozialen Rollen ausgesetzt ist."
+      },
+      {
+        "en": "Findings from the two studies appear to conflict, suggesting the need for further replication.",
+        "de": "Die Ergebnisse der beiden Studien scheinen in Widerspruch zu stehen, was auf die Notwendigkeit weiterer Replikation hindeutet."
+      }
+    ],
+    "opposite": { "word": "harmony", "de": "Harmonie, Einklang" },
+    "synonyms": ["tension", "clash", "dispute", "contradiction"],
+    "word_family": [
+      { "word": "conflicting", "pos": "adjective", "de": "widersprüchlich, konfliktreich" },
+      { "word": "conflict of interest", "pos": "phrase", "de": "Interessenkonflikt" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "conflict with", "de": "im Widerspruch stehen zu", "example": "These results conflict with those of earlier studies in the field." }
+    ]
+  },
+  {
+    "id": "awl34_010",
+    "word": "consent",
+    "group": "AWL34",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Einwilligung, Zustimmung; einwilligen, zustimmen" },
+    "examples": [
+      {
+        "en": "Informed consent is a cornerstone of ethical research practice involving human participants.",
+        "de": "Informierte Einwilligung ist ein Eckpfeiler ethischer Forschungspraxis mit menschlichen Teilnehmern."
+      },
+      {
+        "en": "Participants may withdraw their consent at any point without facing adverse consequences.",
+        "de": "Teilnehmer können ihre Einwilligung jederzeit ohne negative Konsequenzen zurückziehen."
+      }
+    ],
+    "opposite": { "word": "refusal", "de": "Ablehnung, Verweigerung" },
+    "synonyms": ["agreement", "approval", "permission", "assent"],
+    "word_family": [
+      { "word": "consenting", "pos": "adjective", "de": "einwilligend, zustimmend" },
+      { "word": "dissent", "pos": "noun/verb", "de": "Widerspruch / widersprechen" },
+      { "word": "non-consent", "pos": "noun", "de": "fehlende Einwilligung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl34_011",
+    "word": "contingent",
+    "group": "AWL34",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "abhängig von, bedingt; kontingent, ungewiss" },
+    "examples": [
+      {
+        "en": "The success of the policy is contingent on sustained political commitment and adequate resources.",
+        "de": "Der Erfolg der Politik ist abhängig von anhaltendem politischen Engagement und angemessenen Ressourcen."
+      },
+      {
+        "en": "Social outcomes are contingent on historical, cultural, and structural factors that vary across contexts.",
+        "de": "Soziale Ergebnisse sind abhängig von historischen, kulturellen und strukturellen Faktoren, die je nach Kontext variieren."
+      }
+    ],
+    "opposite": { "word": "independent", "de": "unabhängig" },
+    "synonyms": ["dependent", "conditional", "subject to", "variable"],
+    "word_family": [
+      { "word": "contingency", "pos": "noun", "de": "Kontingenz, Eventualität, Abhängigkeit" },
+      { "word": "contingently", "pos": "adverb", "de": "bedingt, abhängig" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "contingent on / upon", "de": "abhängig von", "example": "Funding is contingent upon the successful completion of the first phase." }
+    ]
+  },
+  {
+    "id": "awl34_012",
+    "word": "coordinate",
+    "group": "AWL34",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "koordinieren, abstimmen, organisieren" },
+    "examples": [
+      {
+        "en": "Effective disaster response requires coordinating the efforts of multiple agencies and organisations.",
+        "de": "Eine effektive Katastrophenhilfe erfordert die Koordination der Bemühungen mehrerer Behörden und Organisationen."
+      },
+      {
+        "en": "International bodies coordinate the collection and standardisation of comparative statistical data.",
+        "de": "Internationale Gremien koordinieren die Erhebung und Standardisierung vergleichender Statistikdaten."
+      }
+    ],
+    "opposite": { "word": "fragment", "de": "fragmentieren, zersplittern" },
+    "synonyms": ["organise", "align", "harmonise", "manage"],
+    "word_family": [
+      { "word": "coordination", "pos": "noun", "de": "Koordination, Abstimmung" },
+      { "word": "coordinator", "pos": "noun", "de": "Koordinator/in" },
+      { "word": "coordinated", "pos": "adjective", "de": "koordiniert, abgestimmt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl34_013",
+    "word": "deduce",
+    "group": "AWL34",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "deduzieren, ableiten, schlussfolgern" },
+    "examples": [
+      {
+        "en": "From the available data, we can deduce that the intervention had a significant effect.",
+        "de": "Aus den verfügbaren Daten können wir schlussfolgern, dass die Intervention eine signifikante Wirkung hatte."
+      },
+      {
+        "en": "Scientists deduce general principles from specific observations through a process of inductive reasoning.",
+        "de": "Wissenschaftler leiten allgemeine Prinzipien aus spezifischen Beobachtungen durch induktives Denken ab."
+      }
+    ],
+    "opposite": { "word": "assume", "de": "annehmen, voraussetzen" },
+    "synonyms": ["infer", "conclude", "derive", "reason"],
+    "word_family": [
+      { "word": "deduction", "pos": "noun", "de": "Deduktion, Schlussfolgerung; Abzug" },
+      { "word": "deductive", "pos": "adjective", "de": "deduktiv" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl34_014",
+    "word": "deviate",
+    "group": "AWL34",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "abweichen, davon abgehen" },
+    "examples": [
+      {
+        "en": "Results that deviate significantly from predicted values warrant careful methodological scrutiny.",
+        "de": "Ergebnisse, die erheblich von prognostizierten Werten abweichen, erfordern sorgfältige methodologische Überprüfung."
+      },
+      {
+        "en": "Researchers should document and justify any decisions to deviate from the pre-registered protocol.",
+        "de": "Forscher sollten alle Entscheidungen zur Abweichung vom vorregistrierten Protokoll dokumentieren und begründen."
+      }
+    ],
+    "opposite": { "word": "conform", "de": "entsprechen, sich anpassen" },
+    "synonyms": ["diverge", "depart", "stray", "differ"],
+    "word_family": [
+      { "word": "deviation", "pos": "noun", "de": "Abweichung" },
+      { "word": "deviant", "pos": "adjective", "de": "abweichend, deviант" },
+      { "word": "standard deviation", "pos": "phrase", "de": "Standardabweichung" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "deviate from", "de": "abweichen von", "example": "The observed pattern deviates substantially from theoretical expectations." }
+    ]
+  },
+  {
+    "id": "awl34_015",
+    "word": "differentiate",
+    "group": "AWL34",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "unterscheiden, differenzieren, abgrenzen" },
+    "examples": [
+      {
+        "en": "It is important to differentiate between correlation and causation in observational research.",
+        "de": "Es ist wichtig, in der Beobachtungsforschung zwischen Korrelation und Kausalität zu unterscheiden."
+      },
+      {
+        "en": "Effective teaching differentiates instruction to meet the diverse needs of all learners.",
+        "de": "Effektiver Unterricht differenziert die Instruktion, um den unterschiedlichen Bedürfnissen aller Lernenden gerecht zu werden."
+      }
+    ],
+    "opposite": { "word": "conflate", "de": "zusammenwerfen, vermischen" },
+    "synonyms": ["distinguish", "discriminate", "separate", "contrast"],
+    "word_family": [
+      { "word": "differentiation", "pos": "noun", "de": "Differenzierung, Unterscheidung" },
+      { "word": "differentiated", "pos": "adjective", "de": "differenziert, unterschiedlich" },
+      { "word": "undifferentiated", "pos": "adjective", "de": "undifferenziert" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "differentiate between", "de": "unterscheiden zwischen", "example": "The study aims to differentiate between intrinsic and extrinsic motivational factors." }
+    ]
+  },
+  {
+    "id": "awl34_016",
+    "word": "displace",
+    "group": "AWL34",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "verdrängen, verschieben, vertreiben" },
+    "examples": [
+      {
+        "en": "Automation is expected to displace a significant proportion of routine jobs over the next decade.",
+        "de": "Es wird erwartet, dass Automatisierung in den nächsten zehn Jahren einen erheblichen Anteil an Routinearbeitsplätzen verdrängen wird."
+      },
+      {
+        "en": "Armed conflict has displaced over 100 million people from their homes worldwide.",
+        "de": "Bewaffnete Konflikte haben weltweit über 100 Millionen Menschen aus ihren Häusern vertrieben."
+      }
+    ],
+    "opposite": { "word": "restore", "de": "wiederherstellen, zurückbringen" },
+    "synonyms": ["replace", "relocate", "uproot", "supplant"],
+    "word_family": [
+      { "word": "displacement", "pos": "noun", "de": "Vertreibung, Verlagerung, Verdrängung" },
+      { "word": "displaced", "pos": "adjective", "de": "vertrieben, verlagert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl34_017",
+    "word": "divide",
+    "group": "AWL34",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "teilen, aufteilen, spalten; Kluft" },
+    "examples": [
+      {
+        "en": "The digital divide separates those with reliable internet access from those without.",
+        "de": "Die digitale Kluft trennt diejenigen mit zuverlässigem Internetzugang von denjenigen ohne."
+      },
+      {
+        "en": "Researchers divided the sample into three age groups for comparative analysis.",
+        "de": "Die Forscher teilten die Stichprobe für die vergleichende Analyse in drei Altersgruppen auf."
+      }
+    ],
+    "opposite": { "word": "unite", "de": "vereinen, zusammenführen" },
+    "synonyms": ["separate", "split", "partition", "segment"],
+    "word_family": [
+      { "word": "division", "pos": "noun", "de": "Teilung, Spaltung, Abteilung" },
+      { "word": "divisive", "pos": "adjective", "de": "spaltend, trennend" },
+      { "word": "undivided", "pos": "adjective", "de": "ungeteilt" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "divide into", "de": "unterteilen in, aufteilen in", "example": "The chapter is divided into four thematic sections." }
+    ]
+  },
+  {
+    "id": "awl34_018",
+    "word": "encounter",
+    "group": "AWL34",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "begegnen, stoßen auf, erleben; Begegnung" },
+    "examples": [
+      {
+        "en": "Researchers frequently encounter unexpected challenges when conducting fieldwork in unfamiliar settings.",
+        "de": "Forscher stoßen bei Feldforschungen in unvertrauten Umgebungen häufig auf unerwartete Herausforderungen."
+      },
+      {
+        "en": "Students often encounter the concept of cognitive dissonance for the first time in introductory psychology.",
+        "de": "Studenten begegnen dem Konzept der kognitiven Dissonanz oft zum ersten Mal in der Einführungspsychologie."
+      }
+    ],
+    "opposite": { "word": "avoid", "de": "vermeiden, ausweichen" },
+    "synonyms": ["face", "meet", "experience", "come across"],
+    "word_family": [
+      { "word": "encounter with", "pos": "phrase", "de": "Begegnung mit, Aufeinandertreffen mit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl34_019",
+    "word": "fund",
+    "group": "AWL34",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Fonds, Mittel, Kapital; finanzieren, fördern" },
+    "examples": [
+      {
+        "en": "Research funds are typically allocated through competitive grant processes reviewed by expert panels.",
+        "de": "Forschungsmittel werden typischerweise durch wettbewerbliche Förderverfahren zugeteilt, die von Expertengremien geprüft werden."
+      },
+      {
+        "en": "The project was funded by a consortium of public and private organisations.",
+        "de": "Das Projekt wurde von einem Konsortium öffentlicher und privater Organisationen finanziert."
+      }
+    ],
+    "opposite": { "word": "defund", "de": "Mittel entziehen, Finanzierung kürzen" },
+    "synonyms": ["finance", "endow", "subsidise", "invest in"],
+    "word_family": [
+      { "word": "funding", "pos": "noun", "de": "Finanzierung, Förderung" },
+      { "word": "funder", "pos": "noun", "de": "Geldgeber/in, Förderer/in" },
+      { "word": "underfunded", "pos": "adjective", "de": "unterfinanziert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl34_020",
+    "word": "inequality",
+    "group": "AWL34",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Ungleichheit, Ungleichverteilung" },
+    "examples": [
+      {
+        "en": "Rising economic inequality has become one of the defining political challenges of the twenty-first century.",
+        "de": "Wachsende wirtschaftliche Ungleichheit ist zu einer der bestimmenden politischen Herausforderungen des einundzwanzigsten Jahrhunderts geworden."
+      },
+      {
+        "en": "Intersecting inequalities of class, gender, and race compound one another in complex ways.",
+        "de": "Sich überschneidende Ungleichheiten nach Klasse, Geschlecht und Rasse verstärken sich auf komplexe Weise gegenseitig."
+      }
+    ],
+    "opposite": { "word": "equality", "de": "Gleichheit, Chancengleichheit" },
+    "synonyms": ["disparity", "imbalance", "gap", "unfairness"],
+    "word_family": [
+      { "word": "unequal", "pos": "adjective", "de": "ungleich" },
+      { "word": "unequally", "pos": "adverb", "de": "ungleich, ungleichmäßig" },
+      { "word": "egalitarian", "pos": "adjective", "de": "egalitär, gleichheitsorientiert" }
+    ],
+    "phrasal_verbs": []
+  }
+]
