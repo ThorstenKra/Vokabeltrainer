@@ -1,0 +1,524 @@
+[
+  {
+    "id": "awl33_001",
+    "word": "aspect",
+    "group": "AWL33",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Aspekt, Gesichtspunkt, Seite" },
+    "examples": [
+      {
+        "en": "The study examines multiple aspects of student well-being, including academic, social, and emotional dimensions.",
+        "de": "Die Studie untersucht mehrere Aspekte des Wohlbefindens von Schülern, darunter akademische, soziale und emotionale Dimensionen."
+      },
+      {
+        "en": "One important aspect of peer review is that it guards against the publication of flawed research.",
+        "de": "Ein wichtiger Aspekt des Peer Review ist, dass er die Veröffentlichung fehlerhafter Forschung verhindert."
+      }
+    ],
+    "opposite": { "word": "whole", "de": "Ganzes, Gesamtheit" },
+    "synonyms": ["dimension", "facet", "element", "angle"],
+    "word_family": [
+      { "word": "multi-aspect", "pos": "adjective", "de": "vielschichtig, mehrdimensional" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl33_002",
+    "word": "channel",
+    "group": "AWL33",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Kanal, Weg, Medium; lenken, kanalisieren" },
+    "examples": [
+      {
+        "en": "Social media has become a key channel for the rapid dissemination of scientific information.",
+        "de": "Soziale Medien sind zu einem wichtigen Kanal für die schnelle Verbreitung wissenschaftlicher Informationen geworden."
+      },
+      {
+        "en": "Policymakers must identify effective channels through which public health messages can reach vulnerable groups.",
+        "de": "Politische Entscheidungsträger müssen effektive Kanäle identifizieren, über die Botschaften zur öffentlichen Gesundheit gefährdete Gruppen erreichen können."
+      }
+    ],
+    "opposite": { "word": "blockage", "de": "Blockade, Hindernis" },
+    "synonyms": ["medium", "pathway", "route", "conduit"],
+    "word_family": [
+      { "word": "channelling", "pos": "noun", "de": "Kanalisierung, Lenkung" },
+      { "word": "multi-channel", "pos": "adjective", "de": "mehrkanalig" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "channel into", "de": "lenken in, kanalisieren in", "example": "Resources were channelled into preventive rather than curative healthcare." }
+    ]
+  },
+  {
+    "id": "awl33_003",
+    "word": "collaborate",
+    "group": "AWL33",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "zusammenarbeiten, kollaborieren, kooperieren" },
+    "examples": [
+      {
+        "en": "Researchers across disciplines are increasingly encouraged to collaborate on complex problems.",
+        "de": "Forscher aus verschiedenen Disziplinen werden zunehmend ermutigt, an komplexen Problemen zusammenzuarbeiten."
+      },
+      {
+        "en": "The two institutions collaborated to develop a shared curriculum for graduate training.",
+        "de": "Die beiden Institutionen arbeiteten zusammen, um einen gemeinsamen Lehrplan für die Graduiertenausbildung zu entwickeln."
+      }
+    ],
+    "opposite": { "word": "compete", "de": "konkurrieren, im Wettbewerb stehen" },
+    "synonyms": ["cooperate", "partner", "work together", "join forces"],
+    "word_family": [
+      { "word": "collaboration", "pos": "noun", "de": "Zusammenarbeit, Kollaboration" },
+      { "word": "collaborative", "pos": "adjective", "de": "kollaborativ, gemeinsam" },
+      { "word": "collaborator", "pos": "noun", "de": "Mitarbeiter/in, Kooperationspartner/in" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "collaborate with / on", "de": "zusammenarbeiten mit / an", "example": "The team collaborated with practitioners to ensure the findings had real-world applicability." }
+    ]
+  },
+  {
+    "id": "awl33_004",
+    "word": "contract",
+    "group": "AWL33",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Vertrag, Kontrakt; schrumpfen, sich zusammenziehen" },
+    "examples": [
+      {
+        "en": "Research funding is often disbursed through contracts with clearly specified deliverables.",
+        "de": "Forschungsförderung wird häufig über Verträge mit klar festgelegten Ergebnissen vergeben."
+      },
+      {
+        "en": "The economy contracted sharply in the wake of the financial crisis.",
+        "de": "Die Wirtschaft schrumpfte im Zuge der Finanzkrise stark."
+      }
+    ],
+    "opposite": { "word": "expand", "de": "ausweiten, ausdehnen" },
+    "synonyms": ["agreement", "deal", "arrangement", "shrink"],
+    "word_family": [
+      { "word": "contractor", "pos": "noun", "de": "Auftragnehmer/in, Vertragspartner/in" },
+      { "word": "contractual", "pos": "adjective", "de": "vertraglich" },
+      { "word": "subcontract", "pos": "verb", "de": "Unterauftrag vergeben" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl33_005",
+    "word": "create",
+    "group": "AWL33",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "erstellen, schaffen, erzeugen, erschaffen" },
+    "examples": [
+      {
+        "en": "Technological innovation creates new economic opportunities while simultaneously displacing existing jobs.",
+        "de": "Technologische Innovation schafft neue wirtschaftliche Möglichkeiten und verdrängt gleichzeitig bestehende Arbeitsplätze."
+      },
+      {
+        "en": "The research project aims to create a validated instrument for measuring social cohesion.",
+        "de": "Das Forschungsprojekt zielt darauf ab, ein validiertes Instrument zur Messung des sozialen Zusammenhalts zu entwickeln."
+      }
+    ],
+    "opposite": { "word": "destroy", "de": "zerstören, vernichten" },
+    "synonyms": ["generate", "produce", "develop", "establish"],
+    "word_family": [
+      { "word": "creation", "pos": "noun", "de": "Schaffung, Erschaffung" },
+      { "word": "creative", "pos": "adjective", "de": "kreativ, schöpferisch" },
+      { "word": "creativity", "pos": "noun", "de": "Kreativität" },
+      { "word": "creator", "pos": "noun", "de": "Schöpfer/in, Urheber/in" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl33_006",
+    "word": "decrease",
+    "group": "AWL33",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "abnehmen, verringern, sinken; Abnahme" },
+    "examples": [
+      {
+        "en": "Air pollution levels decreased significantly following the introduction of stricter emission standards.",
+        "de": "Die Luftverschmutzung ging nach der Einführung strengerer Emissionsstandards erheblich zurück."
+      },
+      {
+        "en": "A steady decrease in biodiversity has been documented across most terrestrial ecosystems.",
+        "de": "Ein stetiger Rückgang der Artenvielfalt wurde in den meisten terrestrischen Ökosystemen dokumentiert."
+      }
+    ],
+    "opposite": { "word": "increase", "de": "zunehmen, steigen" },
+    "synonyms": ["decline", "reduce", "diminish", "drop"],
+    "word_family": [
+      { "word": "decreasing", "pos": "adjective", "de": "abnehmend, sinkend" },
+      { "word": "decreased", "pos": "adjective", "de": "verringert, gesunken" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl33_007",
+    "word": "deploy",
+    "group": "AWL33",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "einsetzen, verwenden, aufstellen, anwenden" },
+    "examples": [
+      {
+        "en": "The study deploys mixed methods to capture both quantitative patterns and qualitative nuances.",
+        "de": "Die Studie setzt gemischte Methoden ein, um sowohl quantitative Muster als auch qualitative Nuancen zu erfassen."
+      },
+      {
+        "en": "Governments increasingly deploy algorithmic tools in public service delivery and decision-making.",
+        "de": "Regierungen setzen zunehmend algorithmische Werkzeuge in der Bereitstellung öffentlicher Dienstleistungen und der Entscheidungsfindung ein."
+      }
+    ],
+    "opposite": { "word": "withdraw", "de": "zurückziehen, abziehen" },
+    "synonyms": ["utilise", "apply", "employ", "mobilise"],
+    "word_family": [
+      { "word": "deployment", "pos": "noun", "de": "Einsatz, Einführung, Aufstellung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl33_008",
+    "word": "ethical",
+    "group": "AWL33",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "ethisch, moralisch" },
+    "examples": [
+      {
+        "en": "All research involving human subjects must comply with ethical guidelines on informed consent.",
+        "de": "Alle Forschungen mit menschlichen Probanden müssen den ethischen Richtlinien zur informierten Einwilligung entsprechen."
+      },
+      {
+        "en": "Ethical considerations in data collection extend beyond legal compliance to matters of trust.",
+        "de": "Ethische Überlegungen bei der Datenerhebung gehen über die rechtliche Compliance hinaus und betreffen Fragen des Vertrauens."
+      }
+    ],
+    "opposite": { "word": "unethical", "de": "unethisch, moralisch verwerflich" },
+    "synonyms": ["moral", "principled", "responsible", "virtuous"],
+    "word_family": [
+      { "word": "ethics", "pos": "noun", "de": "Ethik, Moral" },
+      { "word": "ethically", "pos": "adverb", "de": "ethisch, moralisch" },
+      { "word": "unethical", "pos": "adjective", "de": "unethisch" },
+      { "word": "bioethics", "pos": "noun", "de": "Bioethik" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl33_009",
+    "word": "exploit",
+    "group": "AWL33",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "nutzen, ausschöpfen; ausnutzen, ausbeuten" },
+    "examples": [
+      {
+        "en": "Researchers exploit large administrative datasets to answer questions that surveys cannot address.",
+        "de": "Forscher nutzen große administrative Datensätze, um Fragen zu beantworten, die Umfragen nicht beantworten können."
+      },
+      {
+        "en": "There are growing concerns that companies exploit personal data without adequate transparency.",
+        "de": "Es gibt wachsende Bedenken, dass Unternehmen persönliche Daten ohne angemessene Transparenz ausnutzen."
+      }
+    ],
+    "opposite": { "word": "neglect", "de": "vernachlässigen, ungenutzt lassen" },
+    "synonyms": ["utilise", "harness", "leverage", "capitalise on"],
+    "word_family": [
+      { "word": "exploitation", "pos": "noun", "de": "Ausbeutung; Nutzung" },
+      { "word": "exploitative", "pos": "adjective", "de": "ausbeuterisch" },
+      { "word": "exploitable", "pos": "adjective", "de": "nutzbar, ausnutzbar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl33_010",
+    "word": "feedback",
+    "group": "AWL33",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Rückmeldung, Feedback, Rückkopplung" },
+    "examples": [
+      {
+        "en": "Constructive feedback is an essential component of effective teaching and learning.",
+        "de": "Konstruktives Feedback ist ein wesentlicher Bestandteil effektiven Lehrens und Lernens."
+      },
+      {
+        "en": "Negative feedback loops help systems maintain equilibrium in the face of external disturbances.",
+        "de": "Negative Rückkopplungsschleifen helfen Systemen, angesichts externer Störungen das Gleichgewicht zu halten."
+      }
+    ],
+    "opposite": { "word": "silence", "de": "Schweigen, keine Rückmeldung" },
+    "synonyms": ["response", "reaction", "evaluation", "critique"],
+    "word_family": [
+      { "word": "feedback loop", "pos": "phrase", "de": "Rückkopplungsschleife" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl33_011",
+    "word": "grant",
+    "group": "AWL33",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Zuschuss, Förderung, Stipendium; gewähren" },
+    "examples": [
+      {
+        "en": "The project was funded by a three-year grant from the national research foundation.",
+        "de": "Das Projekt wurde durch einen dreijährigen Zuschuss der nationalen Forschungsstiftung finanziert."
+      },
+      {
+        "en": "Governments may grant exemptions from regulation in cases of demonstrated public benefit.",
+        "de": "Regierungen können Ausnahmen von Vorschriften gewähren, wenn ein nachgewiesener öffentlicher Nutzen vorliegt."
+      }
+    ],
+    "opposite": { "word": "withhold", "de": "verweigern, vorenthalten" },
+    "synonyms": ["subsidy", "award", "funding", "allocation"],
+    "word_family": [
+      { "word": "grant-funded", "pos": "adjective", "de": "durch Zuschüsse finanziert" },
+      { "word": "grantee", "pos": "noun", "de": "Zuschussempfänger/in" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "take for granted", "de": "als selbstverständlich ansehen", "example": "Researchers should not take for granted the assumptions embedded in their theoretical models." }
+    ]
+  },
+  {
+    "id": "awl33_012",
+    "word": "increase",
+    "group": "AWL33",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "zunehmen, steigen, erhöhen; Zunahme, Anstieg" },
+    "examples": [
+      {
+        "en": "Life expectancy has increased dramatically in most countries over the past century.",
+        "de": "Die Lebenserwartung ist in den meisten Ländern im letzten Jahrhundert dramatisch gestiegen."
+      },
+      {
+        "en": "The study found that mindfulness training significantly increased participants' self-reported well-being.",
+        "de": "Die Studie ergab, dass Achtsamkeitstraining das von den Teilnehmern selbst berichtete Wohlbefinden signifikant verbesserte."
+      }
+    ],
+    "opposite": { "word": "decrease", "de": "abnehmen, sinken" },
+    "synonyms": ["rise", "grow", "expand", "escalate"],
+    "word_family": [
+      { "word": "increasing", "pos": "adjective", "de": "zunehmend, wachsend" },
+      { "word": "increasingly", "pos": "adverb", "de": "zunehmend, immer mehr" },
+      { "word": "increased", "pos": "adjective", "de": "erhöht, gestiegen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl33_013",
+    "word": "institutional",
+    "group": "AWL33",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "institutionell, strukturell" },
+    "examples": [
+      {
+        "en": "Institutional barriers often prevent marginalised groups from accessing higher education.",
+        "de": "Institutionelle Hindernisse verhindern häufig, dass marginalisierte Gruppen Zugang zu Hochschulbildung erhalten."
+      },
+      {
+        "en": "Institutional trust is a key predictor of civic engagement and political participation.",
+        "de": "Institutionelles Vertrauen ist ein wichtiger Prädiktor für bürgerschaftliches Engagement und politische Beteiligung."
+      }
+    ],
+    "opposite": { "word": "individual", "de": "individuell, persönlich" },
+    "synonyms": ["organisational", "structural", "systemic", "formal"],
+    "word_family": [
+      { "word": "institution", "pos": "noun", "de": "Institution, Einrichtung" },
+      { "word": "institutionalise", "pos": "verb", "de": "institutionalisieren" },
+      { "word": "institutionalisation", "pos": "noun", "de": "Institutionalisierung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl33_014",
+    "word": "measure",
+    "group": "AWL33",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "messen, erfassen; Maßnahme, Maß" },
+    "examples": [
+      {
+        "en": "Accurately measuring quality of life requires combining objective indicators with subjective reports.",
+        "de": "Die genaue Messung der Lebensqualität erfordert die Kombination objektiver Indikatoren mit subjektiven Berichten."
+      },
+      {
+        "en": "Governments introduced austerity measures in response to the growing public deficit.",
+        "de": "Regierungen führten Sparmaßnahmen als Reaktion auf das wachsende öffentliche Defizit ein."
+      }
+    ],
+    "opposite": { "word": "estimate", "de": "schätzen" },
+    "synonyms": ["quantify", "assess", "gauge", "evaluate"],
+    "word_family": [
+      { "word": "measurement", "pos": "noun", "de": "Messung, Messgröße" },
+      { "word": "measurable", "pos": "adjective", "de": "messbar" },
+      { "word": "immeasurable", "pos": "adjective", "de": "unermesslich" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "measure against", "de": "messen an, vergleichen mit", "example": "Success is measured against the targets specified in the funding proposal." }
+    ]
+  },
+  {
+    "id": "awl33_015",
+    "word": "migration",
+    "group": "AWL33",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Migration, Wanderung, Abwanderung" },
+    "examples": [
+      {
+        "en": "International migration has significant economic and social consequences for both sending and receiving countries.",
+        "de": "Internationale Migration hat erhebliche wirtschaftliche und soziale Folgen für Herkunfts- und Zielländer."
+      },
+      {
+        "en": "Rural-to-urban migration is closely associated with industrialisation and economic development.",
+        "de": "Die Land-Stadt-Migration ist eng mit Industrialisierung und wirtschaftlicher Entwicklung verbunden."
+      }
+    ],
+    "opposite": { "word": "settlement", "de": "Sesshaftigkeit, Ansiedlung" },
+    "synonyms": ["movement", "relocation", "displacement", "mobility"],
+    "word_family": [
+      { "word": "migrate", "pos": "verb", "de": "migrieren, wandern, abwandern" },
+      { "word": "migrant", "pos": "noun", "de": "Migrant/in, Einwanderer/in" },
+      { "word": "migratory", "pos": "adjective", "de": "migratorisch, wandernd" },
+      { "word": "immigration", "pos": "noun", "de": "Einwanderung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl33_016",
+    "word": "motivate",
+    "group": "AWL33",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "motivieren, antreiben, begründen" },
+    "examples": [
+      {
+        "en": "Understanding what motivates individuals to adopt new behaviours is central to behaviour change research.",
+        "de": "Zu verstehen, was Individuen dazu motiviert, neue Verhaltensweisen anzunehmen, ist zentral für die Verhaltensänderungsforschung."
+      },
+      {
+        "en": "The decision was motivated by a desire to reduce administrative complexity.",
+        "de": "Die Entscheidung war von dem Wunsch motiviert, die administrative Komplexität zu verringern."
+      }
+    ],
+    "opposite": { "word": "demotivate", "de": "demotivieren, entmutigen" },
+    "synonyms": ["drive", "inspire", "encourage", "prompt"],
+    "word_family": [
+      { "word": "motivation", "pos": "noun", "de": "Motivation, Antrieb" },
+      { "word": "motivated", "pos": "adjective", "de": "motiviert" },
+      { "word": "motivational", "pos": "adjective", "de": "motivierend" },
+      { "word": "demotivate", "pos": "verb", "de": "demotivieren" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl33_017",
+    "word": "narrative",
+    "group": "AWL33",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Narrativ, Erzählung, Darstellung" },
+    "examples": [
+      {
+        "en": "Political narratives shape how citizens interpret economic data and assign responsibility.",
+        "de": "Politische Narrative prägen, wie Bürger wirtschaftliche Daten interpretieren und Verantwortung zuweisen."
+      },
+      {
+        "en": "Qualitative research often seeks to capture participants' personal narratives and lived experiences.",
+        "de": "Qualitative Forschung versucht oft, die persönlichen Narrative und gelebten Erfahrungen der Teilnehmer einzufangen."
+      }
+    ],
+    "opposite": { "word": "data", "de": "Daten, Fakten" },
+    "synonyms": ["account", "story", "discourse", "framing"],
+    "word_family": [
+      { "word": "narrate", "pos": "verb", "de": "erzählen, schildern" },
+      { "word": "narrator", "pos": "noun", "de": "Erzähler/in" },
+      { "word": "narratology", "pos": "noun", "de": "Narratologie, Erzähltheorie" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl33_018",
+    "word": "passive",
+    "group": "AWL33",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "passiv, untätig, leidend" },
+    "examples": [
+      {
+        "en": "Passive learning strategies, such as re-reading, are less effective than active retrieval practice.",
+        "de": "Passive Lernstrategien wie erneutes Lesen sind weniger effektiv als aktives Abrufüben."
+      },
+      {
+        "en": "A passive acceptance of the status quo can perpetuate systemic injustice.",
+        "de": "Eine passive Akzeptanz des Status quo kann systemische Ungerechtigkeit aufrechterhalten."
+      }
+    ],
+    "opposite": { "word": "active", "de": "aktiv, tätig" },
+    "synonyms": ["inactive", "submissive", "receptive", "inert"],
+    "word_family": [
+      { "word": "passively", "pos": "adverb", "de": "passiv, untätig" },
+      { "word": "passivity", "pos": "noun", "de": "Passivität" },
+      { "word": "passive voice", "pos": "phrase", "de": "Passiv, Passivform" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl33_019",
+    "word": "prior",
+    "group": "AWL33",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "früher, vorherig, vorausgehend" },
+    "examples": [
+      {
+        "en": "Prior research has established a strong link between parental education and children's academic success.",
+        "de": "Frühere Forschungen haben einen starken Zusammenhang zwischen der Bildung der Eltern und dem schulischen Erfolg der Kinder belegt."
+      },
+      {
+        "en": "Participants with prior experience in meditation showed significantly greater improvements.",
+        "de": "Teilnehmer mit früherer Meditationserfahrung zeigten signifikant größere Verbesserungen."
+      }
+    ],
+    "opposite": { "word": "subsequent", "de": "anschließend, folgend" },
+    "synonyms": ["previous", "earlier", "preceding", "former"],
+    "word_family": [
+      { "word": "priority", "pos": "noun", "de": "Priorität, Vorrang" },
+      { "word": "prioritise", "pos": "verb", "de": "priorisieren" },
+      { "word": "prior to", "pos": "phrase", "de": "vor, im Vorfeld" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl33_020",
+    "word": "reveal",
+    "group": "AWL33",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "enthüllen, zeigen, aufdecken, offenbaren" },
+    "examples": [
+      {
+        "en": "The analysis reveals significant disparities in health outcomes between rural and urban populations.",
+        "de": "Die Analyse enthüllt erhebliche Unterschiede bei den Gesundheitsergebnissen zwischen ländlichen und städtischen Bevölkerungen."
+      },
+      {
+        "en": "Qualitative interviews can reveal hidden dimensions of experience that surveys fail to capture.",
+        "de": "Qualitative Interviews können verborgene Dimensionen der Erfahrung enthüllen, die Umfragen nicht erfassen."
+      }
+    ],
+    "opposite": { "word": "conceal", "de": "verbergen, verschleiern" },
+    "synonyms": ["disclose", "uncover", "expose", "demonstrate"],
+    "word_family": [
+      { "word": "revelation", "pos": "noun", "de": "Enthüllung, Offenbarung" },
+      { "word": "revealing", "pos": "adjective", "de": "aufschlussreich, enthüllend" }
+    ],
+    "phrasal_verbs": []
+  }
+]
