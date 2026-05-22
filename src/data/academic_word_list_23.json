@@ -1,0 +1,694 @@
+[
+  {
+    "id": "awl23_accumulate_01",
+    "word": "accumulate",
+    "group": "AWL23",
+    "group_label": "Academic Word List – Sublist 23",
+    "pos": "verb",
+    "translations": { "de": "ansammeln / anhäufen / akkumulieren" },
+    "examples": [
+      {
+        "en": "Over decades, pollutants can accumulate in soil and groundwater to dangerous levels.",
+        "de": "Im Laufe von Jahrzehnten können sich Schadstoffe im Boden und Grundwasser auf gefährliche Werte ansammeln."
+      },
+      {
+        "en": "The research team gradually accumulated enough data to test the central hypothesis.",
+        "de": "Das Forschungsteam sammelte nach und nach genug Daten, um die zentrale Hypothese zu testen."
+      }
+    ],
+    "opposite": {
+      "en": "deplete",
+      "de": "erschöpfen / aufbrauchen",
+      "example_en": "Intensive farming can deplete soil nutrients that took centuries to accumulate.",
+      "example_de": "Intensive Landwirtschaft kann Bodenährstoffe erschöpfen, die Jahrhunderte gebraucht haben, sich anzusammeln."
+    },
+    "synonyms": [
+      { "word": "amass", "de": "ansammeln / anhäufen" },
+      { "word": "build up", "de": "aufbauen / ansammeln" },
+      { "word": "gather", "de": "sammeln / anhäufen" }
+    ],
+    "word_family": [
+      { "word": "accumulation", "pos": "noun", "de": "Anhäufung / Akkumulation" },
+      { "word": "accumulated", "pos": "adj", "de": "angesammelt / aufgehäuft" },
+      { "word": "cumulative", "pos": "adj", "de": "kumulativ / sich summierend" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "accumulate over time", "de": "sich im Laufe der Zeit ansammeln", "example": "Small inefficiencies accumulate over time and can destabilise entire systems." }
+    ]
+  },
+  {
+    "id": "awl23_circumstance_02",
+    "word": "circumstance",
+    "group": "AWL23",
+    "group_label": "Academic Word List – Sublist 23",
+    "pos": "noun",
+    "translations": { "de": "Umstand / Gegebenheit / Situation (Pl. circumstances)" },
+    "examples": [
+      {
+        "en": "The outcome will depend largely on the circumstances under which the policy is implemented.",
+        "de": "Das Ergebnis wird weitgehend von den Umständen abhängen, unter denen die Politik umgesetzt wird."
+      },
+      {
+        "en": "Under normal circumstances, the procedure takes no more than two weeks.",
+        "de": "Unter normalen Umständen dauert das Verfahren nicht länger als zwei Wochen."
+      }
+    ],
+    "opposite": {
+      "en": "invariable condition",
+      "de": "unveränderliche Bedingung",
+      "example_en": "Unlike a fixed invariable condition, circumstances are subject to change at any time.",
+      "example_de": "Im Gegensatz zu einer festen, unveränderlichen Bedingung können sich Umstände jederzeit ändern."
+    },
+    "synonyms": [
+      { "word": "situation", "de": "Situation / Lage" },
+      { "word": "condition", "de": "Bedingung / Zustand" },
+      { "word": "context", "de": "Kontext / Zusammenhang" }
+    ],
+    "word_family": [
+      { "word": "circumstantial", "pos": "adj", "de": "umständlich / mittelbar / indiziell" },
+      { "word": "circumstantially", "pos": "adv", "de": "mittelbar / auf Grund von Indizien" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "under the circumstances", "de": "unter diesen Umständen / angesichts der Lage", "example": "Under the circumstances, a delay of two months seems reasonable." }
+    ]
+  },
+  {
+    "id": "awl23_contemporary_03",
+    "word": "contemporary",
+    "group": "AWL23",
+    "group_label": "Academic Word List – Sublist 23",
+    "pos": "adjective",
+    "translations": { "de": "zeitgenössisch / gegenwärtig / modern" },
+    "examples": [
+      {
+        "en": "Contemporary theories of leadership emphasise collaboration over hierarchical control.",
+        "de": "Zeitgenössische Führungstheorien betonen Zusammenarbeit gegenüber hierarchischer Kontrolle."
+      },
+      {
+        "en": "The museum's collection spans both classical antiquity and contemporary visual art.",
+        "de": "Die Sammlung des Museums umfasst sowohl die klassische Antike als auch zeitgenössische bildende Kunst."
+      }
+    ],
+    "opposite": {
+      "en": "historical",
+      "de": "historisch / vergangen",
+      "example_en": "Historical records provide a baseline against which contemporary data can be compared.",
+      "example_de": "Historische Aufzeichnungen liefern eine Grundlage, mit der zeitgenössische Daten verglichen werden können."
+    },
+    "synonyms": [
+      { "word": "current", "de": "aktuell / gegenwärtig" },
+      { "word": "modern", "de": "modern / zeitgemäß" },
+      { "word": "present-day", "de": "heutig / gegenwärtig" }
+    ],
+    "word_family": [
+      { "word": "contemporary", "pos": "noun", "de": "Zeitgenosse / Zeitgenossin" },
+      { "word": "contemporarily", "pos": "adv", "de": "zeitgenössisch / in der Gegenwart" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl23_convey_04",
+    "word": "convey",
+    "group": "AWL23",
+    "group_label": "Academic Word List – Sublist 23",
+    "pos": "verb",
+    "translations": { "de": "vermitteln / übermitteln / zum Ausdruck bringen" },
+    "examples": [
+      {
+        "en": "Academic writing must convey complex ideas clearly and without unnecessary jargon.",
+        "de": "Akademisches Schreiben muss komplexe Ideen klar und ohne unnötigen Fachjargon vermitteln."
+      },
+      {
+        "en": "The graph conveys the trend more effectively than a table of raw numbers would.",
+        "de": "Die Grafik vermittelt den Trend wirkungsvoller als eine Tabelle mit Rohdaten es täte."
+      }
+    ],
+    "opposite": {
+      "en": "conceal",
+      "de": "verbergen / verschweigen",
+      "example_en": "A poorly structured argument may conceal rather than convey the author's true position.",
+      "example_de": "Ein schlecht strukturiertes Argument kann den wahren Standpunkt des Autors eher verbergen als vermitteln."
+    },
+    "synonyms": [
+      { "word": "communicate", "de": "kommunizieren / mitteilen" },
+      { "word": "express", "de": "ausdrücken / zum Ausdruck bringen" },
+      { "word": "transmit", "de": "übermitteln / weitergeben" }
+    ],
+    "word_family": [
+      { "word": "conveyance", "pos": "noun", "de": "Beförderung / Übermittlung" },
+      { "word": "conveyed", "pos": "adj", "de": "vermittelt / übertragen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl23_decline_05",
+    "word": "decline",
+    "group": "AWL23",
+    "group_label": "Academic Word List – Sublist 23",
+    "pos": "verb",
+    "translations": { "de": "abnehmen / zurückgehen / ablehnen" },
+    "examples": [
+      {
+        "en": "Birth rates have declined steadily in most industrialised countries over the past fifty years.",
+        "de": "Die Geburtenraten sind in den meisten Industrieländern in den letzten fünfzig Jahren stetig zurückgegangen."
+      },
+      {
+        "en": "The minister declined to comment on the leaked documents.",
+        "de": "Der Minister lehnte es ab, zu den durchgesickerten Dokumenten Stellung zu nehmen."
+      }
+    ],
+    "opposite": {
+      "en": "increase",
+      "de": "zunehmen / steigen",
+      "example_en": "While some indicators decline, others continue to increase, complicating the overall picture.",
+      "example_de": "Während einige Indikatoren abnehmen, steigen andere weiterhin, was das Gesamtbild verkompliziert."
+    },
+    "synonyms": [
+      { "word": "decrease", "de": "sinken / abnehmen" },
+      { "word": "diminish", "de": "abnehmen / sich verringern" },
+      { "word": "fall", "de": "fallen / sinken" }
+    ],
+    "word_family": [
+      { "word": "decline", "pos": "noun", "de": "Rückgang / Abnahme / Niedergang" },
+      { "word": "declining", "pos": "adj", "de": "rückläufig / abnehmend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl23_define_06",
+    "word": "define",
+    "group": "AWL23",
+    "group_label": "Academic Word List – Sublist 23",
+    "pos": "verb",
+    "translations": { "de": "definieren / bestimmen / festlegen" },
+    "examples": [
+      {
+        "en": "It is essential to define key terms clearly at the outset of any academic argument.",
+        "de": "Es ist unerlässlich, Schlüsselbegriffe zu Beginn jedes akademischen Arguments klar zu definieren."
+      },
+      {
+        "en": "How researchers define poverty has a direct impact on the statistics they produce.",
+        "de": "Wie Forscher Armut definieren, hat direkte Auswirkungen auf die von ihnen produzierten Statistiken."
+      }
+    ],
+    "opposite": {
+      "en": "obscure",
+      "de": "verschleiern / unklar lassen",
+      "example_en": "Failing to define a concept precisely can obscure the boundaries of a study.",
+      "example_de": "Ein Konzept nicht präzise zu definieren, kann die Grenzen einer Studie verwischen."
+    },
+    "synonyms": [
+      { "word": "specify", "de": "angeben / festlegen" },
+      { "word": "characterise", "de": "charakterisieren / beschreiben" },
+      { "word": "determine", "de": "bestimmen / festlegen" }
+    ],
+    "word_family": [
+      { "word": "definition", "pos": "noun", "de": "Definition / Begriffsbestimmung" },
+      { "word": "definitive", "pos": "adj", "de": "endgültig / maßgebend" },
+      { "word": "undefined", "pos": "adj", "de": "undefiniert / unbestimmt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl23_domain_07",
+    "word": "domain",
+    "group": "AWL23",
+    "group_label": "Academic Word List – Sublist 23",
+    "pos": "noun",
+    "translations": { "de": "Bereich / Domäne / Fachgebiet" },
+    "examples": [
+      {
+        "en": "Artificial intelligence is increasingly applied across domains from medicine to logistics.",
+        "de": "Künstliche Intelligenz wird zunehmend in Bereichen von der Medizin bis zur Logistik eingesetzt."
+      },
+      {
+        "en": "The question of consciousness remains a contested domain between philosophy and neuroscience.",
+        "de": "Die Frage des Bewusstseins bleibt ein umstrittener Bereich zwischen Philosophie und Neurowissenschaft."
+      }
+    ],
+    "opposite": {
+      "en": "periphery",
+      "de": "Randbereich / Peripherie",
+      "example_en": "What once sat at the periphery of scientific interest is now a central domain of inquiry.",
+      "example_de": "Was einst am Rand des wissenschaftlichen Interesses lag, ist heute ein zentrales Forschungsfeld."
+    },
+    "synonyms": [
+      { "word": "field", "de": "Feld / Bereich" },
+      { "word": "area", "de": "Bereich / Gebiet" },
+      { "word": "sphere", "de": "Sphäre / Bereich" }
+    ],
+    "word_family": [
+      { "word": "domain-specific", "pos": "adj", "de": "bereichsspezifisch / domänenspezifisch" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl23_extent_08",
+    "word": "extent",
+    "group": "AWL23",
+    "group_label": "Academic Word List – Sublist 23",
+    "pos": "noun",
+    "translations": { "de": "Ausmaß / Umfang / Grad" },
+    "examples": [
+      {
+        "en": "The full extent of the environmental damage caused by the spill is still being assessed.",
+        "de": "Das vollständige Ausmaß des durch die Verschmutzung verursachten Umweltschadens wird noch bewertet."
+      },
+      {
+        "en": "To what extent can early childhood experience predict adult behaviour?",
+        "de": "Inwieweit kann die frühkindliche Erfahrung das Verhalten im Erwachsenenalter vorhersagen?"
+      }
+    ],
+    "opposite": {
+      "en": "limitation",
+      "de": "Begrenzung / Einschränkung",
+      "example_en": "Acknowledging the limitation of a study is just as important as identifying its extent.",
+      "example_de": "Die Einschränkungen einer Studie anzuerkennen ist genauso wichtig wie ihr Ausmaß zu bestimmen."
+    },
+    "synonyms": [
+      { "word": "degree", "de": "Grad / Ausmaß" },
+      { "word": "magnitude", "de": "Größenordnung / Ausmaß" },
+      { "word": "scale", "de": "Ausmaß / Umfang" }
+    ],
+    "word_family": [
+      { "word": "extensive", "pos": "adj", "de": "ausgedehnt / umfangreich" },
+      { "word": "extensively", "pos": "adv", "de": "ausgiebig / umfangreich" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "to some/a certain extent", "de": "in gewissem Maße / bis zu einem gewissen Grad", "example": "To a certain extent, the results confirm what previous research had suggested." }
+    ]
+  },
+  {
+    "id": "awl23_implication_09",
+    "word": "implication",
+    "group": "AWL23",
+    "group_label": "Academic Word List – Sublist 23",
+    "pos": "noun",
+    "translations": { "de": "Implikation / Folge / Bedeutung" },
+    "examples": [
+      {
+        "en": "The implications of this finding for public health policy are far-reaching.",
+        "de": "Die Implikationen dieses Befunds für die Gesundheitspolitik sind weitreichend."
+      },
+      {
+        "en": "The author discusses the theoretical implications of the experiment in the final chapter.",
+        "de": "Der Autor erörtert die theoretischen Implikationen des Experiments im letzten Kapitel."
+      }
+    ],
+    "opposite": {
+      "en": "irrelevance",
+      "de": "Bedeutungslosigkeit / Irrelevanz",
+      "example_en": "A finding without clear implications for practice may be interesting but lacks applied value.",
+      "example_de": "Ein Befund ohne klare praktische Implikationen mag interessant sein, hat aber keinen anwendungsbezogenen Wert."
+    },
+    "synonyms": [
+      { "word": "consequence", "de": "Konsequenz / Folge" },
+      { "word": "significance", "de": "Bedeutung / Tragweite" },
+      { "word": "ramification", "de": "Folgewirkung / Auswirkung" }
+    ],
+    "word_family": [
+      { "word": "imply", "pos": "verb", "de": "implizieren / andeuten" },
+      { "word": "implied", "pos": "adj", "de": "impliziert / angedeutet" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "have implications for", "de": "Auswirkungen haben auf / bedeutsam sein für", "example": "These findings have significant implications for future research design." }
+    ]
+  },
+  {
+    "id": "awl23_instance_10",
+    "word": "instance",
+    "group": "AWL23",
+    "group_label": "Academic Word List – Sublist 23",
+    "pos": "noun",
+    "translations": { "de": "Beispiel / Fall / Instanz" },
+    "examples": [
+      {
+        "en": "In this instance, the traditional model fails to account for the observed anomaly.",
+        "de": "In diesem Fall kann das traditionelle Modell die beobachtete Anomalie nicht erklären."
+      },
+      {
+        "en": "The author cites several instances of governments reversing environmental protections under economic pressure.",
+        "de": "Der Autor nennt mehrere Fälle, in denen Regierungen unter wirtschaftlichem Druck Umweltschutzmaßnahmen zurückgenommen haben."
+      }
+    ],
+    "opposite": {
+      "en": "generalisation",
+      "de": "Verallgemeinerung / allgemeine Regel",
+      "example_en": "Moving from a single instance to a broad generalisation requires substantial supporting evidence.",
+      "example_de": "Der Übergang von einem einzelnen Fall zu einer breiten Verallgemeinerung erfordert erhebliche unterstützende Belege."
+    },
+    "synonyms": [
+      { "word": "example", "de": "Beispiel / Muster" },
+      { "word": "case", "de": "Fall / Beispiel" },
+      { "word": "occurrence", "de": "Vorkommnis / Fall" }
+    ],
+    "word_family": [],
+    "phrasal_verbs": [
+      { "phrase": "for instance", "de": "zum Beispiel / beispielsweise", "example": "For instance, the 2008 financial crisis illustrates how rapidly confidence can collapse." }
+    ]
+  },
+  {
+    "id": "awl23_marginal_11",
+    "word": "marginal",
+    "group": "AWL23",
+    "group_label": "Academic Word List – Sublist 23",
+    "pos": "adjective",
+    "translations": { "de": "marginal / geringfügig / am Rand" },
+    "examples": [
+      {
+        "en": "The difference between the two treatments was statistically marginal and clinically insignificant.",
+        "de": "Der Unterschied zwischen den beiden Behandlungen war statistisch marginal und klinisch bedeutungslos."
+      },
+      {
+        "en": "Marginal communities often bear a disproportionate share of environmental burdens.",
+        "de": "Marginalisierte Gemeinschaften tragen oft einen unverhältnismäßigen Anteil an Umweltbelastungen."
+      }
+    ],
+    "opposite": {
+      "en": "significant",
+      "de": "bedeutsam / erheblich / wesentlich",
+      "example_en": "What appears marginal at first may prove to be significant once the data are analysed.",
+      "example_de": "Was zunächst marginal erscheint, kann sich als bedeutsam herausstellen, sobald die Daten analysiert werden."
+    },
+    "synonyms": [
+      { "word": "minor", "de": "geringfügig / unwesentlich" },
+      { "word": "negligible", "de": "vernachlässigbar / unbedeutend" },
+      { "word": "peripheral", "de": "peripher / nebensächlich" }
+    ],
+    "word_family": [
+      { "word": "margin", "pos": "noun", "de": "Rand / Spielraum / Marge" },
+      { "word": "marginally", "pos": "adv", "de": "geringfügig / knapp" },
+      { "word": "marginalise", "pos": "verb", "de": "marginalisieren / an den Rand drängen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl23_omit_12",
+    "word": "omit",
+    "group": "AWL23",
+    "group_label": "Academic Word List – Sublist 23",
+    "pos": "verb",
+    "translations": { "de": "auslassen / weglassen / übergehen" },
+    "examples": [
+      {
+        "en": "The revised edition omits several chapters that were considered outdated.",
+        "de": "Die überarbeitete Ausgabe lässt mehrere Kapitel aus, die als veraltet angesehen wurden."
+      },
+      {
+        "en": "Omitting negative results from a publication is a recognised form of reporting bias.",
+        "de": "Das Weglassen negativer Ergebnisse aus einer Veröffentlichung ist eine anerkannte Form von Berichtsverzerrung."
+      }
+    ],
+    "opposite": {
+      "en": "include",
+      "de": "einbeziehen / aufnehmen",
+      "example_en": "Researchers must include all relevant data, not just those that support their hypothesis.",
+      "example_de": "Forscher müssen alle relevanten Daten einbeziehen, nicht nur jene, die ihre Hypothese stützen."
+    },
+    "synonyms": [
+      { "word": "exclude", "de": "ausschließen / weglassen" },
+      { "word": "leave out", "de": "weglassen / auslassen" },
+      { "word": "skip", "de": "überspringen / auslassen" }
+    ],
+    "word_family": [
+      { "word": "omission", "pos": "noun", "de": "Auslassung / Unterlassung" },
+      { "word": "omitted", "pos": "adj", "de": "ausgelassen / weggelassen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl23_overlap_13",
+    "word": "overlap",
+    "group": "AWL23",
+    "group_label": "Academic Word List – Sublist 23",
+    "pos": "verb",
+    "translations": { "de": "sich überschneiden / überlappen / sich decken" },
+    "examples": [
+      {
+        "en": "The fields of cognitive psychology and neuroscience increasingly overlap in their research questions.",
+        "de": "Die Bereiche kognitive Psychologie und Neurowissenschaft überschneiden sich in ihren Forschungsfragen zunehmend."
+      },
+      {
+        "en": "The two categories overlap in practice, making clean classification difficult.",
+        "de": "Die beiden Kategorien überschneiden sich in der Praxis, was eine klare Klassifizierung erschwert."
+      }
+    ],
+    "opposite": {
+      "en": "diverge",
+      "de": "auseinandergehen / voneinander abweichen",
+      "example_en": "As the study progressed, the two research tracks began to diverge rather than overlap.",
+      "example_de": "Im Verlauf der Studie begannen die beiden Forschungsstränge eher auseinanderzugehen als sich zu überschneiden."
+    },
+    "synonyms": [
+      { "word": "intersect", "de": "sich kreuzen / überschneiden" },
+      { "word": "coincide", "de": "zusammenfallen / übereinstimmen" },
+      { "word": "converge", "de": "konvergieren / zusammenlaufen" }
+    ],
+    "word_family": [
+      { "word": "overlap", "pos": "noun", "de": "Überschneidung / Überlappung" },
+      { "word": "overlapping", "pos": "adj", "de": "überlappend / sich überschneidend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl23_pose_14",
+    "word": "pose",
+    "group": "AWL23",
+    "group_label": "Academic Word List – Sublist 23",
+    "pos": "verb",
+    "translations": { "de": "aufwerfen / darstellen / stellen" },
+    "examples": [
+      {
+        "en": "Rapid urbanisation poses significant challenges for infrastructure planning.",
+        "de": "Rasche Urbanisierung stellt die Infrastrukturplanung vor erhebliche Herausforderungen."
+      },
+      {
+        "en": "The paper poses three key questions that subsequent research has yet to answer.",
+        "de": "Der Aufsatz wirft drei zentrale Fragen auf, die die nachfolgende Forschung noch nicht beantwortet hat."
+      }
+    ],
+    "opposite": {
+      "en": "resolve",
+      "de": "lösen / klären / auflösen",
+      "example_en": "The goal of the research is to resolve the very problems that earlier work had posed.",
+      "example_de": "Das Ziel der Forschung ist es, genau die Probleme zu lösen, die frühere Arbeiten aufgeworfen hatten."
+    },
+    "synonyms": [
+      { "word": "present", "de": "darstellen / aufwerfen" },
+      { "word": "raise", "de": "aufwerfen / stellen" },
+      { "word": "create", "de": "schaffen / aufwerfen" }
+    ],
+    "word_family": [],
+    "phrasal_verbs": [
+      { "phrase": "pose a question", "de": "eine Frage aufwerfen / stellen", "example": "The study poses a fundamental question about the limits of predictive modelling." },
+      { "phrase": "pose a threat", "de": "eine Bedrohung darstellen", "example": "Antibiotic resistance poses a growing threat to public health worldwide." }
+    ]
+  },
+  {
+    "id": "awl23_preliminary_15",
+    "word": "preliminary",
+    "group": "AWL23",
+    "group_label": "Academic Word List – Sublist 23",
+    "pos": "adjective",
+    "translations": { "de": "vorläufig / einleitend / vorbereitend" },
+    "examples": [
+      {
+        "en": "Preliminary findings suggest a significant link, but further research is needed to confirm this.",
+        "de": "Vorläufige Erkenntnisse deuten auf einen signifikanten Zusammenhang hin, aber weitere Forschung ist erforderlich, um dies zu bestätigen."
+      },
+      {
+        "en": "A preliminary review of the literature revealed a gap in knowledge about long-term effects.",
+        "de": "Eine vorläufige Literaturrecherche ergab eine Wissenslücke in Bezug auf Langzeiteffekte."
+      }
+    ],
+    "opposite": {
+      "en": "conclusive",
+      "de": "abschließend / endgültig / schlüssig",
+      "example_en": "The team moved from preliminary observations to conclusive experimental proof over five years.",
+      "example_de": "Das Team entwickelte sich innerhalb von fünf Jahren von vorläufigen Beobachtungen zu schlüssigem experimentellen Beweis."
+    },
+    "synonyms": [
+      { "word": "initial", "de": "anfänglich / einleitend" },
+      { "word": "preparatory", "de": "vorbereitend / einleitend" },
+      { "word": "tentative", "de": "vorläufig / versuchsweise" }
+    ],
+    "word_family": [
+      { "word": "preliminarily", "pos": "adv", "de": "vorläufig / einleitend" },
+      { "word": "preliminaries", "pos": "noun (pl)", "de": "Vorbereitungen / Vorgespräche" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl23_retain_16",
+    "word": "retain",
+    "group": "AWL23",
+    "group_label": "Academic Word List – Sublist 23",
+    "pos": "verb",
+    "translations": { "de": "behalten / beibehalten / bewahren" },
+    "examples": [
+      {
+        "en": "The revised model retains the core assumptions of its predecessor while introducing new variables.",
+        "de": "Das überarbeitete Modell behält die Kernannahmen seines Vorgängers bei und führt gleichzeitig neue Variablen ein."
+      },
+      {
+        "en": "Organisations that fail to retain skilled staff often lose their competitive advantage.",
+        "de": "Organisationen, denen es nicht gelingt, qualifizierte Mitarbeiter zu halten, verlieren oft ihren Wettbewerbsvorteil."
+      }
+    ],
+    "opposite": {
+      "en": "discard",
+      "de": "verwerfen / aufgeben / weglassen",
+      "example_en": "After peer review, the authors decided to discard the original framework and retain only the core data.",
+      "example_de": "Nach dem Peer-Review entschieden sich die Autoren, den ursprünglichen Rahmen zu verwerfen und nur die Kerndaten beizubehalten."
+    },
+    "synonyms": [
+      { "word": "keep", "de": "behalten / bewahren" },
+      { "word": "maintain", "de": "aufrechterhalten / beibehalten" },
+      { "word": "preserve", "de": "bewahren / erhalten" }
+    ],
+    "word_family": [
+      { "word": "retention", "pos": "noun", "de": "Beibehaltung / Bindung / Retention" },
+      { "word": "retentive", "pos": "adj", "de": "behaltend / aufnahmefähig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl23_sequence_17",
+    "word": "sequence",
+    "group": "AWL23",
+    "group_label": "Academic Word List – Sublist 23",
+    "pos": "noun",
+    "translations": { "de": "Abfolge / Reihenfolge / Sequenz" },
+    "examples": [
+      {
+        "en": "The experiment follows a strict sequence of steps to ensure reproducibility.",
+        "de": "Das Experiment folgt einer strengen Abfolge von Schritten, um Reproduzierbarkeit zu gewährleisten."
+      },
+      {
+        "en": "Understanding the causal sequence of events is crucial for explaining the outcome.",
+        "de": "Das Verstehen der kausalen Abfolge von Ereignissen ist entscheidend für die Erklärung des Ergebnisses."
+      }
+    ],
+    "opposite": {
+      "en": "disorder",
+      "de": "Unordnung / Chaos / Regellosigkeit",
+      "example_en": "Without a clear sequence, the narrative collapses into disorder and loses its explanatory power.",
+      "example_de": "Ohne eine klare Abfolge verfällt die Erzählung in Unordnung und verliert ihre Erklärungskraft."
+    },
+    "synonyms": [
+      { "word": "order", "de": "Reihenfolge / Ordnung" },
+      { "word": "series", "de": "Reihe / Serie" },
+      { "word": "progression", "de": "Abfolge / Verlauf" }
+    ],
+    "word_family": [
+      { "word": "sequential", "pos": "adj", "de": "sequenziell / aufeinanderfolgend" },
+      { "word": "sequentially", "pos": "adv", "de": "sequenziell / der Reihe nach" },
+      { "word": "sequence", "pos": "verb", "de": "sequenzieren / in Reihenfolge bringen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl23_supplement_18",
+    "word": "supplement",
+    "group": "AWL23",
+    "group_label": "Academic Word List – Sublist 23",
+    "pos": "verb",
+    "translations": { "de": "ergänzen / erweitern / vervollständigen" },
+    "examples": [
+      {
+        "en": "Quantitative data were supplemented with qualitative interviews to provide richer context.",
+        "de": "Quantitative Daten wurden durch qualitative Interviews ergänzt, um einen reichhaltigeren Kontext zu liefern."
+      },
+      {
+        "en": "Many researchers supplement their grant income with consultancy work.",
+        "de": "Viele Forscher ergänzen ihre Fördermittel durch Beratungsarbeit."
+      }
+    ],
+    "opposite": {
+      "en": "replace",
+      "de": "ersetzen / ablösen",
+      "example_en": "Digital tools should supplement, not replace, critical thinking in the classroom.",
+      "example_de": "Digitale Werkzeuge sollten kritisches Denken im Unterricht ergänzen, nicht ersetzen."
+    },
+    "synonyms": [
+      { "word": "complement", "de": "ergänzen / komplementieren" },
+      { "word": "augment", "de": "erweitern / ergänzen" },
+      { "word": "add to", "de": "hinzufügen / ergänzen" }
+    ],
+    "word_family": [
+      { "word": "supplement", "pos": "noun", "de": "Ergänzung / Zusatz / Beilage" },
+      { "word": "supplementary", "pos": "adj", "de": "ergänzend / zusätzlich" },
+      { "word": "supplemental", "pos": "adj", "de": "ergänzend / supplementär" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl23_tension_19",
+    "word": "tension",
+    "group": "AWL23",
+    "group_label": "Academic Word List – Sublist 23",
+    "pos": "noun",
+    "translations": { "de": "Spannung / Widerspruch / Konflikt" },
+    "examples": [
+      {
+        "en": "There is an inherent tension between the need for economic growth and environmental sustainability.",
+        "de": "Es gibt einen inhärenten Widerspruch zwischen dem Bedarf an Wirtschaftswachstum und ökologischer Nachhaltigkeit."
+      },
+      {
+        "en": "The author explores the tension between individual rights and collective responsibilities.",
+        "de": "Der Autor untersucht die Spannung zwischen individuellen Rechten und kollektiven Verantwortlichkeiten."
+      }
+    ],
+    "opposite": {
+      "en": "harmony",
+      "de": "Harmonie / Einklang / Übereinstimmung",
+      "example_en": "The study examines conditions under which policy goals can coexist in harmony rather than tension.",
+      "example_de": "Die Studie untersucht Bedingungen, unter denen politische Ziele in Harmonie statt im Widerspruch koexistieren können."
+    },
+    "synonyms": [
+      { "word": "conflict", "de": "Konflikt / Widerspruch" },
+      { "word": "contradiction", "de": "Widerspruch / Gegensatz" },
+      { "word": "friction", "de": "Reibung / Spannungen" }
+    ],
+    "word_family": [
+      { "word": "tense", "pos": "adj", "de": "angespannt / spannungsgeladen" },
+      { "word": "tense", "pos": "verb", "de": "anspannen / angespannt sein" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl23_universal_20",
+    "word": "universal",
+    "group": "AWL23",
+    "group_label": "Academic Word List – Sublist 23",
+    "pos": "adjective",
+    "translations": { "de": "universell / allgemein gültig / überall anwendbar" },
+    "examples": [
+      {
+        "en": "Human rights are considered universal and apply to all people regardless of nationality.",
+        "de": "Menschenrechte gelten als universell und gelten für alle Menschen unabhängig von ihrer Staatsangehörigkeit."
+      },
+      {
+        "en": "There is no universal solution to poverty; approaches must be adapted to local contexts.",
+        "de": "Es gibt keine universelle Lösung für Armut; Ansätze müssen an lokale Gegebenheiten angepasst werden."
+      }
+    ],
+    "opposite": {
+      "en": "particular",
+      "de": "besondere / spezifische / partikular",
+      "example_en": "What appears universal in one cultural context may be highly particular in another.",
+      "example_de": "Was in einem kulturellen Kontext universell erscheint, kann in einem anderen sehr spezifisch sein."
+    },
+    "synonyms": [
+      { "word": "global", "de": "global / weltweit" },
+      { "word": "general", "de": "allgemein / generell" },
+      { "word": "ubiquitous", "de": "allgegenwärtig / weit verbreitet" }
+    ],
+    "word_family": [
+      { "word": "universally", "pos": "adv", "de": "universell / allgemein" },
+      { "word": "universality", "pos": "noun", "de": "Universalität / Allgemeingültigkeit" },
+      { "word": "universalise", "pos": "verb", "de": "universalisieren / verallgemeinern" }
+    ],
+    "phrasal_verbs": []
+  }
+]
