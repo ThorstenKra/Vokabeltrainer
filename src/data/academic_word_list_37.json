@@ -1,0 +1,519 @@
+[
+  {
+    "id": "awl37_001",
+    "word": "accelerate",
+    "group": "AWL37",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "beschleunigen, vorantreiben" },
+    "examples": [
+      {
+        "en": "Climate change is accelerating the loss of biodiversity in tropical ecosystems.",
+        "de": "Der Klimawandel beschleunigt den Verlust der Artenvielfalt in tropischen Ökosystemen."
+      },
+      {
+        "en": "Digital technologies have accelerated the pace of globalisation beyond earlier predictions.",
+        "de": "Digitale Technologien haben das Tempo der Globalisierung über frühere Vorhersagen hinaus beschleunigt."
+      }
+    ],
+    "opposite": { "word": "decelerate", "de": "verlangsamen, abbremsen" },
+    "synonyms": ["speed up", "hasten", "quicken", "advance"],
+    "word_family": [
+      { "word": "acceleration", "pos": "noun", "de": "Beschleunigung" },
+      { "word": "accelerator", "pos": "noun", "de": "Beschleuniger" },
+      { "word": "decelerate", "pos": "verb", "de": "verlangsamen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl37_002",
+    "word": "account",
+    "group": "AWL37",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "erklären, verantworten; Bericht, Konto" },
+    "examples": [
+      {
+        "en": "Socioeconomic factors account for a substantial proportion of the observed variation in health outcomes.",
+        "de": "Sozioökonomische Faktoren erklären einen erheblichen Anteil der beobachteten Variation bei Gesundheitsergebnissen."
+      },
+      {
+        "en": "The model fails to account for the role of informal institutions in shaping behaviour.",
+        "de": "Das Modell berücksichtigt die Rolle informeller Institutionen bei der Verhaltensgestaltung nicht."
+      }
+    ],
+    "opposite": { "word": "ignore", "de": "ignorieren, außer Acht lassen" },
+    "synonyms": ["explain", "justify", "represent", "describe"],
+    "word_family": [
+      { "word": "accountability", "pos": "noun", "de": "Rechenschaftspflicht, Verantwortlichkeit" },
+      { "word": "accountable", "pos": "adjective", "de": "verantwortlich, rechenschaftspflichtig" },
+      { "word": "accounting", "pos": "noun", "de": "Buchhaltung; Rechenschaft" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "account for", "de": "erklären, ausmachen, verantworten", "example": "Education level alone cannot account for all observed differences in income." }
+    ]
+  },
+  {
+    "id": "awl37_003",
+    "word": "align",
+    "group": "AWL37",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "ausrichten, angleichen, abstimmen" },
+    "examples": [
+      {
+        "en": "Research priorities should align with societal needs rather than purely academic interests.",
+        "de": "Forschungsprioritäten sollten eher auf gesellschaftliche Bedürfnisse ausgerichtet sein als auf rein akademische Interessen."
+      },
+      {
+        "en": "The organisation revised its structure to align more closely with its strategic objectives.",
+        "de": "Die Organisation überarbeitete ihre Struktur, um sie stärker auf ihre strategischen Ziele auszurichten."
+      }
+    ],
+    "opposite": { "word": "diverge", "de": "abweichen, auseinandergehen" },
+    "synonyms": ["match", "coordinate", "harmonise", "calibrate"],
+    "word_family": [
+      { "word": "alignment", "pos": "noun", "de": "Ausrichtung, Abstimmung" },
+      { "word": "misalign", "pos": "verb", "de": "falsch ausrichten" },
+      { "word": "realign", "pos": "verb", "de": "neu ausrichten" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "align with", "de": "übereinstimmen mit, ausgerichtet sein auf", "example": "The findings align with predictions from the theoretical framework." }
+    ]
+  },
+  {
+    "id": "awl37_004",
+    "word": "analogy",
+    "group": "AWL37",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Analogie, Vergleich, Parallele" },
+    "examples": [
+      {
+        "en": "By analogy with biological evolution, some economists model institutional change as adaptive.",
+        "de": "In Analogie zur biologischen Evolution modellieren einige Ökonomen institutionellen Wandel als adaptiv."
+      },
+      {
+        "en": "The author uses the analogy of a map to explain the relationship between theory and reality.",
+        "de": "Der Autor nutzt die Analogie einer Karte, um die Beziehung zwischen Theorie und Realität zu erklären."
+      }
+    ],
+    "opposite": { "word": "contrast", "de": "Gegensatz, Kontrast" },
+    "synonyms": ["comparison", "parallel", "similarity", "correspondence"],
+    "word_family": [
+      { "word": "analogous", "pos": "adjective", "de": "analog, vergleichbar" },
+      { "word": "analogously", "pos": "adverb", "de": "analog, entsprechend" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "by analogy with", "de": "in Analogie zu, analog zu", "example": "By analogy with physics, the model predicts equilibrium states in social systems." }
+    ]
+  },
+  {
+    "id": "awl37_005",
+    "word": "autonomous",
+    "group": "AWL37",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "autonom, selbstständig, unabhängig" },
+    "examples": [
+      {
+        "en": "Autonomous institutions are better able to resist short-term political pressures.",
+        "de": "Autonome Institutionen sind besser in der Lage, kurzfristigem politischen Druck zu widerstehen."
+      },
+      {
+        "en": "Self-determination theory proposes that autonomous motivation leads to greater engagement and well-being.",
+        "de": "Die Selbstbestimmungstheorie schlägt vor, dass autonome Motivation zu größerem Engagement und Wohlbefinden führt."
+      }
+    ],
+    "opposite": { "word": "dependent", "de": "abhängig, unselbstständig" },
+    "synonyms": ["independent", "self-governing", "sovereign", "self-directed"],
+    "word_family": [
+      { "word": "autonomy", "pos": "noun", "de": "Autonomie, Selbstständigkeit" },
+      { "word": "autonomously", "pos": "adverb", "de": "autonom, selbstständig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl37_006",
+    "word": "benchmark",
+    "group": "AWL37",
+    "group_label": "Academic Word List",
+    "pos": "noun",
+    "translations": { "de": "Maßstab, Benchmark, Referenzwert; vergleichen" },
+    "examples": [
+      {
+        "en": "International assessments provide a benchmark for comparing educational systems across countries.",
+        "de": "Internationale Assessments bieten einen Maßstab zum Vergleich von Bildungssystemen zwischen Ländern."
+      },
+      {
+        "en": "The research uses OECD averages as benchmarks against which national performance is evaluated.",
+        "de": "Die Forschung verwendet OECD-Durchschnittswerte als Maßstäbe, anhand derer die nationale Leistung bewertet wird."
+      }
+    ],
+    "opposite": { "word": "outlier", "de": "Ausreißer, Extremwert" },
+    "synonyms": ["standard", "reference point", "criterion", "yardstick"],
+    "word_family": [
+      { "word": "benchmarking", "pos": "noun", "de": "Benchmarking, Leistungsvergleich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl37_007",
+    "word": "broad",
+    "group": "AWL37",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "breit, weit, umfassend, allgemein" },
+    "examples": [
+      {
+        "en": "There is broad consensus among climate scientists that human activity is the primary driver of warming.",
+        "de": "Es besteht ein breiter Konsens unter Klimawissenschaftlern, dass menschliche Aktivität der Haupttreiber der Erwärmung ist."
+      },
+      {
+        "en": "The study adopts a broad definition of well-being that encompasses physical, mental, and social dimensions.",
+        "de": "Die Studie verwendet eine breite Definition von Wohlbefinden, die physische, mentale und soziale Dimensionen umfasst."
+      }
+    ],
+    "opposite": { "word": "narrow", "de": "eng, begrenzt, schmal" },
+    "synonyms": ["wide", "extensive", "general", "comprehensive"],
+    "word_family": [
+      { "word": "broadly", "pos": "adverb", "de": "breit, allgemein, weitgehend" },
+      { "word": "breadth", "pos": "noun", "de": "Breite, Weite, Umfang" },
+      { "word": "broaden", "pos": "verb", "de": "erweitern, ausweiten" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "broaden out", "de": "ausweiten, erweitern", "example": "The research scope was broadened out to include rural as well as urban contexts." }
+    ]
+  },
+  {
+    "id": "awl37_008",
+    "word": "capture",
+    "group": "AWL37",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "erfassen, einfangen, abbilden" },
+    "examples": [
+      {
+        "en": "Quantitative measures alone cannot fully capture the complexity of human experience.",
+        "de": "Quantitative Messungen allein können die Komplexität menschlicher Erfahrung nicht vollständig erfassen."
+      },
+      {
+        "en": "The survey instrument was designed to capture both attitudes and self-reported behaviour.",
+        "de": "Das Umfrageinstrument wurde entwickelt, um sowohl Einstellungen als auch selbstberichtetes Verhalten zu erfassen."
+      }
+    ],
+    "opposite": { "word": "miss", "de": "verfehlen, verpassen" },
+    "synonyms": ["record", "measure", "reflect", "represent"],
+    "word_family": [
+      { "word": "capture of", "pos": "phrase", "de": "Erfassung von" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl37_009",
+    "word": "causal",
+    "group": "AWL37",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "kausal, ursächlich, Kausal-" },
+    "examples": [
+      {
+        "en": "Establishing a causal relationship requires ruling out alternative explanations and confounding factors.",
+        "de": "Die Feststellung eines kausalen Zusammenhangs erfordert das Ausschließen alternativer Erklärungen und störender Faktoren."
+      },
+      {
+        "en": "Randomised controlled trials provide the strongest evidence for causal inference in medical research.",
+        "de": "Randomisierte kontrollierte Studien liefern die stärksten Belege für kausale Schlussfolgerungen in der medizinischen Forschung."
+      }
+    ],
+    "opposite": { "word": "correlational", "de": "korrelativ, nicht ursächlich" },
+    "synonyms": ["causative", "explanatory", "deterministic", "contributing"],
+    "word_family": [
+      { "word": "cause", "pos": "noun/verb", "de": "Ursache; verursachen" },
+      { "word": "causality", "pos": "noun", "de": "Kausalität" },
+      { "word": "causation", "pos": "noun", "de": "Verursachung, Kausalzusammenhang" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl37_010",
+    "word": "complement",
+    "group": "AWL37",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "ergänzen, vervollständigen; Ergänzung" },
+    "examples": [
+      {
+        "en": "Qualitative data can complement quantitative findings by providing explanatory depth.",
+        "de": "Qualitative Daten können quantitative Ergebnisse ergänzen, indem sie erklärende Tiefe bieten."
+      },
+      {
+        "en": "The two theoretical frameworks complement each other and need not be seen as competing.",
+        "de": "Die beiden theoretischen Rahmenwerke ergänzen sich und müssen nicht als konkurrierend betrachtet werden."
+      }
+    ],
+    "opposite": { "word": "contradict", "de": "widersprechen, im Widerspruch stehen" },
+    "synonyms": ["supplement", "enhance", "round out", "complete"],
+    "word_family": [
+      { "word": "complementary", "pos": "adjective", "de": "ergänzend, komplementär" },
+      { "word": "complementarity", "pos": "noun", "de": "Komplementarität, Ergänzung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl37_011",
+    "word": "comply",
+    "group": "AWL37",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "einhalten, befolgen, sich fügen, erfüllen" },
+    "examples": [
+      {
+        "en": "Participants who did not comply with the protocol were excluded from the final analysis.",
+        "de": "Teilnehmer, die das Protokoll nicht eingehalten haben, wurden von der abschließenden Analyse ausgeschlossen."
+      },
+      {
+        "en": "Organisations that fail to comply with data protection regulations face significant financial penalties.",
+        "de": "Organisationen, die Datenschutzvorschriften nicht einhalten, müssen mit erheblichen Geldstrafen rechnen."
+      }
+    ],
+    "opposite": { "word": "violate", "de": "verletzen, verstoßen gegen" },
+    "synonyms": ["adhere to", "observe", "follow", "conform to"],
+    "word_family": [
+      { "word": "compliance", "pos": "noun", "de": "Einhaltung, Compliance" },
+      { "word": "non-compliance", "pos": "noun", "de": "Nichteinhaltung, Verstoß" },
+      { "word": "compliant", "pos": "adjective", "de": "konform, kooperativ, gefügig" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "comply with", "de": "einhalten, befolgen", "example": "All institutions must comply with the new reporting requirements." }
+    ]
+  },
+  {
+    "id": "awl37_012",
+    "word": "confound",
+    "group": "AWL37",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "verfälschen, verwirren, vermischen; Störvariable" },
+    "examples": [
+      {
+        "en": "Age often confounds findings in developmental studies because it correlates with many other variables.",
+        "de": "Das Alter verfälscht häufig Ergebnisse in Entwicklungsstudien, da es mit vielen anderen Variablen korreliert."
+      },
+      {
+        "en": "Researchers must identify and control for confounding variables to strengthen causal claims.",
+        "de": "Forscher müssen Störvariablen identifizieren und kontrollieren, um kausale Behauptungen zu stärken."
+      }
+    ],
+    "opposite": { "word": "clarify", "de": "klären, verdeutlichen" },
+    "synonyms": ["complicate", "distort", "obscure", "muddle"],
+    "word_family": [
+      { "word": "confounder", "pos": "noun", "de": "Störvariable, Confounder" },
+      { "word": "confounding", "pos": "adjective", "de": "störend, verfälschend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl37_013",
+    "word": "cumulative",
+    "group": "AWL37",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "kumulativ, kumulierend, angehäuft" },
+    "examples": [
+      {
+        "en": "The cumulative effect of small daily stressors can be as damaging as a single traumatic event.",
+        "de": "Die kumulative Wirkung kleiner täglicher Stressoren kann ebenso schädlich sein wie ein einzelnes traumatisches Ereignis."
+      },
+      {
+        "en": "Scientific knowledge is cumulative; each generation of researchers builds on the work of predecessors.",
+        "de": "Wissenschaftliches Wissen ist kumulativ; jede Forschergeneration baut auf der Arbeit ihrer Vorgänger auf."
+      }
+    ],
+    "opposite": { "word": "isolated", "de": "isoliert, einzeln" },
+    "synonyms": ["accumulative", "aggregate", "combined", "total"],
+    "word_family": [
+      { "word": "cumulatively", "pos": "adverb", "de": "kumulativ, insgesamt" },
+      { "word": "accumulate", "pos": "verb", "de": "ansammeln, anhäufen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl37_014",
+    "word": "deplete",
+    "group": "AWL37",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "erschöpfen, verringern, aufbrauchen" },
+    "examples": [
+      {
+        "en": "Intensive agriculture depletes soil nutrients and reduces long-term agricultural productivity.",
+        "de": "Intensive Landwirtschaft erschöpft die Bodennährstoffe und verringert die langfristige landwirtschaftliche Produktivität."
+      },
+      {
+        "en": "Prolonged conflict depletes both material resources and the social capital needed for reconstruction.",
+        "de": "Anhaltender Konflikt erschöpft sowohl materielle Ressourcen als auch das für den Wiederaufbau benötigte Sozialkapital."
+      }
+    ],
+    "opposite": { "word": "replenish", "de": "auffüllen, ergänzen" },
+    "synonyms": ["exhaust", "drain", "consume", "reduce"],
+    "word_family": [
+      { "word": "depletion", "pos": "noun", "de": "Erschöpfung, Verbrauch" },
+      { "word": "depleted", "pos": "adjective", "de": "erschöpft, aufgebraucht" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl37_015",
+    "word": "feasible",
+    "group": "AWL37",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "machbar, durchführbar, realisierbar" },
+    "examples": [
+      {
+        "en": "A pilot study was conducted to assess whether the full-scale intervention was technically feasible.",
+        "de": "Eine Pilotstudie wurde durchgeführt, um zu beurteilen, ob die groß angelegte Intervention technisch machbar war."
+      },
+      {
+        "en": "It is not always feasible to conduct randomised trials when studying naturally occurring events.",
+        "de": "Es ist nicht immer machbar, randomisierte Studien durchzuführen, wenn natürlich auftretende Ereignisse untersucht werden."
+      }
+    ],
+    "opposite": { "word": "unfeasible", "de": "nicht durchführbar, undurchführbar" },
+    "synonyms": ["practicable", "viable", "achievable", "workable"],
+    "word_family": [
+      { "word": "feasibility", "pos": "noun", "de": "Machbarkeit, Durchführbarkeit" },
+      { "word": "infeasible", "pos": "adjective", "de": "nicht durchführbar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl37_016",
+    "word": "invoke",
+    "group": "AWL37",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "anrufen, heranziehen, berufen auf, geltend machen" },
+    "examples": [
+      {
+        "en": "Scholars often invoke classical theories to interpret contemporary social phenomena.",
+        "de": "Wissenschaftler beziehen sich häufig auf klassische Theorien, um zeitgenössische soziale Phänomene zu interpretieren."
+      },
+      {
+        "en": "Governments may invoke emergency powers to justify restrictions on civil liberties.",
+        "de": "Regierungen können Notstandsbefugnisse geltend machen, um Einschränkungen der bürgerlichen Freiheiten zu rechtfertigen."
+      }
+    ],
+    "opposite": { "word": "disregard", "de": "missachten, außer Acht lassen" },
+    "synonyms": ["cite", "appeal to", "call upon", "use"],
+    "word_family": [
+      { "word": "invocation", "pos": "noun", "de": "Berufung, Inanspruchnahme" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl37_017",
+    "word": "plausible",
+    "group": "AWL37",
+    "group_label": "Academic Word List",
+    "pos": "adjective",
+    "translations": { "de": "plausibel, glaubwürdig, nachvollziehbar" },
+    "examples": [
+      {
+        "en": "The authors offer a plausible mechanism through which early stress may affect adult health.",
+        "de": "Die Autoren bieten einen plausiblen Mechanismus, durch den früher Stress die Gesundheit im Erwachsenenalter beeinflussen kann."
+      },
+      {
+        "en": "A plausible alternative explanation must be ruled out before causal conclusions can be drawn.",
+        "de": "Eine plausible alternative Erklärung muss ausgeschlossen werden, bevor kausale Schlussfolgerungen gezogen werden können."
+      }
+    ],
+    "opposite": { "word": "implausible", "de": "unplausibel, unglaubwürdig" },
+    "synonyms": ["credible", "reasonable", "convincing", "conceivable"],
+    "word_family": [
+      { "word": "plausibility", "pos": "noun", "de": "Plausibilität, Glaubwürdigkeit" },
+      { "word": "implausible", "pos": "adjective", "de": "unplausibel, unglaubwürdig" },
+      { "word": "plausibly", "pos": "adverb", "de": "plausiblerweise, glaubwürdig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl37_018",
+    "word": "scrutinise",
+    "group": "AWL37",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "prüfen, genau untersuchen, kritisch analysieren" },
+    "examples": [
+      {
+        "en": "Peer reviewers scrutinise submitted manuscripts for methodological rigour and logical consistency.",
+        "de": "Gutachter prüfen eingereichte Manuskripte auf methodologische Strenge und logische Konsistenz."
+      },
+      {
+        "en": "Public institutions must be willing to have their practices scrutinised by independent bodies.",
+        "de": "Öffentliche Institutionen müssen bereit sein, ihre Praktiken von unabhängigen Gremien prüfen zu lassen."
+      }
+    ],
+    "opposite": { "word": "overlook", "de": "übersehen, ignorieren" },
+    "synonyms": ["examine", "inspect", "analyse", "evaluate"],
+    "word_family": [
+      { "word": "scrutiny", "pos": "noun", "de": "genaue Prüfung, Kontrolle, Kritik" },
+      { "word": "under scrutiny", "pos": "phrase", "de": "unter Beobachtung, kritisch geprüft" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl37_019",
+    "word": "synthesise",
+    "group": "AWL37",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "synthetisieren, zusammenfassen, vereinen" },
+    "examples": [
+      {
+        "en": "A systematic review synthesises findings from multiple studies to provide a more reliable overall picture.",
+        "de": "Ein systematisches Review fasst Erkenntnisse aus mehreren Studien zusammen, um ein zuverlässigeres Gesamtbild zu liefern."
+      },
+      {
+        "en": "Good academic writing synthesises diverse sources into a coherent, original argument.",
+        "de": "Gutes akademisches Schreiben synthetisiert diverse Quellen zu einem kohärenten, originellen Argument."
+      }
+    ],
+    "opposite": { "word": "fragment", "de": "zersplittern, fragmentieren" },
+    "synonyms": ["combine", "integrate", "consolidate", "merge"],
+    "word_family": [
+      { "word": "synthesis", "pos": "noun", "de": "Synthese, Zusammenfassung" },
+      { "word": "synthetic", "pos": "adjective", "de": "synthetisch, zusammengesetzt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl37_020",
+    "word": "trace",
+    "group": "AWL37",
+    "group_label": "Academic Word List",
+    "pos": "verb",
+    "translations": { "de": "zurückverfolgen, nachzeichnen, aufspüren; Spur" },
+    "examples": [
+      {
+        "en": "The paper traces the historical development of welfare policy from its origins to the present day.",
+        "de": "Das Papier verfolgt die historische Entwicklung der Sozialpolitik von ihren Ursprüngen bis zur Gegenwart."
+      },
+      {
+        "en": "Researchers can trace the transmission of ideas across disciplines by analysing citation networks.",
+        "de": "Forscher können die Übertragung von Ideen über Disziplinen hinweg verfolgen, indem sie Zitiernetzwerke analysieren."
+      }
+    ],
+    "opposite": { "word": "obscure", "de": "verdecken, verschleiern" },
+    "synonyms": ["track", "follow", "document", "map"],
+    "word_family": [
+      { "word": "traceable", "pos": "adjective", "de": "zurückverfolgbar, nachvollziehbar" },
+      { "word": "tracing", "pos": "noun", "de": "Verfolgung, Nachzeichnung" },
+      { "word": "untraceable", "pos": "adjective", "de": "nicht zurückverfolgbar" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "trace back to", "de": "zurückverfolgen auf, zurückführen auf", "example": "The origins of the concept can be traced back to Enlightenment philosophy." }
+    ]
+  }
+]
