@@ -1,0 +1,705 @@
+[
+  {
+    "id": "awl24_accompany_01",
+    "word": "accompany",
+    "group": "AWL24",
+    "group_label": "Academic Word List – Sublist 24",
+    "pos": "verb",
+    "translations": { "de": "begleiten / einhergehen mit / beifügen" },
+    "examples": [
+      {
+        "en": "Economic development is often accompanied by increased energy consumption and carbon emissions.",
+        "de": "Wirtschaftliche Entwicklung geht oft mit erhöhtem Energieverbrauch und CO₂-Emissionen einher."
+      },
+      {
+        "en": "Each data table in the report is accompanied by a brief interpretive commentary.",
+        "de": "Jede Datentabelle im Bericht wird von einem kurzen interpretativen Kommentar begleitet."
+      }
+    ],
+    "opposite": {
+      "en": "precede independently",
+      "de": "unabhängig vorausgehen",
+      "example_en": "In some cases, institutional change may precede rather than accompany economic reform.",
+      "example_de": "In manchen Fällen kann institutioneller Wandel der Wirtschaftsreform vorausgehen, anstatt sie zu begleiten."
+    },
+    "synonyms": [
+      { "word": "go with", "de": "einhergehen mit / begleiten" },
+      { "word": "coincide with", "de": "zusammenfallen mit / begleiten" },
+      { "word": "come with", "de": "verbunden sein mit" }
+    ],
+    "word_family": [
+      { "word": "accompaniment", "pos": "noun", "de": "Begleitung / Begleiterscheinung" },
+      { "word": "accompanying", "pos": "adj", "de": "begleitend / beigelegt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl24_appropriate_02",
+    "word": "appropriate",
+    "group": "AWL24",
+    "group_label": "Academic Word List – Sublist 24",
+    "pos": "adjective",
+    "translations": { "de": "angemessen / geeignet / passend" },
+    "examples": [
+      {
+        "en": "Researchers must choose the most appropriate statistical method for their data type.",
+        "de": "Forscher müssen die am besten geeignete statistische Methode für ihren Datentyp wählen."
+      },
+      {
+        "en": "It is appropriate to acknowledge the limitations of a study in the conclusions section.",
+        "de": "Es ist angemessen, die Einschränkungen einer Studie im Schlussabschnitt anzuerkennen."
+      }
+    ],
+    "opposite": {
+      "en": "inappropriate",
+      "de": "unangemessen / ungeeignet",
+      "example_en": "Using an inappropriate research design can invalidate even carefully collected data.",
+      "example_de": "Die Verwendung eines ungeeigneten Forschungsdesigns kann selbst sorgfältig gesammelte Daten entwerten."
+    },
+    "synonyms": [
+      { "word": "suitable", "de": "geeignet / passend" },
+      { "word": "fitting", "de": "angemessen / passend" },
+      { "word": "adequate", "de": "ausreichend / angemessen" }
+    ],
+    "word_family": [
+      { "word": "appropriately", "pos": "adv", "de": "angemessen / in geeigneter Weise" },
+      { "word": "appropriateness", "pos": "noun", "de": "Angemessenheit / Eignung" },
+      { "word": "appropriate", "pos": "verb", "de": "sich aneignen / in Beschlag nehmen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl24_assume_03",
+    "word": "assume",
+    "group": "AWL24",
+    "group_label": "Academic Word List – Sublist 24",
+    "pos": "verb",
+    "translations": { "de": "annehmen / voraussetzen / übernehmen" },
+    "examples": [
+      {
+        "en": "The model assumes that all agents have access to the same information.",
+        "de": "Das Modell geht davon aus, dass alle Akteure Zugang zu denselben Informationen haben."
+      },
+      {
+        "en": "We should not assume that findings from one cultural context apply universally.",
+        "de": "Wir sollten nicht davon ausgehen, dass Erkenntnisse aus einem kulturellen Kontext universell gelten."
+      }
+    ],
+    "opposite": {
+      "en": "question",
+      "de": "hinterfragen / anzweifeln",
+      "example_en": "Good science requires us to question rather than simply assume the validity of prior findings.",
+      "example_de": "Gute Wissenschaft erfordert, dass wir die Gültigkeit früherer Erkenntnisse hinterfragen, anstatt sie einfach vorauszusetzen."
+    },
+    "synonyms": [
+      { "word": "presuppose", "de": "voraussetzen / annehmen" },
+      { "word": "presume", "de": "vermuten / annehmen" },
+      { "word": "take for granted", "de": "als selbstverständlich annehmen" }
+    ],
+    "word_family": [
+      { "word": "assumption", "pos": "noun", "de": "Annahme / Voraussetzung" },
+      { "word": "assumed", "pos": "adj", "de": "angenommen / vorausgesetzt" },
+      { "word": "unwarranted assumption", "pos": "noun", "de": "ungerechtfertigte Annahme" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl24_category_04",
+    "word": "category",
+    "group": "AWL24",
+    "group_label": "Academic Word List – Sublist 24",
+    "pos": "noun",
+    "translations": { "de": "Kategorie / Klasse / Gruppe" },
+    "examples": [
+      {
+        "en": "The responses were coded and sorted into five broad categories for analysis.",
+        "de": "Die Antworten wurden kodiert und für die Analyse in fünf breite Kategorien sortiert."
+      },
+      {
+        "en": "Not all cases fit neatly into a single category, which complicates classification.",
+        "de": "Nicht alle Fälle lassen sich sauber einer einzigen Kategorie zuordnen, was die Klassifizierung erschwert."
+      }
+    ],
+    "opposite": {
+      "en": "individual case",
+      "de": "Einzelfall / Ausnahme",
+      "example_en": "A category groups similar phenomena; an individual case may not represent the whole.",
+      "example_de": "Eine Kategorie gruppiert ähnliche Phänomene; ein Einzelfall muss nicht das Ganze repräsentieren."
+    },
+    "synonyms": [
+      { "word": "class", "de": "Klasse / Gruppe" },
+      { "word": "type", "de": "Typ / Art" },
+      { "word": "group", "de": "Gruppe / Kategorie" }
+    ],
+    "word_family": [
+      { "word": "categorise", "pos": "verb", "de": "kategorisieren / einordnen" },
+      { "word": "categorical", "pos": "adj", "de": "kategorisch / eindeutig" },
+      { "word": "categorically", "pos": "adv", "de": "kategorisch / ausdrücklich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl24_consequence_05",
+    "word": "consequence",
+    "group": "AWL24",
+    "group_label": "Academic Word List – Sublist 24",
+    "pos": "noun",
+    "translations": { "de": "Konsequenz / Folge / Auswirkung" },
+    "examples": [
+      {
+        "en": "The long-term consequences of deforestation extend far beyond the local environment.",
+        "de": "Die langfristigen Folgen der Abholzung reichen weit über die lokale Umwelt hinaus."
+      },
+      {
+        "en": "Policy decisions should be evaluated not only on intent but on their actual consequences.",
+        "de": "Politische Entscheidungen sollten nicht nur nach ihrer Absicht, sondern nach ihren tatsächlichen Folgen bewertet werden."
+      }
+    ],
+    "opposite": {
+      "en": "cause",
+      "de": "Ursache / Grund",
+      "example_en": "Distinguishing cause from consequence is one of the central challenges in social science research.",
+      "example_de": "Ursache von Folge zu unterscheiden ist eine der zentralen Herausforderungen in der sozialwissenschaftlichen Forschung."
+    },
+    "synonyms": [
+      { "word": "outcome", "de": "Ergebnis / Folge" },
+      { "word": "result", "de": "Ergebnis / Resultat" },
+      { "word": "repercussion", "de": "Auswirkung / Nachwirkung" }
+    ],
+    "word_family": [
+      { "word": "consequent", "pos": "adj", "de": "folgend / resultierend" },
+      { "word": "consequently", "pos": "adv", "de": "folglich / infolgedessen" },
+      { "word": "inconsequential", "pos": "adj", "de": "bedeutungslos / folgenlos" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "as a consequence", "de": "als Folge / infolgedessen", "example": "As a consequence of the budget cuts, several programmes were discontinued." }
+    ]
+  },
+  {
+    "id": "awl24_construct_06",
+    "word": "construct",
+    "group": "AWL24",
+    "group_label": "Academic Word List – Sublist 24",
+    "pos": "verb",
+    "translations": { "de": "konstruieren / aufbauen / entwickeln" },
+    "examples": [
+      {
+        "en": "The researchers constructed a theoretical model to explain the observed patterns.",
+        "de": "Die Forscher konstruierten ein theoretisches Modell, um die beobachteten Muster zu erklären."
+      },
+      {
+        "en": "Identity is not fixed but is continuously constructed through social interaction.",
+        "de": "Identität ist nicht festgelegt, sondern wird kontinuierlich durch soziale Interaktion konstruiert."
+      }
+    ],
+    "opposite": {
+      "en": "deconstruct",
+      "de": "dekonstruieren / auseinandernehmen",
+      "example_en": "Critical theory often seeks to deconstruct the assumptions that others construct as natural.",
+      "example_de": "Kritische Theorie versucht häufig, Annahmen zu dekonstruieren, die andere als natürlich konstruieren."
+    },
+    "synonyms": [
+      { "word": "build", "de": "aufbauen / entwickeln" },
+      { "word": "create", "de": "erschaffen / entwickeln" },
+      { "word": "formulate", "de": "formulieren / entwickeln" }
+    ],
+    "word_family": [
+      { "word": "construction", "pos": "noun", "de": "Konstruktion / Aufbau" },
+      { "word": "construct", "pos": "noun", "de": "Konstrukt / Konzept" },
+      { "word": "constructive", "pos": "adj", "de": "konstruktiv / aufbauend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl24_context_07",
+    "word": "context",
+    "group": "AWL24",
+    "group_label": "Academic Word List – Sublist 24",
+    "pos": "noun",
+    "translations": { "de": "Kontext / Zusammenhang / Umfeld" },
+    "examples": [
+      {
+        "en": "Results must always be interpreted within the broader social and historical context.",
+        "de": "Ergebnisse müssen stets im breiteren sozialen und historischen Kontext interpretiert werden."
+      },
+      {
+        "en": "What works in one national context may not transfer successfully to another.",
+        "de": "Was in einem nationalen Kontext funktioniert, lässt sich möglicherweise nicht erfolgreich auf einen anderen übertragen."
+      }
+    ],
+    "opposite": {
+      "en": "isolation",
+      "de": "Isolation / Zusammenhangslosigkeit",
+      "example_en": "Data viewed in isolation, without context, can easily be misunderstood.",
+      "example_de": "Daten, die isoliert ohne Kontext betrachtet werden, können leicht missverstanden werden."
+    },
+    "synonyms": [
+      { "word": "setting", "de": "Rahmen / Umfeld" },
+      { "word": "background", "de": "Hintergrund / Kontext" },
+      { "word": "circumstances", "de": "Umstände / Bedingungen" }
+    ],
+    "word_family": [
+      { "word": "contextual", "pos": "adj", "de": "kontextuell / zusammenhangsbezogen" },
+      { "word": "contextualise", "pos": "verb", "de": "kontextualisieren / in den Kontext stellen" },
+      { "word": "out of context", "pos": "phrase", "de": "aus dem Zusammenhang gerissen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl24_contrast_08",
+    "word": "contrast",
+    "group": "AWL24",
+    "group_label": "Academic Word List – Sublist 24",
+    "pos": "verb",
+    "translations": { "de": "kontrastieren / gegenüberstellen / einen Gegensatz bilden" },
+    "examples": [
+      {
+        "en": "The study contrasts outcomes in countries with strong versus weak regulatory regimes.",
+        "de": "Die Studie stellt Ergebnisse in Ländern mit starken gegenüber schwachen Regulierungssystemen gegenüber."
+      },
+      {
+        "en": "This finding contrasts sharply with what earlier models had predicted.",
+        "de": "Dieser Befund steht in scharfem Kontrast zu dem, was frühere Modelle vorhergesagt hatten."
+      }
+    ],
+    "opposite": {
+      "en": "resemble",
+      "de": "ähneln / gleichen",
+      "example_en": "Rather than contrasting, the two approaches closely resemble each other in key respects.",
+      "example_de": "Anstatt sich zu kontrastieren, ähneln sich die beiden Ansätze in wesentlichen Punkten stark."
+    },
+    "synonyms": [
+      { "word": "differentiate", "de": "unterscheiden / differenzieren" },
+      { "word": "compare", "de": "vergleichen / gegenüberstellen" },
+      { "word": "oppose", "de": "gegenüberstellen / entgegenstellen" }
+    ],
+    "word_family": [
+      { "word": "contrast", "pos": "noun", "de": "Gegensatz / Kontrast / Unterschied" },
+      { "word": "contrasting", "pos": "adj", "de": "kontrastierend / gegensätzlich" },
+      { "word": "contrastive", "pos": "adj", "de": "kontrastiv / vergleichend" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "in contrast to", "de": "im Gegensatz zu", "example": "In contrast to the control group, participants in the treatment group showed marked improvement." }
+    ]
+  },
+  {
+    "id": "awl24_crucial_09",
+    "word": "crucial",
+    "group": "AWL24",
+    "group_label": "Academic Word List – Sublist 24",
+    "pos": "adjective",
+    "translations": { "de": "entscheidend / ausschlaggebend / wesentlich" },
+    "examples": [
+      {
+        "en": "Early intervention is crucial for improving long-term outcomes in chronic disease management.",
+        "de": "Frühzeitiges Eingreifen ist entscheidend für die Verbesserung langfristiger Ergebnisse beim Management chronischer Krankheiten."
+      },
+      {
+        "en": "The quality of data collection is crucial to the reliability of the final analysis.",
+        "de": "Die Qualität der Datenerhebung ist entscheidend für die Zuverlässigkeit der abschließenden Analyse."
+      }
+    ],
+    "opposite": {
+      "en": "trivial",
+      "de": "trivial / unwichtig / unbedeutend",
+      "example_en": "What appears trivial in the short term can prove crucial over a longer time horizon.",
+      "example_de": "Was kurzfristig trivial erscheint, kann sich über einen längeren Zeithorizont als entscheidend erweisen."
+    },
+    "synonyms": [
+      { "word": "critical", "de": "kritisch / entscheidend" },
+      { "word": "vital", "de": "lebenswichtig / entscheidend" },
+      { "word": "pivotal", "de": "ausschlaggebend / zentral" }
+    ],
+    "word_family": [
+      { "word": "crucially", "pos": "adv", "de": "entscheidend / ausschlaggebend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl24_document_10",
+    "word": "document",
+    "group": "AWL24",
+    "group_label": "Academic Word List – Sublist 24",
+    "pos": "verb",
+    "translations": { "de": "dokumentieren / belegen / nachweisen" },
+    "examples": [
+      {
+        "en": "The report documents a significant increase in antibiotic-resistant infections over the past decade.",
+        "de": "Der Bericht dokumentiert einen deutlichen Anstieg antibiotikaresistenter Infektionen im letzten Jahrzehnt."
+      },
+      {
+        "en": "Field researchers carefully documented the behaviour of the colony over eighteen months.",
+        "de": "Feldforscher dokumentierten das Verhalten der Kolonie sorgfältig über achtzehn Monate."
+      }
+    ],
+    "opposite": {
+      "en": "neglect to record",
+      "de": "nicht erfassen / unaufgezeichnet lassen",
+      "example_en": "When researchers neglect to record negative results, knowledge gaps go undetected.",
+      "example_de": "Wenn Forscher negative Ergebnisse nicht aufzeichnen, bleiben Wissenslücken unentdeckt."
+    },
+    "synonyms": [
+      { "word": "record", "de": "aufzeichnen / festhalten" },
+      { "word": "report", "de": "berichten / erfassen" },
+      { "word": "evidence", "de": "belegen / nachweisen" }
+    ],
+    "word_family": [
+      { "word": "document", "pos": "noun", "de": "Dokument / Unterlagen" },
+      { "word": "documentation", "pos": "noun", "de": "Dokumentation / Belege" },
+      { "word": "documented", "pos": "adj", "de": "dokumentiert / belegt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl24_exclude_11",
+    "word": "exclude",
+    "group": "AWL24",
+    "group_label": "Academic Word List – Sublist 24",
+    "pos": "verb",
+    "translations": { "de": "ausschließen / ausklammern / aussondern" },
+    "examples": [
+      {
+        "en": "Participants with prior medical conditions were excluded from the clinical trial.",
+        "de": "Teilnehmer mit vorbestehenden Erkrankungen wurden von der klinischen Studie ausgeschlossen."
+      },
+      {
+        "en": "The analysis excludes outliers that would otherwise distort the overall pattern.",
+        "de": "Die Analyse schließt Ausreißer aus, die das Gesamtmuster andernfalls verzerren würden."
+      }
+    ],
+    "opposite": {
+      "en": "include",
+      "de": "einbeziehen / aufnehmen",
+      "example_en": "Deciding whom to include and whom to exclude is one of the most consequential sampling choices.",
+      "example_de": "Zu entscheiden, wen man einbezieht und wen man ausschließt, ist eine der folgenreichsten Stichprobenentscheidungen."
+    },
+    "synonyms": [
+      { "word": "omit", "de": "weglassen / auslassen" },
+      { "word": "rule out", "de": "ausschließen / verwerfen" },
+      { "word": "eliminate", "de": "eliminieren / ausscheiden" }
+    ],
+    "word_family": [
+      { "word": "exclusion", "pos": "noun", "de": "Ausschluss / Ausgrenzung" },
+      { "word": "exclusive", "pos": "adj", "de": "exklusiv / ausschließlich" },
+      { "word": "mutually exclusive", "pos": "adj", "de": "sich gegenseitig ausschließend" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "exclude from", "de": "ausschließen aus", "example": "Several variables were excluded from the final model due to multicollinearity." }
+    ]
+  },
+  {
+    "id": "awl24_expose_12",
+    "word": "expose",
+    "group": "AWL24",
+    "group_label": "Academic Word List – Sublist 24",
+    "pos": "verb",
+    "translations": { "de": "aufdecken / aussetzen / freilegen" },
+    "examples": [
+      {
+        "en": "The investigation exposed serious flaws in the data collection process.",
+        "de": "Die Untersuchung deckte schwerwiegende Mängel im Datenerhebungsprozess auf."
+      },
+      {
+        "en": "Children who are exposed to multiple languages in early childhood tend to develop stronger cognitive flexibility.",
+        "de": "Kinder, die in der frühen Kindheit mehreren Sprachen ausgesetzt sind, entwickeln tendenziell eine stärkere kognitive Flexibilität."
+      }
+    ],
+    "opposite": {
+      "en": "conceal",
+      "de": "verbergen / verschleiern",
+      "example_en": "Institutional pressure can lead researchers to conceal rather than expose negative findings.",
+      "example_de": "Institutioneller Druck kann dazu führen, dass Forscher negative Ergebnisse verbergen, anstatt sie aufzudecken."
+    },
+    "synonyms": [
+      { "word": "reveal", "de": "enthüllen / aufdecken" },
+      { "word": "uncover", "de": "aufdecken / enthüllen" },
+      { "word": "subject to", "de": "aussetzen / unterziehen" }
+    ],
+    "word_family": [
+      { "word": "exposure", "pos": "noun", "de": "Exposition / Aussetzung / Aufdeckung" },
+      { "word": "exposed", "pos": "adj", "de": "ausgesetzt / freigelegt" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "expose to", "de": "aussetzen / konfrontieren mit", "example": "Participants were exposed to varying levels of noise to test cognitive performance." }
+    ]
+  },
+  {
+    "id": "awl24_flexible_13",
+    "word": "flexible",
+    "group": "AWL24",
+    "group_label": "Academic Word List – Sublist 24",
+    "pos": "adjective",
+    "translations": { "de": "flexibel / anpassungsfähig / biegsam" },
+    "examples": [
+      {
+        "en": "A flexible approach to research design allows for adjustments as new evidence emerges.",
+        "de": "Ein flexibler Ansatz beim Forschungsdesign ermöglicht Anpassungen, wenn neue Erkenntnisse entstehen."
+      },
+      {
+        "en": "Organisations that are flexible enough to adapt tend to outperform more rigid competitors.",
+        "de": "Organisationen, die flexibel genug sind, um sich anzupassen, übertreffen tendenziell starrere Wettbewerber."
+      }
+    ],
+    "opposite": {
+      "en": "rigid",
+      "de": "starr / unflexibel / inflexibel",
+      "example_en": "A rigid methodology may be inappropriate when studying rapidly changing social phenomena.",
+      "example_de": "Eine starre Methodik ist möglicherweise ungeeignet für die Untersuchung sich schnell verändernder sozialer Phänomene."
+    },
+    "synonyms": [
+      { "word": "adaptable", "de": "anpassungsfähig / flexibel" },
+      { "word": "versatile", "de": "vielseitig / flexibel" },
+      { "word": "pliable", "de": "biegsam / anpassungsfähig" }
+    ],
+    "word_family": [
+      { "word": "flexibility", "pos": "noun", "de": "Flexibilität / Anpassungsfähigkeit" },
+      { "word": "inflexible", "pos": "adj", "de": "unflexibel / starr" },
+      { "word": "flexibly", "pos": "adv", "de": "flexibel / anpassungsfähig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl24_interact_14",
+    "word": "interact",
+    "group": "AWL24",
+    "group_label": "Academic Word List – Sublist 24",
+    "pos": "verb",
+    "translations": { "de": "interagieren / wechselwirken / in Wechselwirkung stehen" },
+    "examples": [
+      {
+        "en": "The two variables interact in ways that cannot be captured by a simple linear model.",
+        "de": "Die beiden Variablen interagieren auf eine Weise, die ein einfaches lineares Modell nicht erfassen kann."
+      },
+      {
+        "en": "Social scientists study how individuals interact within institutional structures.",
+        "de": "Sozialwissenschaftler untersuchen, wie Individuen innerhalb institutioneller Strukturen interagieren."
+      }
+    ],
+    "opposite": {
+      "en": "operate independently",
+      "de": "unabhängig operieren / isoliert wirken",
+      "example_en": "When factors operate independently rather than interact, analysis becomes considerably simpler.",
+      "example_de": "Wenn Faktoren unabhängig voneinander wirken, anstatt zu interagieren, wird die Analyse erheblich einfacher."
+    },
+    "synonyms": [
+      { "word": "engage", "de": "interagieren / sich befassen mit" },
+      { "word": "interrelate", "de": "in Wechselbeziehung stehen" },
+      { "word": "communicate", "de": "kommunizieren / in Austausch stehen" }
+    ],
+    "word_family": [
+      { "word": "interaction", "pos": "noun", "de": "Interaktion / Wechselwirkung" },
+      { "word": "interactive", "pos": "adj", "de": "interaktiv / wechselseitig" },
+      { "word": "interactively", "pos": "adv", "de": "interaktiv / wechselseitig" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "interact with", "de": "interagieren mit / wechselwirken mit", "example": "Temperature interacts with humidity to influence how heat is perceived by the body." }
+    ]
+  },
+  {
+    "id": "awl24_label_15",
+    "word": "label",
+    "group": "AWL24",
+    "group_label": "Academic Word List – Sublist 24",
+    "pos": "verb",
+    "translations": { "de": "bezeichnen / kennzeichnen / etikettieren" },
+    "examples": [
+      {
+        "en": "Sociologists caution against labelling individuals in ways that may reinforce stigma.",
+        "de": "Soziologen warnen davor, Individuen auf eine Weise zu bezeichnen, die Stigmatisierung verstärken könnte."
+      },
+      {
+        "en": "The approach has been labelled 'transformative' by proponents and 'disruptive' by critics.",
+        "de": "Der Ansatz wurde von Befürwortern als 'transformativ' und von Kritikern als 'disruptiv' bezeichnet."
+      }
+    ],
+    "opposite": {
+      "en": "leave undefined",
+      "de": "undefiniert lassen / ohne Bezeichnung lassen",
+      "example_en": "Leaving a concept undefined can be as misleading as labelling it incorrectly.",
+      "example_de": "Ein Konzept undefiniert zu lassen kann ebenso irreführend sein, wie es falsch zu bezeichnen."
+    },
+    "synonyms": [
+      { "word": "classify", "de": "klassifizieren / einordnen" },
+      { "word": "categorise", "de": "kategorisieren / einordnen" },
+      { "word": "designate", "de": "bezeichnen / benennen" }
+    ],
+    "word_family": [
+      { "word": "label", "pos": "noun", "de": "Bezeichnung / Etikett / Label" },
+      { "word": "labelling", "pos": "noun", "de": "Kennzeichnung / Bezeichnung / Labelling" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl24_normative_16",
+    "word": "normative",
+    "group": "AWL24",
+    "group_label": "Academic Word List – Sublist 24",
+    "pos": "adjective",
+    "translations": { "de": "normativ / normsetzend / wertend" },
+    "examples": [
+      {
+        "en": "The paper distinguishes between descriptive accounts of behaviour and normative claims about what ought to be.",
+        "de": "Der Aufsatz unterscheidet zwischen deskriptiven Verhaltensbeschreibungen und normativen Aussagen darüber, was sein sollte."
+      },
+      {
+        "en": "Normative frameworks provide the ethical standards against which policies are judged.",
+        "de": "Normative Rahmenwerke bieten die ethischen Maßstäbe, anhand derer Politiken bewertet werden."
+      }
+    ],
+    "opposite": {
+      "en": "descriptive",
+      "de": "deskriptiv / beschreibend",
+      "example_en": "A descriptive analysis tells us what is; a normative argument tells us what should be.",
+      "example_de": "Eine deskriptive Analyse sagt uns, was ist; ein normatives Argument sagt uns, was sein sollte."
+    },
+    "synonyms": [
+      { "word": "prescriptive", "de": "vorschreibend / präskriptiv" },
+      { "word": "evaluative", "de": "bewertend / evaluativ" },
+      { "word": "value-laden", "de": "wertbeladen / normbezogen" }
+    ],
+    "word_family": [
+      { "word": "norm", "pos": "noun", "de": "Norm / Standard / Regel" },
+      { "word": "normatively", "pos": "adv", "de": "normativ / wertend" },
+      { "word": "normative theory", "pos": "noun", "de": "normative Theorie" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl24_reflect_17",
+    "word": "reflect",
+    "group": "AWL24",
+    "group_label": "Academic Word List – Sublist 24",
+    "pos": "verb",
+    "translations": { "de": "widerspiegeln / reflektieren / nachdenken" },
+    "examples": [
+      {
+        "en": "The data reflect a growing divergence between urban and rural income levels.",
+        "de": "Die Daten spiegeln eine wachsende Divergenz zwischen städtischen und ländlichen Einkommensniveaus wider."
+      },
+      {
+        "en": "Researchers should reflect critically on their own assumptions and potential biases.",
+        "de": "Forscher sollten ihre eigenen Annahmen und potenziellen Vorurteile kritisch reflektieren."
+      }
+    ],
+    "opposite": {
+      "en": "distort",
+      "de": "verzerren / verfälschen",
+      "example_en": "Poorly designed surveys can distort rather than accurately reflect public opinion.",
+      "example_de": "Schlecht gestaltete Umfragen können die öffentliche Meinung verzerren, anstatt sie akkurat widerzuspiegeln."
+    },
+    "synonyms": [
+      { "word": "mirror", "de": "widerspiegeln / spiegeln" },
+      { "word": "indicate", "de": "anzeigen / widerspiegeln" },
+      { "word": "represent", "de": "darstellen / repräsentieren" }
+    ],
+    "word_family": [
+      { "word": "reflection", "pos": "noun", "de": "Widerspiegelung / Reflexion / Nachdenken" },
+      { "word": "reflective", "pos": "adj", "de": "reflektierend / nachdenklich" },
+      { "word": "reflexive", "pos": "adj", "de": "reflexiv / selbstbezüglich" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "reflect on", "de": "nachdenken über / reflektieren", "example": "Academics are encouraged to reflect on the ethical dimensions of their research." }
+    ]
+  },
+  {
+    "id": "awl24_verify_18",
+    "word": "verify",
+    "group": "AWL24",
+    "group_label": "Academic Word List – Sublist 24",
+    "pos": "verb",
+    "translations": { "de": "verifizieren / überprüfen / bestätigen" },
+    "examples": [
+      {
+        "en": "Independent replication is the standard method used to verify scientific findings.",
+        "de": "Unabhängige Replikation ist die Standardmethode zur Verifizierung wissenschaftlicher Erkenntnisse."
+      },
+      {
+        "en": "It was not possible to verify the accuracy of the historical records used in the study.",
+        "de": "Es war nicht möglich, die Genauigkeit der in der Studie verwendeten historischen Aufzeichnungen zu verifizieren."
+      }
+    ],
+    "opposite": {
+      "en": "falsify",
+      "de": "falsifizieren / widerlegen",
+      "example_en": "In Popper's philosophy, a theory must be falsifiable; it cannot merely be verified.",
+      "example_de": "In Poppers Philosophie muss eine Theorie falsifizierbar sein; sie kann nicht lediglich verifiziert werden."
+    },
+    "synonyms": [
+      { "word": "confirm", "de": "bestätigen / verifizieren" },
+      { "word": "validate", "de": "validieren / bestätigen" },
+      { "word": "corroborate", "de": "bestätigen / untermauern" }
+    ],
+    "word_family": [
+      { "word": "verification", "pos": "noun", "de": "Verifizierung / Überprüfung" },
+      { "word": "verifiable", "pos": "adj", "de": "verifizierbar / nachprüfbar" },
+      { "word": "unverifiable", "pos": "adj", "de": "nicht verifizierbar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl24_widespread_19",
+    "word": "widespread",
+    "group": "AWL24",
+    "group_label": "Academic Word List – Sublist 24",
+    "pos": "adjective",
+    "translations": { "de": "weit verbreitet / weitläufig / weitreichend" },
+    "examples": [
+      {
+        "en": "There is widespread agreement among scientists that human activity is driving climate change.",
+        "de": "Unter Wissenschaftlern besteht weitgehende Übereinstimmung, dass menschliche Aktivitäten den Klimawandel vorantreiben."
+      },
+      {
+        "en": "The practice is now widespread across all sectors of the economy.",
+        "de": "Die Praxis ist nun in allen Sektoren der Wirtschaft weit verbreitet."
+      }
+    ],
+    "opposite": {
+      "en": "localised",
+      "de": "lokal begrenzt / auf einen Ort beschränkt",
+      "example_en": "What initially appeared to be a localised issue proved to be far more widespread.",
+      "example_de": "Was zunächst ein lokal begrenztes Problem zu sein schien, erwies sich als weit verbreiteter."
+    },
+    "synonyms": [
+      { "word": "pervasive", "de": "allgegenwärtig / durchdringend" },
+      { "word": "extensive", "de": "ausgedehnt / weit reichend" },
+      { "word": "prevalent", "de": "weit verbreitet / vorherrschend" }
+    ],
+    "word_family": [],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl24_yield_20",
+    "word": "yield",
+    "group": "AWL24",
+    "group_label": "Academic Word List – Sublist 24",
+    "pos": "verb",
+    "translations": { "de": "erbringen / liefern / ergeben" },
+    "examples": [
+      {
+        "en": "The new approach yielded more reliable results than any of the previous methods.",
+        "de": "Der neue Ansatz erbrachte zuverlässigere Ergebnisse als alle früheren Methoden."
+      },
+      {
+        "en": "Long-term investment in basic research often yields unexpected practical applications.",
+        "de": "Langfristige Investitionen in die Grundlagenforschung liefern oft unerwartete praktische Anwendungen."
+      }
+    ],
+    "opposite": {
+      "en": "fail to produce",
+      "de": "keine Ergebnisse liefern / scheitern",
+      "example_en": "Experiments that fail to produce significant results are just as scientifically valuable as those that yield clear answers.",
+      "example_de": "Experimente, die keine signifikanten Ergebnisse liefern, sind wissenschaftlich genauso wertvoll wie jene, die klare Antworten erbringen."
+    },
+    "synonyms": [
+      { "word": "produce", "de": "hervorbringen / erzeugen" },
+      { "word": "generate", "de": "generieren / liefern" },
+      { "word": "provide", "de": "liefern / bereitstellen" }
+    ],
+    "word_family": [
+      { "word": "yield", "pos": "noun", "de": "Ertrag / Ausbeute / Ergebnis" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "yield to", "de": "nachgeben / weichen", "example": "Under scrutiny, the original hypothesis yielded to a more nuanced interpretation." }
+    ]
+  }
+]
