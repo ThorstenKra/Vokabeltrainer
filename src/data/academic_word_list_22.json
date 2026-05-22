@@ -1,0 +1,703 @@
+[
+  {
+    "id": "awl22_acknowledge_01",
+    "word": "acknowledge",
+    "group": "AWL22",
+    "group_label": "Academic Word List – Sublist 22",
+    "pos": "verb",
+    "translations": { "de": "anerkennen / einräumen / zugeben" },
+    "examples": [
+      {
+        "en": "The authors acknowledge several limitations in the design of their study.",
+        "de": "Die Autoren räumen mehrere Einschränkungen im Design ihrer Studie ein."
+      },
+      {
+        "en": "It is widely acknowledged that access to education reduces poverty over the long term.",
+        "de": "Es ist allgemein anerkannt, dass Zugang zu Bildung Armut langfristig reduziert."
+      }
+    ],
+    "opposite": {
+      "en": "deny",
+      "de": "leugnen / bestreiten",
+      "example_en": "It is difficult to deny the evidence when it has been replicated across multiple studies.",
+      "example_de": "Es ist schwer, die Belege zu bestreiten, wenn sie in mehreren Studien repliziert wurden."
+    },
+    "synonyms": [
+      { "word": "recognise", "de": "anerkennen / erkennen" },
+      { "word": "admit", "de": "zugeben / eingestehen" },
+      { "word": "concede", "de": "einräumen / zugestehen" }
+    ],
+    "word_family": [
+      { "word": "acknowledgement", "pos": "noun", "de": "Anerkennung / Bestätigung / Danksagung" },
+      { "word": "acknowledged", "pos": "adj", "de": "anerkannt / bestätigt" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl22_assert_02",
+    "word": "assert",
+    "group": "AWL22",
+    "group_label": "Academic Word List – Sublist 22",
+    "pos": "verb",
+    "translations": { "de": "behaupten / geltend machen / bekräftigen" },
+    "examples": [
+      {
+        "en": "The authors assert that current models systematically underestimate climate risk.",
+        "de": "Die Autoren behaupten, dass aktuelle Modelle das Klimarisiko systematisch unterschätzen."
+      },
+      {
+        "en": "The defendant asserted his right to remain silent throughout the proceedings.",
+        "de": "Der Angeklagte machte während des gesamten Verfahrens sein Recht auf Schweigen geltend."
+      }
+    ],
+    "opposite": {
+      "en": "retract",
+      "de": "zurückziehen / widerrufen",
+      "example_en": "Under pressure from new evidence, the researcher was forced to retract the original claim.",
+      "example_de": "Unter dem Druck neuer Belege war der Forscher gezwungen, die ursprüngliche Behauptung zurückzuziehen."
+    },
+    "synonyms": [
+      { "word": "claim", "de": "behaupten / beanspruchen" },
+      { "word": "maintain", "de": "aufrechterhalten / behaupten" },
+      { "word": "contend", "de": "vertreten / behaupten" }
+    ],
+    "word_family": [
+      { "word": "assertion", "pos": "noun", "de": "Behauptung / Aussage" },
+      { "word": "assertive", "pos": "adj", "de": "selbstbewusst / bestimmt" },
+      { "word": "assertively", "pos": "adv", "de": "bestimmt / durchsetzungsstark" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "assert oneself", "de": "sich behaupten / sich durchsetzen", "example": "Junior researchers sometimes struggle to assert themselves in senior-dominated discussions." }
+    ]
+  },
+  {
+    "id": "awl22_attribute_03",
+    "word": "attribute",
+    "group": "AWL22",
+    "group_label": "Academic Word List – Sublist 22",
+    "pos": "verb",
+    "translations": { "de": "zuschreiben / zurückführen / attribuieren" },
+    "examples": [
+      {
+        "en": "The decline in biodiversity is widely attributed to habitat loss and climate change.",
+        "de": "Der Rückgang der Artenvielfalt wird weitgehend dem Habitatverlust und dem Klimawandel zugeschrieben."
+      },
+      {
+        "en": "It would be wrong to attribute the entire success to a single factor.",
+        "de": "Es wäre falsch, den gesamten Erfolg einem einzigen Faktor zuzuschreiben."
+      }
+    ],
+    "opposite": {
+      "en": "dissociate",
+      "de": "trennen / loslösen / nicht in Verbindung bringen",
+      "example_en": "The committee sought to dissociate the policy failure from any single individual's decision.",
+      "example_de": "Der Ausschuss versuchte, das politische Scheitern von der Entscheidung einer einzelnen Person zu trennen."
+    },
+    "synonyms": [
+      { "word": "ascribe", "de": "zuschreiben / zuordnen" },
+      { "word": "assign", "de": "zuweisen / zuordnen" },
+      { "word": "credit", "de": "anrechnen / zuschreiben" }
+    ],
+    "word_family": [
+      { "word": "attribute", "pos": "noun", "de": "Merkmal / Eigenschaft / Attribut" },
+      { "word": "attribution", "pos": "noun", "de": "Zuschreibung / Attribution" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "attribute to", "de": "zurückführen auf / zuschreiben", "example": "The improvement can be attributed to changes in policy rather than market forces." }
+    ]
+  },
+  {
+    "id": "awl22_clarify_04",
+    "word": "clarify",
+    "group": "AWL22",
+    "group_label": "Academic Word List – Sublist 22",
+    "pos": "verb",
+    "translations": { "de": "klären / verdeutlichen / klarstellen" },
+    "examples": [
+      {
+        "en": "The follow-up interview was conducted to clarify ambiguous responses from the survey.",
+        "de": "Das Nachfolgegespräch wurde geführt, um mehrdeutige Antworten aus der Umfrage zu klären."
+      },
+      {
+        "en": "The minister was asked to clarify the government's position on tax reform.",
+        "de": "Der Minister wurde gebeten, die Position der Regierung zur Steuerreform klarzustellen."
+      }
+    ],
+    "opposite": {
+      "en": "obscure",
+      "de": "verschleiern / verdunkeln / unklar machen",
+      "example_en": "Overly technical language can obscure rather than clarify the main argument.",
+      "example_de": "Übermäßig technische Sprache kann das Hauptargument eher verschleiern als verdeutlichen."
+    },
+    "synonyms": [
+      { "word": "explain", "de": "erklären / darlegen" },
+      { "word": "elucidate", "de": "erläutern / erhellen" },
+      { "word": "illuminate", "de": "beleuchten / verdeutlichen" }
+    ],
+    "word_family": [
+      { "word": "clarification", "pos": "noun", "de": "Klarstellung / Erläuterung" },
+      { "word": "clarity", "pos": "noun", "de": "Klarheit / Deutlichkeit" },
+      { "word": "clear", "pos": "adj", "de": "klar / deutlich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl22_complex_05",
+    "word": "complex",
+    "group": "AWL22",
+    "group_label": "Academic Word List – Sublist 22",
+    "pos": "adjective",
+    "translations": { "de": "komplex / vielschichtig / kompliziert" },
+    "examples": [
+      {
+        "en": "The relationship between poverty and health is highly complex and multidirectional.",
+        "de": "Der Zusammenhang zwischen Armut und Gesundheit ist äußerst komplex und multidirektional."
+      },
+      {
+        "en": "Solving complex global problems requires cooperation across many different sectors.",
+        "de": "Die Lösung komplexer globaler Probleme erfordert Zusammenarbeit über viele verschiedene Sektoren hinweg."
+      }
+    ],
+    "opposite": {
+      "en": "simple",
+      "de": "einfach / unkompliziert",
+      "example_en": "The solution turned out to be surprisingly simple once the complex assumptions were removed.",
+      "example_de": "Die Lösung erwies sich als überraschend einfach, sobald die komplexen Annahmen beseitigt wurden."
+    },
+    "synonyms": [
+      { "word": "complicated", "de": "kompliziert / schwierig" },
+      { "word": "intricate", "de": "verwickelt / vielschichtig" },
+      { "word": "multifaceted", "de": "vielschichtig / vielfaltig" }
+    ],
+    "word_family": [
+      { "word": "complexity", "pos": "noun", "de": "Komplexität / Vielschichtigkeit" },
+      { "word": "complexly", "pos": "adv", "de": "auf komplexe Weise" },
+      { "word": "complex", "pos": "noun", "de": "Komplex / Gebäudekomplex" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl22_conform_06",
+    "word": "conform",
+    "group": "AWL22",
+    "group_label": "Academic Word List – Sublist 22",
+    "pos": "verb",
+    "translations": { "de": "entsprechen / sich anpassen / konform sein" },
+    "examples": [
+      {
+        "en": "All products must conform to the safety standards set out in EU legislation.",
+        "de": "Alle Produkte müssen den in der EU-Gesetzgebung festgelegten Sicherheitsstandards entsprechen."
+      },
+      {
+        "en": "The results did not conform to the predictions made by the existing theoretical model.",
+        "de": "Die Ergebnisse stimmten nicht mit den Vorhersagen des bestehenden theoretischen Modells überein."
+      }
+    ],
+    "opposite": {
+      "en": "deviate",
+      "de": "abweichen / abweichen von",
+      "example_en": "When findings deviate significantly from expectations, researchers must examine their methodology.",
+      "example_de": "Wenn Ergebnisse erheblich von den Erwartungen abweichen, müssen Forscher ihre Methodik überprüfen."
+    },
+    "synonyms": [
+      { "word": "comply", "de": "entsprechen / befolgen" },
+      { "word": "adhere", "de": "sich halten an / befolgen" },
+      { "word": "align", "de": "ausrichten / übereinstimmen" }
+    ],
+    "word_family": [
+      { "word": "conformity", "pos": "noun", "de": "Konformität / Übereinstimmung" },
+      { "word": "conformance", "pos": "noun", "de": "Einhaltung / Konformität" },
+      { "word": "nonconformity", "pos": "noun", "de": "Nichtkonformität / Abweichung" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "conform to", "de": "entsprechen / sich anpassen an", "example": "The building must conform to current fire safety regulations." }
+    ]
+  },
+  {
+    "id": "awl22_dimension_07",
+    "word": "dimension",
+    "group": "AWL22",
+    "group_label": "Academic Word List – Sublist 22",
+    "pos": "noun",
+    "translations": { "de": "Dimension / Aspekt / Ausmaß" },
+    "examples": [
+      {
+        "en": "The ethical dimension of artificial intelligence has received increasing academic attention.",
+        "de": "Die ethische Dimension der Künstlichen Intelligenz hat zunehmende akademische Aufmerksamkeit erhalten."
+      },
+      {
+        "en": "Poverty has multiple dimensions, including not just income but also health and education.",
+        "de": "Armut hat mehrere Dimensionen, darunter nicht nur Einkommen, sondern auch Gesundheit und Bildung."
+      }
+    ],
+    "opposite": {
+      "en": "singularity",
+      "de": "Eindimensionalität / Einheitlichkeit",
+      "example_en": "Treating a complex issue with singularity ignores its many dimensions.",
+      "example_de": "Ein komplexes Problem eindimensional zu behandeln, ignoriert seine vielen Dimensionen."
+    },
+    "synonyms": [
+      { "word": "aspect", "de": "Aspekt / Gesichtspunkt" },
+      { "word": "facet", "de": "Facette / Seite" },
+      { "word": "component", "de": "Komponente / Bestandteil" }
+    ],
+    "word_family": [
+      { "word": "dimensional", "pos": "adj", "de": "dimensional" },
+      { "word": "multidimensional", "pos": "adj", "de": "mehrdimensional / vielschichtig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl22_distinction_08",
+    "word": "distinction",
+    "group": "AWL22",
+    "group_label": "Academic Word List – Sublist 22",
+    "pos": "noun",
+    "translations": { "de": "Unterschied / Unterscheidung / Auszeichnung" },
+    "examples": [
+      {
+        "en": "The paper draws a clear distinction between correlation and causation.",
+        "de": "Der Aufsatz zieht eine klare Trennlinie zwischen Korrelation und Kausalität."
+      },
+      {
+        "en": "There is an important distinction between the legal and the ethical dimensions of the case.",
+        "de": "Es gibt einen wichtigen Unterschied zwischen der rechtlichen und der ethischen Dimension des Falls."
+      }
+    ],
+    "opposite": {
+      "en": "similarity",
+      "de": "Ähnlichkeit / Gleichheit",
+      "example_en": "Rather than emphasising distinctions, the analysis reveals a fundamental similarity between the two groups.",
+      "example_de": "Anstatt Unterschiede zu betonen, zeigt die Analyse eine grundlegende Ähnlichkeit zwischen den beiden Gruppen."
+    },
+    "synonyms": [
+      { "word": "difference", "de": "Unterschied / Differenz" },
+      { "word": "differentiation", "de": "Differenzierung / Unterscheidung" },
+      { "word": "contrast", "de": "Gegensatz / Kontrast" }
+    ],
+    "word_family": [
+      { "word": "distinct", "pos": "adj", "de": "deutlich / klar / verschieden" },
+      { "word": "distinctive", "pos": "adj", "de": "charakteristisch / unverwechselbar" },
+      { "word": "distinguish", "pos": "verb", "de": "unterscheiden / differenzieren" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "draw a distinction", "de": "eine Unterscheidung treffen", "example": "We must draw a distinction between voluntary and involuntary unemployment." }
+    ]
+  },
+  {
+    "id": "awl22_evaluate_09",
+    "word": "evaluate",
+    "group": "AWL22",
+    "group_label": "Academic Word List – Sublist 22",
+    "pos": "verb",
+    "translations": { "de": "bewerten / auswerten / evaluieren" },
+    "examples": [
+      {
+        "en": "The committee was asked to evaluate the effectiveness of the public health campaign.",
+        "de": "Der Ausschuss wurde gebeten, die Wirksamkeit der Kampagne für die öffentliche Gesundheit zu bewerten."
+      },
+      {
+        "en": "Students are expected to critically evaluate sources rather than accept them at face value.",
+        "de": "Von Studierenden wird erwartet, dass sie Quellen kritisch auswerten, anstatt sie unkritisch zu übernehmen."
+      }
+    ],
+    "opposite": {
+      "en": "overlook",
+      "de": "übersehen / außer Acht lassen",
+      "example_en": "It is easy to overlook important nuances when working under time pressure.",
+      "example_de": "Es ist leicht, wichtige Nuancen zu übersehen, wenn man unter Zeitdruck arbeitet."
+    },
+    "synonyms": [
+      { "word": "assess", "de": "einschätzen / beurteilen" },
+      { "word": "appraise", "de": "bewerten / beurteilen" },
+      { "word": "judge", "de": "beurteilen / einschätzen" }
+    ],
+    "word_family": [
+      { "word": "evaluation", "pos": "noun", "de": "Bewertung / Auswertung / Evaluation" },
+      { "word": "evaluative", "pos": "adj", "de": "bewertend / evaluativ" },
+      { "word": "evaluator", "pos": "noun", "de": "Gutachter / Evaluator" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl22_evident_10",
+    "word": "evident",
+    "group": "AWL22",
+    "group_label": "Academic Word List – Sublist 22",
+    "pos": "adjective",
+    "translations": { "de": "offensichtlich / ersichtlich / evident" },
+    "examples": [
+      {
+        "en": "It is evident from the data that urban areas face disproportionately high air pollution levels.",
+        "de": "Aus den Daten ist ersichtlich, dass städtische Gebiete unverhältnismäßig hohe Luftverschmutzungswerte aufweisen."
+      },
+      {
+        "en": "The influence of earlier theorists is clearly evident throughout the author's work.",
+        "de": "Der Einfluss früherer Theoretiker ist im gesamten Werk des Autors klar ersichtlich."
+      }
+    ],
+    "opposite": {
+      "en": "obscure",
+      "de": "unklar / unbekannt / dunkel",
+      "example_en": "The mechanism behind the observed effect remains obscure and requires further investigation.",
+      "example_de": "Der Mechanismus hinter dem beobachteten Effekt bleibt unklar und erfordert weitere Untersuchungen."
+    },
+    "synonyms": [
+      { "word": "apparent", "de": "offensichtlich / scheinbar" },
+      { "word": "obvious", "de": "offensichtlich / klar" },
+      { "word": "clear", "de": "klar / eindeutig" }
+    ],
+    "word_family": [
+      { "word": "evidently", "pos": "adv", "de": "offensichtlich / augenscheinlich" },
+      { "word": "evidence", "pos": "noun", "de": "Beweis / Beleg / Evidenz" },
+      { "word": "self-evident", "pos": "adj", "de": "selbstverständlich / offenkundig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl22_evolve_11",
+    "word": "evolve",
+    "group": "AWL22",
+    "group_label": "Academic Word List – Sublist 22",
+    "pos": "verb",
+    "translations": { "de": "sich entwickeln / entfalten / entstehen" },
+    "examples": [
+      {
+        "en": "The legal framework governing digital privacy has evolved rapidly over the past decade.",
+        "de": "Der Rechtsrahmen für den digitalen Datenschutz hat sich im letzten Jahrzehnt rasch weiterentwickelt."
+      },
+      {
+        "en": "Languages evolve continuously as communities adapt them to new communicative needs.",
+        "de": "Sprachen entwickeln sich ständig weiter, da Gemeinschaften sie an neue kommunikative Bedürfnisse anpassen."
+      }
+    ],
+    "opposite": {
+      "en": "stagnate",
+      "de": "stagnieren / sich nicht weiterentwickeln",
+      "example_en": "Institutions that fail to evolve tend to stagnate and lose relevance over time.",
+      "example_de": "Institutionen, die sich nicht weiterentwickeln, stagnieren tendenziell und verlieren im Laufe der Zeit an Relevanz."
+    },
+    "synonyms": [
+      { "word": "develop", "de": "sich entwickeln / entfalten" },
+      { "word": "progress", "de": "sich weiterentwickeln / Fortschritte machen" },
+      { "word": "advance", "de": "vorankommen / sich weiterentwickeln" }
+    ],
+    "word_family": [
+      { "word": "evolution", "pos": "noun", "de": "Evolution / Entwicklung / Entfaltung" },
+      { "word": "evolutionary", "pos": "adj", "de": "evolutionär / entwicklungsbezogen" },
+      { "word": "evolved", "pos": "adj", "de": "entwickelt / ausgereift" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl22_fundamental_12",
+    "word": "fundamental",
+    "group": "AWL22",
+    "group_label": "Academic Word List – Sublist 22",
+    "pos": "adjective",
+    "translations": { "de": "grundlegend / wesentlich / fundamental" },
+    "examples": [
+      {
+        "en": "Access to clean water is a fundamental human right recognised under international law.",
+        "de": "Der Zugang zu sauberem Wasser ist ein grundlegendes Menschenrecht, das im Völkerrecht anerkannt ist."
+      },
+      {
+        "en": "The findings represent a fundamental challenge to the current consensus in the field.",
+        "de": "Die Erkenntnisse stellen eine grundlegende Herausforderung für den aktuellen Konsens in diesem Bereich dar."
+      }
+    ],
+    "opposite": {
+      "en": "peripheral",
+      "de": "peripher / nebensächlich / unwichtig",
+      "example_en": "Cost considerations, while real, are peripheral compared to the fundamental ethical concerns.",
+      "example_de": "Kostenüberlegungen sind zwar real, aber im Vergleich zu den grundlegenden ethischen Bedenken nebensächlich."
+    },
+    "synonyms": [
+      { "word": "essential", "de": "wesentlich / grundlegend" },
+      { "word": "basic", "de": "grundlegend / elementar" },
+      { "word": "core", "de": "zentral / grundlegend" }
+    ],
+    "word_family": [
+      { "word": "fundamentally", "pos": "adv", "de": "grundlegend / im Wesentlichen" },
+      { "word": "fundamentals", "pos": "noun (pl)", "de": "Grundlagen / Grundprinzipien" },
+      { "word": "fundamentalism", "pos": "noun", "de": "Fundamentalismus" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl22_interpret_13",
+    "word": "interpret",
+    "group": "AWL22",
+    "group_label": "Academic Word List – Sublist 22",
+    "pos": "verb",
+    "translations": { "de": "interpretieren / auslegen / deuten" },
+    "examples": [
+      {
+        "en": "Different scholars interpret the same historical events in radically different ways.",
+        "de": "Verschiedene Gelehrte interpretieren dieselben historischen Ereignisse auf grundlegend unterschiedliche Weise."
+      },
+      {
+        "en": "Care must be taken when interpreting results from studies with small sample sizes.",
+        "de": "Bei der Interpretation von Ergebnissen aus Studien mit kleinen Stichprobengrößen ist Vorsicht geboten."
+      }
+    ],
+    "opposite": {
+      "en": "misinterpret",
+      "de": "falsch auslegen / missverstehen",
+      "example_en": "It is easy to misinterpret statistical data without a solid understanding of context.",
+      "example_de": "Es ist leicht, statistische Daten falsch auszulegen, wenn der Kontext nicht ausreichend verstanden wird."
+    },
+    "synonyms": [
+      { "word": "construe", "de": "auslegen / deuten" },
+      { "word": "explain", "de": "erklären / darlegen" },
+      { "word": "analyse", "de": "analysieren / auswerten" }
+    ],
+    "word_family": [
+      { "word": "interpretation", "pos": "noun", "de": "Interpretation / Auslegung / Deutung" },
+      { "word": "interpretive", "pos": "adj", "de": "interpretativ / deutend" },
+      { "word": "interpreter", "pos": "noun", "de": "Dolmetscher / Interpret" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl22_perceive_14",
+    "word": "perceive",
+    "group": "AWL22",
+    "group_label": "Academic Word List – Sublist 22",
+    "pos": "verb",
+    "translations": { "de": "wahrnehmen / auffassen / empfinden" },
+    "examples": [
+      {
+        "en": "How a risk is perceived by the public often differs from its actual statistical likelihood.",
+        "de": "Wie ein Risiko von der Öffentlichkeit wahrgenommen wird, weicht oft von seiner tatsächlichen statistischen Wahrscheinlichkeit ab."
+      },
+      {
+        "en": "The policy was perceived as unfair by those most affected by its consequences.",
+        "de": "Die Politik wurde von den am stärksten Betroffenen als ungerecht empfunden."
+      }
+    ],
+    "opposite": {
+      "en": "overlook",
+      "de": "übersehen / nicht wahrnehmen",
+      "example_en": "Researchers can overlook subtle patterns that participants themselves clearly perceive.",
+      "example_de": "Forscher können subtile Muster übersehen, die die Teilnehmer selbst klar wahrnehmen."
+    },
+    "synonyms": [
+      { "word": "observe", "de": "beobachten / wahrnehmen" },
+      { "word": "recognise", "de": "erkennen / wahrnehmen" },
+      { "word": "sense", "de": "spüren / wahrnehmen" }
+    ],
+    "word_family": [
+      { "word": "perception", "pos": "noun", "de": "Wahrnehmung / Auffassung" },
+      { "word": "perceptive", "pos": "adj", "de": "aufmerksam / scharfsinnig" },
+      { "word": "perceptibly", "pos": "adv", "de": "wahrnehmbar / spürbar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl22_premise_15",
+    "word": "premise",
+    "group": "AWL22",
+    "group_label": "Academic Word List – Sublist 22",
+    "pos": "noun",
+    "translations": { "de": "Prämisse / Voraussetzung / Grundannahme" },
+    "examples": [
+      {
+        "en": "The entire argument rests on the premise that economic growth benefits all citizens equally.",
+        "de": "Das gesamte Argument beruht auf der Prämisse, dass Wirtschaftswachstum allen Bürgern gleichermaßen zugute kommt."
+      },
+      {
+        "en": "If the underlying premise is flawed, the conclusions drawn from it will also be flawed.",
+        "de": "Wenn die zugrunde liegende Prämisse fehlerhaft ist, sind auch die daraus gezogenen Schlussfolgerungen fehlerhaft."
+      }
+    ],
+    "opposite": {
+      "en": "conclusion",
+      "de": "Schlussfolgerung / Fazit",
+      "example_en": "A sound premise does not automatically guarantee a sound conclusion.",
+      "example_de": "Eine solide Prämisse garantiert nicht automatisch eine solide Schlussfolgerung."
+    },
+    "synonyms": [
+      { "word": "assumption", "de": "Annahme / Voraussetzung" },
+      { "word": "postulate", "de": "Postulat / Grundannahme" },
+      { "word": "presupposition", "de": "Voraussetzung / Präsupposition" }
+    ],
+    "word_family": [
+      { "word": "premises", "pos": "noun (pl)", "de": "Räumlichkeiten / Gelände" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl22_primary_16",
+    "word": "primary",
+    "group": "AWL22",
+    "group_label": "Academic Word List – Sublist 22",
+    "pos": "adjective",
+    "translations": { "de": "primär / hauptsächlich / erstrangig" },
+    "examples": [
+      {
+        "en": "The primary aim of the study was to determine whether the intervention reduced mortality rates.",
+        "de": "Das primäre Ziel der Studie war es, festzustellen, ob die Maßnahme die Sterblichkeitsraten senkte."
+      },
+      {
+        "en": "Primary sources such as original documents and eyewitness accounts are essential in historical research.",
+        "de": "Primärquellen wie Originaldokumente und Augenzeugenberichte sind in der Geschichtsforschung unerlässlich."
+      }
+    ],
+    "opposite": {
+      "en": "secondary",
+      "de": "sekundär / zweitrangig / nachgeordnet",
+      "example_en": "Secondary sources can complement but should never replace primary research data.",
+      "example_de": "Sekundärquellen können Primärforschungsdaten ergänzen, sollten sie aber niemals ersetzen."
+    },
+    "synonyms": [
+      { "word": "main", "de": "haupt- / wichtigste" },
+      { "word": "chief", "de": "leitend / wichtigste" },
+      { "word": "principal", "de": "hauptsächlich / vorrangig" }
+    ],
+    "word_family": [
+      { "word": "primarily", "pos": "adv", "de": "primär / hauptsächlich / in erster Linie" },
+      { "word": "primary school", "pos": "noun", "de": "Grundschule" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl22_principle_17",
+    "word": "principle",
+    "group": "AWL22",
+    "group_label": "Academic Word List – Sublist 22",
+    "pos": "noun",
+    "translations": { "de": "Prinzip / Grundsatz / Leitlinie" },
+    "examples": [
+      {
+        "en": "The principle of informed consent is central to ethical research involving human participants.",
+        "de": "Das Prinzip der informierten Einwilligung ist grundlegend für ethische Forschung mit menschlichen Teilnehmern."
+      },
+      {
+        "en": "The design of the experiment was based on the principle that variables must be isolated.",
+        "de": "Das Design des Experiments basierte auf dem Grundsatz, dass Variablen isoliert werden müssen."
+      }
+    ],
+    "opposite": {
+      "en": "exception",
+      "de": "Ausnahme / Sonderfall",
+      "example_en": "A general principle can accommodate exceptions as long as they are clearly justified.",
+      "example_de": "Ein allgemeines Prinzip kann Ausnahmen zulassen, solange diese klar begründet sind."
+    },
+    "synonyms": [
+      { "word": "rule", "de": "Regel / Grundsatz" },
+      { "word": "tenet", "de": "Grundsatz / Lehrsatz" },
+      { "word": "axiom", "de": "Axiom / Grundwahrheit" }
+    ],
+    "word_family": [
+      { "word": "principled", "pos": "adj", "de": "prinzipientreu / integer" },
+      { "word": "unprincipled", "pos": "adj", "de": "prinzipienlos / skrupellos" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "in principle", "de": "im Prinzip / grundsätzlich", "example": "The proposal is sound in principle, though the details still need to be worked out." }
+    ]
+  },
+  {
+    "id": "awl22_proportion_18",
+    "word": "proportion",
+    "group": "AWL22",
+    "group_label": "Academic Word List – Sublist 22",
+    "pos": "noun",
+    "translations": { "de": "Anteil / Verhältnis / Proportion" },
+    "examples": [
+      {
+        "en": "A significant proportion of respondents reported experiencing workplace discrimination.",
+        "de": "Ein erheblicher Anteil der Befragten berichtete, Diskriminierung am Arbeitsplatz erfahren zu haben."
+      },
+      {
+        "en": "The proportion of women in senior leadership roles remains disproportionately low.",
+        "de": "Der Anteil von Frauen in Führungspositionen ist nach wie vor unverhältnismäßig gering."
+      }
+    ],
+    "opposite": {
+      "en": "disproportion",
+      "de": "Missverhältnis / Unverhältnismäßigkeit",
+      "example_en": "The disproportion between effort and reward can demotivate even dedicated workers.",
+      "example_de": "Das Missverhältnis zwischen Aufwand und Belohnung kann selbst engagierte Mitarbeiter demotivieren."
+    },
+    "synonyms": [
+      { "word": "fraction", "de": "Bruchteil / Anteil" },
+      { "word": "ratio", "de": "Verhältnis / Quote" },
+      { "word": "share", "de": "Anteil / Teil" }
+    ],
+    "word_family": [
+      { "word": "proportional", "pos": "adj", "de": "proportional / verhältnismäßig" },
+      { "word": "disproportionate", "pos": "adj", "de": "unverhältnismäßig" },
+      { "word": "proportionally", "pos": "adv", "de": "proportional / im gleichen Verhältnis" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl22_rationale_19",
+    "word": "rationale",
+    "group": "AWL22",
+    "group_label": "Academic Word List – Sublist 22",
+    "pos": "noun",
+    "translations": { "de": "Begründung / Logik / Rationalität / Grundlage" },
+    "examples": [
+      {
+        "en": "The paper provides a clear rationale for why a mixed-methods approach was chosen.",
+        "de": "Der Aufsatz liefert eine klare Begründung dafür, warum ein Mixed-Methods-Ansatz gewählt wurde."
+      },
+      {
+        "en": "Without a coherent rationale, the policy risks being seen as arbitrary.",
+        "de": "Ohne eine kohärente Begründung besteht die Gefahr, dass die Politik als willkürlich wahrgenommen wird."
+      }
+    ],
+    "opposite": {
+      "en": "arbitrariness",
+      "de": "Willkür / Beliebigkeit",
+      "example_en": "Decisions driven by arbitrariness rather than rationale tend to lack legitimacy.",
+      "example_de": "Entscheidungen, die von Willkür statt von Begründung geleitet werden, haben oft keine Legitimität."
+    },
+    "synonyms": [
+      { "word": "reasoning", "de": "Überlegung / Begründung" },
+      { "word": "justification", "de": "Rechtfertigung / Begründung" },
+      { "word": "logic", "de": "Logik / Grundlage" }
+    ],
+    "word_family": [
+      { "word": "rational", "pos": "adj", "de": "rational / vernünftig" },
+      { "word": "rationalise", "pos": "verb", "de": "rationalisieren / begründen" },
+      { "word": "rationality", "pos": "noun", "de": "Rationalität / Vernünftigkeit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl22_undermine_20",
+    "word": "undermine",
+    "group": "AWL22",
+    "group_label": "Academic Word List – Sublist 22",
+    "pos": "verb",
+    "translations": { "de": "untergraben / schwächen / beeinträchtigen" },
+    "examples": [
+      {
+        "en": "Frequent methodological errors can seriously undermine the credibility of a research programme.",
+        "de": "Häufige methodische Fehler können die Glaubwürdigkeit eines Forschungsprogramms ernsthaft untergraben."
+      },
+      {
+        "en": "Corruption undermines public trust in democratic institutions.",
+        "de": "Korruption untergräbt das öffentliche Vertrauen in demokratische Institutionen."
+      }
+    ],
+    "opposite": {
+      "en": "strengthen",
+      "de": "stärken / festigen",
+      "example_en": "Transparent reporting can strengthen rather than undermine public confidence in science.",
+      "example_de": "Transparente Berichterstattung kann das öffentliche Vertrauen in die Wissenschaft stärken, anstatt es zu untergraben."
+    },
+    "synonyms": [
+      { "word": "weaken", "de": "schwächen / abschwächen" },
+      { "word": "erode", "de": "aushöhlen / untergraben" },
+      { "word": "subvert", "de": "unterwandern / untergraben" }
+    ],
+    "word_family": [
+      { "word": "undermining", "pos": "adj/noun", "de": "untergrabend / Untergrabung" }
+    ],
+    "phrasal_verbs": []
+  }
+]
