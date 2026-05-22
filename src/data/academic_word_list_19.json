@@ -1,0 +1,696 @@
+[
+  {
+    "id": "awl19_allocate_01",
+    "word": "allocate",
+    "group": "AWL19",
+    "group_label": "Academic Word List – Sublist 19",
+    "pos": "verb",
+    "translations": { "de": "zuweisen / zuteilen / bereitstellen" },
+    "examples": [
+      {
+        "en": "The government must allocate sufficient funds to healthcare and education.",
+        "de": "Die Regierung muss ausreichend Mittel für das Gesundheits- und Bildungswesen bereitstellen."
+      },
+      {
+        "en": "Each research team was allocated a specific area of the forest to study.",
+        "de": "Jedem Forschungsteam wurde ein bestimmter Waldabschnitt für die Untersuchung zugewiesen."
+      }
+    ],
+    "opposite": {
+      "en": "withhold",
+      "de": "vorenthalten / zurückhalten",
+      "example_en": "Critics accused the ministry of withholding resources from rural schools.",
+      "example_de": "Kritiker warfen dem Ministerium vor, ländlichen Schulen Ressourcen vorzuenthalten."
+    },
+    "synonyms": [
+      { "word": "assign", "de": "zuweisen / zuordnen" },
+      { "word": "distribute", "de": "verteilen" },
+      { "word": "apportion", "de": "aufteilen / zuteilen" }
+    ],
+    "word_family": [
+      { "word": "allocation", "pos": "noun", "de": "Zuteilung / Zuweisung" },
+      { "word": "reallocate", "pos": "verb", "de": "umverteilen / neu zuweisen" },
+      { "word": "reallocation", "pos": "noun", "de": "Umverteilung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl19_compile_02",
+    "word": "compile",
+    "group": "AWL19",
+    "group_label": "Academic Word List – Sublist 19",
+    "pos": "verb",
+    "translations": { "de": "zusammenstellen / erstellen / kompilieren" },
+    "examples": [
+      {
+        "en": "The researchers compiled a comprehensive database of endangered plant species.",
+        "de": "Die Forscher stellten eine umfassende Datenbank gefährdeter Pflanzenarten zusammen."
+      },
+      {
+        "en": "It took three years to compile all the evidence needed for the report.",
+        "de": "Es dauerte drei Jahre, alle für den Bericht benötigten Belege zusammenzutragen."
+      }
+    ],
+    "opposite": {
+      "en": "scatter",
+      "de": "zerstreuen / verteilen",
+      "example_en": "Poor filing systems scatter information across dozens of unrelated folders.",
+      "example_de": "Schlechte Ablagesysteme verteilen Informationen auf Dutzende unzusammenhängende Ordner."
+    },
+    "synonyms": [
+      { "word": "assemble", "de": "zusammenstellen / zusammensetzen" },
+      { "word": "collate", "de": "zusammentragen / sortieren" },
+      { "word": "gather", "de": "sammeln / zusammentragen" }
+    ],
+    "word_family": [
+      { "word": "compilation", "pos": "noun", "de": "Zusammenstellung / Kompilation" },
+      { "word": "compiler", "pos": "noun", "de": "Verfasser / Compiler" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl19_controversy_03",
+    "word": "controversy",
+    "group": "AWL19",
+    "group_label": "Academic Word List – Sublist 19",
+    "pos": "noun",
+    "translations": { "de": "Kontroverse / Streit / Debatte" },
+    "examples": [
+      {
+        "en": "The new policy sparked considerable controversy among academics and policymakers alike.",
+        "de": "Die neue Politik löste unter Wissenschaftlern und Politikern erhebliche Kontroversen aus."
+      },
+      {
+        "en": "There is ongoing controversy over the long-term effects of the drug.",
+        "de": "Es gibt eine anhaltende Kontroverse über die Langzeitwirkungen des Medikaments."
+      }
+    ],
+    "opposite": {
+      "en": "consensus",
+      "de": "Konsens / Übereinstimmung",
+      "example_en": "After years of debate, a consensus finally emerged on the best course of action.",
+      "example_de": "Nach jahrelanger Debatte wurde schließlich ein Konsens über die beste Vorgehensweise erzielt."
+    },
+    "synonyms": [
+      { "word": "dispute", "de": "Streit / Auseinandersetzung" },
+      { "word": "debate", "de": "Debatte / Diskussion" },
+      { "word": "contention", "de": "Streitpunkt / Meinungsverschiedenheit" }
+    ],
+    "word_family": [
+      { "word": "controversial", "pos": "adj", "de": "kontrovers / umstritten" },
+      { "word": "controversially", "pos": "adv", "de": "auf kontroverse Weise" },
+      { "word": "uncontroversial", "pos": "adj", "de": "unumstritten / unstrittig" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl19_derive_04",
+    "word": "derive",
+    "group": "AWL19",
+    "group_label": "Academic Word List – Sublist 19",
+    "pos": "verb",
+    "translations": { "de": "ableiten / herleiten / gewinnen" },
+    "examples": [
+      {
+        "en": "The formula was derived from earlier work in classical mechanics.",
+        "de": "Die Formel wurde aus früheren Arbeiten zur klassischen Mechanik abgeleitet."
+      },
+      {
+        "en": "Many English words derive from Latin and Greek roots.",
+        "de": "Viele englische Wörter leiten sich von lateinischen und griechischen Wurzeln ab."
+      }
+    ],
+    "opposite": {
+      "en": "originate",
+      "de": "ursprünglich entstehen / hervorgehen",
+      "example_en": "The concept did not derive from external sources but originated within the team.",
+      "example_de": "Das Konzept wurde nicht aus externen Quellen abgeleitet, sondern entstand innerhalb des Teams."
+    },
+    "synonyms": [
+      { "word": "obtain", "de": "erhalten / gewinnen" },
+      { "word": "deduce", "de": "schlussfolgern / ableiten" },
+      { "word": "extract", "de": "entnehmen / ableiten" }
+    ],
+    "word_family": [
+      { "word": "derivative", "pos": "noun/adj", "de": "Ableitung / abgeleitet" },
+      { "word": "derivation", "pos": "noun", "de": "Ableitung / Herkunft" },
+      { "word": "derived", "pos": "adj", "de": "abgeleitet / hergeleitet" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "derive from", "de": "sich ableiten von / stammen aus", "example": "This principle derives from the work of John Locke." }
+    ]
+  },
+  {
+    "id": "awl19_dominant_05",
+    "word": "dominant",
+    "group": "AWL19",
+    "group_label": "Academic Word List – Sublist 19",
+    "pos": "adjective",
+    "translations": { "de": "dominierend / vorherrschend / beherrschend" },
+    "examples": [
+      {
+        "en": "English has become the dominant language of international scientific publishing.",
+        "de": "Englisch hat sich zur vorherrschenden Sprache des internationalen wissenschaftlichen Publizierens entwickelt."
+      },
+      {
+        "en": "The company holds a dominant position in the global smartphone market.",
+        "de": "Das Unternehmen hält eine beherrschende Stellung auf dem globalen Smartphone-Markt."
+      }
+    ],
+    "opposite": {
+      "en": "subordinate",
+      "de": "untergeordnet / nachrangig",
+      "example_en": "Subordinate factors were set aside while the team focused on the main issue.",
+      "example_de": "Untergeordnete Faktoren wurden beiseitegelassen, während sich das Team auf das Hauptproblem konzentrierte."
+    },
+    "synonyms": [
+      { "word": "prevailing", "de": "vorherrschend / überwiegend" },
+      { "word": "leading", "de": "führend / maßgebend" },
+      { "word": "predominant", "de": "vorherrschend / überwiegend" }
+    ],
+    "word_family": [
+      { "word": "dominate", "pos": "verb", "de": "dominieren / beherrschen" },
+      { "word": "dominance", "pos": "noun", "de": "Vorherrschaft / Dominanz" },
+      { "word": "domination", "pos": "noun", "de": "Beherrschung / Herrschaft" },
+      { "word": "dominantly", "pos": "adv", "de": "überwiegend / hauptsächlich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl19_enhance_06",
+    "word": "enhance",
+    "group": "AWL19",
+    "group_label": "Academic Word List – Sublist 19",
+    "pos": "verb",
+    "translations": { "de": "verbessern / steigern / erhöhen" },
+    "examples": [
+      {
+        "en": "Regular exercise can significantly enhance cognitive performance in older adults.",
+        "de": "Regelmäßige körperliche Betätigung kann die kognitive Leistungsfähigkeit älterer Erwachsener erheblich verbessern."
+      },
+      {
+        "en": "The new software update enhances security and adds several useful features.",
+        "de": "Das neue Software-Update verbessert die Sicherheit und fügt mehrere nützliche Funktionen hinzu."
+      }
+    ],
+    "opposite": {
+      "en": "diminish",
+      "de": "verringern / mindern",
+      "example_en": "Poor communication can diminish trust between team members.",
+      "example_de": "Schlechte Kommunikation kann das Vertrauen zwischen Teammitgliedern verringern."
+    },
+    "synonyms": [
+      { "word": "improve", "de": "verbessern" },
+      { "word": "boost", "de": "steigern / ankurbeln" },
+      { "word": "augment", "de": "vergrößern / ergänzen" }
+    ],
+    "word_family": [
+      { "word": "enhancement", "pos": "noun", "de": "Verbesserung / Steigerung" },
+      { "word": "enhanced", "pos": "adj", "de": "verbessert / gesteigert" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl19_facilitate_07",
+    "word": "facilitate",
+    "group": "AWL19",
+    "group_label": "Academic Word List – Sublist 19",
+    "pos": "verb",
+    "translations": { "de": "erleichtern / ermöglichen / fördern" },
+    "examples": [
+      {
+        "en": "Digital tools can facilitate collaboration between researchers in different countries.",
+        "de": "Digitale Werkzeuge können die Zusammenarbeit zwischen Forschern in verschiedenen Ländern erleichtern."
+      },
+      {
+        "en": "The mediator was brought in to facilitate negotiations between the two parties.",
+        "de": "Der Vermittler wurde hinzugezogen, um die Verhandlungen zwischen den beiden Parteien zu erleichtern."
+      }
+    ],
+    "opposite": {
+      "en": "hinder",
+      "de": "behindern / erschweren",
+      "example_en": "Bureaucratic procedures often hinder rather than help scientific progress.",
+      "example_de": "Bürokratische Verfahren behindern den wissenschaftlichen Fortschritt oft mehr, als sie ihn fördern."
+    },
+    "synonyms": [
+      { "word": "enable", "de": "ermöglichen / befähigen" },
+      { "word": "assist", "de": "helfen / unterstützen" },
+      { "word": "promote", "de": "fördern / begünstigen" }
+    ],
+    "word_family": [
+      { "word": "facilitation", "pos": "noun", "de": "Erleichterung / Förderung" },
+      { "word": "facilitator", "pos": "noun", "de": "Moderator / Facilitator" },
+      { "word": "facilitative", "pos": "adj", "de": "förderlich / unterstützend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl19_fluctuate_08",
+    "word": "fluctuate",
+    "group": "AWL19",
+    "group_label": "Academic Word List – Sublist 19",
+    "pos": "verb",
+    "translations": { "de": "schwanken / fluktuieren / variieren" },
+    "examples": [
+      {
+        "en": "Oil prices fluctuate in response to changes in global supply and demand.",
+        "de": "Ölpreise schwanken in Reaktion auf Veränderungen des weltweiten Angebots und der Nachfrage."
+      },
+      {
+        "en": "The patient's temperature continued to fluctuate throughout the night.",
+        "de": "Die Körpertemperatur des Patienten schwankte die ganze Nacht über."
+      }
+    ],
+    "opposite": {
+      "en": "stabilise",
+      "de": "stabilisieren / sich einpendeln",
+      "example_en": "After months of volatility, the exchange rate finally began to stabilise.",
+      "example_de": "Nach monatelanger Volatilität begann der Wechselkurs sich endlich zu stabilisieren."
+    },
+    "synonyms": [
+      { "word": "vary", "de": "variieren / schwanken" },
+      { "word": "oscillate", "de": "oszillieren / pendeln" },
+      { "word": "waver", "de": "schwanken / zögern" }
+    ],
+    "word_family": [
+      { "word": "fluctuation", "pos": "noun", "de": "Schwankung / Fluktuation" },
+      { "word": "fluctuating", "pos": "adj", "de": "schwankend / wechselnd" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl19_generate_09",
+    "word": "generate",
+    "group": "AWL19",
+    "group_label": "Academic Word List – Sublist 19",
+    "pos": "verb",
+    "translations": { "de": "erzeugen / generieren / hervorbringen" },
+    "examples": [
+      {
+        "en": "Wind turbines generate electricity without producing greenhouse gas emissions.",
+        "de": "Windturbinen erzeugen Strom, ohne Treibhausgasemissionen zu verursachen."
+      },
+      {
+        "en": "The study generated a great deal of interest among specialists in the field.",
+        "de": "Die Studie erzeugte großes Interesse unter Fachleuten auf dem Gebiet."
+      }
+    ],
+    "opposite": {
+      "en": "consume",
+      "de": "verbrauchen / konsumieren",
+      "example_en": "Older appliances consume far more energy than modern equivalents.",
+      "example_de": "Ältere Haushaltsgeräte verbrauchen weit mehr Energie als moderne Äquivalente."
+    },
+    "synonyms": [
+      { "word": "produce", "de": "erzeugen / herstellen" },
+      { "word": "create", "de": "erschaffen / erzeugen" },
+      { "word": "yield", "de": "hervorbringen / erbringen" }
+    ],
+    "word_family": [
+      { "word": "generation", "pos": "noun", "de": "Erzeugung / Generation" },
+      { "word": "generator", "pos": "noun", "de": "Generator / Erzeuger" },
+      { "word": "generative", "pos": "adj", "de": "generativ / erzeugend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl19_hypothesis_10",
+    "word": "hypothesis",
+    "group": "AWL19",
+    "group_label": "Academic Word List – Sublist 19",
+    "pos": "noun",
+    "translations": { "de": "Hypothese / Annahme / These" },
+    "examples": [
+      {
+        "en": "The experiment was designed to test the hypothesis that sleep deprivation impairs decision-making.",
+        "de": "Das Experiment wurde durchgeführt, um die Hypothese zu testen, dass Schlafentzug die Entscheidungsfindung beeinträchtigt."
+      },
+      {
+        "en": "Without supporting evidence, the hypothesis remains speculative.",
+        "de": "Ohne stützende Belege bleibt die Hypothese spekulativ."
+      }
+    ],
+    "opposite": {
+      "en": "conclusion",
+      "de": "Schlussfolgerung / Ergebnis",
+      "example_en": "The conclusion drawn from the data contradicted the original hypothesis.",
+      "example_de": "Die aus den Daten gezogene Schlussfolgerung widersprach der ursprünglichen Hypothese."
+    },
+    "synonyms": [
+      { "word": "theory", "de": "Theorie / Ansatz" },
+      { "word": "proposition", "de": "Annahme / These" },
+      { "word": "assumption", "de": "Annahme / Voraussetzung" }
+    ],
+    "word_family": [
+      { "word": "hypothesise", "pos": "verb", "de": "eine Hypothese aufstellen" },
+      { "word": "hypothetical", "pos": "adj", "de": "hypothetisch / angenommen" },
+      { "word": "hypothetically", "pos": "adv", "de": "hypothetisch gesehen" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl19_implicit_11",
+    "word": "implicit",
+    "group": "AWL19",
+    "group_label": "Academic Word List – Sublist 19",
+    "pos": "adjective",
+    "translations": { "de": "implizit / stillschweigend / unausgesprochen" },
+    "examples": [
+      {
+        "en": "There was an implicit agreement among team members not to discuss the issue publicly.",
+        "de": "Es gab eine stillschweigende Übereinkunft unter den Teammitgliedern, das Thema nicht öffentlich zu diskutieren."
+      },
+      {
+        "en": "The implicit assumption in this argument is that economic growth always benefits everyone.",
+        "de": "Die implizite Annahme in diesem Argument ist, dass Wirtschaftswachstum immer allen zugute kommt."
+      }
+    ],
+    "opposite": {
+      "en": "explicit",
+      "de": "explizit / ausdrücklich / eindeutig",
+      "example_en": "The contract contains explicit clauses about intellectual property rights.",
+      "example_de": "Der Vertrag enthält explizite Klauseln zu den Rechten am geistigen Eigentum."
+    },
+    "synonyms": [
+      { "word": "implied", "de": "impliziert / angedeutet" },
+      { "word": "unspoken", "de": "unausgesprochen / stillschweigend" },
+      { "word": "tacit", "de": "stillschweigend / unausgesprochen" }
+    ],
+    "word_family": [
+      { "word": "implicitly", "pos": "adv", "de": "implizit / stillschweigend" },
+      { "word": "imply", "pos": "verb", "de": "andeuten / implizieren" },
+      { "word": "implication", "pos": "noun", "de": "Implikation / Folge" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl19_integrate_12",
+    "word": "integrate",
+    "group": "AWL19",
+    "group_label": "Academic Word List – Sublist 19",
+    "pos": "verb",
+    "translations": { "de": "integrieren / eingliedern / zusammenführen" },
+    "examples": [
+      {
+        "en": "The new curriculum integrates digital literacy skills across all subject areas.",
+        "de": "Der neue Lehrplan integriert digitale Kompetenz in alle Fachbereiche."
+      },
+      {
+        "en": "It took several months to fully integrate the acquired company into the existing structure.",
+        "de": "Es dauerte mehrere Monate, das übernommene Unternehmen vollständig in die bestehende Struktur einzugliedern."
+      }
+    ],
+    "opposite": {
+      "en": "segregate",
+      "de": "trennen / absondern",
+      "example_en": "The policy historically served to segregate rather than unite communities.",
+      "example_de": "Die Politik diente historisch dazu, Gemeinschaften zu trennen, anstatt sie zu vereinen."
+    },
+    "synonyms": [
+      { "word": "incorporate", "de": "einbeziehen / aufnehmen" },
+      { "word": "merge", "de": "zusammenführen / verschmelzen" },
+      { "word": "combine", "de": "verbinden / kombinieren" }
+    ],
+    "word_family": [
+      { "word": "integration", "pos": "noun", "de": "Integration / Eingliederung" },
+      { "word": "integrated", "pos": "adj", "de": "integriert / zusammengeführt" },
+      { "word": "integrity", "pos": "noun", "de": "Integrität / Vollständigkeit" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl19_monitor_13",
+    "word": "monitor",
+    "group": "AWL19",
+    "group_label": "Academic Word List – Sublist 19",
+    "pos": "verb",
+    "translations": { "de": "überwachen / beobachten / kontrollieren" },
+    "examples": [
+      {
+        "en": "Scientists use satellites to monitor changes in Arctic ice coverage over time.",
+        "de": "Wissenschaftler nutzen Satelliten, um Veränderungen in der arktischen Eisbedeckung im Laufe der Zeit zu überwachen."
+      },
+      {
+        "en": "The hospital continuously monitors patients' vital signs during surgery.",
+        "de": "Das Krankenhaus überwacht die Vitalzeichen der Patienten während der Operation kontinuierlich."
+      }
+    ],
+    "opposite": {
+      "en": "neglect",
+      "de": "vernachlässigen / außer Acht lassen",
+      "example_en": "To neglect early warning signs is to risk a far more serious outcome.",
+      "example_de": "Frühwarnsignale zu vernachlässigen bedeutet, ein weitaus ernsthafteres Ergebnis zu riskieren."
+    },
+    "synonyms": [
+      { "word": "observe", "de": "beobachten / überwachen" },
+      { "word": "track", "de": "verfolgen / aufzeichnen" },
+      { "word": "supervise", "de": "beaufsichtigen / kontrollieren" }
+    ],
+    "word_family": [
+      { "word": "monitoring", "pos": "noun", "de": "Überwachung / Kontrolle" },
+      { "word": "monitor", "pos": "noun", "de": "Monitor / Bildschirm / Aufseher" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl19_outcome_14",
+    "word": "outcome",
+    "group": "AWL19",
+    "group_label": "Academic Word List – Sublist 19",
+    "pos": "noun",
+    "translations": { "de": "Ergebnis / Resultat / Ausgang" },
+    "examples": [
+      {
+        "en": "The outcome of the trial will have significant implications for future legislation.",
+        "de": "Das Ergebnis des Verfahrens wird erhebliche Auswirkungen auf künftige Gesetzgebung haben."
+      },
+      {
+        "en": "Researchers tracked patient outcomes over a five-year period.",
+        "de": "Die Forscher verfolgten die Behandlungsergebnisse der Patienten über einen Zeitraum von fünf Jahren."
+      }
+    ],
+    "opposite": {
+      "en": "input",
+      "de": "Eingabe / Aufwand / Beitrag",
+      "example_en": "Without adequate input from stakeholders, the outcome is unlikely to meet expectations.",
+      "example_de": "Ohne ausreichenden Beitrag der Beteiligten wird das Ergebnis die Erwartungen kaum erfüllen."
+    },
+    "synonyms": [
+      { "word": "result", "de": "Ergebnis / Resultat" },
+      { "word": "consequence", "de": "Konsequenz / Folge" },
+      { "word": "output", "de": "Ausgabe / Ergebnis" }
+    ],
+    "word_family": [],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl19_parameter_15",
+    "word": "parameter",
+    "group": "AWL19",
+    "group_label": "Academic Word List – Sublist 19",
+    "pos": "noun",
+    "translations": { "de": "Parameter / Rahmen / Grenzwert" },
+    "examples": [
+      {
+        "en": "The study was conducted within strict ethical parameters set by the review board.",
+        "de": "Die Studie wurde innerhalb strenger ethischer Parameter durchgeführt, die vom Prüfungsausschuss festgelegt wurden."
+      },
+      {
+        "en": "Adjusting a single parameter can dramatically change the model's predictions.",
+        "de": "Die Anpassung eines einzigen Parameters kann die Vorhersagen des Modells erheblich verändern."
+      }
+    ],
+    "opposite": {
+      "en": "freedom",
+      "de": "Freiheit / Spielraum",
+      "example_en": "Outside the lab, engineers have more freedom to experiment without fixed parameters.",
+      "example_de": "Außerhalb des Labors haben Ingenieure mehr Spielraum zum Experimentieren ohne feste Parameter."
+    },
+    "synonyms": [
+      { "word": "boundary", "de": "Grenze / Rahmen" },
+      { "word": "variable", "de": "Variable / Größe" },
+      { "word": "constraint", "de": "Einschränkung / Randbedingung" }
+    ],
+    "word_family": [
+      { "word": "parametric", "pos": "adj", "de": "parametrisch" },
+      { "word": "parameterize", "pos": "verb", "de": "parametrisieren" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl19_relevant_16",
+    "word": "relevant",
+    "group": "AWL19",
+    "group_label": "Academic Word List – Sublist 19",
+    "pos": "adjective",
+    "translations": { "de": "relevant / bedeutsam / einschlägig" },
+    "examples": [
+      {
+        "en": "Only evidence directly relevant to the research question should be included in the review.",
+        "de": "In die Übersicht sollten nur Belege aufgenommen werden, die direkt für die Forschungsfrage relevant sind."
+      },
+      {
+        "en": "The professor asked students to identify the most relevant sources for their essays.",
+        "de": "Die Professorin bat die Studierenden, die relevantesten Quellen für ihre Aufsätze zu identifizieren."
+      }
+    ],
+    "opposite": {
+      "en": "irrelevant",
+      "de": "irrelevant / unerheblich",
+      "example_en": "Details that are irrelevant to the main argument should be cut from the final draft.",
+      "example_de": "Details, die für das Hauptargument irrelevant sind, sollten aus der endgültigen Fassung gestrichen werden."
+    },
+    "synonyms": [
+      { "word": "pertinent", "de": "einschlägig / sachdienlich" },
+      { "word": "applicable", "de": "anwendbar / zutreffend" },
+      { "word": "significant", "de": "bedeutsam / wichtig" }
+    ],
+    "word_family": [
+      { "word": "relevance", "pos": "noun", "de": "Relevanz / Bedeutung" },
+      { "word": "relevancy", "pos": "noun", "de": "Relevanz / Einschlägigkeit" },
+      { "word": "relevantly", "pos": "adv", "de": "in relevanter Weise" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl19_simulate_17",
+    "word": "simulate",
+    "group": "AWL19",
+    "group_label": "Academic Word List – Sublist 19",
+    "pos": "verb",
+    "translations": { "de": "simulieren / nachbilden / nachahmen" },
+    "examples": [
+      {
+        "en": "Engineers use computer models to simulate the effects of earthquakes on building structures.",
+        "de": "Ingenieure verwenden Computermodelle, um die Auswirkungen von Erdbeben auf Gebäudestrukturen zu simulieren."
+      },
+      {
+        "en": "The training programme simulates real-world emergency scenarios in a controlled environment.",
+        "de": "Das Trainingsprogramm simuliert reale Notfallszenarien in einer kontrollierten Umgebung."
+      }
+    ],
+    "opposite": {
+      "en": "implement",
+      "de": "umsetzen / realisieren",
+      "example_en": "At some point it is necessary to move from simulation to full implementation.",
+      "example_de": "Irgendwann ist es notwendig, von der Simulation zur vollständigen Umsetzung überzugehen."
+    },
+    "synonyms": [
+      { "word": "model", "de": "modellieren / abbilden" },
+      { "word": "replicate", "de": "replizieren / nachbilden" },
+      { "word": "imitate", "de": "imitieren / nachahmen" }
+    ],
+    "word_family": [
+      { "word": "simulation", "pos": "noun", "de": "Simulation / Nachbildung" },
+      { "word": "simulator", "pos": "noun", "de": "Simulator" },
+      { "word": "simulated", "pos": "adj", "de": "simuliert / künstlich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl19_specify_18",
+    "word": "specify",
+    "group": "AWL19",
+    "group_label": "Academic Word List – Sublist 19",
+    "pos": "verb",
+    "translations": { "de": "angeben / festlegen / spezifizieren" },
+    "examples": [
+      {
+        "en": "The contract clearly specifies the conditions under which either party may withdraw.",
+        "de": "Der Vertrag legt klar die Bedingungen fest, unter denen jede der Parteien zurücktreten darf."
+      },
+      {
+        "en": "The guidelines do not specify how the data should be stored or formatted.",
+        "de": "Die Richtlinien geben nicht an, wie die Daten gespeichert oder formatiert werden sollen."
+      }
+    ],
+    "opposite": {
+      "en": "generalise",
+      "de": "verallgemeinern / pauschalieren",
+      "example_en": "Scientists must not generalise from a single case without broader supporting data.",
+      "example_de": "Wissenschaftler dürfen nicht von einem einzelnen Fall ohne umfassendere Belege verallgemeinern."
+    },
+    "synonyms": [
+      { "word": "stipulate", "de": "vorschreiben / festlegen" },
+      { "word": "define", "de": "definieren / bestimmen" },
+      { "word": "state", "de": "angeben / darlegen" }
+    ],
+    "word_family": [
+      { "word": "specification", "pos": "noun", "de": "Spezifikation / Angabe" },
+      { "word": "specific", "pos": "adj", "de": "spezifisch / genau" },
+      { "word": "specifically", "pos": "adv", "de": "spezifisch / ausdrücklich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl19_underlying_19",
+    "word": "underlying",
+    "group": "AWL19",
+    "group_label": "Academic Word List – Sublist 19",
+    "pos": "adjective",
+    "translations": { "de": "zugrunde liegend / eigentlich / grundlegend" },
+    "examples": [
+      {
+        "en": "Treating the symptoms without addressing the underlying cause is rarely effective.",
+        "de": "Die Symptome zu behandeln, ohne die zugrunde liegende Ursache anzugehen, ist selten wirksam."
+      },
+      {
+        "en": "The report examined the underlying economic factors contributing to social inequality.",
+        "de": "Der Bericht untersuchte die grundlegenden wirtschaftlichen Faktoren, die zur sozialen Ungleichheit beitragen."
+      }
+    ],
+    "opposite": {
+      "en": "surface",
+      "de": "oberflächlich / äußerlich",
+      "example_en": "A surface reading of the text misses the deeper philosophical argument it contains.",
+      "example_de": "Eine oberflächliche Lektüre des Textes übersieht das tiefere philosophische Argument, das er enthält."
+    },
+    "synonyms": [
+      { "word": "fundamental", "de": "grundlegend / wesentlich" },
+      { "word": "root", "de": "eigentlich / grundlegend (attr.)" },
+      { "word": "core", "de": "zentral / grundlegend" }
+    ],
+    "word_family": [
+      { "word": "underlie", "pos": "verb", "de": "zugrunde liegen" },
+      { "word": "underlined", "pos": "adj", "de": "unterstrichen / betont" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "underlie", "de": "zugrunde liegen", "example": "Several assumptions underlie this theoretical framework." }
+    ]
+  },
+  {
+    "id": "awl19_viable_20",
+    "word": "viable",
+    "group": "AWL19",
+    "group_label": "Academic Word List – Sublist 19",
+    "pos": "adjective",
+    "translations": { "de": "durchführbar / lebensfähig / realisierbar" },
+    "examples": [
+      {
+        "en": "Solar energy has become a commercially viable alternative to fossil fuels.",
+        "de": "Solarenergie hat sich zu einer kommerziell rentablen Alternative zu fossilen Brennstoffen entwickelt."
+      },
+      {
+        "en": "The committee must determine whether the proposed solution is technically viable.",
+        "de": "Der Ausschuss muss feststellen, ob die vorgeschlagene Lösung technisch durchführbar ist."
+      }
+    ],
+    "opposite": {
+      "en": "unviable",
+      "de": "nicht durchführbar / nicht lebensfähig",
+      "example_en": "Without further investment, the project became economically unviable.",
+      "example_de": "Ohne weitere Investitionen wurde das Projekt wirtschaftlich nicht mehr durchführbar."
+    },
+    "synonyms": [
+      { "word": "feasible", "de": "machbar / durchführbar" },
+      { "word": "workable", "de": "umsetzbar / praktikabel" },
+      { "word": "sustainable", "de": "nachhaltig / tragfähig" }
+    ],
+    "word_family": [
+      { "word": "viability", "pos": "noun", "de": "Durchführbarkeit / Lebensfähigkeit" },
+      { "word": "viably", "pos": "adv", "de": "auf durchführbare Weise" }
+    ],
+    "phrasal_verbs": []
+  }
+]
