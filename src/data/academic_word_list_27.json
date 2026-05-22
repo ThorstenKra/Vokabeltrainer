@@ -1,0 +1,714 @@
+[
+  {
+    "id": "awl27_access_01",
+    "word": "access",
+    "group": "AWL27",
+    "group_label": "Academic Word List – Sublist 27",
+    "pos": "verb",
+    "translations": { "de": "zugreifen auf / Zugang haben zu / erschließen" },
+    "examples": [
+      {
+        "en": "Researchers in low-income countries often struggle to access paywalled academic journals.",
+        "de": "Forscher in Ländern mit niedrigem Einkommen haben oft Schwierigkeiten, auf kostenpflichtige wissenschaftliche Zeitschriften zuzugreifen."
+      },
+      {
+        "en": "The dataset can be accessed via the open repository linked in the paper.",
+        "de": "Auf den Datensatz kann über das im Artikel verlinkte offene Repository zugegriffen werden."
+      }
+    ],
+    "opposite": {
+      "en": "restrict",
+      "de": "einschränken / sperren / den Zugang verweigern",
+      "example_en": "Governments sometimes restrict access to data for reasons of national security.",
+      "example_de": "Regierungen schränken manchmal aus Gründen der nationalen Sicherheit den Zugang zu Daten ein."
+    },
+    "synonyms": [
+      { "word": "obtain", "de": "erhalten / erlangen" },
+      { "word": "retrieve", "de": "abrufen / abfragen" },
+      { "word": "reach", "de": "erreichen / zugreifen auf" }
+    ],
+    "word_family": [
+      { "word": "access", "pos": "noun", "de": "Zugang / Zugriff / Erschließung" },
+      { "word": "accessible", "pos": "adj", "de": "zugänglich / erreichbar" },
+      { "word": "inaccessible", "pos": "adj", "de": "unzugänglich / nicht erreichbar" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "access to", "de": "Zugang zu / Zugriff auf", "example": "Ensuring equitable access to healthcare remains a central challenge for governments worldwide." }
+    ]
+  },
+  {
+    "id": "awl27_accurate_02",
+    "word": "accurate",
+    "group": "AWL27",
+    "group_label": "Academic Word List – Sublist 27",
+    "pos": "adjective",
+    "translations": { "de": "genau / korrekt / präzise / zutreffend" },
+    "examples": [
+      {
+        "en": "It is essential that data collected in the field are recorded as accurately as possible.",
+        "de": "Es ist unerlässlich, dass im Feld gesammelte Daten so genau wie möglich aufgezeichnet werden."
+      },
+      {
+        "en": "The model provides an accurate representation of market behaviour under stable conditions.",
+        "de": "Das Modell liefert eine genaue Darstellung des Marktverhaltens unter stabilen Bedingungen."
+      }
+    ],
+    "opposite": {
+      "en": "inaccurate",
+      "de": "ungenau / fehlerhaft / inkorrekt",
+      "example_en": "Inaccurate measurement at baseline can invalidate all subsequent findings.",
+      "example_de": "Ungenaue Messungen zu Beginn können alle nachfolgenden Ergebnisse entwerten."
+    },
+    "synonyms": [
+      { "word": "precise", "de": "präzise / genau" },
+      { "word": "correct", "de": "korrekt / richtig" },
+      { "word": "exact", "de": "exakt / genau" }
+    ],
+    "word_family": [
+      { "word": "accurately", "pos": "adv", "de": "genau / korrekt / präzise" },
+      { "word": "accuracy", "pos": "noun", "de": "Genauigkeit / Korrektheit / Präzision" },
+      { "word": "inaccuracy", "pos": "noun", "de": "Ungenauigkeit / Fehler" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl27_achieve_03",
+    "word": "achieve",
+    "group": "AWL27",
+    "group_label": "Academic Word List – Sublist 27",
+    "pos": "verb",
+    "translations": { "de": "erreichen / erzielen / verwirklichen" },
+    "examples": [
+      {
+        "en": "The programme aims to achieve measurable improvements in literacy rates within five years.",
+        "de": "Das Programm zielt darauf ab, innerhalb von fünf Jahren messbare Verbesserungen der Alphabetisierungsraten zu erzielen."
+      },
+      {
+        "en": "Achieving consensus among stakeholders with conflicting interests is rarely straightforward.",
+        "de": "Einen Konsens unter Interessengruppen mit widerstreitenden Interessen zu erzielen ist selten einfach."
+      }
+    ],
+    "opposite": {
+      "en": "fail",
+      "de": "scheitern / versagen / verfehlen",
+      "example_en": "Initiatives that fail to engage local communities are unlikely to achieve lasting change.",
+      "example_de": "Initiativen, denen es nicht gelingt, lokale Gemeinschaften einzubeziehen, werden kaum dauerhaften Wandel erzielen."
+    },
+    "synonyms": [
+      { "word": "attain", "de": "erreichen / erlangen" },
+      { "word": "accomplish", "de": "vollbringen / verwirklichen" },
+      { "word": "realise", "de": "verwirklichen / umsetzen" }
+    ],
+    "word_family": [
+      { "word": "achievement", "pos": "noun", "de": "Leistung / Errungenschaft / Ergebnis" },
+      { "word": "achievable", "pos": "adj", "de": "erreichbar / realisierbar" },
+      { "word": "high-achieving", "pos": "adj", "de": "leistungsstark / überdurchschnittlich" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl27_adapt_04",
+    "word": "adapt",
+    "group": "AWL27",
+    "group_label": "Academic Word List – Sublist 27",
+    "pos": "verb",
+    "translations": { "de": "anpassen / adaptieren / sich anpassen" },
+    "examples": [
+      {
+        "en": "Species that cannot adapt quickly enough to changing climatic conditions face extinction.",
+        "de": "Arten, die sich nicht schnell genug an veränderte klimatische Bedingungen anpassen können, sind vom Aussterben bedroht."
+      },
+      {
+        "en": "The curriculum was adapted to better reflect the needs of non-native speakers.",
+        "de": "Der Lehrplan wurde angepasst, um den Bedürfnissen von Nicht-Muttersprachlern besser gerecht zu werden."
+      }
+    ],
+    "opposite": {
+      "en": "resist",
+      "de": "widerstehen / sich widersetzen / starr bleiben",
+      "example_en": "Organisations that resist change rather than adapt to it risk becoming obsolete.",
+      "example_de": "Organisationen, die Veränderungen widerstehen statt sich anzupassen, riskieren es, obsolet zu werden."
+    },
+    "synonyms": [
+      { "word": "adjust", "de": "anpassen / justieren" },
+      { "word": "modify", "de": "modifizieren / abändern" },
+      { "word": "tailor", "de": "anpassen / zuschneiden" }
+    ],
+    "word_family": [
+      { "word": "adaptation", "pos": "noun", "de": "Anpassung / Adaptation" },
+      { "word": "adaptable", "pos": "adj", "de": "anpassungsfähig / flexibel" },
+      { "word": "adaptive", "pos": "adj", "de": "adaptiv / anpassend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl27_argue_05",
+    "word": "argue",
+    "group": "AWL27",
+    "group_label": "Academic Word List – Sublist 27",
+    "pos": "verb",
+    "translations": { "de": "argumentieren / darlegen / behaupten" },
+    "examples": [
+      {
+        "en": "The author argues that current approaches to welfare reform are fundamentally misguided.",
+        "de": "Der Autor argumentiert, dass aktuelle Ansätze zur Sozialreform grundlegend verfehlt sind."
+      },
+      {
+        "en": "It can be argued that economic inequality is both a cause and a consequence of political instability.",
+        "de": "Es kann argumentiert werden, dass wirtschaftliche Ungleichheit sowohl Ursache als auch Folge politischer Instabilität ist."
+      }
+    ],
+    "opposite": {
+      "en": "concede",
+      "de": "einräumen / zugeben / zugestehen",
+      "example_en": "A strong academic argument must also be willing to concede limitations and opposing views.",
+      "example_de": "Ein starkes akademisches Argument muss auch bereit sein, Einschränkungen und Gegenmeinungen einzuräumen."
+    },
+    "synonyms": [
+      { "word": "contend", "de": "vertreten / behaupten" },
+      { "word": "maintain", "de": "aufrechterhalten / vertreten" },
+      { "word": "reason", "de": "schlussfolgern / argumentieren" }
+    ],
+    "word_family": [
+      { "word": "argument", "pos": "noun", "de": "Argument / Argumentation / Streit" },
+      { "word": "argumentative", "pos": "adj", "de": "argumentativ / streitlustig" },
+      { "word": "arguable", "pos": "adj", "de": "diskutabel / argumentierbar" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl27_basis_06",
+    "word": "basis",
+    "group": "AWL27",
+    "group_label": "Academic Word List – Sublist 27",
+    "pos": "noun",
+    "translations": { "de": "Grundlage / Basis / Ausgangspunkt" },
+    "examples": [
+      {
+        "en": "The conclusions were drawn on the basis of data collected over a ten-year period.",
+        "de": "Die Schlussfolgerungen wurden auf der Grundlage von Daten gezogen, die über einen Zeitraum von zehn Jahren gesammelt wurden."
+      },
+      {
+        "en": "There is no empirical basis for the claim that the intervention is universally effective.",
+        "de": "Es gibt keine empirische Grundlage für die Behauptung, dass die Maßnahme universell wirksam ist."
+      }
+    ],
+    "opposite": {
+      "en": "absence of foundation",
+      "de": "Fehlen einer Grundlage / Grundlosigkeit",
+      "example_en": "A claim made without any evidential basis lacks credibility in academic discourse.",
+      "example_de": "Eine Behauptung, die ohne jede Grundlage gemacht wird, entbehrt der Glaubwürdigkeit im akademischen Diskurs."
+    },
+    "synonyms": [
+      { "word": "foundation", "de": "Grundlage / Fundament" },
+      { "word": "grounding", "de": "Grundlage / Fundierung" },
+      { "word": "rationale", "de": "Begründung / Grundlage" }
+    ],
+    "word_family": [
+      { "word": "base", "pos": "noun/verb", "de": "Basis / stützen auf" },
+      { "word": "basic", "pos": "adj", "de": "grundlegend / elementar" },
+      { "word": "baseline", "pos": "noun", "de": "Ausgangswert / Bezugswert" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "on the basis of", "de": "auf der Grundlage von / basierend auf", "example": "Participants were selected on the basis of age, gender, and educational background." }
+    ]
+  },
+  {
+    "id": "awl27_benefit_07",
+    "word": "benefit",
+    "group": "AWL27",
+    "group_label": "Academic Word List – Sublist 27",
+    "pos": "verb",
+    "translations": { "de": "profitieren von / nützen / begünstigen" },
+    "examples": [
+      {
+        "en": "Children who attend early childhood programmes benefit significantly in later academic performance.",
+        "de": "Kinder, die frühkindliche Programme besuchen, profitieren erheblich bei der späteren schulischen Leistung."
+      },
+      {
+        "en": "The study examines who benefits most from access to digital health services.",
+        "de": "Die Studie untersucht, wer am meisten von Zugang zu digitalen Gesundheitsdiensten profitiert."
+      }
+    ],
+    "opposite": {
+      "en": "harm",
+      "de": "schaden / beeinträchtigen",
+      "example_en": "Policies that benefit one group can inadvertently harm another if designed without careful analysis.",
+      "example_de": "Politiken, die einer Gruppe nützen, können einer anderen schaden, wenn sie ohne sorgfältige Analyse gestaltet werden."
+    },
+    "synonyms": [
+      { "word": "gain from", "de": "profitieren von / Nutzen ziehen aus" },
+      { "word": "profit from", "de": "profitieren von" },
+      { "word": "be advantaged by", "de": "begünstigt werden durch" }
+    ],
+    "word_family": [
+      { "word": "benefit", "pos": "noun", "de": "Vorteil / Nutzen / Leistung" },
+      { "word": "beneficial", "pos": "adj", "de": "vorteilhaft / nützlich / förderlich" },
+      { "word": "beneficiary", "pos": "noun", "de": "Nutznießer / Begünstigter" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "benefit from", "de": "profitieren von / Nutzen ziehen aus", "example": "Developing nations benefit disproportionately from technology transfer programmes." }
+    ]
+  },
+  {
+    "id": "awl27_characterise_08",
+    "word": "characterise",
+    "group": "AWL27",
+    "group_label": "Academic Word List – Sublist 27",
+    "pos": "verb",
+    "translations": { "de": "charakterisieren / kennzeichnen / beschreiben" },
+    "examples": [
+      {
+        "en": "The period is characterised by rapid technological change and widespread social disruption.",
+        "de": "Die Periode ist durch rasanten technologischen Wandel und weit verbreitete gesellschaftliche Umbrüche gekennzeichnet."
+      },
+      {
+        "en": "The author characterises the policy as a short-term solution to a long-term structural problem.",
+        "de": "Der Autor charakterisiert die Politik als kurzfristige Lösung für ein langfristiges Strukturproblem."
+      }
+    ],
+    "opposite": {
+      "en": "misrepresent",
+      "de": "falsch darstellen / verzerren",
+      "example_en": "It is important not to misrepresent opposing views when characterising a debate.",
+      "example_de": "Es ist wichtig, gegenteilige Meinungen nicht falsch darzustellen, wenn man eine Debatte charakterisiert."
+    },
+    "synonyms": [
+      { "word": "define", "de": "definieren / kennzeichnen" },
+      { "word": "describe", "de": "beschreiben / schildern" },
+      { "word": "typify", "de": "kennzeichnen / charakterisieren" }
+    ],
+    "word_family": [
+      { "word": "characteristic", "pos": "noun/adj", "de": "Merkmal / charakteristisch" },
+      { "word": "characteristically", "pos": "adv", "de": "charakteristischerweise / typischerweise" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl27_collect_09",
+    "word": "collect",
+    "group": "AWL27",
+    "group_label": "Academic Word List – Sublist 27",
+    "pos": "verb",
+    "translations": { "de": "sammeln / erheben / erfassen" },
+    "examples": [
+      {
+        "en": "Data were collected using a structured questionnaire administered to 500 participants.",
+        "de": "Daten wurden mithilfe eines strukturierten Fragebogens erhoben, der 500 Teilnehmern vorgelegt wurde."
+      },
+      {
+        "en": "The archive collects primary sources related to migration in the twentieth century.",
+        "de": "Das Archiv sammelt Primärquellen zur Migration im zwanzigsten Jahrhundert."
+      }
+    ],
+    "opposite": {
+      "en": "discard",
+      "de": "verwerfen / wegwerfen / aussondern",
+      "example_en": "Researchers must be transparent about why they choose to discard certain data rather than collect everything.",
+      "example_de": "Forscher müssen transparent machen, warum sie bestimmte Daten verwerfen, anstatt alles zu sammeln."
+    },
+    "synonyms": [
+      { "word": "gather", "de": "sammeln / zusammentragen" },
+      { "word": "compile", "de": "zusammenstellen / zusammentragen" },
+      { "word": "obtain", "de": "erhalten / gewinnen" }
+    ],
+    "word_family": [
+      { "word": "collection", "pos": "noun", "de": "Sammlung / Erhebung / Erfassung" },
+      { "word": "collective", "pos": "adj", "de": "kollektiv / gemeinschaftlich" },
+      { "word": "data collection", "pos": "noun", "de": "Datenerhebung / Datenerfassung" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl27_concern_10",
+    "word": "concern",
+    "group": "AWL27",
+    "group_label": "Academic Word List – Sublist 27",
+    "pos": "verb",
+    "translations": { "de": "betreffen / angehen / sich befassen mit" },
+    "examples": [
+      {
+        "en": "This chapter concerns the relationship between institutional trust and civic participation.",
+        "de": "Dieses Kapitel befasst sich mit dem Zusammenhang zwischen institutionellem Vertrauen und bürgerschaftlicher Beteiligung."
+      },
+      {
+        "en": "The findings raise ethical questions that concern all stakeholders involved in the project.",
+        "de": "Die Erkenntnisse werfen ethische Fragen auf, die alle am Projekt beteiligten Interessengruppen betreffen."
+      }
+    ],
+    "opposite": {
+      "en": "be irrelevant to",
+      "de": "nichts zu tun haben mit / irrelevant sein für",
+      "example_en": "Some objections raised in the debate are irrelevant to the specific argument being advanced.",
+      "example_de": "Einige in der Debatte erhobene Einwände sind für das spezifische vorgebrachte Argument irrelevant."
+    },
+    "synonyms": [
+      { "word": "relate to", "de": "sich beziehen auf / betreffen" },
+      { "word": "pertain to", "de": "betreffen / sich beziehen auf" },
+      { "word": "involve", "de": "beinhalten / betreffen" }
+    ],
+    "word_family": [
+      { "word": "concern", "pos": "noun", "de": "Anliegen / Bedenken / Sorge" },
+      { "word": "concerning", "pos": "adj/prep", "de": "beunruhigend / bezüglich" },
+      { "word": "concerned", "pos": "adj", "de": "betreffend / besorgt" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "as far as X is concerned", "de": "was X betrifft / in Bezug auf X", "example": "As far as methodology is concerned, the study follows established best practice." }
+    ]
+  },
+  {
+    "id": "awl27_consistent_11",
+    "word": "consistent",
+    "group": "AWL27",
+    "group_label": "Academic Word List – Sublist 27",
+    "pos": "adjective",
+    "translations": { "de": "konsistent / widerspruchsfrei / beständig" },
+    "examples": [
+      {
+        "en": "The results are consistent with the predictions derived from the theoretical model.",
+        "de": "Die Ergebnisse sind konsistent mit den Vorhersagen, die aus dem theoretischen Modell abgeleitet wurden."
+      },
+      {
+        "en": "A consistent approach to data coding is essential for ensuring inter-rater reliability.",
+        "de": "Ein konsistenter Ansatz bei der Datenkodierung ist für die Sicherstellung der Interrater-Reliabilität unerlässlich."
+      }
+    ],
+    "opposite": {
+      "en": "inconsistent",
+      "de": "inkonsistent / widersprüchlich / unbeständig",
+      "example_en": "Inconsistent application of selection criteria introduces bias into the sample.",
+      "example_de": "Eine inkonsistente Anwendung von Auswahlkriterien bringt Verzerrung in die Stichprobe."
+    },
+    "synonyms": [
+      { "word": "coherent", "de": "kohärent / schlüssig" },
+      { "word": "uniform", "de": "einheitlich / gleichmäßig" },
+      { "word": "stable", "de": "stabil / beständig" }
+    ],
+    "word_family": [
+      { "word": "consistency", "pos": "noun", "de": "Konsistenz / Beständigkeit / Widerspruchsfreiheit" },
+      { "word": "consistently", "pos": "adv", "de": "konsistent / durchgängig / beständig" },
+      { "word": "inconsistency", "pos": "noun", "de": "Inkonsistenz / Widerspruch" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "consistent with", "de": "konsistent mit / übereinstimmend mit", "example": "These findings are consistent with results reported in previous studies." }
+    ]
+  },
+  {
+    "id": "awl27_contribute_12",
+    "word": "contribute",
+    "group": "AWL27",
+    "group_label": "Academic Word List – Sublist 27",
+    "pos": "verb",
+    "translations": { "de": "beitragen / beisteuern / mitwirken" },
+    "examples": [
+      {
+        "en": "This study contributes to our understanding of how institutions respond to external shocks.",
+        "de": "Diese Studie trägt zu unserem Verständnis bei, wie Institutionen auf externe Schocks reagieren."
+      },
+      {
+        "en": "Multiple factors contribute to the gender pay gap, including occupational segregation and working hours.",
+        "de": "Mehrere Faktoren tragen zum geschlechtsspezifischen Lohngefälle bei, darunter berufliche Segregation und Arbeitszeiten."
+      }
+    ],
+    "opposite": {
+      "en": "detract",
+      "de": "beeinträchtigen / schmälern / abträglich sein",
+      "example_en": "Poorly explained methods detract from, rather than contribute to, the paper's overall credibility.",
+      "example_de": "Schlecht erklärte Methoden beeinträchtigen die Gesamtglaubwürdigkeit des Aufsatzes, anstatt sie zu stärken."
+    },
+    "synonyms": [
+      { "word": "add to", "de": "beitragen zu / hinzufügen" },
+      { "word": "enhance", "de": "verbessern / steigern" },
+      { "word": "further", "de": "voranbringen / fördern" }
+    ],
+    "word_family": [
+      { "word": "contribution", "pos": "noun", "de": "Beitrag / Leistung / Mitwirkung" },
+      { "word": "contributor", "pos": "noun", "de": "Beitragender / Mitwirkender" },
+      { "word": "contributory", "pos": "adj", "de": "beitragend / mitwirkend" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "contribute to", "de": "beitragen zu", "example": "Both genetic and environmental factors contribute to the development of the disorder." }
+    ]
+  },
+  {
+    "id": "awl27_effect_13",
+    "word": "effect",
+    "group": "AWL27",
+    "group_label": "Academic Word List – Sublist 27",
+    "pos": "noun",
+    "translations": { "de": "Effekt / Wirkung / Auswirkung" },
+    "examples": [
+      {
+        "en": "The study measures the effect of class size on student attainment in primary schools.",
+        "de": "Die Studie misst den Effekt der Klassengröße auf die Lernleistung in Grundschulen."
+      },
+      {
+        "en": "Long-term exposure to low levels of pollution can have cumulative effects on respiratory health.",
+        "de": "Langfristige Exposition gegenüber niedrigen Schadstoffwerten kann kumulative Auswirkungen auf die Atemwegsgesundheit haben."
+      }
+    ],
+    "opposite": {
+      "en": "cause",
+      "de": "Ursache / Auslöser",
+      "example_en": "Research often struggles to separate cause from effect when studying complex social phenomena.",
+      "example_de": "Forschung hat oft Schwierigkeiten, bei der Untersuchung komplexer sozialer Phänomene Ursache und Wirkung zu trennen."
+    },
+    "synonyms": [
+      { "word": "impact", "de": "Auswirkung / Einfluss" },
+      { "word": "consequence", "de": "Folge / Konsequenz" },
+      { "word": "result", "de": "Ergebnis / Folge" }
+    ],
+    "word_family": [
+      { "word": "effect", "pos": "verb", "de": "bewirken / herbeiführen" },
+      { "word": "effective", "pos": "adj", "de": "effektiv / wirksam" },
+      { "word": "effectiveness", "pos": "noun", "de": "Effektivität / Wirksamkeit" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "take effect", "de": "in Kraft treten / wirksam werden", "example": "The new regulations will take effect at the beginning of the next financial year." }
+    ]
+  },
+  {
+    "id": "awl27_effective_14",
+    "word": "effective",
+    "group": "AWL27",
+    "group_label": "Academic Word List – Sublist 27",
+    "pos": "adjective",
+    "translations": { "de": "effektiv / wirksam / wirkungsvoll" },
+    "examples": [
+      {
+        "en": "The most effective interventions are those tailored to the specific needs of the target population.",
+        "de": "Die wirksamsten Maßnahmen sind jene, die auf die spezifischen Bedürfnisse der Zielgruppe zugeschnitten sind."
+      },
+      {
+        "en": "Clear communication is an effective strategy for building trust between researchers and participants.",
+        "de": "Klare Kommunikation ist eine wirksame Strategie zum Aufbau von Vertrauen zwischen Forschern und Teilnehmern."
+      }
+    ],
+    "opposite": {
+      "en": "ineffective",
+      "de": "ineffektiv / unwirksam / wirkungslos",
+      "example_en": "Interventions that are effective in clinical trials may prove ineffective in real-world settings.",
+      "example_de": "Interventionen, die in klinischen Studien wirksam sind, können sich in der realen Welt als unwirksam erweisen."
+    },
+    "synonyms": [
+      { "word": "successful", "de": "erfolgreich / wirksam" },
+      { "word": "efficient", "de": "effizient / leistungsfähig" },
+      { "word": "productive", "de": "produktiv / wirkungsvoll" }
+    ],
+    "word_family": [
+      { "word": "effectively", "pos": "adv", "de": "effektiv / wirksam / faktisch" },
+      { "word": "effectiveness", "pos": "noun", "de": "Wirksamkeit / Effektivität" },
+      { "word": "ineffectiveness", "pos": "noun", "de": "Unwirksamkeit / Ineffektivität" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl27_examine_15",
+    "word": "examine",
+    "group": "AWL27",
+    "group_label": "Academic Word List – Sublist 27",
+    "pos": "verb",
+    "translations": { "de": "untersuchen / prüfen / analysieren" },
+    "examples": [
+      {
+        "en": "The paper examines the relationship between governance structures and economic performance.",
+        "de": "Der Aufsatz untersucht die Beziehung zwischen Governance-Strukturen und wirtschaftlicher Leistung."
+      },
+      {
+        "en": "The committee examined evidence from multiple sources before reaching its conclusions.",
+        "de": "Der Ausschuss prüfte Belege aus mehreren Quellen, bevor er seine Schlussfolgerungen zog."
+      }
+    ],
+    "opposite": {
+      "en": "overlook",
+      "de": "übersehen / nicht berücksichtigen",
+      "example_en": "Researchers who overlook contradictory data miss the opportunity to examine their assumptions.",
+      "example_de": "Forscher, die widersprüchliche Daten übersehen, verpassen die Gelegenheit, ihre Annahmen zu prüfen."
+    },
+    "synonyms": [
+      { "word": "investigate", "de": "untersuchen / erforschen" },
+      { "word": "scrutinise", "de": "genau prüfen / unter die Lupe nehmen" },
+      { "word": "analyse", "de": "analysieren / auswerten" }
+    ],
+    "word_family": [
+      { "word": "examination", "pos": "noun", "de": "Untersuchung / Prüfung / Analyse" },
+      { "word": "examiner", "pos": "noun", "de": "Prüfer / Gutachter" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl27_expand_16",
+    "word": "expand",
+    "group": "AWL27",
+    "group_label": "Academic Word List – Sublist 27",
+    "pos": "verb",
+    "translations": { "de": "erweitern / ausweiten / ausbauen" },
+    "examples": [
+      {
+        "en": "The researchers expanded the study to include participants from three additional countries.",
+        "de": "Die Forscher erweiterten die Studie um Teilnehmer aus drei weiteren Ländern."
+      },
+      {
+        "en": "As the field expands, new ethical challenges will inevitably arise.",
+        "de": "Mit der Ausweitung des Fachgebiets werden unweigerlich neue ethische Herausforderungen entstehen."
+      }
+    ],
+    "opposite": {
+      "en": "contract",
+      "de": "schrumpfen / einschränken / sich zusammenziehen",
+      "example_en": "As budgets contract, research teams must prioritise their most important objectives.",
+      "example_de": "Wenn Budgets schrumpfen, müssen Forschungsteams ihre wichtigsten Ziele priorisieren."
+    },
+    "synonyms": [
+      { "word": "extend", "de": "ausdehnen / erweitern" },
+      { "word": "broaden", "de": "ausweiten / erweitern" },
+      { "word": "enlarge", "de": "vergrößern / erweitern" }
+    ],
+    "word_family": [
+      { "word": "expansion", "pos": "noun", "de": "Erweiterung / Ausweitung / Expansion" },
+      { "word": "expansive", "pos": "adj", "de": "weitreichend / umfangreich" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "expand on", "de": "ausführen / näher eingehen auf", "example": "The author expands on this argument in the following chapter." }
+    ]
+  },
+  {
+    "id": "awl27_extend_17",
+    "word": "extend",
+    "group": "AWL27",
+    "group_label": "Academic Word List – Sublist 27",
+    "pos": "verb",
+    "translations": { "de": "ausdehnen / erweitern / ausweiten" },
+    "examples": [
+      {
+        "en": "The current findings extend previous research by including previously overlooked demographic groups.",
+        "de": "Die aktuellen Erkenntnisse erweitern bisherige Forschungen, indem sie bislang vernachlässigte demographische Gruppen einbeziehen."
+      },
+      {
+        "en": "The deadline was extended by two weeks to allow for additional data collection.",
+        "de": "Die Frist wurde um zwei Wochen verlängert, um zusätzliche Datenerhebungen zu ermöglichen."
+      }
+    ],
+    "opposite": {
+      "en": "restrict",
+      "de": "einschränken / begrenzen",
+      "example_en": "Rather than extend the scope of the study, the team decided to restrict it to urban settings.",
+      "example_de": "Anstatt den Umfang der Studie auszuweiten, beschloss das Team, sie auf städtische Umgebungen einzuschränken."
+    },
+    "synonyms": [
+      { "word": "expand", "de": "erweitern / ausweiten" },
+      { "word": "prolong", "de": "verlängern / ausdehnen" },
+      { "word": "broaden", "de": "ausweiten / verbreitern" }
+    ],
+    "word_family": [
+      { "word": "extension", "pos": "noun", "de": "Erweiterung / Ausdehnung / Verlängerung" },
+      { "word": "extensive", "pos": "adj", "de": "umfangreich / ausgedehnt" },
+      { "word": "extent", "pos": "noun", "de": "Ausmaß / Umfang" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl27_function_18",
+    "word": "function",
+    "group": "AWL27",
+    "group_label": "Academic Word List – Sublist 27",
+    "pos": "noun",
+    "translations": { "de": "Funktion / Rolle / Aufgabe" },
+    "examples": [
+      {
+        "en": "The primary function of the regulatory body is to ensure fair competition and consumer protection.",
+        "de": "Die primäre Funktion der Regulierungsbehörde besteht darin, fairen Wettbewerb und Verbraucherschutz zu gewährleisten."
+      },
+      {
+        "en": "Language serves a social function as well as a communicative one.",
+        "de": "Sprache erfüllt eine soziale Funktion ebenso wie eine kommunikative."
+      }
+    ],
+    "opposite": {
+      "en": "dysfunction",
+      "de": "Fehlfunktion / Dysfunktion",
+      "example_en": "When key institutions cease to fulfil their function, systemic dysfunction often follows.",
+      "example_de": "Wenn Schlüsselinstitutionen aufhören, ihre Funktion zu erfüllen, folgt häufig systemische Dysfunktion."
+    },
+    "synonyms": [
+      { "word": "role", "de": "Rolle / Aufgabe" },
+      { "word": "purpose", "de": "Zweck / Aufgabe" },
+      { "word": "task", "de": "Aufgabe / Funktion" }
+    ],
+    "word_family": [
+      { "word": "function", "pos": "verb", "de": "funktionieren / wirken" },
+      { "word": "functional", "pos": "adj", "de": "funktional / zweckdienlich" },
+      { "word": "dysfunctional", "pos": "adj", "de": "dysfunktional / nicht funktionierend" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl27_involve_19",
+    "word": "involve",
+    "group": "AWL27",
+    "group_label": "Academic Word List – Sublist 27",
+    "pos": "verb",
+    "translations": { "de": "beinhalten / einbeziehen / mit sich bringen" },
+    "examples": [
+      {
+        "en": "The study involves a mixed-methods design, combining surveys with ethnographic observation.",
+        "de": "Die Studie beinhaltet ein Mixed-Methods-Design, das Umfragen mit ethnographischer Beobachtung verbindet."
+      },
+      {
+        "en": "Effective community development must involve local people in the planning process from the outset.",
+        "de": "Eine effektive Gemeindeentwicklung muss von Anfang an lokale Menschen in den Planungsprozess einbeziehen."
+      }
+    ],
+    "opposite": {
+      "en": "exclude",
+      "de": "ausschließen / ausklammern",
+      "example_en": "A participatory approach deliberately involves stakeholders rather than excluding them from decision-making.",
+      "example_de": "Ein partizipativer Ansatz bezieht Interessengruppen bewusst ein, anstatt sie aus der Entscheidungsfindung auszuschließen."
+    },
+    "synonyms": [
+      { "word": "include", "de": "einschließen / beinhalten" },
+      { "word": "encompass", "de": "umfassen / einschließen" },
+      { "word": "entail", "de": "mit sich bringen / erfordern" }
+    ],
+    "word_family": [
+      { "word": "involvement", "pos": "noun", "de": "Beteiligung / Einbeziehung / Engagement" },
+      { "word": "involved", "pos": "adj", "de": "beteiligt / einbezogen / komplex" }
+    ],
+    "phrasal_verbs": []
+  },
+  {
+    "id": "awl27_issue_20",
+    "word": "issue",
+    "group": "AWL27",
+    "group_label": "Academic Word List – Sublist 27",
+    "pos": "noun",
+    "translations": { "de": "Thema / Problem / Frage / Angelegenheit" },
+    "examples": [
+      {
+        "en": "Ethical issues must be addressed in the research design before fieldwork begins.",
+        "de": "Ethische Fragen müssen im Forschungsdesign behandelt werden, bevor die Feldarbeit beginnt."
+      },
+      {
+        "en": "The paper raises several important issues that future research will need to address.",
+        "de": "Der Aufsatz wirft mehrere wichtige Fragen auf, die künftige Forschungen angehen müssen."
+      }
+    ],
+    "opposite": {
+      "en": "resolution",
+      "de": "Lösung / Ergebnis / Klärung",
+      "example_en": "The goal of applied research is not merely to identify issues but to move towards their resolution.",
+      "example_de": "Das Ziel angewandter Forschung besteht nicht nur darin, Probleme zu identifizieren, sondern zu ihrer Lösung beizutragen."
+    },
+    "synonyms": [
+      { "word": "matter", "de": "Angelegenheit / Thema" },
+      { "word": "concern", "de": "Anliegen / Thema" },
+      { "word": "question", "de": "Frage / Problem" }
+    ],
+    "word_family": [
+      { "word": "issue", "pos": "verb", "de": "herausgeben / ausstellen / ergehen" }
+    ],
+    "phrasal_verbs": [
+      { "phrase": "raise an issue", "de": "ein Problem aufwerfen / ansprechen", "example": "The study raises important issues about the generalisability of findings across cultural contexts." }
+    ]
+  }
+]
